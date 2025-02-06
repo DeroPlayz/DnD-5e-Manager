@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class CharacterClass {
     private String Name;
 
-    //Ability Score Bonuses
-        private int StrengthBonus;
-        private int DexterityBonus;
-        private int ConstitutionBonus;
-        private int IntelligenceBonus;
-        private int WisdomBonus;
-        private int CharismaBonus;
+    //Ability Score SavingThrowProfes
+        private boolean StrengthSavingThrowProf;
+        private boolean DexteritySavingThrowProf;
+        private boolean ConstitutionSavingThrowProf;
+        private boolean IntelligenceSavingThrowProf;
+        private boolean WisdomSavingThrowProf;
+        private boolean CharismaSavingThrowProf;
 
     //Proficiencies
         private ArrayList<String> SavingThrowProficiencies;
@@ -31,12 +31,12 @@ public class CharacterClass {
 
     public CharacterClass(
             String Name,
-            int StrengthBonus ,
-            int DexterityBonus,
-            int ConstitutionBonus,
-            int IntelligenceBonus,
-            int WisdomBonus,
-            int CharismaBonus,
+            boolean StrengthSavingThrowProf,
+            boolean DexteritySavingThrowProf,
+            boolean ConstitutionSavingThrowProf,
+            boolean IntelligenceSavingThrowProf,
+            boolean WisdomSavingThrowProf,
+            boolean CharismaSavingThrowProf,
             ArrayList<String> SavingThrowProficiencies,
             ArrayList<String> SkillProficiencies,
             ArrayList<String> ToolProficiencies,
@@ -48,12 +48,12 @@ public class CharacterClass {
             ArrayList<String> ClassFeatures){
 
             this.Name = Name;
-            this.StrengthBonus = StrengthBonus;
-            this.DexterityBonus = DexterityBonus;
-            this.ConstitutionBonus = ConstitutionBonus;
-            this.IntelligenceBonus = IntelligenceBonus;
-            this.WisdomBonus = WisdomBonus;
-            this.CharismaBonus = CharismaBonus;
+            this.StrengthSavingThrowProf = StrengthSavingThrowProf;
+            this.DexteritySavingThrowProf = DexteritySavingThrowProf;
+            this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;
+            this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
+            this.WisdomSavingThrowProf = WisdomSavingThrowProf;
+            this.CharismaSavingThrowProf = CharismaSavingThrowProf;
             this.SavingThrowProficiencies = SavingThrowProficiencies;
             this.SkillProficiencies = SkillProficiencies;
             this.ToolProficiencies = ToolProficiencies;
@@ -65,5 +65,5 @@ public class CharacterClass {
             this.ClassFeatures = ClassFeatures;
     }
 
-    public static final Artificer
+//    public static final Artificer("Artificer", false, false, true, true, false, false);
 }
