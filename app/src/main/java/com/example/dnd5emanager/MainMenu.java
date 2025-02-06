@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.databinding.FragmentFirstBinding;
+import com.example.dnd5emanager.databinding.MainMenuBinding;
 
 public class MainMenu extends Fragment {
 
-    private FragmentFirstBinding binding;
+    private MainMenuBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class MainMenu extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentFirstBinding.inflate(inflater, container, false);
+        binding = MainMenuBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
