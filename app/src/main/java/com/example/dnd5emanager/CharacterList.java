@@ -9,11 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.databinding.CharacterListBinding;
 import com.example.dnd5emanager.databinding.FragmentSecondBinding;
 
 public class CharacterList extends Fragment {
 
-    private FragmentSecondBinding binding;
+    private CharacterListBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +22,7 @@ public class CharacterList extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentSecondBinding.inflate(inflater, container, false);
+        binding = CharacterListBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
