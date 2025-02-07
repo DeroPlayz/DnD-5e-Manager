@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.databinding.CharacterListBinding;
-import com.example.dnd5emanager.databinding.FragmentSecondBinding;
 
 public class CharacterList extends Fragment {
 
