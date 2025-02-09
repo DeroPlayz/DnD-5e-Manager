@@ -36,7 +36,7 @@ public class CharacterClass {
     //Spellcasting Malarky
         private String SpellcastingAbility;
 
-    private ArrayList<String> ClassFeatures;
+    private ArrayList<Feature> ClassFeatures;
 
     public CharacterClass(
             String Name,
@@ -46,14 +46,13 @@ public class CharacterClass {
             boolean IntelligenceSavingThrowProf,
             boolean WisdomSavingThrowProf,
             boolean CharismaSavingThrowProf,
-            ArrayList<String> SavingThrowProficiencies,
             ArrayList<String> SkillProficiencyOptions,
             ArrayList<String> WeaponProficiencies,
             ArrayList<String> ToolProficiencies,
             ArrayList<String> ArmorProficiencies,
             int AttacksPerAction,
             String SpellcastingAbility,
-            ArrayList<String> ClassFeatures){
+            ArrayList<Feature> ClassFeatures){
 
             this.Name = Name;
             this.StrengthSavingThrowProf = StrengthSavingThrowProf;
@@ -62,7 +61,6 @@ public class CharacterClass {
             this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
             this.WisdomSavingThrowProf = WisdomSavingThrowProf;
             this.CharismaSavingThrowProf = CharismaSavingThrowProf;
-            this.SavingThrowProficiencies = SavingThrowProficiencies;
             this.SkillProficiencyOptions = SkillProficiencyOptions;
             this.ToolProficiencies = ToolProficiencies;
             this.ArmorProficiencies = ArmorProficiencies;
@@ -75,7 +73,6 @@ public class CharacterClass {
     private static final ArrayList<String> ArtificerSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
     private static final ArrayList<String> ArtificerSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
     private static final ArrayList<String> ArtificerSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-    private static final ArrayList<String> ArtificerClassFeatures = new ArrayList<String>(List.of("Simple"));
 
-    public static final Artificer("Artificer", false, false, true, true, false, false, ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies, ArtificerSelectableArmorProficiencies, 1, "Intelligence", );
+    public static final CharacterClass Artificer = new CharacterClass("Artificer", false, false, true, true, false, false, ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies, ArtificerSelectableArmorProficiencies, 1, "Intelligence", Feature.ArtificerFeatures);
 }
