@@ -7,12 +7,14 @@ public class Character {
     private String Name;
     private int HP;
 
+    //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
     private int Strength;
     private int StrengthBonus;
         private int Athletics;
             public void setAthletics(int Athletics){this.Athletics = Athletics;}
             public int getAthletics(){return Athletics;}
-    
+
+    //Dexterity is used for maneuvering or other more coordination-based actions.
     private int Dexterity;
     private int DexterityBonus;
         private int Acrobatics;
@@ -24,9 +26,13 @@ public class Character {
         private int Stealth;
             public void setStealth(int Stealth){this.Stealth = Stealth;}
             public int getStealth(){return Stealth;}
+
+    //Constitution determines your ability to take a blow or deal with anything else without faltering; playing an in-game drinking game and trying not to pass out?
+    //Roll Constitution! Trying to maintain a spell's effect every turn? Roll Constitution!
     private int Constitution;
     private int ConstitutionBonus;
 
+    //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
     private int Intelligence;
     private int IntelligenceBonus;
         private int Arcana;
@@ -44,7 +50,8 @@ public class Character {
         private int Religion;
             public void setReligion(int Religion){this.Religion = Religion;}
             public int getReligion(){return Religion;}
-    
+
+    //Wisdom is common sense or instinct, or street smart plainly put.
     private int Wisdom;
     private int WisdomBonus;
         private int AnimalHandling;
@@ -62,7 +69,9 @@ public class Character {
         private int Survival;
             public void setSurvival(int Survival){this.Survival = Survival;}
             public int getSurvival(){return Survival;}
-    
+
+    //Charisma is exactly what you think; how seriously people take your self-image; how charming you are, how threatening you are,
+    //how believable you are when you lie, etc.
     private int Charisma;
     private int CharismaBonus;
         private int Deception;
@@ -100,6 +109,8 @@ public class Character {
         //The same applies to values below 10. If you have a Constitution score of 8, 8-10 is -2, -2 divided by 2 is -1. So for any Constitution roll you make
         this.Constitution = Constitution;
         ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
+        //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
+        //the equation below gets the initial number from your first class, then adds your Constitution bonus.
         HP = Classes.firstKey().getInitialHP() + ConstitutionBonus;
 
         this.Intelligence = Intelligence;
