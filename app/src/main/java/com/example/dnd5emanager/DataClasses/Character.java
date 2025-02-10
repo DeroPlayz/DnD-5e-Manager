@@ -1,15 +1,20 @@
 package com.example.dnd5emanager.DataClasses;
 
+import java.util.Map;
+import java.util.SortedMap;
+
 public class Character {
     private String Name;
     private int HP;
 
     private int Strength;
+    private int StrengthBonus;
         private int Athletics;
             public void setAthletics(int Athletics){this.Athletics = Athletics;}
             public int getAthletics(){return Athletics;}
     
     private int Dexterity;
+    private int DexterityBonus;
         private int Acrobatics;
             public void setAcrobatics(int Acrobatics){this.Acrobatics = Acrobatics;}
             public int getAcrobatics(){return Acrobatics;}
@@ -20,8 +25,10 @@ public class Character {
             public void setStealth(int Stealth){this.Stealth = Stealth;}
             public int getStealth(){return Stealth;}
     private int Constitution;
-    
+    private int ConstitutionBonus;
+
     private int Intelligence;
+    private int IntelligenceBonus;
         private int Arcana;
             public void setArcana(int Arcana){this.Arcana = Arcana;}
             public int getArcana(){return Arcana;}
@@ -39,6 +46,7 @@ public class Character {
             public int getReligion(){return Religion;}
     
     private int Wisdom;
+    private int WisdomBonus;
         private int AnimalHandling;
             public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}
             public int getAnimalHandling(){return AnimalHandling;}
@@ -56,6 +64,7 @@ public class Character {
             public int getSurvival(){return Survival;}
     
     private int Charisma;
+    private int CharismaBonus;
         private int Deception;
             public void setDeception(int Deception){this.Deception = Deception;}
             public int getDeception(){return Deception;}
@@ -70,12 +79,39 @@ public class Character {
             public int getPersuasion(){return Persuasion;}
 
     private Race Race;
-    private Map<CharacterClass, Integer> Classes;
+    private SortedMap<CharacterClass, Integer> Classes;
     private int ArmorClass;
 
-    public Character(String Name, Race Race, CharacterClass Class, int Level){
+
+    //Builds the character (duh).
+    public Character(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
         this.Name = Name;
         this.Race = Race;
+        this.Strength = Strength;
+        //Every ability has a numerical score, and every character has a score for each ability, and that dictates the bonus you get when you roll this stat.
+        //As an example, say you have a Strength score of 10. After this equation, you end up with a bonus of 0, meaning you don't add or subtract anything from your roll.
+        StrengthBonus = (int) Math.nextDown(((float) (Strength - 10) /2));
+
+        //Say you have a Dexterity score of 15. 15-10 = 5, 5/2 = 2.5, and 2.5 rounded down is 2. Therefore, any time you roll your Dexterity stat, you add 2.
+        //So if you rolled an 8, the actual value would be 10.
+        this.Dexterity = Dexterity;
+        DexterityBonus = (int) Math.nextDown(((float) (Dexterity - 10) /2));
+
+        //The same applies to values below 10. If you have a Constitution score of 8, 8-10 is -2, -2 divided by 2 is -1. So for any Constitution roll you make
+        this.Constitution = Constitution;
+        ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
+        HP = Classes.firstKey().getInitialHP() + ConstitutionBonus;
+
+        this.Intelligence = Intelligence;
+        IntelligenceBonus = (int) Math.nextDown(((float) (Intelligence - 10) /2));
+
+        this.Wisdom = Wisdom;
+        WisdomBonus = (int) Math.nextDown(((float) (Wisdom- 10) /2));
+
+        this.Charisma = Charisma;
+        CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
+
         Classes.put(Class, Level);
+
     }
 }
