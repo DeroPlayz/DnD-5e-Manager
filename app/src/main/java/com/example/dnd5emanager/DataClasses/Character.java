@@ -4,15 +4,13 @@ import java.util.Map;
 import java.util.SortedMap;
 
 public class Character {
-    private String Name;
-    private int HP;
+    private String Name;    public void setName(String Name){this.Name = Name;} public String getName(){return Name;}
+    private int HP;         public void setHP(int HP){this.HP = HP;}            public int getHP(){return HP;}
 
     //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
     private int Strength;
     private int StrengthBonus;
-        private int Athletics;
-            public void setAthletics(int Athletics){this.Athletics = Athletics;}
-            public int getAthletics(){return Athletics;}
+        private int Athletics;  public void setAthletics(int Athletics){this.Athletics = Athletics;}    public int getAthletics(){return Athletics;}
 
     //Dexterity is used for maneuvering or other more coordination-based actions.
     private int Dexterity;
@@ -27,7 +25,8 @@ public class Character {
             public void setStealth(int Stealth){this.Stealth = Stealth;}
             public int getStealth(){return Stealth;}
 
-    //Constitution determines your ability to take a blow or deal with anything else without faltering; playing an in-game drinking game and trying not to pass out?
+    //Constitution determines your ability to take a blow or deal with anything else without
+    //faltering; playing an in-game drinking game and trying not to pass out?
     //Roll Constitution! Trying to maintain a spell's effect every turn? Roll Constitution!
     private int Constitution;
     private int ConstitutionBonus;
@@ -35,60 +34,39 @@ public class Character {
     //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
     private int Intelligence;
     private int IntelligenceBonus;
-        private int Arcana;
-            public void setArcana(int Arcana){this.Arcana = Arcana;}
-            public int getArcana(){return Arcana;}
-        private int History;
-            public void setHistory(int History){this.History = History;}
-            public int getHistory(){return History;}
-        private int Investigation;
-            public void setInvestigation(int Investigation){this.Investigation = Investigation;}
-            public int getInvestigation(){return Investigation;}
-        private int Nature;
-            public void setNature(int Nature){this.Nature = Nature;}
-            public int getNature(){return Nature;}
-        private int Religion;
-            public void setReligion(int Religion){this.Religion = Religion;}
-            public int getReligion(){return Religion;}
+        private int Arcana;         public void setArcana(int Arcana){this.Arcana = Arcana;}                                public int getArcana(){return Arcana;}
+        private int History;        public void setHistory(int History){this.History = History;}                            public int getHistory(){return History;}
+        private int Investigation;  public void setInvestigation(int Investigation){this.Investigation = Investigation;}    public int getInvestigation(){return Investigation;}
+        private int Nature;         public void setNature(int Nature){this.Nature = Nature;}                                public int getNature(){return Nature;}
+        private int Religion;       public void setReligion(int Religion){this.Religion = Religion;}                        public int getReligion(){return Religion;}
 
     //Wisdom is common sense or instinct, or street smart plainly put.
     private int Wisdom;
     private int WisdomBonus;
-        private int AnimalHandling;
-            public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}
-            public int getAnimalHandling(){return AnimalHandling;}
-        private int Insight;
-            public void setInsight(int Insight){this.Insight = Insight;}
-            public int getInsight(){return Insight;}
-        private int Medicine;
-            public void setMedicine(int Medicine){this.Medicine = Medicine;}
-            public int getMedicine(){return Medicine;}
-        private int Perception;
-            public void setPerception(int Perception){this.Perception = Perception;}
-            public int getPerception(){return Perception;}
-        private int Survival;
-            public void setSurvival(int Survival){this.Survival = Survival;}
-            public int getSurvival(){return Survival;}
+        private int AnimalHandling; public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}    public int getAnimalHandling(){return AnimalHandling;}
+        private int Insight;        public void setInsight(int Insight){this.Insight = Insight;}                                public int getInsight(){return Insight;}
+        private int Medicine;       public void setMedicine(int Medicine){this.Medicine = Medicine;}                            public int getMedicine(){return Medicine;}
+        private int Perception;     public void setPerception(int Perception){this.Perception = Perception;}                    public int getPerception(){return Perception;}
+        private int Survival;       public void setSurvival(int Survival){this.Survival = Survival;}                            public int getSurvival(){return Survival;}
 
-    //Charisma is exactly what you think; how seriously people take your self-image; how charming you are, how threatening you are,
+    //Charisma is exactly what you think; how seriously people take your self-image;
+    //how charming you are, how threatening you are,
     //how believable you are when you lie, etc.
     private int Charisma;
     private int CharismaBonus;
-        private int Deception;
-            public void setDeception(int Deception){this.Deception = Deception;}
-            public int getDeception(){return Deception;}
-        private int Intimidation;
-            public void setIntimidation(int Intimidation){this.Intimidation = Intimidation;}
-            public int getIntimidation(){return Intimidation;}
-        private int Performance;
-            public void setPerformance(int Performance){this.Performance = Performance;}
-            public int getPerformance(){return Performance;}
-        private int Persuasion;
-            public void setPersuasion(int Persuasion){this.Persuasion = Persuasion;}
-            public int getPersuasion(){return Persuasion;}
+        private int Deception;      public void setDeception(int Deception){this.Deception = Deception;}                public int getDeception(){return Deception;}
+        private int Intimidation;   public void setIntimidation(int Intimidation){this.Intimidation = Intimidation;}    public int getIntimidation(){return Intimidation;}
+        private int Performance;    public void setPerformance(int Performance){this.Performance = Performance;}        public int getPerformance(){return Performance;}
+        private int Persuasion;     public void setPersuasion(int Persuasion){this.Persuasion = Persuasion;}            public int getPersuasion(){return Persuasion;}
 
+    //Various races have different properties.
     private Race Race;
+
+    //Stores character classes as well as their levels, since, ya know, you can multiclass.
     private SortedMap<CharacterClass, Integer> Classes;
+
+    //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
+    //If your roll equals your targets Armor Class or is HIGHER than it, you hit.
     private int ArmorClass;
 
 
@@ -114,6 +92,9 @@ public class Character {
         HP = Classes.firstKey().getInitialHP() + ConstitutionBonus;
 
         this.Intelligence = Intelligence;
+        //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.
+        //Any skill under that ability gets that bonus applied. So if your Intelligence bonus is 3,
+        //then any time you roll a Arcana, History, Investigation, Nature, or Religion check, you get that +3 added to your roll.
         IntelligenceBonus = (int) Math.nextDown(((float) (Intelligence - 10) /2));
 
         this.Wisdom = Wisdom;

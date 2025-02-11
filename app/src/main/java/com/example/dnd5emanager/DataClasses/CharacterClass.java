@@ -44,36 +44,36 @@ public class CharacterClass {
     private ArrayList<Feature> ClassFeatures;
 
     public CharacterClass(
-            String Name,
-            boolean StrengthSavingThrowProf,
-            boolean DexteritySavingThrowProf,
-            boolean ConstitutionSavingThrowProf,
-            boolean IntelligenceSavingThrowProf,
-            boolean WisdomSavingThrowProf,
-            boolean CharismaSavingThrowProf,
-            ArrayList<String> SkillProficiencyOptions,
-            ArrayList<String> WeaponProficiencies,
-            ArrayList<String> ToolProficiencies,
-            ArrayList<String> ArmorProficiencies,
-            int AttacksPerAction,
-            String SpellcastingAbility,
-            ArrayList<Feature> ClassFeatures,
-            int InitialHP){
+        String Name,
+        boolean StrengthSavingThrowProf,
+        boolean DexteritySavingThrowProf,
+        boolean ConstitutionSavingThrowProf,
+        boolean IntelligenceSavingThrowProf,
+        boolean WisdomSavingThrowProf,
+        boolean CharismaSavingThrowProf,
+        ArrayList<String> SkillProficiencyOptions,
+        ArrayList<String> WeaponProficiencies,
+        ArrayList<String> ToolProficiencies,
+        ArrayList<String> ArmorProficiencies,
+        int AttacksPerAction,
+        String SpellcastingAbility,
+        ArrayList<Feature> ClassFeatures,
+        int InitialHP){
 
-            this.Name = Name;
-            this.StrengthSavingThrowProf = StrengthSavingThrowProf;
-            this.DexteritySavingThrowProf = DexteritySavingThrowProf;
-            this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;
-            this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
-            this.WisdomSavingThrowProf = WisdomSavingThrowProf;
-            this.CharismaSavingThrowProf = CharismaSavingThrowProf;
-            this.SkillProficiencyOptions = SkillProficiencyOptions;
-            this.ToolProficiencies = ToolProficiencies;
-            this.ArmorProficiencies = ArmorProficiencies;
-            this.AttacksPerAction = AttacksPerAction;
-            this.SpellcastingAbility = SpellcastingAbility;
-            this.ClassFeatures = ClassFeatures;
-            this.InitialHP = InitialHP;
+        this.Name = Name;
+        this.StrengthSavingThrowProf = StrengthSavingThrowProf;
+        this.DexteritySavingThrowProf = DexteritySavingThrowProf;
+        this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;
+        this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
+        this.WisdomSavingThrowProf = WisdomSavingThrowProf;
+        this.CharismaSavingThrowProf = CharismaSavingThrowProf;
+        this.SkillProficiencyOptions = SkillProficiencyOptions;
+        this.ToolProficiencies = ToolProficiencies;
+        this.ArmorProficiencies = ArmorProficiencies;
+        this.AttacksPerAction = AttacksPerAction;
+        this.SpellcastingAbility = SpellcastingAbility;
+        this.ClassFeatures = ClassFeatures;
+        this.InitialHP = InitialHP;
     }
 
     public static final CharacterClass Artificer = new CharacterClass("Artificer", false, false, true, true, false, false, ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies, ArtificerSelectableArmorProficiencies, 1, Intelligence, Feature.ArtificerFeatures, 8);
