@@ -47,7 +47,9 @@ public class CharacterClass {
         private ArrayList<String> ArmorProficiencies;
         private int ArmorProfChoiceCount;
 
-    private int InitialHP; public void setInitialHP(int InitialHP){this.InitialHP = InitialHP;} public int getInitialHP(){return InitialHP;}
+    private int InitialHP;
+        public void setInitialHP(int InitialHP){this.InitialHP = InitialHP;}
+        public int getInitialHP(){return InitialHP;}
     //Before adding Constitution modifier.
 
 
