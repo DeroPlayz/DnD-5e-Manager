@@ -10,10 +10,10 @@
     <string name="welcome_message">
        Welcome to DND e5 manger!
         This app is in early development and this text is a placeholder.
-        This application is being developed by Alexis Ambriz and Matthew Ahwal :)
+
 
     </string>
     <string name ="second_message">
-        this is the second veiw, this will be come the character section in the future.
+        this is the second view, this will be come the character section in the future.
     </string>
 </resources>
