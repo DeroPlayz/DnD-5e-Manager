@@ -1,11 +1,12 @@
 package com.example.dnd5emanager.DataClasses;
 
-import java.util.SortedMap;
+import java.util.ArrayList;
 
 public class PlayerCharacter {
     private String Name;
         public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
+
     private int HP;
         public void setHP(int HP){this.HP = HP;}
         public int getHP(){return HP;}
@@ -66,6 +67,34 @@ public class PlayerCharacter {
     private Race Race;
 
     //Stores character classes as well as their levels, since, ya know, you can multiclass.
+    ArrayList<ClassAndLevel> Classes = new ArrayList<ClassAndLevel>();
+    int Level;
+        int XP;
+            public void setXP(int XP){this.XP = XP;}
+            public void addXP(int XPDiff){XP += XPDiff;}
+            public void removeXP(int XPDiff){XP -= XPDiff;}
+            public int getXP(){return XP;}
+//        public void levelUp(){
+//            if(Level == 1 && XP >= 300){}
+//            if(Level == 2 && XP >= 900){}
+//            if(Level == 3 && XP >= 2700){}
+//            if(Level == 4 && XP >= 6500){}
+//            if(Level == 5 && XP >= 14000){}
+//            if(Level == 6 && XP >= 23000){}
+//            if(Level == 7 && XP >= 34000){}
+//            if(Level == 8 && XP >= 48000){}
+//            if(Level == 9 && XP >= 64000){}
+//            if(Level == 10 && XP >= 85000){}
+//            if(Level == 11 && XP >= 100000){}
+//            if(Level == 12 && XP >= 120000){}
+//            if(Level == 13 && XP >= 140000){}
+//            if(Level == 14 && XP >= 165000){}
+//            if(Level == 15 && XP >= 195000){}
+//            if(Level == 16 && XP >= 225000){}
+//            if(Level == 17 && XP >= 265000){}
+//            if(Level == 18 && XP >= 305000){}
+//            if(Level == 19 && XP >= 355000){}
+//        }
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.
@@ -77,6 +106,9 @@ public class PlayerCharacter {
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
         this.Name = Name;
         this.Race = Race;
+
+        Classes.add(new ClassAndLevel(Class, Level));
+
         this.Strength = Strength;
         //Every ability has a numerical score, and every character has a score for each ability, and that dictates the bonus you get when you roll this stat.
         //As an example, say you have a Strength score of 10. After this equation, you end up with a bonus of 0, meaning you don't add or subtract anything from your roll.
@@ -92,7 +124,7 @@ public class PlayerCharacter {
         ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        //HP = Classes.firstKey().getInitialHP() + ConstitutionBonus;
+        HP = Classes.get(0).Class.getInitialHP() + ConstitutionBonus;
 
         this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.
@@ -101,11 +133,9 @@ public class PlayerCharacter {
         IntelligenceBonus = (int) Math.nextDown(((float) (Intelligence - 10) /2));
 
         this.Wisdom = Wisdom;
-        WisdomBonus = (int) Math.nextDown(((float) (Wisdom- 10) /2));
+        WisdomBonus = (int) Math.nextDown(((float) (Wisdom - 10) /2));
 
         this.Charisma = Charisma;
         CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
-
-        //Classes.put(Class, Level);
     }
 }
