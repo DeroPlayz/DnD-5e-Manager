@@ -10,17 +10,32 @@ import java.util.Map;
 
 public class CharacterClass {
     private String Name;
+        public void setName(String Name){this.Name = Name;}
+        public String getName(){return Name;}
 
-    //Ability Score
-        private boolean StrengthSavingThrowProf;
-        private boolean DexteritySavingThrowProf;
-        private boolean ConstitutionSavingThrowProf;
-        private boolean IntelligenceSavingThrowProf;
-        private boolean WisdomSavingThrowProf;
-        private boolean CharismaSavingThrowProf;
-
+    private int Level;
+        public void setLevel(int Level){this.Level = Level;}
+        public int getLevel(){return Level;}
     //Proficiencies
-        private ArrayList<String> SavingThrowProficiencies;
+        private boolean StrengthSavingThrowProf;
+            public void setStrengthSavingThrowProf(boolean StrengthSavingThrowProf){this.StrengthSavingThrowProf = StrengthSavingThrowProf;}
+            public boolean getStrengthSavingThrowProf(){return StrengthSavingThrowProf;}
+        private boolean DexteritySavingThrowProf;
+            public void setDexteritySavingThrowProf(boolean DexteritySavingThrowProf){this.DexteritySavingThrowProf = DexteritySavingThrowProf;}
+            public boolean getDexteritySavingThrowProf(){return DexteritySavingThrowProf;}
+        private boolean ConstitutionSavingThrowProf;
+            public void setConstitutionSavingThrowProf(boolean ConstitutionSavingThrowProf){this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;}
+            public boolean getConstitutionSavingThrowProf(){return ConstitutionSavingThrowProf;}
+        private boolean IntelligenceSavingThrowProf;
+            public void setIntelligenceSavingThrowProf(boolean IntelligenceSavingThrowProf){this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;}
+            public boolean getIntelligenceSavingThrowProf(){return IntelligenceSavingThrowProf;}
+        private boolean WisdomSavingThrowProf;
+            public void setWisdomSavingThrowProf(boolean WisdomSavingThrowProf){this.WisdomSavingThrowProf = WisdomSavingThrowProf;}
+            public boolean getWisdomSavingThrowProf(){return WisdomSavingThrowProf;}
+        private boolean CharismaSavingThrowProf;
+            public void setCharismaSavingThrowProf(boolean CharismaSavingThrowProf){this.CharismaSavingThrowProf = CharismaSavingThrowProf;}
+            public boolean getCharismaSavingThrowProf(){return CharismaSavingThrowProf;}
+
         private ArrayList<String> SkillProficiencyOptions;
         private int SkillProfChoiceCount;
 
