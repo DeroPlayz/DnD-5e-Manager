@@ -57,16 +57,16 @@ public class Feature {
             "Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.");
     public static final ArrayList<Feature> ArtificerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
 
-    public static final ArrayList<Feature> BarbarianFeatures;
-    public static final ArrayList<Feature> BardFeatures;
-    public static final ArrayList<Feature> ClericFeatures;
-    public static final ArrayList<Feature> DruidFeatures;
-    public static final ArrayList<Feature> FighterFeatures;
-    public static final ArrayList<Feature> MonkFeatures;
-    public static final ArrayList<Feature> PaladinFeatures;
-    public static final ArrayList<Feature> RangerFeatures;
-    public static final ArrayList<Feature> RogueFeatures;
-    public static final ArrayList<Feature> SorcererFeatures;
-    public static final ArrayList<Feature> WarlockFeatures;
-    public static final ArrayList<Feature> WizardFeatures;
+    public static final ArrayList<Feature> BarbarianFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> BardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> ClericFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> DruidFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> FighterFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> MonkFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> PaladinFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> RangerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> RogueFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> SorcererFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> WarlockFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public static final ArrayList<Feature> WizardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
 }
