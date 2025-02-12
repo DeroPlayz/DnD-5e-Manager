@@ -6,6 +6,7 @@
     <string name="second_fragment_label">Character</string>
     <string name="Character">Character</string>
     <string name="back">Back</string>
+    <string name="third_fragment_label">character sheet </string>
 
     <string name="welcome_message">
        Welcome to DND e5 manger!
