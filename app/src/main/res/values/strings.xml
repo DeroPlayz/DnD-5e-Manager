@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DnD 5e Manager</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Main Menu</string>
+    <string name="second_fragment_label">Character</string>
+    <string name="Character">Character</string>
+    <string name="back">Back</string>
+
+    <string name="welcome_message">
+       Welcome to DND e5 manger!
+        This app is in early development and this text is a placeholder.
+
+
+    </string>
+    <string name ="second_message">
+        this is the second view, this will be come the character section in the future.
+    </string>
+</resources>
