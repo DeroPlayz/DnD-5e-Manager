@@ -70,41 +70,48 @@ public class PlayerCharacter {
 
     //Stores character classes as well as their levels, since, ya know, you can multiclass.
     ArrayList<ClassAndLevel> Classes = new ArrayList<ClassAndLevel>();
-    int Level;
+    int Level = 0;
+        public int updLevel(){
+            for(int i = 0; i < Classes.size(); i++){
+                Level += Classes.get(i).getLevel();
+            }
+            return Level;
+        }
         int XP;
-            public void setXP(int XP){this.XP = XP; levelUp();}
-            public void addXP(int XPDiff){XP += XPDiff; levelUp();}
-            public void removeXP(int XPDiff){XP -= XPDiff; levelUp();}
+            public void setXP(int XP){this.XP = XP; canLevelUp();}
+            public void addXP(int XPDiff){XP += XPDiff; canLevelUp();}
+            public void removeXP(int XPDiff){XP -= XPDiff; canLevelUp();}
             public int getXP(){return XP;}
 
-        public boolean canLevelUp(){
-            if(Level == 1 && XP >= 300){return true;}
-            else if(Level == 2 && XP >= 900){return true;}
-            else if(Level == 3 && XP >= 2700){return true;}
-            else if(Level == 4 && XP >= 6500){return true;}
-            else if(Level == 5 && XP >= 14000){return true;}
-            else if(Level == 6 && XP >= 23000){return true;}
-            else if(Level == 7 && XP >= 34000){return true;}
-            else if(Level == 8 && XP >= 48000){return true;}
-            else if(Level == 9 && XP >= 64000){return true;}
-            else if(Level == 10 && XP >= 85000){return true;}
-            else if(Level == 11 && XP >= 100000){return true;}
-            else if(Level == 12 && XP >= 120000){return true;}
-            else if(Level == 13 && XP >= 140000){return true;}
-            else if(Level == 14 && XP >= 165000){return true;}
-            else if(Level == 15 && XP >= 195000){return true;}
-            else if(Level == 16 && XP >= 225000){return true;}
-            else if(Level == 17 && XP >= 265000){return true;}
-            else if(Level == 18 && XP >= 305000){return true;}
-            else if(Level == 19 && XP >= 355000){return true;}
-            else{return false;}
+        public void canLevelUp(){
+            if(Level == 1 && XP >= 300){levelUp();}
+            else if(Level == 2 && XP >= 900){levelUp();}
+            else if(Level == 3 && XP >= 2700){levelUp();}
+            else if(Level == 4 && XP >= 6500){levelUp();}
+            else if(Level == 5 && XP >= 14000){levelUp();}
+            else if(Level == 6 && XP >= 23000){levelUp();}
+            else if(Level == 7 && XP >= 34000){levelUp();}
+            else if(Level == 8 && XP >= 48000){levelUp();}
+            else if(Level == 9 && XP >= 64000){levelUp();}
+            else if(Level == 10 && XP >= 85000){levelUp();}
+            else if(Level == 11 && XP >= 100000){levelUp();}
+            else if(Level == 12 && XP >= 120000){levelUp();}
+            else if(Level == 13 && XP >= 140000){levelUp();}
+            else if(Level == 14 && XP >= 165000){levelUp();}
+            else if(Level == 15 && XP >= 195000){levelUp();}
+            else if(Level == 16 && XP >= 225000){levelUp();}
+            else if(Level == 17 && XP >= 265000){levelUp();}
+            else if(Level == 18 && XP >= 305000){levelUp();}
+            else if(Level == 19 && XP >= 355000){levelUp();}
         }
-        public void levelUp(){
+        public void levelUp(/*int chosenClass*/){
             int chosenClass = 0;
             Classes.get(chosenClass).levelUp();
             for(int i = 0; i < Classes.get(chosenClass).Class.getFeatures().size(); i++){
-                if(Classes.get(chosenClass).Class.getFeatures().get(i).getLevel() <= Classes.get(chosenClass).Class.getLevel())
+                if(Classes.get(chosenClass).Class.getFeatures().get(i).getLevel() <= Classes.get(chosenClass).Class.getLevel() &&
+                !PlayerFeatures.contains(Classes.get(chosenClass).Class.getFeatures().get(i))) {
                     PlayerFeatures.add(Classes.get(chosenClass).Class.getFeatures().get(i));
+                }
             }
 
 
