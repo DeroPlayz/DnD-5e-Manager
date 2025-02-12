@@ -10,5 +10,9 @@ public class ClassAndLevel {
         this.Level = Level;
     }
 
+    public void levelUp(){
+        Level++;
+    }
+
 
 }

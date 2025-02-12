@@ -63,6 +63,8 @@ public class PlayerCharacter {
             private int Performance;    public void setPerformance(int Performance){this.Performance = Performance;}        public int getPerformance(){return Performance;}
             private int Persuasion;     public void setPersuasion(int Persuasion){this.Persuasion = Persuasion;}            public int getPersuasion(){return Persuasion;}
 
+    private ArrayList<Feature> PlayerFeatures;
+
     //Various races have different properties.
     private Race Race;
 
@@ -70,32 +72,43 @@ public class PlayerCharacter {
     ArrayList<ClassAndLevel> Classes = new ArrayList<ClassAndLevel>();
     int Level;
         int XP;
-            public void setXP(int XP){this.XP = XP;}
-            public void addXP(int XPDiff){XP += XPDiff;}
-            public void removeXP(int XPDiff){XP -= XPDiff;}
+            public void setXP(int XP){this.XP = XP; levelUp();}
+            public void addXP(int XPDiff){XP += XPDiff; levelUp();}
+            public void removeXP(int XPDiff){XP -= XPDiff; levelUp();}
             public int getXP(){return XP;}
 
-//        public void levelUp(){
-//            if(Level == 1 && XP >= 300){}
-//            if(Level == 2 && XP >= 900){}
-//            if(Level == 3 && XP >= 2700){}
-//            if(Level == 4 && XP >= 6500){}
-//            if(Level == 5 && XP >= 14000){}
-//            if(Level == 6 && XP >= 23000){}
-//            if(Level == 7 && XP >= 34000){}
-//            if(Level == 8 && XP >= 48000){}
-//            if(Level == 9 && XP >= 64000){}
-//            if(Level == 10 && XP >= 85000){}
-//            if(Level == 11 && XP >= 100000){}
-//            if(Level == 12 && XP >= 120000){}
-//            if(Level == 13 && XP >= 140000){}
-//            if(Level == 14 && XP >= 165000){}
-//            if(Level == 15 && XP >= 195000){}
-//            if(Level == 16 && XP >= 225000){}
-//            if(Level == 17 && XP >= 265000){}
-//            if(Level == 18 && XP >= 305000){}
-//            if(Level == 19 && XP >= 355000){}
-//        }
+        public boolean canLevelUp(){
+            if(Level == 1 && XP >= 300){return true;}
+            else if(Level == 2 && XP >= 900){return true;}
+            else if(Level == 3 && XP >= 2700){return true;}
+            else if(Level == 4 && XP >= 6500){return true;}
+            else if(Level == 5 && XP >= 14000){return true;}
+            else if(Level == 6 && XP >= 23000){return true;}
+            else if(Level == 7 && XP >= 34000){return true;}
+            else if(Level == 8 && XP >= 48000){return true;}
+            else if(Level == 9 && XP >= 64000){return true;}
+            else if(Level == 10 && XP >= 85000){return true;}
+            else if(Level == 11 && XP >= 100000){return true;}
+            else if(Level == 12 && XP >= 120000){return true;}
+            else if(Level == 13 && XP >= 140000){return true;}
+            else if(Level == 14 && XP >= 165000){return true;}
+            else if(Level == 15 && XP >= 195000){return true;}
+            else if(Level == 16 && XP >= 225000){return true;}
+            else if(Level == 17 && XP >= 265000){return true;}
+            else if(Level == 18 && XP >= 305000){return true;}
+            else if(Level == 19 && XP >= 355000){return true;}
+            else{return false;}
+        }
+        public void levelUp(){
+            int chosenClass = 0;
+            Classes.get(chosenClass).levelUp();
+            for(int i = 0; i < Classes.get(chosenClass).Class.getFeatures().size(); i++){
+                if(Classes.get(chosenClass).Class.getFeatures().get(i).getLevel() <= Classes.get(chosenClass).Class.getLevel())
+                    PlayerFeatures.add(Classes.get(chosenClass).Class.getFeatures().get(i));
+            }
+
+
+        }
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.

@@ -119,7 +119,7 @@ public class CharacterClass {
     private String SpellcastingAbility;
 
     private ArrayList<Feature> ClassFeatures;
-
+        public ArrayList<Feature> getFeatures(){return ClassFeatures;}
     public CharacterClass(
             String Name,
             boolean StrengthSavingThrowProf,
