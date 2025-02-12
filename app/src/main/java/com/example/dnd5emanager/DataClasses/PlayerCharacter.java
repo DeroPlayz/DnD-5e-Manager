@@ -74,6 +74,7 @@ public class PlayerCharacter {
             public void addXP(int XPDiff){XP += XPDiff;}
             public void removeXP(int XPDiff){XP -= XPDiff;}
             public int getXP(){return XP;}
+
 //        public void levelUp(){
 //            if(Level == 1 && XP >= 300){}
 //            if(Level == 2 && XP >= 900){}
