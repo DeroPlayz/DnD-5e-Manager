@@ -78,15 +78,15 @@ public class DataConstants{
         static final ArrayList<String> PaladinSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Athletics, Insight, Intimidation, Medicine, Persuasion, Religion));
         static final ArrayList<String> RangerSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
-                AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival));
+            AnimalHandling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival));
         static final ArrayList<String> RogueSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
-                AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival));
+            Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, SleightOfHand, Stealth));
         static final ArrayList<String> SorcererSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
-                AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival));
+            Arcana, Deception, Insight, Intimidation, Persuasion, Religion));
         static final ArrayList<String> WarlockSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
-                AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival));
+            Arcana, Deception, History, Intimidation, Investigation, Nature, Religion));
         static final ArrayList<String> WizardSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
-                AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival));
+            Arcana, History, Insight, Investigation, Medicine, Religion));
 
     //Weapon Proficiency References
         static final ArrayList<String> ArtificerSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
