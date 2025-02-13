@@ -63,7 +63,7 @@ public class Feature {
         private final static Feature Specialist = new Feature("Specialist", "At 3rd level, you choose the type of specialist you are. Your choice grants you features at 5th level and again at 9th and 15th level.", 3);
         //Alchemist Artificer
             private final static Feature AlchemistToolProficiency = new Feature("Tool Proficiency", "When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.", 3);
-            private final static Feature AlchemistSpells= new Feature("Alchemist Spells", "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.\n" +
+            private final static Feature AlchemistSpells = new Feature("Alchemist Spells", "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.\n" +
                     "- Level 3: Healing Word, Ray of Sickness\n" +
                     "- Level 5: Flaming Sphere, Melf's Acid Arrow\n" +
                     "- Level 9: Gaseous Form, Mass Healing Word\n" +
@@ -161,11 +161,11 @@ public class Feature {
                     "- The target takes an extra 2d6 force damage.\n" +
                     "- Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 hit points to it.\n" +
                     "You can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.", 9);
-            private final static Feature = new Feature();
+//            private final static Feature = new Feature();
 
 
     public static final ArrayList<Feature> ArtificerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown, FirearmProficiency));
-        public static final ArrayList<Feature> ArmorerArtificerFeatures = new ArrayList<Feature>(Arrays.asList())
+        public static final ArrayList<Feature> AlchemistFeatures = new ArrayList<Feature>(Arrays.asList(AlchemistToolProficiency, AlchemistSpells, ExperimentalElixir, AlchemicalSavant, RestorativeReagents, ChemicalMastery));
     public static final ArrayList<Feature> BarbarianFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
     public static final ArrayList<Feature> BardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
     public static final ArrayList<Feature> ClericFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));

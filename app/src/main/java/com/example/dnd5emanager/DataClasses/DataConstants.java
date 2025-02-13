@@ -89,19 +89,19 @@ public class DataConstants{
             Arcana, History, Insight, Investigation, Medicine, Religion));
 
     //Weapon Proficiency References
-        static final ArrayList<String> ArtificerSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> BarbarianSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> BardSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> ClericSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> DruidSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> FighterSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> MonkSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> PaladinSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> RangerSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> RogueSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> SorcererSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> WarlockSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> WizardSelectableWeaponProficiencies = new ArrayList<String>(List.of("Simple"));
+        static final ArrayList<String> ArtificerSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> BarbarianSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
+        static final ArrayList<String> BardSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, Hand crossbows, longswords, rapiers, shortswords*/));
+        static final ArrayList<String> ClericSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> DruidSelectableWeaponProficiencies = new ArrayList<String>(List.of(/* Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears*/));
+        static final ArrayList<String> FighterSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> MonkSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, shortswords*/));
+        static final ArrayList<String> PaladinSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
+        static final ArrayList<String> RangerSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
+        static final ArrayList<String> RogueSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, hand crossbows, longswords, rapiers, shortswords*/));
+        static final ArrayList<String> SorcererSelectableWeaponProficiencies = new ArrayList<String>(List.of(/*Daggers, darts, slings, quarterstaffs, light crossbows*/));
+        static final ArrayList<String> WarlockSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> WizardSelectableWeaponProficiencies = new ArrayList<String>(List.of(/*Daggers, darts, slings, quarterstaffs, light crossbows*/));
 
     //Tool Proficiency References
         static final ArrayList<String> ArtificerSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
@@ -119,19 +119,19 @@ public class DataConstants{
         static final ArrayList<String> WizardSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
 
     //Armor Proficiency References
-        static final ArrayList<String> ArtificerSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> BarbarianSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> BardSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> ClericSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> DruidSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> FighterSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> MonkSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> PaladinSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> RangerSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> RogueSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> SorcererSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
-        static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of("Simple"));
+        static final ArrayList<String> ArtificerSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> BarbarianSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> BardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> ClericSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> DruidSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> FighterSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> MonkSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> PaladinSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> RangerSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> RogueSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> SorcererSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+        static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
 
 
 }
