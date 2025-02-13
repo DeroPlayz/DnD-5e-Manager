@@ -3,6 +3,9 @@ package com.example.dnd5emanager.DataClasses;
 import java.util.ArrayList;
 
 public class Subclass{
+
+    private CharacterClass Parent;
+
     private String Name;
         public void setName(String Name) {
             this.Name = Name;
@@ -14,51 +17,33 @@ public class Subclass{
 
     //Proficiencies
     private boolean StrengthSavingThrowProf;
-        public void setStrengthSavingThrowProf(boolean StrengthSavingThrowProf) {
-            this.StrengthSavingThrowProf = StrengthSavingThrowProf;
-        }
         public boolean getStrengthSavingThrowProf() {
-            return StrengthSavingThrowProf;
+            return Parent.getStrengthSavingThrowProf();
         }
 
     private boolean DexteritySavingThrowProf;
-        public void setDexteritySavingThrowProf(boolean DexteritySavingThrowProf) {
-            this.DexteritySavingThrowProf = DexteritySavingThrowProf;
-        }
         public boolean getDexteritySavingThrowProf() {
-            return DexteritySavingThrowProf;
+            return Parent.getDexteritySavingThrowProf();
         }
 
     private boolean ConstitutionSavingThrowProf;
-        public void setConstitutionSavingThrowProf(boolean ConstitutionSavingThrowProf) {
-            this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;
-        }
         public boolean getConstitutionSavingThrowProf() {
-            return ConstitutionSavingThrowProf;
+            return Parent.getConstitutionSavingThrowProf();
         }
 
     private boolean IntelligenceSavingThrowProf;
-        public void setIntelligenceSavingThrowProf(boolean IntelligenceSavingThrowProf) {
-            this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
-        }
         public boolean getIntelligenceSavingThrowProf() {
-            return IntelligenceSavingThrowProf;
+            return Parent.getIntelligenceSavingThrowProf();
         }
 
     private boolean WisdomSavingThrowProf;
-        public void setWisdomSavingThrowProf(boolean WisdomSavingThrowProf) {
-            this.WisdomSavingThrowProf = WisdomSavingThrowProf;
-        }
         public boolean getWisdomSavingThrowProf() {
-            return WisdomSavingThrowProf;
+            return Parent.getWisdomSavingThrowProf();
         }
 
     private boolean CharismaSavingThrowProf;
-        public void setCharismaSavingThrowProf(boolean CharismaSavingThrowProf) {
-            this.CharismaSavingThrowProf = CharismaSavingThrowProf;
-        }
         public boolean getCharismaSavingThrowProf() {
-            return CharismaSavingThrowProf;
+            return Parent.getCharismaSavingThrowProf();;
         }
 
     private ArrayList<String> SkillProficiencyOptions;
@@ -78,13 +63,8 @@ public class Subclass{
     private String SpellcastingAbility;
 
     public Subclass(CharacterClass Parent){
+        this.Parent = Parent;
         Name = Parent.getName();
-        StrengthSavingThrowProf = Parent.getStrengthSavingThrowProf();
-        DexteritySavingThrowProf = Parent.getDexteritySavingThrowProf();
-        ConstitutionSavingThrowProf = Parent.getConstitutionSavingThrowProf();
-        IntelligenceSavingThrowProf = Parent.getIntelligenceSavingThrowProf();
-        WisdomSavingThrowProf = Parent.getWisdomSavingThrowProf();
-        CharismaSavingThrowProf = Parent.getCharismaSavingThrowProf();
         SkillProficiencyOptions = Parent.getSkillProficiencyOptions();
         SkillProfChoiceCount = Parent.getSkillProfChoiceCount();
         WeaponProficiencies = Parent.getWeaponProficiencies();
@@ -97,5 +77,5 @@ public class Subclass{
         SpellcastingAbility = Parent.getSpellcastingAbility();
     }
 
-    public final static Subclass Armorer = new Subclass()
+//    public final static Subclass Armorer = new Subclass()
 }
