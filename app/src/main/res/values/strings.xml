@@ -17,4 +17,8 @@
     <string name ="second_message">
         this is the second view, this will be come the character section in the future.
     </string>
+    <string name ="third_message">
+        this is the third view, this will be come the character list/ selection in the future.
+    </string>
+
 </resources>
