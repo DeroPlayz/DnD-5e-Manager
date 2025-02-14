@@ -78,12 +78,12 @@ public class PlayerCharacter {
             return Level;
         }
         int XP;
-            public void setXP(int XP){this.XP = XP; canLevelUp();}
-            public void addXP(int XPDiff){XP += XPDiff; canLevelUp();}
-            public void removeXP(int XPDiff){XP -= XPDiff; canLevelUp();}
+            public void setXP(int XP){this.XP = XP; levelUpCheck();}
+            public void addXP(int XPDiff){XP += XPDiff; levelUpCheck();}
+            public void removeXP(int XPDiff){XP -= XPDiff;}
             public int getXP(){return XP;}
 
-        public void canLevelUp(){
+        public void levelUpCheck(){
             if(Level == 1 && XP >= 300){levelUp();}
             else if(Level == 2 && XP >= 900){levelUp();}
             else if(Level == 3 && XP >= 2700){levelUp();}
@@ -104,17 +104,31 @@ public class PlayerCharacter {
             else if(Level == 18 && XP >= 305000){levelUp();}
             else if(Level == 19 && XP >= 355000){levelUp();}
         }
-        public void levelUp(/*int chosenClass*/){
-            int chosenClass = 0;
-            Classes.get(chosenClass).levelUp();
-            for(int i = 0; i < Classes.get(chosenClass).Class.getFeatures().size(); i++){
-                if(Classes.get(chosenClass).Class.getFeatures().get(i).getLevel() <= Classes.get(chosenClass).Class.getLevel() &&
-                !PlayerFeatures.contains(Classes.get(chosenClass).Class.getFeatures().get(i))) {
-                    PlayerFeatures.add(Classes.get(chosenClass).Class.getFeatures().get(i));
+        public void levelUp(/*Class chosenClass*/){
+            CharacterClass chosenClass = Constants.Fighter;
+            Classes.get(ClassAndLevel.findClass(Classes, chosenClass)).levelUp();
+            int target = ClassAndLevel.findClass(Classes, chosenClass);
+            for(int i = 0; i < Classes.get(target).Class.getFeatures().size(); i++){
+                if(Classes.get(target).Class.getFeatures().get(i).getLevel() <= Classes.get(target).Class.getLevel() &&
+                !PlayerFeatures.contains(Classes.get(target).Class.getFeatures().get(i))){
+                    PlayerFeatures.add(Classes.get(target).Class.getFeatures().get(i));
                 }
             }
-
-
+            if(Classes.get(target).Subclass != null) {
+                for (int i = 0; i < Classes.get(target).Subclass.getFeatures().size(); i++) {
+                    if (Classes.get(target).Subclass.getFeatures().get(i).getLevel() <= Classes.get(target).Class.getLevel() &&
+                            !PlayerFeatures.contains(Classes.get(target).Subclass.getFeatures().get(i))) {
+                        PlayerFeatures.add(Classes.get(target).Subclass.getFeatures().get(i));
+                    }
+                }
+            }
+            if(ClassAndLevel.findClass(Classes, chosenClass) == 0){
+                Classes.add(new ClassAndLevel(Constants.Fighter, 10));
+            }
+            Level = 0;
+            for(int i = 0; i<Classes.size()-1; i++){
+                Level += Classes.get(i).getLevel();
+            }
         }
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
