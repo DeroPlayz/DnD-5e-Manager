@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_data"
+            app:destination="@id/data" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -38,6 +41,15 @@
             app:destination="@id/SecondFragment" />
         <action
             android:id="@+id/action_thirdFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/data"
+        android:name="com.example.dnd5emanager.Data"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" >
+        <action
+            android:id="@+id/action_data_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
