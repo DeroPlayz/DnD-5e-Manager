@@ -27,5 +27,7 @@
     <string name="fith_message"> this is the settings page  </string>
     <string name="fithbutton"> settings </string>
     <string name="help_message"> this is the help page  </string>
-    <string name="helpButton"> help </string>
+    <string name="helpButton"> help</string>
+    <string name="dm_message"> this is the dm manger page   </string>
+    <string name="DmMangerButton"> Dm manger </string>
 </resources>

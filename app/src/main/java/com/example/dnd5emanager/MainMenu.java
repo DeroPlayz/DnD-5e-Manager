@@ -45,6 +45,10 @@ public class MainMenu extends Fragment {
                 NavHostFragment.findNavController(MainMenu.this)
                         .navigate(R.id.action_MainMenu_to_help)
         );
+        binding.DmButton.setOnClickListener(v ->
+                NavHostFragment.findNavController(MainMenu.this)
+                        .navigate(R.id.action_MainMenu_to_dmManger)
+        );
     }
 
     @Override
