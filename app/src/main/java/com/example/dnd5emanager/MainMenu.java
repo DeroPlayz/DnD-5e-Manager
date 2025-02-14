@@ -33,6 +33,10 @@ public class MainMenu extends Fragment {
                 NavHostFragment.findNavController(MainMenu.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment)
         );
+        binding.buttonFourth.setOnClickListener(v ->
+                NavHostFragment.findNavController(MainMenu.this)
+                        .navigate(R.id.action_FirstFragment_to_data)
+        );
     }
 
     @Override
