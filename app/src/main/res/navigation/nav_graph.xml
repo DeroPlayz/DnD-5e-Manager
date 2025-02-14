@@ -3,53 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/MainMenu">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/MainMenu"
         android:name="com.example.dnd5emanager.MainMenu"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/main_menu">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/goToCharacterList"
+            app:destination="@id/CharacterList" />
         <action
-            android:id="@+id/action_FirstFragment_to_data"
-            app:destination="@id/data" />
+            android:id="@+id/goToData"
+            app:destination="@id/Data" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/CharacterList"
         android:name="com.example.dnd5emanager.CharacterList"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/character_list">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/goToMainMenu"
+            app:destination="@id/MainMenu" />
         <action
-            android:id="@+id/action_SecondFragment_to_thirdFragment"
-            app:destination="@id/thirdFragment" />
+            android:id="@+id/goToCharacterView"
+            app:destination="@id/CharacterView" />
     </fragment>
     <fragment
-        android:id="@+id/thirdFragment"
-        android:name="com.example.dnd5emanager.ThirdFragment"
-        android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
+        android:id="@+id/CharacterView"
+        android:name="com.example.dnd5emanager.CharacterView"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/character_view" >
         <action
-            android:id="@+id/action_thirdFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/goToCharacterList"
+            app:destination="@id/CharacterList" />
         <action
-            android:id="@+id/action_thirdFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/goToMainMenu"
+            app:destination="@id/MainMenu" />
     </fragment>
     <fragment
-        android:id="@+id/data"
-        android:name="com.example.dnd5emanager.Data"
+        android:id="@+id/Data"
+        android:name="com.example.dnd5emanager.DataView"
         android:label="fragment_data"
-        tools:layout="@layout/fragment_data" >
+        tools:layout="@layout/data_view" >
         <action
-            android:id="@+id/action_data_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/goToMainMenu"
+            app:destination="@id/MainMenu" />
     </fragment>
 </navigation>

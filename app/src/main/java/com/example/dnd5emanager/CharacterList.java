@@ -31,10 +31,10 @@ public class CharacterList extends Fragment {
 
         binding.buttonSecond.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.action_SecondFragment_to_FirstFragment));
+                        .navigate(R.id.goToMainMenu));
         binding.buttonThird.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.action_SecondFragment_to_thirdFragment)
+                        .navigate(R.id.goToCharacterView)
         );
 
     }

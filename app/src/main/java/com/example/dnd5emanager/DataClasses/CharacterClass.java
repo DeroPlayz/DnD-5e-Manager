@@ -1,6 +1,7 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.DataConstants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Feature.*;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -19,17 +20,10 @@ public class CharacterClass {
         return Name;
     }
 
+//    private ArrayList<Subclass> Subclasses = new ArrayList<Subclass>(Armorer)
+
     private int Level;
-
-    public void setLevel(int Level) {
-        this.Level = Level;
-    }
-
-    public int getLevel() {
-        return Level;
-    }
-
-    //Proficiencies
+        public int getLevel(){return Level;}
     private boolean StrengthSavingThrowProf;
 
     public void setStrengthSavingThrowProf(boolean StrengthSavingThrowProf) {
@@ -90,33 +84,42 @@ public class CharacterClass {
         return CharismaSavingThrowProf;
     }
 
-    private ArrayList<String> SkillProficiencyOptions;
+    private final ArrayList<String> SkillProficiencyOptions;
+        public ArrayList<String> getSkillProficiencyOptions(){return SkillProficiencyOptions;}
     private int SkillProfChoiceCount;
+        public int getSkillProfChoiceCount(){return SkillProfChoiceCount;}
 
-    private ArrayList<String> WeaponProficiencies;
+    private final ArrayList<String> WeaponProficiencies;
+        public ArrayList<String> getWeaponProficiencies(){return WeaponProficiencies;}
     private int WeaponProfChoiceCount;
+        public int getWeaponProfChoiceCount(){return WeaponProfChoiceCount;}
 
-    private ArrayList<String> ToolProficiencies;
+    private final ArrayList<String> ToolProficiencies;
+        public ArrayList<String> getToolProficiencies(){return ToolProficiencies;}
     private int ToolProfChoiceCount;
-    private ArrayList<String> ArmorProficiencies;
+        public int getToolProfChoiceCount(){return ToolProfChoiceCount;}
+
+    private final ArrayList<String> ArmorProficiencies;
+        public ArrayList<String> getArmorProficiencies(){return ArmorProficiencies;}
     private int ArmorProfChoiceCount;
+        public int getArmorProfChoiceCount(){return ArmorProfChoiceCount;}
 
     private int InitialHP;
-
-    public void setInitialHP(int InitialHP) {
-        this.InitialHP = InitialHP;
-    }
-
-    public int getInitialHP() {
+        public void setInitialHP(int InitialHP) {
+            this.InitialHP = InitialHP;
+        }
+        public int getInitialHP() {
         return InitialHP;
     }
     //Before adding Constitution modifier.
 
 
     private int AttacksPerAction;
+        public int getAttacksPerAction(){return AttacksPerAction;}
 
     //Spellcasting Malarky
     private String SpellcastingAbility;
+        public String getSpellcastingAbility(){return SpellcastingAbility;}
 
     private ArrayList<Feature> ClassFeatures;
         public ArrayList<Feature> getFeatures(){return ClassFeatures;}
@@ -132,9 +135,13 @@ public class CharacterClass {
             ArrayList<String> WeaponProficiencies,
             ArrayList<String> ToolProficiencies,
             ArrayList<String> ArmorProficiencies,
+            int SkillProfChoiceCount,
+            int WeaponProfChoiceCount,
+            int ToolProfChoiceCount,
+            int ArmorProfChoiceCount,
+            ArrayList<Feature> ClassFeatures,
             int AttacksPerAction,
             String SpellcastingAbility,
-            ArrayList<Feature> ClassFeatures,
             int InitialHP) {
 
         this.Name = Name;
@@ -145,53 +152,16 @@ public class CharacterClass {
         this.WisdomSavingThrowProf = WisdomSavingThrowProf;
         this.CharismaSavingThrowProf = CharismaSavingThrowProf;
         this.SkillProficiencyOptions = SkillProficiencyOptions;
+        this.WeaponProficiencies = WeaponProficiencies;
         this.ToolProficiencies = ToolProficiencies;
         this.ArmorProficiencies = ArmorProficiencies;
+        this.SkillProfChoiceCount = SkillProfChoiceCount;
+        this.WeaponProfChoiceCount = WeaponProfChoiceCount;
+        this.ToolProfChoiceCount = ToolProfChoiceCount;
+        this.ArmorProfChoiceCount = ArmorProfChoiceCount;
+        this.ClassFeatures = ClassFeatures;
         this.AttacksPerAction = AttacksPerAction;
         this.SpellcastingAbility = SpellcastingAbility;
-        this.ClassFeatures = ClassFeatures;
         this.InitialHP = InitialHP;
     }
-
-    public static final CharacterClass Artificer = new CharacterClass("Artificer", false, false,
-            true, true, false, false, ArtificerSelectableSkillsProficiencies,
-            ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies, ArtificerSelectableArmorProficiencies, 1, Intelligence,
-            Feature.ArtificerFeatures, 8);
-    public static final CharacterClass Barbarian = new CharacterClass("Barbarian", true, false,
-            true, false, false, false, BarbarianSelectableSkillsProficiencies,
-            BarbarianSelectableWeaponProficiencies, BarbarianSelectableToolProficiencies, BarbarianSelectableArmorProficiencies, 1, None,
-            Feature.BarbarianFeatures, 12);
-    public static final CharacterClass Bard = new CharacterClass("Bard", false, false, true,
-            true, false, false, BardSelectableSkillsProficiencies, BardSelectableWeaponProficiencies,
-            BardSelectableToolProficiencies, BardSelectableArmorProficiencies, 1, Charisma, Feature.BardFeatures, 8);
-    public static final CharacterClass Cleric = new CharacterClass("Cleric", false, false, true,
-            true, false, false, ClericSelectableSkillsProficiencies, ClericSelectableWeaponProficiencies,
-            ClericSelectableToolProficiencies, ClericSelectableArmorProficiencies, 1, Wisdom, Feature.ClericFeatures, 8);
-    public static final CharacterClass Druid = new CharacterClass("Druid", false, false, true,
-            true, false, false, DruidSelectableSkillsProficiencies, DruidSelectableWeaponProficiencies,
-            DruidSelectableToolProficiencies, DruidSelectableArmorProficiencies, 1, Wisdom, Feature.DruidFeatures, 8);
-    public static final CharacterClass Fighter = new CharacterClass("Fighter", false, false, true,
-            true, false, false, FighterSelectableSkillsProficiencies, FighterSelectableWeaponProficiencies,
-            FighterSelectableToolProficiencies, FighterSelectableArmorProficiencies, 1, None, Feature.FighterFeatures, 10);
-    public static final CharacterClass Monk = new CharacterClass("Monk", false, false, true,
-            true, false, false, MonkSelectableSkillsProficiencies, MonkSelectableWeaponProficiencies,
-            MonkSelectableToolProficiencies, MonkSelectableArmorProficiencies, 1, None, Feature.MonkFeatures, 8);
-    public static final CharacterClass Paladin = new CharacterClass("Paladin", false, false, true,
-            true, false, false, PaladinSelectableSkillsProficiencies, PaladinSelectableWeaponProficiencies,
-            PaladinSelectableToolProficiencies, PaladinSelectableArmorProficiencies, 1, Charisma, Feature.PaladinFeatures, 10);
-    public static final CharacterClass Ranger = new CharacterClass("Ranger", false, false, true,
-            true, false, false, RangerSelectableSkillsProficiencies, RangerSelectableWeaponProficiencies,
-            RangerSelectableToolProficiencies, RangerSelectableArmorProficiencies, 1, Wisdom, Feature.RangerFeatures, 10);
-    public static final CharacterClass Rogue = new CharacterClass("Rogue", false, false, true,
-            true, false, false, RogueSelectableSkillsProficiencies, RogueSelectableWeaponProficiencies,
-            RogueSelectableToolProficiencies, RogueSelectableArmorProficiencies, 1, None, Feature.RogueFeatures, 8);
-    public static final CharacterClass Sorcerer = new CharacterClass("Sorcerer", false, false, true,
-            true, false, false, SorcererSelectableSkillsProficiencies, SorcererSelectableWeaponProficiencies,
-            SorcererSelectableToolProficiencies, SorcererSelectableArmorProficiencies, 1, Charisma, Feature.SorcererFeatures, 6);
-    public static final CharacterClass Warlock = new CharacterClass("Warlock", false, false, true,
-            true, false, false, WarlockSelectableSkillsProficiencies, WarlockSelectableWeaponProficiencies,
-            WarlockSelectableToolProficiencies, WarlockSelectableArmorProficiencies, 1, Charisma, Feature.WarlockFeatures, 8);
-    public static final CharacterClass Wizard = new CharacterClass("Wizard", false, false, true,
-            true, false, false, WizardSelectableSkillsProficiencies, WizardSelectableWeaponProficiencies,
-            WizardSelectableToolProficiencies, WizardSelectableArmorProficiencies, 1, Intelligence, Feature.WizardFeatures, 6);
 }
