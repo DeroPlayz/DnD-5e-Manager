@@ -24,4 +24,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="fourth_message"> this is the data page </string>
+
+    <string name="EditCharacterNameDefaultText">Name</string>
+    <string name="EditCharacterLevelDefaultText">Level</string>
 </resources>
