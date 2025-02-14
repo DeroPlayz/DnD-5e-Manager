@@ -3,15 +3,15 @@
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Main Menu</string>
-    <string name="second_fragment_label">Character</string>
+    <string name="second_fragment_label">Character List</string>
+    <string name="third_fragment_label">Character Sheet</string>
+
     <string name="Character">Character</string>
     <string name="back">Back</string>
-    <string name="third_fragment_label">character sheet </string>
 
     <string name="welcome_message">
        Welcome to DND e5 manger!
         This app is in early development and this text is a placeholder.
-
 
     </string>
     <string name="second_message">
@@ -20,7 +20,8 @@
     <string name="third_message">
         this is the third view, this will be come the character list/ selection in the future.
     </string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-<string name="fourth_message"> this is the data page </string>
+
+    <string name="fourth_message"> this is the data page </string>
 </resources>

@@ -31,11 +31,11 @@ public class MainMenu extends Fragment {
 
         binding.buttonFirst.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment)
+                        .navigate(R.id.goToCharacterList)
         );
         binding.buttonFourth.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.action_FirstFragment_to_data)
+                        .navigate(R.id.goToData)
         );
     }
 

@@ -33,9 +33,9 @@ public class CharacterView extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonThird.setOnClickListener(v ->
+        binding.buttonSubThird.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterView.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment)
+                        .navigate(R.id.goToCharacterList)
         );
     }
 
