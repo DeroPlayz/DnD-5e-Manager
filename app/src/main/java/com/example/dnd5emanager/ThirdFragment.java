@@ -35,9 +35,15 @@ public class ThirdFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonThird.setOnClickListener(v ->
+        binding.buttonSubThird.setOnClickListener(v ->
                 NavHostFragment.findNavController(ThirdFragment.this)
                         .navigate(R.id.action_SecondFragment_to_thirdFragment)
+                
+        );
+        binding.buttonSubThird.setOnClickListener(v ->
+                NavHostFragment.findNavController(ThirdFragment.this)
+                        .navigate(R.id.action_thirdFragment_to_SecondFragment)
+
         );
     }
 
