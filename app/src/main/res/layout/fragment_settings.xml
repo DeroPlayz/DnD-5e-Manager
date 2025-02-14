@@ -3,21 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CharacterView">
+    tools:context=".settings">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/textview_third"
-        android:layout_width="395dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="80dp"
-        android:text="@string/character_message" />
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/fith_message" />
 
     <Button
-        android:id="@+id/button_subThird"
+        android:id="@+id/settingsback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/back"/>
-
+        android:text="@string/fithbutton" />
 
 </FrameLayout>

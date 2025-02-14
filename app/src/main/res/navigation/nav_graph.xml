@@ -17,6 +17,12 @@
         <action
             android:id="@+id/goToData"
             app:destination="@id/Data" />
+        <action
+            android:id="@+id/action_MainMenu_to_settings"
+            app:destination="@id/settings" />
+        <action
+            android:id="@+id/action_MainMenu_to_help"
+            app:destination="@id/help" />
     </fragment>
     <fragment
         android:id="@+id/CharacterList"
@@ -51,5 +57,29 @@
         <action
             android:id="@+id/goToMainMenu"
             app:destination="@id/MainMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.dnd5emanager.settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settings_to_MainMenu"
+            app:destination="@id/help" />
+        <action
+            android:id="@+id/action_settings_to_MainMenu2"
+            app:destination="@id/MainMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/help"
+        android:name="com.example.dnd5emanager.help"
+        android:label="help"
+        tools:layout="@layout/help" >
+        <action
+            android:id="@+id/action_help_to_MainMenu"
+            app:destination="@id/MainMenu" />
+        <action
+            android:id="@+id/action_help_to_settings"
+            app:destination="@id/settings" />
     </fragment>
 </navigation>
