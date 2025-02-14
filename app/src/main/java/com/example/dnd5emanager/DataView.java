@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Data#newInstance} factory method to
+ * Use the {@link DataView#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Data extends Fragment {
+public class DataView extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class Data extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Data() {
+    public DataView() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class Data extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Data.
+     * @return A new instance of fragment DataView.
      */
     // TODO: Rename and change types and number of parameters
-    public static Data newInstance(String param1, String param2) {
-        Data fragment = new Data();
+    public static DataView newInstance(String param1, String param2) {
+        DataView fragment = new DataView();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class Data extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_data, container, false);
+        return inflater.inflate(R.layout.data_view, container, false);
     }
 }
