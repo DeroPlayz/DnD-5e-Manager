@@ -10,24 +10,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.dnd5emanager.databinding.CharacterListBinding;
-import com.example.dnd5emanager.databinding.FragmentThirdBinding;
-import com.example.dnd5emanager.databinding.MainMenuBinding;
+import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
 ///**
 // * A simple {@link Fragment} subclass.
 // * Use the {@link ThirdFragment#newInstance} factory method to
 // * create an instance of this fragment.
 // */
-public class ThirdFragment extends Fragment {
-    private FragmentThirdBinding binding;
+public class CharacterView extends Fragment {
+    private CharacterViewBinding binding;
 
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-        binding = FragmentThirdBinding.inflate(inflater, container, false);
+        binding = CharacterViewBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 
@@ -36,8 +34,8 @@ public class ThirdFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.buttonThird.setOnClickListener(v ->
-                NavHostFragment.findNavController(ThirdFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_thirdFragment)
+                NavHostFragment.findNavController(CharacterView.this)
+                        .navigate(R.id.action_FirstFragment_to_SecondFragment)
         );
     }
 
