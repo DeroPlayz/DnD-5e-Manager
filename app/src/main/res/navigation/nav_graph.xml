@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_MainMenu_to_help"
             app:destination="@id/help" />
+        <action
+            android:id="@+id/action_MainMenu_to_dmManger"
+            app:destination="@id/dmManger" />
     </fragment>
     <fragment
         android:id="@+id/CharacterList"
@@ -81,5 +84,14 @@
         <action
             android:id="@+id/action_help_to_settings"
             app:destination="@id/settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/dmManger"
+        android:name="com.example.dnd5emanager.DmManger"
+        android:label="fragment_dm_manger"
+        tools:layout="@layout/fragment_dm_manger" >
+        <action
+            android:id="@+id/action_dmManger_to_MainMenu"
+            app:destination="@id/MainMenu" />
     </fragment>
 </navigation>
