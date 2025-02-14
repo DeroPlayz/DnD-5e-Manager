@@ -1,10 +1,24 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Feature.ArtificerFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.BarbarianFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.BardFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.ClericFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.DruidFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.FighterFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.MonkFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.PaladinFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.RangerFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.RogueFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.SorcererFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.WarlockFeatures;
+import static com.example.dnd5emanager.DataClasses.Feature.WizardFeatures;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class DataConstants{
+public class Constants{
     //Abilities
         public static final String Strength = "Strength";
         public static final String Dexterity = "Dexterity";
@@ -133,5 +147,70 @@ public class DataConstants{
         static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
         static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
 
-
+    //Class Declarations
+    public static final CharacterClass Artificer = new CharacterClass("Artificer",
+            false, false, true,
+            true, false, false,
+            ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies,
+            ArtificerSelectableArmorProficiencies, 0, 0, 0,0, ArtificerFeatures, 1, Intelligence, 8);
+    public static final CharacterClass Barbarian = new CharacterClass("Barbarian",
+            true, false, true,
+            false, false, false,
+            BarbarianSelectableSkillsProficiencies, BarbarianSelectableWeaponProficiencies, BarbarianSelectableToolProficiencies,
+            BarbarianSelectableArmorProficiencies, 0, 0, 0,0, BarbarianFeatures, 1, None, 12);
+    public static final CharacterClass Bard = new CharacterClass("Bard",
+            false, false, true,
+            true, false, false,
+            BardSelectableSkillsProficiencies, BardSelectableWeaponProficiencies, BardSelectableToolProficiencies,
+            BardSelectableArmorProficiencies, 0, 0, 0,0, BardFeatures, 1, Charisma, 8);
+    public static final CharacterClass Cleric = new CharacterClass("Cleric",
+            false, false, true,
+            true, false, false,
+            ClericSelectableSkillsProficiencies, ClericSelectableWeaponProficiencies, ClericSelectableToolProficiencies,
+            ClericSelectableArmorProficiencies, 0, 0, 0,0, ClericFeatures, 1, Wisdom, 8);
+    public static final CharacterClass Druid = new CharacterClass("Druid",
+            false, false, true,
+            true, false, false,
+            DruidSelectableSkillsProficiencies, DruidSelectableWeaponProficiencies, DruidSelectableToolProficiencies,
+            DruidSelectableArmorProficiencies, 0, 0, 0,0, DruidFeatures, 1, Wisdom, 8);
+    public static final CharacterClass Fighter = new CharacterClass("Fighter",
+            false, false, true,
+            true, false, false,
+            FighterSelectableSkillsProficiencies, FighterSelectableWeaponProficiencies, FighterSelectableToolProficiencies,
+            FighterSelectableArmorProficiencies, 0, 0, 0,0, FighterFeatures, 1, None, 10);
+    public static final CharacterClass Monk = new CharacterClass("Monk",
+            false, false, true,
+            true, false, false,
+            MonkSelectableSkillsProficiencies, MonkSelectableWeaponProficiencies, MonkSelectableToolProficiencies,
+            MonkSelectableArmorProficiencies, 0, 0, 0,0, MonkFeatures, 1, None, 8);
+    public static final CharacterClass Paladin = new CharacterClass("Paladin",
+            false, false, true,
+            true, false, false,
+            PaladinSelectableSkillsProficiencies, PaladinSelectableWeaponProficiencies, PaladinSelectableToolProficiencies,
+            PaladinSelectableArmorProficiencies, 0, 0, 0,0, PaladinFeatures, 1, Charisma, 10);
+    public static final CharacterClass Ranger = new CharacterClass("Ranger",
+            false, false, true,
+            true, false, false,
+            RangerSelectableSkillsProficiencies, RangerSelectableWeaponProficiencies, RangerSelectableToolProficiencies,
+            RangerSelectableArmorProficiencies, 0, 0, 0,0, RangerFeatures, 1, Wisdom, 10);
+    public static final CharacterClass Rogue = new CharacterClass("Rogue",
+            false, false, true,
+            true, false, false,
+            RogueSelectableSkillsProficiencies, RogueSelectableWeaponProficiencies, RogueSelectableToolProficiencies,
+            RogueSelectableArmorProficiencies, 0, 0, 0,0, RogueFeatures, 1, None, 8);
+    public static final CharacterClass Sorcerer = new CharacterClass("Sorcerer",
+            false, false, true,
+            true, false, false,
+            SorcererSelectableSkillsProficiencies, SorcererSelectableWeaponProficiencies, SorcererSelectableToolProficiencies,
+            SorcererSelectableArmorProficiencies, 0, 0, 0,0, SorcererFeatures, 1, Charisma, 6);
+    public static final CharacterClass Warlock = new CharacterClass("Warlock",
+            false, false, true,
+            true, false, false,
+            WarlockSelectableSkillsProficiencies, WarlockSelectableWeaponProficiencies, WarlockSelectableToolProficiencies,
+            WarlockSelectableArmorProficiencies, 0, 0, 0,0, WarlockFeatures, 1, Charisma, 8);
+    public static final CharacterClass Wizard = new CharacterClass("Wizard",
+            false, false, true,
+            true, false, false,
+            WizardSelectableSkillsProficiencies, WizardSelectableWeaponProficiencies, WizardSelectableToolProficiencies,
+            WizardSelectableArmorProficiencies, 0, 0, 0,0, WizardFeatures, 1, Intelligence, 6);
 }

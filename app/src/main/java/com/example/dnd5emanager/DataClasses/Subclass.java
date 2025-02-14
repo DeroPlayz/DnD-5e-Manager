@@ -1,6 +1,7 @@
 package com.example.dnd5emanager.DataClasses;
 
 import static com.example.dnd5emanager.DataClasses.CharacterClass.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Artificer;
 import static com.example.dnd5emanager.DataClasses.Feature.*;
 
 import java.lang.reflect.Array;
@@ -16,6 +17,7 @@ public class Subclass{
         }
 
     private final ArrayList<Feature> SubclassFeatures;
+        public ArrayList<Feature> getFeatures(){return SubclassFeatures;}
 
 
     public Subclass(String Name, CharacterClass Parent, ArrayList<Feature> SubclassFeatures){
