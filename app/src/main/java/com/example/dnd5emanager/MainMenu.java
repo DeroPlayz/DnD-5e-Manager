@@ -9,6 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.CharacterClass;
+import com.example.dnd5emanager.DataClasses.Constants;
+import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
 
 public class MainMenu extends Fragment {
@@ -50,6 +54,8 @@ public class MainMenu extends Fragment {
                         .navigate(R.id.action_MainMenu_to_dmManger)
         );
     }
+
+    public static final PlayerCharacter Matthew = new PlayerCharacter("Matthew", 15, 15, 15, 15, 15, 15, new Race(), Constants.Fighter, 1);
 
     @Override
     public void onDestroyView() {

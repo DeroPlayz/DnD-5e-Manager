@@ -14,20 +14,17 @@
         This app is in early development and this text is a placeholder.
 
     </string>
-    <string name="character_message">
+    <string name="second_message">
         this is the second view, this will be come the character section in the future.
     </string>
-    <string name="characte_list_message">
+    <string name="third_message">
         this is the third view, this will be come the character list/ selection in the future.
     </string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="fourth_message"> this is the data page </string>
-    <string name="fith_message"> this is the settings page  </string>
-    <string name="fithbutton"> settings </string>
-    <string name="help_message"> this is the help page  </string>
-    <string name="helpButton"> help</string>
-    <string name="dm_message"> this is the dm manger page   </string>
-    <string name="DmMangerButton"> Dm manger </string>
+
+    <string name="EditCharacterNameDefaultText">Name</string>
+    <string name="EditCharacterLevelDefaultText">Level</string>
 </resources>
