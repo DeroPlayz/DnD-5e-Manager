@@ -38,7 +38,7 @@
             android:layout_width="111dp"
             android:layout_height="55dp"
             android:layout_marginTop="136dp"
-            android:text="@string/fithbutton"
+            android:text="extra"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -48,7 +48,7 @@
             android:layout_width="111dp"
             android:layout_height="55dp"
             android:layout_marginTop="212dp"
-            android:text="@string/helpButton"
+            android:text="@string/help_message"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +58,7 @@
             android:layout_width="111dp"
             android:layout_height="55dp"
             android:layout_marginTop="276dp"
-            android:text="@string/DmMangerButton"
+            android:text="@string/fifth_message"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

@@ -23,8 +23,10 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="fourth_message"> this is the data page </string>
+    <string name="fourth_message">Data</string>
+    <string name="fifth_message">DM Manager</string>
+    <string name="help_message">Help</string>
 
-    <string name="EditCharacterNameDefaultText">Name</string>
-    <string name="EditCharacterLevelDefaultText">Level</string>
+    <string name="EditCharacterNameDefaultText">Character Name</string>
+    <string name="EditCharacterLevelDefaultText">1</string>
 </resources>

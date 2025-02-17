@@ -25,7 +25,7 @@
             app:destination="@id/help" />
         <action
             android:id="@+id/action_MainMenu_to_dmManger"
-            app:destination="@id/dmManger" />
+            app:destination="@id/DMManager" />
     </fragment>
     <fragment
         android:id="@+id/CharacterList"
@@ -63,19 +63,19 @@
     </fragment>
     <fragment
         android:id="@+id/settings"
-        android:name="com.example.dnd5emanager.settings"
+        android:name="com.example.dnd5emanager.Settings"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" >
+        tools:layout="@layout/settings" >
         <action
             android:id="@+id/action_settings_to_MainMenu"
-            app:destination="@id/help" />
+            app:destination="@id/Help" />
         <action
             android:id="@+id/action_settings_to_MainMenu2"
             app:destination="@id/MainMenu" />
     </fragment>
     <fragment
-        android:id="@+id/help"
-        android:name="com.example.dnd5emanager.help"
+        android:id="@+id/Help"
+        android:name="com.example.dnd5emanager.Help"
         android:label="help"
         tools:layout="@layout/help" >
         <action
@@ -86,10 +86,10 @@
             app:destination="@id/settings" />
     </fragment>
     <fragment
-        android:id="@+id/dmManger"
-        android:name="com.example.dnd5emanager.DmManger"
+        android:id="@+id/DMManager"
+        android:name="com.example.dnd5emanager.DMManager"
         android:label="fragment_dm_manger"
-        tools:layout="@layout/fragment_dm_manger" >
+        tools:layout="@layout/dm_manager" >
         <action
             android:id="@+id/action_dmManger_to_MainMenu"
             app:destination="@id/MainMenu" />

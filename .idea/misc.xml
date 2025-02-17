@@ -1,4 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass ArmorProfChoiceCount" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass ArmorProficiencies" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Artificer" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass AttacksPerAction" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Barbarian" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Bard" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass ClassFeatures" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Cleric" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Druid" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Fighter" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Monk" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Paladin" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Ranger" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Rogue" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass SkillProfChoiceCount" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass SkillProficiencyOptions" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Sorcerer" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass SpellcastingAbility" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass ToolProfChoiceCount" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass ToolProficiencies" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Warlock" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass WeaponProfChoiceCount" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass WeaponProficiencies" />
+      <entry_point TYPE="field" FQNAME="com.example.dnd5emanager.DataClasses.CharacterClass Wizard" />
+    </entry_points>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

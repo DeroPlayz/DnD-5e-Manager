@@ -7,28 +7,39 @@
     android:layout_height="match_parent"
     tools:context=".CharacterView">
 
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:barrierDirection="top"
-        app:constraint_referenced_ids="enterName" />
-
     <EditText
         android:id="@+id/enterName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="670dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:text="@string/EditCharacterNameDefaultText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterLevel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/EditCharacterLevelDefaultText"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="penus"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="133dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
