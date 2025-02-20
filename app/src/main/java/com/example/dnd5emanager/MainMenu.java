@@ -32,20 +32,20 @@ public class MainMenu extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonFirst.setOnClickListener(v ->
+        binding.mainMenuViewCharacters.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)
         );
-        binding.buttonFourth.setOnClickListener(v ->
+        binding.mainMenuViewData.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
         );
-        binding.settingsButton.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Settings)
+        binding.mainMenuSettings.setOnClickListener(v ->
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToSettings)
         );
-        binding.helpButton.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_help)
+        binding.mainMenuHelpPage.setOnClickListener(v ->
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToHelp)
         );
-        binding.DmButton.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_dmManger)
+        binding.mainMenuViewDMMenu.setOnClickListener(v ->
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
         );
     }
 

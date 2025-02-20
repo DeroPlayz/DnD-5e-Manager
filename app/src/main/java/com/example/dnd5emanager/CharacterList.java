@@ -29,16 +29,17 @@ public class CharacterList extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonSecond.setOnClickListener(v ->
+        binding.characterListBack.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.goToMainMenu));
-        binding.buttonThird.setOnClickListener(v ->
+                        .navigate(R.id.goToMainMenu)
+        );
+        binding.characterListViewCharacterDemo.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToCharacterView)
         );
-        binding.buttonSixth.setOnClickListener(v ->
+        binding.characterListMakeNewCharacter.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.goToCreator)
+                        .navigate(R.id.goToCharacterCreatorPageOne)
         );
 
     }

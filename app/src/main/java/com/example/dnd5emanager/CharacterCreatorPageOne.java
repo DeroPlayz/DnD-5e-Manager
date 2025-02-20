@@ -28,9 +28,9 @@ public class CharacterCreatorPageOne extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
-        EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
+                EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
+                EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
                 MainMenu.Matthew.setName(Name.getText().toString());
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
             }
