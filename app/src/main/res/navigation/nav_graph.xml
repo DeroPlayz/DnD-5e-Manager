@@ -5,104 +5,87 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/MainMenu">
 
+    <action
+        android:id="@+id/goToMainMenu"
+        app:destination="@id/MainMenu" />
+    <action
+        android:id="@+id/goToSettings"
+        app:destination="@id/Settings" />
+    <action
+        android:id="@+id/goToHelp"
+        app:destination="@id/Help" />
+
+    <action
+        android:id="@+id/goToCharacterList"
+        app:destination="@id/CharacterList" />
+    <action
+        android:id="@+id/goToCharacterView"
+        app:destination="@id/CharacterView" />
+    <action
+        android:id="@+id/goToCharacterCreatorPageOne"
+        app:destination="@id/CharacterCreatorPageOne" />
+
+    <action
+        android:id="@+id/goToDMManager"
+        app:destination="@id/DMManager" />
+
+    <action
+        android:id="@+id/goToData"
+        app:destination="@id/Data" />
+
     <fragment
         android:id="@+id/MainMenu"
         android:name="com.example.dnd5emanager.MainMenu"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/main_menu">
-
-        <action
-            android:id="@+id/goToCharacterList"
-            app:destination="@id/CharacterList" />
-        <action
-            android:id="@+id/goToData"
-            app:destination="@id/Data" />
-        <action
-            android:id="@+id/action_MainMenu_to_Settings"
-            app:destination="@id/Settings" />
-        <action
-            android:id="@+id/action_MainMenu_to_help"
-            app:destination="@id/Help" />
-        <action
-            android:id="@+id/action_MainMenu_to_dmManger"
-            app:destination="@id/DMManager" />
     </fragment>
+
     <fragment
         android:id="@+id/CharacterList"
         android:name="com.example.dnd5emanager.CharacterList"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/character_list">
-
-        <action
-            android:id="@+id/goToCreator"
-            app:destination="@id/CharacterCreatorPageOne" />
-        <action
-            android:id="@+id/goToMainMenu"
-            app:destination="@id/MainMenu" />
-        <action
-            android:id="@+id/goToCharacterView"
-            app:destination="@id/CharacterView" />
     </fragment>
+
     <fragment
         android:id="@+id/CharacterView"
         android:name="com.example.dnd5emanager.CharacterView"
         android:label="@string/third_fragment_label"
         tools:layout="@layout/character_view" >
-        <action
-            android:id="@+id/goToCharacterList"
-            app:destination="@id/CharacterList" />
-        <action
-            android:id="@+id/goToMainMenu"
-            app:destination="@id/MainMenu" />
     </fragment>
+
     <fragment
         android:id="@+id/Data"
         android:name="com.example.dnd5emanager.DataView"
         android:label="fragment_data"
         tools:layout="@layout/data_view" >
-        <action
-            android:id="@+id/goToMainMenu"
-            app:destination="@id/MainMenu" />
     </fragment>
+
     <fragment
         android:id="@+id/Settings"
         android:name="com.example.dnd5emanager.Settings"
         android:label="fragment_Settings"
         tools:layout="@layout/settings" >
-        <action
-            android:id="@+id/action_Settings_to_MainMenu"
-            app:destination="@id/Help" />
-        <action
-            android:id="@+id/action_Settings_to_Help"
-            app:destination="@id/MainMenu" />
     </fragment>
+
     <fragment
         android:id="@+id/Help"
         android:name="com.example.dnd5emanager.Help"
         android:label="help"
         tools:layout="@layout/help" >
-        <action
-            android:id="@+id/action_help_to_MainMenu"
-            app:destination="@id/MainMenu" />
-        <action
-            android:id="@+id/action_help_to_Settings"
-            app:destination="@id/Settings" />
     </fragment>
+
     <fragment
         android:id="@+id/DMManager"
         android:name="com.example.dnd5emanager.DMManager"
         android:label="fragment_dm_manger"
         tools:layout="@layout/dm_manager" >
-        <action
-            android:id="@+id/action_dmManger_to_MainMenu"
-            app:destination="@id/MainMenu" />
     </fragment>
+
     <fragment
         android:id="@+id/CharacterCreatorPageOne"
         android:name="com.example.dnd5emanager.CharacterCreatorPageOne"
         android:label="CharacterCreatorPageOne" >
-        <action
-            android:id="@+id/goToCharacterView"
-            app:destination="@id/CharacterView" />
     </fragment>
+
 </navigation>
