@@ -29,4 +29,12 @@
 
     <string name="EditCharacterNameDefaultText">Character Name</string>
     <string name="EditCharacterLevelDefaultText">1</string>
+
+    <string-array name="Classes">
+        <item>Artificer</item>
+        <item>Barbarian</item>
+        <item>Bard</item>
+        <item>Cleric</item>
+    </string-array>
+
 </resources>

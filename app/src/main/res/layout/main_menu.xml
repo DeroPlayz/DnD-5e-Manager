@@ -12,11 +12,11 @@
         android:padding="38dp">
 
         <Button
-            android:id="@+id/button_first"
+            android:id="@+id/main_menu_view_characters"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Character"
-            app:layout_constraintBottom_toBottomOf="@+id/button_fourth"
+            app:layout_constraintBottom_toBottomOf="@+id/main_menu_view_data"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/button_fourth"
+            android:id="@+id/main_menu_view_data"
             android:layout_width="127dp"
             android:layout_height="48dp"
             android:layout_marginTop="68dp"
@@ -34,32 +34,23 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/settings_button"
+            android:id="@+id/main_menu_help_page"
             android:layout_width="111dp"
             android:layout_height="55dp"
-            android:layout_marginTop="136dp"
-            android:text="extra"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/help_button"
-            android:layout_width="111dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="212dp"
+            android:layout_marginTop="148dp"
             android:text="@string/help_message"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/DmButton"
+            android:id="@+id/main_menu_view_dm_menu"
             android:layout_width="111dp"
             android:layout_height="55dp"
-            android:layout_marginTop="276dp"
+            android:layout_marginTop="224dp"
             android:text="@string/fifth_message"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

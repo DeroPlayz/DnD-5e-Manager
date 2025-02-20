@@ -18,11 +18,11 @@
             android:id="@+id/goToData"
             app:destination="@id/Data" />
         <action
-            android:id="@+id/action_MainMenu_to_settings"
-            app:destination="@id/settings" />
+            android:id="@+id/action_MainMenu_to_Settings"
+            app:destination="@id/Settings" />
         <action
             android:id="@+id/action_MainMenu_to_help"
-            app:destination="@id/help" />
+            app:destination="@id/Help" />
         <action
             android:id="@+id/action_MainMenu_to_dmManger"
             app:destination="@id/DMManager" />
@@ -33,6 +33,9 @@
         android:label="@string/second_fragment_label"
         tools:layout="@layout/character_list">
 
+        <action
+            android:id="@+id/goToCreator"
+            app:destination="@id/CharacterCreatorPageOne" />
         <action
             android:id="@+id/goToMainMenu"
             app:destination="@id/MainMenu" />
@@ -62,15 +65,15 @@
             app:destination="@id/MainMenu" />
     </fragment>
     <fragment
-        android:id="@+id/settings"
+        android:id="@+id/Settings"
         android:name="com.example.dnd5emanager.Settings"
-        android:label="fragment_settings"
+        android:label="fragment_Settings"
         tools:layout="@layout/settings" >
         <action
-            android:id="@+id/action_settings_to_MainMenu"
+            android:id="@+id/action_Settings_to_MainMenu"
             app:destination="@id/Help" />
         <action
-            android:id="@+id/action_settings_to_MainMenu2"
+            android:id="@+id/action_Settings_to_Help"
             app:destination="@id/MainMenu" />
     </fragment>
     <fragment
@@ -82,8 +85,8 @@
             android:id="@+id/action_help_to_MainMenu"
             app:destination="@id/MainMenu" />
         <action
-            android:id="@+id/action_help_to_settings"
-            app:destination="@id/settings" />
+            android:id="@+id/action_help_to_Settings"
+            app:destination="@id/Settings" />
     </fragment>
     <fragment
         android:id="@+id/DMManager"
@@ -93,5 +96,13 @@
         <action
             android:id="@+id/action_dmManger_to_MainMenu"
             app:destination="@id/MainMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/CharacterCreatorPageOne"
+        android:name="com.example.dnd5emanager.CharacterCreatorPageOne"
+        android:label="CharacterCreatorPageOne" >
+        <action
+            android:id="@+id/goToCharacterView"
+            app:destination="@id/CharacterView" />
     </fragment>
 </navigation>

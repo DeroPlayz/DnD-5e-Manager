@@ -9,7 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Race;
@@ -34,28 +33,23 @@ public class MainMenu extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.buttonFirst.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.goToCharacterList)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)
         );
         binding.buttonFourth.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.goToData)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
         );
         binding.settingsButton.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.action_MainMenu_to_settings)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Settings)
         );
         binding.helpButton.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.action_MainMenu_to_help)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_help)
         );
         binding.DmButton.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this)
-                        .navigate(R.id.action_MainMenu_to_dmManger)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_dmManger)
         );
     }
 
-    public static final PlayerCharacter Matthew = new PlayerCharacter("Matthew", 15, 15, 15, 15, 15, 15, new Race(), Constants.Fighter, 1);
+    public static PlayerCharacter Matthew = new PlayerCharacter("Matthew", 15, 15, 15, 15, 15, 15, new Race(), Constants.Fighter, 1);
 
     @Override
     public void onDestroyView() {

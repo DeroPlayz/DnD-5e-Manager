@@ -8,7 +8,7 @@
     tools:context=".CharacterView">
 
     <EditText
-        android:id="@+id/enterName"
+        android:id="@+id/character_creator_page_one_enter_name"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
@@ -17,10 +17,11 @@
         android:inputType="text"
         android:text="@string/EditCharacterNameDefaultText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/enterLevel"
+        android:id="@+id/character_creator_page_one_enter_level"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="340dp"
@@ -32,14 +33,29 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="match_parent"
+        android:id="@+id/character_creator_page_one_select_class"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:entries="@array/Classes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/character_creator_page_one_view_character_demo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:entries="penus"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="133dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:text="View Character!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

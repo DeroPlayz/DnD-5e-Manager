@@ -36,6 +36,10 @@ public class CharacterList extends Fragment {
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToCharacterView)
         );
+        binding.buttonSixth.setOnClickListener(v ->
+                NavHostFragment.findNavController(CharacterList.this)
+                        .navigate(R.id.goToCreator)
+        );
 
     }
 

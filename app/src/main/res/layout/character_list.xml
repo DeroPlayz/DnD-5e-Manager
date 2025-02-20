@@ -13,10 +13,10 @@
 
 
         <Button
-            android:id="@+id/button_Third"
+            android:id="@+id/character_list_view_character_demo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/character_message"
+            android:text="@string/Character"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.883"
             app:layout_constraintStart_toStartOf="parent"
@@ -24,13 +24,24 @@
 
 
         <Button
-            android:id="@+id/button_second"
+            android:id="@+id/character_list_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="96dp"
             android:text="@string/back"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/character_list_make_new_character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="make"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
