@@ -24,7 +24,6 @@
         android:id="@+id/character_creator_page_one_enter_level"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="340dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
@@ -32,16 +31,25 @@
         android:text="@string/EditCharacterLevelDefaultText"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="Autofill" />
 
     <Spinner
         android:id="@+id/character_creator_page_one_select_race"
-        android:layout_width="190dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="100dp"
+        android:entries="@array/Races"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/character_creator_page_one_select_race2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
         android:entries="@array/Races"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
