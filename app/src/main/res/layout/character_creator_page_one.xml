@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/character_creator_page_one_select_race2"
+        android:id="@+id/character_creator_page_one_select_subrace"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"

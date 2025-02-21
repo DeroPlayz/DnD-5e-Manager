@@ -31,16 +31,29 @@ public class CharacterCreatorPageOne extends Fragment {
 
     }
 
+//    private View.OnFocusChangeListener RaceListener(View view){
+//        Spinner Race = view.findViewById(R.id.character_creator_page_one_select_race);
+//        Spinner Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
+//        if(Race.getSelectedItem().toString().equals("Aarakocra")){
+//            Subrace.setEnabled(false);
+//            Subrace.setClickable(false);
+//            Subrace.setVisibility(View.INVISIBLE);
+//        };
+//    }
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-
+        EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
+        EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
+        Spinner Race = view.findViewById(R.id.character_creator_page_one_select_race);
+        Spinner Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
+        Spinner Class = view.findViewById(R.id.character_creator_page_one_select_class);
         super.onViewCreated(view, savedInstanceState);
+        View.OnFocusChangeListener onFocusChangeListener = null;
+        binding.characterCreatorPageOneSelectRace.setOnFocusChangeListener(onFocusChangeListener);
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
-            EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
-            EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
-            Spinner Class = view.findViewById(R.id.character_creator_page_one_select_class);
-
             NewCharacter.setName(Name.getText().toString());
-            NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
+            CharacterCreatorPageOne.NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
+
             NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
             }
         );

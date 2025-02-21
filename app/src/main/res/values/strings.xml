@@ -34,46 +34,54 @@
         <item>Aarakocra</item>
         <item>Aasimar</item>
         <item>Bugbear</item>
+        <item>Catfolk</item>
         <item>Centaur</item>
         <item>Changeling</item>
-        <item>Deep Gnome</item>
         <item>Dragonborn</item>
-        <item>Duergar</item>
         <item>Dwarf</item>
-        <item>Eladrin</item>
         <item>Elf</item>
-        <item>Fairy</item>
         <item>Firbolg</item>
         <item>Genasi</item>
-        <item>Githyanki</item>
-        <item>Githzerai</item>
+        <item>Gith</item>
         <item>Gnome</item>
         <item>Goblin</item>
         <item>Goliath</item>
-        <item>Grung</item>
         <item>Half-Elf</item>
+        <item>Half-Hag</item>
         <item>Half-Orc</item>
         <item>Halfling</item>
-        <item>Harengon</item>
         <item>Hobgoblin</item>
         <item>Human</item>
+        <item>Human Revenant</item>
+        <item>Kalashtar</item>
         <item>Kenku</item>
         <item>Kobold</item>
+        <item>Leonin</item>
         <item>Lizardfolk</item>
-        <item>Locathah</item>
+        <item>Loxodon</item>
+        <item>Mark of Detection Half-Elf</item>
+        <item>Mark of Finding Half-Orc</item>
+        <item>Mark of Handling Human</item>
+        <item>Mark of Making Human</item>
+        <item>Mark of Passage Human</item>
+        <item>Mark of Sentinel Human</item>
+        <item>Mark of Storm Half-Elf</item>
+        <item>Mindflayer</item>
         <item>Minotaur</item>
         <item>Orc</item>
-        <item>Owlin</item>
         <item>Satyr</item>
-        <item>Sea Elf</item>
-        <item>Shadar-Kai</item>
         <item>Shifter</item>
         <item>Tabaxi</item>
         <item>Tiefling</item>
         <item>Tortle</item>
         <item>Triton</item>
-        <item>Verdan</item>
-        <item>Yuan-Ti</item>
+        <item>Vampire</item>
+        <item>Variant Human</item>
+        <item>Vedalken</item>
+        <item>Viashino</item>
+        <item>Warforged</item>
+        <item>Wolfborn</item>
+        <item>Yuan-Ti Pureblood</item>
     </string-array>
 
     <string-array name="Classes">
