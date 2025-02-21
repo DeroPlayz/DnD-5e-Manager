@@ -1,30 +1,31 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.CharacterClass.*;
-import static com.example.dnd5emanager.DataClasses.Constants.Artificer;
-import static com.example.dnd5emanager.DataClasses.Feature.*;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Subclass{
 
-    private final CharacterClass Parent;
+    private CharacterClass Parent = null;
 
-    private final String Name;
+    private String Name = "";
         public String getName() {
-            return Name;
+            if (Name == null){
+                return Name;
+            }
+            return Parent.getName();
         }
 
-    private final ArrayList<Feature> SubclassFeatures;
+    private ArrayList<Feature> SubclassFeatures = null;
         public ArrayList<Feature> getFeatures(){return SubclassFeatures;}
 
+    public Subclass(String Name, CharacterClass Parent){
+        this.Name = Name;
+        this.Parent = Parent;
+    }
 
     public Subclass(String Name, CharacterClass Parent, ArrayList<Feature> SubclassFeatures){
         this.Name = Name;
         this.Parent = Parent;
         this.SubclassFeatures = SubclassFeatures;
     }
-
-    public final static Subclass Alchemist = new Subclass("Alchemist", Artificer, AlchemistFeatures);
+    public Subclass(){}
 }

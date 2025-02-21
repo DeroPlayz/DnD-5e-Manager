@@ -37,25 +37,33 @@
         tools:ignore="Autofill" />
 
     <Spinner
-        android:id="@+id/character_creator_page_one_select_class"
-        android:layout_width="300dp"
+        android:id="@+id/character_creator_page_one_select_race"
+        android:layout_width="190dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="100dp"
-        android:entries="@array/Classes"
+        android:entries="@array/Races"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/character_creator_page_one_select_class"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:entries="@array/Classes"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/character_creator_page_one_view_character_demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="30dp"
         android:text="View Character!"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,10 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainMenu extends Fragment {
 
@@ -49,7 +50,7 @@ public class MainMenu extends Fragment {
         );
     }
 
-    public static PlayerCharacter Matthew = new PlayerCharacter("Matthew", 15, 15, 15, 15, 15, 15, new Race(), Constants.Fighter, 1);
+    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
 
     @Override
     public void onDestroyView() {

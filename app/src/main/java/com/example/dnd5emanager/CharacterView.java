@@ -1,16 +1,15 @@
 package com.example.dnd5emanager;
 
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+
+import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
 ///**
@@ -33,17 +32,26 @@ public class CharacterView extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        TextView textView = view.findViewById(R.id.textView);
-        textView.setText(MainMenu.Matthew.getName());
+        int CharNum = MainMenu.Characters.size()-1;
 
-//        binding.buttonSubThird.setOnClickListener(v ->
-//                NavHostFragment.findNavController(CharacterView.this)
-//                        .navigate(R.id.goToCharacterList)
-//        );
+        TextView CharacterName = view.findViewById(R.id.characterName);
+        CharacterName.setText(CharacterCreatorPageOne.NewCharacter.getName());
+
+        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
+        String LevelDisp = "";
+        LevelDisp += "Level " + CharacterCreatorPageOne.NewCharacter.getLevel() + " ";
+        if(CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() != CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName()){
+            LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() + " ";
+        }
+        LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName();
+
+        CharacterLevel.setText(LevelDisp);
+
     }
 
     @Override
     public void onDestroyView() {
+        CharacterCreatorPageOne.NewCharacter = new PlayerCharacter();
         super.onDestroyView();
         binding = null;
     }

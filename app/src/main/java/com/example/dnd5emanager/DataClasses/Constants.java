@@ -1,5 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Feature.AlchemistFeatures;
 import static com.example.dnd5emanager.DataClasses.Feature.ArtificerFeatures;
 import static com.example.dnd5emanager.DataClasses.Feature.BarbarianFeatures;
 import static com.example.dnd5emanager.DataClasses.Feature.BardFeatures;
@@ -213,4 +214,41 @@ public class Constants{
             true, false, false,
             WizardSelectableSkillsProficiencies, WizardSelectableWeaponProficiencies, WizardSelectableToolProficiencies,
             WizardSelectableArmorProficiencies, 0, 0, 0,0, WizardFeatures, 1, Intelligence, 6);
+
+    public final static Subclass SubArtificer = new Subclass("Artificer", Artificer);
+    public final static Subclass SubBarbarian = new Subclass("Barbarian", Barbarian);
+    public final static Subclass SubBard = new Subclass("Bard", Bard);
+    public final static Subclass SubCleric = new Subclass("Cleric", Cleric);
+    public final static Subclass SubDruid = new Subclass("Druid", Druid);
+    public final static Subclass SubFighter = new Subclass("Fighter", Fighter);
+    public final static Subclass SubMonk = new Subclass("Monk", Monk);
+    public final static Subclass SubPaladin = new Subclass("Paladin", Paladin);
+    public final static Subclass SubRanger = new Subclass("Ranger", Ranger);
+    public final static Subclass SubRogue = new Subclass("Rogue", Rogue);
+    public final static Subclass SubSorcerer = new Subclass("Sorcerer", Sorcerer);
+    public final static Subclass SubWarlock = new Subclass("Warlock", Warlock);
+    public final static Subclass SubWizard = new Subclass("Wizard", Wizard);
+
+    public final static Subclass Alchemist = new Subclass("Alchemist", Artificer, AlchemistFeatures);
+
+    public static ArrayList<CharacterClass> GlobalClassList = new ArrayList<CharacterClass>(Arrays.asList(Artificer, Barbarian, Bard, Cleric, Druid, Monk, Fighter, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard));
+    public static ArrayList<Subclass> ClassesAsSubs = new ArrayList<Subclass>(Arrays.asList(SubArtificer, SubBarbarian, SubBard, SubCleric, SubDruid, SubFighter, SubMonk, SubPaladin, SubRanger, SubRogue, SubSorcerer, SubWarlock, SubWizard));
+
+    public static CharacterClass findClass(String Name){
+        for(int i = 0; i < GlobalClassList.size(); i++){
+            if(GlobalClassList.get(i).getName().equals(Name)){
+                return GlobalClassList.get(i);
+            }
+        }
+        return null;
+    }
+
+    public static Subclass findSub(String Name){
+        for(int i = 0; i < ClassesAsSubs.size(); i++){
+            if(ClassesAsSubs.get(i).getName().equals(Name)){
+                return ClassesAsSubs.get(i);
+            }
+        }
+        return null;
+    }
 }

@@ -7,6 +7,32 @@ public class PlayerCharacter {
         public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
 
+    public void setLevel(int Level){
+        Classes.get(Classes.size()-1).setLevel(Level);
+    }
+    public int getLevel(){
+        if(Classes.size() > 1) {
+            int Level = 0;
+            for (int i = 0; i < Classes.size(); i++) {
+                Level += Classes.get(i).getLevel();
+            }
+            return Level;
+        }
+        return Classes.get(0).getLevel();
+    }
+
+    public void setCharClass(CharacterClass CharClass){
+        Classes.get(0).setCharClass(CharClass);
+    }
+    public void setCharClass(CharacterClass CharClass, int Level){
+        Classes.get(0).setCharClass(CharClass);
+        Classes.get(0).setLevel(Level);
+    }
+
+    public ArrayList<ClassAndLevel> getClasses(){
+        return Classes;
+    }
+
     private int HP;
         public void setHP(int HP){this.HP = HP;}
         public int getHP(){return HP;}
@@ -108,15 +134,15 @@ public class PlayerCharacter {
             CharacterClass chosenClass = Constants.Fighter;
             Classes.get(ClassAndLevel.findClass(Classes, chosenClass)).levelUp();
             int target = ClassAndLevel.findClass(Classes, chosenClass);
-            for(int i = 0; i < Classes.get(target).Class.getFeatures().size(); i++){
-                if(Classes.get(target).Class.getFeatures().get(i).getLevel() <= Classes.get(target).Class.getLevel() &&
-                !PlayerFeatures.contains(Classes.get(target).Class.getFeatures().get(i))){
-                    PlayerFeatures.add(Classes.get(target).Class.getFeatures().get(i));
+            for(int i = 0; i < Classes.get(target).CharClass.getFeatures().size(); i++){
+                if(Classes.get(target).CharClass.getFeatures().get(i).getLevel() <= Classes.get(target).CharClass.getLevel() &&
+                !PlayerFeatures.contains(Classes.get(target).CharClass.getFeatures().get(i))){
+                    PlayerFeatures.add(Classes.get(target).CharClass.getFeatures().get(i));
                 }
             }
             if(Classes.get(target).Subclass != null) {
                 for (int i = 0; i < Classes.get(target).Subclass.getFeatures().size(); i++) {
-                    if (Classes.get(target).Subclass.getFeatures().get(i).getLevel() <= Classes.get(target).Class.getLevel() &&
+                    if (Classes.get(target).Subclass.getFeatures().get(i).getLevel() <= Classes.get(target).CharClass.getLevel() &&
                             !PlayerFeatures.contains(Classes.get(target).Subclass.getFeatures().get(i))) {
                         PlayerFeatures.add(Classes.get(target).Subclass.getFeatures().get(i));
                     }
@@ -135,9 +161,11 @@ public class PlayerCharacter {
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.
     private int ArmorClass;
 
-
-
     //Builds the character (duh).
+    public PlayerCharacter(){
+        Name = "";
+        Level = Strength = StrengthBonus = Athletics = Dexterity = DexterityBonus = Acrobatics = SleightOfHand = Stealth = Constitution = ConstitutionBonus = HP = Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion = Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival = Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
+    }
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
         this.Name = Name;
         this.Race = Race;
@@ -159,7 +187,7 @@ public class PlayerCharacter {
         ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        HP = Classes.get(0).Class.getInitialHP() + ConstitutionBonus;
+        HP = Classes.get(0).CharClass.getInitialHP() + ConstitutionBonus;
 
         this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.

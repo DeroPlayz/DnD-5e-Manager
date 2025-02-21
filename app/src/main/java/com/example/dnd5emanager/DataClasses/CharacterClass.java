@@ -1,13 +1,8 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
-import static com.example.dnd5emanager.DataClasses.Feature.*;
+import androidx.annotation.NonNull;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
 
 public class CharacterClass {
     private String Name;
@@ -28,10 +23,6 @@ public class CharacterClass {
 
     public void setStrengthSavingThrowProf(boolean StrengthSavingThrowProf) {
         this.StrengthSavingThrowProf = StrengthSavingThrowProf;
-    }
-
-    public boolean getStrengthSavingThrowProf() {
-        return StrengthSavingThrowProf;
     }
 
     private boolean DexteritySavingThrowProf;
@@ -84,22 +75,22 @@ public class CharacterClass {
         return CharismaSavingThrowProf;
     }
 
-    private final ArrayList<String> SkillProficiencyOptions;
+    private ArrayList<String> SkillProficiencyOptions = new ArrayList<>();
         public ArrayList<String> getSkillProficiencyOptions(){return SkillProficiencyOptions;}
     private int SkillProfChoiceCount;
         public int getSkillProfChoiceCount(){return SkillProfChoiceCount;}
 
-    private final ArrayList<String> WeaponProficiencies;
+    private ArrayList<String> WeaponProficiencies = new ArrayList<>();
         public ArrayList<String> getWeaponProficiencies(){return WeaponProficiencies;}
     private int WeaponProfChoiceCount;
         public int getWeaponProfChoiceCount(){return WeaponProfChoiceCount;}
 
-    private final ArrayList<String> ToolProficiencies;
+    private ArrayList<String> ToolProficiencies = new ArrayList<>();
         public ArrayList<String> getToolProficiencies(){return ToolProficiencies;}
     private int ToolProfChoiceCount;
         public int getToolProfChoiceCount(){return ToolProfChoiceCount;}
 
-    private final ArrayList<String> ArmorProficiencies;
+    private ArrayList<String> ArmorProficiencies = new ArrayList<>();
         public ArrayList<String> getArmorProficiencies(){return ArmorProficiencies;}
     private int ArmorProfChoiceCount;
         public int getArmorProfChoiceCount(){return ArmorProfChoiceCount;}
@@ -163,5 +154,11 @@ public class CharacterClass {
         this.AttacksPerAction = AttacksPerAction;
         this.SpellcastingAbility = SpellcastingAbility;
         this.InitialHP = InitialHP;
+    }
+
+    @NonNull
+    @Override
+    public String toString(){
+        return Name;
     }
 }
