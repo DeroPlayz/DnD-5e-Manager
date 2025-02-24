@@ -1,9 +1,12 @@
 package com.example.dnd5emanager;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnFocusChangeListener;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -31,16 +34,6 @@ public class CharacterCreatorPageOne extends Fragment {
 
     }
 
-//    private View.OnFocusChangeListener RaceListener(View view){
-//        Spinner Race = view.findViewById(R.id.character_creator_page_one_select_race);
-//        Spinner Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
-//        if(Race.getSelectedItem().toString().equals("Aarakocra")){
-//            Subrace.setEnabled(false);
-//            Subrace.setClickable(false);
-//            Subrace.setVisibility(View.INVISIBLE);
-//        };
-//    }
-
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
         EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
@@ -48,8 +41,28 @@ public class CharacterCreatorPageOne extends Fragment {
         Spinner Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
         Spinner Class = view.findViewById(R.id.character_creator_page_one_select_class);
         super.onViewCreated(view, savedInstanceState);
-        View.OnFocusChangeListener onFocusChangeListener = null;
-        binding.characterCreatorPageOneSelectRace.setOnFocusChangeListener(onFocusChangeListener);
+        OnFocusChangeListener onFocusChangeListener = null;
+        binding.characterCreatorPageOneSelectRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Log.d("Adapter View", parent.toString());
+                Log.d("Position", String.valueOf(position));
+                Log.d("ID", String.valueOf(id));
+                Subrace.setEnabled(true);
+                Subrace.setClickable(true);
+                Subrace.setVisibility(View.VISIBLE);
+                if(Race.getSelectedItem().toString().equals("Aarakocra")){
+                        Subrace.setEnabled(false);
+                        Subrace.setClickable(false);
+                        Subrace.setVisibility(View.INVISIBLE);
+                };
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
             NewCharacter.setName(Name.getText().toString());
             CharacterCreatorPageOne.NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
