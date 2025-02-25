@@ -51,6 +51,7 @@ public class MainMenu extends Fragment {
     }
 
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
+    public static ArrayList<String> RacesWithNoSub = new ArrayList<String>(List.of());
 
     public static final ArrayList<String> RacesInit = new ArrayList<String>(List.of("Aarakocra", "Aasimar",
             "Bugbear", "Catfolk", "Centaur", "Changeling", "Dragonborn", "Dwarf", "Elf", "Firbolg",
