@@ -80,12 +80,48 @@
         android:name="com.example.dnd5emanager.DMManager"
         android:label="fragment_dm_manger"
         tools:layout="@layout/dm_manager" >
+        <action
+            android:id="@+id/action_DMManager_to_campaignList"
+            app:destination="@id/campaignList" />
     </fragment>
 
     <fragment
         android:id="@+id/CharacterCreatorPageOne"
         android:name="com.example.dnd5emanager.CharacterCreatorPageOne"
         android:label="CharacterCreatorPageOne" >
+    </fragment>
+    <fragment
+        android:id="@+id/campaignList"
+        android:name="com.example.dnd5emanager.CampaignList"
+        android:label="campaign_list"
+        tools:layout="@layout/campaign_list" >
+        <action
+            android:id="@+id/action_campaignList_to_campaignSheet"
+            app:destination="@id/campaignSheet" />
+        <action
+            android:id="@+id/action_campaignList_to_DMManager"
+            app:destination="@id/DMManager" />
+    </fragment>
+    <fragment
+        android:id="@+id/campaignSheet"
+        android:name="com.example.dnd5emanager.CampaignSheet"
+        android:label="campaign_sheet"
+        tools:layout="@layout/campaign_sheet" >
+        <action
+            android:id="@+id/action_campaignSheet_to_dmPlayerManger"
+            app:destination="@id/dmPlayerManger" />
+        <action
+            android:id="@+id/action_campaignSheet_to_campaignList"
+            app:destination="@id/campaignList" />
+    </fragment>
+    <fragment
+        android:id="@+id/dmPlayerManger"
+        android:name="com.example.dnd5emanager.DmPlayerManger"
+        android:label="dm_player_manger"
+        tools:layout="@layout/dm_player_manger" >
+        <action
+            android:id="@+id/action_dmPlayerManger_to_campaignSheet"
+            app:destination="@id/campaignSheet" />
     </fragment>
 
 </navigation>
