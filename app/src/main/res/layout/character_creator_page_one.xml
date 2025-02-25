@@ -68,8 +68,8 @@
         android:id="@+id/character_creator_page_one_view_character_demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="28dp"
         android:text="View Character!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

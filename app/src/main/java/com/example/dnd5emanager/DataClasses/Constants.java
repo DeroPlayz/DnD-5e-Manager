@@ -19,201 +19,210 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Constants{
+public class Constants {
     //Abilities
-        public static final String Strength = "Strength";
-        public static final String Dexterity = "Dexterity";
-        public static final String Constitution = "Constitution";
-        public static final String Intelligence = "Intelligence";
-        public static final String Wisdom = "Wisdom";
-        public static final String Charisma = "Charisma";
-        public static final String None = " ";
+    public static final String Strength = "Strength";
+    public static final String Dexterity = "Dexterity";
+    public static final String Constitution = "Constitution";
+    public static final String Intelligence = "Intelligence";
+    public static final String Wisdom = "Wisdom";
+    public static final String Charisma = "Charisma";
+    public static final String None = " ";
     //Skills
-        //Strength
-            public static final String Athletics = "Athletics";
-        //Dexterity
-            public static final String Acrobatics = "Acrobatics";
-            public static final String SleightOfHand = "Sleight of Hand";
-            public static final String Stealth = "Stealth";
-        //Intelligence
-            public static final String Arcana = "Arcana";
-            public static final String History = "History";
-            public static final String Investigation = "Investigation";
-            public static final String Nature = "Nature";
-            public static final String Religion = "Religion";
-        //Wisdom
-            public static final String AnimalHandling = "Animal Handling";
-            public static final String Insight = "Insight";
-            public static final String Medicine = "Medicine";
-            public static final String Perception = "Perception";
-            public static final String Survival = "Survival";
-        //Charisma
-            public static final String Deception = "Deception";
-            public static final String Intimidation = "Intimidation";
-            public static final String Performance = "Performance";
-            public static final String Persuasion = "Persuasion";
+    //Strength
+    public static final String Athletics = "Athletics";
+    //Dexterity
+    public static final String Acrobatics = "Acrobatics";
+    public static final String SleightOfHand = "Sleight of Hand";
+    public static final String Stealth = "Stealth";
+    //Intelligence
+    public static final String Arcana = "Arcana";
+    public static final String History = "History";
+    public static final String Investigation = "Investigation";
+    public static final String Nature = "Nature";
+    public static final String Religion = "Religion";
+    //Wisdom
+    public static final String AnimalHandling = "Animal Handling";
+    public static final String Insight = "Insight";
+    public static final String Medicine = "Medicine";
+    public static final String Perception = "Perception";
+    public static final String Survival = "Survival";
+    //Charisma
+    public static final String Deception = "Deception";
+    public static final String Intimidation = "Intimidation";
+    public static final String Performance = "Performance";
+    public static final String Persuasion = "Persuasion";
 
     //Weapon Properties
-        //Range
-            public static final String MeleeWeapon = "Melee";
-            public static final String RangedWeapon = "Ranged";
-        //Type
-            public static final String SimpleWeapon = "Simple";
-            public static final String Twohanded = "Two-handed";
-            public static final String MartialWeapon = "Martial";
-            public static final String VersatileWeapon = "Versatile";
-            public static final String FinesseWeapon = "Finesse";
-            public static final String ReachWeapon = "Reach";
-            public static final String ThrownWeapon = "Thrown";
-            public static final String SpecialWeapon = "Special";
-        //Weight
-            public static final String LightWeapon = "Light";
-            public static final String HeavyWeapon = "Heavy";
-        //Ranged-Specific
-            public static final String WeaponAmmo = "Ammunition";
-            public static final String LoadingWeapon = "Loading";
+    //Range
+    public static final String MeleeWeapon = "Melee";
+    public static final String RangedWeapon = "Ranged";
+    //Type
+    public static final String SimpleWeapon = "Simple";
+    public static final String Twohanded = "Two-handed";
+    public static final String MartialWeapon = "Martial";
+    public static final String VersatileWeapon = "Versatile";
+    public static final String FinesseWeapon = "Finesse";
+    public static final String ReachWeapon = "Reach";
+    public static final String ThrownWeapon = "Thrown";
+    public static final String SpecialWeapon = "Special";
+    //Weight
+    public static final String LightWeapon = "Light";
+    public static final String HeavyWeapon = "Heavy";
+    //Ranged-Specific
+    public static final String WeaponAmmo = "Ammunition";
+    public static final String LoadingWeapon = "Loading";
 
     //Skill Proficiency References
-        static final ArrayList<String> ArtificerSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> ArtificerSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Arcana, History, Investigation, Medicine, Nature, Perception, SleightOfHand));
-        static final ArrayList<String> BarbarianSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> BarbarianSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival));
-        static final ArrayList<String> BardSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> BardSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Athletics, Acrobatics, SleightOfHand, Stealth, Arcana, History, Investigation, Nature,
             Religion, AnimalHandling, Insight, Medicine, Perception, Survival, Deception, Intimidation,
             Performance, Persuasion));
-        static final ArrayList<String> ClericSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> ClericSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             History, Insight, Medicine, Persuasion, Religion));
-        static final ArrayList<String> DruidSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> DruidSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Arcana, AnimalHandling, Insight, Medicine, Nature, Perception, Religion, Survival));
-        static final ArrayList<String> FighterSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> FighterSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Acrobatics, AnimalHandling, Athletics, History, Insight, Intimidation, Perception, Survival));
-        static final ArrayList<String> MonkSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> MonkSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Acrobatics, Athletics, History, Insight, Religion, Stealth));
-        static final ArrayList<String> PaladinSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> PaladinSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Athletics, Insight, Intimidation, Medicine, Persuasion, Religion));
-        static final ArrayList<String> RangerSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> RangerSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             AnimalHandling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival));
-        static final ArrayList<String> RogueSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> RogueSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, SleightOfHand, Stealth));
-        static final ArrayList<String> SorcererSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> SorcererSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Arcana, Deception, Insight, Intimidation, Persuasion, Religion));
-        static final ArrayList<String> WarlockSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> WarlockSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Arcana, Deception, History, Intimidation, Investigation, Nature, Religion));
-        static final ArrayList<String> WizardSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
+    static final ArrayList<String> WizardSelectableSkillsProficiencies = new ArrayList<String>(Arrays.asList(
             Arcana, History, Insight, Investigation, Medicine, Religion));
 
     //Weapon Proficiency References
-        static final ArrayList<String> ArtificerSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> BarbarianSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
-        static final ArrayList<String> BardSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, Hand crossbows, longswords, rapiers, shortswords*/));
-        static final ArrayList<String> ClericSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> DruidSelectableWeaponProficiencies = new ArrayList<String>(List.of(/* Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears*/));
-        static final ArrayList<String> FighterSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> MonkSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, shortswords*/));
-        static final ArrayList<String> PaladinSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
-        static final ArrayList<String> RangerSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
-        static final ArrayList<String> RogueSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, hand crossbows, longswords, rapiers, shortswords*/));
-        static final ArrayList<String> SorcererSelectableWeaponProficiencies = new ArrayList<String>(List.of(/*Daggers, darts, slings, quarterstaffs, light crossbows*/));
-        static final ArrayList<String> WarlockSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> WizardSelectableWeaponProficiencies = new ArrayList<String>(List.of(/*Daggers, darts, slings, quarterstaffs, light crossbows*/));
+    static final ArrayList<String> ArtificerSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> BarbarianSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
+    static final ArrayList<String> BardSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, Hand crossbows, longswords, rapiers, shortswords*/));
+    static final ArrayList<String> ClericSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> DruidSelectableWeaponProficiencies = new ArrayList<String>(List.of(/* Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears*/));
+    static final ArrayList<String> FighterSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> MonkSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, shortswords*/));
+    static final ArrayList<String> PaladinSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
+    static final ArrayList<String> RangerSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon, MartialWeapon));
+    static final ArrayList<String> RogueSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon/*, hand crossbows, longswords, rapiers, shortswords*/));
+    static final ArrayList<String> SorcererSelectableWeaponProficiencies = new ArrayList<String>(List.of(/*Daggers, darts, slings, quarterstaffs, light crossbows*/));
+    static final ArrayList<String> WarlockSelectableWeaponProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> WizardSelectableWeaponProficiencies = new ArrayList<String>(List.of(/*Daggers, darts, slings, quarterstaffs, light crossbows*/));
 
     //Tool Proficiency References
-        static final ArrayList<String> ArtificerSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> BarbarianSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> BardSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> ClericSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> DruidSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> FighterSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> MonkSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> PaladinSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> RangerSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> RogueSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> SorcererSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> WarlockSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
-        static final ArrayList<String> WizardSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> ArtificerSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> BarbarianSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> BardSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> ClericSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> DruidSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> FighterSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> MonkSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> PaladinSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> RangerSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> RogueSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> SorcererSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> WarlockSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
+    static final ArrayList<String> WizardSelectableToolProficiencies = new ArrayList<String>(List.of("Light", "Medium", "Shield"));
 
     //Armor Proficiency References
-        static final ArrayList<String> ArtificerSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> BarbarianSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> BardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> ClericSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> DruidSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> FighterSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> MonkSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> PaladinSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> RangerSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> RogueSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> SorcererSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> ArtificerSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> BarbarianSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> BardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> ClericSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> DruidSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> FighterSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> MonkSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> PaladinSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> RangerSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> RogueSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> SorcererSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
 
     //Class Declarations
     public static final CharacterClass Artificer = new CharacterClass("Artificer",
             false, false, true,
             true, false, false,
             ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies,
-            ArtificerSelectableArmorProficiencies, 0, 0, 0,0, ArtificerFeatures, 1, Intelligence, 8);
+            ArtificerSelectableArmorProficiencies, 0, 0, 0, 0, ArtificerFeatures, 1, Intelligence, 8);
     public static final CharacterClass Barbarian = new CharacterClass("Barbarian",
             true, false, true,
             false, false, false,
             BarbarianSelectableSkillsProficiencies, BarbarianSelectableWeaponProficiencies, BarbarianSelectableToolProficiencies,
-            BarbarianSelectableArmorProficiencies, 0, 0, 0,0, BarbarianFeatures, 1, None, 12);
+            BarbarianSelectableArmorProficiencies, 0, 0, 0, 0, BarbarianFeatures, 1, None, 12);
     public static final CharacterClass Bard = new CharacterClass("Bard",
             false, false, true,
             true, false, false,
             BardSelectableSkillsProficiencies, BardSelectableWeaponProficiencies, BardSelectableToolProficiencies,
-            BardSelectableArmorProficiencies, 0, 0, 0,0, BardFeatures, 1, Charisma, 8);
+            BardSelectableArmorProficiencies, 0, 0, 0, 0, BardFeatures, 1, Charisma, 8);
     public static final CharacterClass Cleric = new CharacterClass("Cleric",
             false, false, true,
             true, false, false,
             ClericSelectableSkillsProficiencies, ClericSelectableWeaponProficiencies, ClericSelectableToolProficiencies,
-            ClericSelectableArmorProficiencies, 0, 0, 0,0, ClericFeatures, 1, Wisdom, 8);
+            ClericSelectableArmorProficiencies, 0, 0, 0, 0, ClericFeatures, 1, Wisdom, 8);
     public static final CharacterClass Druid = new CharacterClass("Druid",
             false, false, true,
             true, false, false,
             DruidSelectableSkillsProficiencies, DruidSelectableWeaponProficiencies, DruidSelectableToolProficiencies,
-            DruidSelectableArmorProficiencies, 0, 0, 0,0, DruidFeatures, 1, Wisdom, 8);
+            DruidSelectableArmorProficiencies, 0, 0, 0, 0, DruidFeatures, 1, Wisdom, 8);
     public static final CharacterClass Fighter = new CharacterClass("Fighter",
             false, false, true,
             true, false, false,
             FighterSelectableSkillsProficiencies, FighterSelectableWeaponProficiencies, FighterSelectableToolProficiencies,
-            FighterSelectableArmorProficiencies, 0, 0, 0,0, FighterFeatures, 1, None, 10);
+            FighterSelectableArmorProficiencies, 0, 0, 0, 0, FighterFeatures, 1, None, 10);
     public static final CharacterClass Monk = new CharacterClass("Monk",
             false, false, true,
             true, false, false,
             MonkSelectableSkillsProficiencies, MonkSelectableWeaponProficiencies, MonkSelectableToolProficiencies,
-            MonkSelectableArmorProficiencies, 0, 0, 0,0, MonkFeatures, 1, None, 8);
+            MonkSelectableArmorProficiencies, 0, 0, 0, 0, MonkFeatures, 1, None, 8);
     public static final CharacterClass Paladin = new CharacterClass("Paladin",
             false, false, true,
             true, false, false,
             PaladinSelectableSkillsProficiencies, PaladinSelectableWeaponProficiencies, PaladinSelectableToolProficiencies,
-            PaladinSelectableArmorProficiencies, 0, 0, 0,0, PaladinFeatures, 1, Charisma, 10);
+            PaladinSelectableArmorProficiencies, 0, 0, 0, 0, PaladinFeatures, 1, Charisma, 10);
     public static final CharacterClass Ranger = new CharacterClass("Ranger",
             false, false, true,
             true, false, false,
             RangerSelectableSkillsProficiencies, RangerSelectableWeaponProficiencies, RangerSelectableToolProficiencies,
-            RangerSelectableArmorProficiencies, 0, 0, 0,0, RangerFeatures, 1, Wisdom, 10);
+            RangerSelectableArmorProficiencies, 0, 0, 0, 0, RangerFeatures, 1, Wisdom, 10);
     public static final CharacterClass Rogue = new CharacterClass("Rogue",
             false, false, true,
             true, false, false,
             RogueSelectableSkillsProficiencies, RogueSelectableWeaponProficiencies, RogueSelectableToolProficiencies,
-            RogueSelectableArmorProficiencies, 0, 0, 0,0, RogueFeatures, 1, None, 8);
+            RogueSelectableArmorProficiencies, 0, 0, 0, 0, RogueFeatures, 1, None, 8);
     public static final CharacterClass Sorcerer = new CharacterClass("Sorcerer",
             false, false, true,
             true, false, false,
             SorcererSelectableSkillsProficiencies, SorcererSelectableWeaponProficiencies, SorcererSelectableToolProficiencies,
-            SorcererSelectableArmorProficiencies, 0, 0, 0,0, SorcererFeatures, 1, Charisma, 6);
+            SorcererSelectableArmorProficiencies, 0, 0, 0, 0, SorcererFeatures, 1, Charisma, 6);
     public static final CharacterClass Warlock = new CharacterClass("Warlock",
             false, false, true,
             true, false, false,
             WarlockSelectableSkillsProficiencies, WarlockSelectableWeaponProficiencies, WarlockSelectableToolProficiencies,
-            WarlockSelectableArmorProficiencies, 0, 0, 0,0, WarlockFeatures, 1, Charisma, 8);
+            WarlockSelectableArmorProficiencies, 0, 0, 0, 0, WarlockFeatures, 1, Charisma, 8);
     public static final CharacterClass Wizard = new CharacterClass("Wizard",
             false, false, true,
             true, false, false,
             WizardSelectableSkillsProficiencies, WizardSelectableWeaponProficiencies, WizardSelectableToolProficiencies,
-            WizardSelectableArmorProficiencies, 0, 0, 0,0, WizardFeatures, 1, Intelligence, 6);
+            WizardSelectableArmorProficiencies, 0, 0, 0, 0, WizardFeatures, 1, Intelligence, 6);
+
+    public static CharacterClass findClass(String Name) {
+        for (int i = 0; i < GlobalClassList.size(); i++) {
+            if (GlobalClassList.get(i).getName().equals(Name)) {
+                return GlobalClassList.get(i);
+            }
+        }
+        return null;
+    }
 
     public final static Subclass SubArtificer = new Subclass("Artificer", Artificer);
     public final static Subclass SubBarbarian = new Subclass("Barbarian", Barbarian);
@@ -234,21 +243,84 @@ public class Constants{
     public static ArrayList<CharacterClass> GlobalClassList = new ArrayList<CharacterClass>(Arrays.asList(Artificer, Barbarian, Bard, Cleric, Druid, Monk, Fighter, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard));
     public static ArrayList<Subclass> ClassesAsSubs = new ArrayList<Subclass>(Arrays.asList(SubArtificer, SubBarbarian, SubBard, SubCleric, SubDruid, SubFighter, SubMonk, SubPaladin, SubRanger, SubRogue, SubSorcerer, SubWarlock, SubWizard));
 
-    public static CharacterClass findClass(String Name){
-        for(int i = 0; i < GlobalClassList.size(); i++){
-            if(GlobalClassList.get(i).getName().equals(Name)){
-                return GlobalClassList.get(i);
-            }
-        }
-        return null;
-    }
-
-    public static Subclass findSub(String Name){
-        for(int i = 0; i < ClassesAsSubs.size(); i++){
-            if(ClassesAsSubs.get(i).getName().equals(Name)){
+    public static Subclass findSub(String Name) {
+        for (int i = 0; i < ClassesAsSubs.size(); i++) {
+            if (ClassesAsSubs.get(i).getName().equals(Name)) {
                 return ClassesAsSubs.get(i);
             }
         }
         return null;
     }
+
+    public final static Race Aarakocra = new Race("Aakocra", 10,
+        25, 50, 0, 0, 0,
+        0, 2, 0,
+        0, 1, 0
+    );
+    public final static Race Aasimar = new Race("Aasimar", 10,
+        30, 0, 0, 0, 0,
+        0, 0, 0,
+        0, 0, 2
+    );
+    public final static Race Bugbear = new Race("Bugbear", 10,
+        25, 0, 0, 0, 0,
+        2, 1, 0,
+        0, 0, 0
+    );
+    public final static Race Catfolk = new Race("Catfolk", 10,
+            30, 0, 20, 0, 0,
+            0, 1, 0,
+            0, 0, 0
+    );
+    public final static Race Centaur = new Race("Centaur", 10,
+            40, 0, 0, 0, 0,
+            2, 0, 0,
+            0, 1, 0
+    );
+    public final static Race Changeling = new Race("Changeling", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 2
+    );
+    public final static Race Dragonborn = new Race("Dragonborn", 10,
+            30, 0, 0, 0, 0,
+            2, 0, 0,
+            0, 0, 1
+    );
+    public final static Race Dwarf = new Race("Dwarf", 0,
+            25, 0, 0, 0, 0,
+            0, 0, 2,
+            0, 0, 0
+    );
+    public final static Race Elf = new Race("Elf", 10,
+            30, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 0, 0
+    );
+    public final static Race Firbolg = new Race("Firbolg", 10,
+            30, 0, 0, 0, 0,
+            1, 0, 0,
+            0, 0, 2
+    );
+    public final static Race Genasi = new Race("Genasi", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 2,
+            0, 0, 0
+    );
+    public final static Race Gith = new Race("Gith", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            1, 0, 0
+    );
+    public final static Race Gnome = new Race("Gnome", 10,
+            25, 0, 0, 0, 0,
+            0, 0, 0,
+            2, 0, 0
+    );
+    public final static Race Race = new Race("Race", 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0
+    );
+
 }

@@ -51,7 +51,27 @@ public class MainMenu extends Fragment {
     }
 
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
-    public static ArrayList<String> RacesWithNoSub = new ArrayList<String>(List.of());
+
+    public static final ArrayList<String> RacesInit = new ArrayList<String>(List.of("Aarakocra", "Aasimar",
+            "Bugbear", "Catfolk", "Centaur", "Changeling", "Dragonborn", "Dwarf", "Elf", "Firbolg",
+            "Genasi", "Gith", "Gnome", "Goblin", "Goliath", "Half-Elf", "Half-Hag", "Half-Orc",
+            "Halfling", "Hobgoblin", "Human", "Human Revenant", "Kalashtar", "Kenku", "Kobold",
+            "Leonin", "Lizardfolk", "Loxodon", "Mark of Detection Half-Elf", "Mark of Finding Half-Orc",
+            "Mark of Handling Human", "Mark of Making Human", "Mark of Passage Human",
+            "Mark of Sentinel Human", "Mark of Storm Half-Elf", "Mindflayer", "Minotaur", "Orc",
+            "Satyr", "Shifter", "Tabaxi", "Tiefling", "Tortle", "Triton", "Vampire", "Variant Human",
+            "Vedalken", "Viashino", "Warforged", "Wolfborn", "Yuan-Ti Pureblood"
+    ));
+    public static ArrayList<String> Races = new ArrayList<String>(List.of("Aarakocra", "Aasimar",
+            "Bugbear", "Catfolk", "Centaur", "Changeling", "Dragonborn", "Dwarf", "Elf", "Firbolg",
+            "Genasi", "Gith", "Gnome", "Goblin", "Goliath", "Half-Elf", "Half-Hag", "Half-Orc",
+            "Halfling", "Hobgoblin", "Human", "Human Revenant", "Kalashtar", "Kenku", "Kobold",
+            "Leonin", "Lizardfolk", "Loxodon", "Mark of Detection Half-Elf", "Mark of Finding Half-Orc",
+            "Mark of Handling Human", "Mark of Making Human", "Mark of Passage Human",
+            "Mark of Sentinel Human", "Mark of Storm Half-Elf", "Mindflayer", "Minotaur", "Orc",
+            "Satyr", "Shifter", "Tabaxi", "Tiefling", "Tortle", "Triton", "Vampire", "Variant Human",
+            "Vedalken", "Viashino", "Warforged", "Wolfborn", "Yuan-Ti Pureblood"
+    ));
 
     @Override
     public void onDestroyView() {
