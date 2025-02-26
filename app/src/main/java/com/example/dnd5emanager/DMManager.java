@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.databinding.DMManagerBinding;
+import com.example.dnd5emanager.databinding.DmManagerBinding;
 
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ import java.util.List;
 
 public class DMManager extends Fragment {
 
-    private DMManagerBinding binding;
+    private DmManagerBinding binding;
 
     @Override
     public View onCreateView(
@@ -28,7 +28,7 @@ public class DMManager extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = DMManagerBinding.inflate(inflater, container, false);
+        binding = DmManagerBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -36,8 +36,10 @@ public class DMManager extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.dmBack.setOnClickListener(v ->
+        binding.dmback.setOnClickListener(v ->
                 NavHostFragment.findNavController(DMManager.this).navigate(R.id.goToMainMenu));
+        binding.DMtoCampaign.setOnClickListener(v ->
+                NavHostFragment.findNavController(DMManager.this).navigate(R.id.action_DMManager_to_campaignList));
 
     }
 
