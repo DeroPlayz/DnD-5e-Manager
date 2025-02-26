@@ -1,5 +1,7 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.DataClasses.Constants.*;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
 
 import java.util.ArrayList;
@@ -51,28 +54,17 @@ public class MainMenu extends Fragment {
     }
 
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
-    public static ArrayList<String> RacesWithNoSub = new ArrayList<String>(List.of());
 
-    public static final ArrayList<String> RacesInit = new ArrayList<String>(List.of("Aarakocra", "Aasimar",
-            "Bugbear", "Catfolk", "Centaur", "Changeling", "Dragonborn", "Dwarf", "Elf", "Firbolg",
-            "Genasi", "Gith", "Gnome", "Goblin", "Goliath", "Half-Elf", "Half-Hag", "Half-Orc",
-            "Halfling", "Hobgoblin", "Human", "Human Revenant", "Kalashtar", "Kenku", "Kobold",
-            "Leonin", "Lizardfolk", "Loxodon", "Mark of Detection Half-Elf", "Mark of Finding Half-Orc",
-            "Mark of Handling Human", "Mark of Making Human", "Mark of Passage Human",
-            "Mark of Sentinel Human", "Mark of Storm Half-Elf", "Mindflayer", "Minotaur", "Orc",
-            "Satyr", "Shifter", "Tabaxi", "Tiefling", "Tortle", "Triton", "Vampire", "Variant Human",
-            "Vedalken", "Viashino", "Warforged", "Wolfborn", "Yuan-Ti Pureblood"
+    public static final ArrayList<Race> RacesInit = new ArrayList<Race>(List.of(Aarakocra,
+        Aasimar, Bugbear, Catfolk, Centaur, Changeling, Dragonborn, Dwarf, Elf, Firbolg, Genasi,
+        Gith, Gnome, Goblin, Goliath, HalfElf, HalfHag, HalfOrc, Halfling, Hobgoblin, Human,
+        HumanRevenant, Kalashtar, Kenku, Kobold, Leonin, Lizardfolk, Loxodon, MarkOfDetectionHalfElf,
+        MarkOfFindingHalfOrc, MarkOfHandlingHuman, MarkOfMakingHuman, MarkOfPassageHuman,
+        MarkOfSentinelHuman, MarkOfStormHalfElf, MindFlayer, Minotaur, Orc, Satyr, Shifter, Tabaxi,
+        Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
+        YuanTiPureblood
     ));
-    public static ArrayList<String> Races = new ArrayList<String>(List.of("Aarakocra", "Aasimar",
-            "Bugbear", "Catfolk", "Centaur", "Changeling", "Dragonborn", "Dwarf", "Elf", "Firbolg",
-            "Genasi", "Gith", "Gnome", "Goblin", "Goliath", "Half-Elf", "Half-Hag", "Half-Orc",
-            "Halfling", "Hobgoblin", "Human", "Human Revenant", "Kalashtar", "Kenku", "Kobold",
-            "Leonin", "Lizardfolk", "Loxodon", "Mark of Detection Half-Elf", "Mark of Finding Half-Orc",
-            "Mark of Handling Human", "Mark of Making Human", "Mark of Passage Human",
-            "Mark of Sentinel Human", "Mark of Storm Half-Elf", "Mindflayer", "Minotaur", "Orc",
-            "Satyr", "Shifter", "Tabaxi", "Tiefling", "Tortle", "Triton", "Vampire", "Variant Human",
-            "Vedalken", "Viashino", "Warforged", "Wolfborn", "Yuan-Ti Pureblood"
-    ));
+    public static ArrayList<Race> Races = RacesInit;
 
     @Override
     public void onDestroyView() {
