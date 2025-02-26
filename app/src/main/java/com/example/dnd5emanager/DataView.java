@@ -9,13 +9,12 @@ import androidx.navigation.fragment.NavHostFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
 
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.databinding.CharacterListBinding;
-import com.example.dnd5emanager.databinding.CharacterViewBinding;
+
 import com.example.dnd5emanager.databinding.DataViewBinding;
-import com.example.dnd5emanager.databinding.MainMenuBinding;
+
 
 import java.util.ArrayList;
 import java.util.List;
