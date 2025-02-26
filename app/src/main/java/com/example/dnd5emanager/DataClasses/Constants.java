@@ -317,10 +317,199 @@ public class Constants {
             0, 0, 0,
             2, 0, 0
     );
-    public final static Race Race = new Race("Race", 0,
-            0, 0, 0, 0, 0,
+    public final static Race Goblin = new Race("Goblin", 10,
+            25, 0, 0, 0, 0,
             0, 0, 0,
             0, 0, 0
     );
-
+    public final static Race Goliath = new Race("Goliath", 10,
+            30, 0, 0, 0, 0,
+            2, 0, 1,
+            0, 0, 0
+    );
+    public final static Race HalfElf= new Race("Half-Elf", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 2
+    );
+    public final static Race HalfHag = new Race("HalfHag", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 2
+    );
+    public final static Race HalfOrc = new Race("HalfOrc", 10,
+            30, 0, 0, 0, 0,
+            2, 0, 1,
+            0, 0, 0
+    );
+    public final static Race Halfling = new Race("Halfling", 10,
+            25, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 0, 0
+    );
+    public final static Race Hobgoblin = new Race("Hobgoblin", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 2,
+            1, 0, 0
+    );
+    public final static Race Human = new Race("Human", 10,
+            30, 0, 0, 0, 0,
+            1, 1, 1,
+            1, 1, 1
+    );
+    public final static Race HumanRevenant = new Race("Human Revenant", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 1,
+            0, 0, 0
+    );
+    public final static Race Kalashtar = new Race("Kalashtar", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 1, 1
+    );
+    public final static Race Kenku = new Race("Kenku", 10,
+            30, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 1, 0
+    );
+    public final static Race Kobold = new Race("Kobold", 10,
+            0, 0, 0, 0, 0,
+            -2, 2, 0,
+            0, 0, 0
+    );
+    public final static Race Leonin = new Race("Leonin", 10,
+            35, 0, 0, 0, 0,
+            1, 0, 2,
+            0, 0, 0
+    );
+    public final static Race Lizardfolk = new Race("Lizardfolk", 13,
+            30, 30, 0, 0, 0,
+            0, 0, 2,
+            0, 1, 0
+    );
+    public final static Race Loxodon = new Race("Loxodon", 10,
+            25, 0, 0, 0, 0,
+            1, 0, 0,
+            0, 0, 0
+    );
+    public final static Race MarkOfDetectionHalfElf = new Race("Mark of Detection Half-Elf", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            1, 0, 1
+    );
+    public final static Race MarkOfFindingHalfOrc = new Race("Mark of Finding Half-Orc", 10,
+            30, 0, 0, 0, 0,
+            1, 0, 0,
+            0, 1, 0
+    );
+    public final static Race MarkOfHandlingHuman = new Race("Mark of Handling Human", 10,
+            30, 0, 0, 0, 0,
+            0, 1, 0,
+            0, 1, 0
+    );
+    public final static Race MarkOfMakingHuman = new Race("Mark of Making Human", 10,
+            30, 0, 0, 0, 0,
+            0, 2, 0,
+            1, 0, 0
+    );
+    public final static Race MarkOfPassageHuman = new Race("Mark of Passage Human", 10,
+            40, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 0, 0
+    );
+    public final static Race MarkOfSentinelHuman = new Race("Mark of Sentinel Human", 10,
+            30, 0, 0, 0, 0,
+            1, 0, 0,
+            0, 1, 0
+    );
+    public final static Race MarkOfStormHalfElf = new Race("Mark of Storm Half-Elf", 10,
+            30, 30, 0, 0, 0,
+            0, 1, 0,
+            0, 0, 1
+    );
+    public final static Race MindFlayer = new Race("Mind Flayer", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 2,
+            0, 0, 0
+    );
+    public final static Race Minotaur = new Race("Minotaur", 10,
+            40, 0, 0, 0, 0,
+            2, 0, 1,
+            0, 0, 0
+    );
+    public final static Race Race = new Race("Orc", 10,
+            30, 0, 0, 0, 0,
+            2, 0, 0,
+            0, 0, 0
+    );
+    public final static Race Satyr = new Race("Satyr", 10,
+            35, 0, 0, 0, 0,
+            0, 1, 0,
+            0, 0, 2
+    );
+    public final static Race Shifter = new Race("Shifter", 10,
+            30, 0, 0, 0, 0,
+            0, 1, 0,
+            0, 0, 0
+    );
+    public final static Race SimicHybrid = new Race("Simic Hybrid", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 2,
+            0, 0, 0
+    );
+    public final static Race Tabaxi = new Race("Tabaxi", 10,
+            30, 0, 20, 0, 0,
+            0, 2, 0,
+            0, 0, 1
+    );
+    public final static Race Tiefling = new Race("Tiefling", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0
+    );
+    public final static Race Tortle = new Race("Tortle", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0
+    );
+    public final static Race Triton = new Race("Triton", 10,
+            30, 30, 0, 0, 0,
+            1, 0, 1,
+            0, 0, 1
+    );
+    public final static Race Vampire = new Race("Vampire", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0
+    );
+    public final static Race VariantHuman = new Race("Variant Human", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0
+    );
+    public final static Race Vedalken = new Race("Vedalken", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 2,
+            0, 1, 0
+    );
+    public final static Race Viashino = new Race("Viashino", 10,
+            30, 0, 0, 0, 0,
+            1, 2, 0,
+            0, 0, 0
+    );
+    public final static Race Warforged = new Race("Warforged", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 1,
+            0, 0, 0
+    );
+    public final static Race Wolfborn = new Race("Wolfborn", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            1, 0, 0
+    );
+    public final static Race YuanTiPureblood = new Race("Yuan-Ti Pureblood", 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            1, 0, 2
+    );
 }
