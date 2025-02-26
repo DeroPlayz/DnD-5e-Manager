@@ -53,19 +53,6 @@ public class MainMenu extends Fragment {
         );
     }
 
-    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
-
-    public static final ArrayList<Race> RacesInit = new ArrayList<Race>(List.of(Aarakocra,
-        Aasimar, Bugbear, Catfolk, Centaur, Changeling, Dragonborn, Dwarf, Elf, Firbolg, Genasi,
-        Gith, Gnome, Goblin, Goliath, HalfElf, HalfHag, HalfOrc, Halfling, Hobgoblin, Human,
-        HumanRevenant, Kalashtar, Kenku, Kobold, Leonin, Lizardfolk, Loxodon, MarkOfDetectionHalfElf,
-        MarkOfFindingHalfOrc, MarkOfHandlingHuman, MarkOfMakingHuman, MarkOfPassageHuman,
-        MarkOfSentinelHuman, MarkOfStormHalfElf, MindFlayer, Minotaur, Orc, Satyr, Shifter, Tabaxi,
-        Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
-        YuanTiPureblood
-    ));
-    public static ArrayList<Race> Races = RacesInit;
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();

@@ -36,7 +36,7 @@ public class DMManager extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.dmBack.setOnClickListener(v ->
+        binding.dmback.setOnClickListener(v ->
                 NavHostFragment.findNavController(DMManager.this).navigate(R.id.goToMainMenu));
 
     }

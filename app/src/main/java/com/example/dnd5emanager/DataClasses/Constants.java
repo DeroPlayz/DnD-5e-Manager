@@ -581,7 +581,7 @@ public class Constants {
         0, 0, 0,
         false
     );
-    public final static Race HalfElf= new Race("Half-Elf", 10,
+    public final static Race HalfElf = new Race("Half-Elf", 10,
         30, 0, 0, 0, 0,
         0, 0, 0,
         0, 0, 2,
@@ -593,6 +593,19 @@ public class Constants {
         0, 0, 2,
         true
     );
+        public final static Subrace GreenHag = new Subrace("Green Hag", HalfHag, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0);
+        public final static Subrace NightHag = new Subrace("Night Hag", HalfHag, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0);
+        public final static Subrace SeaHag = new Subrace("Sea Hag", HalfHag, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 0, 0);
+
     public final static Race HalfOrc = new Race("Half-Orc", 10,
         30, 0, 0, 0, 0,
         2, 0, 1,
@@ -803,4 +816,17 @@ public class Constants {
         1, 0, 2,
         false
     );
+
+    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
+
+    public static final ArrayList<Race> RacesInit = new ArrayList<Race>(List.of(Aarakocra,
+            Aasimar, Bugbear, Catfolk, Centaur, Changeling, Dragonborn, Dwarf, Elf, Firbolg, Genasi,
+            Gith, Gnome, Goblin, Goliath, HalfElf, HalfHag, HalfOrc, Halfling, Hobgoblin, Human,
+            HumanRevenant, Kalashtar, Kenku, Kobold, Leonin, Lizardfolk, Loxodon, MarkOfDetectionHalfElf,
+            MarkOfFindingHalfOrc, MarkOfHandlingHuman, MarkOfMakingHuman, MarkOfPassageHuman,
+            MarkOfSentinelHuman, MarkOfStormHalfElf, MindFlayer, Minotaur, Orc, Satyr, Shifter, Tabaxi,
+            Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
+            YuanTiPureblood
+    ));
+    public static ArrayList<Race> Races = RacesInit;
 }

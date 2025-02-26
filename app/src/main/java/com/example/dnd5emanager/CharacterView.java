@@ -1,5 +1,7 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,7 +34,7 @@ public class CharacterView extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        int CharNum = MainMenu.Characters.size()-1;
+        int CharNum = Characters.size()-1;
 
         TextView CharacterName = view.findViewById(R.id.characterName);
         CharacterName.setText(CharacterCreatorPageOne.NewCharacter.getName());

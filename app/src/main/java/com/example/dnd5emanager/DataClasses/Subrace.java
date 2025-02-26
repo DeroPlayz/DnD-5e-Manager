@@ -1,9 +1,9 @@
 package com.example.dnd5emanager.DataClasses;
 
 public class Subrace {
-    String Name;
-    Race ParentRace;
-    int BaseArmorClass;
+    private String Name;
+    private Race ParentRace;
+    private int BaseArmorClass;
 
     private int GroundSpeed;
     private int AirSpeed;
@@ -11,12 +11,12 @@ public class Subrace {
     private int SwimSpeed;
     private int BurrowSpeed;
 
-    int StrengthBonus;
-    int DexterityBonus;
-    int ConstitutionBonus;
-    int IntelligenceBonus;
-    int WisdomBonus;
-    int CharismaBonus;
+    private int StrengthBonus;
+    private int DexterityBonus;
+    private int ConstitutionBonus;
+    private int IntelligenceBonus;
+    private int WisdomBonus;
+    private int CharismaBonus;
 
     public Subrace(String Name, Race ParentRace, int BaseArmorClass, int GroundSpeed, int AirSpeed,
        int ClimbSpeed, int SwimSpeed, int BurrowSpeed, int StrengthBonus, int DexterityBonus, int ConstitutionBonus, int IntelligenceBonus, int WisdomBonus, int CharismaBonus){
