@@ -45,17 +45,22 @@ public class CharacterCreatorPageOne extends Fragment {
         binding.characterCreatorPageOneSelectRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Log.d("Adapter View", parent.toString());
-                Log.d("Position", String.valueOf(position));
-                Log.d("ID", String.valueOf(id));
-                Subrace.setEnabled(true);
-                Subrace.setClickable(true);
-                Subrace.setVisibility(View.VISIBLE);
-                if(Race.getSelectedItem().toString().equals("Aarakocra")){
+                android.content.res.Resources resources = getResources();
+//                Log.d("Resources", resources.toString());
+//                if(){}
+//                int[] = R.array.DwarfSubraces;
+//                resources.getText()
+
+                if(Race != null) {
+                    Subrace.setEnabled(true);
+                    Subrace.setClickable(true);
+                    Subrace.setVisibility(View.VISIBLE);
+                    if (Race.getSelectedItem().toString().equals("Aarakocra")) {
                         Subrace.setEnabled(false);
                         Subrace.setClickable(false);
                         Subrace.setVisibility(View.INVISIBLE);
-                };
+                    }
+                }
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
