@@ -4,34 +4,22 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Feature {
-    private final String Name;
+    private String Name;
         public String getName(){return Name;}
-    private final String Description;
+    private String Description;
         public String getDescription(){return Description;}
-    private final int Level;
+    private int Level;
         public int getLevel(){return Level;}
-    private final boolean Required;
-        public boolean isRequired(){return Required;}
 
-    Feature(String Name, int Level) {
+    Feature(String Name, String Description) {
         this.Name = Name;
-        Description = "";
-        this.Level = Level;
-        Required = true;
+        this.Description = Description;
+        this.Level = 0;
     }
-
     Feature(String Name, String Description, int Level) {
         this.Name = Name;
         this.Description = Description;
         this.Level = Level;
-        Required = true;
-    }
-
-    Feature(String Name, String Description, int Level, boolean Required) {
-        this.Name = Name;
-        this.Description = Description;
-        this.Level = Level;
-        this.Required = Required;
     }
 
     private static Feature Spellcasting;
@@ -164,18 +152,41 @@ public class Feature {
 //            private final static Feature = new Feature();
 
 
-    public static final ArrayList<Feature> ArtificerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown, FirearmProficiency));
-        public static final ArrayList<Feature> AlchemistFeatures = new ArrayList<Feature>(Arrays.asList(AlchemistToolProficiency, AlchemistSpells, ExperimentalElixir, AlchemicalSavant, RestorativeReagents, ChemicalMastery));
-    public static final ArrayList<Feature> BarbarianFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> BardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> ClericFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> DruidFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> FighterFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> MonkFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> PaladinFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> RangerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> RogueFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> SorcererFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> WarlockFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-    public static final ArrayList<Feature> WizardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    private final static Feature Flight50 = new Feature("Flight", "You have a flying speed of 50 feet. You cannot use this feature while wearing medium or heavy armor.");
+    private final static Feature Talons = new Feature("Talons", "You are proficient with unarmed strikes. You deal 1d4 slashing damage on hit.");
+    private final static Feature Darkvision = new Feature("Darkvision", "Within 60 feet, you perceive dim light as bright and total darkness as dim light. In darkness, you can only see shades of gray.");
+    private final static Feature CelestialResistance = new Feature("Celestial Resistance", "You have resistance to necrotic and radiant damage.");
+    private final static Feature HealingHands = new Feature("Healing Hands", "As an action, you can touch a creature and cause it to regain a number of Health equal to your level. You can use this trait once per long rest.");
+    private final static Feature LightBearer = new Feature("Light Bearer", "You know the cantrip Light. You cast it with Charisma.");
+    private final static Feature RadiantSoul = new Feature("Radiant Soul", "Starting at Level 3, you can use your action to unleash the divine energy within you. Your eyes glimmer and two luminous, incorporeal wings sprout from your back.\nThis state lasts for one minute, but can be ended early as a bonus action. While in this state, you gain a flying speed of 30 feet and once per turn, you can deal extra radiant damage equal to your level to one enemy when you hit them with an attack or spell.\nThis trait can be used once per long rest.", 3);
+    private final static Feature RadiantConsumption = new Feature("Radiant Consumption", "Starting at Level 3, you can use your action to unleash the divine energy within you. A searing light radiates from you, pouring out of your eyes and mouth, almost charring you.\nThis state lasts for one minute, but can be ended early as a bonus action. While in this state, you emit a bright light in a 10-foot radius of you, and a dim light for an additional 10 feet. At the end of your turn, you and any creature within 10 feet of you take's radiant damage equal to your level/2, rounded up. Additionally, once per turn you can deal extra radiant damage equal to your level to one enemy when you hit them with an attack or spell.\nThis trait can be used once per long rest." , 3);
+    private final static Feature NecroticShroud = new Feature("Necrotic Shroud", "Starting at Level 3, you can use your action to unleash the divine energy within you. Your eyes turn into pools of darkness, and two skeletal, ghostly, but flightless wings sprout from your back. The instant you transform, all creatures within 10 feet of you which you can see must succeed a Charisma saving throw against you, with a DC of 8 + your Charisma modifier + your proficiency bonus, or become frightened until the end of your next turn.\nYour transformation lasts for one minute, but can be ended early as a bonus action. While in this state, you can deal extra necrotic damage equal to your level to one enemy when you hit them with an attack or spell.\nThis trait can be used once per long rest.", 3);
+    private final static Feature LongLimbed = new Feature("Long Limbed", "When you make a melee attack on your turn, your reach is 5 feet greater than normal.");
+    private final static Feature PowerfulBuild = new Feature("Powerful Build", "You count as one size larger when determining your carrying capacity as well as the weight you can push, drag, or lift.");
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+    private final static Feature = new Feature();
+
+
+    public final static ArrayList<Feature> ArtificerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown, FirearmProficiency));
+        public final static ArrayList<Feature> AlchemistFeatures = new ArrayList<Feature>(Arrays.asList(AlchemistToolProficiency, AlchemistSpells, ExperimentalElixir, AlchemicalSavant, RestorativeReagents, ChemicalMastery));
+    public final static ArrayList<Feature> BarbarianFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> BardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> ClericFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> DruidFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> FighterFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> MonkFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> PaladinFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> RangerFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> RogueFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> SorcererFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> WarlockFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+    public final static ArrayList<Feature> WizardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
+
+
 }
