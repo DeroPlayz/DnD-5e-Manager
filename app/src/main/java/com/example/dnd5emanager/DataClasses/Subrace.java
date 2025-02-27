@@ -3,6 +3,8 @@ package com.example.dnd5emanager.DataClasses;
 public class Subrace {
     private String Name;
     private Race ParentRace;
+        public Race getParentRace(){return ParentRace;}
+
     private int BaseArmorClass;
 
     private int GroundSpeed;

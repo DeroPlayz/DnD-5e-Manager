@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Subclass{
 
-    private CharacterClass Parent = null;
+    private CharacterClass Parent;
+        public CharacterClass getParent(){return Parent;}
 
     private String Name = "";
         public String getName() {

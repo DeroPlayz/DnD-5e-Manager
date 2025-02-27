@@ -252,7 +252,7 @@ public class Constants {
         return null;
     }
 
-    public final static Race Aarakocra = new Race("Aakocra", 10,
+    public final static Race Aarakocra = new Race("Aarakocra", 10,
         25, 50, 0, 0, 0,
         0, 2, 0,
         0, 1, 0,
@@ -264,7 +264,8 @@ public class Constants {
         0, 0, 2,
         true
     );
-        public final static Subrace Aasimar_Protector = new Subrace("Protector Aasimar", Aasimar, 10,
+
+        public final static Subrace ProtectorAasimar = new Subrace("Protector Aasimar", Aasimar, 10,
             30, 0, 0, 0, 0,
             0, 0, 0,
             0, 1, 0);
@@ -838,14 +839,6 @@ public class Constants {
         0, 0, 0,
         true
     );
-    public final static Subrace GhostwiseHalfling = new Subrace("Ghostwise Halfling", Halfling, 10,
-            25, 0, 0, 0, 0,
-            0, 2, 0,
-            0, 0, 0);
-    public final static Subrace GhostwiseHalfling = new Subrace("Ghostwise Halfling", Halfling, 10,
-            25, 0, 0, 0, 0,
-            0, 2, 0,
-            0, 0, 0);
     public final static Race Tortle = new Race("Tortle", 10,
         30, 0, 0, 0, 0,
         0, 0, 0,
@@ -912,5 +905,20 @@ public class Constants {
             Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
             YuanTiPureblood
     ));
+    public static final ArrayList<Subrace> SubracesInit = new ArrayList<Subrace>(List.of(ProtectorAasimar,
+            ScourgeAasimar, FallenAasimar, OrdinaryBreedCatfolk, LargeBreedCatfolk, MysticBreedCatfolk,
+            BlackDragonborn, BlueDragonborn, BrassDragonborn, BronzeDragonborn, CopperDragonborn,
+            GoldDragonborn, GreenDragonborn, RedDragonborn, SilverDragonborn, WhiteDragonborn,
+            HillDwarf, MountainDwarf, HouseKundarakDwarf, DuergarDwarf, MarkOfWardingDwarf, HighElf,
+            WoodElf, SeaElf, ShadarKai, HouseOfShadow, AerenalHighElf, AerenalWoodElf, ValenarHighElf,
+            ValenarWoodElf, DarkElf, PalidElf, AirGenasi, EarthGenasi, FireGenasi, WaterGenasi, Githyanki,
+            Githzerai, ForestGnome, RockGnome, DeepGnome, MarkOfScribingDwarf, CommonGoblin, GrotagGoblin,
+            IxalanGoblin, LavastepGoblin, TukTukGoblin, GreenskinGoblin, BoggartGoblin, Gremlin, GreenHag,
+            NightHag, SeaHag, GhostwiseHalfling, LightfootHalfling, StoutHalfling,
+            MarkOfHealingHalfling, MarkOfHospitalityHalfling, LotusdenHalfling, RavnicaLoxodon,
+            MirrodinLoxodon, TarkirLoxodon, NormalOrc, CommonOrc, MountainOrc, Orog, WaterOrc,
+            BeasthideShifter, LongtoothShifter, SwiftstrideShifter, WildhuntShifter));
+
     public static ArrayList<Race> Races = RacesInit;
+    public static ArrayList<Subrace> Subraces = SubracesInit;
 }

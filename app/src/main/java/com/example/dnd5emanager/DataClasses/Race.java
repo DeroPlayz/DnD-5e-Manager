@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Race {
     private String Name;
+        public String getName(){return Name;}
     //Ability Score Bonuses
         private int StrengthBonus;
         private int DexterityBonus;
