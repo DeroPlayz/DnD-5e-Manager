@@ -39,7 +39,7 @@ public class CampaignSheet extends Fragment {
         binding.BackToList.setOnClickListener(v ->
                 NavHostFragment.findNavController(CampaignSheet .this).navigate(R.id.action_campaignSheet_to_campaignList));
         binding.toPlayerManager.setOnClickListener(v ->
-                NavHostFragment.findNavController(CampaignSheet .this).navigate(R.id.action_campaignSheet_to_dmPlayerManger));
+                NavHostFragment.findNavController(CampaignSheet .this).navigate(R.id.action_campaignSheet_to_dmPlayerManager));
 
     }
 
