@@ -78,7 +78,7 @@
     <fragment
         android:id="@+id/DMManager"
         android:name="com.example.dnd5emanager.DMManager"
-        android:label="fragment_dm_manger"
+        android:label="fragment_dm_manager"
         tools:layout="@layout/dm_manager" >
         <action
             android:id="@+id/action_DMManager_to_campaignList"
@@ -108,20 +108,23 @@
         android:label="campaign_sheet"
         tools:layout="@layout/campaign_sheet" >
         <action
-            android:id="@+id/action_campaignSheet_to_dmPlayerManger"
-            app:destination="@id/dmPlayerManger" />
+            android:id="@+id/action_campaignSheet_to_dmPlayerManager"
+            app:destination="@id/dmPlayerManager" />
         <action
             android:id="@+id/action_campaignSheet_to_campaignList"
             app:destination="@id/campaignList" />
     </fragment>
     <fragment
-        android:id="@+id/dmPlayerManger"
-        android:name="com.example.dnd5emanager.DmPlayerManger"
-        android:label="dm_player_manger"
-        tools:layout="@layout/dm_player_manger" >
+        android:id="@+id/dmPlayerManager"
+        android:name="com.example.dnd5emanager.DmPlayerManager"
+        android:label="dm_player_manager"
+        tools:layout="@layout/dm_player_manager" >
         <action
-            android:id="@+id/action_dmPlayerManger_to_campaignSheet"
+            android:id="@+id/action_dmPlayerManager_to_campaignSheet"
             app:destination="@id/campaignSheet" />
+        <action
+            android:id="@+id/action_dmPlayerManager_to_MainMenu"
+            app:destination="@id/MainMenu" />
     </fragment>
 
 </navigation>
