@@ -36,7 +36,7 @@ public class CampaignList extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.goplayerlist.setOnClickListener(v ->
+        binding.campaignBack.setOnClickListener(v ->
                 NavHostFragment.findNavController(CampaignList.this).navigate(R.id.action_campaignList_to_DMManager));
         binding.goplayerlist.setOnClickListener(v ->
                 NavHostFragment.findNavController(CampaignList.this).navigate(R.id.action_campaignList_to_campaignSheet));
