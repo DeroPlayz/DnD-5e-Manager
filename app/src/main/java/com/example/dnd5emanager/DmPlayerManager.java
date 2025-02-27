@@ -37,7 +37,7 @@ public class DmPlayerManager extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.toSheet.setOnClickListener(v ->
-                NavHostFragment.findNavController(DmPlayerManager.this).navigate(R.id.goToMainMenu));
+                NavHostFragment.findNavController(DmPlayerManager.this).navigate(R.id.action_dmPlayerManager_to_MainMenu));
         binding.dpmToMain.setOnClickListener(v ->
                 NavHostFragment.findNavController(DmPlayerManager.this).navigate(R.id.action_DMManager_to_campaignList));
 
