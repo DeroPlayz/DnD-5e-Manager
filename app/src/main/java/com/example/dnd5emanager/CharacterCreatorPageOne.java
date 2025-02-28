@@ -21,6 +21,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.ClassAndLevel;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Subrace;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 
@@ -44,13 +45,18 @@ public class CharacterCreatorPageOne extends Fragment {
 
     }
 
+    private EditText Name;
+    private EditText Level;
+    private Spinner Race;
+    private Spinner Subrace;
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         Resources resources = getResources();
-
-        EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
-        EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
-        Spinner Race = view.findViewById(R.id.character_creator_page_one_select_race);
-        Spinner Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
+        PlayerCharacter NewCharacter = new PlayerCharacter();
+        Name = view.findViewById(R.id.character_creator_page_one_enter_name);
+        Level = view.findViewById(R.id.character_creator_page_one_enter_level);
+        Race = view.findViewById(R.id.character_creator_page_one_select_race);
+        Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
 
         ArrayList<String> Selection = new ArrayList<>();
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
@@ -108,7 +114,10 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
             NewCharacter.setName(Name.getText().toString());
-            CharacterCreatorPageOne.NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
+//            NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
+//            NewCharacter.setLevel(Integer.parseInt(String.valueOf(Level.getText())));
+//            NewCharacter.setRace((com.example.dnd5emanager.DataClasses.Race) Race.getSelectedItem());
+//            NewCharacter.setSubrace((com.example.dnd5emanager.DataClasses.Subrace) Subrace.getSelectedItem());
 
             NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
             }

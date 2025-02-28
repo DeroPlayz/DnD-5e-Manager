@@ -42,7 +42,7 @@ public class CharacterView extends Fragment {
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
         String LevelDisp = "";
         LevelDisp += "Level " + CharacterCreatorPageOne.NewCharacter.getLevel() + " ";
-        if(CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() != CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName()){
+        if(!CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName().equals(CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName())){
             LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() + " ";
         }
         LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName();
@@ -53,7 +53,7 @@ public class CharacterView extends Fragment {
 
     @Override
     public void onDestroyView() {
-        CharacterCreatorPageOne.NewCharacter = new PlayerCharacter();
+//        CharacterCreatorPageOne.NewCharacter = new PlayerCharacter();
         super.onDestroyView();
         binding = null;
     }
