@@ -1,6 +1,5 @@
 package com.example.dnd5emanager;
 
-import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -18,17 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.ClassAndLevel;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.DataClasses.Race;
-import com.example.dnd5emanager.DataClasses.Subrace;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -92,7 +84,6 @@ public class CharacterCreatorPageOne extends Fragment {
                                 for(int j = 0; j < Constants.Subraces.size(); j++) {
                                     if (Constants.Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
                                         Log.d("Current Subrace:", String.valueOf(Constants.Subraces.get(j).getName()));
-//                                        Selection.add(Constants.Subraces.get(j));
                                         Adapter.add(Constants.Subraces.get(j).getName());
                                     }
                                 }
@@ -113,7 +104,8 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
-            NewCharacter.setName(Name.getText().toString());
+            Log.d("FUCK!", "FUCK!");
+//            NewCharacter.setName(Name.getText().toString());
 //            NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
 //            NewCharacter.setLevel(Integer.parseInt(String.valueOf(Level.getText())));
 //            NewCharacter.setRace((com.example.dnd5emanager.DataClasses.Race) Race.getSelectedItem());

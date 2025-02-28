@@ -6,19 +6,21 @@ import java.util.ArrayList;
 
 public class CharacterClass {
     private String Name;
-
     public void setName(String Name) {
-        this.Name = Name;
-    }
+            this.Name = Name;
+        }
+        public String getName() {
+            return Name;
+        }
 
-    public String getName() {
-        return Name;
-    }
+    private int Level = 1;
+        public void setLevel(int Level){this.Level = Level;}
+        public int getLevel(){return Level;}
+
+
 
 //    private ArrayList<Subclass> Subclasses = new ArrayList<Subclass>(Armorer)
 
-    private int Level;
-        public int getLevel(){return Level;}
     private boolean StrengthSavingThrowProf;
 
     public void setStrengthSavingThrowProf(boolean StrengthSavingThrowProf) {

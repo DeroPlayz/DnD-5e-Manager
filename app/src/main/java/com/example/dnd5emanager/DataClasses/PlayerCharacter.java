@@ -7,31 +7,10 @@ public class PlayerCharacter {
         public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
 
-    public void setLevel(int Level){
-        Classes.get(Classes.size()-1).setLevel(Level);
-    }
-    public int getLevel(){
-        if(Classes.size() > 1) {
-            int Level = 0;
-            for (int i = 0; i < Classes.size(); i++) {
-                Level += Classes.get(i).getLevel();
-            }
-            return Level;
-        }
-        return Classes.get(0).getLevel();
-    }
-
-    public void setCharClass(CharacterClass CharClass){
-        Classes.get(0).setCharClass(CharClass);
-    }
-    public void setCharClass(CharacterClass CharClass, int Level){
-        Classes.get(0).setCharClass(CharClass);
-        Classes.get(0).setLevel(Level);
-    }
-
-    public ArrayList<ClassAndLevel> getClasses(){
-        return Classes;
-    }
+    private ArrayList<CharacterClass> Classes = new ArrayList<>();
+        public void addClass(CharacterClass Class){Classes.add(Class);}
+        public void addClass(CharacterClass Class, int Level){Classes.add(Class); Classes.get(Classes.size()-1).setLevel(Level);}
+        public CharacterClass getClass(int index){return Classes.get(index);}
 
     private int HP;
         public void setHP(int HP){this.HP = HP;}
@@ -100,67 +79,29 @@ public class PlayerCharacter {
         public Subrace getSubrace(){return Subrace;}
 
     //Stores character classes as well as their levels, since, ya know, you can multiclass.
-    ArrayList<ClassAndLevel> Classes = new ArrayList<ClassAndLevel>();
-    int Level = 0;
-        public int updLevel(){
-            for(int i = 0; i < Classes.size(); i++){
-                Level += Classes.get(i).getLevel();
-            }
-            return Level;
-        }
-        int XP;
-            public void setXP(int XP){this.XP = XP; levelUpCheck();}
-            public void addXP(int XPDiff){XP += XPDiff; levelUpCheck();}
-            public void removeXP(int XPDiff){XP -= XPDiff;}
-            public int getXP(){return XP;}
 
-        public void levelUpCheck(){
-            if(Level == 1 && XP >= 300){levelUp();}
-            else if(Level == 2 && XP >= 900){levelUp();}
-            else if(Level == 3 && XP >= 2700){levelUp();}
-            else if(Level == 4 && XP >= 6500){levelUp();}
-            else if(Level == 5 && XP >= 14000){levelUp();}
-            else if(Level == 6 && XP >= 23000){levelUp();}
-            else if(Level == 7 && XP >= 34000){levelUp();}
-            else if(Level == 8 && XP >= 48000){levelUp();}
-            else if(Level == 9 && XP >= 64000){levelUp();}
-            else if(Level == 10 && XP >= 85000){levelUp();}
-            else if(Level == 11 && XP >= 100000){levelUp();}
-            else if(Level == 12 && XP >= 120000){levelUp();}
-            else if(Level == 13 && XP >= 140000){levelUp();}
-            else if(Level == 14 && XP >= 165000){levelUp();}
-            else if(Level == 15 && XP >= 195000){levelUp();}
-            else if(Level == 16 && XP >= 225000){levelUp();}
-            else if(Level == 17 && XP >= 265000){levelUp();}
-            else if(Level == 18 && XP >= 305000){levelUp();}
-            else if(Level == 19 && XP >= 355000){levelUp();}
-        }
-        public void levelUp(/*Class chosenClass*/){
-            CharacterClass chosenClass = Constants.Fighter;
-            Classes.get(ClassAndLevel.findClass(Classes, chosenClass)).levelUp();
-            int target = ClassAndLevel.findClass(Classes, chosenClass);
-            for(int i = 0; i < Classes.get(target).CharClass.getFeatures().size(); i++){
-                if(Classes.get(target).CharClass.getFeatures().get(i).getLevel() <= Classes.get(target).CharClass.getLevel() &&
-                !PlayerFeatures.contains(Classes.get(target).CharClass.getFeatures().get(i))){
-                    PlayerFeatures.add(Classes.get(target).CharClass.getFeatures().get(i));
-                }
-            }
-            if(Classes.get(target).Subclass != null) {
-                for (int i = 0; i < Classes.get(target).Subclass.getFeatures().size(); i++) {
-                    if (Classes.get(target).Subclass.getFeatures().get(i).getLevel() <= Classes.get(target).CharClass.getLevel() &&
-                            !PlayerFeatures.contains(Classes.get(target).Subclass.getFeatures().get(i))) {
-                        PlayerFeatures.add(Classes.get(target).Subclass.getFeatures().get(i));
-                    }
-                }
-            }
-            if(ClassAndLevel.findClass(Classes, chosenClass) == 0){
-                Classes.add(new ClassAndLevel(Constants.Fighter, 10));
-            }
-            Level = 0;
-            for(int i = 0; i<Classes.size()-1; i++){
-                Level += Classes.get(i).getLevel();
-            }
-        }
+//        public void levelUpCheck(){
+//            if(Level == 1 && XP >= 300){levelUp();}
+//            else if(Level == 2 && XP >= 900){levelUp();}
+//            else if(Level == 3 && XP >= 2700){levelUp();}
+//            else if(Level == 4 && XP >= 6500){levelUp();}
+//            else if(Level == 5 && XP >= 14000){levelUp();}
+//            else if(Level == 6 && XP >= 23000){levelUp();}
+//            else if(Level == 7 && XP >= 34000){levelUp();}
+//            else if(Level == 8 && XP >= 48000){levelUp();}
+//            else if(Level == 9 && XP >= 64000){levelUp();}
+//            else if(Level == 10 && XP >= 85000){levelUp();}
+//            else if(Level == 11 && XP >= 100000){levelUp();}
+//            else if(Level == 12 && XP >= 120000){levelUp();}
+//            else if(Level == 13 && XP >= 140000){levelUp();}
+//            else if(Level == 14 && XP >= 165000){levelUp();}
+//            else if(Level == 15 && XP >= 195000){levelUp();}
+//            else if(Level == 16 && XP >= 225000){levelUp();}
+//            else if(Level == 17 && XP >= 265000){levelUp();}
+//            else if(Level == 18 && XP >= 305000){levelUp();}
+//            else if(Level == 19 && XP >= 355000){levelUp();}
+//        }
+
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.

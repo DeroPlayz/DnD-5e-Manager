@@ -36,18 +36,18 @@ public class CharacterView extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         int CharNum = Characters.size()-1;
 
-        TextView CharacterName = view.findViewById(R.id.characterName);
-        CharacterName.setText(CharacterCreatorPageOne.NewCharacter.getName());
-
-        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
-        String LevelDisp = "";
-        LevelDisp += "Level " + CharacterCreatorPageOne.NewCharacter.getLevel() + " ";
-        if(!CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName().equals(CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName())){
-            LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() + " ";
-        }
-        LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName();
-
-        CharacterLevel.setText(LevelDisp);
+//        TextView CharacterName = view.findViewById(R.id.characterName);
+//        CharacterName.setText(CharacterCreatorPageOne.NewCharacter.getName());
+//
+//        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
+//        String LevelDisp = "";
+//        LevelDisp += "Level " + CharacterCreatorPageOne.NewCharacter.getLevel() + " ";
+//        if(!CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName().equals(CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName())){
+//            LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() + " ";
+//        }
+//        LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName();
+//
+//        CharacterLevel.setText(LevelDisp);
 
     }
 
