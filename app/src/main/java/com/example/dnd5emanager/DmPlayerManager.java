@@ -22,11 +22,10 @@ public class DmPlayerManager extends Fragment {
 
     private DmPlayerManagerBinding binding;
 
-    @Override
+
     public View onCreateView(
-            @NonNull LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState
-    ) {
+            @NonNull LayoutInflater inflater, ViewGroup container
+            ) {
 
         binding = DmPlayerManagerBinding.inflate(inflater, container, false);
         return binding.getRoot();
