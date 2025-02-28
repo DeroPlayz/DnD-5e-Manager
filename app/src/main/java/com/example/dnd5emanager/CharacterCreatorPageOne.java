@@ -1,5 +1,8 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
+
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
@@ -25,7 +28,6 @@ import java.util.ArrayList;
 public class CharacterCreatorPageOne extends Fragment {
 
     private CharacterCreatorPageOneBinding binding;
-    static PlayerCharacter NewCharacter = new PlayerCharacter();
 
     @Override
     public View onCreateView(
@@ -37,14 +39,16 @@ public class CharacterCreatorPageOne extends Fragment {
 
     }
 
+    public static PlayerCharacter NewCharacter = new PlayerCharacter();
+
     private EditText Name;
     private EditText Level;
     private Spinner Race;
     private Spinner Subrace;
 
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         Resources resources = getResources();
-        PlayerCharacter NewCharacter = new PlayerCharacter();
         Name = view.findViewById(R.id.character_creator_page_one_enter_name);
         Level = view.findViewById(R.id.character_creator_page_one_enter_level);
         Race = view.findViewById(R.id.character_creator_page_one_select_race);
@@ -67,13 +71,13 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < Constants.Races.size(); i++) {
+                    for (int i = 0; i < Races.size(); i++) {
 //                        Log.d("Race Name", String.valueOf(Race.getSelectedItem().toString()));
 //                        Log.d("Current Iterated Race", String.valueOf(Constants.Races.get(i).getName()));
 //                        Log.d("Matches?", String.valueOf(Race.getSelectedItem().toString().equals(Constants.Races.get(i).getName())));
-                        if (Race.getSelectedItem().toString().equals(Constants.Races.get(i).getName())) {
-                            Log.d("Has Subraces?", String.valueOf(Constants.Races.get(i).getHasSubraces()));
-                            if(!Constants.Races.get(i).getHasSubraces()){
+                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+                            Log.d("Has Subraces?", String.valueOf(Races.get(i).getHasSubraces()));
+                            if(!Races.get(i).getHasSubraces()){
                                 Subrace.setEnabled(false);
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
@@ -81,10 +85,10 @@ public class CharacterCreatorPageOne extends Fragment {
                             }
                             else{
                                 Log.d("Subraces", "This race has subraces.");
-                                for(int j = 0; j < Constants.Subraces.size(); j++) {
-                                    if (Constants.Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-                                        Log.d("Current Subrace:", String.valueOf(Constants.Subraces.get(j).getName()));
-                                        Adapter.add(Constants.Subraces.get(j).getName());
+                                for(int j = 0; j < Subraces.size(); j++) {
+                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
+                                        Log.d("Current Subrace:", String.valueOf(Subraces.get(j).getName()));
+                                        Adapter.add(Subraces.get(j).getName());
                                     }
                                 }
                             }
@@ -105,15 +109,24 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
             Log.d("FUCK!", "FUCK!");
-//            NewCharacter.setName(Name.getText().toString());
-//            NewCharacter.getClasses().add(new ClassAndLevel(Constants.findClass(Class.getSelectedItem().toString()), Integer.parseInt(Level.getText().toString())));
-//            NewCharacter.setLevel(Integer.parseInt(String.valueOf(Level.getText())));
-//            NewCharacter.setRace((com.example.dnd5emanager.DataClasses.Race) Race.getSelectedItem());
-//            NewCharacter.setSubrace((com.example.dnd5emanager.DataClasses.Subrace) Subrace.getSelectedItem());
+            NewCharacter.setName(Name.getText().toString());
+            for(int i = 0; i < Races.size(); i++){
+                if(Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+                    NewCharacter.setRace(Races.get(i));
+                }
+            }
+            if(NewCharacter.getRace().getHasSubraces()) {
+                for(int i = 0; i < Subraces.size(); i++){
+                    if(Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
+                        NewCharacter.setSubrace(Subraces.get(i));
+                }
+}
+            }
+//            Log.d("What his name SHOULD be:", Name.getText().toString());
+//            Log.d("Guy Before:", CharacterCreatorPageOne.NewCharacter.getName());
 
             NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
-            }
-        );
+        });
     }
 
     @Override
