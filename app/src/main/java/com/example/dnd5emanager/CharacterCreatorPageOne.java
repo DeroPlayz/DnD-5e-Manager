@@ -1,6 +1,7 @@
 package com.example.dnd5emanager;
 
 import android.annotation.SuppressLint;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -23,7 +24,9 @@ import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Subrace;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CharacterCreatorPageOne extends Fragment {
@@ -42,47 +45,58 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        Resources resources = getResources();
+
         EditText Name = view.findViewById(R.id.character_creator_page_one_enter_name);
         EditText Level = view.findViewById(R.id.character_creator_page_one_enter_level);
         Spinner Race = view.findViewById(R.id.character_creator_page_one_select_race);
         Spinner Subrace = view.findViewById(R.id.character_creator_page_one_select_subrace);
 
+        ArrayList<String> Selection = new ArrayList<>();
+        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         Spinner Class = view.findViewById(R.id.character_creator_page_one_select_class);
+
         super.onViewCreated(view, savedInstanceState);
         OnFocusChangeListener onFocusChangeListener = null;
         binding.characterCreatorPageOneSelectRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                android.content.res.Resources resources = getResources();
-
                 if (Race != null) {
+                    Adapter.clear();
                     Subrace.setEnabled(true);
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
+                    Subrace.setAdapter(Adapter);
                     for (int i = 0; i < Constants.Races.size(); i++) {
-                        Log.d("Race Name", String.valueOf(Race.getSelectedItem().toString()));
-                        Log.d("Current Iterated Race", String.valueOf(Constants.Races.get(i).getName()));
-                        Log.d("Matches?", String.valueOf(Race.getSelectedItem().toString().equals(Constants.Races.get(i).getName())));
+//                        Log.d("Race Name", String.valueOf(Race.getSelectedItem().toString()));
+//                        Log.d("Current Iterated Race", String.valueOf(Constants.Races.get(i).getName()));
+//                        Log.d("Matches?", String.valueOf(Race.getSelectedItem().toString().equals(Constants.Races.get(i).getName())));
                         if (Race.getSelectedItem().toString().equals(Constants.Races.get(i).getName())) {
+                            Log.d("Has Subraces?", String.valueOf(Constants.Races.get(i).getHasSubraces()));
                             if(!Constants.Races.get(i).getHasSubraces()){
-                                Log.d("", "I have no idea what I'm doing.");
                                 Subrace.setEnabled(false);
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
-                                ArrayList<Subrace> Selection = new ArrayList();
-                                ArrayAdapter<Subrace> Adapter = new ArrayAdapter<Subrace>(getContext(), android.R.layout.simple_spinner_item, Selection);
-                                Subrace.setAdapter(Adapter);
+                                Log.d("No Subraces", "This race has no subraces.");
+                            }
+                            else{
+                                Log.d("Subraces", "This race has subraces.");
                                 for(int j = 0; j < Constants.Subraces.size(); j++) {
                                     if (Constants.Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-                                        Selection.add(Constants.Subraces.get(j));
+                                        Log.d("Current Subrace:", String.valueOf(Constants.Subraces.get(j).getName()));
+//                                        Selection.add(Constants.Subraces.get(j));
+                                        Adapter.add(Constants.Subraces.get(j).getName());
                                     }
                                 }
-                                Adapter.clear();
-                                Adapter.addAll(Selection);
-                                Adapter.notifyDataSetChanged();
                             }
                         }
                     }
+//                    Log.d("Selection:", String.valueOf(Selection.toString()));
+//                    Adapter.clear();                Log.d("Adapter Change", "Adapter cleared.");
+//                    Adapter.addAll(Selection);      Log.d("Adapter Change", "Added all items from Selection.");
+                    Adapter.notifyDataSetChanged(); Log.d("Adapter Change", "Notified adapter of data set change.");
                 }
             }
 

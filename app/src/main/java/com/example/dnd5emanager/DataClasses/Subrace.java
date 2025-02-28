@@ -2,6 +2,7 @@ package com.example.dnd5emanager.DataClasses;
 
 public class Subrace {
     private String Name;
+        public String getName(){return Name;}
     private Race ParentRace;
         public Race getParentRace(){return ParentRace;}
 
