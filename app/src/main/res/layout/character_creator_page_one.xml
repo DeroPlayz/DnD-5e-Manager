@@ -50,7 +50,6 @@
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="150dp"
-        android:entries="@array/Races"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

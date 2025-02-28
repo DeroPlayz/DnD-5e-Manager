@@ -252,7 +252,7 @@ public class Constants {
         return null;
     }
 
-    public final static Race Aarakocra = new Race("Aakocra", 10,
+    public final static Race Aarakocra = new Race("Aarakocra", 10,
         25, 50, 0, 0, 0,
         0, 2, 0,
         0, 1, 0,
@@ -264,7 +264,8 @@ public class Constants {
         0, 0, 2,
         true
     );
-        public final static Subrace Aasimar_Protector = new Subrace("Protector Aasimar", Aasimar, 10,
+
+        public final static Subrace ProtectorAasimar = new Subrace("Protector Aasimar", Aasimar, 10,
             30, 0, 0, 0, 0,
             0, 0, 0,
             0, 1, 0);
@@ -618,6 +619,32 @@ public class Constants {
         0, 0, 0,
         true
     );
+
+    public final static Subrace GhostwiseHalfling = new Subrace("Ghostwise Halfling", Halfling, 10,
+        25, 0, 0, 0, 0,
+        0, 2, 0,
+        0, 0, 0);
+    public final static Subrace LightfootHalfling = new Subrace("Lightfoot Halfling", Halfling, 10,
+            25, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 0, 1);
+    public final static Subrace StoutHalfling = new Subrace("Stout Halfling", Halfling, 10,
+            25, 0, 0, 0, 0,
+            0, 0, 1,
+            0, 0, 0);
+    public final static Subrace MarkOfHealingHalfling = new Subrace("Mark of Healing Halfling", Halfling, 10,
+            25, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 1, 0);
+    public final static Subrace MarkOfHospitalityHalfling = new Subrace("Mark of Hospitality Halfling", Halfling, 10,
+            30, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 0, 1);
+    public final static Subrace LotusdenHalfling = new Subrace("Lotusden Halfling", Halfling, 10,
+            25, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 1, 0);
+
     public final static Race Hobgoblin = new Race("Hobgoblin", 10,
         30, 0, 0, 0, 0,
         0, 0, 2,
@@ -672,10 +699,23 @@ public class Constants {
         0, 0, 0,
         true
     );
+    public final static Subrace RavnicaLoxodon = new Subrace("Ravnica Loxodon", Loxodon, 12,
+            25, 0, 0, 0, 0,
+            1, 0, 0,
+            0, 2, 0);
+    public final static Subrace MirrodinLoxodon = new Subrace("Mirrodin Loxodon", Loxodon, 10,
+            25, 0, 0, 0, 0,
+            1, 0, 0,
+            2, 0, 0);
+    public final static Subrace TarkirLoxodon = new Subrace("Tarkir Loxodon", Loxodon, 10,
+            25, 0, 0, 0, 0,
+            1, 0, 2,
+            0, 0, 0);
+
     public final static Race MarkOfDetectionHalfElf = new Race("Mark of Detection Half-Elf", 10,
         30, 0, 0, 0, 0,
+        1, 0, 2,
         0, 0, 0,
-        1, 0, 1,
         false
     );
     public final static Race MarkOfFindingHalfOrc = new Race("Mark of Finding Half-Orc", 10,
@@ -732,6 +772,27 @@ public class Constants {
         0, 0, 0,
         true
     );
+        public final static Subrace NormalOrc = new Subrace("Normal Orc", Orc, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 1,
+            -2, 0, 0);
+        public final static Subrace CommonOrc = new Subrace("Common Orc", Orc, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 1,
+            0, 0, 0);
+        public final static Subrace MountainOrc = new Subrace("Mountain Orc", Halfling, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 0,
+            0, 1, 0);
+        public final static Subrace Orog = new Subrace("Orog", Orc, 10,
+            30, 0, 0, 0, 0,
+            0, 0, 1,
+            0, 0, 0);
+        public final static Subrace WaterOrc = new Subrace("Water Orc", Orc, 10,
+            25, 0, 0, 25, 0,
+            0, 1, 0,
+            0, 0, 0);
+
     public final static Race Satyr = new Race("Satyr", 10,
         35, 0, 0, 0, 0,
         0, 1, 0,
@@ -744,6 +805,22 @@ public class Constants {
         0, 0, 0,
         true
     );
+        public final static Subrace BeasthideShifter = new Subrace("Beasthide Shifter", Shifter, 10,
+            30, 0, 0, 0, 0,
+            0, 1, 0,
+            0, 0, 0);
+        public final static Subrace LongtoothShifter = new Subrace("Longtooth Shifter", Shifter, 10,
+            30, 0, 0, 0, 0,
+            2, 1, 0,
+            0, 0, 0);
+        public final static Subrace SwiftstrideShifter = new Subrace("Swiftstride Shifter", Halfling, 10,
+            30, 0, 0, 0, 0,
+            0, 2, 0,
+            0, 0, 1);
+        public final static Subrace WildhuntShifter = new Subrace("Wildhunt Shifter", Shifter, 10,
+            30, 0, 0, 0, 0,
+            0, 1, 0,
+            0, 2, 0);
     public final static Race SimicHybrid = new Race("Simic Hybrid", 10,
         30, 0, 0, 0, 0,
         0, 0, 2,
@@ -828,5 +905,20 @@ public class Constants {
             Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
             YuanTiPureblood
     ));
+    public static final ArrayList<Subrace> SubracesInit = new ArrayList<Subrace>(List.of(ProtectorAasimar,
+            ScourgeAasimar, FallenAasimar, OrdinaryBreedCatfolk, LargeBreedCatfolk, MysticBreedCatfolk,
+            BlackDragonborn, BlueDragonborn, BrassDragonborn, BronzeDragonborn, CopperDragonborn,
+            GoldDragonborn, GreenDragonborn, RedDragonborn, SilverDragonborn, WhiteDragonborn,
+            HillDwarf, MountainDwarf, HouseKundarakDwarf, DuergarDwarf, MarkOfWardingDwarf, HighElf,
+            WoodElf, SeaElf, ShadarKai, HouseOfShadow, AerenalHighElf, AerenalWoodElf, ValenarHighElf,
+            ValenarWoodElf, DarkElf, PalidElf, AirGenasi, EarthGenasi, FireGenasi, WaterGenasi, Githyanki,
+            Githzerai, ForestGnome, RockGnome, DeepGnome, MarkOfScribingDwarf, CommonGoblin, GrotagGoblin,
+            IxalanGoblin, LavastepGoblin, TukTukGoblin, GreenskinGoblin, BoggartGoblin, Gremlin, GreenHag,
+            NightHag, SeaHag, GhostwiseHalfling, LightfootHalfling, StoutHalfling,
+            MarkOfHealingHalfling, MarkOfHospitalityHalfling, LotusdenHalfling, RavnicaLoxodon,
+            MirrodinLoxodon, TarkirLoxodon, NormalOrc, CommonOrc, MountainOrc, Orog, WaterOrc,
+            BeasthideShifter, LongtoothShifter, SwiftstrideShifter, WildhuntShifter));
+
     public static ArrayList<Race> Races = RacesInit;
+    public static ArrayList<Subrace> Subraces = SubracesInit;
 }
