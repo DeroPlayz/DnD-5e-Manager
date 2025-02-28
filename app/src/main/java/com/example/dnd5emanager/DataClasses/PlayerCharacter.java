@@ -93,6 +93,11 @@ public class PlayerCharacter {
 
     //Various races have different properties.
     private Race Race;
+        public void setRace(Race Race){this.Race = Race;}
+        public Race getRace(){return Race;}
+    private Subrace Subrace = null;
+        public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
+        public Subrace getSubrace(){return Subrace;}
 
     //Stores character classes as well as their levels, since, ya know, you can multiclass.
     ArrayList<ClassAndLevel> Classes = new ArrayList<ClassAndLevel>();
