@@ -7,33 +7,23 @@ public class PlayerCharacter {
         public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
 
-    public void setLevel(int Level){
-        Classes.get(Classes.size()-1).setLevel(Level);
-    }
-    public int getLevel(){
-        if(Classes.size() > 1) {
-            int Level = 0;
-            for (int i = 0; i < Classes.size(); i++) {
-                Level += Classes.get(i).getLevel();
+    private ArrayList<CharacterClass> Classes = new ArrayList<>();
+        public void addClass(CharacterClass Class){Classes.add(Class);}
+        public void addClass(CharacterClass Class, int Level){Classes.add(Class); Classes.get(Classes.size()-1).setLevel(Level);}
+        public CharacterClass getClass(int index){return Classes.get(index);}
+        public int getLevel(){
+            int lev = 1;
+            for (int i = 0; i < Classes.size(); i++){
+                lev += Classes.get(i).getLevel();
             }
-            return Level;
+            return lev;
         }
-        return Classes.get(0).getLevel();
-    }
 
-    public void setCharClass(CharacterClass CharClass){
-        Classes.get(0).setCharClass(CharClass);
-    }
-    public void setCharClass(CharacterClass CharClass, int Level){
-        Classes.get(0).setCharClass(CharClass);
-        Classes.get(0).setLevel(Level);
-    }
+    int XP = 0;
+        public void addXP(int XP){this.XP += XP; levelUpCheck();}
+        public void setXP(int XP){this.XP = XP; levelUpCheck();}
 
-    public ArrayList<ClassAndLevel> getClasses(){
-        return Classes;
-    }
-
-    private int HP;
+private int HP;
         public void setHP(int HP){this.HP = HP;}
         public int getHP(){return HP;}
 
@@ -99,68 +89,28 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    //Stores character classes as well as their levels, since, ya know, you can multiclass.
-    ArrayList<ClassAndLevel> Classes = new ArrayList<ClassAndLevel>();
-    int Level = 0;
-        public int updLevel(){
-            for(int i = 0; i < Classes.size(); i++){
-                Level += Classes.get(i).getLevel();
-            }
-            return Level;
-        }
-        int XP;
-            public void setXP(int XP){this.XP = XP; levelUpCheck();}
-            public void addXP(int XPDiff){XP += XPDiff; levelUpCheck();}
-            public void removeXP(int XPDiff){XP -= XPDiff;}
-            public int getXP(){return XP;}
-
         public void levelUpCheck(){
-            if(Level == 1 && XP >= 300){levelUp();}
-            else if(Level == 2 && XP >= 900){levelUp();}
-            else if(Level == 3 && XP >= 2700){levelUp();}
-            else if(Level == 4 && XP >= 6500){levelUp();}
-            else if(Level == 5 && XP >= 14000){levelUp();}
-            else if(Level == 6 && XP >= 23000){levelUp();}
-            else if(Level == 7 && XP >= 34000){levelUp();}
-            else if(Level == 8 && XP >= 48000){levelUp();}
-            else if(Level == 9 && XP >= 64000){levelUp();}
-            else if(Level == 10 && XP >= 85000){levelUp();}
-            else if(Level == 11 && XP >= 100000){levelUp();}
-            else if(Level == 12 && XP >= 120000){levelUp();}
-            else if(Level == 13 && XP >= 140000){levelUp();}
-            else if(Level == 14 && XP >= 165000){levelUp();}
-            else if(Level == 15 && XP >= 195000){levelUp();}
-            else if(Level == 16 && XP >= 225000){levelUp();}
-            else if(Level == 17 && XP >= 265000){levelUp();}
-            else if(Level == 18 && XP >= 305000){levelUp();}
-            else if(Level == 19 && XP >= 355000){levelUp();}
+            if(getLevel() == 1 && XP >= 300)            {/*levelUp();*/}
+            else if(getLevel() == 2 && XP >= 900)       {/*levelUp();*/}
+            else if(getLevel() == 3 && XP >= 2700)      {/*levelUp();*/}
+            else if(getLevel() == 4 && XP >= 6500)      {/*levelUp();*/}
+            else if(getLevel() == 5 && XP >= 14000)     {/*levelUp();*/}
+            else if(getLevel() == 6 && XP >= 23000)     {/*levelUp();*/}
+            else if(getLevel() == 7 && XP >= 34000)     {/*levelUp();*/}
+            else if(getLevel() == 8 && XP >= 48000)     {/*levelUp();*/}
+            else if(getLevel() == 9 && XP >= 64000)     {/*levelUp();*/}
+            else if(getLevel() == 10 && XP >= 85000)    {/*levelUp();*/}
+            else if(getLevel() == 11 && XP >= 100000)   {/*levelUp();*/}
+            else if(getLevel() == 12 && XP >= 120000)   {/*levelUp();*/}
+            else if(getLevel() == 13 && XP >= 140000)   {/*levelUp();*/}
+            else if(getLevel() == 14 && XP >= 165000)   {/*levelUp();*/}
+            else if(getLevel() == 15 && XP >= 195000)   {/*levelUp();*/}
+            else if(getLevel() == 16 && XP >= 225000)   {/*levelUp();*/}
+            else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
+            else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
+            else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
         }
-        public void levelUp(/*Class chosenClass*/){
-            CharacterClass chosenClass = Constants.Fighter;
-            Classes.get(ClassAndLevel.findClass(Classes, chosenClass)).levelUp();
-            int target = ClassAndLevel.findClass(Classes, chosenClass);
-            for(int i = 0; i < Classes.get(target).CharClass.getFeatures().size(); i++){
-                if(Classes.get(target).CharClass.getFeatures().get(i).getLevel() <= Classes.get(target).CharClass.getLevel() &&
-                !PlayerFeatures.contains(Classes.get(target).CharClass.getFeatures().get(i))){
-                    PlayerFeatures.add(Classes.get(target).CharClass.getFeatures().get(i));
-                }
-            }
-            if(Classes.get(target).Subclass != null) {
-                for (int i = 0; i < Classes.get(target).Subclass.getFeatures().size(); i++) {
-                    if (Classes.get(target).Subclass.getFeatures().get(i).getLevel() <= Classes.get(target).CharClass.getLevel() &&
-                            !PlayerFeatures.contains(Classes.get(target).Subclass.getFeatures().get(i))) {
-                        PlayerFeatures.add(Classes.get(target).Subclass.getFeatures().get(i));
-                    }
-                }
-            }
-            if(ClassAndLevel.findClass(Classes, chosenClass) == 0){
-                Classes.add(new ClassAndLevel(Constants.Fighter, 10));
-            }
-            Level = 0;
-            for(int i = 0; i<Classes.size()-1; i++){
-                Level += Classes.get(i).getLevel();
-            }
-        }
+
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.
@@ -169,13 +119,17 @@ public class PlayerCharacter {
     //Builds the character (duh).
     public PlayerCharacter(){
         Name = "";
-        Level = Strength = StrengthBonus = Athletics = Dexterity = DexterityBonus = Acrobatics = SleightOfHand = Stealth = Constitution = ConstitutionBonus = HP = Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion = Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival = Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
+        Strength = StrengthBonus = Athletics =
+        Dexterity = DexterityBonus = Acrobatics = SleightOfHand = Stealth =
+        Constitution = ConstitutionBonus = HP =
+        Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion =
+        Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival =
+        Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
     }
+
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
         this.Name = Name;
         this.Race = Race;
-
-        Classes.add(new ClassAndLevel(Class, Level));
 
         this.Strength = Strength;
         //Every ability has a numerical score, and every character has a score for each ability, and that dictates the bonus you get when you roll this stat.
@@ -192,7 +146,7 @@ public class PlayerCharacter {
         ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        HP = Classes.get(0).CharClass.getInitialHP() + ConstitutionBonus;
+        HP = Classes.get(0).getInitialHP() + ConstitutionBonus;
 
         this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.

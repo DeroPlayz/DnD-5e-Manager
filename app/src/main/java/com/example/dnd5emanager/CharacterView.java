@@ -1,6 +1,6 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.CharacterCreatorPageOne.NewCharacter;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
 ///**
@@ -34,19 +33,31 @@ public class CharacterView extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        int CharNum = Characters.size()-1;
 
+        //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
-        CharacterName.setText(CharacterCreatorPageOne.NewCharacter.getName());
+        //Sets the textbox's value to the in-progress character's name.
+        CharacterName.setText(NewCharacter.getName());
 
+        //Second verse, same as the first; this time, for the character's race.
+        TextView CharacterRace = view.findViewById(R.id.characterRace);
+
+        String RaceDisp = "";
+        if(NewCharacter.getRace().getHasSubraces()){
+            //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+            RaceDisp += NewCharacter.getSubrace().getName() + " ";
+        }
+        else {
+            //When no subrace is present, the "base" race is shown.
+            RaceDisp += NewCharacter.getRace().getName();
+        }
+        //Updates the visible textbox.
+        CharacterRace.setText(RaceDisp);
+
+        //Just like the other two. These aren't great descriptions of functionality, but I'm fucking exhausted. It's 11 pm.
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
         String LevelDisp = "";
-        LevelDisp += "Level " + CharacterCreatorPageOne.NewCharacter.getLevel() + " ";
-        if(!CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName().equals(CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName())){
-            LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getSubclass().getName() + " ";
-        }
-        LevelDisp += CharacterCreatorPageOne.NewCharacter.getClasses().get(0).getCharClass().getName();
-
+        LevelDisp += "Level " + NewCharacter.getLevel() + " ";
         CharacterLevel.setText(LevelDisp);
 
     }
