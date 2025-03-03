@@ -56,7 +56,7 @@ public class CharacterView extends Fragment {
         //Just like the other two. These aren't great descriptions of functionality, but I'm fucking exhausted. It's 11 pm.
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
         String LevelDisp = "";
-        for(int i = 0; i < CurrentCharacter.getClassCount(); i++)
+//        for(int i = 0; i < CurrentCharacter.getClassCount(); i++)
         LevelDisp += "Level " + CurrentCharacter.getLevel() + " ";
         CharacterLevel.setText(LevelDisp);
 

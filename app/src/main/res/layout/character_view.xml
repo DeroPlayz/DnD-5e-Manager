@@ -5,6 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7FA7FF"
     tools:context=".CharacterView">
 
     <androidx.constraintlayout.widget.Barrier
@@ -12,16 +13,6 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:barrierDirection="top" />
-
-    <TextureView
-        android:id="@+id/textureView"
-        android:layout_width="228dp"
-        android:layout_height="408dp"
-        android:background="#FF0000"
-        android:backgroundTint="#FF0000"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="38dp"
-        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/characterName"
@@ -63,12 +54,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/character_view_dexterity_value"
+        android:id="@+id/character_view_strength_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="244dp"
-        android:text="TextView"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="356dp"
+        android:text="Strength"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,58 +68,49 @@
         android:id="@+id/character_view_strength_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="224dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/character_view_strength_text"
+        app:layout_constraintStart_toStartOf="@+id/character_view_strength_text"
+        app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
+
+    <TextView
+        android:id="@+id/character_view_dexterity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="389dp" />
 
     <TextView
         android:id="@+id/character_view_constitution_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="264dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView" />
 
     <TextView
         android:id="@+id/character_view_intelligence_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="284dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView" />
 
     <TextView
         android:id="@+id/character_view_wisdom_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="304dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView" />
 
     <TextView
         android:id="@+id/character_view_charisma_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="324dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView" />
 
-    <TextView
-        android:id="@+id/character_view_strength_text"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Strength"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="427dp" />
+        android:text="Button"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="244dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
