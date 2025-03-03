@@ -60,25 +60,20 @@ public class CharacterView extends Fragment {
         LevelDisp += "Level " + CurrentCharacter.getLevel() + " ";
         CharacterLevel.setText(LevelDisp);
 
-        TextView Strength = view.findViewById(R.id.character_view_strength_value);
-        TextView Dexterity = view.findViewById(R.id.character_view_dexterity_value);
-        TextView Constitution = view.findViewById(R.id.character_view_constitution_value);
-        TextView Intelligence = view.findViewById(R.id.character_view_intelligence_value);
-        TextView Wisdom = view.findViewById(R.id.character_view_wisdom_value);
-        TextView Charisma = view.findViewById(R.id.character_view_charisma_value);
-        String StrengthString = "Strength: " + String.valueOf(CurrentCharacter.getStrength());
-        String DexterityString = "Dexterity: " + String.valueOf(CurrentCharacter.getDexterity());
-        String ConstitutionString = "Constitution: " + String.valueOf(CurrentCharacter.getConstitution());
-        String IntelligenceString = "Intelligence: " + String.valueOf(CurrentCharacter.getIntelligence());
-        String WisdomString = "Wisdom: " + String.valueOf(CurrentCharacter.getWisdom());
-        String CharismaString = "Charisma: " + String.valueOf(CurrentCharacter.getCharisma());
 
-        Strength.setText(StrengthString);
-        Dexterity.setText(DexterityString);
-        Constitution.setText(ConstitutionString);
-        Intelligence.setText(IntelligenceString);
-        Wisdom.setText(WisdomString);
-        Charisma.setText(CharismaString);
+
+        TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
+        TextView DexterityValue = view.findViewById(R.id.character_view_dexterity_value);
+        TextView ConstitutionValue = view.findViewById(R.id.character_view_constitution_value);
+        TextView IntelligenceValue = view.findViewById(R.id.character_view_intelligence_value);
+        TextView WisdomValue = view.findViewById(R.id.character_view_wisdom_value);
+        TextView CharismaValue = view.findViewById(R.id.character_view_charisma_value);
+        StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
+        DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
+        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
+        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
+        WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
+        CharismaValue.setText(String.valueOf(CurrentCharacter.getCharisma()));
     }
 
     @Override

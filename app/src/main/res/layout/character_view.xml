@@ -13,6 +13,16 @@
         android:layout_height="0dp"
         app:barrierDirection="top" />
 
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="228dp"
+        android:layout_height="408dp"
+        android:background="#FF0000"
+        android:backgroundTint="#FF0000"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:visibility="visible" />
+
     <TextView
         android:id="@+id/characterName"
         android:layout_width="wrap_content"
@@ -111,5 +121,13 @@
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/character_view_strength_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strength"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="427dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
