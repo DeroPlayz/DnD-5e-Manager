@@ -7,77 +7,115 @@ public class PlayerCharacter {
         public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
 
-    private ArrayList<CharacterClass> Classes = new ArrayList<>();
-        public void addClass(CharacterClass Class){Classes.add(Class);}
-        public void addClass(CharacterClass Class, int Level){Classes.add(Class); Classes.get(Classes.size()-1).setLevel(Level);}
-        public CharacterClass getClass(int index){return Classes.get(index);}
-        public int getLevel(){
-            int lev = 1;
-            for (int i = 0; i < Classes.size(); i++){
-                lev += Classes.get(i).getLevel();
-            }
-            return lev;
-        }
-
-    int XP = 0;
-        public void addXP(int XP){this.XP += XP; levelUpCheck();}
-        public void setXP(int XP){this.XP = XP; levelUpCheck();}
-
 private int HP;
         public void setHP(int HP){this.HP = HP;}
         public int getHP(){return HP;}
 
     //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
     private int Strength;
-        private int StrengthBonus;
-            private int Athletics;  public void setAthletics(int Athletics){this.Athletics = Athletics;}    public int getAthletics(){return Athletics;}
+        public void setStrength(int Strength){this.Strength = Strength;}
+        public int getStrength(){return Strength;}
+    private int StrengthBonus;
+        public void setStrengthBonus(){StrengthBonus = (int) Math.nextDown((Strength - 10.0)/2.0);}
+        public int getStrengthBonus(){return StrengthBonus;}
+    private int Athletics;
+        public void setAthletics(int Athletics){this.Athletics = Athletics;}
+        public int getAthletics(){return Athletics;}
 
     //Dexterity is used for maneuvering or other more coordination-based actions.
     private int Dexterity;
-        private int DexterityBonus;
-            private int Acrobatics;
-                public void setAcrobatics(int Acrobatics){this.Acrobatics = Acrobatics;}
-                public int getAcrobatics(){return Acrobatics;}
-            private int SleightOfHand;
-                public void setSleightOfHand(int SleightOfHand){this.SleightOfHand = SleightOfHand;}
-                public int getSleightOfHand(){return SleightOfHand;}
-            private int Stealth;
-                public void setStealth(int Stealth){this.Stealth = Stealth;}
-                public int getStealth(){return Stealth;}
+        public void setDexterity(int Dexterity){this.Dexterity = Dexterity;}
+        public int getDexterity(){return Dexterity;}
+    private int DexterityBonus;
+        public void setDexterityBonus(){DexterityBonus = (int) Math.nextDown((Dexterity - 10.0)/2.0);}
+        public int getDexterityBonus(){return DexterityBonus;}
+    private int Acrobatics;
+        public void setAcrobatics(int Acrobatics){this.Acrobatics = Acrobatics;}
+        public int getAcrobatics(){return Acrobatics;}
+    private int SleightOfHand;
+        public void setSleightOfHand(int SleightOfHand){this.SleightOfHand = SleightOfHand;}
+        public int getSleightOfHand(){return SleightOfHand;}
+    private int Stealth;
+        public void setStealth(int Stealth){this.Stealth = Stealth;}
+        public int getStealth(){return Stealth;}
 
     //Constitution determines your ability to take a blow or deal with anything else without
     //faltering; playing an in-game drinking game and trying not to pass out?
     //Roll Constitution! Trying to maintain a spell's effect every turn? Roll Constitution!
     private int Constitution;
-        private int ConstitutionBonus;
+        public void setConstitution(int Constitution){this.Constitution = Constitution;}
+        public int getConstitution(){return Constitution;}
+    private int ConstitutionBonus;
+        public void setConstitutionBonus(){ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0)/2.0);}
+        public int getConstitutionBonus(){return ConstitutionBonus;}
 
     //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
     private int Intelligence;
-        private int IntelligenceBonus;
-            private int Arcana;         public void setArcana(int Arcana){this.Arcana = Arcana;}                                public int getArcana(){return Arcana;}
-            private int History;        public void setHistory(int History){this.History = History;}                            public int getHistory(){return History;}
-            private int Investigation;  public void setInvestigation(int Investigation){this.Investigation = Investigation;}    public int getInvestigation(){return Investigation;}
-            private int Nature;         public void setNature(int Nature){this.Nature = Nature;}                                public int getNature(){return Nature;}
-            private int Religion;       public void setReligion(int Religion){this.Religion = Religion;}                        public int getReligion(){return Religion;}
+        public void setIntelligence(int Intelligence){this.Intelligence = Intelligence;}
+        public int getIntelligence(){return Intelligence;}
+    private int IntelligenceBonus;
+        public void setIntelligenceBonus(){IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0)/2.0);}
+        public int getIntelligenceBonus(){return IntelligenceBonus;}
+    private int Arcana;
+        public void setArcana(int Arcana){this.Arcana = Arcana;}
+        public int getArcana(){return Arcana;}
+    private int History;
+        public void setHistory(int History){this.History = History;}
+        public int getHistory(){return History;}
+    private int Investigation;
+        public void setInvestigation(int Investigation){this.Investigation = Investigation;}
+        public int getInvestigation(){return Investigation;}
+    private int Nature;
+        public void setNature(int Nature){this.Nature = Nature;}
+        public int getNature(){return Nature;}
+    private int Religion;
+        public void setReligion(int Religion){this.Religion = Religion;}
+        public int getReligion(){return Religion;}
 
     //Wisdom is common sense or instinct, or street smart plainly put.
     private int Wisdom;
-        private int WisdomBonus;
-            private int AnimalHandling; public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}    public int getAnimalHandling(){return AnimalHandling;}
-            private int Insight;        public void setInsight(int Insight){this.Insight = Insight;}                                public int getInsight(){return Insight;}
-            private int Medicine;       public void setMedicine(int Medicine){this.Medicine = Medicine;}                            public int getMedicine(){return Medicine;}
-            private int Perception;     public void setPerception(int Perception){this.Perception = Perception;}                    public int getPerception(){return Perception;}
-            private int Survival;       public void setSurvival(int Survival){this.Survival = Survival;}                            public int getSurvival(){return Survival;}
+        public void setWisdom(int Wisdom){this.Wisdom = Wisdom;}
+        public int getWisdom(){return Wisdom;}
+    private int WisdomBonus;
+        public void setWisdomBonus(){WisdomBonus = (int) Math.nextDown((Wisdom - 10.0)/2.0);}
+        public int getWisdomBonus(){return WisdomBonus;}
+    private int AnimalHandling;
+        public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}
+        public int getAnimalHandling(){return AnimalHandling;}
+    private int Insight;
+        public void setInsight(int Insight){this.Insight = Insight;}
+        public int getInsight(){return Insight;}
+    private int Medicine;
+        public void setMedicine(int Medicine){this.Medicine = Medicine;}
+        public int getMedicine(){return Medicine;}
+    private int Perception;
+        public void setPerception(int Perception){this.Perception = Perception;}
+        public int getPerception(){return Perception;}
+    private int Survival;
+        public void setSurvival(int Survival){this.Survival = Survival;}
+        public int getSurvival(){return Survival;}
 
     //Charisma is exactly what you think; how seriously people take your self-image;
     //how charming you are, how threatening you are,
     //how believable you are when you lie, etc.
     private int Charisma;
-        private int CharismaBonus;
-            private int Deception;      public void setDeception(int Deception){this.Deception = Deception;}                public int getDeception(){return Deception;}
-            private int Intimidation;   public void setIntimidation(int Intimidation){this.Intimidation = Intimidation;}    public int getIntimidation(){return Intimidation;}
-            private int Performance;    public void setPerformance(int Performance){this.Performance = Performance;}        public int getPerformance(){return Performance;}
-            private int Persuasion;     public void setPersuasion(int Persuasion){this.Persuasion = Persuasion;}            public int getPersuasion(){return Persuasion;}
+        public void setCharisma(int Charisma){this.Charisma = Charisma;}
+        public int getCharisma(){return Charisma;}
+    private int CharismaBonus;
+        public void setCharismaBonus(){CharismaBonus = (int) Math.nextDown((Charisma - 10.0)/2.0);}
+        public int getCharismaBonus(){return CharismaBonus;}
+    private int Deception;
+        public void setDeception(int Deception){this.Deception = Deception;}
+        public int getDeception(){return Deception;}
+    private int Intimidation;
+        public void setIntimidation(int Intimidation){this.Intimidation = Intimidation;}
+        public int getIntimidation(){return Intimidation;}
+    private int Performance;
+        public void setPerformance(int Performance){this.Performance = Performance;}
+        public int getPerformance(){return Performance;}
+    private int Persuasion;
+        public void setPersuasion(int Persuasion){this.Persuasion = Persuasion;}
+        public int getPersuasion(){return Persuasion;}
 
     private ArrayList<Feature> PlayerFeatures;
 
@@ -89,26 +127,45 @@ private int HP;
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-        public void levelUpCheck(){
-            if(getLevel() == 1 && XP >= 300)            {/*levelUp();*/}
-            else if(getLevel() == 2 && XP >= 900)       {/*levelUp();*/}
-            else if(getLevel() == 3 && XP >= 2700)      {/*levelUp();*/}
-            else if(getLevel() == 4 && XP >= 6500)      {/*levelUp();*/}
-            else if(getLevel() == 5 && XP >= 14000)     {/*levelUp();*/}
-            else if(getLevel() == 6 && XP >= 23000)     {/*levelUp();*/}
-            else if(getLevel() == 7 && XP >= 34000)     {/*levelUp();*/}
-            else if(getLevel() == 8 && XP >= 48000)     {/*levelUp();*/}
-            else if(getLevel() == 9 && XP >= 64000)     {/*levelUp();*/}
-            else if(getLevel() == 10 && XP >= 85000)    {/*levelUp();*/}
-            else if(getLevel() == 11 && XP >= 100000)   {/*levelUp();*/}
-            else if(getLevel() == 12 && XP >= 120000)   {/*levelUp();*/}
-            else if(getLevel() == 13 && XP >= 140000)   {/*levelUp();*/}
-            else if(getLevel() == 14 && XP >= 165000)   {/*levelUp();*/}
-            else if(getLevel() == 15 && XP >= 195000)   {/*levelUp();*/}
-            else if(getLevel() == 16 && XP >= 225000)   {/*levelUp();*/}
-            else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
-            else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
-            else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
+    private ArrayList<CharacterClass> Classes = new ArrayList<>();
+    public void setClass(){};
+    public void addClass(){};
+    public void getClass(){};
+    public void removeClass(){};
+
+
+    public int getLevel(){
+        int lev = 1;
+        for (int i = 0; i < Classes.size(); i++){
+            lev += Classes.get(i).getLevel();
+        }
+        return lev;
+    }
+
+    int XP = 0;
+    public void addXP(int XP){this.XP += XP; levelUpCheck();}
+    public void setXP(int XP){this.XP = XP; levelUpCheck();}
+
+    public void levelUpCheck(){
+        if(getLevel() == 1 && XP >= 300)            {/*levelUp();*/}
+        else if(getLevel() == 2 && XP >= 900)       {/*levelUp();*/}
+        else if(getLevel() == 3 && XP >= 2700)      {/*levelUp();*/}
+        else if(getLevel() == 4 && XP >= 6500)      {/*levelUp();*/}
+        else if(getLevel() == 5 && XP >= 14000)     {/*levelUp();*/}
+        else if(getLevel() == 6 && XP >= 23000)     {/*levelUp();*/}
+        else if(getLevel() == 7 && XP >= 34000)     {/*levelUp();*/}
+        else if(getLevel() == 8 && XP >= 48000)     {/*levelUp();*/}
+        else if(getLevel() == 9 && XP >= 64000)     {/*levelUp();*/}
+        else if(getLevel() == 10 && XP >= 85000)    {/*levelUp();*/}
+        else if(getLevel() == 11 && XP >= 100000)   {/*levelUp();*/}
+        else if(getLevel() == 12 && XP >= 120000)   {/*levelUp();*/}
+        else if(getLevel() == 13 && XP >= 140000)   {/*levelUp();*/}
+        else if(getLevel() == 14 && XP >= 165000)   {/*levelUp();*/}
+        else if(getLevel() == 15 && XP >= 195000)   {/*levelUp();*/}
+        else if(getLevel() == 16 && XP >= 225000)   {/*levelUp();*/}
+        else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
+        else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
+        else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
         }
 
 

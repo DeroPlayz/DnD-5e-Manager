@@ -146,7 +146,7 @@ public class Constants {
     static final ArrayList<String> RogueSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
     static final ArrayList<String> SorcererSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
     static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
+    static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
         
         //Class Declarations
         public static final CharacterClass Artificer = new CharacterClass("Artificer",
@@ -918,7 +918,11 @@ public class Constants {
             MarkOfHealingHalfling, MarkOfHospitalityHalfling, LotusdenHalfling, RavnicaLoxodon,
             MirrodinLoxodon, TarkirLoxodon, NormalOrc, CommonOrc, MountainOrc, Orog, WaterOrc,
             BeasthideShifter, LongtoothShifter, SwiftstrideShifter, WildhuntShifter));
+    public static final ArrayList<CharacterClass> CharacterClassesInit = new ArrayList<CharacterClass>
+            (List.of(Artificer, Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue,
+                Sorcerer, Warlock, Wizard));
 
     public static ArrayList<Race> Races = RacesInit;
     public static ArrayList<Subrace> Subraces = SubracesInit;
+    public static ArrayList<CharacterClass> CharacterClasses = CharacterClassesInit;
 }
