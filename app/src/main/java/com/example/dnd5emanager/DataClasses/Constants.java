@@ -925,4 +925,6 @@ public class Constants {
     public static ArrayList<Race> Races = RacesInit;
     public static ArrayList<Subrace> Subraces = SubracesInit;
     public static ArrayList<CharacterClass> CharacterClasses = CharacterClassesInit;
+
+    public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
 }

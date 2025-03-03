@@ -131,6 +131,7 @@ private int HP;
     public void addClass(CharacterClass Class){Classes.add(Class);}
     public void removeClass(CharacterClass Class){Classes.remove(Class);}
     public void clearClasses(){Classes = new ArrayList<>();}
+    public int getClassCount(){return Classes.size();}
     public void setLevel(CharacterClass Class, int Level) {
         if(Classes.contains(Class)){
 //            Log.d("I hate coding.", "Yes I do.");
