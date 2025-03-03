@@ -89,18 +89,18 @@
         android:id="@+id/character_creator_page_one_edit_intelligence"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="184dp"
+        android:layout_marginStart="180dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/spacer"
         app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_intelligence_display_text" />
 
     <TextView
         android:id="@+id/character_creator_page_one_intelligence_display_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="6dp"
         android:text="INT"
         android:textAlignment="center"
         android:textSize="22sp"
@@ -137,36 +137,36 @@
         android:id="@+id/character_creator_page_one_edit_strength"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="180dp"
         android:layout_marginTop="240dp"
-        android:layout_marginEnd="68dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintEnd_toStartOf="@id/character_creator_page_one_edit_constitution"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_dexterity"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="240dp"
         android:layout_marginTop="240dp"
-        android:layout_marginEnd="120dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_constitution"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="240dp"
-        android:layout_marginEnd="60dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/spacer"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -184,7 +184,7 @@
         android:id="@+id/character_creator_page_one_wisdom_display_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="6dp"
         android:text="WIS"
         android:textAlignment="center"
         android:textSize="22sp"
@@ -196,7 +196,7 @@
         android:id="@+id/character_creator_page_one_edit_charisma"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="9dp"
+        android:layout_marginStart="12dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
@@ -207,12 +207,20 @@
         android:id="@+id/character_creator_page_one_charisma_display_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="6dp"
         android:text="CHA"
         android:textAlignment="center"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_charisma"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_constitution" />
+
+    <Space
+        android:id="@+id/spacer"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

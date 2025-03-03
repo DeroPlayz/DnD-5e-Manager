@@ -166,17 +166,15 @@ public class CharacterCreatorPageOne extends Fragment {
                     }
                 }
             }
+            NewCharacter.clearClasses();
             for(int i = 0; i < CharacterClasses.size(); i++){
                 if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())) {
-                    NewCharacter.addClass(CharacterClasses.get(i), Integer.parseInt(Level.getText().toString()));
+//                    Log.d("Level?", Level.getText().toString());
+                    NewCharacter.addClass(CharacterClasses.get(i));
+                    NewCharacter.setLevel(CharacterClasses.get(i), Integer.parseInt(Level.getText().toString())-1);
                 }
             }
 
-//            if(!Level.getText().toString().isEmpty()){
-////                Log.d("", Level.getText().toString());
-//                NewCharacter.setLevel();
-//            }
-//            else{NewCharacter.setLevel(1);}
 
             NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
         });

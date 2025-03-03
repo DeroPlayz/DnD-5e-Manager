@@ -128,11 +128,17 @@ private int HP;
         public Subrace getSubrace(){return Subrace;}
 
     private ArrayList<CharacterClass> Classes = new ArrayList<>();
-    public void setClass(){};
-    public void addClass(){};
-    public void getClass(){};
-    public void removeClass(){};
-
+    public void addClass(CharacterClass Class){Classes.add(Class);}
+    public void removeClass(CharacterClass Class){Classes.remove(Class);}
+    public void clearClasses(){Classes = new ArrayList<>();}
+    public void setLevel(CharacterClass Class, int Level) {
+        if(Classes.contains(Class)){
+//            Log.d("I hate coding.", "Yes I do.");
+//            Log.d("Level?", String.valueOf(Level));
+            Classes.get(Classes.indexOf(Class)).setLevel(Level);
+        }
+    }
+    public CharacterClass getPrimaryClass(){return Classes.get(0);}
 
     public int getLevel(){
         int lev = 1;
