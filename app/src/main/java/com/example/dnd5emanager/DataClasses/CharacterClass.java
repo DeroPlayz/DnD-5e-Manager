@@ -163,4 +163,13 @@ public class CharacterClass {
     public String toString(){
         return Name;
     }
+
+    public static CharacterClass findClass(String Name) {
+        for (int i = 0; i < GlobalClassList.size(); i++) {
+            if (GlobalClassList.get(i).getName().equals(Name)) {
+                return GlobalClassList.get(i);
+            }
+        }
+        return null;
+    }
 }
