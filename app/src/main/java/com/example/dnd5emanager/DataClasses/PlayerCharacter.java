@@ -4,31 +4,69 @@ import java.util.ArrayList;
 
 public class PlayerCharacter {
     private String Name;
-        public void setName(String Name){this.Name = Name;}
-        public String getName(){return Name;}
+        public void setName(String Name) {
+            this.Name = Name;
+        }
+        public String getName() {
+            return Name;
+       }
 
-private int HP;
-        public void setHP(int HP){this.HP = HP;}
-        public int getHP(){return HP;}
+    private int HP;
+        public void setHP(int HP) {
+            this.HP = HP;
+        }
+        public int getHP() {
+            return HP;
+        }
+
+    private int ProficiencyBonus;
+        public void setProficiencyBonus(int ProficiencyBonus) {
+            this.ProficiencyBonus = ProficiencyBonus;
+        }
+        public int getProficiencyBonus() {
+            return ProficiencyBonus;
+        }
 
     //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
     private int Strength;
-        public void setStrength(int Strength){this.Strength = Strength;}
-        public int getStrength(){return Strength;}
+        public void setStrength(int Strength) {
+            this.Strength = Strength;
+        }
+        public int getStrength() {
+            return Strength;
+        }
     private int StrengthBonus;
-        public void setStrengthBonus(){StrengthBonus = (int) Math.nextDown((Strength - 10.0)/2.0);}
+        public void setStrengthBonus() {
+            int StrengthBase = Strength - 10;
+            if (StrengthBase % 2 == 0) {
+                StrengthBonus = StrengthBase / 2;
+            } else {
+                StrengthBonus = (int) Math.nextDown((Strength - 10.0) / 2.0);
+            }
+        }
         public int getStrengthBonus(){return StrengthBonus;}
+        public int getStrengthSave(){return StrengthBonus + (ProficiencyBonus * Classes.get(0).getStrengthSaveProf());}
     private int Athletics;
         public void setAthletics(int Athletics){this.Athletics = Athletics;}
         public int getAthletics(){return Athletics;}
 
     //Dexterity is used for maneuvering or other more coordination-based actions.
     private int Dexterity;
-        public void setDexterity(int Dexterity){this.Dexterity = Dexterity;}
+        public void setDexterity(int Dexterity) {
+            this.Dexterity= Dexterity;
+        }
         public int getDexterity(){return Dexterity;}
     private int DexterityBonus;
-        public void setDexterityBonus(){DexterityBonus = (int) Math.nextDown((Dexterity - 10.0)/2.0);}
+        public void setDexterityBonus() {
+            int DexterityBase = Strength - 10;
+            if (DexterityBase % 2 == 0) {
+                DexterityBonus = DexterityBase / 2;
+            } else {
+                DexterityBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
+            }
+        }
         public int getDexterityBonus(){return DexterityBonus;}
+        public int getDexteritySave(){return DexterityBonus + (ProficiencyBonus * Classes.get(0).getDexteritySaveProf());}
     private int Acrobatics;
         public void setAcrobatics(int Acrobatics){this.Acrobatics = Acrobatics;}
         public int getAcrobatics(){return Acrobatics;}
@@ -46,16 +84,32 @@ private int HP;
         public void setConstitution(int Constitution){this.Constitution = Constitution;}
         public int getConstitution(){return Constitution;}
     private int ConstitutionBonus;
-        public void setConstitutionBonus(){ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0)/2.0);}
+        public void setConstitutionBonus() {
+            int ConstitutionBase = Constitution - 10;
+            if (ConstitutionBase % 2 == 0) {
+                ConstitutionBonus = ConstitutionBase / 2;
+            } else{
+                ConstitutionBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
+            }
+        }
         public int getConstitutionBonus(){return ConstitutionBonus;}
+        public int getConstitutionSave(){return ConstitutionBonus + (ProficiencyBonus * Classes.get(0).getConstitutionSaveProf());}
 
     //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
     private int Intelligence;
         public void setIntelligence(int Intelligence){this.Intelligence = Intelligence;}
         public int getIntelligence(){return Intelligence;}
     private int IntelligenceBonus;
-        public void setIntelligenceBonus(){IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0)/2.0);}
+        public void setIntelligenceBonus() {
+            int IntelligenceBase = Strength - 10;
+            if (IntelligenceBase % 2 == 0) {
+                IntelligenceBonus = IntelligenceBase / 2;
+            } else {
+                IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0) / 2.0);
+            }
+        }
         public int getIntelligenceBonus(){return IntelligenceBonus;}
+        public int getIntelligenceSave(){return IntelligenceBonus + (ProficiencyBonus * Classes.get(0).getIntelligenceSaveProf());}
     private int Arcana;
         public void setArcana(int Arcana){this.Arcana = Arcana;}
         public int getArcana(){return Arcana;}
@@ -77,8 +131,16 @@ private int HP;
         public void setWisdom(int Wisdom){this.Wisdom = Wisdom;}
         public int getWisdom(){return Wisdom;}
     private int WisdomBonus;
-        public void setWisdomBonus(){WisdomBonus = (int) Math.nextDown((Wisdom - 10.0)/2.0);}
+        public void setWisdomBonus() {
+            int WisdomBase = Strength - 10;
+            if (WisdomBase % 2 == 0) {
+                WisdomBonus = WisdomBase / 2;
+            } else {
+                WisdomBonus = (int) Math.nextDown((Wisdom - 10.0) / 2.0);
+            }
+        }
         public int getWisdomBonus(){return WisdomBonus;}
+        public int getWisdomSave(){return WisdomBonus + (ProficiencyBonus * Classes.get(0).getWisdomSaveProf());}
     private int AnimalHandling;
         public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}
         public int getAnimalHandling(){return AnimalHandling;}
@@ -102,8 +164,16 @@ private int HP;
         public void setCharisma(int Charisma){this.Charisma = Charisma;}
         public int getCharisma(){return Charisma;}
     private int CharismaBonus;
-        public void setCharismaBonus(){CharismaBonus = (int) Math.nextDown((Charisma - 10.0)/2.0);}
+        public void setCharismaBonus() {
+            int CharismaBase = Strength - 10;
+            if (CharismaBase % 2 == 0) {
+                CharismaBonus = CharismaBase / 2;
+            } else {
+                CharismaBonus = (int) Math.nextDown((Charisma - 10.0) / 2.0);
+            }
+        }
         public int getCharismaBonus(){return CharismaBonus;}
+        public int getCharismaSave(){return CharismaBonus + (ProficiencyBonus * Classes.get(0).getCharismaSaveProf());}
     private int Deception;
         public void setDeception(int Deception){this.Deception = Deception;}
         public int getDeception(){return Deception;}

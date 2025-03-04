@@ -18,8 +18,8 @@
         android:id="@+id/abilities_card"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="216dp"
-        app:cardBackgroundColor="#FF0000"
+        android:layout_marginTop="215dp"
+        app:cardBackgroundColor="#6999FF"
         app:cardCornerRadius="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -29,122 +29,365 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/strength_card"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="#5E92FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/strength_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_view_strength_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Strength"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@+id/character_view_strength_value"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/character_view_strength_value"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/character_view_strength_value"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_strength_mod"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_strength_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_strength_save"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/character_view_strength_value"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_strength_value" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dexterity_card"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="#5E92FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/dexterity_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_view_dexterity_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Dexterity"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@+id/character_view_dexterity_value"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/character_view_dexterity_value"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/character_view_dexterity_value"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_dexterity_mod"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_dexterity_save"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/character_view_dexterity_value"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/constitution_card"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="#5E92FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constitution_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_view_constitution_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Constitution"
+                        android:textAlignment="center"
+                        android:textSize="13sp"
+                        app:layout_constraintEnd_toEndOf="@+id/character_view_constitution_value"
+                        app:layout_constraintStart_toStartOf="@+id/character_view_constitution_value"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/character_view_constitution_value"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_constitution_mod"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_text" />
+
+
+                    <TextView
+                        android:id="@+id/character_view_constitution_save"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/character_view_constitution_value"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/intelligence_card"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="110dp"
+                app:cardBackgroundColor="#5E92FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/intelligence_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_view_intelligence_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Intelligence"
+                        android:textAlignment="center"
+                        android:textSize="13.5sp"
+                        app:layout_constraintEnd_toEndOf="@+id/character_view_intelligence_value"
+                        app:layout_constraintStart_toStartOf="@+id/character_view_intelligence_value"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/character_view_intelligence_value"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_intelligence_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_intelligence_mod"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_intelligence_text" />
+
+
+                    <TextView
+                        android:id="@+id/character_view_intelligence_save"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/character_view_intelligence_value"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/wisdom_card"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="110dp"
+                app:cardBackgroundColor="#5E92FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/wisdom_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_view_wisdom_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Wisdom"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@+id/character_view_wisdom_value"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/character_view_wisdom_value"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/character_view_wisdom_value"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_wisdom_mod"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_text" />
+
+
+                    <TextView
+                        android:id="@+id/character_view_wisdom_save"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/character_view_wisdom_value"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/charisma_card"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="110dp"
+                app:cardBackgroundColor="#5E92FF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/charisma_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_view_charisma_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Charisma"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@+id/character_view_charisma_value"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="@+id/character_view_charisma_value"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/character_view_charisma_value"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_charisma_text" />
+
+                    <TextView
+                        android:id="@+id/character_view_charisma_mod"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_charisma_text" />
+
+
+                    <TextView
+                        android:id="@+id/character_view_charisma_save"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
+                        android:text="TextView"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/character_view_charisma_value"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
             <Space
                 android:id="@+id/character_view_spacer1"
-                android:layout_width="70dp"
+                android:layout_width="75dp"
                 android:layout_height="match_parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Space
                 android:id="@+id/character_view_spacer2"
-                android:layout_width="70dp"
+                android:layout_width="75dp"
                 android:layout_height="match_parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/character_view_strength_text"
-                android:layout_width="wrap_content"
-                android:text="Strength"
-                android:textSize="18sp"
-                app:layout_constraintEnd_toEndOf="@+id/character_view_strength_value"
-                app:layout_constraintHorizontal_bias="0.555"
-                app:layout_constraintStart_toStartOf="@+id/character_view_strength_value"
-                tools:layout_editor_absoluteY="24dp" />
-
-            <TextView
-                android:id="@+id/character_view_strength_value"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="75dp"
-                tools:layout_editor_absoluteY="49dp" />
-
-            <TextView
-                android:id="@+id/character_view_dexterity_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Dexterity"
-                android:textSize="18sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="24dp" />
-
-            <TextView
-                android:id="@+id/character_view_intelligence_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Intelligence"
-                android:textSize="13.5sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="72dp" />
-
-            <TextView
-                android:id="@+id/character_view_wisdom_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Wisdom"
-                android:textSize="18sp"
-                tools:layout_editor_absoluteX="1dp"
-                tools:layout_editor_absoluteY="96dp" />
-
-            <TextView
-                android:id="@+id/character_view_charisma_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Charisma"
-                android:textSize="16.5sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="120dp" />
-
-            <TextView
-                android:id="@+id/character_view_dexterity_value"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="243dp"
-                tools:layout_editor_absoluteY="44dp" />
-
-            <TextView
-                android:id="@+id/character_view_constitution_value"
-                android:layout_width="58dp"
-                android:layout_height="17dp"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="206dp"
-                tools:layout_editor_absoluteY="112dp" />
-
-            <TextView
-                android:id="@+id/character_view_intelligence_value"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="272dp"
-                tools:layout_editor_absoluteY="112dp" />
-
-            <TextView
-                android:id="@+id/character_view_wisdom_value"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="308dp"
-                tools:layout_editor_absoluteY="33dp" />
-
-            <TextView
-                android:id="@+id/character_view_charisma_value"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                tools:layout_editor_absoluteX="167dp"
-                tools:layout_editor_absoluteY="63dp" />
-
-            <TextView
-                android:id="@+id/character_view_constitution_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Constitution"
-                android:textSize="13sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="48dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

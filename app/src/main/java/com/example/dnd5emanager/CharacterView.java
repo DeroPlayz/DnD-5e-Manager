@@ -60,15 +60,40 @@ public class CharacterView extends Fragment {
         LevelDisp += "Level " + CurrentCharacter.getLevel() + " ";
         CharacterLevel.setText(LevelDisp);
 
-
+        CurrentCharacter.setStrengthBonus();
+        CurrentCharacter.setDexterityBonus();
+        CurrentCharacter.setConstitutionBonus();
+        CurrentCharacter.setIntelligenceBonus();
+        CurrentCharacter.setWisdomBonus();
+        CurrentCharacter.setCharismaBonus();
 
         TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
+            TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
+            TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
+
         TextView DexterityValue = view.findViewById(R.id.character_view_dexterity_value);
+            TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
+            TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
+
         TextView ConstitutionValue = view.findViewById(R.id.character_view_constitution_value);
+            TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
+            TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
+
         TextView IntelligenceValue = view.findViewById(R.id.character_view_intelligence_value);
+            TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
+            TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
+
         TextView WisdomValue = view.findViewById(R.id.character_view_wisdom_value);
+            TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
+            TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
+
         TextView CharismaValue = view.findViewById(R.id.character_view_charisma_value);
+            TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
+            TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
+
         StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
+            StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));
+            StrengthSave.setText(String.valueOf(CurrentCharacter.getStrengthSave()));
         DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
         ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
         IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));

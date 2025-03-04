@@ -1,5 +1,7 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Constants.*;
+
 import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
@@ -21,61 +23,19 @@ public class CharacterClass {
 
 //    private ArrayList<Subclass> Subclasses = new ArrayList<Subclass>(Armorer)
 
-    private boolean StrengthSavingThrowProf;
+    private int StrengthSaveProf;
+        public int getStrengthSaveProf(){return StrengthSaveProf;}
+    private int DexteritySaveProf;
+        public int getDexteritySaveProf(){return DexteritySaveProf;}
+    private int ConstitutionSaveProf;
+        public int getConstitutionSaveProf(){return ConstitutionSaveProf;}
+    private int IntelligenceSaveProf;
+        public int getIntelligenceSaveProf(){return IntelligenceSaveProf;}
+    private int WisdomSaveProf;
+        public int getWisdomSaveProf(){return WisdomSaveProf;}
+    private int CharismaSaveProf;
+        public int getCharismaSaveProf(){return CharismaSaveProf;}
 
-    public void setStrengthSavingThrowProf(boolean StrengthSavingThrowProf) {
-        this.StrengthSavingThrowProf = StrengthSavingThrowProf;
-    }
-
-    private boolean DexteritySavingThrowProf;
-
-    public void setDexteritySavingThrowProf(boolean DexteritySavingThrowProf) {
-        this.DexteritySavingThrowProf = DexteritySavingThrowProf;
-    }
-
-    public boolean getDexteritySavingThrowProf() {
-        return DexteritySavingThrowProf;
-    }
-
-    private boolean ConstitutionSavingThrowProf;
-
-    public void setConstitutionSavingThrowProf(boolean ConstitutionSavingThrowProf) {
-        this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;
-    }
-
-    public boolean getConstitutionSavingThrowProf() {
-        return ConstitutionSavingThrowProf;
-    }
-
-    private boolean IntelligenceSavingThrowProf;
-
-    public void setIntelligenceSavingThrowProf(boolean IntelligenceSavingThrowProf) {
-        this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
-    }
-
-    public boolean getIntelligenceSavingThrowProf() {
-        return IntelligenceSavingThrowProf;
-    }
-
-    private boolean WisdomSavingThrowProf;
-
-    public void setWisdomSavingThrowProf(boolean WisdomSavingThrowProf) {
-        this.WisdomSavingThrowProf = WisdomSavingThrowProf;
-    }
-
-    public boolean getWisdomSavingThrowProf() {
-        return WisdomSavingThrowProf;
-    }
-
-    private boolean CharismaSavingThrowProf;
-
-    public void setCharismaSavingThrowProf(boolean CharismaSavingThrowProf) {
-        this.CharismaSavingThrowProf = CharismaSavingThrowProf;
-    }
-
-    public boolean getCharismaSavingThrowProf() {
-        return CharismaSavingThrowProf;
-    }
 
     private ArrayList<String> SkillProficiencyOptions = new ArrayList<>();
         public ArrayList<String> getSkillProficiencyOptions(){return SkillProficiencyOptions;}
@@ -118,12 +78,12 @@ public class CharacterClass {
         public ArrayList<Feature> getFeatures(){return ClassFeatures;}
     public CharacterClass(
             String Name,
-            boolean StrengthSavingThrowProf,
-            boolean DexteritySavingThrowProf,
-            boolean ConstitutionSavingThrowProf,
-            boolean IntelligenceSavingThrowProf,
-            boolean WisdomSavingThrowProf,
-            boolean CharismaSavingThrowProf,
+            int StrengthSaveProf,
+            int DexteritySaveProf,
+            int ConstitutionSaveProf,
+            int IntelligenceSaveProf,
+            int WisdomSaveProf,
+            int CharismaSaveProf,
             ArrayList<String> SkillProficiencyOptions,
             ArrayList<String> WeaponProficiencies,
             ArrayList<String> ToolProficiencies,
@@ -138,12 +98,12 @@ public class CharacterClass {
             int InitialHP) {
 
         this.Name = Name;
-        this.StrengthSavingThrowProf = StrengthSavingThrowProf;
-        this.DexteritySavingThrowProf = DexteritySavingThrowProf;
-        this.ConstitutionSavingThrowProf = ConstitutionSavingThrowProf;
-        this.IntelligenceSavingThrowProf = IntelligenceSavingThrowProf;
-        this.WisdomSavingThrowProf = WisdomSavingThrowProf;
-        this.CharismaSavingThrowProf = CharismaSavingThrowProf;
+        this.StrengthSaveProf = StrengthSaveProf;
+        this.DexteritySaveProf = DexteritySaveProf;
+        this.ConstitutionSaveProf = ConstitutionSaveProf;
+        this.IntelligenceSaveProf = IntelligenceSaveProf;
+        this.WisdomSaveProf = WisdomSaveProf;
+        this.CharismaSaveProf = CharismaSaveProf;
         this.SkillProficiencyOptions = SkillProficiencyOptions;
         this.WeaponProficiencies = WeaponProficiencies;
         this.ToolProficiencies = ToolProficiencies;
@@ -165,9 +125,9 @@ public class CharacterClass {
     }
 
     public static CharacterClass findClass(String Name) {
-        for (int i = 0; i < GlobalClassList.size(); i++) {
-            if (GlobalClassList.get(i).getName().equals(Name)) {
-                return GlobalClassList.get(i);
+        for (int i = 0; i < CharacterClasses.size(); i++) {
+            if (CharacterClasses.get(i).getName().equals(Name)) {
+                return CharacterClasses.get(i);
             }
         }
         return null;
