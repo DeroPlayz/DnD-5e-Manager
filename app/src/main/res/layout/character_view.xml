@@ -14,6 +14,141 @@
         android:layout_height="0dp"
         app:barrierDirection="top" />
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/abilities_card"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="216dp"
+        app:cardBackgroundColor="#FF0000"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/abilities_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:id="@+id/character_view_spacer1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Space
+                android:id="@+id/character_view_spacer2"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/character_view_strength_text"
+                android:layout_width="wrap_content"
+                android:text="Strength"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/character_view_strength_value"
+                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintStart_toStartOf="@+id/character_view_strength_value"
+                tools:layout_editor_absoluteY="24dp" />
+
+            <TextView
+                android:id="@+id/character_view_strength_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="75dp"
+                tools:layout_editor_absoluteY="49dp" />
+
+            <TextView
+                android:id="@+id/character_view_dexterity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dexterity"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="24dp" />
+
+            <TextView
+                android:id="@+id/character_view_intelligence_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intelligence"
+                android:textSize="13.5sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/character_view_wisdom_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wisdom"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="96dp" />
+
+            <TextView
+                android:id="@+id/character_view_charisma_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charisma"
+                android:textSize="16.5sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <TextView
+                android:id="@+id/character_view_dexterity_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="243dp"
+                tools:layout_editor_absoluteY="44dp" />
+
+            <TextView
+                android:id="@+id/character_view_constitution_value"
+                android:layout_width="58dp"
+                android:layout_height="17dp"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:id="@+id/character_view_intelligence_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="272dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:id="@+id/character_view_wisdom_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="308dp"
+                tools:layout_editor_absoluteY="33dp" />
+
+            <TextView
+                android:id="@+id/character_view_charisma_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="167dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+            <TextView
+                android:id="@+id/character_view_constitution_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constitution"
+                android:textSize="13sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="48dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
     <TextView
         android:id="@+id/characterName"
         android:layout_width="wrap_content"
@@ -52,65 +187,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/character_view_strength_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="356dp"
-        android:text="Strength"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/character_view_strength_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/character_view_strength_text"
-        app:layout_constraintStart_toStartOf="@+id/character_view_strength_text"
-        app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
-
-    <TextView
-        android:id="@+id/character_view_dexterity_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="389dp" />
-
-    <TextView
-        android:id="@+id/character_view_constitution_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/character_view_intelligence_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/character_view_wisdom_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/character_view_charisma_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="244dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
