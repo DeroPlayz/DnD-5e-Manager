@@ -68,37 +68,52 @@ public class CharacterView extends Fragment {
         CurrentCharacter.setCharismaBonus();
 
         TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
-            TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
-            TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
+        StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
+        TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
+        StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));
+        TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
+        StrengthSave.setText(String.valueOf(CurrentCharacter.getStrengthSave()));
 
         TextView DexterityValue = view.findViewById(R.id.character_view_dexterity_value);
-            TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
-            TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
+        DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
+        TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
+        DexterityMod.setText(String.valueOf(CurrentCharacter.getDexterityBonus()));
+        TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
+        DexteritySave.setText(String.valueOf(CurrentCharacter.getDexteritySave()));
 
         TextView ConstitutionValue = view.findViewById(R.id.character_view_constitution_value);
-            TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
-            TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
+        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
+        TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
+        ConstitutionMod.setText(String.valueOf(CurrentCharacter.getConstitutionBonus()));
+        TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
+        ConstitutionSave.setText(String.valueOf(CurrentCharacter.getConstitutionSave()));
 
         TextView IntelligenceValue = view.findViewById(R.id.character_view_intelligence_value);
-            TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
-            TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
+        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
+        TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
+        IntelligenceMod.setText(String.valueOf(CurrentCharacter.getIntelligenceBonus()));
+        TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
+        IntelligenceSave.setText(String.valueOf(CurrentCharacter.getIntelligenceSave()));
 
         TextView WisdomValue = view.findViewById(R.id.character_view_wisdom_value);
-            TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
-            TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
+        WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
+        TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
+        WisdomMod.setText(String.valueOf(CurrentCharacter.getWisdomBonus()));
+        TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
+        WisdomSave.setText(String.valueOf(CurrentCharacter.getWisdomSave()));
 
         TextView CharismaValue = view.findViewById(R.id.character_view_charisma_value);
-            TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
-            TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
-
-        StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
-            StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));
-            StrengthSave.setText(String.valueOf(CurrentCharacter.getStrengthSave()));
-        DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
-        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
-        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
-        WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
         CharismaValue.setText(String.valueOf(CurrentCharacter.getCharisma()));
+        TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
+        CharismaMod.setText(String.valueOf(CurrentCharacter.getCharismaBonus()));
+        TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
+        CharismaSave.setText(String.valueOf(CurrentCharacter.getCharismaSave()));
+
+        TextView CurrentHealth = view.findViewById(R.id.character_view_current_health);
+        CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
+        TextView MaxHealth = view.findViewById(R.id.character_view_max_health);
+        MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
+
     }
 
     @Override
