@@ -18,7 +18,7 @@
         android:id="@+id/abilities_card"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="215dp"
+        android:layout_marginTop="415dp"
         app:cardBackgroundColor="#6999FF"
         app:cardCornerRadius="4dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -430,5 +430,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="63dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/characterLevel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
