@@ -205,8 +205,8 @@
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_health"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="text"
         android:text="Health"
@@ -228,5 +228,27 @@
         android:layout_height="30dp"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+
+    <Button
+        android:id="@+id/character_creator_page_one_minimum_health"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/character_creator_page_one_maximum_health"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Button"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1"
+        tools:layout_editor_absoluteX="150dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
