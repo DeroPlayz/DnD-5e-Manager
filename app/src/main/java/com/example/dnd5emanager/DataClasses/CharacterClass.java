@@ -57,13 +57,10 @@ public class CharacterClass {
     private int ArmorProfChoiceCount;
         public int getArmorProfChoiceCount(){return ArmorProfChoiceCount;}
 
-    private int InitialHP;
-        public void setInitialHP(int InitialHP) {
-            this.InitialHP = InitialHP;
+    private int HitDie;
+        public int rollInitialHealth() {
+            return (int) (Math.random() * HitDie) + 1;
         }
-        public int getInitialHP() {
-        return InitialHP;
-    }
     //Before adding Constitution modifier.
 
 
@@ -95,7 +92,7 @@ public class CharacterClass {
             ArrayList<Feature> ClassFeatures,
             int AttacksPerAction,
             String SpellcastingAbility,
-            int InitialHP) {
+            int HitDie) {
 
         this.Name = Name;
         this.StrengthSaveProf = StrengthSaveProf;
@@ -115,7 +112,7 @@ public class CharacterClass {
         this.ClassFeatures = ClassFeatures;
         this.AttacksPerAction = AttacksPerAction;
         this.SpellcastingAbility = SpellcastingAbility;
-        this.InitialHP = InitialHP;
+        this.HitDie = HitDie;
     }
 
     @NonNull

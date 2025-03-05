@@ -25,18 +25,19 @@ public class Race {
         private ArrayList<String> WeaponProficiencies;
         private ArrayList<String> ToolProficiencies;
 
-    private int BaseArmorClass;
+    private int ArmorClass;
+        public int getArmorClass(){return ArmorClass;}
     private ArrayList<String> RacialTraits;
     private boolean hasSubraces;
         public boolean getHasSubraces(){return hasSubraces;}
 
-    public Race(String Name, int BaseArmorClass, int GroundSpeed, int AirSpeed, int ClimbSpeed,
+    public Race(String Name, int ArmorClass, int GroundSpeed, int AirSpeed, int ClimbSpeed,
         int SwimSpeed, int BurrowSpeed, int StrengthBonus, int DexterityBonus, int ConstitutionBonus,
         int IntelligenceBonus, int WisdomBonus, int CharismaBonus, boolean hasSubraces
         /*ArrayList<String> SkillProficiencies, ArrayList<String> WeaponProficiencies,
         ArrayList<String> ToolProficiencies, ArrayList<String> RacialTraits*/){
             this.Name = Name;
-            this.BaseArmorClass = BaseArmorClass;
+            this.ArmorClass = ArmorClass;
             this.StrengthBonus = StrengthBonus;
             this.DexterityBonus = DexterityBonus;
             this.ConstitutionBonus = ConstitutionBonus;

@@ -11,12 +11,19 @@ public class PlayerCharacter {
             return Name;
        }
 
-    private int HP;
-        public void setHP(int HP) {
-            this.HP = HP;
+    private int CurrentHealth;
+        public void setCurrentHealth(int CurrentHealth) {
+            this.CurrentHealth = CurrentHealth;
         }
-        public int getHP() {
-            return HP;
+        public int getCurrentHealth() {
+            return CurrentHealth;
+        }
+    private int MaxHealth;
+        public void setMaxHealth(int MaxHealth) {
+            this.MaxHealth = MaxHealth;
+        }
+        public int getMaxHealth() {
+            return MaxHealth;
         }
 
     private int ProficiencyBonus;
@@ -255,7 +262,7 @@ public class PlayerCharacter {
         Name = "";
         Strength = StrengthBonus = Athletics =
         Dexterity = DexterityBonus = Acrobatics = SleightOfHand = Stealth =
-        Constitution = ConstitutionBonus = HP =
+        Constitution = ConstitutionBonus = MaxHealth = CurrentHealth =
         Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion =
         Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival =
         Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
@@ -280,7 +287,7 @@ public class PlayerCharacter {
         ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        HP = Classes.get(0).getInitialHP() + ConstitutionBonus;
+        MaxHealth = Classes.get(0).rollInitialHealth() + ConstitutionBonus;
 
         this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.
