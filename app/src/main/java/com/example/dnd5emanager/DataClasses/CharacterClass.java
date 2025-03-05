@@ -58,9 +58,8 @@ public class CharacterClass {
         public int getArmorProfChoiceCount(){return ArmorProfChoiceCount;}
 
     private int HitDie;
-        public int rollInitialHealth() {
-            return (int) (Math.random() * HitDie) + 1;
-        }
+        public int getHitDie(){return HitDie;}
+        public int rollInitialHealth(){return (int) (Math.random() * HitDie) + 1;}
     //Before adding Constitution modifier.
 
 

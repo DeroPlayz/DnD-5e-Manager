@@ -205,7 +205,7 @@
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_health"
-        android:layout_width="100dp"
+        android:layout_width="105dp"
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="text"
@@ -231,24 +231,31 @@
 
     <Button
         android:id="@+id/character_creator_page_one_minimum_health"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="240dp" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Minimum Health"
+        android:textSize="11.5sp"
+        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_edit_health"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_maximum_health"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:text="Button"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1"
-        tools:layout_editor_absoluteX="150dp" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Maximum Health"
+        android:textSize="11.5sp"
+        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_edit_health"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_minimum_health" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:id="@+id/character_creator_page_one_roll_health"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:padding="1dp"
+        android:text="Roll Health"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
