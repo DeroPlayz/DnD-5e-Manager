@@ -80,7 +80,7 @@
         android:text="STR"
         android:textAlignment="center"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/spacer1"
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_strength"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_strength" />
 
@@ -93,7 +93,7 @@
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_intelligence"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_intelligence"
-        app:layout_constraintTop_toBottomOf="@id/spacer2" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
 
     <TextView
         android:id="@+id/character_creator_page_one_wisdom_display_text"
@@ -104,7 +104,7 @@
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_wisdom"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintTop_toBottomOf="@id/spacer2" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
 
     <TextView
         android:id="@+id/character_creator_page_one_charisma_display_text"
@@ -115,7 +115,7 @@
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_charisma"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
-        app:layout_constraintTop_toBottomOf="@id/spacer2" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
 
     <TextView
         android:id="@+id/character_creator_page_one_dexterity_display_text"
@@ -124,7 +124,7 @@
         android:text="DEX"
         android:textAlignment="center"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/spacer1"
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_dexterity"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_dexterity" />
 
@@ -135,7 +135,7 @@
         android:text="CON"
         android:textAlignment="center"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/spacer1"
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_constitution"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_constitution" />
 
@@ -143,22 +143,20 @@
         android:id="@+id/character_creator_page_one_edit_strength"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="200dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="@id/spacer1"
-        app:layout_constraintTop_toTopOf="@id/spacer1" />
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_intelligence"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="200dp"
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="@id/spacer1"
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_intelligence_display_text" />
 
     <EditText
@@ -205,21 +203,30 @@
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_dexterity"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_dexterity" />
 
+    <EditText
+        android:id="@+id/character_creator_page_one_edit_health"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Health"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
+
     <Space
-        android:id="@+id/spacer1"
-        android:layout_width="200dp"
+        android:id="@+id/character_creator_page_one_spacer1"
+        android:layout_width="20dp"
         android:layout_height="160dp"
+        android:layout_marginStart="180dp"
         android:layout_marginTop="240dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Space
-        android:id="@+id/spacer2"
+        android:id="@+id/character_creator_page_one_spacer2"
         android:layout_width="190dp"
         android:layout_height="30dp"
-        android:layout_marginStart="200dp"
-        app:layout_constraintStart_toEndOf="@id/spacer1"
-        app:layout_constraintStart_toStartOf="@id/spacer1"
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

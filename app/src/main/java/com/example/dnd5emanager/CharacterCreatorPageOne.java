@@ -1,6 +1,7 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.CharacterClasses;
+import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.Races;
 import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
@@ -176,7 +177,10 @@ public class CharacterCreatorPageOne extends Fragment {
                 }
             }
 
-            Constants.CurrentCharacter = NewCharacter;
+            CurrentCharacter = NewCharacter;
+            CurrentCharacter.setMaxHealth(CurrentCharacter.getPrimaryClass().rollInitialHealth());
+            CurrentCharacter.setCurrentHealth(CurrentCharacter.getMaxHealth());
+
             NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
         });
     }
