@@ -145,6 +145,7 @@
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
@@ -155,6 +156,7 @@
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_intelligence_display_text" />
@@ -166,6 +168,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_intelligence"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_wisdom_display_text" />
@@ -177,6 +180,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_wisdom"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_charisma_display_text" />
@@ -188,6 +192,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_strength"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_strength" />
@@ -199,6 +204,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_dexterity"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_dexterity" />

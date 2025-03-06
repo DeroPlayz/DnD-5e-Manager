@@ -27,8 +27,12 @@ public class PlayerCharacter {
         }
 
     private int ProficiencyBonus;
-        public void setProficiencyBonus(int ProficiencyBonus) {
-            this.ProficiencyBonus = ProficiencyBonus;
+        public void setProficiencyBonus() {
+            if (ProficiencyBonus % 4 == 0) {
+                ProficiencyBonus = (ProficiencyBonus / 4) + 1;
+            } else{
+                ProficiencyBonus = (int) Math.nextUp((ProficiencyBonus / 4.0)) + 1;
+            }
         }
         public int getProficiencyBonus() {
             return ProficiencyBonus;
@@ -52,7 +56,7 @@ public class PlayerCharacter {
             }
         }
         public int getStrengthBonus(){return StrengthBonus;}
-        public int getStrengthSave(){return StrengthBonus + (ProficiencyBonus * Classes.get(0).getStrengthSaveProf());}
+        public int getStrengthSave(){return StrengthBonus + (ProficiencyBonus * getPrimaryClass().getStrengthSaveProf());}
     private int Athletics;
         public void setAthletics(int Athletics){this.Athletics = Athletics;}
         public int getAthletics(){return Athletics;}
@@ -65,7 +69,7 @@ public class PlayerCharacter {
         public int getDexterity(){return Dexterity;}
     private int DexterityBonus;
         public void setDexterityBonus() {
-            int DexterityBase = Strength - 10;
+            int DexterityBase = Dexterity - 10;
             if (DexterityBase % 2 == 0) {
                 DexterityBonus = DexterityBase / 2;
             } else {
@@ -96,7 +100,7 @@ public class PlayerCharacter {
             if (ConstitutionBase % 2 == 0) {
                 ConstitutionBonus = ConstitutionBase / 2;
             } else{
-                ConstitutionBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
+                ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0) / 2.0);
             }
         }
         public int getConstitutionBonus(){return ConstitutionBonus;}
@@ -108,7 +112,7 @@ public class PlayerCharacter {
         public int getIntelligence(){return Intelligence;}
     private int IntelligenceBonus;
         public void setIntelligenceBonus() {
-            int IntelligenceBase = Strength - 10;
+            int IntelligenceBase = Intelligence - 10;
             if (IntelligenceBase % 2 == 0) {
                 IntelligenceBonus = IntelligenceBase / 2;
             } else {
@@ -139,7 +143,7 @@ public class PlayerCharacter {
         public int getWisdom(){return Wisdom;}
     private int WisdomBonus;
         public void setWisdomBonus() {
-            int WisdomBase = Strength - 10;
+            int WisdomBase = Wisdom - 10;
             if (WisdomBase % 2 == 0) {
                 WisdomBonus = WisdomBase / 2;
             } else {
@@ -172,7 +176,7 @@ public class PlayerCharacter {
         public int getCharisma(){return Charisma;}
     private int CharismaBonus;
         public void setCharismaBonus() {
-            int CharismaBase = Strength - 10;
+            int CharismaBase = Charisma - 10;
             if (CharismaBase % 2 == 0) {
                 CharismaBonus = CharismaBase / 2;
             } else {
@@ -200,26 +204,29 @@ public class PlayerCharacter {
     private Race Race;
         public void setRace(Race Race){this.Race = Race;}
         public Race getRace(){return Race;}
-    private Subrace Subrace = null;
+    private Subrace Subrace;
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
     private ArrayList<CharacterClass> Classes = new ArrayList<>();
-    public void addClass(CharacterClass Class){Classes.add(Class);}
-    public void removeClass(CharacterClass Class){Classes.remove(Class);}
     public void clearClasses(){Classes = new ArrayList<>();}
-    public int getClassCount(){return Classes.size();}
+    public ArrayList<CharacterClass> getClasses(){return Classes;}
     public void setLevel(CharacterClass Class, int Level) {
         if(Classes.contains(Class)){
-//            Log.d("I hate coding.", "Yes I do.");
-//            Log.d("Level?", String.valueOf(Level));
             Classes.get(Classes.indexOf(Class)).setLevel(Level);
+        }
+    }
+    public void setPrimaryClass(CharacterClass Class) {
+        if(Classes.size() > 1) {
+            Classes.set(0, Class);
+        } else {
+            Classes.add(Class);
         }
     }
     public CharacterClass getPrimaryClass(){return Classes.get(0);}
 
     public int getLevel(){
-        int lev = 1;
+        int lev = 0;
         for (int i = 0; i < Classes.size(); i++){
             lev += Classes.get(i).getLevel();
         }
@@ -300,5 +307,15 @@ public class PlayerCharacter {
 
         this.Charisma = Charisma;
         CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
+    }
+
+    public void calibrate(){
+        setStrengthBonus();
+        setDexterityBonus();
+        setConstitutionBonus();
+        setIntelligenceBonus();
+        setWisdomBonus();
+        setCharismaBonus();
+        setProficiencyBonus();
     }
 }
