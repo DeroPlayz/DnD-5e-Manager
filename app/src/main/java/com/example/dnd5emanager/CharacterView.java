@@ -1,8 +1,10 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.CharacterCreatorPageOne.NewCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +34,17 @@ public class CharacterView extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        binding.characterViewCurrentHealth.setOnClickListener(v -> {
+            onDestroyView();
+        });
+
+        TextView Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
+        TextView Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
+        TextView Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
+        TextView Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
+        TextView Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
+        TextView Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
 
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
@@ -66,6 +79,10 @@ public class CharacterView extends Fragment {
         CurrentCharacter.setIntelligenceBonus();
         CurrentCharacter.setWisdomBonus();
         CurrentCharacter.setCharismaBonus();
+
+        Log.d("NG Class?", String.valueOf(NewCharacter.getPrimaryClass()));
+        Log.d("CG Class?", String.valueOf(CurrentCharacter.getPrimaryClass()));
+        Log.d("CG Class Count?", String.valueOf(CurrentCharacter.getClasses().size()));
 
         TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
         StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));

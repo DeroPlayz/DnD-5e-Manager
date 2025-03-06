@@ -33,6 +33,10 @@
         android:id="@+id/goToData"
         app:destination="@id/Data" />
 
+    <action
+        android:id="@+id/goToPlayerManager"
+        app:destination="@id/dmPlayerManager" />
+
     <fragment
         android:id="@+id/MainMenu"
         android:name="com.example.dnd5emanager.MainMenu"
@@ -80,51 +84,34 @@
         android:name="com.example.dnd5emanager.DMManager"
         android:label="Dungeon Master Manger"
         tools:layout="@layout/dm_manager" >
-        <action
-            android:id="@+id/action_DMManager_to_campaignList"
-            app:destination="@id/campaignList" />
     </fragment>
 
     <fragment
         android:id="@+id/CharacterCreatorPageOne"
         android:name="com.example.dnd5emanager.CharacterCreatorPageOne"
-        android:label="Character Creator" >
+        android:label="Character Creator"
+        tools:layout="@layout/character_creator_page_one" >
     </fragment>
+
     <fragment
         android:id="@+id/campaignList"
         android:name="com.example.dnd5emanager.CampaignList"
         android:label="Campaign list"
         tools:layout="@layout/campaign_list" >
-        <action
-            android:id="@+id/action_campaignList_to_campaignSheet"
-            app:destination="@id/campaignSheet" />
-        <action
-            android:id="@+id/action_campaignList_to_DMManager"
-            app:destination="@id/DMManager" />
     </fragment>
+
     <fragment
         android:id="@+id/campaignSheet"
         android:name="com.example.dnd5emanager.CampaignSheet"
         android:label="Campaign Sheet"
         tools:layout="@layout/campaign_sheet" >
-        <action
-            android:id="@+id/action_campaignSheet_to_dmPlayerManager"
-            app:destination="@id/dmPlayerManager" />
-        <action
-            android:id="@+id/action_campaignSheet_to_campaignList"
-            app:destination="@id/campaignList" />
     </fragment>
+
     <fragment
         android:id="@+id/dmPlayerManager"
         android:name="com.example.dnd5emanager.DmPlayerManager"
         android:label="Dungeon Master's Player Manager"
         tools:layout="@layout/dm_player_manager" >
-        <action
-            android:id="@+id/action_dmPlayerManager_to_campaignSheet"
-            app:destination="@id/campaignSheet" />
-        <action
-            android:id="@+id/action_dmPlayerManager_to_MainMenu"
-            app:destination="@id/MainMenu" />
     </fragment>
 
 </navigation>
