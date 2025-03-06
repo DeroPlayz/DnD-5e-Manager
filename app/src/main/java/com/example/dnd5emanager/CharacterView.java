@@ -33,6 +33,10 @@ public class CharacterView extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        binding.characterViewCurrentHealth.setOnClickListener(v -> {
+            onDestroyView();
+        });
+
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
         //Sets the textbox's value to the in-progress character's name.
