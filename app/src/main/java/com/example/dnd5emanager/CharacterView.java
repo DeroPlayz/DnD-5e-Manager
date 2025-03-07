@@ -55,14 +55,16 @@ public class CharacterView extends Fragment {
         TextView CharacterRace = view.findViewById(R.id.characterRace);
 
         String RaceDisp = "";
-        if(CurrentCharacter.getRace().getHasSubraces()){
-            //If a subrace exists, it will prioritize displaying that, because it's more detailed.
-            RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+        if(CurrentCharacter.getRace() != null) {
+            if (CurrentCharacter.getRace().getHasSubraces()) {
+                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+            } else {
+                //When no subrace is present, the "base" race is shown.
+                RaceDisp += CurrentCharacter.getRace().getName();
+            }
         }
-        else {
-            //When no subrace is present, the "base" race is shown.
-            RaceDisp += CurrentCharacter.getRace().getName();
-        }
+
         //Updates the visible textbox.
         CharacterRace.setText(RaceDisp);
 
@@ -80,9 +82,9 @@ public class CharacterView extends Fragment {
         CurrentCharacter.setWisdomBonus();
         CurrentCharacter.setCharismaBonus();
 
-        Log.d("NG Class?", String.valueOf(NewCharacter.getPrimaryClass()));
-        Log.d("CG Class?", String.valueOf(CurrentCharacter.getPrimaryClass()));
-        Log.d("CG Class Count?", String.valueOf(CurrentCharacter.getClasses().size()));
+//        Log.d("NG Class?", String.valueOf(NewCharacter.getPrimaryClass()));
+//        Log.d("CG Class?", String.valueOf(CurrentCharacter.getPrimaryClass()));
+//        Log.d("CG Class Count?", String.valueOf(CurrentCharacter.getClasses().size()));
 
         TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
         StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));

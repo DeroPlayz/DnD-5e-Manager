@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavHost;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.CharacterClass;
@@ -51,6 +52,12 @@ public class CharacterCreatorPageOne extends Fragment {
     private Spinner Subrace;
     private Spinner Class;
     private ArrayList<String> Selection = new ArrayList<>();
+    private TextView Strength;
+    private TextView Dexterity;
+    private TextView Constitution;
+    private TextView Intelligence;
+    private TextView Wisdom;
+    private TextView Charisma;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
@@ -63,8 +70,14 @@ public class CharacterCreatorPageOne extends Fragment {
 
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
+        Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
+        Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
+        Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
+        Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
+        Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
+        Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+
         super.onViewCreated(view, savedInstanceState);
-        OnFocusChangeListener onFocusChangeListener = null;
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -120,8 +133,11 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
             update(v);
-            CurrentCharacter = NewCharacter;
-            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
+            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
+        });
+
+        binding.characterCreatorPageOneBackButton.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList);
         });
     }
 
@@ -141,34 +157,32 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateAbilities(View view){
-
-        Log.d("FUCK!", String.valueOf(NewCharacter.getStrength()));
-        if(Strength != null){
+        if(Strength != null && !Strength.getText().toString().isEmpty()){
             NewCharacter.setStrength(Integer.parseInt(Strength.getText().toString()));
         }
         else{NewCharacter.setStrength(0);}
 
-        if(Dexterity != null){
+        if(Dexterity != null && !Dexterity.getText().toString().isEmpty()){
             NewCharacter.setDexterity(Integer.parseInt(Dexterity.getText().toString()));
         }
         else{NewCharacter.setDexterity(0);}
 
-        if(Constitution != null){
+        if(Constitution != null && !Constitution.getText().toString().isEmpty()){
             NewCharacter.setConstitution(Integer.parseInt(Constitution.getText().toString()));
         }
         else{NewCharacter.setConstitution(0);}
 
-        if(Intelligence != null){
+        if(Intelligence != null && !Intelligence.getText().toString().isEmpty()){
             NewCharacter.setIntelligence(Integer.parseInt(Intelligence.getText().toString()));
         }
         else{NewCharacter.setIntelligence(0);}
 
-        if(Wisdom != null){
+        if(Wisdom != null && !Wisdom.getText().toString().isEmpty()){
             NewCharacter.setWisdom(Integer.parseInt(Wisdom.getText().toString()));
         }
         else{NewCharacter.setWisdom(0);}
 
-        if(Charisma != null){
+        if(Charisma != null && !Charisma.getText().toString().isEmpty()){
             NewCharacter.setCharisma(Integer.parseInt(Charisma.getText().toString()));
         }
         else{NewCharacter.setCharisma(0);}

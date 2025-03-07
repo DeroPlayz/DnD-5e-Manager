@@ -24,6 +24,9 @@
     <action
         android:id="@+id/goToCharacterCreatorPageOne"
         app:destination="@id/CharacterCreatorPageOne" />
+    <action
+        android:id="@+id/goToCharacterCreatorPageTwo"
+        app:destination="@id/CharacterCreatorPageTwo" />
 
     <action
         android:id="@+id/goToDMManager"
@@ -34,8 +37,8 @@
         app:destination="@id/Data" />
 
     <action
-        android:id="@+id/goToPlayerManager"
-        app:destination="@id/dmPlayerManager" />
+        android:id="@+id/goToDMPlayerManager"
+        app:destination="@id/DMPlayerManager" />
 
     <fragment
         android:id="@+id/MainMenu"
@@ -61,7 +64,7 @@
     <fragment
         android:id="@+id/Data"
         android:name="com.example.dnd5emanager.DataView"
-        android:label="Data"
+        android:label="Compendium"
         tools:layout="@layout/data_view" >
     </fragment>
 
@@ -82,34 +85,41 @@
     <fragment
         android:id="@+id/DMManager"
         android:name="com.example.dnd5emanager.DMManager"
-        android:label="Dungeon Master Manger"
+        android:label="Dungeon Master Manager"
         tools:layout="@layout/dm_manager" >
     </fragment>
 
     <fragment
         android:id="@+id/CharacterCreatorPageOne"
         android:name="com.example.dnd5emanager.CharacterCreatorPageOne"
-        android:label="Character Creator"
+        android:label="Character Creator (1)"
         tools:layout="@layout/character_creator_page_one" >
     </fragment>
 
     <fragment
-        android:id="@+id/campaignList"
+        android:id="@+id/CharacterCreatorPageTwo"
+        android:name="com.example.dnd5emanager.CharacterCreatorPageTwo"
+        android:label="Character Creator (2)"
+        tools:layout="@layout/character_creator_page_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/CampaignList"
         android:name="com.example.dnd5emanager.CampaignList"
-        android:label="Campaign list"
+        android:label="Campaign List"
         tools:layout="@layout/campaign_list" >
     </fragment>
 
     <fragment
-        android:id="@+id/campaignSheet"
+        android:id="@+id/CampaignSheet"
         android:name="com.example.dnd5emanager.CampaignSheet"
         android:label="Campaign Sheet"
         tools:layout="@layout/campaign_sheet" >
     </fragment>
 
     <fragment
-        android:id="@+id/dmPlayerManager"
-        android:name="com.example.dnd5emanager.DmPlayerManager"
+        android:id="@+id/DMPlayerManager"
+        android:name="com.example.dnd5emanager.DMPlayerManager"
         android:label="Dungeon Master's Player Manager"
         tools:layout="@layout/dm_player_manager" >
     </fragment>

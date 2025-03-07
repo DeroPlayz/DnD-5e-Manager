@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class DmPlayerManager extends Fragment {
+public class DMPlayerManager extends Fragment {
 
     private DmPlayerManagerBinding binding;
 
@@ -35,10 +35,10 @@ public class DmPlayerManager extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.toSheet.setOnClickListener(v ->
-                NavHostFragment.findNavController(DmPlayerManager.this).navigate(R.id.action_dmPlayerManager_to_MainMenu));
-        binding.dpmToMain.setOnClickListener(v ->
-                NavHostFragment.findNavController(DmPlayerManager.this).navigate(R.id.action_DMManager_to_campaignList));
+//        binding.toSheet.setOnClickListener(v ->
+//                NavHostFragment.findNavController(DMPlayerManager.this).navigate(R.id.goToCampaignSheet));
+//        binding.dpmToMain.setOnClickListener(v ->
+//                NavHostFragment.findNavController(DMPlayerManager.this).navigate(R.id.action_DMManager_to_campaignList));
 
     }
 

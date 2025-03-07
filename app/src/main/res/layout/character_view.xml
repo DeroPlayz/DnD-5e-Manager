@@ -70,6 +70,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintStart_toEndOf="@+id/character_view_strength_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
@@ -79,6 +80,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/character_view_strength_value"
                         app:layout_constraintStart_toEndOf="@+id/character_view_strength_value" />
@@ -127,6 +129,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_text" />
@@ -136,6 +139,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/character_view_dexterity_value"
                         app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value" />
@@ -183,6 +187,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_text" />
@@ -193,6 +198,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/character_view_constitution_value"
                         app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value" />
@@ -240,6 +246,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_intelligence_text" />
@@ -250,6 +257,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/character_view_intelligence_value"
                         app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value" />
@@ -298,6 +306,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_text" />
@@ -308,6 +317,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/character_view_wisdom_value"
                         app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value" />
@@ -356,6 +366,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_charisma_text" />
@@ -366,6 +377,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:text="TextView"
+                        android:textAlignment="center"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="@+id/character_view_charisma_value"
                         app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value" />

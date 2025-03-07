@@ -5,7 +5,8 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CharacterCreatorPageOne">
+    tools:context=".CharacterCreatorPageOne"
+    tools:ignore="LabelFor">
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_name"
@@ -15,7 +16,7 @@
         android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/EditCharacterNameDefaultText"
+        android:hint="@string/EditCharacterNameDefaultText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="Autofill" />
@@ -28,7 +29,7 @@
         android:layout_marginEnd="30dp"
         android:ems="10"
         android:inputType="number"
-        android:text="@string/EditCharacterLevelDefaultText"
+        android:hint="1"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -67,9 +68,9 @@
         android:id="@+id/character_creator_page_one_view_character_demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="436dp"
-        android:layout_marginEnd="24dp"
-        android:text="View Character!"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="20dp"
+        android:text="Next Page"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -83,6 +84,28 @@
         app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_strength"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_strength" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_dexterity_display_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEX"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_dexterity"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_dexterity" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_constitution_display_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CON"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_constitution"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_constitution" />
 
     <TextView
         android:id="@+id/character_creator_page_one_intelligence_display_text"
@@ -117,35 +140,13 @@
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
 
-    <TextView
-        android:id="@+id/character_creator_page_one_dexterity_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DEX"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_dexterity"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_dexterity" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_constitution_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CON"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_constitution"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_constitution" />
-
     <EditText
         android:id="@+id/character_creator_page_one_edit_strength"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0"
+        android:hint="8"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
@@ -156,7 +157,7 @@
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0"
+        android:hint="8"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_intelligence_display_text" />
@@ -168,7 +169,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0"
+        android:hint="8"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_intelligence"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_wisdom_display_text" />
@@ -180,7 +181,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0"
+        android:hint="8"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_wisdom"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_charisma_display_text" />
@@ -192,7 +193,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0"
+        android:hint="8"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_strength"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_strength" />
@@ -204,7 +205,7 @@
         android:layout_marginStart="20dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0"
+        android:hint="8"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_dexterity"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_dexterity" />
@@ -212,10 +213,10 @@
     <EditText
         android:id="@+id/character_creator_page_one_edit_health"
         android:layout_width="105dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:ems="10"
+        android:hint="10"
         android:inputType="text"
-        android:text="Health"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
 
@@ -263,5 +264,18 @@
         android:textSize="11sp"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
+
+    <Button
+        android:id="@+id/character_creator_page_one_back_button"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="0dp"
+        android:text="🔙"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

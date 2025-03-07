@@ -38,8 +38,8 @@ public class DMManager extends Fragment {
 
         binding.dmback.setOnClickListener(v ->
                 NavHostFragment.findNavController(DMManager.this).navigate(R.id.goToMainMenu));
-        binding.DMtoCampaign.setOnClickListener(v ->
-                NavHostFragment.findNavController(DMManager.this).navigate(R.id.action_DMManager_to_campaignList));
+//        binding.DMtoCampaign.setOnClickListener(v ->
+//                NavHostFragment.findNavController(DMManager.this).navigate(R.id.goToCampaignList));
 
     }
 
