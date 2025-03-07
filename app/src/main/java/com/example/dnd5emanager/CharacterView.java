@@ -35,10 +35,6 @@ public class CharacterView extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.characterViewCurrentHealth.setOnClickListener(v -> {
-            onDestroyView();
-        });
-
         TextView Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
         TextView Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
         TextView Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);

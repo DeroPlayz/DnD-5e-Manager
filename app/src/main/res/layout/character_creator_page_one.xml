@@ -258,7 +258,6 @@
         android:id="@+id/character_creator_page_one_roll_health"
         android:layout_width="75dp"
         android:layout_height="50dp"
-        android:layout_marginStart="5dp"
         android:padding="1dp"
         android:text="Roll Health"
         android:textSize="11sp"
@@ -267,10 +266,10 @@
 
     <Button
         android:id="@+id/character_creator_page_one_back_button"
-        android:layout_width="45dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="1dp"
-        android:backgroundTint="#00FFFFFF"
+        android:backgroundTint="#FFFFFF"
         android:padding="0dp"
         android:text="🔙"
         android:textAlignment="center"
