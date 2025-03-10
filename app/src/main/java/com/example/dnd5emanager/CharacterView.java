@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
@@ -129,6 +130,9 @@ public class CharacterView extends Fragment {
         TextView MaxHealth = view.findViewById(R.id.character_view_max_health);
         MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
 
+        binding.characterViewBackButton.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterCreatorPageOne);
+        });
     }
 
     @Override

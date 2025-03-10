@@ -131,13 +131,34 @@ public class CharacterCreatorPageOne extends Fragment {
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
-        binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
+        binding.characterCreatorPageOneViewCharacter.setOnClickListener(v -> {
             update(v);
-            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
+            CurrentCharacter = NewCharacter;
+            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
         });
 
         binding.characterCreatorPageOneBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList);
+        });
+
+        binding.characterCreatorPageOneRollStats.setOnClickListener(v -> {
+            NewCharacter.setStrength(setStat());
+            Strength.setText(String.valueOf(NewCharacter.getStrength()));
+
+            NewCharacter.setDexterity(setStat());
+            Dexterity.setText(String.valueOf(NewCharacter.getDexterity()));
+
+            NewCharacter.setConstitution(setStat());
+            Constitution.setText(String.valueOf(NewCharacter.getConstitution()));
+
+            NewCharacter.setIntelligence(setStat());
+            Intelligence.setText(String.valueOf(NewCharacter.getIntelligence()));
+
+            NewCharacter.setWisdom(setStat());
+            Wisdom.setText(String.valueOf(NewCharacter.getWisdom()));
+
+            NewCharacter.setCharisma(setStat());
+            Charisma.setText(String.valueOf(NewCharacter.getCharisma()));
         });
     }
 
@@ -146,6 +167,26 @@ public class CharacterCreatorPageOne extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
+    public int setStat(){
+        int[] dice = {0, 0, 0, 0};
+        for (int i = 0; i < 4; i++) {
+            dice[i] = (int) (Math.random() * 6) + 1;
+        }
+        int lowestValIndex = 0;
+        for (int i = 0; i < dice.length; i++) {
+            if (dice[i] < dice[lowestValIndex]) {
+                lowestValIndex = i;
+            }
+        }
+        dice[lowestValIndex] = 0;
+        int total = 0;
+        for (int i = 0; i < dice.length; i++) {
+            total += dice[i];
+        }
+        return total;
+    }
+
 
     public void update(View view){
         updateRace();
