@@ -194,6 +194,9 @@ public class CharacterCreatorPageOne extends Fragment {
         updateAbilities(view);
         NewCharacter.setName(Name.getText().toString());
         TextView Level = view.findViewById(R.id.character_creator_page_one_edit_level);
+        if(Level.getText().toString().length() > 9) {
+            Level.setText("1");
+        }
         NewCharacter.setCurrentHealth(NewCharacter.getMaxHealth());
     }
 
