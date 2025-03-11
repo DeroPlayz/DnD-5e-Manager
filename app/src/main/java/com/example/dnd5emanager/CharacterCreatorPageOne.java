@@ -64,7 +64,6 @@ public class CharacterCreatorPageOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
         Resources resources = getResources();
-
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
         Level = view.findViewById(R.id.character_creator_page_one_edit_level);
         Race = view.findViewById(R.id.character_creator_page_one_edit_race);
@@ -252,7 +251,6 @@ public class CharacterCreatorPageOne extends Fragment {
         NewCharacter.clearClasses();
         for(int i = 0; i < CharacterClasses.size(); i++){
             if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
-                Log.d("Class?", "Success!!");
                 NewCharacter.setPrimaryClass(CharacterClasses.get(i));
                 break;
             }

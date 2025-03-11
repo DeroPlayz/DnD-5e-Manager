@@ -256,15 +256,6 @@ public class Constants {
 
     public final static Subclass Alchemist = new Subclass("Alchemist", Artificer, AlchemistFeatures);
 
-    public static Subclass findSub(String Name) {
-        for (int i = 0; i < Subclasses.size(); i++) {
-            if (Subclasses.get(i).getName().equals(Name)) {
-                return Subclasses.get(i);
-            }
-        }
-        return null;
-    }
-
     public final static Race Aarakocra = new Race("Aarakocra", 10,
             25, 50, 0, 0, 0,
             0, 2, 0,
