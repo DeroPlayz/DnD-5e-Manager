@@ -5,6 +5,7 @@ import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.Races;
 import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
+import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +30,7 @@ import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -62,6 +64,7 @@ public class CharacterCreatorPageOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
         Resources resources = getResources();
+
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
         Level = view.findViewById(R.id.character_creator_page_one_edit_level);
         Race = view.findViewById(R.id.character_creator_page_one_edit_race);
@@ -160,6 +163,7 @@ public class CharacterCreatorPageOne extends Fragment {
             NewCharacter.setCharisma(setStat());
             Charisma.setText(String.valueOf(NewCharacter.getCharisma()));
         });
+
     }
 
     @Override
@@ -194,9 +198,6 @@ public class CharacterCreatorPageOne extends Fragment {
         updateAbilities(view);
         NewCharacter.setName(Name.getText().toString());
         TextView Level = view.findViewById(R.id.character_creator_page_one_edit_level);
-        if(Level.getText().toString().length() > 9) {
-            Level.setText("1");
-        }
         NewCharacter.setCurrentHealth(NewCharacter.getMaxHealth());
     }
 
