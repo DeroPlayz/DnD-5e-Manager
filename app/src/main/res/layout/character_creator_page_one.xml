@@ -8,73 +8,82 @@
     tools:context=".CharacterCreatorPageOne"
     tools:ignore="LabelFor">
 
-    <Spinner
-        android:id="@+id/character_creator_page_one_edit_race"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="132dp"
-        android:entries="@array/Races"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/character_creator_page_one_edit_name"
-        android:layout_width="276dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
-        android:hint="@string/EditCharacterNameDefaultText"
         android:inputType="text"
+        android:hint="@string/EditCharacterNameDefaultText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="Autofill" />
-
-    <Spinner
-        android:id="@+id/character_creator_page_one_edit_class"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="48dp"
-        android:entries="@array/Classes"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_level"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="52dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
         android:ems="10"
         android:hint="1"
         android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="Autofill" />
 
     <Spinner
-        android:id="@+id/character_creator_page_one_edit_subrace"
+        android:id="@+id/character_creator_page_one_edit_race"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:entries="@array/Races"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Spinner
+        android:id="@+id/character_creator_page_one_edit_subrace"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/character_creator_page_one_edit_class"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:entries="@array/Classes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
-        android:id="@+id/character_creator_page_one_view_character_demo"
+        android:id="@+id/character_creator_page_one_view_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="20dp"
         android:text="Next Page"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.834" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/character_creator_page_one_roll_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="24dp"
+        android:text="Roll Stats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/character_creator_page_one_strength_display_text"
@@ -139,7 +148,6 @@
         android:textAlignment="center"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_charisma"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
 
@@ -148,8 +156,9 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:ems="10"
-        android:inputType="number"
         android:hint="8"
+        android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
@@ -159,8 +168,9 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:ems="10"
-        android:inputType="number"
         android:hint="8"
+        android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_intelligence_display_text" />
@@ -171,8 +181,9 @@
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
         android:ems="10"
-        android:inputType="number"
         android:hint="8"
+        android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_intelligence"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_wisdom_display_text" />
@@ -185,13 +196,10 @@
         android:ems="10"
         android:hint="8"
         android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_charisma_display_text"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_charisma_display_text" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_dexterity"
@@ -199,8 +207,9 @@
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
         android:ems="10"
-        android:inputType="number"
         android:hint="8"
+        android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_strength"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_strength" />
@@ -211,8 +220,9 @@
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
         android:ems="10"
-        android:inputType="number"
         android:hint="8"
+        android:inputType="number"
+        android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_dexterity"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_dexterity" />
@@ -224,6 +234,7 @@
         android:ems="10"
         android:hint="10"
         android:inputType="text"
+        android:maxLength="3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
 
@@ -231,12 +242,10 @@
         android:id="@+id/character_creator_page_one_spacer1"
         android:layout_width="20dp"
         android:layout_height="160dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="240dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Space
         android:id="@+id/character_creator_page_one_spacer2"
@@ -265,22 +274,18 @@
 
     <Button
         android:id="@+id/character_creator_page_one_roll_health"
-        android:layout_width="93dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
         android:padding="1dp"
         android:text="Roll Health"
         android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_back_button"
-        android:layout_width="118dp"
-        android:layout_height="68dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginStart="1dp"
         android:backgroundTint="#00FFFFFF"
         android:padding="0dp"

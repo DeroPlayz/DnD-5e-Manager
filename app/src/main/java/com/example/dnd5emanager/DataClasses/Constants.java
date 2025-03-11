@@ -20,6 +20,31 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Constants {
+    //Elements
+    public static final String Piercing = "Piercing";
+    public static final String Bludgeoning = "Bludgeoning";
+    public static final String Slashing = "Slashing";
+    public static final String Fire = "Fire";
+    public static final String Cold = "Cold";
+    public static final String Lightning = "Lightning";
+    public static final String Thunder = "Thunder";
+    public static final String Poison = "Poison";
+    public static final String Acid = "Acid";
+    public static final String Necrotic = "Necrotic";
+    public static final String Radiant = "Radiant";
+    public static final String Force = "Force";
+    public static final String Psychic = "Psychic";
+
+    //Schools of Magic
+    public static final String Abjuration = "Abjuration";
+    public static final String Conjuration = "Conjuration";
+    public static final String Divination = "Divination";
+    public static final String Enchantment = "Enchantment";
+    public static final String Evocation = "Evocation";
+    public static final String Illusion = "Illusion";
+    public static final String Necromancy = "Necromancy";
+    public static final String Transmutation = "Transmutation";
+
     //Abilities
     public static final String Strength = "Strength";
     public static final String Dexterity = "Dexterity";

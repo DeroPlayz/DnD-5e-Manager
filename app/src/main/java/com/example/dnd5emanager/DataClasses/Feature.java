@@ -211,6 +211,4 @@ public class Feature {
     public final static ArrayList<Feature> SorcererFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
     public final static ArrayList<Feature> WarlockFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
     public final static ArrayList<Feature> WizardFeatures = new ArrayList<Feature>(Arrays.asList(MagicalTinkering, ToolsRequired, InfuseItem, InfusionsKnown));
-
-
 }
