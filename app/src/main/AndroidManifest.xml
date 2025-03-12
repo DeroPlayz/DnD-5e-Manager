@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DnD5eManager"
         tools:targetApi="31">
+        <service
+            android:name=".myMediaSessionService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowser"/>
+            </intent-filter>
+        </service>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -20,6 +27,7 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
     </application>
