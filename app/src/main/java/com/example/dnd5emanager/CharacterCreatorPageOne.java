@@ -1,9 +1,6 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.CharacterClasses;
-import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
-import static com.example.dnd5emanager.DataClasses.Constants.Races;
-import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -64,7 +61,6 @@ public class CharacterCreatorPageOne extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
         Resources resources = getResources();
-
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
         Level = view.findViewById(R.id.character_creator_page_one_edit_level);
         Race = view.findViewById(R.id.character_creator_page_one_edit_race);
@@ -90,21 +86,21 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < Races.size(); i++) {
-                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-                            if (!Races.get(i).getHasSubraces()) {
-                                Subrace.setEnabled(false);
-                                Subrace.setClickable(false);
-                                Subrace.setVisibility(View.INVISIBLE);
-                            } else {
-                                for (int j = 0; j < Subraces.size(); j++) {
-                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-                                        Adapter.add(Subraces.get(j).getName());
-                                    }
-                                }
-                            }
-                        }
-                    }
+//                    for (int i = 0; i < Races.size(); i++) {
+//                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+//                            if (!Races.get(i).getHasSubraces()) {
+//                                Subrace.setEnabled(false);
+//                                Subrace.setClickable(false);
+//                                Subrace.setVisibility(View.INVISIBLE);
+//                            } else {
+//                                for (int j = 0; j < Subraces.size(); j++) {
+//                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
+//                                        Adapter.add(Subraces.get(j).getName());
+//                                    }
+//                                }
+//                            }
+//                        }
+//                    }
                 }
             }
 
@@ -234,28 +230,27 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateRace(){
-        for (int i = 0; i < Races.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-                NewCharacter.setRace(Races.get(i));
-            }
-        }
-        if (NewCharacter.getRace().getHasSubraces()) {
-            for (int i = 0; i < Subraces.size(); i++) {
-                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
-                    NewCharacter.setSubrace(Subraces.get(i));
-                }
-            }
-        }
+//        for (int i = 0; i < Races.size(); i++) {
+//            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+//                NewCharacter.setRace(Races.get(i));
+//            }
+//        }
+//        if (NewCharacter.getRace().getHasSubraces()) {
+//            for (int i = 0; i < Subraces.size(); i++) {
+//                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
+//                    NewCharacter.setSubrace(Subraces.get(i));
+//                }
+//            }
+//        }
     }
 
     public void updateClass(){
-        NewCharacter.clearClasses();
-        for(int i = 0; i < CharacterClasses.size(); i++){
-            if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
-                Log.d("Class?", "Success!!");
-                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
-                break;
-            }
-        }
+//        NewCharacter.clearClasses();
+//        for(int i = 0; i < CharacterClasses.size(); i++){
+//            if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
+//                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
+//                break;
+//            }
+//        }
     }
 }
