@@ -36,6 +36,7 @@ import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
 
+    public static AssetManager AM;
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>();
     public static ArrayList<Race> Races = new ArrayList<Race>();
 //    public static ArrayList<Subrace> Subraces = new ArrayList<Subrace>();
@@ -91,17 +92,8 @@ public class MainMenu extends Fragment {
         Button mainMenuHelpPage = view.findViewById(R.id.main_menu_help_page);
         mainMenuHelpPage.setTextSize(45);
 
-        Log.d("Why?", "Who knows?");
-        AssetManager AM = requireContext().getAssets();
-        try {
-            for(int i = 0; i < Objects.requireNonNull(AM.list("races")).length; i++){
-                ObjectMapper mapper = new ObjectMapper();
-                JsonNode node = mapper.readTree(AM.open(Objects.requireNonNull(AM.list("races"))[i]));
-                mapper.readTree(AM.open(Objects.requireNonNull(AM.list("races"))[i]));
-                Log.d("Race #" + i, "!");
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            Log.d("Race Count", String.valueOf(Files.exists(Paths.get("assets/races"))));
         }
     }
 
@@ -111,36 +103,10 @@ public class MainMenu extends Fragment {
         binding = null;
     }
 
-    public static int countFiles(String directoryPath) {
-        Path directory = null;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            directory = Paths.get(directoryPath);
-        }
-
-        // Check if the path is a directory
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            if (!Files.isDirectory(directory)) {
-                System.err.println("Error: '" + directoryPath + "' is not a directory.");
-                return -1; // Or throw an exception
-            }
-        }
-
-        int fileCount = 0;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            try (DirectoryStream<Path> stream = Files.newDirectoryStream(directory)) {
-                Iterator<Path> iterator = stream.iterator();
-                while (iterator.hasNext()) {
-                    Path entry = iterator.next();
-                    if (Files.isRegularFile(entry)) {
-                        fileCount++;
-                    }
-                }
-            } catch (IOException e) {
-                System.err.println("Error reading directory: " + e.getMessage());
-                return -1; // Or throw an exception
-            }
-        }
-
-        return fileCount;
-    }
+//    public int countFiles(String directoryPath) {
+//        AssetManager AM = requireContext().getAssets();
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+//            AM.list("assets")
+//        }
+//    }
 }

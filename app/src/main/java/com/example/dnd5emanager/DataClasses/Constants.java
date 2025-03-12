@@ -978,39 +978,5 @@ public class Constants {
             false
     );
 
-    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
-
-    public static final ArrayList<Race> RacesInit = new ArrayList<Race>(List.of(Aarakocra,
-            Aasimar, Bugbear, Catfolk, Centaur, Changeling, Dragonborn, Dwarf, Elf, Firbolg, Genasi,
-            Gith, Gnome, Goblin, Goliath, HalfElf, HalfHag, HalfOrc, Halfling, Hobgoblin, Human,
-            HumanRevenant, Kalashtar, Kenku, Kobold, Leonin, Lizardfolk, Loxodon, MarkOfDetectionHalfElf,
-            MarkOfFindingHalfOrc, MarkOfHandlingHuman, MarkOfMakingHuman, MarkOfPassageHuman,
-            MarkOfSentinelHuman, MarkOfStormHalfElf, MindFlayer, Minotaur, Orc, Satyr, Shifter, Tabaxi,
-            Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
-            YuanTiPureblood
-    ));
-    public static final ArrayList<Subrace> SubracesInit = new ArrayList<Subrace>(List.of(ProtectorAasimar,
-            ScourgeAasimar, FallenAasimar, OrdinaryBreedCatfolk, LargeBreedCatfolk, MysticBreedCatfolk,
-            BlackDragonborn, BlueDragonborn, BrassDragonborn, BronzeDragonborn, CopperDragonborn,
-            GoldDragonborn, GreenDragonborn, RedDragonborn, SilverDragonborn, WhiteDragonborn,
-            HillDwarf, MountainDwarf, HouseKundarakDwarf, DuergarDwarf, MarkOfWardingDwarf, HighElf,
-            WoodElf, SeaElf, ShadarKai, HouseOfShadow, AerenalHighElf, AerenalWoodElf, ValenarHighElf,
-            ValenarWoodElf, DarkElf, PalidElf, AirGenasi, EarthGenasi, FireGenasi, WaterGenasi, Githyanki,
-            Githzerai, ForestGnome, RockGnome, DeepGnome, MarkOfScribingDwarf, CommonGoblin, GrotagGoblin,
-            IxalanGoblin, LavastepGoblin, TukTukGoblin, GreenskinGoblin, BoggartGoblin, Gremlin, GreenHag,
-            NightHag, SeaHag, GhostwiseHalfling, LightfootHalfling, StoutHalfling,
-            MarkOfHealingHalfling, MarkOfHospitalityHalfling, LotusdenHalfling, RavnicaLoxodon,
-            MirrodinLoxodon, TarkirLoxodon, NormalOrc, CommonOrc, MountainOrc, Orog, WaterOrc,
-            BeasthideShifter, LongtoothShifter, SwiftstrideShifter, WildhuntShifter));
-    public static final ArrayList<CharacterClass> CharacterClassesInit = new ArrayList<CharacterClass>
-            (List.of(Artificer, Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue,
-                    Sorcerer, Warlock, Wizard));
-    public static ArrayList<Subclass> SubclassesInit = new ArrayList<Subclass>(Arrays.asList(SubArtificer, SubBarbarian, SubBard, SubCleric, SubDruid, SubFighter, SubMonk, SubPaladin, SubRanger, SubRogue, SubSorcerer, SubWarlock, SubWizard));
-
-    public static ArrayList<Race> Races = RacesInit;
-    public static ArrayList<Subrace> Subraces = SubracesInit;
-    public static ArrayList<CharacterClass> CharacterClasses = CharacterClassesInit;
-    public static ArrayList<Subclass> Subclasses = SubclassesInit;
-
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
 }
