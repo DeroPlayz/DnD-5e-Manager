@@ -37,9 +37,9 @@ public class DMManager extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.dmback.setOnClickListener(v ->
-                NavHostFragment.findNavController(DMManager.this).navigate(R.id.goToMainMenu));
-//        binding.DMtoCampaign.setOnClickListener(v ->
-//                NavHostFragment.findNavController(DMManager.this).navigate(R.id.goToCampaignList));
+                NavHostFragment.findNavController(DMManager.this).navigate(R.id.action_DMManager_to_MainMenu));
+     binding.DMtoCampaign.setOnClickListener(v ->
+         NavHostFragment.findNavController(DMManager.this).navigate(R.id.action_DMManager_to_CampaignList));
 
     }
 
