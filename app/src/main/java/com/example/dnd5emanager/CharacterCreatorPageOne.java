@@ -133,12 +133,11 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneViewCharacterDemo.setOnClickListener(v -> {
             update(v);
-  ///page two doesnt currently exist - this onClickListener is useless until page two has be reinstated
-            //          NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
+            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
         });
 
         binding.characterCreatorPageOneBackButton.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.action_CharacterCreatorPageOne_to_CharacterList);
+            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList);
         });
     }
 

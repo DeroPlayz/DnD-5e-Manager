@@ -31,15 +31,15 @@ public class CharacterList extends Fragment {
 
         binding.characterListBack.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.action_CharacterList_to_MainMenu)
+                        .navigate(R.id.goToMainMenu)
         );
         binding.characterListViewCharacterDemo.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.action_CharacterList_to_CharacterView)
+                        .navigate(R.id.goToCharacterView)
         );
         binding.characterListMakeNewCharacter.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.action_CharacterList_to_CharacterCreatorPageOne)
+                        .navigate(R.id.goToCharacterCreatorPageOne)
         );
 
     }

@@ -38,19 +38,19 @@ public class MainMenu extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.mainMenuViewCharacters.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_CharacterList)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)
         );
         binding.mainMenuViewData.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Data)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
         );
         binding.mainMenuSettings.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Settings)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToSettings)
         );
         binding.mainMenuHelpPage.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Help2)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToHelp)
         );
         binding.mainMenuViewDMMenu.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_DMManager)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
         );
         Button mainMenuViewCharacters = view.findViewById(R.id.main_menu_view_characters);
         mainMenuViewCharacters.setTextSize(45);

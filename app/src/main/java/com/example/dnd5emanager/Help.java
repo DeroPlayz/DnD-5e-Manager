@@ -36,7 +36,7 @@ public class Help extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.HelpBack .setOnClickListener(v ->
-                NavHostFragment.findNavController(Help.this).navigate(R.id.action_Help_to_MainMenu));
+                NavHostFragment.findNavController(Help.this).navigate(R.id.goToMainMenu));
 
     }
 
