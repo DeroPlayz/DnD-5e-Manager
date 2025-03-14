@@ -1,0 +1,7 @@
+,"descriptionModels":[,"description":"Choose one of Strixhaven\u0027s colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.\n\nYou can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.\n\nYour spellcasting ability for this feat\u0027s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).\n\nStrixhaven Spells\nCollege --\u003e Cantrips --\u003e 1st-Level Spell\nLorehold --\u003e Choose two from light, sacred flame, and thaumaturgy --\u003e Choose one 1st-level cleric or wizard spell.\nPrismari --\u003e Choose two from fire bolt, prestidigitation, and ray of frost --\u003e Choose one 1st-level bard or sorcerer spell.\nQuandrix --\u003e Choose two from druidcraft, guidance, and mage hand --\u003e Choose one 1st-level druid or wizard spell.\nSilverquill --\u003e Choose two from sacred flame, thaumaturgy, and vicious mockery --\u003e Choose one 1st-level bard or cleric spell.\nWitherbloom --\u003e Choose two from chill touch, druidcraft, and spare the dying --\u003e Choose one 1st-level druid or wizard spell.",
+"level":1}],
+"id":"Custom114c612e-ec40-4e86-bd37-1b3c9020758f",
+"isFeature":false,"jsonType":"feat",
+"level":1,"name":"Strixhaven Initiate [SCC]",
+"notes":"",
+"type":"Feat"}

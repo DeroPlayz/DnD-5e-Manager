@@ -1,0 +1,9 @@
+,"id":"item_Brooch_of_Shielding",
+"name":"Brooch of Shielding",
+"description":"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the magic missile spell.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Uncommon",
+"type":"Wondrous",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

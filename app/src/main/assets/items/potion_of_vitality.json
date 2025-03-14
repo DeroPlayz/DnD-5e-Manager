@@ -1,0 +1,9 @@
+,"id":"item_Potion_of_Vitality",
+"name":"Potion of Vitality",
+"description":"When you drink this potion, it removes any exhaustion you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Very rare",
+"type":"Potion",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

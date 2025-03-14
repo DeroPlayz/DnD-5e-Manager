@@ -1,0 +1,9 @@
+,"changesNameOnAttunement":false,"description":"As an action, a character can throw a grenade at a point up to 60 feet away, 120 feet with a grenade launcher.\n\nThis grenade explodes in a concussive blast that fills a 20-foot-radius sphere. Each creature in that area must make a DC 15 Dexterity saving throw, taking (6d6) force damage on a failed save or half as much damage on a successful one.",
+"effects":[],
+"id":"item_Concussion_Grenade",
+"isAmmunition":false,"isCursed":false,"isCustom":true,"isEquipment":false,"isIntelligent":false,"isMagic":false,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
+"name":"Concussion Grenade",
+"rarity":"NONE",
+"requiresAttunement":false,"type":"EXPLOSIVE",
+"valueCoin":"GOLD",
+"weightUnit":"POUNDS"}

@@ -1,0 +1,9 @@
+,"id":"item_Wings_of_Flying",
+"name":"Wings of Flying",
+"description":"While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Rare",
+"type":"Wondrous",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

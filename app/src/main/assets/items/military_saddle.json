@@ -1,0 +1,9 @@
+,"id":"item_Military_Saddle",
+"name":"Military Saddle",
+"description":"A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.",
+"value":2.0,"valueCoin":"pp",
+"weight":30,"weightUnit":"lb",
+"rarity":"None",
+"type":"Tack & Harness",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

@@ -1,0 +1,9 @@
+,"id":"item_Antitoxin__vial_",
+"name":"Antitoxin (vial)",
+"description":"A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.",
+"value":5.0,"valueCoin":"pp",
+"weight":null,"weightUnit":"lb",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

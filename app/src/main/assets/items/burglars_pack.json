@@ -1,0 +1,9 @@
+,"id":"item_Burglar's_Pack",
+"name":"Burglar's Pack",
+"description":"Includes:\n\n- a backpack\n- a Ball Bearings (Bag of 1,000)\n- 10 feet of string\n- a bell\n- 5 candle\n- a crowbar\n- a hammer\n- 10 piton\n- a hooded lantern\n- 2 Oil (flask)\n- 5 days Rations (1 day)\n- a tinderbox\n- a waterskin\n- Hempen Rope (50 feet)",
+"value":16.0,"valueCoin":"gp",
+"weight":44.5,"weightUnit":"lb",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

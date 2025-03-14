@@ -1,0 +1,9 @@
+,"id":"item_Boots_of_Striding_and_Springing",
+"name":"Boots of Striding and Springing",
+"description":"While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Uncommon",
+"type":"Wondrous",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

@@ -1,0 +1,9 @@
+,"id":"item_Quaal's_Feather_Token,_Fan",
+"name":"Quaal's Feather Token, Fan",
+"description":"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.\n\nFan\nIf you are on a boat or ship, you can use an action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a wind strong enough to fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as an action.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Rare",
+"type":"Wondrous",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

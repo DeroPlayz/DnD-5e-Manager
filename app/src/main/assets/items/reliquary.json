@@ -1,0 +1,9 @@
+,"id":"item_Reliquary",
+"name":"Reliquary",
+"description":"",
+"value":5.0,"valueCoin":"gp",
+"weight":2,"weightUnit":"oz",
+"rarity":"None",
+"type":"Spellcasting Focus",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

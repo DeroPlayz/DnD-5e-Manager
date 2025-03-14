@@ -1,0 +1,9 @@
+,"id":"item_Carpet_of_Flying,_6_ft._×_9_ft.",
+"name":"Carpet of Flying, 6 ft. × 9 ft.",
+"description":"You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.\n\nA 6 ft. × 9 ft. carpet can carry up to 800 lb. at a fly speed of 30 feet. A carpet can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Very rare",
+"type":"Wondrous",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

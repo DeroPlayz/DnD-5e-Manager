@@ -1,0 +1,9 @@
+,"id":"item_Planar_Philosopher_Trinket",
+"name":"Planar Philosopher Trinket",
+"description":"d6 --> Trinket\n1 --> Locket with a picture of my mentor and an inscription I can't read\n2 --> Bleached cranium rat skull with colored glass beads in its eye sockets\n3 --> Torn parchment with half a rebus painted on it\n4 --> Bracelet of twisted razorvine stems\n5 --> Fragment of a bronze blade covered in verdigris\n6 --> Broken holy symbol of a forgotten god",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

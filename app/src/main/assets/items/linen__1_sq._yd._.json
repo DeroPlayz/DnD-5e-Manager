@@ -1,0 +1,9 @@
+,"id":"item_Linen__1_sq._yd._",
+"name":"Linen (1 sq. yd.)",
+"description":"",
+"value":5.0,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"None",
+"type":"Trade Good",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

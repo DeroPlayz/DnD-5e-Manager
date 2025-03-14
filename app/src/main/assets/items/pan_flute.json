@@ -1,0 +1,9 @@
+,"id":"item_Pan_Flute",
+"name":"Pan Flute",
+"description":"",
+"value":12.0,"valueCoin":"gp",
+"weight":2,"weightUnit":"oz",
+"rarity":"None",
+"type":"Instrument",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

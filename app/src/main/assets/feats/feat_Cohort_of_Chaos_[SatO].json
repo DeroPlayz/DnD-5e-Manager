@@ -1,0 +1,7 @@
+,"descriptionModels":[,"description":"Prerequisites: 4th level, scion of the outer planes (chaotic outer plane) feat\n\nYou can channel cosmic forces of chaos to gain these benefits:\n\n- Increase one ability score of your choice by 1, to a maximum of 20.\n\n- Chaotic Flare: When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll a d4 and consult the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can\u0027t occur until after the first flare ends.\n\nChaotic Flares\nd4 --\u003e Flare\n1 --\u003e Battle Fury. A creature of your choice that you can see is filled with reckless fury. It has advantage on attack rolls and disadvantage on ability checks.\n2 --\u003e Disruption Field. Waves of energy ripple around you. Every creature that starts its turn within 5 feet of you, or that moves into that area for the first time on a turn, takes 1d8 force damage.\n3 --\u003e Unbound. When you move, you can use some or all of your walking speed to teleport yourself once, along with any equipment you\u0027re wearing or carrying, up to the distance used to an unoccupied space that you can see.\n4 --\u003e Wailing Winds. Winds swirl in a 15-foot-radius sphere centered on you. You and any other creatures in that area have disadvantage on Wisdom saving throws",
+"level":4}],
+"id":"Customad70948b-73cd-4693-b102-ec84f54c0d82",
+"isFeature":false,"jsonType":"feat",
+"level":1,"name":"Cohort of Chaos [SatO]",
+"notes":"",
+"type":"Feat"}

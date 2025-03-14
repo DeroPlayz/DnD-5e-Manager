@@ -1,0 +1,9 @@
+,"id":"item_Explorer's_Pack",
+"name":"Explorer's Pack",
+"description":"Includes:\n\n- a backpack\n- a bedroll\n- a mess kit\n- a tinderbox\n- 10 torch\n- 10 days of Rations (1 day)\n- a waterskin\n- Hempen Rope (50 feet)",
+"value":1.0,"valueCoin":"pp",
+"weight":59,"weightUnit":"lb",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

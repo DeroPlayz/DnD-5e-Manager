@@ -1,0 +1,6 @@
+,"descriptionModels":[,"description":"You master performance so that you can command any stage. You gain the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n\n- You gain proficiency in the Performance skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n\n- While performing, you can try to distract one humanoid you can see. The humanoid must see and hear you. Make a Performance check contested by the humanoid's Insight check. If your check succeeds, you grab the humanoid's attention enough that it makes Perception and Investigation checks with disadvantage until you stop performing",
+"level":1}],
+"isFeature":false,"jsonType":"feat",
+"level":1,"name":"Performer",
+"notes":"",
+"type":"Feat"}

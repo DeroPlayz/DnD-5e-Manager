@@ -1,0 +1,9 @@
+,"id":"item_Priest's_Pack",
+"name":"Priest's Pack",
+"description":"Includes:\n\n- a backpack\n- a blanket\n- 10 candle\n- a tinderbox\n- an alms box\n- 2 blocks of incense\n- a censer\n- vestments\n- 2 days of Rations (1 day)\n- a waterskin.",
+"value":19.0,"valueCoin":"gp",
+"weight":24,"weightUnit":"lb",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

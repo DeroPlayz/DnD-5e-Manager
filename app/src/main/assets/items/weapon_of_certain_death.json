@@ -1,0 +1,9 @@
+,"changesNameOnAttunement":false,"description":"When you damage a creature with an attack using this magic weapon, the target can’t regain hit points until the start of your next turn.",
+"effects":[],
+"id":"item_Weapon_of_Certain_Death",
+"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":true,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
+"name":"Weapon of Certain Death",
+"rarity":"RARE",
+"requiresAttunement":false,"type":"WEAPON",
+"valueCoin":"GOLD",
+"weight":0.0,"weightUnit":"POUNDS"}

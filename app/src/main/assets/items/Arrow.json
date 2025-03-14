@@ -1,0 +1,10 @@
+,"ammunitionType":"ARROW",
+"changesNameOnAttunement":false,"description":"",
+"effects":[],
+"id":"Custom45f9dd88-7335-47fe-bb5e-98ba8301c462",
+"isAmmunition":true,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":false,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
+"name":"Arrow",
+"rarity":"COMMON",
+"requiresAttunement":false,"type":"AMMUNITION",
+"value":5.0,"valueCoin":"COPPER",
+"weight":0.8,"weightUnit":"OUNCES"}

@@ -1,0 +1,9 @@
+,"id":"item_Vial",
+"name":"Vial",
+"description":"A vial can hold up to 4 ounces of liquid.",
+"value":1.0,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

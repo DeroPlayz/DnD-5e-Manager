@@ -1,0 +1,9 @@
+,"id":"item_Hammerhead_Ship",
+"name":"Hammerhead Ship",
+"description":"Hammerhead ships are popular craft, especially among pirates and merchants carrying heavy cargo. They can float on water and sail across it, but they aren't built to land on the ground (their keels would cause them to tip to one side). Standard weapons on a hammerhead ship include fore and aft mangonels, a ballista, and a reinforced bow for ramming.",
+"value":4000.0,"valueCoin":"pp",
+"weight":null,"weightUnit":"lb",
+"rarity":"None",
+"type":"Vehicle (Space)",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

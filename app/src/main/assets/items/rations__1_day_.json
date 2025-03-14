@@ -1,0 +1,9 @@
+,"id":"item_Rations__1_day_",
+"name":"Rations (1 day)",
+"description":"Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.",
+"value":5.0,"valueCoin":"sp",
+"weight":2,"weightUnit":"oz",
+"rarity":"None",
+"type":"Adventuring Gear",
+"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

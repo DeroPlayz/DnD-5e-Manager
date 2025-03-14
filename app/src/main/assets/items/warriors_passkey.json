@@ -1,0 +1,9 @@
+,"id":"item_Warrior's_Passkey",
+"name":"Warrior's Passkey",
+"description":"This silver skeleton key is warm to the touch. While holding the key in its key form, you can use an action to cast the Knock spell from the key.\n\nTransforming the Key\nWhile holding the key, you can use a bonus action to transform it into a magic longsword. You are considered proficient with the sword, and you have a +1 bonus to attack and damage rolls made with it. On a hit, the sword deals 1d10 force damage. The item remains in its sword form until it leaves your grasp or you use another bonus action to revert it to its key form.\n\nIf you end your attunement to the item while it's in its sword form, it automatically reverts to its key form.",
+"value":null,"valueCoin":"gp",
+"weight":null,"weightUnit":"lb",
+"rarity":"Rare",
+"type":"Wondrous",
+"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
+"isCustom":false,"isEquipment":false,"jsonType":"item"}

@@ -1,0 +1,9 @@
+,"changesNameOnAttunement":false,"description":"This reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater’s senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.",
+"effects":[],
+"id":"item_Dust_of_Deliciousness",
+"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":true,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
+"name":"Dust of Deliciousness",
+"rarity":"UNKNOWN",
+"requiresAttunement":false,"type":"WONDROUS",
+"value":250.0,"valueCoin":"GOLD",
+"weight":1.0,"weightUnit":"OUNCES"}
