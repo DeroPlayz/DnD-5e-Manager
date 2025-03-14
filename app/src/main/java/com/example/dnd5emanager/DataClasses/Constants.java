@@ -172,70 +172,70 @@ public class Constants {
     static final ArrayList<String> SorcererSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
     static final ArrayList<String> WarlockSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
     static final ArrayList<String> WizardSelectableArmorProficiencies = new ArrayList<String>(List.of(SimpleWeapon));
-        
-        //Class Declarations
-        public static final CharacterClass Artificer = new CharacterClass("Artificer",
-        0, 0, 1,
+
+    //Class Declarations
+    public static final CharacterClass Artificer = new CharacterClass("Artificer",
+            0, 0, 1,
             1, 0, 0,
-        ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies,
-        ArtificerSelectableArmorProficiencies, 0, 0, 0, 0, ArtificerFeatures, 1, Intelligence, 8);
-        public static final CharacterClass Barbarian = new CharacterClass("Barbarian",
-        1, 0, 1,
-                0, 0, 0,
-        BarbarianSelectableSkillsProficiencies, BarbarianSelectableWeaponProficiencies, BarbarianSelectableToolProficiencies,
-        BarbarianSelectableArmorProficiencies, 0, 0, 0, 0, BarbarianFeatures, 1, None, 12);
-        public static final CharacterClass Bard = new CharacterClass("Bard",
-        0, 0, 1,
-        1, 0, 0,
-        BardSelectableSkillsProficiencies, BardSelectableWeaponProficiencies, BardSelectableToolProficiencies,
-        BardSelectableArmorProficiencies, 0, 0, 0, 0, BardFeatures, 1, Charisma, 8);
-        public static final CharacterClass Cleric = new CharacterClass("Cleric",
-        0, 0, 1,
-        1, 0, 0,
-        ClericSelectableSkillsProficiencies, ClericSelectableWeaponProficiencies, ClericSelectableToolProficiencies,
-        ClericSelectableArmorProficiencies, 0, 0, 0, 0, ClericFeatures, 1, Wisdom, 8);
-        public static final CharacterClass Druid = new CharacterClass("Druid",
-        0, 0, 1,
-        1, 0, 0,
-        DruidSelectableSkillsProficiencies, DruidSelectableWeaponProficiencies, DruidSelectableToolProficiencies,
-        DruidSelectableArmorProficiencies, 0, 0, 0, 0, DruidFeatures, 1, Wisdom, 8);
-        public static final CharacterClass Fighter = new CharacterClass("Fighter",
-        0, 0, 1,
-        1, 0, 0,
-        FighterSelectableSkillsProficiencies, FighterSelectableWeaponProficiencies, FighterSelectableToolProficiencies,
-        FighterSelectableArmorProficiencies, 0, 0, 0, 0, FighterFeatures, 1, None, 10);
-        public static final CharacterClass Monk = new CharacterClass("Monk",
-        0, 0, 1,
-        1, 0, 0,
-        MonkSelectableSkillsProficiencies, MonkSelectableWeaponProficiencies, MonkSelectableToolProficiencies,
-        MonkSelectableArmorProficiencies, 0, 0, 0, 0, MonkFeatures, 1, None, 8);
-        public static final CharacterClass Paladin = new CharacterClass("Paladin",
-        0, 0, 1,
-        1, 0, 0,
-        PaladinSelectableSkillsProficiencies, PaladinSelectableWeaponProficiencies, PaladinSelectableToolProficiencies,
-        PaladinSelectableArmorProficiencies, 0, 0, 0, 0, PaladinFeatures, 1, Charisma, 10);
-        public static final CharacterClass Ranger = new CharacterClass("Ranger",
-        0, 0, 1,
-        1, 0, 0,
-        RangerSelectableSkillsProficiencies, RangerSelectableWeaponProficiencies, RangerSelectableToolProficiencies,
-        RangerSelectableArmorProficiencies, 0, 0, 0, 0, RangerFeatures, 1, Wisdom, 10);
-        public static final CharacterClass Rogue = new CharacterClass("Rogue",
-        0, 0, 1,
-        1, 0, 0,
-        RogueSelectableSkillsProficiencies, RogueSelectableWeaponProficiencies, RogueSelectableToolProficiencies,
-        RogueSelectableArmorProficiencies, 0, 0, 0, 0, RogueFeatures, 1, None, 8);
-        public static final CharacterClass Sorcerer = new CharacterClass("Sorcerer",
-        0, 0, 1,
-        1, 0, 0,
-        SorcererSelectableSkillsProficiencies, SorcererSelectableWeaponProficiencies, SorcererSelectableToolProficiencies,
-        SorcererSelectableArmorProficiencies, 0, 0, 0, 0, SorcererFeatures, 1, Charisma, 6);
-        public static final CharacterClass Warlock = new CharacterClass("Warlock",
-        0, 0, 1,
-        1, 0, 0,
-        WarlockSelectableSkillsProficiencies, WarlockSelectableWeaponProficiencies, WarlockSelectableToolProficiencies,
-        WarlockSelectableArmorProficiencies, 0, 0, 0, 0, WarlockFeatures, 1, Charisma, 8);
-        public static final CharacterClass Wizard = new CharacterClass("Wizard",
-        0, 0, 1,
+            ArtificerSelectableSkillsProficiencies, ArtificerSelectableWeaponProficiencies, ArtificerSelectableToolProficiencies,
+            ArtificerSelectableArmorProficiencies, 0, 0, 0, 0, ArtificerFeatures, 1, Intelligence, 8);
+    public static final CharacterClass Barbarian = new CharacterClass("Barbarian",
+            1, 0, 1,
+            0, 0, 0,
+            BarbarianSelectableSkillsProficiencies, BarbarianSelectableWeaponProficiencies, BarbarianSelectableToolProficiencies,
+            BarbarianSelectableArmorProficiencies, 0, 0, 0, 0, BarbarianFeatures, 1, None, 12);
+    public static final CharacterClass Bard = new CharacterClass("Bard",
+            0, 0, 1,
+            1, 0, 0,
+            BardSelectableSkillsProficiencies, BardSelectableWeaponProficiencies, BardSelectableToolProficiencies,
+            BardSelectableArmorProficiencies, 0, 0, 0, 0, BardFeatures, 1, Charisma, 8);
+    public static final CharacterClass Cleric = new CharacterClass("Cleric",
+            0, 0, 1,
+            1, 0, 0,
+            ClericSelectableSkillsProficiencies, ClericSelectableWeaponProficiencies, ClericSelectableToolProficiencies,
+            ClericSelectableArmorProficiencies, 0, 0, 0, 0, ClericFeatures, 1, Wisdom, 8);
+    public static final CharacterClass Druid = new CharacterClass("Druid",
+            0, 0, 1,
+            1, 0, 0,
+            DruidSelectableSkillsProficiencies, DruidSelectableWeaponProficiencies, DruidSelectableToolProficiencies,
+            DruidSelectableArmorProficiencies, 0, 0, 0, 0, DruidFeatures, 1, Wisdom, 8);
+    public static final CharacterClass Fighter = new CharacterClass("Fighter",
+            0, 0, 1,
+            1, 0, 0,
+            FighterSelectableSkillsProficiencies, FighterSelectableWeaponProficiencies, FighterSelectableToolProficiencies,
+            FighterSelectableArmorProficiencies, 0, 0, 0, 0, FighterFeatures, 1, None, 10);
+    public static final CharacterClass Monk = new CharacterClass("Monk",
+            0, 0, 1,
+            1, 0, 0,
+            MonkSelectableSkillsProficiencies, MonkSelectableWeaponProficiencies, MonkSelectableToolProficiencies,
+            MonkSelectableArmorProficiencies, 0, 0, 0, 0, MonkFeatures, 1, None, 8);
+    public static final CharacterClass Paladin = new CharacterClass("Paladin",
+            0, 0, 1,
+            1, 0, 0,
+            PaladinSelectableSkillsProficiencies, PaladinSelectableWeaponProficiencies, PaladinSelectableToolProficiencies,
+            PaladinSelectableArmorProficiencies, 0, 0, 0, 0, PaladinFeatures, 1, Charisma, 10);
+    public static final CharacterClass Ranger = new CharacterClass("Ranger",
+            0, 0, 1,
+            1, 0, 0,
+            RangerSelectableSkillsProficiencies, RangerSelectableWeaponProficiencies, RangerSelectableToolProficiencies,
+            RangerSelectableArmorProficiencies, 0, 0, 0, 0, RangerFeatures, 1, Wisdom, 10);
+    public static final CharacterClass Rogue = new CharacterClass("Rogue",
+            0, 0, 1,
+            1, 0, 0,
+            RogueSelectableSkillsProficiencies, RogueSelectableWeaponProficiencies, RogueSelectableToolProficiencies,
+            RogueSelectableArmorProficiencies, 0, 0, 0, 0, RogueFeatures, 1, None, 8);
+    public static final CharacterClass Sorcerer = new CharacterClass("Sorcerer",
+            0, 0, 1,
+            1, 0, 0,
+            SorcererSelectableSkillsProficiencies, SorcererSelectableWeaponProficiencies, SorcererSelectableToolProficiencies,
+            SorcererSelectableArmorProficiencies, 0, 0, 0, 0, SorcererFeatures, 1, Charisma, 6);
+    public static final CharacterClass Warlock = new CharacterClass("Warlock",
+            0, 0, 1,
+            1, 0, 0,
+            WarlockSelectableSkillsProficiencies, WarlockSelectableWeaponProficiencies, WarlockSelectableToolProficiencies,
+            WarlockSelectableArmorProficiencies, 0, 0, 0, 0, WarlockFeatures, 1, Charisma, 8);
+    public static final CharacterClass Wizard = new CharacterClass("Wizard",
+            0, 0, 1,
             1, 0, 0,
             WizardSelectableSkillsProficiencies, WizardSelectableWeaponProficiencies, WizardSelectableToolProficiencies,
             WizardSelectableArmorProficiencies, 0, 0, 0, 0, WizardFeatures, 1, Intelligence, 6);
@@ -255,6 +255,15 @@ public class Constants {
     public final static Subclass SubWizard = new Subclass("Wizard", Wizard);
 
     public final static Subclass Alchemist = new Subclass("Alchemist", Artificer, AlchemistFeatures);
+
+    public static Subclass findSub(String Name) {
+        for (int i = 0; i < Subclasses.size(); i++) {
+            if (Subclasses.get(i).getName().equals(Name)) {
+                return Subclasses.get(i);
+            }
+        }
+        return null;
+    }
 
     public final static Race Aarakocra = new Race("Aarakocra", 10,
             25, 50, 0, 0, 0,
@@ -977,6 +986,40 @@ public class Constants {
             1, 0, 2,
             false
     );
+
+    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
+
+    public static final ArrayList<Race> RacesInit = new ArrayList<Race>(List.of(Aarakocra,
+            Aasimar, Bugbear, Catfolk, Centaur, Changeling, Dragonborn, Dwarf, Elf, Firbolg, Genasi,
+            Gith, Gnome, Goblin, Goliath, HalfElf, HalfHag, HalfOrc, Halfling, Hobgoblin, Human,
+            HumanRevenant, Kalashtar, Kenku, Kobold, Leonin, Lizardfolk, Loxodon, MarkOfDetectionHalfElf,
+            MarkOfFindingHalfOrc, MarkOfHandlingHuman, MarkOfMakingHuman, MarkOfPassageHuman,
+            MarkOfSentinelHuman, MarkOfStormHalfElf, MindFlayer, Minotaur, Orc, Satyr, Shifter, Tabaxi,
+            Tiefling, Tortle, Triton, Vampire, VariantHuman, Vedalken, Viashino, Warforged, Wolfborn,
+            YuanTiPureblood
+    ));
+    public static final ArrayList<Subrace> SubracesInit = new ArrayList<Subrace>(List.of(ProtectorAasimar,
+            ScourgeAasimar, FallenAasimar, OrdinaryBreedCatfolk, LargeBreedCatfolk, MysticBreedCatfolk,
+            BlackDragonborn, BlueDragonborn, BrassDragonborn, BronzeDragonborn, CopperDragonborn,
+            GoldDragonborn, GreenDragonborn, RedDragonborn, SilverDragonborn, WhiteDragonborn,
+            HillDwarf, MountainDwarf, HouseKundarakDwarf, DuergarDwarf, MarkOfWardingDwarf, HighElf,
+            WoodElf, SeaElf, ShadarKai, HouseOfShadow, AerenalHighElf, AerenalWoodElf, ValenarHighElf,
+            ValenarWoodElf, DarkElf, PalidElf, AirGenasi, EarthGenasi, FireGenasi, WaterGenasi, Githyanki,
+            Githzerai, ForestGnome, RockGnome, DeepGnome, MarkOfScribingDwarf, CommonGoblin, GrotagGoblin,
+            IxalanGoblin, LavastepGoblin, TukTukGoblin, GreenskinGoblin, BoggartGoblin, Gremlin, GreenHag,
+            NightHag, SeaHag, GhostwiseHalfling, LightfootHalfling, StoutHalfling,
+            MarkOfHealingHalfling, MarkOfHospitalityHalfling, LotusdenHalfling, RavnicaLoxodon,
+            MirrodinLoxodon, TarkirLoxodon, NormalOrc, CommonOrc, MountainOrc, Orog, WaterOrc,
+            BeasthideShifter, LongtoothShifter, SwiftstrideShifter, WildhuntShifter));
+    public static final ArrayList<CharacterClass> CharacterClassesInit = new ArrayList<CharacterClass>
+            (List.of(Artificer, Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue,
+                    Sorcerer, Warlock, Wizard));
+    public static ArrayList<Subclass> SubclassesInit = new ArrayList<Subclass>(Arrays.asList(SubArtificer, SubBarbarian, SubBard, SubCleric, SubDruid, SubFighter, SubMonk, SubPaladin, SubRanger, SubRogue, SubSorcerer, SubWarlock, SubWizard));
+
+    public static ArrayList<Race> Races = RacesInit;
+    public static ArrayList<Subrace> Subraces = SubracesInit;
+    public static ArrayList<CharacterClass> CharacterClasses = CharacterClassesInit;
+    public static ArrayList<Subclass> Subclasses = SubclassesInit;
 
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
 }

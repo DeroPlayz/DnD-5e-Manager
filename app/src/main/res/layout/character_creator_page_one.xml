@@ -232,7 +232,7 @@
         android:layout_width="105dp"
         android:layout_height="50dp"
         android:ems="10"
-        android:hint="10"
+        android:hint="5"
         android:inputType="text"
         android:maxLength="3"
         app:layout_constraintStart_toStartOf="parent"

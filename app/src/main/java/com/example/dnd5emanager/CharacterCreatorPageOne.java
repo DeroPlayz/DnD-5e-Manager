@@ -86,21 +86,21 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-//                    for (int i = 0; i < Races.size(); i++) {
-//                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-//                            if (!Races.get(i).getHasSubraces()) {
-//                                Subrace.setEnabled(false);
-//                                Subrace.setClickable(false);
-//                                Subrace.setVisibility(View.INVISIBLE);
-//                            } else {
-//                                for (int j = 0; j < Subraces.size(); j++) {
-//                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-//                                        Adapter.add(Subraces.get(j).getName());
-//                                    }
-//                                }
-//                            }
-//                        }
-//                    }
+                    for (int i = 0; i < Races.size(); i++) {
+                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+                            if (!Races.get(i).getHasSubraces()) {
+                                Subrace.setEnabled(false);
+                                Subrace.setClickable(false);
+                                Subrace.setVisibility(View.INVISIBLE);
+                            } else {
+                                for (int j = 0; j < Subraces.size(); j++) {
+                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
+                                        Adapter.add(Subraces.get(j).getName());
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
@@ -131,9 +131,22 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneViewCharacter.setOnClickListener(v -> {
-            update(v);
-            CurrentCharacter = NewCharacter;
-            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
+            Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
+            Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
+            Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
+            Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
+            Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
+            Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+            TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
+//            Log.d("Health")
+            if(Health.getText().toString().isEmpty() || Strength.getText().toString().isEmpty() ||
+            Dexterity.getText().toString().isEmpty() || Constitution.getText().toString().isEmpty() ||
+            Intelligence.getText().toString().isEmpty() || Wisdom.getText().toString().isEmpty() ||
+            Charisma.getText().toString().isEmpty()){
+                update(v);
+                CurrentCharacter = NewCharacter;
+                NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
+            }
         });
 
         binding.characterCreatorPageOneBackButton.setOnClickListener(v -> {
@@ -230,27 +243,27 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateRace(){
-//        for (int i = 0; i < Races.size(); i++) {
-//            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-//                NewCharacter.setRace(Races.get(i));
-//            }
-//        }
-//        if (NewCharacter.getRace().getHasSubraces()) {
-//            for (int i = 0; i < Subraces.size(); i++) {
-//                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
-//                    NewCharacter.setSubrace(Subraces.get(i));
-//                }
-//            }
-//        }
+        for (int i = 0; i < Races.size(); i++) {
+            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+                NewCharacter.setRace(Races.get(i));
+            }
+        }
+        if (NewCharacter.getRace().getHasSubraces()) {
+            for (int i = 0; i < Subraces.size(); i++) {
+                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
+                    NewCharacter.setSubrace(Subraces.get(i));
+                }
+            }
+        }
     }
 
     public void updateClass(){
-//        NewCharacter.clearClasses();
-//        for(int i = 0; i < CharacterClasses.size(); i++){
-//            if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
-//                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
-//                break;
-//            }
-//        }
+        NewCharacter.clearClasses();
+        for(int i = 0; i < CharacterClasses.size(); i++){
+            if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
+                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
+                break;
+            }
+        }
     }
 }
