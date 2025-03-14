@@ -2,6 +2,7 @@ package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -25,6 +26,7 @@ import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -47,6 +49,7 @@ public class CharacterCreatorPageOne extends Fragment {
 
     private EditText Name;
     private EditText Level;
+    private EditText Health;
     private Spinner Race;
     private Spinner Subrace;
     private Spinner Class;
@@ -131,18 +134,63 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneViewCharacter.setOnClickListener(v -> {
+            Name = view.findViewById(R.id.character_creator_page_one_edit_name);
+            Health = view.findViewById(R.id.character_creator_page_one_edit_health);
+            Level = view.findViewById(R.id.character_creator_page_one_edit_level);
             Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
             Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
             Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
             Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
             Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
             Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
-            TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
-//            Log.d("Health")
-            if(Health.getText().toString().isEmpty() || Strength.getText().toString().isEmpty() ||
-            Dexterity.getText().toString().isEmpty() || Constitution.getText().toString().isEmpty() ||
-            Intelligence.getText().toString().isEmpty() || Wisdom.getText().toString().isEmpty() ||
-            Charisma.getText().toString().isEmpty()){
+
+            Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
+            ArrayList<String> MissingData = new ArrayList<>();
+
+            if(Name.getText().toString().isEmpty()){
+                MissingData.add("Name");
+            }
+            if(Level.getText().toString().isEmpty()){
+                updateClass();
+                NewCharacter.setLevel(NewCharacter.getPrimaryClass(), 1);
+            }
+            if(Health.getText().toString().isEmpty()){
+                MissingData.add("Health");
+            }
+            if(Strength.getText().toString().isEmpty()){
+                MissingData.add("Strength");
+            }
+            if(Dexterity.getText().toString().isEmpty()){
+                MissingData.add("Dexterity");
+            }
+            if(Constitution.getText().toString().isEmpty()){
+                MissingData.add("Constitution");
+            }
+            if(Intelligence.getText().toString().isEmpty()){
+                MissingData.add("Intelligence");
+            }
+            if(Wisdom.getText().toString().isEmpty()){
+                MissingData.add("Wisdom");
+            }
+            if(Charisma.getText().toString().isEmpty()){
+                MissingData.add("Charisma");
+            }
+
+            if(!MissingData.isEmpty()){
+                StringBuilder warning = new StringBuilder("Missing Information - Please add your character's ");
+                for(int i = 0; i < MissingData.size(); i++){
+                    warning.append(MissingData.get(i));
+                    if(i < MissingData.size() - 1){
+                        warning.append(", ");
+                    }
+                    if(i == MissingData.size() - 1){
+                        warning.append(".");
+                    }
+                }
+                snackbar.setText(warning);
+                snackbar.show();
+            }
+            else{
                 update(v);
                 CurrentCharacter = NewCharacter;
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
