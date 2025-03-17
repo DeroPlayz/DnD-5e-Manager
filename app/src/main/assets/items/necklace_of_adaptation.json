@@ -1,9 +1,2 @@
-,"id":"item_Necklace_of_Adaptation",
-"name":"Necklace of Adaptation",
-"description":"While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons).",
-"value":null,"valueCoin":"gp",
-"weight":1,"weightUnit":"oz",
-"rarity":"Uncommon",
-"type":"Wondrous",
-"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Necklace_of_Adaptation","name": "Necklace of Adaptation","description": "While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons).","value": null,"valueCoin": "gp","weight": 1,"weightUnit": "oz","rarity": "Uncommon","type": "Wondrous","isAmmunition": false,"ammunitionType": null,"isMagic": true,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": true,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

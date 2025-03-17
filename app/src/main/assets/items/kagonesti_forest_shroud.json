@@ -1,9 +1,2 @@
-,"id":"item_Kagonesti_Forest_Shroud",
-"name":"Kagonesti Forest Shroud",
-"description":"This cloak appears to be made of autumnal leaves woven together. While you wear this cloak, you have advantage on Dexterity (Stealth) checks, and you can use a bonus action to magically teleport, along with any equipment you are wearing or carrying, to an unoccupied space you can see within 30 feet of yourself. You then have advantage on the next attack roll you make before the end of the turn. Once this bonus action is used, it can't be used again until the next dawn.",
-"value":null,"valueCoin":"gp",
-"weight":null,"weightUnit":"lb",
-"rarity":"Rare",
-"type":"Wondrous",
-"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Kagonesti_Forest_Shroud","name": "Kagonesti Forest Shroud","description": "This cloak appears to be made of autumnal leaves woven together. While you wear this cloak, you have advantage on Dexterity (Stealth) checks, and you can use a bonus action to magically teleport, along with any equipment you are wearing or carrying, to an unoccupied space you can see within 30 feet of yourself. You then have advantage on the next attack roll you make before the end of the turn. Once this bonus action is used, it can't be used again until the next dawn.","value": null,"valueCoin": "gp","weight": null,"weightUnit": "lb","rarity": "Rare","type": "Wondrous","isAmmunition": false,"ammunitionType": null,"isMagic": true,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": true,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

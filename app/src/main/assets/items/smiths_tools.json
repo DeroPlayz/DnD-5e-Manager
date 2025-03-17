@@ -1,9 +1,2 @@
-,"id":"item_Smith's_Tools",
-"name":"Smith's Tools",
-"description":"",
-"value":2.0,"valueCoin":"pp",
-"weight":8,"weightUnit":"oz",
-"rarity":"None",
-"type":"Artisan's Tools",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Smith's_Tools","name": "Smith's Tools","description": "","value": 2.0,"valueCoin": "pp","weight": 8,"weightUnit": "oz","rarity": "None","type": "Artisan's Tools","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

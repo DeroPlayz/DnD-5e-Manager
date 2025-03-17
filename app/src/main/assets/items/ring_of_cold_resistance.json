@@ -1,9 +1,2 @@
-,"id":"item_Ring_of_Cold_Resistance",
-"name":"Ring of Cold Resistance",
-"description":"You have resistance to cold damage while wearing this ring. The ring is set with tourmaline",
-"value":null,"valueCoin":"gp",
-"weight":null,"weightUnit":"lb",
-"rarity":"Rare",
-"type":"Ring",
-"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":true,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Ring_of_Cold_Resistance","name": "Ring of Cold Resistance","description": "You have resistance to cold damage while wearing this ring. The ring is set with tourmaline","value": null,"valueCoin": "gp","weight": null,"weightUnit": "lb","rarity": "Rare","type": "Ring","isAmmunition": false,"ammunitionType": null,"isMagic": true,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": true,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

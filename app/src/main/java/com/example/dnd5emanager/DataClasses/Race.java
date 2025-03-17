@@ -55,4 +55,10 @@ public class Race {
 //            this.ToolProficiencies = ToolProficiencies;
 //            this.RacialTraits = RacialTraits;
     }
+ProficiencyStat = 2
+ProficiencyLevel = 2
+
+    7 + (ProficiencyStat * 0) = 7
+    7 + (ProficiencyStat * 1) = 9
+    7 + (ProficiencyStat * 2) =
 }

@@ -1,14 +1,4 @@
-,"ac":15,"actions":[,"description":"8 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage. If the lion moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a DC 16 Strength saving throw or have the prone condition. If the target has the prone condition, the lion can make another Rend attack against it as a bonus action.",
-"id":-1,"isLegendary":false,"monsterId":-1,"name":"Rend",
-"type":"MELEE"}],
-"alignment":"True Neutral",
-"burrowSpeed":0,"cha":10,"climbSpeed":0,"con":17,"conditionImmunities":null,"cr":"3",
-"damageImmunities":null,"dex":14,"flySpeed":0,"hp":,"constant":21,"diceAmount":7,"diceType":"D12"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster",
-"languages":null,"name":"Spotted Lion [BGG]",
-"resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.",
-"size":"Huge",
-"skills":null,"specialTraits":[,"description":"The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the target and the ally doesn't have the incapacitated condition.",
-"id":-1,"monsterId":-1,"name":"Pack Tactics"}],
-"speed":60,"str":23,"swimSpeed":0,"tag":null,"type":"Beast",
-"vulnerabilities":null,"wis":13,"xp":700}
+{"ac":15,"actions":[{"description":"8 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage. If the lion moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a DC 16 Strength saving throw or have the prone condition. If the target has the prone condition, the lion can make another Rend attack against it as a bonus action.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Rend","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":17,"conditionImmunities":null,"cr":"3","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":21,"diceAmount":7,"diceType":"D12"},
+"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":null,"name":"Spotted Lion [BGG]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the target and the ally doesn't have the incapacitated condition.","id":-1,"monsterId":-1,"name":"Pack Tactics"}],
+"speed":60,"str":23,"swimSpeed":0,"tag":null,"type":"Beast","vulnerabilities":null,"wis":13,"xp":700}

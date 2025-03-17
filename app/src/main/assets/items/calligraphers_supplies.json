@@ -1,9 +1,2 @@
-,"id":"item_Calligrapher's_Supplies",
-"name":"Calligrapher's Supplies",
-"description":"",
-"value":1.0,"valueCoin":"pp",
-"weight":5,"weightUnit":"oz",
-"rarity":"None",
-"type":"Artisan's Tools",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Calligrapher's_Supplies","name": "Calligrapher's Supplies","description": "","value": 1.0,"valueCoin": "pp","weight": 5,"weightUnit": "oz","rarity": "None","type": "Artisan's Tools","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

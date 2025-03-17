@@ -1,9 +1,2 @@
-,"id":"item_Portal_Compass",
-"name":"Portal Compass",
-"description":"This portable arcane instrument points in the direction of the last portal it passed through while it and the portal are on the same plane of existence. If that portal no longer exists, the needle becomes static until the compass passes through a new portal.",
-"value":null,"valueCoin":"gp",
-"weight":null,"weightUnit":"lb",
-"rarity":"Uncommon",
-"type":"Wondrous",
-"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Portal_Compass","name": "Portal Compass","description": "This portable arcane instrument points in the direction of the last portal it passed through while it and the portal are on the same plane of existence. If that portal no longer exists, the needle becomes static until the compass passes through a new portal.","value": null,"valueCoin": "gp","weight": null,"weightUnit": "lb","rarity": "Uncommon","type": "Wondrous","isAmmunition": false,"ammunitionType": null,"isMagic": true,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

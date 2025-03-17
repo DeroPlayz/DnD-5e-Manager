@@ -1,6 +1,2 @@
-,"descriptionModels":[,"description":"Skilled at mimicry and dramatics, you gain the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n\n- You have an advantage on Deception and Performance checks when trying to pass yourself off as a different person.\n- You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Insight check contested by your Deception check allows a listener to determine that the effect is faked",
-"level":1}],
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Actor",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "Skilled at mimicry and dramatics, you gain the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n\n- You have an advantage on Deception and Performance checks when trying to pass yourself off as a different person.\n- You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Insight check contested by your Deception check allows a listener to determine that the effect is faked","level": 1}],
+"isFeature": false,"jsonType": "feat","level": 1,"name": "Actor","notes": "","type": "Feat"}

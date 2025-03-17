@@ -1,9 +1,2 @@
-,"id":"item_Squid_Ship",
-"name":"Squid Ship",
-"description":"Among the oldest types of spelljamming vessels, squid ships are popular with privateers and are often used as patrol ships. Standard weapons on a squid ship include a forward-mounted mangonel, two aft-mounted ballistae, and a reinforced bow for ramming. The tentacles that extend from the bow account for nearly half the ship's keel length.\n\nSquid ships can float and sail on water, and they can land on the ground.",
-"value":2500.0,"valueCoin":"pp",
-"weight":null,"weightUnit":"lb",
-"rarity":"None",
-"type":"Vehicle (Space)",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Squid_Ship","name": "Squid Ship","description": "Among the oldest types of spelljamming vessels, squid ships are popular with privateers and are often used as patrol ships. Standard weapons on a squid ship include a forward-mounted mangonel, two aft-mounted ballistae, and a reinforced bow for ramming. The tentacles that extend from the bow account for nearly half the ship's keel length.\n\nSquid ships can float and sail on water, and they can land on the ground.","value": 2500.0,"valueCoin": "pp","weight": null,"weightUnit": "lb","rarity": "None","type": "Vehicle (Space)","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

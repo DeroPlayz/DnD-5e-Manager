@@ -1,9 +1,2 @@
-,"changesNameOnAttunement":false,"description":"A poisoner\u0027s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons",
-"effects":[],
-"id":"item_Poisoner\u0027s_Kit",
-"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":false,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Poisoner\u0027s Kit",
-"rarity":"NONE",
-"requiresAttunement":false,"type":"TOOL",
-"value":5.0,"valueCoin":"PLATINUM",
-"weight":2.0,"weightUnit":"OUNCES"}
+{"changesNameOnAttunement": false,"description": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons","effects": [],
+"id": "item_Poisoner's_Kit","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Poisoner's Kit","rarity": "NONE","requiresAttunement": false,"type": "TOOL","value": 5.0,"valueCoin": "PLATINUM","weight": 2.0,"weightUnit": "OUNCES"}

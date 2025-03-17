@@ -1,9 +1,2 @@
-,"id":"item_Flying_Fish_Ship",
-"name":"Flying Fish Ship",
-"description":"Aside from space galleons, flying fish ships are the most common vessels in Wildspace, favorites among merchants and adventurers alike.\n\nA flying fish ship can float and sail on water, but it isn't built to land on the ground (the ventral fins would snap under the weight of the ship during landing, and the keel would cause the ship to roll to one side).\n\nTypical weapons on a flying fish ship include a forward-mounted mangonel and an aftmounted ballista.",
-"value":2000.0,"valueCoin":"pp",
-"weight":null,"weightUnit":"lb",
-"rarity":"None",
-"type":"Vehicle (Space)",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Flying_Fish_Ship","name": "Flying Fish Ship","description": "Aside from space galleons, flying fish ships are the most common vessels in Wildspace, favorites among merchants and adventurers alike.\n\nA flying fish ship can float and sail on water, but it isn't built to land on the ground (the ventral fins would snap under the weight of the ship during landing, and the keel would cause the ship to roll to one side).\n\nTypical weapons on a flying fish ship include a forward-mounted mangonel and an aftmounted ballista.","value": 2000.0,"valueCoin": "pp","weight": null,"weightUnit": "lb","rarity": "None","type": "Vehicle (Space)","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

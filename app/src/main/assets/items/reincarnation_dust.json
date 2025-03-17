@@ -1,9 +1,2 @@
-,"changesNameOnAttunement":false,"description":"When this small pouch of purple dust is sprinkled on a dead humanoid or a piece of a dead humanoid, the dust is absorbed by the remains. If willing, the dead creature returns to life with a new body as if the reincarnate spell had been cast on the remains.",
-"effects":[],
-"id":"item_Reincarnation_Dust",
-"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":true,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Reincarnation Dust",
-"rarity":"VERY_RARE",
-"requiresAttunement":false,"type":"WONDROUS",
-"value":25000.0,"valueCoin":"GOLD",
-"weight":1.0,"weightUnit":"OUNCES"}
+{"changesNameOnAttunement": false,"description": "When this small pouch of purple dust is sprinkled on a dead humanoid or a piece of a dead humanoid, the dust is absorbed by the remains. If willing, the dead creature returns to life with a new body as if the reincarnate spell had been cast on the remains.","effects": [],
+"id": "item_Reincarnation_Dust","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Reincarnation Dust","rarity": "VERY_RARE","requiresAttunement": false,"type": "WONDROUS","value": 25000.0,"valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}

@@ -1,9 +1,2 @@
-,"id":"item_Periapt_of_Health",
-"name":"Periapt of Health",
-"description":"You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant.",
-"value":null,"valueCoin":"gp",
-"weight":1,"weightUnit":"oz",
-"rarity":"Uncommon",
-"type":"Wondrous",
-"isAmmunition":false,"ammunitionType":null,"isMagic":true,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Periapt_of_Health","name": "Periapt of Health","description": "You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant.","value": null,"valueCoin": "gp","weight": 1,"weightUnit": "oz","rarity": "Uncommon","type": "Wondrous","isAmmunition": false,"ammunitionType": null,"isMagic": true,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

@@ -1,7 +1,2 @@
-,"descriptionModels":[,"description":"You have achieved a penetrating precision in combat, granting you the following benefits:\n\n- Increase your Strength or Dexterity by 1, to a maximum of 20.\n\n- Once per turn, when you hit a creature with an attack that deals piercing damage, you can reroll one of the attack\u0027s damage dice, and you must use the new roll.\n\n- When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes",
-"level":1}],
-"id":"Custom55f00c1c-5651-4429-9db2-be58ffd9ce75",
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Piercer [TCE]",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "You have achieved a penetrating precision in combat, granting you the following benefits:\n\n- Increase your Strength or Dexterity by 1, to a maximum of 20.\n\n- Once per turn, when you hit a creature with an attack that deals piercing damage, you can reroll one of the attack's damage dice, and you must use the new roll.\n\n- When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes","level": 1}],
+"id": "Custom55f00c1c-5651-4429-9db2-be58ffd9ce75","isFeature": false,"jsonType": "feat","level": 1,"name": "Piercer [TCE]","notes": "","type": "Feat"}

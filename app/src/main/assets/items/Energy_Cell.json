@@ -1,9 +1,2 @@
-,"changesNameOnAttunement":false,"description":"",
-"effects":[],
-"id":"Custom29ae2f46-c28e-4e15-8cb3-9d022b6e81f3",
-"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":false,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Energy Cell",
-"rarity":"COMMON",
-"requiresAttunement":false,"type":"AMMUNITION",
-"valueCoin":"GOLD",
-"weight":5.0,"weightUnit":"OUNCES"}
+{"changesNameOnAttunement": false,"description": "","effects": [],
+"id": "Custom29ae2f46-c28e-4e15-8cb3-9d022b6e81f3","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Energy Cell","rarity": "COMMON","requiresAttunement": false,"type": "AMMUNITION","valueCoin": "GOLD","weight": 5.0,"weightUnit": "OUNCES"}

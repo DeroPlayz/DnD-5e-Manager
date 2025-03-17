@@ -1,9 +1,2 @@
-,"id":"item_Waterskin",
-"name":"Waterskin",
-"description":"A waterskin can hold up to 4 pints of liquid.",
-"value":2.0,"valueCoin":"sp",
-"weight":5,"weightUnit":"oz",
-"rarity":"None",
-"type":"Adventuring Gear",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Waterskin","name": "Waterskin","description": "A waterskin can hold up to 4 pints of liquid.","value": 2.0,"valueCoin": "sp","weight": 5,"weightUnit": "oz","rarity": "None","type": "Adventuring Gear","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

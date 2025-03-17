@@ -1,7 +1,2 @@
-,"descriptionModels":[,"description":"Prerequisites: 4th level, strike of the giants (cloud strike) feat\n\nYou\u0027ve manifested the confounding magic emblematic of cloud giants, granting you the following benefits:\n\n- Ability Score Increase: Increase your Strength, Constitution, or Charisma by 1, to a maximum of 20.\n\n- Cloudy Escape: When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack\u0027s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-"level":4}],
-"id":"Customace2a722-c909-4db4-abc9-fab65670dcd2",
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Guile of the Cloud Giant [BGG]",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "Prerequisites: 4th level, strike of the giants (cloud strike) feat\n\nYou've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:\n\n- Ability Score Increase: Increase your Strength, Constitution, or Charisma by 1, to a maximum of 20.\n\n- Cloudy Escape: When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack's damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 4}],
+"id": "Customace2a722-c909-4db4-abc9-fab65670dcd2","isFeature": false,"jsonType": "feat","level": 1,"name": "Guile of the Cloud Giant [BGG]","notes": "","type": "Feat"}

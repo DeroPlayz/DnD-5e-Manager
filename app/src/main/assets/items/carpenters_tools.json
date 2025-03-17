@@ -1,9 +1,2 @@
-,"id":"item_Carpenter's_Tools",
-"name":"Carpenter's Tools",
-"description":"",
-"value":8.0,"valueCoin":"gp",
-"weight":6,"weightUnit":"oz",
-"rarity":"None",
-"type":"Artisan's Tools",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Carpenter's_Tools","name": "Carpenter's Tools","description": "","value": 8.0,"valueCoin": "gp","weight": 6,"weightUnit": "oz","rarity": "None","type": "Artisan's Tools","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

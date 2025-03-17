@@ -1,7 +1,2 @@
-,"descriptionModels":[,"description":"You have a quick hand and keen eye when employing firearms, granting you the following benefits:\n\n- Increase your Dexterity score by 1, to a maximum of 20.\n\n- You gain proficiency with firearms.\nYou ignore the loading property of firearms.\n\n- Being within 5 feet of a hostile creature doesn\u0027t impose disadvantage on your ranged attack rolls",
-"level":1}],
-"id":"Custom3835fdd8-61c4-43cd-9529-af7e9bacaaff",
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Gunner [TCE]",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "You have a quick hand and keen eye when employing firearms, granting you the following benefits:\n\n- Increase your Dexterity score by 1, to a maximum of 20.\n\n- You gain proficiency with firearms.\nYou ignore the loading property of firearms.\n\n- Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls","level": 1}],
+"id": "Custom3835fdd8-61c4-43cd-9529-af7e9bacaaff","isFeature": false,"jsonType": "feat","level": 1,"name": "Gunner [TCE]","notes": "","type": "Feat"}

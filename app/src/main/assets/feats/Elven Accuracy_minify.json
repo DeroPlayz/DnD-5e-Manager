@@ -1,6 +1,2 @@
-,"descriptionModels":[,"description":"Prerequisite: Elf or half-elf\n\nThe accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:\n\n- Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20\n\n- Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once",
-"level":1}],
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Elven Accuracy",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "Prerequisite: Elf or half-elf\n\nThe accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:\n\n- Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20\n\n- Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once","level": 1}],
+"isFeature": false,"jsonType": "feat","level": 1,"name": "Elven Accuracy","notes": "","type": "Feat"}

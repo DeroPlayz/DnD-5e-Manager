@@ -1,7 +1,2 @@
-,"descriptionModels":[,"description":"You’ve manifested some of the power of gem dragons, granting you the following benefits:\n\n- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n\n- When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or take 2d8 force damage and be pushed 10 feet away from you. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-"level":1}],
-"id":"Customb1c581b1-4093-47f6-a548-45244b97a0e0",
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Gift of the Gem Dragon [UA]",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "You\u00e2\u20ac\u2122ve manifested some of the power of gem dragons, granting you the following benefits:\n\n- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n\n- When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or take 2d8 force damage and be pushed 10 feet away from you. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1}],
+"id": "Customb1c581b1-4093-47f6-a548-45244b97a0e0","isFeature": false,"jsonType": "feat","level": 1,"name": "Gift of the Gem Dragon [UA]","notes": "","type": "Feat"}

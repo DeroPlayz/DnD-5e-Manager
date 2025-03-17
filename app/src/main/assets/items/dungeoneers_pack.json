@@ -1,9 +1,2 @@
-,"id":"item_Dungeoneer's_Pack",
-"name":"Dungeoneer's Pack",
-"description":"Includes:\n\n- a backpack\n- a crowbar\n- a hammer\n- 10 piton\n- 10 torch\n- a tinderbox\n- 10 days of Rations (1 day)\n- a waterskin\n- Hempen Rope (50 feet)",
-"value":12.0,"valueCoin":"gp",
-"weight":61.5,"weightUnit":"lb",
-"rarity":"None",
-"type":"Adventuring Gear",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Dungeoneer's_Pack","name": "Dungeoneer's Pack","description": "Includes:\n\n- a backpack\n- a crowbar\n- a hammer\n- 10 piton\n- 10 torch\n- a tinderbox\n- 10 days of Rations (1 day)\n- a waterskin\n- Hempen Rope (50 feet)","value": 12.0,"valueCoin": "gp","weight": 61.5,"weightUnit": "lb","rarity": "None","type": "Adventuring Gear","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

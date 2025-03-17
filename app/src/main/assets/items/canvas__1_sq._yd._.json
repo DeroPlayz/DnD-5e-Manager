@@ -1,9 +1,2 @@
-,"id":"item_Canvas__1_sq._yd._",
-"name":"Canvas (1 sq. yd.)",
-"description":"",
-"value":1.0,"valueCoin":"sp",
-"weight":null,"weightUnit":"lb",
-"rarity":"None",
-"type":"Trade Good",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Canvas__1_sq._yd._","name": "Canvas (1 sq. yd.)","description": "","value": 1.0,"valueCoin": "sp","weight": null,"weightUnit": "lb","rarity": "None","type": "Trade Good","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

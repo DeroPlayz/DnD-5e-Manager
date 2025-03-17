@@ -1,9 +1,2 @@
-,"id":"item_Crossbow_Bolt_Case",
-"name":"Crossbow Bolt Case",
-"description":"This wooden case can hold up to twenty crossbow bolt.",
-"value":1.0,"valueCoin":"gp",
-"weight":1,"weightUnit":"oz",
-"rarity":"None",
-"type":"Adventuring Gear",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Crossbow_Bolt_Case","name": "Crossbow Bolt Case","description": "This wooden case can hold up to twenty crossbow bolt.","value": 1.0,"valueCoin": "gp","weight": 1,"weightUnit": "oz","rarity": "None","type": "Adventuring Gear","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

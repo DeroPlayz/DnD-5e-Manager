@@ -1,9 +1,2 @@
-,"id":"item_Star_Moth",
-"name":"Star Moth",
-"description":"Star moths are ships constructed and flown by astral elves, who don't like it when these ships end up in the hands of others.\n\nA star moth's hull is fashioned from a grown and sculpted organic substance, and its enormous, decorative wings are made of shimmering crystal. The vessel is built for space travel, but its design does enable it to float on water or land safely on the ground. Standard weaponry includes two ballistae nestled in the star moth's eye holes and a mangonel mounted above the bridge.",
-"value":4000.0,"valueCoin":"pp",
-"weight":null,"weightUnit":"lb",
-"rarity":"None",
-"type":"Vehicle (Space)",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Star_Moth","name": "Star Moth","description": "Star moths are ships constructed and flown by astral elves, who don't like it when these ships end up in the hands of others.\n\nA star moth's hull is fashioned from a grown and sculpted organic substance, and its enormous, decorative wings are made of shimmering crystal. The vessel is built for space travel, but its design does enable it to float on water or land safely on the ground. Standard weaponry includes two ballistae nestled in the star moth's eye holes and a mangonel mounted above the bridge.","value": 4000.0,"valueCoin": "pp","weight": null,"weightUnit": "lb","rarity": "None","type": "Vehicle (Space)","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

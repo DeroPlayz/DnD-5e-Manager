@@ -1,9 +1,2 @@
-,"changesNameOnAttunement":false,"description":"This clockwork device resembles a metal crab the size of a dinner plate. Every action used to wind up the device allows it to operate for 1 minute, to a maximum of 10 minutes. While operational, the item uses the vox seeker stat block (available in Bestiary). This automaton is under the DM’s control. A vox seeker reduced to 0 hit points is destroyed.",
-"effects":[],
-"id":"item_Vox_Seeker",
-"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":true,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Vox Seeker",
-"rarity":"COMMON",
-"requiresAttunement":false,"type":"WONDROUS",
-"value":100.0,"valueCoin":"GOLD",
-"weight":4.0,"weightUnit":"POUNDS"}
+{"changesNameOnAttunement": false,"description": "This clockwork device resembles a metal crab the size of a dinner plate. Every action used to wind up the device allows it to operate for 1 minute, to a maximum of 10 minutes. While operational, the item uses the vox seeker stat block (available in Bestiary). This automaton is under the DM\u00e2\u20ac\u2122s control. A vox seeker reduced to 0 hit points is destroyed.","effects": [],
+"id": "item_Vox_Seeker","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Vox Seeker","rarity": "COMMON","requiresAttunement": false,"type": "WONDROUS","value": 100.0,"valueCoin": "GOLD","weight": 4.0,"weightUnit": "POUNDS"}

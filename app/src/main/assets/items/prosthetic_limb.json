@@ -1,9 +1,2 @@
-,"changesNameOnAttunement":false,"description":"This item replaces a lost limb—a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can’t be removed against your will. It detaches if you die.",
-"effects":[],
-"id":"item_Prosthetic_Limb",
-"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":true,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Prosthetic Limb",
-"rarity":"COMMON",
-"requiresAttunement":false,"type":"WONDROUS",
-"value":100.0,"valueCoin":"GOLD",
-"weight":5.0,"weightUnit":"POUNDS"}
+{"changesNameOnAttunement": false,"description": "This item replaces a lost limb\u00e2\u20ac\u201da hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can\u00e2\u20ac\u2122t be removed against your will. It detaches if you die.","effects": [],
+"id": "item_Prosthetic_Limb","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Prosthetic Limb","rarity": "COMMON","requiresAttunement": false,"type": "WONDROUS","value": 100.0,"valueCoin": "GOLD","weight": 5.0,"weightUnit": "POUNDS"}

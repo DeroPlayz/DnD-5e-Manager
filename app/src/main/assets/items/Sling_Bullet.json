@@ -1,10 +1,2 @@
-,"ammunitionType":"BULLET",
-"changesNameOnAttunement":false,"description":"",
-"effects":[],
-"id":"Customfeed7b66-8ecb-4aa2-981f-5ea1934c899c",
-"isAmmunition":true,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":false,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Sling Bullet",
-"rarity":"COMMON",
-"requiresAttunement":false,"type":"AMMUNITION",
-"value":0.0,"valueCoin":"GOLD",
-"weight":0.0,"weightUnit":"POUNDS"}
+{"ammunitionType": "BULLET","changesNameOnAttunement": false,"description": "","effects": [],
+"id": "Customfeed7b66-8ecb-4aa2-981f-5ea1934c899c","isAmmunition": true,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Sling Bullet","rarity": "COMMON","requiresAttunement": false,"type": "AMMUNITION","value": 0.0,"valueCoin": "GOLD","weight": 0.0,"weightUnit": "POUNDS"}

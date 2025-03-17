@@ -1,6 +1,2 @@
-,"descriptionModels":[,"description":"Prerequisite: Dwarf or a Small race\n\nYou are uncommonly nimble for your race. You gain the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\n- Increase your walking speed by 5 feet.\n\n- You gain proficiency in the Acrobatics or Athletics skill (your choice).\n\n- You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled",
-"level":1}],
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Squat Nimbleness",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "Prerequisite: Dwarf or a Small race\n\nYou are uncommonly nimble for your race. You gain the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\n- Increase your walking speed by 5 feet.\n\n- You gain proficiency in the Acrobatics or Athletics skill (your choice).\n\n- You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled","level": 1}],
+"isFeature": false,"jsonType": "feat","level": 1,"name": "Squat Nimbleness","notes": "","type": "Feat"}

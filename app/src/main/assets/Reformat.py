@@ -21,11 +21,12 @@ def add_newlines_to_text_files_recursive(folder_path):
                         with open(file_path, 'r', encoding='utf-8') as file:
                             content = file.read()
 
-                        # Remove existing newlines around '{' and '}'
+                        content = content.replace("    ", "")
+                        content = content.replace("            ", "")
                         content = content.replace('\n',  '')
 
                         # Add newlines after '{' and '}'
-                        modified_content = content.replace('],', '],\n').replace("},", "},\n").replace('",', '",\n')
+                        modified_content = content.replace('],', '],\n').replace("},", "},\n")
 
                         with open(file_path, 'w', encoding='utf-8') as file:
                             file.write(modified_content)
@@ -43,5 +44,5 @@ def add_newlines_to_text_files_recursive(folder_path):
         print(f"An error occurred: {e}")
 
 # Example usage:
-folder_path = "C:\\Users\\matthew.ahwal\\Documents\\capstoneproject-e5-studios\\app\\src\\main\\json"
+folder_path = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets"
 add_newlines_to_text_files_recursive(folder_path)

@@ -1,14 +1,4 @@
-,"ac":12,"actions":[,"description":"+4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage",
-"id":-1,"isLegendary":false,"monsterId":-1,"name":"Pack",
-"type":"MELEE"}],
-"alignment":"Unaligned",
-"burrowSpeed":0,"cha":6,"climbSpeed":0,"con":12,"cr":"1/2",
-"dex":14,"flySpeed":60,"hp":,"constant":4,"diceAmount":4,"diceType":"D10"},
-"id":-1,"int":2,"isLocked":false,"jsonType":"monster",
-"name":"Giant Canary",
-"senses":"Passive Perception 10",
-"size":"Large",
-"specialTraits":[],
-"speed":30,"str":10,"swimSpeed":0,"tag":"",
-"type":"Beast",
-"wis":10,"xp":100}
+{"ac":12,"actions":[{"description":"+4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage","id":-1,"isLegendary":false,"monsterId":-1,"name":"Pack","type":"MELEE"}],
+"alignment":"Unaligned","burrowSpeed":0,"cha":6,"climbSpeed":0,"con":12,"cr":"1/2","dex":14,"flySpeed":60,"hp":{"constant":4,"diceAmount":4,"diceType":"D10"},
+"id":-1,"int":2,"isLocked":false,"jsonType":"monster","name":"Giant Canary","senses":"Passive Perception 10","size":"Large","specialTraits":[],
+"speed":30,"str":10,"swimSpeed":0,"tag":"","type":"Beast","wis":10,"xp":100}

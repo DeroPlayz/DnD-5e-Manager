@@ -1,6 +1,2 @@
-,"descriptionModels":[,"description":"Prerequisite: The ability to cast at least one spell\n\nWhen you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.\n\nSpells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\n\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type",
-"level":1}],
-"isFeature":false,"jsonType":"feat",
-"level":1,"name":"Elemental Adept",
-"notes":"",
-"type":"Feat"}
+{"descriptionModels": [{"description": "Prerequisite: The ability to cast at least one spell\n\nWhen you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.\n\nSpells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\n\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type","level": 1}],
+"isFeature": false,"jsonType": "feat","level": 1,"name": "Elemental Adept","notes": "","type": "Feat"}

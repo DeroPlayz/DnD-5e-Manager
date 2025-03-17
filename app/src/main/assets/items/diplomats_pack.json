@@ -1,9 +1,2 @@
-,"id":"item_Diplomat's_Pack",
-"name":"Diplomat's Pack",
-"description":"Includes:\n\n- a chest\n- 2 Map or Scroll Case\n- a set of fine clothes\n- a Ink (1-ounce bottle)\n- an ink pen\n- a lamp\n- 2 Oil (flask)\n- 5 Paper (one sheet)\n- a Perfume (vial)\n- sealing wax\n- soap",
-"value":39.0,"valueCoin":"gp",
-"weight":36,"weightUnit":"lb",
-"rarity":"None",
-"type":"Adventuring Gear",
-"isAmmunition":false,"ammunitionType":null,"isMagic":false,"isCursed":false,"isIntelligent":false,"isSpellcastingFocus":false,"requiresAttunement":false,"changesNameOnAttunement":false,"attunedName":null,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"effects":[],
-"isCustom":false,"isEquipment":false,"jsonType":"item"}
+{"id": "item_Diplomat's_Pack","name": "Diplomat's Pack","description": "Includes:\n\n- a chest\n- 2 Map or Scroll Case\n- a set of fine clothes\n- a Ink (1-ounce bottle)\n- an ink pen\n- a lamp\n- 2 Oil (flask)\n- 5 Paper (one sheet)\n- a Perfume (vial)\n- sealing wax\n- soap","value": 39.0,"valueCoin": "gp","weight": 36,"weightUnit": "lb","rarity": "None","type": "Adventuring Gear","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

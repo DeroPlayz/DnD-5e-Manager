@@ -1,9 +1,2 @@
-,"changesNameOnAttunement":false,"description":"While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod for ease of storage. The pole’s weight doesn’t change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows.",
-"effects":[],
-"id":"item_Pole_of_Collapsing",
-"isAmmunition":false,"isCursed":false,"isCustom":false,"isEquipment":false,"isIntelligent":false,"isMagic":true,"isSpellcastingFocus":false,"isTemplate":false,"isValueMultiplier":false,"isWeightMultiplier":false,"jsonType":"item",
-"name":"Pole of Collapsing",
-"rarity":"COMMON",
-"requiresAttunement":false,"type":"WONDROUS",
-"value":100.0,"valueCoin":"GOLD",
-"weight":2.0,"weightUnit":"POUNDS"}
+{"changesNameOnAttunement": false,"description": "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod for ease of storage. The pole\u00e2\u20ac\u2122s weight doesn\u00e2\u20ac\u2122t change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows.","effects": [],
+"id": "item_Pole_of_Collapsing","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Pole of Collapsing","rarity": "COMMON","requiresAttunement": false,"type": "WONDROUS","value": 100.0,"valueCoin": "GOLD","weight": 2.0,"weightUnit": "POUNDS"}

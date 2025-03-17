@@ -1,6 +1,8 @@
 package com.example.dnd5emanager.DataClasses;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class PlayerCharacter {
     private String Name;
@@ -132,7 +134,13 @@ public class PlayerCharacter {
         public int getInvestigation(){return Investigation;}
     private int Nature;
         public void setNature(int Nature){this.Nature = Nature;}
-        public int getNature(){return Nature;}
+
+        public int getNature(){return Nature + (ProficiencyBonus);}
+
+        private String NoPro = "No Proficiency";
+        private String Pro = "Proficiency";
+        private String
+
     private int Religion;
         public void setReligion(int Religion){this.Religion = Religion;}
         public int getReligion(){return Religion;}
@@ -208,7 +216,7 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    private ArrayList<CharacterClass> Classes = new ArrayList<>();
+    private ArrayList<CharacterClass> Classes = new ArrayList<>(List.of(Constants.Bard));
     public void clearClasses(){Classes = new ArrayList<>();}
     public ArrayList<CharacterClass> getClasses(){return Classes;}
     public void setLevel(CharacterClass Class, int Level) {
@@ -273,6 +281,7 @@ public class PlayerCharacter {
         Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion =
         Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival =
         Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
+        ProficiencyLevels = new Map<String, Integer>;
     }
 
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
@@ -307,6 +316,7 @@ public class PlayerCharacter {
 
         this.Charisma = Charisma;
         CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
+        ProficiencyLevels = new Map<String, Integer>;
     }
 
     public void calibrate(){
