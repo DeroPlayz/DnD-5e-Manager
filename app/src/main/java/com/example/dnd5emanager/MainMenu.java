@@ -106,7 +106,25 @@ public class MainMenu extends Fragment {
     public void parseJson(File jsonFile){
         ObjectMapper mapper = new ObjectMapper();
         var data = mapper.readValue(jsonFile, java.util.Map.class);
-        
+        if(data.)
+        Constants.RealRaces = new ArrayList<Race>(List.of(
+        new Race(
+            (String) data.get("name"),
+            (int) data.get("ac"),
+            (int) ((java.util.Map) data.get("speed")).get("normal"),
+            (int) ((java.util.Map) data.get("speed")).get("normal"),
+            (int) ((java.util.Map) data.get("speed")).get("fly"),
+            (int) ((java.util.Map) data.get("speed")).get("climb"),
+            (int) ((java.util.Map) data.get("speed")).get("swim"),
+            (int) ((java.util.Map) data.get("speed")).get("burrow"),
+            (int) ((java.util.Map) data.get("abilityScores")).get("str"),
+            (int) ((java.util.Map) data.get("abilityScores")).get("dex"),
+            (int) ((java.util.Map) data.get("abilityScores")).get("con"),
+            (int) ((java.util.Map) data.get("abilityScores")).get("intelligence"),
+            (int) ((java.util.Map) data.get("abilityScores")).get("wis"),
+            (int) ((java.util.Map) data.get("abilityScores")).get("cha"),
+            )
+            ));
     }
 //    public int countFiles(String directoryPath) {
 //        AssetManager AM = requireContext().getAssets();
