@@ -103,6 +103,11 @@ public class MainMenu extends Fragment {
         binding = null;
     }
 
+    public void parseJson(File jsonFile){
+        ObjectMapper mapper = new ObjectMapper();
+        var data = mapper.readValue(jsonFile, java.util.Map.class);
+        
+    }
 //    public int countFiles(String directoryPath) {
 //        AssetManager AM = requireContext().getAssets();
 //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
