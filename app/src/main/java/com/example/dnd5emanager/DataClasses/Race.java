@@ -7,18 +7,29 @@ public class Race {
         public String getName(){return Name;}
     //Ability Score Bonuses
         private int StrengthBonus;
+            public int getStrengthBonus(){return StrengthBonus;}
         private int DexterityBonus;
+            public int getDexterityBonus(){return DexterityBonus;}
         private int ConstitutionBonus;
+            public int getConstitutionBonus(){return ConstitutionBonus;}
         private int IntelligenceBonus;
+            public int getIntelligenceBonus(){return IntelligenceBonus;}
         private int WisdomBonus;
+            public int getWisdomBonus(){return WisdomBonus;}
         private int CharismaBonus;
+            public int getCharismaBonus(){return CharismaBonus;}
 
     //Movement
         private int GroundSpeed;
+            public int getGroundSpeed(){return GroundSpeed;}
         private int AirSpeed;
+            public int getAirSpeed(){return AirSpeed;}
         private int ClimbSpeed;
+            public int getClimbSpeed(){return ClimbSpeed;}
         private int SwimSpeed;
+            public int getSwimSpeed(){return SwimSpeed;}
         private int BurrowSpeed;
+            public int getBurrowSpeed(){return BurrowSpeed;}
 
     //Proficiencies
         private ArrayList<String> SkillProficiencies;
@@ -55,10 +66,4 @@ public class Race {
 //            this.ToolProficiencies = ToolProficiencies;
 //            this.RacialTraits = RacialTraits;
     }
-ProficiencyStat = 2
-ProficiencyLevel = 2
-
-    7 + (ProficiencyStat * 0) = 7
-    7 + (ProficiencyStat * 1) = 9
-    7 + (ProficiencyStat * 2) =
 }

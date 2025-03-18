@@ -118,21 +118,23 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
+                    boolean hasSubraces = false;
+
                     RealRaces.add(new Race(
                         (String) jsonObject.getString("name"),
                         (int) jsonObject.get("ac"),
-                        (int) jsonObject.getJSONArray("speed").getString(0);
-                        (int) jsonObject.get("speed").get("normal"),
-                        (int) jsonObject.get("speed").get("fly"),
-                        (int) jsonObject.get("speed").get("climb"),
-                        (int) jsonObject.get("speed").get("swim"),
-                        (int) jsonObject.get("speed").get("burrow"),
-                        (int) jsonObject.get("abilityScores").get("str"),
-                        (int) jsonObject.get("abilityScores").get("dex"),
-                        (int) jsonObject.get("abilityScores").get("con"),
-                        (int) jsonObject.get("abilityScores").get("intelligence"),
-                        (int) jsonObject.get("abilityScores").get("wis"),
-                        (int) jsonObject.get("abilityScores").get("cha"),
+                        jsonObject.getJSONObject("speed").getInt("normal"),
+                        jsonObject.getJSONObject("speed").getInt("fly"),
+                        jsonObject.getJSONObject("speed").getInt("climb"),
+                        jsonObject.getJSONObject("speed").getInt("swim"),
+                        jsonObject.getJSONObject("speed").getInt("burrow"),
+                        jsonObject.getJSONObject("abilityScores").getInt("str"),
+                        jsonObject.getJSONObject("abilityScores").getInt("dex"),
+                        jsonObject.getJSONObject("abilityScores").getInt("con"),
+                        jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
+                        jsonObject.getJSONObject("abilityScores").getInt("wis"),
+                        jsonObject.getJSONObject("abilityScores").getInt("cha"),
+                        hasSubraces
                     ));
                 }
             }

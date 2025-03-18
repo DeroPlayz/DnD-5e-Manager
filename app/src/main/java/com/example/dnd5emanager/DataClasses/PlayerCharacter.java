@@ -135,11 +135,7 @@ public class PlayerCharacter {
     private int Nature;
         public void setNature(int Nature){this.Nature = Nature;}
 
-        public int getNature(){return Nature + (ProficiencyBonus);}
-
-        private String NoPro = "No Proficiency";
-        private String Pro = "Proficiency";
-        private String
+        public int getNature(){return Nature;}
 
     private int Religion;
         public void setReligion(int Religion){this.Religion = Religion;}
@@ -281,7 +277,6 @@ public class PlayerCharacter {
         Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion =
         Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival =
         Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
-        ProficiencyLevels = new Map<String, Integer>;
     }
 
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
@@ -316,7 +311,6 @@ public class PlayerCharacter {
 
         this.Charisma = Charisma;
         CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
-        ProficiencyLevels = new Map<String, Integer>;
     }
 
     public void calibrate(){

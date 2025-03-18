@@ -28,6 +28,7 @@ import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -61,23 +62,30 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Wisdom;
     private TextView Charisma;
 
+    private ArrayAdapter<String> Adapter;
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
         Resources resources = getResources();
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
         Level = view.findViewById(R.id.character_creator_page_one_edit_level);
         Race = view.findViewById(R.id.character_creator_page_one_edit_race);
         Subrace = view.findViewById(R.id.character_creator_page_one_edit_subrace);
         Class = view.findViewById(R.id.character_creator_page_one_edit_class);
-
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
         Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
         Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
         Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
         Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
         Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+        String[] RaceArray = new String[RealRaces.size()];
+        for(int i = 0; i < RealRaces.size(); i++){
+            RaceArray[i] = RealRaces.get(i).getName();
+        }
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Race.setAdapter(Adapter);
+
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
 
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -193,7 +201,7 @@ public class CharacterCreatorPageOne extends Fragment {
             else{
                 update(v);
                 CurrentCharacter = NewCharacter;
-                NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterView);
+                NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
             }
         });
 
@@ -250,7 +258,7 @@ public class CharacterCreatorPageOne extends Fragment {
 
 
     public void update(View view){
-        updateRace();
+        updateRace(view);
         updateClass();
         updateAbilities(view);
         NewCharacter.setName(Name.getText().toString());
@@ -290,7 +298,7 @@ public class CharacterCreatorPageOne extends Fragment {
         else{NewCharacter.setCharisma(0);}
     }
 
-    public void updateRace(){
+    public void updateRace(View view){
         for (int i = 0; i < Races.size(); i++) {
             if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
                 NewCharacter.setRace(Races.get(i));
@@ -303,6 +311,8 @@ public class CharacterCreatorPageOne extends Fragment {
                 }
             }
         }
+        TextView RacialStrengthBonus = view.findViewById(R.id.strength_buff_val);
+        RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
     }
 
     public void updateClass(){
