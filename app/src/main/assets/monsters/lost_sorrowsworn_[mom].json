@@ -1,0 +1,6 @@
+{"ac":15,"actions":[{"description":"The sorrowsworn makes two Arm Spike attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"6 to hit, reach 10 ft., one target. Hit: 14 (2d10 + 3) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Arm Spike","type":"MELEE"},
+{"description":"6 to hit, reach 5 ft., one target. Hit: 25 (4d10 + 3) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 (6d8) psychic damage at the end of each of its turns. The sorrowsworn can grapple only one creature at a time.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Embrace (Recharge 4-6)","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":15,"conditionImmunities":null,"cr":"7","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":24,"diceAmount":12,"diceType":"D8"},
+"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Lost Sorrowsworn [MoM]","resistances":"bludgeoning, piercing, slashing while in dim light or darkness","savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[],
+"speed":30,"str":17,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":7,"xp":2900}

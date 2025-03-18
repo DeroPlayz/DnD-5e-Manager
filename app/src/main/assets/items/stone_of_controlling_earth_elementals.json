@@ -1,0 +1,7 @@
+{"changesNameOnAttunement": false,"description": "If the stone is touching the ground, you can use an action to speak its command word and summon an earth elemental, as if you had cast the conjure elemental spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds.","effects": [{"actualEffect": {"spellId": "234","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"charges": 1,"id": "2754683d-7283-43f1-99dd-72993b30e7f9","name": "Conjure Earth Elemental","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Stone_of_Controlling_Earth_Elementals","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Stone of Controlling Earth Elementals","rarity": "RARE","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weight": 5.0,"weightUnit": "POUNDS"}

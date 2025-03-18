@@ -1,0 +1,6 @@
+{"ac":18,"actions":[{"description":"The giant makes two Scythe or Soul Bolt attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"12 to hit, reach 15 ft., one target. Hit: 21 (3d8 + 8) slashing damage plus 11 (2d10) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Scythe","type":"MELEE"},
+{"description":"8 to hit, range 120 ft., one creature. Hit: 26 (4d10 + 4) necrotic damage. If the target has the frightened condition, the giant gains temporary hit points equal to the damage dealt.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Soul Bolt","type":"NONE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":20,"conditionImmunities":"frightened","cr":"12","damageImmunities":"necrotic","dex":14,"flySpeed":0,"hp":{"constant":75,"diceAmount":15,"diceType":"D12"},
+"id":-1,"int":18,"isLocked":true,"jsonType":"monster","languages":"Giant","name":"Death Giant Reaper [BGG]","resistances":null,"savingThrows":"Con +9, Int +8, Wis +7, Cha +7","senses":"darkvision 120 ft.","size":"Huge","skills":null,"specialTraits":[],
+"speed":40,"str":27,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":16,"xp":8400}

@@ -1,0 +1,4 @@
+{"ac":15,"actions":[{"description":" 6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Hooves","type":"MELEE"}],
+"alignment":"Chaotic Good","burrowSpeed":0,"cha":13,"climbSpeed":0,"con":16,"conditionImmunities":"charmed, exhaustion, frightened, paralyzed, petrified","cr":"2","damageImmunities":null,"dex":15,"flySpeed":90,"hp":{"constant":21,"diceAmount":7,"diceType":"D10"},
+"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Celestial, Common, Elvish and Sylvan but can't speak","name":"Glass Pegasus","resistances":null,"savingThrows":"Dex +4, Wis +4, Cha +3","senses":null,"size":"Large","skills":null,"specialTraits":[],
+"speed":60,"str":18,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":15,"xp":450}

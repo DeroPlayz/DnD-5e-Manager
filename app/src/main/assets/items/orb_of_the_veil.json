@@ -1,0 +1,11 @@
+{"changesNameOnAttunement": false,"description": "This onyx sphere bears deep, spiraling grooves and dangles from an iron chain. While the orb is on your person, you gain the following benefits:\n\n- Your Wisdom score increases by 2, as does your maximum for that score.\n- You gain darkvision out to a range of 60 feet. If you already have darkvision, the orb increases its range by 60 feet.\n- You have advantage on Wisdom checks to find hidden doors and paths.\n\nCurse: The orb is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the orb, keeping it on your person at all times. All nonmagical flames within 30 feet of you automatically extinguish, and fire damage dealt by you is halved.","effects": [{"actualEffect": {"shouldPickMax": true,"stat": "WIS","type": "SET_STAT","typeStr": "SET_STAT","value": {"constant": 2,"diceAmount": 0,"diceType": "D4"}},
+"id": "4efe065e-8538-43df-a8c6-d0a9abc24eef","name": "+2 WIS and WIS Max","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"},
+{"actualEffect": {"stat": "PERCEPTION","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
+"id": "ab6a7893-0d32-4445-8413-7df1a9fd7b18","name": "Adv on Perception for Hidden Objects and Paths","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Orb_of_the_Veil","isAmmunition": false,"isCursed": true,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Orb of the Veil","rarity": "VERY_RARE","requiresAttunement": true,"type": "WONDROUS","value": 0.0,"valueCoin": "GOLD","weight": 5.0,"weightUnit": "POUNDS"}

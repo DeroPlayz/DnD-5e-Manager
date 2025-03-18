@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "Retorter, the Lawful Good sword, has an aquamarine set in its pommel.\n\nYou gain a +3 bonus to attack and damage rolls made with this sword. In addition, while you hold the sword, you can use your reaction to make one melee attack with it against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt with this special attack ignores any damage immunity or resistance the target has.","effects": [{"actualEffect": {"bonus": 3,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
+"id": "5b19debf-ce37-4142-8e8f-6eec7b6c0b7a","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"actualEffect": {"bonus": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
+"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
+"id": "06bf7959-a191-4d26-81a4-b27e7e95678c","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Sword_of_Answering__Retorter_","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Sword of Answering (Retorter)","rarity": "LEGENDARY","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weight": 3.0,"weightUnit": "OUNCES"}

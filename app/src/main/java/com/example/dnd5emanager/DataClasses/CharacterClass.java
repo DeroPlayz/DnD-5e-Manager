@@ -121,11 +121,11 @@ public class CharacterClass {
     }
 
     public static CharacterClass findClass(String Name) {
-        for (int i = 0; i < CharacterClasses.size(); i++) {
-            if (CharacterClasses.get(i).getName().equals(Name)) {
-                return CharacterClasses.get(i);
-            }
-        }
+//        for (int i = 0; i < CharacterClasses.size(); i++) {
+//            if (CharacterClasses.get(i).getName().equals(Name)) {
+//                return CharacterClasses.get(i);
+//            }
+//        }
         return null;
     }
 }

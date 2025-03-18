@@ -1,0 +1,8 @@
+{"ac":17,"actions":[{"description":"The vlazok makes two Gore attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"9 to hit, reach 5 ft., one target. Hit: 23 (4d8 + 5) piercing damage, and if the target is a Large or smaller creature, it has the prone condition.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Gore","type":"MELEE"}],
+"alignment":"Chaotic Evil","burrowSpeed":0,"cha":9,"climbSpeed":30,"con":16,"conditionImmunities":"charmed, exhaustion, frightened, poisoned","cr":"11","damageImmunities":"poison","dex":18,"flySpeed":0,"hp":{"constant":48,"diceAmount":16,"diceType":"D10"},
+"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":"Abyssal, telepathy 120 ft.","name":"Vlazok [VEoR]","resistances":"cold, fire, lightning","savingThrows":"Str +9, Con +7","senses":"darkvision 120 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The vlazok can't be surprised.","id":-1,"monsterId":-1,"name":"All-Around Vision"},
+{"description":"The vlazok has advantage on melee attack rolls against any creature that doesn't have all its hit points.","id":-1,"monsterId":-1,"name":"Blood Frenzy"},
+{"description":"The vlazok has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
+{"description":"The vlazok can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"}],
+"speed":30,"str":21,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":9,"xp":7200}

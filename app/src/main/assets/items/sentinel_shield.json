@@ -1,0 +1,11 @@
+{"changesNameOnAttunement": false,"description": "While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye.","effects": [{"actualEffect": {"stat": "INITIATIVE","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
+"id": "bec6c30a-315c-4b76-bf70-1e42b3e37d69","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"},
+{"actualEffect": {"stat": "PERCEPTION","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
+"id": "ddc71c3a-0ca1-4b31-9b32-198f69d60aa2","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"}],
+"id": "item_Sentinel_Shield","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Sentinel Shield","rarity": "UNCOMMON","requiresAttunement": false,"type": "ARMOR","valueCoin": "GOLD","weight": 6.0,"weightUnit": "OUNCES"}

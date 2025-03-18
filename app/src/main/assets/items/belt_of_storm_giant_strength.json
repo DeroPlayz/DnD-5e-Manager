@@ -1,0 +1,6 @@
+{"changesNameOnAttunement": false,"description": "While wearing this belt, your Strength score changes to 29. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.","effects": [{"actualEffect": {"shouldPickMax": true,"stat": "STR","type": "SET_STAT","typeStr": "SET_STAT","value": {"constant": 29,"diceAmount": 0,"diceType": "D4"}},
+"id": "c49b4d38-b42c-4cb5-b2cb-b99a849b96fb","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"}],
+"id": "item_Belt_of_Storm_Giant_Strength","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Belt of Storm Giant Strength","rarity": "LEGENDARY","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

@@ -1,0 +1,4 @@
+{"ac":11,"actions":[{"description":"10 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tail","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":7,"climbSpeed":0,"con":17,"conditionImmunities":null,"cr":"7","damageImmunities":null,"dex":7,"flySpeed":60,"hp":{"constant":45,"diceAmount":15,"diceType":"D20"},
+"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":null,"name":"Kindori [BAM]","resistances":null,"savingThrows":null,"senses":"darkvision 120 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"The kindori doesn't require food, drink, or air.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
+"speed":0,"str":25,"swimSpeed":0,"tag":null,"type":"Celestial","vulnerabilities":null,"wis":14,"xp":2900}

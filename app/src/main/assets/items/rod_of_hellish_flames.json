@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "Glowing cinders orbit the flanged head of this black iron rod.\n\nThis rod can be used as an arcane focus. While holding this rod, you gain the following benefits:\n\n- Hellish Resistance: You have resistance to fire and necrotic damage.\n- Searing Rebuke: You can cast the Hellish Rebuke spell as a 4th-level spell (save DC 16) from the rod. Once you use the rod to cast the spell, the rod can't cast the spell again until the next dawn.\n- Surge of Brimstone: Whenever you cast a spell that deals fire or necrotic damage, you can use the rod to deal the maximum damage instead of rolling. Once this property is used, it can't be used again until the next dawn.","effects": [{"actualEffect": {"spellId": "42","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"charges": 1,"id": "6794076e-0e04-4c59-ab28-a737cab15b4a","name": "Searing Rebuke Uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"charges": 1,"id": "20689914-4ca9-4bfd-b47b-aa6a4f938b99","name": "Surge of Brimstone Uses Left","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"}],
+"id": "item_Rod_of_Hellish_Flames","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Rod of Hellish Flames","rarity": "VERY_RARE","requiresAttunement": true,"type": "ROD","valueCoin": "GOLD","weightUnit": "POUNDS"}

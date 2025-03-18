@@ -1,0 +1,7 @@
+{"changesNameOnAttunement": false,"description": "While you're wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn.","effects": [{"actualEffect": {"spellId": "203","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"charges": 1,"id": "7353a68d-1aa5-489f-95eb-c440654908c2","name": "Command Word","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Plate_Armor_of_Etherealness","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Plate Armor of Etherealness","rarity": "LEGENDARY","requiresAttunement": true,"type": "ARMOR","valueCoin": "GOLD","weight": 65.0,"weightUnit": "POUNDS"}

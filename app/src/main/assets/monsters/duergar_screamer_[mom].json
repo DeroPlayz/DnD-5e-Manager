@@ -1,0 +1,6 @@
+{"ac":15,"actions":[{"description":"The screamer makes one Drill attack, and it uses Sonic Scream.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Drill","type":"MELEE"},
+{"description":"The screamer emits destructive energy in a 15-foot cube. Each creature in that area must succeed on a DC 11 Strength saving throw or take 7 (2d6) thunder damage and be knocked prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Sonic Scream","type":"NONE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":12,"conditionImmunities":"charmed, exhaustion, frightened, paralyzed, petrified, poisoned","cr":"3","damageImmunities":"poison","dex":7,"flySpeed":0,"hp":{"constant":7,"diceAmount":7,"diceType":"D8"},
+"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"understands Dwarvish but can't speak","name":"Duergar Screamer [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[],
+"speed":20,"str":18,"swimSpeed":0,"tag":"dwarf","type":"Construct","vulnerabilities":null,"wis":5,"xp":700}

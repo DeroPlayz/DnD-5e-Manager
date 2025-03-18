@@ -1,0 +1,6 @@
+{"ac":13,"actions":[{"description":"The velociraptor makes one Bite attack and one Claw attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
+{"description":"4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":6,"climbSpeed":0,"con":13,"conditionImmunities":null,"cr":"1/4","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":3,"diceAmount":3,"diceType":"D4"},
+"id":-1,"int":4,"isLocked":true,"jsonType":"monster","languages":null,"name":"Velociraptor [MoM]","resistances":null,"savingThrows":null,"senses":null,"size":"Tiny","skills":null,"specialTraits":[{"description":"The velociraptor has advantage on an attack roll against a creature if at least one of the velociraptor's allies is within 5 feet of the creature and the ally isn't incapacitated.","id":-1,"monsterId":-1,"name":"Pack Tactics"}],
+"speed":30,"str":6,"swimSpeed":0,"tag":"dinosaur","type":"Beast","vulnerabilities":null,"wis":12,"xp":50}

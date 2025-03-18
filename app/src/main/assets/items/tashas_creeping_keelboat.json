@@ -1,0 +1,8 @@
+{"changesNameOnAttunement": false,"description": "This magic vehicle is a boat 10 feet wide and 30 feet long. It has four legs that propel it across land and water. It has a walking and swimming speed of 20 feet, but it can't travel underwater. The boat moves according to your spoken directions while you are riding it, and creatures of your choice gain a +1 bonus to their Armor Class while on the boat.\n\nThe boat can transport up to 1,000 pounds without hindrance. It can carry up to twice this weight, but it moves at half speed if it carries more than its normal capacity.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
+"charges": 1,"id": "6b040809-65b9-487d-8bb4-8efe26787762","name": "Bonus AC When Riding","rechargeMoment": "MANUAL","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"}],
+"id": "item_Tasha's_Creeping_Keelboat","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Tasha's Creeping Keelboat","rarity": "VERY_RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

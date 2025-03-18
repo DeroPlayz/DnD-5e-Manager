@@ -1,0 +1,6 @@
+{"changesNameOnAttunement": false,"description": "While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the plane shift spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence.","effects": [{"actualEffect": {"spellId": "210","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"id": "f69b871f-f84a-4a3a-be68-682756c92331","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Amulet_of_the_Planes","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Amulet of the Planes","rarity": "VERY_RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}

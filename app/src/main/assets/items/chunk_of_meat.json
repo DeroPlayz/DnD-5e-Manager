@@ -1,0 +1,2 @@
+{"id": "item_Chunk_of_Meat","name": "Chunk of Meat","description": "","value": 3.0,"valueCoin": "sp","weight": null,"weightUnit": "lb","rarity": "None","type": "Food & Drink","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

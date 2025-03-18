@@ -1,0 +1,7 @@
+{"ac":14,"actions":[{"description":"The berbalang makes one Bite attack and one\n\nClaw attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 4 (1d8) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
+{"description":"5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
+{"description":"The berbalang casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:\nAt will: speak with dead\n\n1/day each: plane shift (self only)","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":9,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":16,"flySpeed":40,"hp":{"constant":-14,"diceAmount":14,"diceType":"D8"},
+"id":-1,"int":17,"isLocked":true,"jsonType":"monster","languages":"all","name":"Berbalang [MoM]","resistances":null,"savingThrows":"Dex +5, Int +5","senses":"truesight 120 ft.","size":"Medium","skills":null,"specialTraits":[],
+"speed":30,"str":9,"swimSpeed":0,"tag":null,"type":"Aberration","vulnerabilities":null,"wis":11,"xp":450}

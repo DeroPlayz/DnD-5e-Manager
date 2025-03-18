@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.\n\nIn addition, you can cast the identify spell using the googles. Once you do so, you can\u00e2\u20ac\u2122t do so again until the next dawn.","effects": [{"actualEffect": {"stat": "ARCANA","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
+"id": "87f7ff83-9e14-4dd9-9807-9fdd4d8ab171","name": "Adv Arcana","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"},
+{"actualEffect": {"spellId": "46","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"charges": 1,"id": "ffaa7b4f-e65c-4f16-aa40-64cc47be7f70","name": "Identify","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Goggles_of_Object_Reading","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Goggles of Object Reading","rarity": "UNCOMMON","requiresAttunement": true,"type": "WONDROUS","value": 0.0,"valueCoin": "GOLD","weight": 0.0,"weightUnit": "POUNDS"}

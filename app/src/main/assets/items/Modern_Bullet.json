@@ -1,0 +1,2 @@
+{"ammunitionType": "FIREARM","changesNameOnAttunement": false,"description": "","effects": [],
+"id": "Custom0c61d09e-7ad6-4749-b94b-fef482c58fe7","isAmmunition": true,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Modern Bullet","rarity": "COMMON","requiresAttunement": false,"type": "AMMUNITION","value": 0.0,"valueCoin": "GOLD","weight": 1.6,"weightUnit": "OUNCES"}

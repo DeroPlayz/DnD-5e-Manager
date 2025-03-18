@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "You gain a +1 bonus to AC while wearing this armor.\n\nThe coat has 3 charges. When you hit a creature with an attack and that creature doesn\u00e2\u20ac\u2122t have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
+"id": "b0d07689-2637-4a09-b21d-4ef3a5bbc12b","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"},
+{"charges": 3,"id": "c980b4b2-b605-420b-9c12-d1401e6ea5a6","name": "Extra damage to wounded targets uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 0,"diceAmount": 1,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Hunter\u00e2\u20ac\u2122s_Coat","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Hunter\u00e2\u20ac\u2122s Coat","rarity": "VERY_RARE","requiresAttunement": true,"type": "ARMOR","value": 50000.0,"valueCoin": "GOLD","weight": 25.0,"weightUnit": "POUNDS"}

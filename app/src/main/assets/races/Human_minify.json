@@ -1,0 +1,12 @@
+{"abilityScores": {"cha": 1,"con": 1,"dex": 1,"intelligence": 1,"str": 1,"wis": 1},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom34618ec4-e674-4a36-9f13-de4798686b2a","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Human","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"subraces": [],
+"toolProficiencies": [],
+"traits": [],
+"weaponProficiencies": []}

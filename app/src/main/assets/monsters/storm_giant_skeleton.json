@@ -1,0 +1,7 @@
+{"ac":13,"actions":[{"description":"The giant makes two attacks with its greatsword or hurls two rocks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":" 14 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 9) slashing damage plus 18 (4d8) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Greatsword","type":"MELEE"},
+{"description":" 14 to hit, reach 60/240 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Rock","type":"RANGED"},
+{"description":"The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 15 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Lightning Strike (Recharge 5-6)","type":"NONE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":0,"con":15,"conditionImmunities":"exhaustion, poisoned","cr":"16","damageImmunities":"lightning, poison, thunder","dex":14,"flySpeed":0,"hp":{"constant":48,"diceAmount":24,"diceType":"D12"},
+"id":-1,"int":3,"isLocked":true,"jsonType":"monster","languages":null,"name":"Storm Giant Skeleton","resistances":"cold","savingThrows":"Str +14, Con +7","senses":"darkvision 60 ft.","size":"Huge","skills":null,"specialTraits":[],
+"speed":50,"str":29,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":"bludgeoning","wis":8,"xp":15000}

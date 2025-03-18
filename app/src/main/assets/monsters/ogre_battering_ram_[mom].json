@@ -1,0 +1,5 @@
+{"ac":11,"actions":[{"description":"The ogre makes two Bash attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) bludgeoning damage, and the ogre can push the target 5 feet away if the target is Huge or smaller.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bash","type":"MELEE"}],
+"alignment":"Chaotic Evil","burrowSpeed":0,"cha":7,"climbSpeed":0,"con":16,"conditionImmunities":null,"cr":"4","damageImmunities":null,"dex":8,"flySpeed":0,"hp":{"constant":27,"diceAmount":9,"diceType":"D10"},
+"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"Common, Giant","name":"Ogre Battering Ram [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The ogre deals double damage to objects and structures.","id":-1,"monsterId":-1,"name":"Siege Monster"}],
+"speed":40,"str":19,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":7,"xp":1100}

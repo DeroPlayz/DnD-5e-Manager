@@ -1,0 +1,7 @@
+{"changesNameOnAttunement": false,"description": "This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh \u00c2\u00bd pound.\n\nAs an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.","effects": [{"actualEffect": {"modifier": {"constant": 2,"diceAmount": 2,"diceType": "D8"},
+"shouldPickMax": true,"stat": "HP","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
+"id": "10e8bd2e-ced0-4939-b4ad-4aa2f5fdd2d3","name": "Use","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Keoghtom's_Ointment","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Keoghtom's Ointment","rarity": "UNCOMMON","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

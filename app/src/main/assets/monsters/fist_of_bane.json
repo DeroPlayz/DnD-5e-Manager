@@ -1,0 +1,5 @@
+{"ac":18,"actions":[{"description":" 5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mace","type":"MELEE"},
+{"description":" 2 to hit, range 150/600 ft., one target. Hit: 4 (1d8) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Longbow","type":"RANGED"}],
+"alignment":"Lawful Evil","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":13,"conditionImmunities":"frightened","cr":"1/2","damageImmunities":null,"dex":11,"flySpeed":0,"hp":{"constant":4,"diceAmount":4,"diceType":"D8"},
+"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Fist of Bane","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The fist of Bane has advantage on all ability checks and saving throws made during combat.","id":-1,"monsterId":-1,"name":"Tactical Discipline"}],
+"speed":30,"str":16,"swimSpeed":0,"tag":"human","type":"Humanoid","vulnerabilities":null,"wis":12,"xp":100}

@@ -1,0 +1,7 @@
+{"changesNameOnAttunement": false,"description": "You regain 4d4 + 4 hit points when you drink this potion. The potion's red liquid glimmers when agitated.","effects": [{"actualEffect": {"modifier": {"constant": 4,"diceAmount": 4,"diceType": "D4"},
+"shouldPickMax": true,"stat": "HP","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
+"id": "9015f505-6d62-4d82-afcb-e75361957fd4","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Potion_of_Greater_Healing","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Potion of Greater Healing","rarity": "UNCOMMON","requiresAttunement": false,"type": "POTION","value": null,"weight": null,"valueCoin": "GOLD","weightUnit": "POUNDS"}

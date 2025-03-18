@@ -1,0 +1,7 @@
+{"changesNameOnAttunement": false,"description": "This magic ranged weapon resembles a musket, but in lieu of any ammunition, it holds a glowing yellow scale from a topaz dragon in its heart.\n\nThe weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals 2d6 necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a true resurrection or wish spell.\n\nWhile the weapon is on your person, you can use an action to cast the disintegrate spell (save DC 18). Once this property is used, it can't be used again until the next dawn.","effects": [{"actualEffect": {"spellId": "244","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"charges": 1,"id": "9f81c55e-18f0-47cd-a764-cf49d37275ca","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Topaz_Annihilator","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Topaz Annihilator","rarity": "LEGENDARY","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weightUnit": "POUNDS"}

@@ -1,0 +1,2 @@
+{"id": "item_Galley","name": "Galley","description": "","value": 3000.0,"valueCoin": "pp","weight": null,"weightUnit": "lb","rarity": "None","type": "Vechicle (Water)","isAmmunition": false,"ammunitionType": null,"isMagic": false,"isCursed": false,"isIntelligent": false,"isSpellcastingFocus": false,"requiresAttunement": false,"changesNameOnAttunement": false,"attunedName": null,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"effects": [],
+"isCustom": false,"isEquipment": false,"jsonType": "item"}

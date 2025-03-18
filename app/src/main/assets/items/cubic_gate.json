@@ -1,0 +1,11 @@
+{"changesNameOnAttunement": false,"description": "This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the DM.\n\nYou can use an action to press one side of the cube to cast the gate spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the plane shift spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.\n\nThe cube has 3 charges. Each use of the cube expends 1 charge. The cube regains 1d3 expended charges daily at dawn.","effects": [{"charges": 3,"id": "f9aa852f-df7b-49cb-808e-fbf16bd35861","name": "Charges","rechargeMoment": "DAWN","rechargeRate": {"constant": 0,"diceAmount": 1,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"actualEffect": {"spellId": "210","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"id": "56a25ab0-24c4-4164-b3b7-f9a0b2b05d1a","name": "Cast Plane Shift (1 Charge)","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Cubic_Gate","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Cubic Gate","rarity": "LEGENDARY","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

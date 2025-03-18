@@ -1,0 +1,6 @@
+{"ac":13,"actions":[{"description":"The abyssal chicken makes two attacks: one with its bite and one with its claws.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":" 4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
+{"description":" 4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claws","type":"MELEE"}],
+"alignment":"Chaotic Evil","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":13,"conditionImmunities":"blinded, poisoned","cr":"1/4","damageImmunities":"poison","dex":14,"flySpeed":30,"hp":{"constant":3,"diceAmount":3,"diceType":"D4"},
+"id":-1,"int":4,"isLocked":true,"jsonType":"monster","languages":"understands Abyssal but can't speak","name":"Abyssal Chicken","resistances":"cold, fire, lightning","savingThrows":null,"senses":"blindsight 30ft. (blind beyond this radius)","size":"Tiny","skills":null,"specialTraits":[{"description":"The abyssal chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed.","id":-1,"monsterId":-1,"name":"Bad Flier"}],
+"speed":30,"str":6,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":9,"xp":50}

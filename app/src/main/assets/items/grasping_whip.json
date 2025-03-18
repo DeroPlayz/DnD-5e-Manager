@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "You gain a +1 bonus to attack and damage rolls made with this magic whip. When you hit a creature or object that is Large or smaller with this whip, you can pull that creature or object 5 feet toward you instead of dealing damage.","effects": [{"actualEffect": {"bonus": 1,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
+"id": "516ee64a-166e-4dce-9cf9-39a88b4f14d9","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"actualEffect": {"bonus": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
+"id": "03deec20-0fcd-4ca3-ac8a-f8ccc656f1e1","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Grasping_Whip","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Grasping Whip","rarity": "RARE","requiresAttunement": false,"type": "WEAPON","valueCoin": "GOLD","weight": 3.0,"weightUnit": "OUNCES"}

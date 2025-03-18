@@ -1,0 +1,6 @@
+{"ac":16,"actions":[{"description":"The kiddywidget makes two attacks: one with its bite and one with its tail.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":" 4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it is grappled by the kiddywidget (escape DC 8).","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
+{"description":" 4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) lightning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tail","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":20,"con":18,"conditionImmunities":"blinded, deafened, exhaustion, paralyzed, petrified, poisoned","cr":"1/2","damageImmunities":"lightning, poison","dex":14,"flySpeed":0,"hp":{"constant":8,"diceAmount":2,"diceType":"D6"},
+"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":"Skitterwidget","name":"Kiddywidget","resistances":null,"savingThrows":null,"senses":"darkvision 60","size":"Small","skills":null,"specialTraits":[{"description":"The kiddywidget doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
+"speed":20,"str":6,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":10,"xp":100}

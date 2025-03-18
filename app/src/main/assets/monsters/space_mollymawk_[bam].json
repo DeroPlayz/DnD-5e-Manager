@@ -1,0 +1,5 @@
+{"ac":12,"actions":[{"description":"4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":3,"climbSpeed":0,"con":11,"conditionImmunities":null,"cr":"0","damageImmunities":null,"dex":14,"flySpeed":50,"hp":{"constant":null,"diceAmount":1,"diceType":"D6"},
+"id":-1,"int":3,"isLocked":true,"jsonType":"monster","languages":null,"name":"Space Mollymawk [BAM]","resistances":null,"savingThrows":null,"senses":null,"size":"Small","skills":null,"specialTraits":[{"description":"The mollymawk doesn't provoke opportunity attacks when it flies out of an enemy's reach.","id":-1,"monsterId":-1,"name":"Flyby"},
+{"description":"The mollymawk can hold its breath for 15 minutes.","id":-1,"monsterId":-1,"name":"Hold Breath"}],
+"speed":10,"str":6,"swimSpeed":0,"tag":null,"type":"Beast","vulnerabilities":null,"wis":12,"xp":10}

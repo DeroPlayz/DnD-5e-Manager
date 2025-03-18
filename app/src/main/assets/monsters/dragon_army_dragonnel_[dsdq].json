@@ -1,0 +1,5 @@
+{"ac":16,"actions":[{"description":"The dragonnel makes two Rend attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) fire damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Rend","type":"MELEE"}],
+"alignment":"Lawful Evil","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"3","damageImmunities":null,"dex":15,"flySpeed":60,"hp":{"constant":9,"diceAmount":9,"diceType":"D10"},
+"id":-1,"int":8,"isLocked":true,"jsonType":"monster","languages":"understands Common and Draconic but can't speak","name":"Dragon Army Dragonnel [DSDQ]","resistances":"fire","savingThrows":null,"senses":"blindsight 30 ft., darkvision 120 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The dragonnel doesn't provoke opportunity attacks when it flies out of an enemy's reach.","id":-1,"monsterId":-1,"name":"Flyby"}],
+"speed":30,"str":16,"swimSpeed":0,"tag":null,"type":"Dragon","vulnerabilities":null,"wis":13,"xp":700}

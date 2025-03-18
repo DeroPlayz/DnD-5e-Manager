@@ -1,0 +1,6 @@
+{"ac":13,"actions":[{"description":"2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage. If the target is Medium or smaller, the derro can choose to deal no damage and knock it prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Hooked Spear","type":"MELEE"},
+{"description":"4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Light Crossbow","type":"RANGED"}],
+"alignment":"Chaotic Evil","burrowSpeed":0,"cha":9,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"1/4","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":3,"diceAmount":3,"diceType":"D6"},
+"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Dwarvish, Undercommon","name":"Derro [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 120 ft.","size":"Small","skills":null,"specialTraits":[{"description":"The derro has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
+{"description":"While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.","id":-1,"monsterId":-1,"name":"Sunlight Sensitivity"}],
+"speed":30,"str":10,"swimSpeed":0,"tag":null,"type":"Aberration","vulnerabilities":null,"wis":5,"xp":50}

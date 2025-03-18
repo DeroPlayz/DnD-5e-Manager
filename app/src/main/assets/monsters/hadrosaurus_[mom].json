@@ -1,0 +1,4 @@
+{"ac":11,"actions":[{"description":"4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tail","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":13,"conditionImmunities":null,"cr":"1/4","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":3,"diceAmount":3,"diceType":"D10"},
+"id":-1,"int":2,"isLocked":true,"jsonType":"monster","languages":null,"name":"Hadrosaurus [MoM]","resistances":null,"savingThrows":null,"senses":null,"size":"Large","skills":null,"specialTraits":[],
+"speed":40,"str":15,"swimSpeed":0,"tag":"dinosaur","type":"Beast","vulnerabilities":null,"wis":10,"xp":50}

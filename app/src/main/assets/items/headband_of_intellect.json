@@ -1,0 +1,6 @@
+{"changesNameOnAttunement": false,"description": "Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher without it.","effects": [{"actualEffect": {"shouldPickMax": true,"stat": "INT","type": "SET_STAT","typeStr": "SET_STAT","value": {"constant": 19,"diceAmount": 0,"diceType": "D4"}},
+"id": "ffe7092d-f846-4e45-bcb7-0f5dcd762664","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"}],
+"id": "item_Headband_of_Intellect","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Headband of Intellect","rarity": "UNCOMMON","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

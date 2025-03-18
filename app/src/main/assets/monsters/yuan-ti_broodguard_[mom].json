@@ -1,0 +1,6 @@
+{"ac":14,"actions":[{"description":"The broodguard makes one Bite attack and two Claw attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
+{"description":"4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":4,"climbSpeed":0,"con":14,"conditionImmunities":"charmed, paralyzed, poisoned","cr":"2","damageImmunities":"poison","dex":14,"flySpeed":0,"hp":{"constant":14,"diceAmount":7,"diceType":"D8"},
+"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":"Abyssal, Common, Draconic","name":"Yuan-ti Broodguard [MoM]","resistances":null,"savingThrows":"Str +4, Dex +4, Wis +2","senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"At the start of its turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.","id":-1,"monsterId":-1,"name":"Reckless"}],
+"speed":30,"str":15,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":11,"xp":450}

@@ -1,0 +1,8 @@
+{"ac":13,"actions":[{"description":"The scout makes two melee attacks or two ranged attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shortsword","type":"MELEE"},
+{"description":"4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Longbow","type":"RANGED"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"1/2","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":3,"diceAmount":3,"diceType":"D8"},
+"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Any one language (usually Common)","name":"Sea Elf Scout [DSDQ]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.","id":-1,"monsterId":-1,"name":"Keen Hearing and Sight"},
+{"description":"The scout has advantage on saving throws against being charmed, and magic can't put it to sleep.","id":-1,"monsterId":-1,"name":"Fey Ancestry"},
+{"description":"The scout can breathe air and water.","id":-1,"monsterId":-1,"name":"Child of the Sea"}],
+"speed":30,"str":11,"swimSpeed":30,"tag":"elf","type":"Humanoid","vulnerabilities":null,"wis":13,"xp":100}

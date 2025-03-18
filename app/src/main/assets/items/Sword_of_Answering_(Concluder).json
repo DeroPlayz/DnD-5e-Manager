@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "Concluder, the Lawful Neutral sword, has an amethyst set in its pommel.\n\nYou gain a +3 bonus to attack and damage rolls made with this sword. In addition, while you hold the sword, you can use your reaction to make one melee attack with it against any creature in your reach that deals damage to you. You have advantage on the attack roll, and any damage dealt with this special attack ignores any damage immunity or resistance the target has.","effects": [{"actualEffect": {"bonus": 3,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
+"id": "c18fc508-74e5-47a0-bcbb-dbb63fd42c6d","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"actualEffect": {"bonus": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
+"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
+"id": "9fb352bf-7b08-4629-9b3f-1963e2d00fdf","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Sword_of_Answering__Concluder_","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Sword of Answering (Concluder)","rarity": "LEGENDARY","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weight": 3.0,"weightUnit": "OUNCES"}

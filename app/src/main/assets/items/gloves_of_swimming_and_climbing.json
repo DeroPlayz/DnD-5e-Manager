@@ -1,0 +1,6 @@
+{"changesNameOnAttunement": false,"description": "While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.","effects": [{"actualEffect": {"stat": "ATHLETICS","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
+"id": "fadefbb7-554c-486f-ab0b-d31f5b357436","name": "Add Adv.","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Gloves_of_Swimming_and_Climbing","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Gloves of Swimming and Climbing","rarity": "UNCOMMON","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

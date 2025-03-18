@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.","effects": [{"actualEffect": {"bonus": {"constant": 2,"diceAmount": 0,"diceType": "D4"},
+"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
+"id": "fcde9a01-476a-49be-8e0d-907967c8c6ec","name": "Apply Damage Bonus","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"actualEffect": {"bonus": 2,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
+"id": "3b230a0c-53a7-479e-a769-e202b18fb670","name": "Apply Attack Bonus","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Bracers_of_Archery","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Bracers of Archery","rarity": "UNCOMMON","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

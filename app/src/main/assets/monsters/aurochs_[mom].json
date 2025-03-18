@@ -1,0 +1,4 @@
+{"ac":11,"actions":[{"description":"7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the aurochs moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) piercing damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone if it is a creature.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Gore","type":"MELEE"}],
+"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":19,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":16,"diceAmount":4,"diceType":"D10"},
+"id":-1,"int":2,"isLocked":true,"jsonType":"monster","languages":null,"name":"Aurochs [MoM]","resistances":null,"savingThrows":null,"senses":null,"size":"Large","skills":null,"specialTraits":[],
+"speed":50,"str":20,"swimSpeed":0,"tag":"cattle","type":"Beast","vulnerabilities":null,"wis":12,"xp":450}

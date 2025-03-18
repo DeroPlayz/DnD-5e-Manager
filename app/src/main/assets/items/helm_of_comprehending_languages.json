@@ -1,0 +1,6 @@
+{"changesNameOnAttunement": false,"description": "While wearing this helm, you can use an action to cast the comprehend languages spell from it at will.","effects": [{"actualEffect": {"spellId": "14","type": "USE_SPELL","typeStr": "USE_SPELL"},
+"id": "b97e1c78-092c-44f0-bc16-d6f5c5edbe9d","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Helm_of_Comprehending_Languages","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Helm of Comprehending Languages","rarity": "UNCOMMON","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}

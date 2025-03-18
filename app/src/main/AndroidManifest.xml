@@ -20,7 +20,7 @@
             </intent-filter>
         </service>
         <activity
-            android:name=".MainActivity"
+            android:name=".ActivityMain"
             android:exported="true"
             android:theme="@style/Theme.DnD5eManager">
             <intent-filter>

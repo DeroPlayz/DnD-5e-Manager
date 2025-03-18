@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "While holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.\n\nAdditionally, the shield has 3 charges, and it regains 1d3 expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it prone, or both.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
+"id": "5ecbb8f6-1cb1-4066-a6ad-efe1c4a4d9b6","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "PASSIVE"},
+{"charges": 3,"id": "23a39fac-cd40-4f52-adc4-b5d032d69366","name": "Shove Away Uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 0,"diceAmount": 1,"diceType": "D4"},
+"triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Battering_Shield","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Battering Shield","rarity": "RARE","requiresAttunement": true,"type": "ARMOR","valueCoin": "GOLD","weight": 9.0,"weightUnit": "POUNDS"}

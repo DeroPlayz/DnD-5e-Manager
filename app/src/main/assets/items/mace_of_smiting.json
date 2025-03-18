@@ -1,0 +1,12 @@
+{"changesNameOnAttunement": false,"description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.\n\nWhen you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or an extra 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.","effects": [{"actualEffect": {"bonus": 1,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
+"id": "d7928745-7905-4fc8-a280-ae2e7f72e06a","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"},
+{"actualEffect": {"bonus": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
+"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
+"id": "59b05f29-6a7b-4115-93cc-c9c4f6674856","triggerCondition": {"conditions": [{"conditions": [],
+"type": "AND","typeStr": "AND"}],
+"type": "OR","typeStr": "OR"},
+"triggerType": "ACTIVE"}],
+"id": "item_Mace_of_Smiting","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Mace of Smiting","rarity": "RARE","requiresAttunement": false,"type": "WEAPON","valueCoin": "GOLD","weight": 4.0,"weightUnit": "OUNCES"}

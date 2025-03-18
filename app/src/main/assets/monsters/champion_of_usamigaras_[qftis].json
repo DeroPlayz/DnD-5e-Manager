@@ -1,0 +1,6 @@
+{"ac":12,"actions":[{"description":"The champion makes two Arcane Burst attacks or makes one Arcane Burst attack and uses Spellcasting.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
+{"description":"5 to hit, reach 5 ft. or range 120 ft., one target. Hit: 8 (1d10 + 3) force damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Arcane Burst","type":"NONE"},
+{"description":"The champion casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 13):\nAt will: Light, Mage Armor (self only), Mage Hand, Minor Illusion\n\n2/day each: Charm Person, Disguise Self, Silent Image\n\n1/day each: Crown of Madness, Shatter","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
+"alignment":"Chaotic Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":6,"diceAmount":6,"diceType":"D8"},
+"id":-1,"int":17,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Champion of Usamigaras [QftIS]","resistances":null,"savingThrows":"Int +5, Cha +4","senses":null,"size":"Medium","skills":null,"specialTraits":[],
+"speed":30,"str":10,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":14,"xp":450}
