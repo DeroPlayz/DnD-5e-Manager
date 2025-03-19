@@ -2,6 +2,7 @@ package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
+import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -55,6 +56,11 @@ public class CharacterCreatorPageOne extends Fragment {
 
     private ArrayAdapter<String> Adapter;
     TextView RacialStrengthBonus;
+    TextView RacialDexterityBonus;
+    TextView RacialConstitutionBonus;
+    TextView RacialIntelligenceBonus;
+    TextView RacialWisdomBonus;
+    TextView RacialCharismaBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         OnFocusChangeListener textChanges = new OnFocusChangeListener() {
@@ -66,6 +72,11 @@ public class CharacterCreatorPageOne extends Fragment {
         };
 
         RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
+        RacialDexterityBonus = view.findViewById(R.id.character_creator_page_one_racial_dexterity);
+        RacialConstitutionBonus = view.findViewById(R.id.character_creator_page_one_racial_constitution);
+        RacialIntelligenceBonus = view.findViewById(R.id.character_creator_page_one_racial_intelligence);
+        RacialWisdomBonus = view.findViewById(R.id.character_creator_page_one_racial_wisdom);
+        RacialCharismaBonus = view.findViewById(R.id.character_creator_page_one_racial_charisma);
 
         Resources resources = getResources();
 
@@ -315,7 +326,8 @@ public class CharacterCreatorPageOne extends Fragment {
         else{NewCharacter.setCharisma(0);}
     }
 
-    public void updateRace(View view){
+    @SuppressLint("SetTextI18n")
+    public void updateRace(View view) {
         for (int i = 0; i < RealRaces.size(); i++) {
             if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
                 NewCharacter.setRace(RealRaces.get(i));
@@ -330,13 +342,35 @@ public class CharacterCreatorPageOne extends Fragment {
             }
         }
         RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
-
+        if (Integer.parseInt(RacialStrengthBonus.getText().toString()) > 0) {
+            RacialStrengthBonus.setText("+" + RacialStrengthBonus.getText());
+        }
+        RacialDexterityBonus.setText(String.valueOf(NewCharacter.getRace().getDexterityBonus()));
+        if (Integer.parseInt(RacialDexterityBonus.getText().toString()) > 0) {
+            RacialDexterityBonus.setText("+" + RacialDexterityBonus.getText());
+        }
+        RacialConstitutionBonus.setText(String.valueOf(NewCharacter.getRace().getConstitutionBonus()));
+        if (Integer.parseInt(RacialConstitutionBonus.getText().toString()) > 0) {
+            RacialConstitutionBonus.setText("+" + RacialConstitutionBonus.getText());
+        }
+        RacialIntelligenceBonus.setText(String.valueOf(NewCharacter.getRace().getIntelligenceBonus()));
+        if (Integer.parseInt(RacialIntelligenceBonus.getText().toString()) > 0) {
+            RacialIntelligenceBonus.setText("+" + RacialIntelligenceBonus.getText());
+        }
+        RacialWisdomBonus.setText(String.valueOf(NewCharacter.getRace().getWisdomBonus()));
+        if (Integer.parseInt(RacialWisdomBonus.getText().toString()) > 0) {
+            RacialWisdomBonus.setText("+" + RacialWisdomBonus.getText());
+        }
+        RacialCharismaBonus.setText(String.valueOf(NewCharacter.getRace().getCharismaBonus()));
+        if (Integer.parseInt(RacialCharismaBonus.getText().toString()) > 0) {
+            RacialCharismaBonus.setText("+" + RacialCharismaBonus.getText());
+        }
     }
 
     public void updateClass(){
         NewCharacter.clearClasses();
-        for(int i = 0; i < CharacterClasses.size(); i++){
-            if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
+        for (int i = 0; i < CharacterClasses.size(); i++) {
+            if (Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())) {
                 NewCharacter.setPrimaryClass(CharacterClasses.get(i));
                 break;
             }
