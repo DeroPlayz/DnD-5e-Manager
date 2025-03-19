@@ -1023,5 +1023,5 @@ public class Constants {
 
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
 
-    public static ArrayList<Race> RealRaces;
+    public static ArrayList<Race> RealRaces = new ArrayList<Race>();;
 }

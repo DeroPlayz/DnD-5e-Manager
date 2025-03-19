@@ -44,8 +44,6 @@ import java.util.Objects;
 import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
-
-    public static AssetManager AM;
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>();
     public static ArrayList<Race> Races = new ArrayList<Race>();
 //    public static ArrayList<Subrace> Subraces = new ArrayList<Subrace>();
@@ -121,8 +119,8 @@ public class MainMenu extends Fragment {
                     boolean hasSubraces = false;
 
                     RealRaces.add(new Race(
-                        (String) jsonObject.getString("name"),
-                        (int) jsonObject.get("ac"),
+                        jsonObject.getString("name"),
+                        jsonObject.getInt("ac"),
                         jsonObject.getJSONObject("speed").getInt("normal"),
                         jsonObject.getJSONObject("speed").getInt("fly"),
                         jsonObject.getJSONObject("speed").getInt("climb"),

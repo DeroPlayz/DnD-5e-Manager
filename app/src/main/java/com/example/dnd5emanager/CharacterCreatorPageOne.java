@@ -2,11 +2,8 @@ package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
-import android.app.AlertDialog;
-import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
@@ -19,18 +16,13 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.NavHost;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.CharacterClass;
-import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -47,7 +39,6 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public static PlayerCharacter NewCharacter = new PlayerCharacter();
-
     private EditText Name;
     private EditText Level;
     private EditText Health;
@@ -63,20 +54,44 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Charisma;
 
     private ArrayAdapter<String> Adapter;
+    TextView RacialStrengthBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        OnFocusChangeListener textChanges = new OnFocusChangeListener() {
+
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                update(v);
+            }
+        };
+
+        RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
+
         Resources resources = getResources();
+
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
+        Name.setOnFocusChangeListener(textChanges);
         Level = view.findViewById(R.id.character_creator_page_one_edit_level);
+        Level.setOnFocusChangeListener(textChanges);
         Race = view.findViewById(R.id.character_creator_page_one_edit_race);
+        Race.setOnFocusChangeListener(textChanges);
         Subrace = view.findViewById(R.id.character_creator_page_one_edit_subrace);
+        Subrace.setOnFocusChangeListener(textChanges);
         Class = view.findViewById(R.id.character_creator_page_one_edit_class);
+        Class.setOnFocusChangeListener(textChanges);
         Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
+        Strength.setOnFocusChangeListener(textChanges);
         Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
+        Dexterity.setOnFocusChangeListener(textChanges);
         Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
+        Constitution.setOnFocusChangeListener(textChanges);
         Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
+        Intelligence.setOnFocusChangeListener(textChanges);
         Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
+        Wisdom.setOnFocusChangeListener(textChanges);
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+        Charisma.setOnFocusChangeListener(textChanges);
+
         String[] RaceArray = new String[RealRaces.size()];
         for(int i = 0; i < RealRaces.size(); i++){
             RaceArray[i] = RealRaces.get(i).getName();
@@ -97,9 +112,10 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < Races.size(); i++) {
-                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-                            if (!Races.get(i).getHasSubraces()) {
+                    for (int i = 0; i < RealRaces.size(); i++) {
+//                        Log.d("Race Length:", i + " out of " + RealRaces.size());
+                        if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
+                            if (!RealRaces.get(i).getHasSubraces()) {
                                 Subrace.setEnabled(false);
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
@@ -112,6 +128,7 @@ public class CharacterCreatorPageOne extends Fragment {
                             }
                         }
                     }
+                    updateRace(view);
                 }
             }
 
@@ -299,9 +316,10 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateRace(View view){
-        for (int i = 0; i < Races.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-                NewCharacter.setRace(Races.get(i));
+        for (int i = 0; i < RealRaces.size(); i++) {
+            if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
+                NewCharacter.setRace(RealRaces.get(i));
+//                Log.d("Race", "Found");
             }
         }
         if (NewCharacter.getRace().getHasSubraces()) {
@@ -311,8 +329,8 @@ public class CharacterCreatorPageOne extends Fragment {
                 }
             }
         }
-        TextView RacialStrengthBonus = view.findViewById(R.id.strength_buff_val);
         RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
+
     }
 
     public void updateClass(){
