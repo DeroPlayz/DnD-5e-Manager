@@ -2,11 +2,8 @@ package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
-import android.app.AlertDialog;
-import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
@@ -19,18 +16,13 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.NavHost;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.CharacterClass;
-import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -73,7 +65,7 @@ public class CharacterCreatorPageOne extends Fragment {
             }
         };
 
-        RacialStrengthBonus = view.findViewById(R.id.strength_buff_val);
+        RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
 
         Resources resources = getResources();
 
