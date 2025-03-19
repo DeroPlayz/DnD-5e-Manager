@@ -15,8 +15,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="@string/EditCharacterNameDefaultText"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="Autofill" />
@@ -68,7 +68,7 @@
         android:id="@+id/character_creator_page_one_view_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="540dp"
         android:layout_marginEnd="20dp"
         android:text="Next Page"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +78,7 @@
         android:id="@+id/character_creator_page_one_roll_stats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="480dp"
         android:layout_marginEnd="24dp"
         android:text="Roll Stats"
         app:layout_constraintEnd_toEndOf="parent"
@@ -250,6 +250,7 @@
         android:id="@+id/character_creator_page_one_spacer2"
         android:layout_width="190dp"
         android:layout_height="30dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
 
@@ -298,11 +299,60 @@
         android:id="@+id/character_creator_page_one_racial_strength"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="236dp"
         android:text="3"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_strength"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_strength"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_racial_intelligence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_intelligence"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_intelligence"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_intelligence" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_racial_wisdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_wisdom"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_wisdom"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_intelligence" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_racial_charisma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_charisma"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_intelligence" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_racial_dexterity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_dexterity"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_dexterity"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+
+    <TextView
+        android:id="@+id/character_creator_page_one_racial_constitution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_constitution"
+        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_constitution"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
