@@ -1,0 +1,118 @@
+{
+    "abilityScores": {
+        "cha": 1,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "mark_of_hospitality_halfling",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Mark of Hospitality Halfling",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "CHA",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "S, M (a small amount of makeup applied to the face as this spell is cast)",
+                "description": "For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you have used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Friends",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "Enchantment",
+                "type": "Enchantment cantrip"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "* You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n\n* You instantaneously light or snuff out a candle, a torch, or a small campfire.\n\n* You instantaneously clean or soil an object no larger than 1 cubic foot.\n\n* You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\n\n* You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\n\n* You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.\n\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
+                "duration": "Up to 1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Prestidigitation",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "10 feet",
+                "school": "Transmutation",
+                "type": "Transmutation cantrip"
+            }
+        }
+    ],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know the cantrips friends and prestidigitation. Charisma is your spellcasting ability for them",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc9a46003-19b6-4066-b720-f8b409d97a22",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Innkeeper's Charms",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you make a Charisma (Persuasion) check or an ability check involving Brewer's Supplies or Cook's Utensils, you can roll one Intuition die (a d4) and add the number rolled to the ability check",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom4d9ab4e0-6b6c-486b-9f8d-628c7fc5314b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ever Hospitable",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

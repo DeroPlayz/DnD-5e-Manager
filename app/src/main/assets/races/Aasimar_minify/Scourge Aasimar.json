@@ -1,0 +1,54 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 1,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custome0260728-ef58-4fba-a38e-6163fe91b878",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Scourge Aasimar",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.\n\nYour transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.\n\nOnce you use this trait, you can't use it again until you finish a long rest.",
+                        "level": 3
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 3,
+                "name": "Radiant Consumption",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        }
+    ],
+    "weaponProficiencies": []
+}

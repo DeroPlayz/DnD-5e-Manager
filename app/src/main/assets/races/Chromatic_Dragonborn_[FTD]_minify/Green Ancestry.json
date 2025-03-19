@@ -1,0 +1,55 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom003b37cd-7197-4a5a-bece-59387d70c80d",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Green Ancestry",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your chromatic Ancestry damage type is Poison",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom849b794c-e2b1-43ab-979a-bab19db6fb8a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Green Chromatic Ancestry",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

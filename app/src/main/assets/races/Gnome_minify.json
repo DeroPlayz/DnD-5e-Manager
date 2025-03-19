@@ -1,84 +1,82 @@
-{"id": "Custom355b6585-39d1-4b8a-aa46-a00981e5546d","jsonType": "race","name": "Gnome","spells": [],
-"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 2,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Gnomish"}],
-"racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","subraces": [{"abilityScores": {"cha": 0,"con": 0,"dex": 1,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom2a4b7f7a-5922-4f3a-8b96-fdd28f9cbd31","jsonType": "race","languages": [],
-"name": "Forest Gnome","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "S, M (a bit of fleece)","description": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else\u00e2\u20ac\u2122s voice, a lion\u00e2\u20ac\u2122s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object\u00e2\u20ac\u201dsuch as a chair, muddy footprints, or a small chest\u00e2\u20ac\u201dit must be no larger than a 5-foot cube. The image can\u00e2\u20ac\u2122t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Minor Illusion","range": "30 feet","school": "Illusion","type": "Illusion cantrip"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Natural Illusionist","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Speak with Small Beasts","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customcbb584c0-6955-41a9-b179-5f6706451fdd","jsonType": "race","languages": [],
-"name": "Rock Gnome","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [{"hint": "","level": 1,"proficiency": "Tinker's Tools"}],
-"traits": [{"feat": {"descriptionModels": [{"description": "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Artificer's Lore","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency with artisan\u00e2\u20ac\u2122s tools (tinker\u00e2\u20ac\u2122s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.\n\nWhen you create a device, choose one of the following options:\n\n- Clockwork Toy.This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n\n- Fire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\n\n- Music Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song\u00e2\u20ac\u2122s end orwhen it is closed.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Tinker","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 1,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customdcd8aa6f-d95d-4b00-89f1-d1b57ca48851","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Undercommon"}],
-"name": "Deep Gnome (Svirfneblin)","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your darkvision has a radius of 120 ft.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Superior Darkvision (120 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on Dexterity (stealth) checks to hide on rocky terrain","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Stone Camouflage","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 1,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customfd224eef-7c4b-470e-b506-6ae513ba0377","jsonType": "race","languages": [],
-"name": "Mark of Scribing Gnome","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "V, S, M (a pinch of soot and salt)","description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u00e2\u20ac\u2122t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u00e2\u20ac\u2122t part of a written language.","duration": "1 hour","higherLevels": "","isCustom": false,"isRitual": true,"level": 1,"name": "Comprehend Languages","range": "Self","school": "divination","type": "1st-level divination (Ritual)"}},
-{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Wizard","components": "V, S, M (a short piece of copper wire)","description": "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\n\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings.","duration": "1 round","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Message","range": "120 feet","school": "Transmutation","type": "Transmutation cantrip"}}],
-"toolProficiencies": [{"hint": "","level": 1,"proficiency": "Calligrapher's supplies"},
-{"hint": "","level": 1,"proficiency": "Forgery Kit"}],
-"traits": [{"feat": {"descriptionModels": [{"description": "You are proficient with calligrapher\u00e2\u20ac\u2122s supplies and the forgery kit. When you make an ability check using either one of these tools, you can roll one Intuition die, a d4, and add the number rolled to the ability check","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Gifted Scribe","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can cast comprehend languages once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for it","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Scribe's Insight","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the cantrip message. Intelligence is your spellcasting ability when casting it","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Whispering Wind","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can speak, read, and write one extra language of your choice","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Extra Language","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision (60 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Gnome Cunning","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "id": "Custom355b6585-39d1-4b8a-aa46-a00981e5546d",
+    "jsonType": "race",
+    "name": "Gnome",
+    "spells": [],
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 2,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Gnomish"
+        }
+    ],
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 0,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 25,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision (60 ft.)",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Gnome Cunning",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

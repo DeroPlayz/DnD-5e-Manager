@@ -1,0 +1,54 @@
+{
+    "abilityScores": {
+        "cha": 2,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 1,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom92b6407e-1d6d-411b-9222-64a69f402835",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Zendikar",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "A humanoid killed by Blood Thirst becomes a null",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blood Thirst Bonus",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

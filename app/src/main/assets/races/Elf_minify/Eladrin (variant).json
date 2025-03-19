@@ -1,0 +1,94 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 1,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "eladrin__variant_",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Eladrin (variant)",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom541ae2f6-22b8-410b-bdb0-7801f7a2cd08",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Elf Weapon Training",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can cast the Misty Step spell once using this trait. You regain the ability to do so when you finish a short or long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom2a3d98c2-057f-4125-994a-41dc16fed635",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fey Step",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Longsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortbow"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Longbow"
+        }
+    ]
+}

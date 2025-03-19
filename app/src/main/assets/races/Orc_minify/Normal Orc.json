@@ -1,0 +1,91 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 1,
+        "dex": 0,
+        "intelligence": -2,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "normal_orc",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Normal Orc",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started",
+                        "level": 1
+                    }
+                ],
+                "id": "Custome51aec19-8dc5-4078-b42a-8fce4afcd7c3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Aggressive",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Medicine, Nature, Perception and Survival",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom2bbf3fb0-b2a2-48fa-864b-b2f56758d4c3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Primal Intuition",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom3eb42a60-bbcd-4a1d-83d1-b0ec9594dce4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Powerful Build",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

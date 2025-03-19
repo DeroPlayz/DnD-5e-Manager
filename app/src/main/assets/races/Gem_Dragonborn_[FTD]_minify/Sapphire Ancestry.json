@@ -1,0 +1,55 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom94348583-6892-4993-9e66-2205468fff4a",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Sapphire Ancestry",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your Gem Ancestry damage type is Thunder",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom3176b323-9ebc-47a2-9cb0-276c3b9d9a00",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sapphire Gem Ancestry",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

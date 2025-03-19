@@ -1,0 +1,55 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Customaa33173e-f589-4a13-825c-ea7d48f627de",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Red Ancestry",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your chromatic Ancestry damage type is Fire",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom4df49a54-1744-4037-848d-24324d02cc11",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Red Chromatic Ancestry",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,170 @@
+{
+    "abilityScores": {
+        "cha": 1,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "dark_elf__drow_",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Dark Elf (Drow)",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "CHA",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a bit of phosphorus or wychwood, or a glowworm)",
+                "description": "You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius. As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell\u00e2\u20ac\u2122s range.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Dancing Lights",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "Evocation",
+                "type": "Evocation cantrip"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, bard, druid",
+                "components": "V",
+                "description": "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.\n\nAny attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Faerie Fire",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        }
+    ],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your darkvision has a radius of 120 ft.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom20c66a97-e53c-4fb3-8f68-ba53b4afcb3d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Superior Darkvision (120 ft.)",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc6d23e0d-0615-49b9-a48b-3e010463eb2b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sunlight Sensitivity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells",
+                        "level": 1
+                    }
+                ],
+                "id": "Customce38e3d7-dd8d-412c-bd9e-53dde9a9bdec",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Drow Magic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency with rapiers, shortswords, and hand crossbows",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom64b11a14-7e79-49ad-b249-8e5aa17b9548",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Drow Weapon Training",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Rapier"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, light"
+        }
+    ]
+}

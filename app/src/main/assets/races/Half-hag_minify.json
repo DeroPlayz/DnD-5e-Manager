@@ -1,79 +1,82 @@
-{"abilityScores": {"cha": 2,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom628afc96-09bf-4c50-bc72-af3133ad0b97","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Half-hag","racialWeapon": {"abilityName": "Strength","damageType": "Slashing","diceAmount": 1,"diceTypeName": "d4","name": "Claws"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [],
-"subraces": [{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customee21dd96-7005-401f-af7b-a90474570207","jsonType": "race","languages": [],
-"name": "Green Hag","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,deception"}],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Artificier, Bard, Sorcerer, Warlock, Wizard","components": "V, S, M (an eyelash encased in gum arabic)","description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.","duration": "Concentration, up to 1 hour","higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.","isCustom": false,"isRitual": false,"level": 2,"name": "Invisibility","range": "Touch","school": "illusion","type": "2nd-level illusion"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can mimic sounds you have heard, including humanoid voices and animals. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Mimicry","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency in the Charisma (Deception) skill","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Deceptive","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can cast the invisibility spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Invisible Passage","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your creature type is both humanoid and fey","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Green Hag Blood","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom40981dcb-23d6-439f-a680-1179008fe916","jsonType": "race","languages": [],
-"name": "Night Hag","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Wizard","components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)","description": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature\u2019s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u2019s hit points must be equal to or less than the remaining total for that creature to be affected.\n\nUndead and creatures immune to being charmed aren\u2019t affected by this spell.","duration": "1 minute","higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.","isCustom": false,"isRitual": false,"level": 1,"name": "Sleep","range": "90 feet","school": "enchantment","type": "1st-level enchantment"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your darkvision has a range of 120 feet","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Superior Darkvision (120 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you sleep during your long rest you subconsciously wander the Ethereal Plane in your immediate area. This often leads you into the minds and dreams of nearby creatures within 60 feet of you. You have advantage on Wisdom (Insight) and Charisma checks against those creatures for 24 hours","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Dreamer Walker","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can cast the sleep spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Sand Keeper","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your creature type is both humanoid and fiend","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Night Hag Blood","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom64244b2a-9ab1-46cc-98f7-6b1c066fc662","jsonType": "race","languages": [],
-"name": "Sea Hag","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,intimidation"}],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can breathe both air and water","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Amphibious","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As an action, target one creature you can see within 30 feet. If the target can see you, it must succeed on a Wisdom saving throw against this magic or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if you are within line of sight, ending the effect on itself on a success. You regain use of this trait once you complete a short or long rest","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Death Glare","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You are proficient in the Intimidation skill","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Horrific Appearance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your creature type is both humanoid and fey","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Sea Hag Blood","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision (60 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "At the end of a long rest you may change your appearance as per the disguise self spell. This effect ends if you lose any hit points, stand under the light of a full moon or if you choose to end it as a bonus action","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Illusionary Appearance","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 2,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom628afc96-09bf-4c50-bc72-af3133ad0b97",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Half-hag",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Slashing",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Claws"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "CHA",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision (60 ft.)",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At the end of a long rest you may change your appearance as per the disguise self spell. This effect ends if you lose any hit points, stand under the light of a full moon or if you choose to end it as a bonus action",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Illusionary Appearance",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

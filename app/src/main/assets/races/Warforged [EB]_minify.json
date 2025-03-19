@@ -1,26 +1,144 @@
-{"abilityScores": {"cha": 0,"con": 2,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 11,"armorProficiencies": [],
-"id": "Custom3fea6572-53ac-4c03-8bd0-bf4ecb199d78","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Warforged [EB]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"subraces": [],
-"toolProficiencies": [{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 1 (STR,DEX,WIS,INT,CHA)","level": 1}],
-"id": "Custom87bebe2e-576c-4ea7-9302-64955d534a4c","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You were created to have remarkable fortitude, represented by the following benefits:\n- You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n- You don't need to eat, drink, or breathe.\n- You are immune to disease.\n- You don't need to sleep, and magic can't put you to sleep.","level": 1}],
-"id": "Customd3aa1c0d-a20f-4248-83c6-38303fc4f552","isFeature": true,"jsonType": "feat","level": 1,"name": "Constructed Resilience","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal","level": 1}],
-"id": "Custom6edd0ea6-dc56-4704-b69d-8719d33fa8bf","isFeature": true,"jsonType": "feat","level": 1,"name": "Sentry's Rest","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your body has built-in defensive layers, which can be enhanced with armor:\n\n- You gain a +1 bonus to Armor Class.\n- You can don only armor with which you have proficiency. To don armor, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning and doffing armor in this way.\n- While you live, your armor can't be removed from your body against your will.","level": 1}],
-"id": "Custom1f1e4ded-222b-44d7-9a4c-5b278cdb9ed6","isFeature": true,"jsonType": "feat","level": 1,"name": "Integrated Protection","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You gain one skill proficiency and one tool proficiency of your choice.","level": 1}],
-"id": "Customf17f1c6a-e6f0-48bd-a37f-1efc26680f3c","isFeature": true,"jsonType": "feat","level": 1,"name": "Specialized Design","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 2,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 11,
+    "armorProficiencies": [],
+    "id": "Custom3fea6572-53ac-4c03-8bd0-bf4ecb199d78",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Warforged [EB]",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose 1 (STR,DEX,WIS,INT,CHA)",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom87bebe2e-576c-4ea7-9302-64955d534a4c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ability Score Increase",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You were created to have remarkable fortitude, represented by the following benefits:\n- You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n- You don't need to eat, drink, or breathe.\n- You are immune to disease.\n- You don't need to sleep, and magic can't put you to sleep.",
+                        "level": 1
+                    }
+                ],
+                "id": "Customd3aa1c0d-a20f-4248-83c6-38303fc4f552",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Constructed Resilience",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom6edd0ea6-dc56-4704-b69d-8719d33fa8bf",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sentry's Rest",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your body has built-in defensive layers, which can be enhanced with armor:\n\n- You gain a +1 bonus to Armor Class.\n- You can don only armor with which you have proficiency. To don armor, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning and doffing armor in this way.\n- While you live, your armor can't be removed from your body against your will.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom1f1e4ded-222b-44d7-9a4c-5b278cdb9ed6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Integrated Protection",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain one skill proficiency and one tool proficiency of your choice.",
+                        "level": 1
+                    }
+                ],
+                "id": "Customf17f1c6a-e6f0-48bd-a37f-1efc26680f3c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Specialized Design",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

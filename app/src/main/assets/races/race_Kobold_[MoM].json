@@ -1,23 +1,120 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom4d8eb168-40c9-4754-8395-f3816a1f8bfb","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Kobold [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"subraces": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom548ab5b6-0529-4338-afcc-fb6149e87c92","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were in dim light. You discern colors in that darkness only as shades of gray","level": 1}],
-"id": "Custom8d21ed87-50d7-442e-9243-a33ff8b711f4","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1}],
-"id": "Custom042e28ad-7925-49a4-88d0-093d64eaa203","isFeature": true,"jsonType": "feat","level": 1,"name": "Draconic Cry","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Kobold's connections to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options for your kobold.\n\n- Craftiness: You have proficiency in one of the following skills of your choice: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.\n\n- Defiance: You have advantage on saving throws to avoid or end the frightened condition on yourself.\n\n- Draconic Sorcery: You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race)","level": 1}],
-"id": "Custom8ba0d6a8-9528-4560-a742-ffa05fa9aa7b","isFeature": true,"jsonType": "feat","level": 1,"name": "Kobold Legacy","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom4d8eb168-40c9-4754-8395-f3816a1f8bfb",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Kobold [MoM]",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose 3 (ALL)",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom548ab5b6-0529-4338-afcc-fb6149e87c92",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ability Score Increase",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were in dim light. You discern colors in that darkness only as shades of gray",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom8d21ed87-50d7-442e-9243-a33ff8b711f4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom042e28ad-7925-49a4-88d0-093d64eaa203",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Draconic Cry",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Kobold's connections to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options for your kobold.\n\n- Craftiness: You have proficiency in one of the following skills of your choice: Arcana, Investigation, Medicine, Sleight of Hand, or Survival.\n\n- Defiance: You have advantage on saving throws to avoid or end the frightened condition on yourself.\n\n- Draconic Sorcery: You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race)",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom8ba0d6a8-9528-4560-a742-ffa05fa9aa7b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Kobold Legacy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

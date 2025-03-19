@@ -1,23 +1,122 @@
-{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 2,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom1aafaa31-4ffb-4ee2-bb00-00e3638bc846","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Abyssal"}],
-"name": "Minotaur","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,intimidation"}],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 40,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"subraces": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness, only shades of gray.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Powerful Build","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Due to their massive build and blood covered ancestry, minotaurs have proficiency on Intimidation.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Monstrous Reputation","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "A minotaur can make an attack with his horns, causing 1d8 piercing damage plus his Strength modifier.  If the target is a creature of the same size or smaller, it must succeed on a DC 12 Strength saving throw or be 5 feet away and knocked prone.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Gore","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 1,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 2,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom1aafaa31-4ffb-4ee2-bb00-00e3638bc846",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Abyssal"
+        }
+    ],
+    "name": "Minotaur",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 0,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "full,intimidation"
+        }
+    ],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 40,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness, only shades of gray.",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Powerful Build",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Due to their massive build and blood covered ancestry, minotaurs have proficiency on Intimidation.",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Monstrous Reputation",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "A minotaur can make an attack with his horns, causing 1d8 piercing damage plus his Strength modifier.  If the target is a creature of the same size or smaller, it must succeed on a DC 12 Strength saving throw or be 5 feet away and knocked prone.",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Gore",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

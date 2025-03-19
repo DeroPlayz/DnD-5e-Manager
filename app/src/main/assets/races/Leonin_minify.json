@@ -1,20 +1,102 @@
-{"abilityScores": {"cha": 0,"con": 2,"dex": 0,"intelligence": 0,"str": 1,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom69c3b812-5826-4d8e-820e-d8100ea2df81","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Leonin"}],
-"name": "Leonin","racialWeapon": {"abilityName": "Strength","damageType": "Slashing","diceAmount": 1,"diceTypeName": "d4","name": "Claws"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 35,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"subraces": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray","level": 1}],
-"id": "Customa21c01f7-d8b6-4690-833e-eb1c601c4736","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival","level": 1}],
-"id": "Custom0868525c-1b69-4708-a997-02e3dd9a905c","isFeature": true,"jsonType": "feat","level": 1,"name": "Hunter's Instincts","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn.\n\nThe DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest","level": 1}],
-"id": "Custom963f3e6c-453c-462d-a17c-b82dccfd3251","isFeature": true,"jsonType": "feat","level": 1,"name": "Daunting Roar","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 2,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 1,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom69c3b812-5826-4d8e-820e-d8100ea2df81",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Leonin"
+        }
+    ],
+    "name": "Leonin",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Slashing",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Claws"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 35,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa21c01f7-d8b6-4690-833e-eb1c601c4736",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0868525c-1b69-4708-a997-02e3dd9a905c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hunter's Instincts",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn.\n\nThe DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom963f3e6c-453c-462d-a17c-b82dccfd3251",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Daunting Roar",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

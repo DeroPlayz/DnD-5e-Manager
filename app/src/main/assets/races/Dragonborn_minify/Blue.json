@@ -1,0 +1,71 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Customaccbb7d2-7abc-4969-a37a-7f59e288537d",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Blue",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your action to exhale destructive lightning in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest.",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Breath Weapon",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have resistance to lightning damage",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Damage Resistance (Lightning)",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

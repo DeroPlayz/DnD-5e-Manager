@@ -1,58 +1,120 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom8ddb401c-441f-493e-8511-6c1b11d2e0a0","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Shifter [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"subraces": [{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom1d24c6ef-5467-46c7-9a88-987c8af7a510","jsonType": "race","languages": [],
-"name": "Beasthide [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class","level": 1}],
-"id": "Custom50f0c8ae-814e-440a-9eb8-be092e753d31","isFeature": true,"jsonType": "feat","level": 1,"name": "Beasthide Shifting","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customac10ffc1-4f66-4a7b-b4f7-98caee6567e7","jsonType": "race","languages": [],
-"name": "Longtooth [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "When you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike","level": 1}],
-"id": "Customa6108701-c196-4686-ad50-9f477579e1a4","isFeature": true,"jsonType": "feat","level": 1,"name": "Longtooth Shifting","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom3d8319a9-4ae9-4df7-8e8d-daff8ee5c67d","jsonType": "race","languages": [],
-"name": "Swiftstride [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks","level": 1}],
-"id": "Customf2a6d763-26e4-47ac-810f-14610d601c53","isFeature": true,"jsonType": "feat","level": 1,"name": "Swiftstride Shifting","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Customc3ed9faa-edff-4fc8-891c-54a407abb7ac","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival","level": 1}],
-"id": "Customc578ff9a-63f7-4971-94d8-939ebe8278c4","isFeature": true,"jsonType": "feat","level": 1,"name": "Bestial Instincts","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were in dim light. You discern colors in that darkness only as shades of gray","level": 1}],
-"id": "Custom88eecce9-88fe-452e-82b1-74f670e4954c","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 \u00c3\u2014 your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1}],
-"id": "Custom660effc9-1427-43bd-be25-ab9f30dbfe3b","isFeature": true,"jsonType": "feat","level": 1,"name": "Shifting","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom8ddb401c-441f-493e-8511-6c1b11d2e0a0",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Shifter [MoM]",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose 3 (ALL)",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc3ed9faa-edff-4fc8-891c-54a407abb7ac",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ability Score Increase",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc578ff9a-63f7-4971-94d8-939ebe8278c4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bestial Instincts",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were in dim light. You discern colors in that darkness only as shades of gray",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom88eecce9-88fe-452e-82b1-74f670e4954c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 \u00c3\u2014 your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom660effc9-1427-43bd-be25-ab9f30dbfe3b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Shifting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

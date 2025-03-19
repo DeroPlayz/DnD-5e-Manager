@@ -1,0 +1,108 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 2
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custome652e61b-f732-4ea0-8277-a73455fd683d",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Githzerai",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "WIS",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "Bard, Sorcerer, Warlock, Wizard",
+                "components": "V, S",
+                "description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "level": 0,
+                "name": "Mage Hand",
+                "range": "30 feet",
+                "school": "Conjuration",
+                "type": "Conjuration cantrip"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+                "classes": "Sorcerer, Wizard",
+                "components": "V, S",
+                "description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+                "duration": "1 round",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "level": 1,
+                "name": "Shield",
+                "range": "Self",
+                "school": "abjuration",
+                "type": "1st-level abjuration"
+            }
+        }
+    ],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on saving throws against the charmed and frightened conditions",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mental Discipline",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast Shield once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don\u2019t require components",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Githzerai Psionics",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

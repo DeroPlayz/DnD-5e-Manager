@@ -1,0 +1,73 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 1,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "shadar-kai",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Shadar-Kai",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have resistance to Necrotic damage",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom9b5f6cf7-099c-40e6-acfc-013a9aaadc5e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Necrotic Resistance",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.\n\nStarting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resis- tance lasts until the start ofyour next turn. During that time, you appear ghostly and translucent",
+                        "level": 1
+                    }
+                ],
+                "id": "Customd7d0a5ca-5445-4652-ad71-4723ec9426f8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blessing of the Raven Queen",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

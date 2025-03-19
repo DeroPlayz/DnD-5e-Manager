@@ -1,111 +1,154 @@
-{"abilityScores": {"cha": 0,"con": 2,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "dwarf","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Dwarvish"}],
-"name": "Dwarf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"subraces": [{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 1},
-"ac": 10,"armorProficiencies": [],
-"id": "hill_dwarf","jsonType": "race","languages": [],
-"name": "Hill Dwarf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.","level": 1}],
-"id": "Custome267502f-d9a2-4ed7-8a6c-e122a1bdc734","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Toughness","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 2,"wis": 0},
-"ac": 10,"armorProficiencies": [{"hint": "","level": 1,"proficiency": "Light Armor"},
-{"hint": "","level": 1,"proficiency": "Medium Armor"}],
-"id": "mountain_dwarf","jsonType": "race","languages": [],
-"name": "Mountain Dwarf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have proficiency with light and medium armor","level": 1}],
-"id": "Custom141b0764-b7cf-471d-a208-ead280b5f4f2","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Armor Training","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 1,"intelligence": 1,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "house_kundarak","jsonType": "race","languages": [],
-"name": "House Kundarak","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard","components": "V, S, M (a tiny bell and a piece of fine silver wire)","description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.","duration": "8 hours","higherLevels": "","isCustom": false,"isRitual": true,"jsonType": "spell","level": 1,"name": "Alarm","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "abjuration","type": "1st-level abjuration (ritual)"}},
-{"level": 3,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, fighter, rogue, wizard","components": "V, S, M (gold dust w orth at least 25 gp, which the spell consumes)","description": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.\n\nWhile affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.","duration": "Until dispelled","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Arcane Lock","notes": "","pinned": false,"prepared": false,"range": "Touch","school": "abjuration","type": "2nd-Level abjuration"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "When you make an Intelligence (History), Intelligence (Investigation), or Thieves\u00e2\u20ac\u2122 Tools check involving lock and trap mechanisms, you can roll one Intuition die, a d4, and add the number rolled to the ability check","level": 1}],
-"id": "Customfeae9734-f283-4a70-9ff3-ba121f4c497d","isFeature": true,"jsonType": "feat","level": 1,"name": "Master of Locks","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can use your mark to cast the alarm spell as a ritual. Intelligence is your spellcasting ability for this spell","level": 1},
-{"description": "You can use your mark to cast the alarm spell as a ritual. You can also cast arcane lock once with this trait and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells","level": 3}],
-"id": "Customcdafa7c8-165b-4384-bfef-225a491b1129","isFeature": true,"jsonType": "feat","level": 1,"name": "Wards and Seals","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 1,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "duergar","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Uncommon"}],
-"name": "Duergar","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [{"level": 3,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard","components": "V, S, M (a pinch of powdered iron)","description": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\n\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\n\n- Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's Attack with them deal 1d4 extra damage.\n\n- Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)","duration": "Concentration, up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Enlarge/Reduce","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "transmutation","type": "2nd-level transmutation"}},
-{"level": 5,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard","components": "V, S, M (an eyelash encased in gum arabic)","description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.","duration": "Concentration, up to 1 hour","higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Invisibility","notes": "","pinned": false,"prepared": false,"range": "Touch","school": "illusion","type": "2nd-level illusion"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your darkvision has a radius of 120 feet","level": 1}],
-"id": "Custom9ecc160b-075d-4507-82be-f1fbf898c044","isFeature": true,"jsonType": "feat","level": 1,"name": "Superior Darkvision (120 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "In addition to poison resilience, you also have advantage on saving throws against illusions and against being charmed or paralyzed","level": 1}],
-"id": "Customce9fc002-4d31-49b4-8d32-075b5e816079","isFeature": true,"jsonType": "feat","level": 1,"name": "Duergar Resilience","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. You don't need material components for this spell, and you can't cast it while you're in direct sunlight, although sunlight has no effect on this it once cast. You regain the ability to cast this spell with this trait when you finish a long rest. Intelligence is your spellcasting ability for them","level": 3},
-{"description": "You can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. You can also cast the Invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells","level": 5}],
-"id": "Custom826d1851-21b0-4ff2-b26d-4ade2c0eac03","isFeature": true,"jsonType": "feat","level": 1,"name": "Duergar Magic","notes": "","type": "Feat"},
-"level": 3},
-{"feat": {"descriptionModels": [{"description": "You have disadvantage on attack rolls and on Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight","level": 1}],
-"id": "Custom118e5d6e-822e-4d57-a0d7-a4e6565e9cc4","isFeature": true,"jsonType": "feat","level": 1,"name": "Sunlight Sensitivity","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []},
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom32dce66c-e11e-4a74-9c0c-6bb9f14b2f21","jsonType": "race","languages": [],
-"name": "Mark of Warding","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "When you make an Intelligence (Investigation) check or an ability check using thieves' tools, you can roll a d4 and add the number rolled to the ability check","level": 1}],
-"id": "Custom4cfe6207-a7af-4742-b648-0b1ebb74eb18","isFeature": true,"jsonType": "feat","level": 1,"name": "Warder's Intuition","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can cast the alarm and mage armor spells with this trait.\n\nOnce you cast this spell with this trait, you can't cast it again until you finish a long rest.\n\nIntelligence is your spellcasting ability for this spell, and you don't need material components for them when you cast it with this trait.","level": 1},
-{"description": "You can cast the alarm, mage armor and the arcane lock spell with this trait.\n\nOnce you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest.\n\nIntelligence is your spellcasting ability for these spells, and you don't need material components for them when you cast them with this trait","level": 3}],
-"id": "Custom67a070e1-5c2f-493f-a591-c80aee000af3","isFeature": true,"jsonType": "feat","level": 1,"name": "Wards and Seals","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Warding Spells table are added to the spell list of your spellcasting class.\n\nSpell Level --> Spells\n1st --> alarm, armor of Agathys\n2nd --> arcane lock, knock\n3rd --> glyph of warding, magic circle\n4th --> Leomund's secret chest, Mordenkainen's faithful hound\n5th --> antilife shell","level": 1}],
-"id": "Customcf7107b5-b16b-45f0-9c20-59fd2f450cf5","isFeature": true,"jsonType": "feat","level": 1,"name": "Spells of the Mark","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u00e2\u20ac\u2122t discern color in darkness, only shades of gray.","level": 1}],
-"id": "Custom69e07636-8562-4150-8606-66f9f64c56fe","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision (60 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against poison, and you have resistance against poison damage","level": 1}],
-"id": "Custom0e1235d0-0519-4fa3-b74d-9a76313d5631","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Resilience","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.","level": 1}],
-"id": "Custom17a15a00-be18-4b82-b793-ecbec759cafa","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Combat Training","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You gain proficiency with the artisan\u00e2\u20ac\u2122s tools of your choice: smith\u00e2\u20ac\u2122s tools, brewer\u00e2\u20ac\u2122s supplies, or mason\u00e2\u20ac\u2122s tools.","level": 1}],
-"id": "Custom95ac0447-bfc7-49db-92ed-d0eea5cbc5c0","isFeature": true,"jsonType": "feat","level": 1,"name": "Tool Proficiency","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.","level": 1}],
-"id": "Custom187b36d2-1c99-4682-82f6-68d0ce941173","isFeature": true,"jsonType": "feat","level": 1,"name": "Stonecunning","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Battleaxe"},
-{"hint": "","level": 1,"proficiency": "Handaxe"},
-{"hint": "","level": 1,"proficiency": "Warhammer"}]}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 2,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "dwarf",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dwarvish"
+        }
+    ],
+    "name": "Dwarf",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 0,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 25,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u00e2\u20ac\u2122t discern color in darkness, only shades of gray.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom69e07636-8562-4150-8606-66f9f64c56fe",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision (60 ft.)",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on saving throws against poison, and you have resistance against poison damage",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0e1235d0-0519-4fa3-b74d-9a76313d5631",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Dwarven Resilience",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom17a15a00-be18-4b82-b793-ecbec759cafa",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Dwarven Combat Training",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with the artisan\u00e2\u20ac\u2122s tools of your choice: smith\u00e2\u20ac\u2122s tools, brewer\u00e2\u20ac\u2122s supplies, or mason\u00e2\u20ac\u2122s tools.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom95ac0447-bfc7-49db-92ed-d0eea5cbc5c0",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tool Proficiency",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom187b36d2-1c99-4682-82f6-68d0ce941173",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Stonecunning",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Battleaxe"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Handaxe"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Warhammer"
+        }
+    ]
+}

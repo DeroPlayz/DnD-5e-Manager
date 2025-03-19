@@ -1,58 +1,76 @@
 import json
 import os
 
-def split_spells_to_folders(filepath):
+def separate_subraces(input_dir):
     """
-    Splits each spell in a JSON file into its own folder and JSON file.
+    Processes JSON files in a directory to separate subraces into individual files
+    within folders named after the original JSON filenames.
 
     Args:
-        filepath (str): The path to the JSON file containing the list of spells.
+        input_dir (str): Path to the directory containing the JSON files.
     """
 
-    try:
-        print("Current working directory:", os.getcwd())
-        print("Filepath provided:", filepath)
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".json"):
+            file_path = os.path.join(input_dir, filename)
+            parent_dir_name = os.path.splitext(filename)[0]  # Use filename as directory name
 
-        with open(filepath, 'r', encoding='utf-8') as f:
-            print("File opened successfully!")
-            data = json.load(f)
+            try:
+                with open(file_path, 'r') as f:
+                    data = json.load(f)
 
-        if "spells" in data and isinstance(data["spells"], list):
-            spells = data["spells"]
+                subraces = data.pop('subraces',)  # Remove 'subraces' from parent
 
-            spells_folder = os.path.join(os.path.dirname(filepath), "spells")
+                # Create the parent directory if it doesn't exist
+                parent_dir = os.path.join(input_dir, parent_dir_name)
+                os.makedirs(parent_dir, exist_ok=True)
 
-            # Create the "spells" folder if it doesn't exist
-            os.makedirs(spells_folder, exist_ok=True)
+                # Save each subrace to its own file
+                for subrace in subraces:
+                    if 'name' not in subrace:
+                        print(f"Warning: subrace missing 'name' in {filename}. Skipping subrace.")
+                        continue
+                    subrace_name = subrace['name']
+                    subrace_file_path = os.path.join(parent_dir, f"{subrace_name}.json")
+                    with open(subrace_file_path, 'w') as outfile:
+                        json.dump(subrace, outfile, indent=4)  # Save subrace
 
-            for spell in spells:
-                spell_name = spell.get("name", "Unnamed Spell").replace(" ", "_")
-                spell_filename = f"{spell_name}.json"
-                spell_filepath = os.path.join(spells_folder, spell_filename)
+                # Save the modified parent file (without subraces)
+                with open(file_path, 'w') as outfile:
+                    json.dump(data, outfile, indent=4)
 
-                # Ensure the directory for the spell file exists
-                spell_dir = os.path.dirname(spell_filepath)
-                if spell_dir and not os.path.exists(spell_dir):
-                    os.makedirs(spell_dir, exist_ok=True)
+                print(f"Processed: {filename}")
 
-                with open(spell_filepath, 'w', encoding='utf-8') as f:
-                    json.dump(spell, f, indent=4)
+            except FileNotFoundError:
+                print(f"Error: File not found: {file_path}")
+            except json.JSONDecodeError:
+                print(f"Error: Invalid JSON in {file_path}")
+            except Exception as e:
+                print(f"An unexpected error occurred: {e}")
 
-            print("Spells split into individual files within the 'spells' folder successfully.")
+def delete_empty_folders(dir_path):
+    """
+    Recursively deletes empty folders within a directory.
 
-        else:
-            print("Error: JSON file does not contain a 'spells' list.")
+    Args:
+        dir_path (str): The path to the directory to clean.
+    """
 
-    except json.JSONDecodeError:
-        print(f"Error decoding JSON in {filepath}")
-    except FileNotFoundError:
-        print(f"File not found: {filepath}")
-    except Exception as e:
-        print(f"An error occurred processing {filepath}: {e}")
+    for item in os.listdir(dir_path):
+        item_path = os.path.join(dir_path, item)
 
-if __name__ == "__main__":
-    filepath = input("Enter the path to the JSON file containing the spells: ")
-    if os.path.exists(filepath) and os.path.isfile(filepath):
-        split_spells_to_folders(filepath)
-    else:
-        print("Invalid file path.")
+        if os.path.isdir(item_path):
+            delete_empty_folders(item_path)  # Recursive call
+
+            # Check if the directory is now empty
+            if not os.listdir(item_path):
+                print(f"Deleting empty folder: {item_path}")
+                os.rmdir(item_path)
+
+
+
+# --- Example Usage ---
+input_directory = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets/races"  # Replace with the path to your directory
+
+separate_subraces(input_directory)
+delete_empty_folders(input_directory)

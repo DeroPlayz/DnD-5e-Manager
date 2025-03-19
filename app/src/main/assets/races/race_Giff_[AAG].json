@@ -1,23 +1,126 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customebcf0fbd-f66d-4006-833b-d00a82bbaa08","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Giff [AAG]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 30},
-"spellcastingAbility": "Intelligence","spells": [],
-"subraces": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom1af7bb32-b603-4211-a6bb-992562b37f02","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.\nYou can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest","level": 1}],
-"id": "Custom14a65746-99e1-44e6-aa98-495f61b592ce","isFeature": true,"jsonType": "feat","level": 1,"name": "Astral Spark","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll","level": 1}],
-"id": "Customd8175bc8-aa2c-4766-bed9-058762f8b4dc","isFeature": true,"jsonType": "feat","level": 1,"name": "Firearms Mastery","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift","level": 1}],
-"id": "Custom740a0a8b-617b-4852-b887-c846bb4d9a8d","isFeature": true,"jsonType": "feat","level": 1,"name": "Hippo Build","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Firearm"}]}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Customebcf0fbd-f66d-4006-833b-d00a82bbaa08",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Giff [AAG]",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 30
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose 3 (ALL)",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom1af7bb32-b603-4211-a6bb-992562b37f02",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ability Score Increase",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.\nYou can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom14a65746-99e1-44e6-aa98-495f61b592ce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Astral Spark",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll",
+                        "level": 1
+                    }
+                ],
+                "id": "Customd8175bc8-aa2c-4766-bed9-058762f8b4dc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Firearms Mastery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom740a0a8b-617b-4852-b887-c846bb4d9a8d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hippo Build",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Firearm"
+        }
+    ]
+}

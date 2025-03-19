@@ -1,0 +1,67 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "copper_draconblood",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Copper Draconblood",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one.\n\nAfter you use your breath weapon, you can\u00e2\u20ac\u2122t use it again until you complete a short or long rest.",
+                        "level": 1
+                    },
+                    {
+                        "description": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 3d6 damage on a failed save, and half as much damage on a successful one.\n\nAfter you use your breath weapon, you can\u00e2\u20ac\u2122t use it again until you complete a short or long rest.",
+                        "level": 6
+                    },
+                    {
+                        "description": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 4d6 damage on a failed save, and half as much damage on a successful one.\n\nAfter you use your breath weapon, you can\u00e2\u20ac\u2122t use it again until you complete a short or long rest.",
+                        "level": 11
+                    },
+                    {
+                        "description": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 5d6 damage on a failed save, and half as much damage on a successful one.\n\nAfter you use your breath weapon, you can\u00e2\u20ac\u2122t use it again until you complete a short or long rest.",
+                        "level": 16
+                    }
+                ],
+                "id": "Custom407c0ae7-4f90-44a4-b2a0-56593632e7ff",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Breath Weapon",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

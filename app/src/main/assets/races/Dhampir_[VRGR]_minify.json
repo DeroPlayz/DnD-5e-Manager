@@ -1,26 +1,138 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom04badedf-09e6-414d-9c0c-91aecbc66737","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Dhampir [VRGR]","racialWeapon": {"abilityName": "Constitution","damageType": "Piercing","diceAmount": 1,"diceTypeName": "d4","name": "Vampiric Bite"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 35,"fly": 0,"normal": 35,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"subraces": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom7959e44b-0261-41c0-a6a2-97b4b29333fa","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.\n\nIf you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice","level": 1}],
-"id": "Custom2df53580-b18e-4b66-826d-5d3613055bca","isFeature": true,"jsonType": "feat","level": 1,"name": "Ancestral Legacy","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray","level": 1}],
-"id": "Customf03cd8d2-43d8-40af-a387-4f72b4b8d8f6","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You don't need to breathe","level": 1}],
-"id": "Customb8028492-022f-4d1a-8054-55e3811c0574","isFeature": true,"jsonType": "feat","level": 1,"name": "Deathless Nature","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.\n\nWhen you attack with this bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice:\n\n- You regain hit points equal to the piercing damage dealt by the bite.\n\n- You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite\n\nYou can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1}],
-"id": "Custom52bfa0a8-4253-4cdd-b779-c74c4a6b7170","isFeature": true,"jsonType": "feat","level": 1,"name": "Vampiric Bite","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom04badedf-09e6-414d-9c0c-91aecbc66737",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Dhampir [VRGR]",
+    "racialWeapon": {
+        "abilityName": "Constitution",
+        "damageType": "Piercing",
+        "diceAmount": 1,
+        "diceTypeName": "d4",
+        "name": "Vampiric Bite"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 35,
+        "fly": 0,
+        "normal": 35,
+        "swim": 0
+    },
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose 3 (ALL)",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom7959e44b-0261-41c0-a6a2-97b4b29333fa",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ability Score Increase",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.\n\nIf you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom2df53580-b18e-4b66-826d-5d3613055bca",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ancestral Legacy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray",
+                        "level": 1
+                    }
+                ],
+                "id": "Customf03cd8d2-43d8-40af-a387-4f72b4b8d8f6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Darkvision",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You don't need to breathe",
+                        "level": 1
+                    }
+                ],
+                "id": "Customb8028492-022f-4d1a-8054-55e3811c0574",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Deathless Nature",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.\n\nWhen you attack with this bite and hit a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways of your choice:\n\n- You regain hit points equal to the piercing damage dealt by the bite.\n\n- You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite\n\nYou can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom52bfa0a8-4253-4cdd-b779-c74c4a6b7170",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Vampiric Bite",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

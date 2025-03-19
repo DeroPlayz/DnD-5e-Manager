@@ -1,0 +1,148 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 1
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom5f531c15-80e9-4485-a53a-0d4fd3818116",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Palid Elf",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "WIS",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, bard, cleric, sorcerer, fighter, rogue, wizard",
+                "components": "V, M (a firefly or phosphorescent moss)",
+                "description": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\n\nIf you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Light",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "Evocation",
+                "type": "Evocation cantrip"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
+                "description": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature\u00e2\u20ac\u2122s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u00e2\u20ac\u2122s hit points must be equal to or less than the remaining total for that creature to be affected.\n\nUndead and creatures immune to being charmed aren\u00e2\u20ac\u2122t affected by this spell.",
+                "duration": "1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Sleep",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (an eyelash encased in gum arabic)",
+                "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Invisibility",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "illusion",
+                "type": "2nd-level illusion"
+            }
+        }
+    ],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks",
+                        "level": 1
+                    }
+                ],
+                "id": "Customb0e6d92b-e964-4b99-9690-1e36812cdc54",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Incisive Sense",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know the light cantrip.\n\nWisdom is your spellcasting ability for these spells",
+                        "level": 1
+                    },
+                    {
+                        "description": "You know the light cantrip. You can also cast the sleep spell once with this trait and regain the ability to do so when you finish a long rest. Casting this spell with this trait doesn't require material components. \n\nWisdom is your spellcasting ability for these spells",
+                        "level": 3
+                    },
+                    {
+                        "description": "You know the light cantrip. You can also cast the sleep spell and the invisibility spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. \n\nWisdom is your spellcasting ability for these spells",
+                        "level": 5
+                    }
+                ],
+                "id": "Custom167b1bc8-47b9-4d31-ad70-54877b4120db",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blessing of the Moon Weaver",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

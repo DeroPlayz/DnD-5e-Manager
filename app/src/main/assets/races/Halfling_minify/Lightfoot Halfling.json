@@ -1,0 +1,55 @@
+{
+    "abilityScores": {
+        "cha": 1,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 0
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "lightfoot_halfling",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Lightfoot Halfling",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 25,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa9bf201b-4866-41ce-b9a7-4b9f1f12b1f5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Naturally Stealthy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

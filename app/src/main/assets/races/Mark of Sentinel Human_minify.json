@@ -1,21 +1,136 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 1,"wis": 1},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom5f2c6f9f-2853-4868-96db-b1b0fbdba7b6","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Mark of Sentinel Human","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "V, S","description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.","duration": "1 Round","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Blade Ward","range": "Self","school": "Abjuration","type": "Abjuration cantrip"}},
-{"level": 1,"spellModel": {"castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell","classes": "Sorcerer, Wizard","components": "V, S","description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.","duration": "1 round","higherLevels": "","isCustom": false,"isRitual": false,"level": 1,"name": "Shield","range": "Self","school": "abjuration","type": "1st-level abjuration"}}],
-"subraces": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "When you roll for Initiative or make a Wisdom (Perception) check to notice a threat, you can roll one Intuition die, a d4, and add it to the ability check","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Sentinel's Intuiton","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the cantrip blade ward. You can cast shield once with this trait and regain the ability to do so after you finish a short or long rest","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Sentinel's Shield","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As an action, you can designate an ally you can see as your ward. You have advantage on Wisdom (Insight) and Wisdom (Perception) checks made to spot threats to your ward. In addition, when you are within 5 feet of your ward, and that creature is the target of an attack that you can see, you can use your reaction to swap places with your ward. When you do, you become the target of the attack","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Vigilant Guardian","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 1,
+        "wis": 1
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "Custom5f2c6f9f-2853-4868-96db-b1b0fbdba7b6",
+    "jsonType": "race",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Common"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "name": "Mark of Sentinel Human",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 0,
+        "diceTypeName": "d4",
+        "name": "Unarmed Strike"
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 30,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "Bard, Sorcerer, Warlock, Wizard",
+                "components": "V, S",
+                "description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
+                "duration": "1 Round",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "level": 0,
+                "name": "Blade Ward",
+                "range": "Self",
+                "school": "Abjuration",
+                "type": "Abjuration cantrip"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+                "classes": "Sorcerer, Wizard",
+                "components": "V, S",
+                "description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+                "duration": "1 round",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "level": 1,
+                "name": "Shield",
+                "range": "Self",
+                "school": "abjuration",
+                "type": "1st-level abjuration"
+            }
+        }
+    ],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you roll for Initiative or make a Wisdom (Perception) check to notice a threat, you can roll one Intuition die, a d4, and add it to the ability check",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sentinel's Intuiton",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know the cantrip blade ward. You can cast shield once with this trait and regain the ability to do so after you finish a short or long rest",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sentinel's Shield",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can designate an ally you can see as your ward. You have advantage on Wisdom (Insight) and Wisdom (Perception) checks made to spot threats to your ward. In addition, when you are within 5 feet of your ward, and that creature is the target of an attack that you can see, you can use your reaction to swap places with your ward. When you do, you become the target of the attack",
+                        "level": 1
+                    }
+                ],
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Vigilant Guardian",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": []
+}

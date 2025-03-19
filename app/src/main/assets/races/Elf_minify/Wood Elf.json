@@ -1,0 +1,112 @@
+{
+    "abilityScores": {
+        "cha": 0,
+        "con": 0,
+        "dex": 0,
+        "intelligence": 0,
+        "str": 0,
+        "wis": 1
+    },
+    "ac": 10,
+    "armorProficiencies": [],
+    "id": "wood_elf",
+    "jsonType": "race",
+    "languages": [],
+    "name": "Wood Elf",
+    "racialWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "skillProficiencies": [],
+    "speed": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "normal": 35,
+        "swim": 0
+    },
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "toolProficiencies": [],
+    "traits": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa3ab6e93-047f-4d6b-a48e-d0a6b17ddb73",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Elf Weapon Training",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your base walking speed increases to 35 ft.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom83595164-a72b-4e27-b0ff-1566d272685f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fleet of Foot",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa6c52d08-0076-49e1-917e-8164bad227ed",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mask of the Wild",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Longsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Longbow"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortbow"
+        }
+    ]
+}
