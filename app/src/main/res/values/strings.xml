@@ -257,5 +257,109 @@
         <item>Sorcerer</item>
         <item>Warlock</item>
     </string-array>
+    <string-array name="backgrounds">
+        <item> Acolyte </item>
+        <item> Anthropologist </item>
+        <item> Athlete [MOT] </item>
+        <item> Augen Trust (spy) [MOT} </item>
+        <item> Azorius Functionary [GGR] </item>
+        <item> Black Fist Double Agents</item>
+        <item> Boros Legionnaire [GGR} </item>
+        <item> Caravan Specialist </item>
+        <item> Charlatan </item>
+        <item> City Watch </item>
+        <item> Clan Crafter </item>
+        <item> Cloistered Scholars </item>
+        <item> Cormanthor Refugee </item>
+        <item> Courtier </item>
+        <item> Criminal </item>
+       <item> Dimir Operative [GGR}</item>
+        <item> Dissenter </item>
+        <item> Dragon Casualty </item>
+        <item> Earthspur Miner </item>
+        <item> Entertainer </item>
+        <item> Faceless </item>
+        <item> Facion Agent </item>
+        <item> Far Traveler </item>
+        <item> Feylost [WBTW] </item>
+        <item> Fisher </item>
+        <item> Folk Hero </item>
+        <item> Gate Urchin</item>
+        <item> Gate Warden [SatO]</item>
+        <item> Giant Foundling [BGG] </item>
+        <item> Gladiator </item>
+        <item> Golgari Agent [GGR] </item>
+        <item> Grinner [EGW] </item>
+        <item> Gruul Anarch [GGR] </item>
+        <item> Guild Artisan </item>
+        <item> Harborfolk </item>
+        <item> Haunted One </item>
+        <item> Haunted One [VRGR] </item>
+        <item> Hermit </item>
+        <item> Hillsfar Merchant </item>
+        <item> Hillsfar Smuggler </item>
+        <item> House Agent </item>
+        <item> inheritor </item>
+        <item> Inquisitor </item>
+        <item> Investigator </item>
+        <item> Investigator [VRGR] </item>
+        <item> Iron Route Bandit </item>
+        <item> izzet Engineer [GRR] </item>
+        <item> Knight </item>
+        <item> Knight of Solamnia [DSDQ]</item>
+        <item> Marine </item>
+        <item> Mercenary Veteran  </item>
+        <item> Merchant </item>
+        <item> Mulmaster Aristocat </item>
+        <item> Noble </item>
+        <item> Orzhov Representstive [GGR] </item>
+        <item> Outlander </item>
+        <item> Phlan Refugee </item>
+        <item> Pirate </item>
+        <item> Planar Philosopher [SatO] </item>
+        <item> Prismari Student </item>
+        <item> Quandrix Student [SCC] </item>
+        <item> Rakdos Cultist </item>
+        <item> Rewarded [BWT] </item>
+        <item> Ruined [BMT] </item>
+        <item> Rune Carver [BGG] </item>
+        <item> Sage </item>
+        <item> Sailor </item>
+        <item> Secret Identity  </item>
+        <item> Selesnya Initiate [GGR] </item>
+        <item> Shade Fanatic </item>
+        <item> Shipwright </item>
+        <item> Silverquill Student [SCC] </item>
+        <item> Simic Scientist [GGR] </item>
+        <item> Smuggler </item>
+        <item> Soldier </item>
+        <item> Spy </item>
+        <item> Stojanow Prisoner </item>
+        <item> Ticklebelly Nomad </item>
+        <item>  Trade Sheriff</item>
+        <item> Urban Bounty Hunter  </item>
+        <item> Urchin </item>
+        <item> Uthgardt Tribe Member </item>
+        <item> Vizier </item>
+        <item> Volstrucker Agent [EGW] </item>
+        <item> Waterhavian Noble </item>
+        <item> WItchlight Hand [WBtW] </item>
+        <item> Witherbloom Student [SCC] </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </string-array>
+
 
 </resources>
