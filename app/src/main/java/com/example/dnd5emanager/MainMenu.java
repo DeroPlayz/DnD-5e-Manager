@@ -4,26 +4,21 @@ import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
-import java.io.File;
-import com.example.dnd5emanager.DataClasses.Background;
-import com.example.dnd5emanager.DataClasses.Constants;
+
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Spell;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.JsonNode;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,17 +26,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>();
@@ -74,19 +59,19 @@ public class MainMenu extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         binding.mainMenuViewCharacters.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_CharacterList)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)
         );
         binding.mainMenuViewData.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Data)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
         );
         binding.mainMenuSettings.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Settings)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToSettings)
         );
         binding.mainMenuHelpPage.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_Help2)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToHelp)
         );
         binding.mainMenuViewDMMenu.setOnClickListener(v ->
-                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.action_MainMenu_to_DMManager)
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
         );
 
         parseRaces(requireContext(), "races");

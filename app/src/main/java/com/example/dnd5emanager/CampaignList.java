@@ -37,9 +37,9 @@ public class CampaignList extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.campaignBack.setOnClickListener(v ->
-                NavHostFragment.findNavController(CampaignList.this).navigate(R.id.action_CampaignList_to_DMManager));
+                NavHostFragment.findNavController(CampaignList.this).navigate(R.id.goToMainMenu));
         binding.goplayerlist.setOnClickListener(v ->
-                NavHostFragment.findNavController(CampaignList.this).navigate(R.id.action_CampaignList_to_CampaignSheet));
+                NavHostFragment.findNavController(CampaignList.this).navigate(R.id.goToDMManager));
     }
 
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
