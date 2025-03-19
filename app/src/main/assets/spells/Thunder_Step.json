@@ -1,0 +1,35 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "sorcerer",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V",
+        "somatic": false,
+        "verbal": true
+    },
+    "description": "You teleport yourself to an empty space you can see. Each creature within 10 feet of the space you left makes a Constitution save, taking 3d10 thunder damage on a failure, or half damage on a success. Thunder booms out to 300 feet away.\n\nYou can bring along objects as long as you don't exceed your carrying capacity, and a willing creature of your size or smaller who isn't exceeding its carrying capacity. It must be within 5 feet of you when you cast this spell and there must be an available space within 5 feet of your destination. Otherwise, the creature is left behind.",
+    "duration": "Instantaneous",
+    "higher_levels": "The damage increases by 1d10 for each slot level above 3rd.",
+    "level": "3",
+    "name": "Thunder Step",
+    "range": "90 feet",
+    "ritual": false,
+    "school": "conjuration",
+    "tags": [
+        "sorcerer",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level3"
+    ],
+    "type": "3rd-level conjuration"
+}

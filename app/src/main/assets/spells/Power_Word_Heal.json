@@ -1,0 +1,24 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "bard"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.",
+    "duration": "Instantaneous",
+    "level": "9",
+    "name": "Power Word Heal",
+    "range": "Touch",
+    "ritual": false,
+    "school": "evocation",
+    "tags": [
+        "bard",
+        "level9"
+    ],
+    "type": "9th-level evocation"
+}

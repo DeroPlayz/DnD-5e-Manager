@@ -1,0 +1,26 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "warlock",
+        "blood_hunter"
+    ],
+    "components": {
+        "material": true,
+        "raw": "V S M (Pickled octopus tentacle)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "A 20-foot-radius void appears. It's filled with whispers and slurping that can be heard up to 30 feet away. No light can illuminate the area, and creatures fully in it are blinded. The void's area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn there must pass a Dexterity save or take 2d6 acid damage.",
+    "duration": "Concentration. Up to 1 minute",
+    "level": "3",
+    "name": "Hunger of Hadar",
+    "range": "150 feet",
+    "ritual": false,
+    "school": "conjuration",
+    "tags": [
+        "warlock",
+        "blood_hunter",
+        "level3"
+    ],
+    "type": "3rd-level conjuration"
+}

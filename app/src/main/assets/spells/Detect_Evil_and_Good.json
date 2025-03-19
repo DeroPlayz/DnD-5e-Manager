@@ -1,0 +1,26 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "cleric",
+        "paladin"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+    "duration": "Concentration, up to 10 minutes",
+    "level": "1",
+    "name": "Detect Evil and Good",
+    "range": "Self",
+    "ritual": false,
+    "school": "divination",
+    "tags": [
+        "cleric",
+        "paladin",
+        "level1"
+    ],
+    "type": "1st-level divination"
+}

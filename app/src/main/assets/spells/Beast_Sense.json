@@ -1,0 +1,30 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "druid",
+        "ranger__revised__",
+        "revised_ranger",
+        "ranger"
+    ],
+    "components": {
+        "material": false,
+        "raw": "S",
+        "somatic": true,
+        "verbal": false
+    },
+    "description": "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast\u2019s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.\n\nWhile perceiving through the beast\u2019s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.",
+    "duration": "Concentration, up to 1 hour",
+    "level": "2",
+    "name": "Beast Sense",
+    "range": "touch",
+    "ritual": true,
+    "school": "divination",
+    "tags": [
+        "druid",
+        "ranger__revised__",
+        "revised_ranger",
+        "ranger",
+        "level2"
+    ],
+    "type": "2nd-level divination (ritual)"
+}

@@ -1,0 +1,24 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "cleric"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs.",
+    "duration": "Instantaneous",
+    "level": "9",
+    "name": "Mass Heal",
+    "range": "60 feet",
+    "ritual": false,
+    "school": "conjuration",
+    "tags": [
+        "cleric",
+        "level9"
+    ],
+    "type": "9th-level conjuration"
+}

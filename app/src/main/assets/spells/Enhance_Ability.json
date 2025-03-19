@@ -1,0 +1,40 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "bard",
+        "cleric",
+        "druid",
+        "sorcerer"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "fur or a feather from a beast"
+        ],
+        "raw": "V, S, M (fur or a feather from a beast)",
+        "somatic": true,
+        "verbal": true
+    },
+    "duration": "Concentration, up to 1 hour",
+    "description": "A creature you touch gains one of the following effects until the spell ends:\n\n- Bear's Endurance: The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.\n\n- Bull's Strength: The target has advantage on Strength checks, and its carrying capacity doubles.\n\n- Cat's Grace: The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.\n\n- Eagle's Splendor: The target has advantage on Charisma checks.\n\n- Fox's Cunning: The target has advantage on Intelligence checks.\n\n- Owl's Wisdom: The target has advantage on Wisdom checks",
+    "higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+    "level": "2",
+    "name": "Enhance Ability",
+    "range": "Touch",
+    "ritual": false,
+    "school": "transmutation",
+    "tags": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "bard",
+        "cleric",
+        "druid",
+        "sorcerer",
+        "level2"
+    ],
+    "type": "2nd-level transmutation"
+}

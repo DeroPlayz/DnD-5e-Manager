@@ -1,0 +1,28 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "raw": "V, S, M (Square of silk)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "Touch a creature or object. When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same target with the same effect every day for 30 days, the illusion lasts until it's dispelled.\n\n-False Aura: You change the way the target appears to spells and magical effects that detect magical auras. You can make a nonmagical object appear magical and vice versa, or change an object's magical aura so that it appears to belong to a specific school. You can make the false magic apparent to any creature that handles the item.\n\n- Mask: You change the way the target appears to spells and magical effects that detect creature types. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.",
+    "duration": "24 hours",
+    "level": "2",
+    "name": "Nystul's Magic Aura",
+    "range": "Touch",
+    "ritual": false,
+    "school": "illusion",
+    "tags": [
+        "fighter",
+        "rogue",
+        "wizard",
+        "level2"
+    ],
+    "type": "2nd-level illusion"
+}

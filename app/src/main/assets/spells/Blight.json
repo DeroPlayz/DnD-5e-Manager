@@ -1,0 +1,37 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "druid",
+        "sorcerer",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.\n\nIf you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.\n\nIf you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.",
+    "duration": "Instantaneous",
+    "higher_levels": "When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.",
+    "level": "4",
+    "name": "Blight",
+    "range": "30 feet",
+    "ritual": false,
+    "school": "necromancy",
+    "tags": [
+        "druid",
+        "sorcerer",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level4"
+    ],
+    "type": "4th-level necromancy"
+}

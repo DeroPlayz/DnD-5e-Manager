@@ -1,0 +1,39 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer__eb_",
+        "artificer__revised_",
+        "warlock",
+        "sorcerer",
+        "wizard",
+        "blood_hunter__egw_",
+        "artificer",
+        "blood_hunter"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V",
+        "somatic": false,
+        "verbal": true
+    },
+    "description": "You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you",
+    "higher_levels": "This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)",
+    "duration": "Instantaneous",
+    "level": "cantrip",
+    "name": "Lightning Lure",
+    "range": "15 feet",
+    "ritual": false,
+    "school": "evocation",
+    "tags": [
+        "artificer__eb_",
+        "artificer__revised_",
+        "warlock",
+        "sorcerer",
+        "wizard",
+        "blood_hunter__egw_",
+        "artificer",
+        "blood_hunter",
+        "cantrip"
+    ],
+    "type": "Evocation cantrip"
+}

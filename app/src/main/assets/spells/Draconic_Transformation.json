@@ -1,0 +1,28 @@
+{
+    "casting_time": "1 bonus action",
+    "classes": [
+        "druid",
+        "sorcerer",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "raw": "V, S M (a statuette of a dragon worth at least 500 gp)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "With a roar, you draw on the magic of dragons to transform yourself, taking on various draconic features. You gain the following benefits until the spell ends: \n\n- You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn\u2019t behind total cover, even if you\u2019re blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.\n\n- Incorporeal wings sprout from your back, giving you a flying speed of 40 feet.\n\n- When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale a breath of shimmering energy in a 30-foot cone. Each creature in the area must make a Dexterity saving throw, taking 3d8 force damage on a failed save or half as much damage on a successful one",
+    "duration": "Concentration, up to 1 minute",
+    "level": "7",
+    "name": "Draconic Transformation",
+    "range": "Self",
+    "ritual": false,
+    "school": "transmutation",
+    "tags": [
+        "druid",
+        "sorcerer",
+        "wizard",
+        "level7"
+    ],
+    "type": "7th-level evocation"
+}

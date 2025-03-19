@@ -1,0 +1,35 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "cleric",
+        "paladin"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "diamonds worth 300 gp, which the spell consumes"
+        ],
+        "raw": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can\u2019t return to life a creature that has died of old age, nor can it restore any missing body parts.",
+    "duration": "Instantaneous",
+    "level": "3",
+    "name": "Revivify",
+    "range": "Touch",
+    "ritual": false,
+    "school": "conjuration",
+    "tags": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "cleric",
+        "paladin",
+        "level3"
+    ],
+    "type": "3rd-level conjuration"
+}

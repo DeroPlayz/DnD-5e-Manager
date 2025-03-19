@@ -1,0 +1,39 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "cleric",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "ruby dust worth 50 gp, which the spell consumes"
+        ],
+        "raw": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A *continual flame* can be covered or hidden but not smothered or quenched.",
+    "duration": "Until dispelled",
+    "level": "2",
+    "name": "Continual Flame",
+    "range": "Self",
+    "ritual": false,
+    "school": "evocation",
+    "tags": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "cleric",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level2"
+    ],
+    "type": "2nd-level evocation"
+}

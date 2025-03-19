@@ -1,0 +1,39 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "bard",
+        "druid",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "a handful fo clay, crystal, glass, or mineral spheres"
+        ],
+        "raw": "V, S, M (a handful fo clay, crystal, glass, or mineral spheres)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must amke an Intelligence saving throw.\n\nOn a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.\n\nAt the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.\n\nThe spell can also be ended by _[greater restoration](../greater-restoration/ \"greater restoration (lvl 5)\")_, _[heal](../heal/ \"heal (lvl 6)\")_, or _[wish](../wish/ \"wish (lvl 9)\")_.",
+    "duration": "Instantaneous",
+    "level": "8",
+    "name": "Feeblemind",
+    "range": "150 feet",
+    "ritual": false,
+    "school": "enchantment",
+    "tags": [
+        "bard",
+        "druid",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level8"
+    ],
+    "type": "8th-level enchantment"
+}

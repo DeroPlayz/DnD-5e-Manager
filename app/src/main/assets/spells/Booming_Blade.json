@@ -1,0 +1,35 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "sorcerer",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "raw": "V, M (a weapon)",
+        "somatic": false,
+        "verbal": true
+    },
+    "description": "You make a single melee weapon attack against a creature you can see in range. If the attack hits, the target is surrounded by magical energy, and it can't willingly move or it takes 1d8 thunder damage. The spell ends after dealing damage or at the start of your next turn, whichever is sooner.",
+    "duration": "1 round",
+    "higher_levels": "At 5th level, the melee attack deals an extra 1d8 thunder damage, and the moving damage becomes 2d8. Both damage dice increase by one again at levels 11 and 17.",
+    "level": "cantrip",
+    "name": "Booming Blade",
+    "range": "5 feet",
+    "ritual": false,
+    "school": "evocation",
+    "tags": [
+        "sorcerer",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard",
+        "cantrip"
+    ],
+    "type": "Evocation cantrip"
+}

@@ -1,0 +1,36 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "cleric",
+        "paladin",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.",
+    "duration": "Instantaneous",
+    "level": "3",
+    "name": "Remove Curse",
+    "range": "Touch",
+    "ritual": false,
+    "school": "abjuration",
+    "tags": [
+        "cleric",
+        "paladin",
+        "warlock",
+        "blood_hunter",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level3"
+    ],
+    "type": "3rd-level abjuration"
+}

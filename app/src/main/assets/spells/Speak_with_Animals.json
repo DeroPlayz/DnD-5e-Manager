@@ -1,0 +1,32 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "bard",
+        "druid",
+        "ranger__revised__",
+        "revised_ranger",
+        "ranger"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.",
+    "duration": "10 minutes",
+    "level": "1",
+    "name": "Speak with Animals",
+    "range": "Self",
+    "ritual": true,
+    "school": "divination",
+    "tags": [
+        "bard",
+        "druid",
+        "ranger__revised__",
+        "revised_ranger",
+        "ranger",
+        "level1"
+    ],
+    "type": "1st-level divination (ritual)"
+}

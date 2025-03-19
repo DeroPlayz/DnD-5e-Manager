@@ -1,0 +1,39 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "sorcerer",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "a shaving of licorice root"
+        ],
+        "raw": "V, S, M (a shaving of licorice root)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u2019s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u2019t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+    "duration": "Concentration, up to 1 minute",
+    "level": "3",
+    "name": "Haste",
+    "range": "30 feet",
+    "ritual": false,
+    "school": "transmutation",
+    "tags": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "sorcerer",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level3"
+    ],
+    "type": "3rd-level transmutation"
+}

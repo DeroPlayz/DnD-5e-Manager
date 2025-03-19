@@ -1,0 +1,35 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "bard",
+        "druid",
+        "sorcerer",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "You cause a tremor in the ground in a 10-foot radius. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared.",
+    "duration": "Instantaneous",
+    "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+    "level": "1",
+    "name": "Earth Tremor",
+    "range": "Self (10-foot radius)",
+    "ritual": false,
+    "school": "evocation",
+    "tags": [
+        "bard",
+        "druid",
+        "sorcerer",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level1"
+    ],
+    "type": "1st-level evocation"
+}

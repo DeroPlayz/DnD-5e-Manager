@@ -1,0 +1,34 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "blood_hunter__egw_",
+        "blood_hunter",
+        "warlock",
+        "bard",
+        "wizard",
+        "cleric"
+    ],
+    "components": {
+        "material": true,
+        "raw": "V, S, M (a book worth at least 25 gp)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.",
+    "duration": "1 hour",
+    "level": "2",
+    "name": "Borrowed Knowledge",
+    "range": "Self",
+    "ritual": false,
+    "school": "divination",
+    "tags": [
+        "blood_hunter__egw_",
+        "blood_hunter",
+        "warlock",
+        "bard",
+        "wizard",
+        "cleric",
+        "level2"
+    ],
+    "type": "2nd-level divination"
+}

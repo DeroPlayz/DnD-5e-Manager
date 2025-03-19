@@ -1,0 +1,40 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "sorcerer",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "a small amount of alcohol or distilled spirits"
+        ],
+        "raw": "V, S, M (a small amount of alcohol or distilled spirits)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.",
+    "duration": "1 hour",
+    "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.",
+    "level": "1",
+    "name": "False Life",
+    "range": "Self",
+    "ritual": false,
+    "school": "necromancy",
+    "tags": [
+        "artificer",
+        "artificer__eb_",
+        "artificer__revised_",
+        "sorcerer",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level1"
+    ],
+    "type": "1st-level necromancy"
+}

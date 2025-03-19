@@ -1,0 +1,28 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "bard",
+        "sorcerer",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "raw": "S, M (a piece of crust from an apple pie)",
+        "somatic": true,
+        "verbal": false
+    },
+    "description": "You fill a 20-foot cube centered on a point you choose within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced. At the start of each of your turns, you can move the cube up to 10 feet and reroll on the table.\n\nMischievous Surge\nd4 --> Effect\n\n1 --> The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next turn\n2 --> Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces\n3 --> Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction\n4 --> Drops of molasses appear and hover in the cube, turning it into difficult terrain until the start of your next turn",
+    "duration": "Concentration, up to 1 minute",
+    "level": "2",
+    "name": "Nathair's Mischief",
+    "range": "60 feet",
+    "ritual": false,
+    "school": "illusion",
+    "tags": [
+        "bard",
+        "sorcerer",
+        "wizard",
+        "level2"
+    ],
+    "type": "2nd-level illusion"
+}

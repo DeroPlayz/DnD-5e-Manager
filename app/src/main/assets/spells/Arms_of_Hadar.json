@@ -1,0 +1,27 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "warlock",
+        "blood_hunter"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "Tendrils batter all creatures within 10 feet of you. They must make a Strength save. On a fail, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a success, it takes half damage and suffers no other effects",
+    "duration": "Instantaneous",
+    "higher_levels": "The damage increases by 1d6 for each slot level above 1st.",
+    "level": "1",
+    "name": "Arms of Hadar",
+    "range": "Self (10 feet radius)",
+    "ritual": false,
+    "school": "conjuration",
+    "tags": [
+        "warlock",
+        "blood_hunter",
+        "level1"
+    ],
+    "type": "1st-level conjuration"
+}

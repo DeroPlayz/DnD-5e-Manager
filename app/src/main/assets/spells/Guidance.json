@@ -1,0 +1,30 @@
+{
+    "casting_time": "1 action",
+    "classes": [
+        "artificer__eb_",
+        "artificer__revised_",
+        "cleric",
+        "druid"
+    ],
+    "components": {
+        "material": false,
+        "raw": "V, S",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
+    "duration": "Concentration, up to 1 minute",
+    "level": "cantrip",
+    "name": "Guidance",
+    "range": "Touch",
+    "ritual": false,
+    "school": "Divination",
+    "tags": [
+        "artificer__eb_",
+        "artificer__revised_",
+        "cleric",
+        "druid",
+        "cantrip"
+    ],
+    "type": "Divination cantrip"
+}

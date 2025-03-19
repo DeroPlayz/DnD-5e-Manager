@@ -1,0 +1,33 @@
+{
+    "casting_time": "1 hour",
+    "classes": [
+        "druid",
+        "fighter",
+        "rogue",
+        "wizard"
+    ],
+    "components": {
+        "material": true,
+        "materials_needed": [
+            "either a hump of alum soaked in vinegar for the _antipathy_ effect or a drop of honey for the _sympathy_ effect"
+        ],
+        "raw": "V, S, M (either a hump of alum soaked in vinegar for the _antipathy_ effect or a drop of honey for the _sympathy_ effect)",
+        "somatic": true,
+        "verbal": true
+    },
+    "description": "This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an erea that is no larger than a 200-foot cube. Then specify a kind of intelligent creature such as red dragons, goblins or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.\n\nIf the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.\n\nA creature that successfully saves against this affect is immune to it for 1 minute, after which time it can be affected again.",
+    "duration": "10 days",
+    "level": "8",
+    "name": "Antipathy/Sympathy",
+    "range": "60 feet",
+    "ritual": false,
+    "school": "enchantment",
+    "tags": [
+        "druid",
+        "fighter",
+        "rogue",
+        "wizard",
+        "level8"
+    ],
+    "type": "8th-level enchantment"
+}
