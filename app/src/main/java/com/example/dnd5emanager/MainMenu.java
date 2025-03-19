@@ -25,11 +25,13 @@ import com.example.dnd5emanager.databinding.MainMenuBinding;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
@@ -90,7 +92,7 @@ public class MainMenu extends Fragment {
         );
 
         parseRaces(requireContext(), "races");
-
+        parseSpells(requireContext(), "spells");
     }
 
     @Override
@@ -116,7 +118,7 @@ public class MainMenu extends Fragment {
                     JSONObject jsonObject = new JSONObject(jsonString);
                     boolean hasSubraces = false;
 
-                    RealRaces.add(new Race(
+                    Races.add(new Race(
                             jsonObject.getString("name"),
                             jsonObject.getInt("ac"),
                             jsonObject.getJSONObject("speed").getInt("normal"),
@@ -134,11 +136,8 @@ public class MainMenu extends Fragment {
                     ));
                 }
             }
-//            else{
-//                Log.d("Jason?", "He's dead.");
-//            }
         } catch (IOException | JSONException e) {
-//            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "He's dead.");
             throw new RuntimeException(e);
         }
     }
@@ -158,31 +157,36 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    boolean hasSubraces = false;
-
-                    RealRaces.add(new Race(
+                    int level;
+                    if(jsonObject.getString("level").equals("cantrip")){
+                        level = 0;
+                    }
+                    else{
+                        level = jsonObject.getInt("level");
+                    }
+                    String materialCost = "";
+                    if(jsonObject.getJSONObject("components").getString("raw").contains("(")){
+                        materialCost = jsonObject.getJSONObject("components").getString("raw").substring(jsonObject.getJSONObject("components").getString("raw").indexOf("("));
+                    }
+                    Spells.add(new Spell(
+                            jsonObject.getString("casting_time"),
+                            toStringArray(jsonObject.getJSONArray("classes")),
+                            jsonObject.getJSONObject("components").getBoolean("verbal"),
+                            jsonObject.getJSONObject("components").getBoolean("somatic"),
+                            jsonObject.getJSONObject("components").getBoolean("material"),
+                            materialCost,
+                            jsonObject.getString("description"),
+                            jsonObject.getString("duration"),
+                            level,
                             jsonObject.getString("name"),
-                            jsonObject.getInt("ac"),
-                            jsonObject.getJSONObject("speed").getInt("normal"),
-                            jsonObject.getJSONObject("speed").getInt("fly"),
-                            jsonObject.getJSONObject("speed").getInt("climb"),
-                            jsonObject.getJSONObject("speed").getInt("swim"),
-                            jsonObject.getJSONObject("speed").getInt("burrow"),
-                            jsonObject.getJSONObject("abilityScores").getInt("str"),
-                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
-                            jsonObject.getJSONObject("abilityScores").getInt("con"),
-                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
-                            jsonObject.getJSONObject("abilityScores").getInt("cha"),
-                            hasSubraces
+                            jsonObject.getString("range"),
+                            jsonObject.getBoolean("ritual"),
+                            jsonObject.getString("school")
                     ));
                 }
             }
-//            else{
-//                Log.d("Jason?", "He's dead.");
-//            }
         } catch (IOException | JSONException e) {
-//            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "He's dead.");
             throw new RuntimeException(e);
         }
     }
@@ -199,4 +203,16 @@ public class MainMenu extends Fragment {
 //            AM.list("assets")
 //        }
 //    }
+
+    private String[] toStringArray(JSONArray array) {
+        if(array==null)
+            return null;
+
+        String[] arr=new String[array.length()];
+        for(int i=0; i<arr.length; i++) {
+            arr[i]=array.optString(i);
+        }
+        return arr;
+    }
+
 }

@@ -1,6 +1,7 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.MainMenu.Races;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
@@ -103,9 +104,9 @@ public class CharacterCreatorPageOne extends Fragment {
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
         Charisma.setOnFocusChangeListener(textChanges);
 
-        String[] RaceArray = new String[RealRaces.size()];
-        for(int i = 0; i < RealRaces.size(); i++){
-            RaceArray[i] = RealRaces.get(i).getName();
+        String[] RaceArray = new String[Races.size()];
+        for(int i = 0; i < Races.size(); i++){
+            RaceArray[i] = Races.get(i).getName();
         }
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -123,10 +124,10 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < RealRaces.size(); i++) {
-//                        Log.d("Race Length:", i + " out of " + RealRaces.size());
-                        if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
-                            if (!RealRaces.get(i).getHasSubraces()) {
+                    for (int i = 0; i < Races.size(); i++) {
+//                        Log.d("Race Length:", i + " out of " + Races.size());
+                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+                            if (!Races.get(i).getHasSubraces()) {
                                 Subrace.setEnabled(false);
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
@@ -328,9 +329,9 @@ public class CharacterCreatorPageOne extends Fragment {
 
     @SuppressLint("SetTextI18n")
     public void updateRace(View view) {
-        for (int i = 0; i < RealRaces.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
-                NewCharacter.setRace(RealRaces.get(i));
+        for (int i = 0; i < Races.size(); i++) {
+            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
+                NewCharacter.setRace(Races.get(i));
 //                Log.d("Race", "Found");
             }
         }
