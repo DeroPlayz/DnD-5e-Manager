@@ -35,10 +35,10 @@ public class DMPlayerManager extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-       binding.toSheet.setOnClickListener(v ->
-               NavHostFragment.findNavController(DMPlayerManager.this).navigate(R.id.action_DMPlayerManager_to_CampaignSheet));
-                binding.dpmToMain.setOnClickListener(v ->
-                NavHostFragment.findNavController(DMPlayerManager.this).navigate(R.id.action_DMPlayerManager_to_MainMenu));
+//        binding.toSheet.setOnClickListener(v ->
+//                NavHostFragment.findNavController(DMPlayerManager.this).navigate(R.id.goToCampaignSheet));
+//        binding.dpmToMain.setOnClickListener(v ->
+//                NavHostFragment.findNavController(DMPlayerManager.this).navigate(R.id.action_DMManager_to_campaignList));
 
     }
 

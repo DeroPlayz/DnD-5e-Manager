@@ -38,7 +38,7 @@ public class DataView extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.dataViewBack.setOnClickListener(v ->
-                NavHostFragment.findNavController(DataView.this).navigate(R.id.action_Data_to_MainMenu));
+                NavHostFragment.findNavController(DataView.this).navigate(R.id.goToMainMenu));
 
     }
 
