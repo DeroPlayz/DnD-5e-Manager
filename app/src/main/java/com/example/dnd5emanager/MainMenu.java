@@ -50,7 +50,7 @@ public class MainMenu extends Fragment {
 //    public static ArrayList<Monster> Monsters = new ArrayList<Monster>();
 
     public static ArrayList<String> Classes = new ArrayList<String>();
-//    public static ArrayList<Subclass> Subclasses = new ArrayList<Subclass>();
+    //    public static ArrayList<Subclass> Subclasses = new ArrayList<Subclass>();
     public static ArrayList<Spell> Spells = new ArrayList<Spell>();
 
 //    public static ArrayList<Background> Backgrounds = new ArrayList<Background>();
@@ -89,10 +89,8 @@ public class MainMenu extends Fragment {
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
         );
 
-        parseJson(requireContext(), "races");
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-//            Log.d("Race Count", String.valueOf(Files.exists(Paths.get("assets/races"))));
-//        }
+        parseRaces(requireContext(), "races");
+
     }
 
     @Override
@@ -101,8 +99,8 @@ public class MainMenu extends Fragment {
         binding = null;
     }
 
-    public void parseJson(Context context, String dir) {
-        Log.d("Jason", "He was just born.");
+    public void parseRaces(Context context, String dir) {
+//        Log.d("Jason", "He was just born.");
         AssetManager AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -119,28 +117,72 @@ public class MainMenu extends Fragment {
                     boolean hasSubraces = false;
 
                     RealRaces.add(new Race(
-                        jsonObject.getString("name"),
-                        jsonObject.getInt("ac"),
-                        jsonObject.getJSONObject("speed").getInt("normal"),
-                        jsonObject.getJSONObject("speed").getInt("fly"),
-                        jsonObject.getJSONObject("speed").getInt("climb"),
-                        jsonObject.getJSONObject("speed").getInt("swim"),
-                        jsonObject.getJSONObject("speed").getInt("burrow"),
-                        jsonObject.getJSONObject("abilityScores").getInt("str"),
-                        jsonObject.getJSONObject("abilityScores").getInt("dex"),
-                        jsonObject.getJSONObject("abilityScores").getInt("con"),
-                        jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-                        jsonObject.getJSONObject("abilityScores").getInt("wis"),
-                        jsonObject.getJSONObject("abilityScores").getInt("cha"),
-                        hasSubraces
+                            jsonObject.getString("name"),
+                            jsonObject.getInt("ac"),
+                            jsonObject.getJSONObject("speed").getInt("normal"),
+                            jsonObject.getJSONObject("speed").getInt("fly"),
+                            jsonObject.getJSONObject("speed").getInt("climb"),
+                            jsonObject.getJSONObject("speed").getInt("swim"),
+                            jsonObject.getJSONObject("speed").getInt("burrow"),
+                            jsonObject.getJSONObject("abilityScores").getInt("str"),
+                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
+                            jsonObject.getJSONObject("abilityScores").getInt("con"),
+                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
+                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
+                            jsonObject.getJSONObject("abilityScores").getInt("cha"),
+                            hasSubraces
                     ));
                 }
             }
-            else{
-                Log.d("Jason?", "He's dead.");
-            }
+//            else{
+//                Log.d("Jason?", "He's dead.");
+//            }
         } catch (IOException | JSONException e) {
-            Log.d("Jason?", "He's dead.");
+//            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void parseSpells(Context context, String dir) {
+//        Log.d("Jason", "He was just born.");
+        AssetManager AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    boolean hasSubraces = false;
+
+                    RealRaces.add(new Race(
+                            jsonObject.getString("name"),
+                            jsonObject.getInt("ac"),
+                            jsonObject.getJSONObject("speed").getInt("normal"),
+                            jsonObject.getJSONObject("speed").getInt("fly"),
+                            jsonObject.getJSONObject("speed").getInt("climb"),
+                            jsonObject.getJSONObject("speed").getInt("swim"),
+                            jsonObject.getJSONObject("speed").getInt("burrow"),
+                            jsonObject.getJSONObject("abilityScores").getInt("str"),
+                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
+                            jsonObject.getJSONObject("abilityScores").getInt("con"),
+                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
+                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
+                            jsonObject.getJSONObject("abilityScores").getInt("cha"),
+                            hasSubraces
+                    ));
+                }
+            }
+//            else{
+//                Log.d("Jason?", "He's dead.");
+//            }
+        } catch (IOException | JSONException e) {
+//            Log.d("Jason?", "He's dead.");
             throw new RuntimeException(e);
         }
     }
