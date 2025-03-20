@@ -15,7 +15,7 @@ def remove_minify_from_name(path):
     dir_name, base_name = os.path.split(path)
     
     # Remove "_minify" from the base name
-    new_base_name = base_name.replace("_minify", "")
+    new_base_name = base_name.replace("_minify", "").replace("Check out my 5e armor creation! This is ", "")
     
     # Return the new path with the modified name
     return os.path.join(dir_name, new_base_name)
@@ -85,8 +85,8 @@ def convert_cah_to_json(directory):
                     print(f"Error processing {cah_filepath}: {e}")
 
 if __name__ == "__main__":
-    # directory_to_scan = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets"
-    directory_to_scan = "/workspaces/capstoneproject-e5-studios/app/src/main/assets"
+    directory_to_scan = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets"
+    
     if os.path.exists(directory_to_scan):
         convert_cah_to_json(directory_to_scan)
     else:

@@ -19,10 +19,6 @@ public class CharacterClass {
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
 
-
-
-//    private ArrayList<Subclass> Subclasses = new ArrayList<Subclass>(Armorer)
-
     private int StrengthSaveProf;
         public int getStrengthSaveProf(){return StrengthSaveProf;}
     private int DexteritySaveProf;

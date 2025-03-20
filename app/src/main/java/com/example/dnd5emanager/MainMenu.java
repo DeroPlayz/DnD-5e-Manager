@@ -19,7 +19,9 @@ import java.io.File;
 import com.example.dnd5emanager.DataClasses.Background;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.Feature;
+import com.example.dnd5emanager.DataClasses.Item;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.Armor;
 import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Spell;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
@@ -62,7 +64,9 @@ public class MainMenu extends Fragment {
     public static ArrayList<Feature> Features = new ArrayList<Feature>();
 //    public static ArrayList<Feat> Feats = new ArrayList<Feat>();
 
-//    public static ArrayList<Item> Items = new ArrayList<Item>();
+    public static ArrayList<Item> Items = new ArrayList<Item>();
+//    public static ArrayList<Weapon> Weapons = new ArrayList<Weapon>();
+    public static ArrayList<Armor> Armor = new ArrayList<Armor>();
 
     private MainMenuBinding binding;
 
@@ -97,6 +101,9 @@ public class MainMenu extends Fragment {
 
         parseRaces(requireContext(), "races");
         parseSpells(requireContext(), "spells");
+        parseFeatures(requireContext(), "features");
+        parseItems(requireContext(), "items");
+        parseArmor(requireContext(), "armor");
     }
 
     @Override
@@ -216,12 +223,127 @@ public class MainMenu extends Fragment {
                     Map<Integer, String> DescModels = new HashMap<>();
 
                     for(int i = 0; i < jsonObject.getJSONArray("descriptionModels").length(); i++){
-                        DescModels.put(jsonObject.getJSONObject("descriptionModels").getInt("level"), jsonObject.getJSONObject("descriptionModels").getString("description"));
+                        DescModels.put(jsonObject.getJSONArray("descriptionModels").getJSONObject(i).getInt("level"), jsonObject.getJSONArray("descriptionModels").getString(i));
                     }
 
                     Features.add(new Feature(
                         jsonObject.getString("name"),
                         DescModels
+                    ));
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void parseItems(Context context, String dir) {
+        //Log.d("Jason", "He was just born.");
+        AssetManager AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    Items.add(new Item(
+                        jsonObject.getString("name"),
+                        jsonObject.getString("description"),
+                        jsonObject.getBoolean("isAmmunition"),
+                        jsonObject.getBoolean("isCursed"),
+                        jsonObject.getBoolean("isEquipment"),
+                        jsonObject.getBoolean("isMagic"),
+                        jsonObject.getBoolean("isSpellcastingFocus"),
+                        jsonObject.getBoolean("isTemplate"),
+                        jsonObject.getBoolean("isValueMultiplier"),
+                        jsonObject.getBoolean("isWeightMultiplier"),
+                        jsonObject.getString("rarity"),
+                        jsonObject.getBoolean("requiresAttunement"),
+                        jsonObject.getString("type"),
+                        jsonObject.getString("valueCoin"),
+                        jsonObject.getString("weightUnit")
+                    ));
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void parseArmor(Context context, String dir) {
+        //Log.d("Jason", "He was just born.");
+        AssetManager AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    Armor.add(new Armor(
+                            jsonObject.getString("name"),
+                            jsonObject.getString("category"),
+                            jsonObject.getInt("cost"),
+                            jsonObject.getString("description"),
+                            jsonObject.getBoolean("isAttuned"),
+                            jsonObject.getBoolean("isCustom"),
+                            jsonObject.getBoolean("isProficient"),
+                            jsonObject.getInt("maxModifierBonus"),
+                            jsonObject.getString("modifierFormatted"),
+                            jsonObject.getBoolean("stealthDisadvantage"),
+                            jsonObject.getInt("weight")
+                    ));
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void parseClasses(Context context, String dir) {
+        //Log.d("Jason", "He was just born.");
+        AssetManager AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    Armor.add(new Armor(
+                            jsonObject.getString("name"),
+                            jsonObject.getString("category"),
+                            jsonObject.getInt("cost"),
+                            jsonObject.getString("description"),
+                            jsonObject.getBoolean("isAttuned"),
+                            jsonObject.getBoolean("isCustom"),
+                            jsonObject.getBoolean("isProficient"),
+                            jsonObject.getInt("maxModifierBonus"),
+                            jsonObject.getString("modifierFormatted"),
+                            jsonObject.getBoolean("stealthDisadvantage"),
+                            jsonObject.getInt("weight")
                     ));
                 }
             }
