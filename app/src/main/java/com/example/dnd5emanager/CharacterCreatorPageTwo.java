@@ -38,14 +38,16 @@ public class CharacterCreatorPageTwo extends Fragment {
     }
 
 
+
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
         });
         super.onViewCreated(view, savedInstanceState);
+
     }
 
-    @Override
+
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;

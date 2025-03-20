@@ -257,6 +257,7 @@
         <item>Sorcerer</item>
         <item>Warlock</item>
     </string-array>
+
     <string-array name="backgrounds">
         <item> Acolyte </item>
         <item> Anthropologist </item>
@@ -345,21 +346,17 @@
         <item> Waterhavian Noble </item>
         <item> WItchlight Hand [WBtW] </item>
         <item> Witherbloom Student [SCC] </item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </string-array>
-
+<string-array name = "personality">
+    <item> Lawful Good </item>
+    <item> Neutral Good </item>
+    <item> Chaotic Good </item>
+    <item> Lawful neutral </item>
+    <item> True Neutral </item>
+    <item> Chaotic Neutral </item>
+    <item> Lawful Evil </item>
+    <item> Neutral Evil </item>
+    <item> Chaotic Evil </item>
+</string-array>
 
 </resources>
