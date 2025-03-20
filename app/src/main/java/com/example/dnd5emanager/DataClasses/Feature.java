@@ -17,7 +17,7 @@ public class Feature {
         return Description.get(Level);
     }
 
-    Feature(String Name, Map<Integer, String> Description) {
+    public Feature(String Name, Map<Integer, String> Description) {
         this.Name = Name;
         this.Description = Description;
     }

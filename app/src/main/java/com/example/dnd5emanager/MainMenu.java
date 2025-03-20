@@ -18,6 +18,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import java.io.File;
 import com.example.dnd5emanager.DataClasses.Background;
 import com.example.dnd5emanager.DataClasses.Constants;
+import com.example.dnd5emanager.DataClasses.Feature;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Spell;
@@ -39,6 +40,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -46,6 +48,7 @@ import java.util.Objects;
 import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
+    public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>();
     public static ArrayList<Race> Races = new ArrayList<Race>();
 //    public static ArrayList<Subrace> Subraces = new ArrayList<Subrace>();
@@ -56,6 +59,7 @@ public class MainMenu extends Fragment {
     public static ArrayList<Spell> Spells = new ArrayList<Spell>();
 
     public static ArrayList<Background> Backgrounds = new ArrayList<Background>();
+    public static ArrayList<Feature> Features = new ArrayList<Feature>();
 //    public static ArrayList<Feat> Feats = new ArrayList<Feat>();
 
 //    public static ArrayList<Item> Items = new ArrayList<Item>();
@@ -209,20 +213,16 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    
-//                    Backgrounds.add(new Background(
-//                        jsonObject.getString("name"),
-//                        toStringArray(jsonObject.getJSONArray("classes")),
-//                        jsonObject.getJSONObject("components").getBoolean("verbal"),
-//                        jsonObject.getJSONObject("components").getBoolean("somatic"),
-//                        jsonObject.getJSONObject("components").getBoolean("material"),
-//                        jsonObject.getString("description"),
-//                        jsonObject.getString("duration"),
-//                        jsonObject.getString("name"),
-//                        jsonObject.getString("range"),
-//                        jsonObject.getBoolean("ritual"),
-//                        jsonObject.getString("school")
-//                    ));
+                    Map<Integer, String> DescModels = new HashMap<>();
+
+                    for(int i = 0; i < jsonObject.getJSONArray("descriptionModels").length(); i++){
+                        DescModels.put(jsonObject.getJSONObject("descriptionModels").getInt("level"), jsonObject.getJSONObject("descriptionModels").getString("description"));
+                    }
+
+                    Features.add(new Feature(
+                        jsonObject.getString("name"),
+                        DescModels
+                    ));
                 }
             }
         }

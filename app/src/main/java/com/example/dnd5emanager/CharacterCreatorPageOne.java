@@ -132,11 +132,11 @@ public class CharacterCreatorPageOne extends Fragment {
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
                             } else {
-                                for (int j = 0; j < Subraces.size(); j++) {
-                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-                                        Adapter.add(Subraces.get(j).getName());
-                                    }
-                                }
+//                                for (int j = 0; j < Subraces.size(); j++) {
+//                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
+//                                        Adapter.add(Subraces.get(j).getName());
+//                                    }
+//                                }
                             }
                         }
                     }
@@ -229,7 +229,7 @@ public class CharacterCreatorPageOne extends Fragment {
             }
             else{
                 update(v);
-                CurrentCharacter = NewCharacter;
+                MainMenu.CurrentCharacter = NewCharacter;
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
             }
         });
@@ -335,13 +335,13 @@ public class CharacterCreatorPageOne extends Fragment {
 //                Log.d("Race", "Found");
             }
         }
-        if (NewCharacter.getRace().getHasSubraces()) {
-            for (int i = 0; i < Subraces.size(); i++) {
-                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
-                    NewCharacter.setSubrace(Subraces.get(i));
-                }
-            }
-        }
+//        if (NewCharacter.getRace().getHasSubraces()) {
+//            for (int i = 0; i < Subraces.size(); i++) {
+//                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
+//                    NewCharacter.setSubrace(Subraces.get(i));
+//                }
+//            }
+//        }
         RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
         if (Integer.parseInt(RacialStrengthBonus.getText().toString()) > 0) {
             RacialStrengthBonus.setText("+" + RacialStrengthBonus.getText());
@@ -370,11 +370,11 @@ public class CharacterCreatorPageOne extends Fragment {
 
     public void updateClass(){
         NewCharacter.clearClasses();
-        for (int i = 0; i < CharacterClasses.size(); i++) {
-            if (Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())) {
-                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
-                break;
-            }
-        }
+//        for (int i = 0; i < CharacterClasses.size(); i++) {
+//            if (Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())) {
+//                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
+//                break;
+//            }
+//        }
     }
 }

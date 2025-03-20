@@ -212,7 +212,7 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    private ArrayList<CharacterClass> Classes = new ArrayList<>(List.of(Constants.Bard));
+    private ArrayList<CharacterClass> Classes = new ArrayList<>();
     public void clearClasses(){Classes = new ArrayList<>();}
     public ArrayList<CharacterClass> getClasses(){return Classes;}
     public void setLevel(CharacterClass Class, int Level) {

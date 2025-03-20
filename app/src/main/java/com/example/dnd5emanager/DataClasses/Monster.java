@@ -1,3 +1,5 @@
+package com.example.dnd5emanager.DataClasses;
+
 public class Monster{
     private String Name;
     private int ArmorClass;
@@ -8,5 +10,5 @@ public class Monster{
     private int Intelligence;
     private int Wisdom;
     private int Charisma;
-    private int
+//    private int
 }
