@@ -69,26 +69,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/backgroundSpinner"
         android:layout_width="271dp"
         android:layout_height="62dp"
+        android:entries="@array/backgrounds"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.131"
+        />
 
     <Spinner
         android:id="@+id/spinner8"
         android:layout_width="271dp"
         android:layout_height="62dp"
+        android:entries="@array/personality"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.007"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.224" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="408dp"
