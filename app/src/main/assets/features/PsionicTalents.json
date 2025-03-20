@@ -1,0 +1,5 @@
+{"descriptionModels": [{"description": "You know 1 psionic talent of your choice. When that number goes up for you, choose a new talent","level": 1},
+{"description": "You know 2 psionic talents of your choice. When that number goes up for you, choose a new talent","level": 3},
+{"description": "You know 3 psionic talents of your choice. When that number goes up for you, choose a new talent","level": 10},
+{"description": "You know 4 psionic talents of your choice. When that number goes up for you, choose a new talent","level": 17}],
+"id": "Custom0657678c-0c71-4cbb-a939-db065716320a","isFeature": true,"jsonType": "feat","level": 1,"name": "Psionic Talents","notes": "","type": "Feat"}

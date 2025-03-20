@@ -1,0 +1,2 @@
+{"descriptionModels": [{"description": "Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.\n\nDiscipline save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nDiscipline attack modifier = your proficiency bonus + your Intelligence modifier","level": 1}],
+"id": "Custom9d15fa23-5e1c-481d-8e97-c2cedce2c8c3","isFeature": true,"jsonType": "feat","level": 1,"name": "Psionic Ability","notes": "","type": "Feat"}

@@ -1,0 +1,4 @@
+{"descriptionModels": [{"description": "You can roll one additional weapon die when determinating the extra damage for a critical hit with a melee attack","level": 9},
+{"description": "You can roll two additional weapon dice when determinating the extra damage for a critical hit with a melee attack","level": 13},
+{"description": "You can roll three additional weapon dice when determinating the extra damage for a critical hit with a melee attack","level": 17}],
+"id": "Custom529ecb57-d984-4302-bdc3-dc53d9a2fb71","isFeature": true,"jsonType": "feat","level": 1,"name": "Brutal Critical","notes": "","type": "Feat"}
