@@ -1,3 +1,19 @@
-{"descriptionModels": [{"description": "You have survived the imbibing of the Hunter\u2019s Bane, a poisonous alchemical concoction that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.","level": 1},
-{"description": "You have survived the imbibing of the Hunter\u2019s Bane, a poisonous alchemical concoction that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.\n\nUpon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check","level": 11}],
-"id": "Customb84ac749-0af4-4b5b-a819-3352d710f3a8","isFeature": true,"jsonType": "feat","level": 1,"name": "Hunter's Bane","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You have survived the imbibing of the Hunter\u2019s Bane, a poisonous alchemical concoction that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.",
+            "level": 1
+        },
+        {
+            "description": "You have survived the imbibing of the Hunter\u2019s Bane, a poisonous alchemical concoction that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.\n\nUpon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check",
+            "level": 11
+        }
+    ],
+    "id": "Customb84ac749-0af4-4b5b-a819-3352d710f3a8",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Hunter's Bane",
+    "notes": "",
+    "type": "Feat"
+}

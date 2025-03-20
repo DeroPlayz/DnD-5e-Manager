@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Choose a type of greater favoured enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all benefits against this chosen enemy that you normally gain against your favoured enemy, including an additional language. Your bonus damage rolls against all favoured enemies increases to +4. \n\nAdditionally, you have advantage on saving throws against spells and abilities used by greater favoured enemies. ","level": 6}],
-"id": "Customc8677147-de92-4900-920a-256283d15c7b","isFeature": true,"jsonType": "feat","level": 1,"name": "Greater Favoured Enemy ","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Choose a type of greater favoured enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all benefits against this chosen enemy that you normally gain against your favoured enemy, including an additional language. Your bonus damage rolls against all favoured enemies increases to +4. \n\nAdditionally, you have advantage on saving throws against spells and abilities used by greater favoured enemies. ",
+            "level": 6
+        }
+    ],
+    "id": "Customc8677147-de92-4900-920a-256283d15c7b",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Greater Favoured Enemy ",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You can use your Wild Shape an unlimited number of times.\n\nAdditionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape","level": 20}],
-"id": "Customacef7897-7c3e-471e-b95b-e7afb42c25c9","isFeature": true,"jsonType": "feat","level": 1,"name": "Archdruid","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You can use your Wild Shape an unlimited number of times.\n\nAdditionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape",
+            "level": 20
+        }
+    ],
+    "id": "Customacef7897-7c3e-471e-b95b-e7afb42c25c9",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Archdruid",
+    "notes": "",
+    "type": "Feat"
+}

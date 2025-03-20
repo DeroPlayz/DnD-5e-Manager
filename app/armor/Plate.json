@@ -1,0 +1,19 @@
+{
+    "armor": 18,
+    "category": "Heavy Armor",
+    "cost": "1500 gp",
+    "description": "",
+    "equipped": false,
+    "id": "11",
+    "isAttuned": false,
+    "isCustom": false,
+    "isProficient": false,
+    "jsonType": "armor",
+    "modifierFormatted": "",
+    "name": "Plate",
+    "pinned": false,
+    "stealthDisadvantage": true,
+    "strRequired": 15,
+    "typeName": "Plate",
+    "weight": "65 lb."
+}

@@ -1,0 +1,12 @@
+{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "stout_halfling","jsonType": "race","languages": [],
+"name": "Stout Halfling","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against being poisoned, and you have resistance against poison damage","level": 1}],
+"id": "Custom0c6b122c-ce7d-4172-898e-479d0e58a033","isFeature": true,"jsonType": "feat","level": 1,"name": "Stout Resilience","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

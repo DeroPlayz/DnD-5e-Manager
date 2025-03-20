@@ -1,3 +1,19 @@
-{"descriptionModels": [{"description": "Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent","level": 8},
-{"description": "Once on each of your turns when you hit a creature with a weapon, you can deal an extra 2d8 psychic damage to that target. In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent","level": 14}],
-"id": "Customb2049e78-ab78-4b57-9c9b-ab2b5ee78abb","isFeature": true,"jsonType": "feat","level": 1,"name": "Potent Psionics","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent",
+            "level": 8
+        },
+        {
+            "description": "Once on each of your turns when you hit a creature with a weapon, you can deal an extra 2d8 psychic damage to that target. In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent",
+            "level": 14
+        }
+    ],
+    "id": "Customb2049e78-ab78-4b57-9c9b-ab2b5ee78abb",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Potent Psionics",
+    "notes": "",
+    "type": "Feat"
+}

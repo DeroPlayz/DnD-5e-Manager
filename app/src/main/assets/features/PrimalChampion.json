@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Your Strength and Constitution scores increase by 4. Now the maximum for those scores is 24","level": 20}],
-"id": "Custom4f9b0ecb-3faa-4d61-98ab-defc65a947ce","isFeature": true,"jsonType": "feat","level": 1,"name": "Primal Champion","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Your Strength and Constitution scores increase by 4. Now the maximum for those scores is 24",
+            "level": 20
+        }
+    ],
+    "id": "Custom4f9b0ecb-3faa-4d61-98ab-defc65a947ce",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Primal Champion",
+    "notes": "",
+    "type": "Feat"
+}

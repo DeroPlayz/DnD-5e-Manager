@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 import java.io.File;
 import com.example.dnd5emanager.DataClasses.Background;
+import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.Feature;
 import com.example.dnd5emanager.DataClasses.Item;
@@ -51,22 +52,22 @@ import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
-    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>();
-    public static ArrayList<Race> Races = new ArrayList<Race>();
-//    public static ArrayList<Subrace> Subraces = new ArrayList<Subrace>();
-//    public static ArrayList<Monster> Monsters = new ArrayList<Monster>();
+    public static Map<String, PlayerCharacter> Characters = new HashMap<>();
+    public static Map<String, Race> Races = new HashMap<>();
+//    public static Map<String, Subrace> Subraces = new HashMap<>();
+//    public static Map<String, Monster> Monsters = new HashMap<>();
 
-    public static ArrayList<String> Classes = new ArrayList<String>();
-    //    public static ArrayList<Subclass> Subclasses = new ArrayList<Subclass>();
-    public static ArrayList<Spell> Spells = new ArrayList<Spell>();
+    public static Map<String, CharacterClass> Classes = new HashMap<>();
+    //    public static Map<String, Subclass> Subclasses = new HashMap<>();
+    public static Map<String, Spell> Spells = new HashMap<>();
 
-    public static ArrayList<Background> Backgrounds = new ArrayList<Background>();
-    public static ArrayList<Feature> Features = new ArrayList<Feature>();
-//    public static ArrayList<Feat> Feats = new ArrayList<Feat>();
+    public static Map<String, Background> Backgrounds = new HashMap<>();
+    public static Map<String, Feature> Features = new HashMap<>();
+//    public static Map<String, Feat> Feats = new HashMap<>();
 
-    public static ArrayList<Item> Items = new ArrayList<Item>();
-//    public static ArrayList<Weapon> Weapons = new ArrayList<Weapon>();
-    public static ArrayList<Armor> Armor = new ArrayList<Armor>();
+    public static Map<String, Item> Items = new HashMap<>();
+//    public static Map<String, Weapon> Weapons = new HashMap<>();
+    public static Map<String, Armor> Armor = new HashMap<>();
 
     private MainMenuBinding binding;
 
@@ -129,7 +130,7 @@ public class MainMenu extends Fragment {
                     JSONObject jsonObject = new JSONObject(jsonString);
                     boolean hasSubraces = false;
 
-                    Races.add(new Race(
+                    Races.put(jsonObject.getString("name"), new Race(
                         jsonObject.getString("name"),
                         jsonObject.getInt("ac"),
                         jsonObject.getJSONObject("speed").getInt("normal"),
@@ -181,7 +182,7 @@ public class MainMenu extends Fragment {
                         materialCost = jsonObject.getJSONObject("components").getString("raw").substring(jsonObject.getJSONObject("components").getString("raw").indexOf("("));
                     }
 
-                    Spells.add(new Spell(
+                    Spells.put(jsonObject.getString("name"), new Spell(
                         jsonObject.getString("casting_time"),
                         toStringArray(jsonObject.getJSONArray("classes")),
                         jsonObject.getJSONObject("components").getBoolean("verbal"),
@@ -219,6 +220,7 @@ public class MainMenu extends Fragment {
                     inputStream.read(buffer);
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    Log.d("Jason, how ya doing?", jsonString);
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Map<Integer, String> DescModels = new HashMap<>();
 
@@ -226,7 +228,7 @@ public class MainMenu extends Fragment {
                         DescModels.put(jsonObject.getJSONArray("descriptionModels").getJSONObject(i).getInt("level"), jsonObject.getJSONArray("descriptionModels").getString(i));
                     }
 
-                    Features.add(new Feature(
+                    Features.put(jsonObject.getString("name"), new Feature(
                         jsonObject.getString("name"),
                         DescModels
                     ));
@@ -254,7 +256,7 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    Items.add(new Item(
+                    Items.put(jsonObject.getString("name"), new Item(
                         jsonObject.getString("name"),
                         jsonObject.getString("description"),
                         jsonObject.getBoolean("isAmmunition"),
@@ -295,7 +297,7 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    Armor.add(new Armor(
+                    Armor.put(jsonObject.getString("name"), new Armor(
                             jsonObject.getString("name"),
                             jsonObject.getString("category"),
                             jsonObject.getInt("cost"),
@@ -332,18 +334,15 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    Armor.add(new Armor(
+                    Classes.put(jsonObject.getString("name"), new CharacterClass(
                             jsonObject.getString("name"),
-                            jsonObject.getString("category"),
-                            jsonObject.getInt("cost"),
-                            jsonObject.getString("description"),
-                            jsonObject.getBoolean("isAttuned"),
-                            jsonObject.getBoolean("isCustom"),
-                            jsonObject.getBoolean("isProficient"),
-                            jsonObject.getInt("maxModifierBonus"),
-                            jsonObject.getString("modifierFormatted"),
-                            jsonObject.getBoolean("stealthDisadvantage"),
-                            jsonObject.getInt("weight")
+                            jsonObject.getString("hitDice"),
+                            toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
+                            jsonObject.getInt("attacksByLevel"),
+                            jsonObject.getInt("baseAC"),
+                            toStringArray(jsonObject.getJSONArray("baseClassSkills")),
+                            toStringArray(jsonObject.getJSONArray("selectableClassSkills")),
+                            jsonObject.getInt("selectableSkillCount")
                     ));
                 }
             }
@@ -357,9 +356,19 @@ public class MainMenu extends Fragment {
     private String[] toStringArray(JSONArray array) {
         if(array==null)
             return null;
-        String[] arr=new String[array.length()];
+        String[] arr = new String[array.length()];
         for(int i=0; i<arr.length; i++) {
             arr[i]=array.optString(i);
+        }
+        return arr;
+    }
+
+    private Armor[] toArmorArray(JSONArray array) throws JSONException {
+        if(array==null)
+            return null;
+        Armor[] arr = new Armor[array.length()];
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = Armor.get(array.optString(i));
         }
         return arr;
     }

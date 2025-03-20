@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level","level": 4}],
-"id": "Custom3d2c0cb1-21a2-4ac5-974f-fd412d67aedf","isFeature": true,"jsonType": "feat","level": 1,"name": "Slow Fall","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level",
+            "level": 4
+        }
+    ],
+    "id": "Custom3d2c0cb1-21a2-4ac5-974f-fd412d67aedf",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Slow Fall",
+    "notes": "",
+    "type": "Feat"
+}

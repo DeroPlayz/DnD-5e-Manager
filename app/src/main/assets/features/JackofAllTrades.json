@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus","level": 2}],
-"id": "Custom874d4fd8-60ef-46c6-a1af-744713a8193a","isFeature": true,"jsonType": "feat","level": 1,"name": "Jack of All Trades","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus",
+            "level": 2
+        }
+    ],
+    "id": "Custom874d4fd8-60ef-46c6-a1af-744713a8193a",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Jack of All Trades",
+    "notes": "",
+    "type": "Feat"
+}

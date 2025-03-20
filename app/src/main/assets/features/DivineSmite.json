@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell-level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8","level": 2}],
-"id": "Customddc9094d-52cf-4347-85db-522266deef6d","isFeature": true,"jsonType": "feat","level": 1,"name": "Divine Smite","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell-level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8",
+            "level": 2
+        }
+    ],
+    "id": "Customddc9094d-52cf-4347-85db-522266deef6d",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Divine Smite",
+    "notes": "",
+    "type": "Feat"
+}

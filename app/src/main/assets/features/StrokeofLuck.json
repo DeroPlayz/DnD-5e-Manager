@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest","level": 20}],
-"id": "Custom7f97e8cd-c50e-4edc-be3a-ba5279e36429","isFeature": true,"jsonType": "feat","level": 1,"name": "Stroke of Luck","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest",
+            "level": 20
+        }
+    ],
+    "id": "Custom7f97e8cd-c50e-4edc-be3a-ba5279e36429",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Stroke of Luck",
+    "notes": "",
+    "type": "Feat"
+}

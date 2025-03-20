@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "At 3rd level, you choose an archetype that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level","level": 3}],
-"id": "Custom20abd13b-8c05-4f5a-a0fa-952b0bfa7889","isFeature": true,"jsonType": "feat","level": 1,"name": "Ranger Archetype","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "At 3rd level, you choose an archetype that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level",
+            "level": 3
+        }
+    ],
+    "id": "Custom20abd13b-8c05-4f5a-a0fa-952b0bfa7889",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Ranger Archetype",
+    "notes": "",
+    "type": "Feat"
+}

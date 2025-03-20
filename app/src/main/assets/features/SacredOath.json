@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "When you reach 3rd level, you swear the oath that binds you as a paladin forever. Your choice grants you features at 3rd level and again at 5th, 7th, 9th, 13th, 15th, 17th, and 20th level.\n\nOath Spells:\nEach oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day. If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.\n\nChannel Divinity:\nYour oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC","level": 3}],
-"id": "Custom631f04b6-a265-4203-a4e3-6d5e7409fabc","isFeature": true,"jsonType": "feat","level": 1,"name": "Sacred Oath","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "When you reach 3rd level, you swear the oath that binds you as a paladin forever. Your choice grants you features at 3rd level and again at 5th, 7th, 9th, 13th, 15th, 17th, and 20th level.\n\nOath Spells:\nEach oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day. If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.\n\nChannel Divinity:\nYour oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC",
+            "level": 3
+        }
+    ],
+    "id": "Custom631f04b6-a265-4203-a4e3-6d5e7409fabc",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Sacred Oath",
+    "notes": "",
+    "type": "Feat"
+}

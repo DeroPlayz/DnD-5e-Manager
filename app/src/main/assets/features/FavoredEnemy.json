@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Choose a type of favored enemy: beasts, humanoids, fey, monstrosities or undead.\n\nYou gain +2 to damage rolls against these creatures and have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them. When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.","level": 1}],
-"id": "Custom0e4eca2d-30fe-4855-ac27-797391c15825","isFeature": true,"jsonType": "feat","level": 1,"name": "Favored Enemy","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Choose a type of favored enemy: beasts, humanoids, fey, monstrosities or undead.\n\nYou gain +2 to damage rolls against these creatures and have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them. When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+            "level": 1
+        }
+    ],
+    "id": "Custom0e4eca2d-30fe-4855-ac27-797391c15825",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Favored Enemy",
+    "notes": "",
+    "type": "Feat"
+}

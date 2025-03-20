@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "When you attempt to hide on your turn, you can opt not to move. If you avoid moving, creatures that attempt to detect you take a -10 to their Wisdom (Perception) checks until the end of your next turn. You lose this benefit if you move or fall prone, either voluntaringly or through some external force. You are still automatically detected if any effect or action causes you to no longer be hidden.\n\nIf you remain to be hidden until your next turn, you can continue to remain motionless and gain this benefit until you are detected. ","level": 10}],
-"id": "Custom86cce0ee-9602-47fb-931c-6db2f32fa30e","isFeature": true,"jsonType": "feat","level": 1,"name": "Hide in Plain Sight","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "When you attempt to hide on your turn, you can opt not to move. If you avoid moving, creatures that attempt to detect you take a -10 to their Wisdom (Perception) checks until the end of your next turn. You lose this benefit if you move or fall prone, either voluntaringly or through some external force. You are still automatically detected if any effect or action causes you to no longer be hidden.\n\nIf you remain to be hidden until your next turn, you can continue to remain motionless and gain this benefit until you are detected. ",
+            "level": 10
+        }
+    ],
+    "id": "Custom86cce0ee-9602-47fb-931c-6db2f32fa30e",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Hide in Plain Sight",
+    "notes": "",
+    "type": "Feat"
+}

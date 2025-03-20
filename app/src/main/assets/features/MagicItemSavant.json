@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Your skill with magic items deepens more:\n- You can attune to up to five magic items at once.\n- You Ignore all class, race, spell, and level require ments on attuning to or using a magic item.","level": 14}],
-"id": "Custom8a9fc489-f8c4-49d0-b54b-e38dc96a53be","isFeature": true,"jsonType": "feat","level": 1,"name": "Magic Item Savant","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Your skill with magic items deepens more:\n- You can attune to up to five magic items at once.\n- You Ignore all class, race, spell, and level require ments on attuning to or using a magic item.",
+            "level": 14
+        }
+    ],
+    "id": "Custom8a9fc489-f8c4-49d0-b54b-e38dc96a53be",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Magic Item Savant",
+    "notes": "",
+    "type": "Feat"
+}

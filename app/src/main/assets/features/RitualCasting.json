@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You can cast any Bard Spell as a ritual if the Spell has a ritual tag","level": 1}],
-"id": "Custom6a4a4547-8b7f-4d94-abf1-c33bd1162f45","isFeature": true,"jsonType": "feat","level": 1,"name": "Ritual Casting","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You can cast any Bard Spell as a ritual if the Spell has a ritual tag",
+            "level": 1
+        }
+    ],
+    "id": "Custom6a4a4547-8b7f-4d94-abf1-c33bd1162f45",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Ritual Casting",
+    "notes": "",
+    "type": "Feat"
+}

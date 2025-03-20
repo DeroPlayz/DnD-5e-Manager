@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You learn how to produce exactly the tool you need: with tinker's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.","level": 3}],
-"id": "Custom9714f185-6ac7-4da2-802d-6c7838625ce0","isFeature": true,"jsonType": "feat","level": 1,"name": "The Right Tool for the Job","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You learn how to produce exactly the tool you need: with tinker's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.",
+            "level": 3
+        }
+    ],
+    "id": "Custom9714f185-6ac7-4da2-802d-6c7838625ce0",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "The Right Tool for the Job",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,0 +1,19 @@
+{
+    "armor": 14,
+    "category": "Medium Armor",
+    "cost": "400 gp",
+    "description": "",
+    "equipped": false,
+    "id": "6",
+    "isAttuned": false,
+    "isCustom": false,
+    "isProficient": false,
+    "jsonType": "armor",
+    "maxModifierBonus": 2,
+    "modifierFormatted": "Dexterity",
+    "name": "Breastplate",
+    "pinned": false,
+    "stealthDisadvantage": false,
+    "typeName": "Breastplate",
+    "weight": "20 lb."
+}

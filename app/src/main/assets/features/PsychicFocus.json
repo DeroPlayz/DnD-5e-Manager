@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit. You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines","level": 1}],
-"id": "Customdf6691b3-190d-45f9-80a0-c7f5dc50fa62","isFeature": true,"jsonType": "feat","level": 1,"name": "Psychic Focus","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit. You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines",
+            "level": 1
+        }
+    ],
+    "id": "Customdf6691b3-190d-45f9-80a0-c7f5dc50fa62",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Psychic Focus",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Your understanding of magic items is\runmatched, allowing you to mingle your soul with items\rlinked to you. You can attune to up to six magic items at once.\r\nIn addition, you gain a +1 bonus to all saving throws per\rmagic item you are currently attuned to","level": 20}],
-"id": "Custom7c512846-38ee-413c-8bfe-10e11dafb75f","isFeature": true,"jsonType": "feat","level": 1,"name": "Soul of Artifice","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Your understanding of magic items is\runmatched, allowing you to mingle your soul with items\rlinked to you. You can attune to up to six magic items at once.\r\nIn addition, you gain a +1 bonus to all saving throws per\rmagic item you are currently attuned to",
+            "level": 20
+        }
+    ],
+    "id": "Custom7c512846-38ee-413c-8bfe-10e11dafb75f",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Soul of Artifice",
+    "notes": "",
+    "type": "Feat"
+}

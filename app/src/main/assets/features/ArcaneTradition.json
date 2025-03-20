@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of several schools.\n\nYour choice grants you features at 2nd level and again at 6th, 10th, and 14th level","level": 2}],
-"id": "Custom30a2054e-6d6e-4f01-82b9-0fadab98c262","isFeature": true,"jsonType": "feat","level": 1,"name": "Arcane Tradition","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of several schools.\n\nYour choice grants you features at 2nd level and again at 6th, 10th, and 14th level",
+            "level": 2
+        }
+    ],
+    "id": "Custom30a2054e-6d6e-4f01-82b9-0fadab98c262",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Arcane Tradition",
+    "notes": "",
+    "type": "Feat"
+}

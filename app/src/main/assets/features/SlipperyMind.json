@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You gain proficiency in Wisdom saving throws","level": 15}],
-"id": "Custom93aa5ba6-9126-4727-9238-9d3b777c7678","isFeature": true,"jsonType": "feat","level": 1,"name": "Slippery Mind","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You gain proficiency in Wisdom saving throws",
+            "level": 15
+        }
+    ],
+    "id": "Custom93aa5ba6-9126-4727-9238-9d3b777c7678",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Slippery Mind",
+    "notes": "",
+    "type": "Feat"
+}

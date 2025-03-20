@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Primal Rites\nChoose from the following: Rite of the Flame, Rite of the Frozen, Rite of the Storm\n\nEsoteric Rites\nChoose from the following: Rite of the Roar, Rite of the Oracle, Rite of the Dead\n\nRite of the Dead --> Your rite damage is necrotic type.\n\nRite of the Flame --> Your rite damage is fire type.\n\nRite of the Frozen --> Your rite damage is cold type.\n\nRite of the Oracle --> Your rite damage is psychic type.\n\nRite of the Roar --> Your rite damage is thunder type.\n\nRite of the Storm --> Your rite damage is lightning type","level": 1}],
-"id": "Customb04e433c-0f25-4694-9bca-86cb711ab4ce","isFeature": true,"jsonType": "feat","level": 1,"name": "Primal Rite List","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "Primal Rites\nChoose from the following: Rite of the Flame, Rite of the Frozen, Rite of the Storm\n\nEsoteric Rites\nChoose from the following: Rite of the Roar, Rite of the Oracle, Rite of the Dead\n\nRite of the Dead --> Your rite damage is necrotic type.\n\nRite of the Flame --> Your rite damage is fire type.\n\nRite of the Frozen --> Your rite damage is cold type.\n\nRite of the Oracle --> Your rite damage is psychic type.\n\nRite of the Roar --> Your rite damage is thunder type.\n\nRite of the Storm --> Your rite damage is lightning type",
+            "level": 1
+        }
+    ],
+    "id": "Customb04e433c-0f25-4694-9bca-86cb711ab4ce",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Primal Rite List",
+    "notes": "",
+    "type": "Feat"
+}

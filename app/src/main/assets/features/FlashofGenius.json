@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You gain the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll. \nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.","level": 7}],
-"id": "Custom9f7cdac9-f327-40ff-a480-c08b3a2b67c8","isFeature": true,"jsonType": "feat","level": 1,"name": "Flash of Genius","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You gain the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll. \nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.",
+            "level": 7
+        }
+    ],
+    "id": "Custom9f7cdac9-f327-40ff-a480-c08b3a2b67c8",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Flash of Genius",
+    "notes": "",
+    "type": "Feat"
+}

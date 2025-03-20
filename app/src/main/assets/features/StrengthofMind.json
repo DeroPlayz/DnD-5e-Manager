@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You can replace your proficiency in Wisdom saving throws whenever you finish a short or long rest. To do so, choose Strength, Dexterity, Constitution, or Charisma. You gain proficiency in saves using that ability, instead of Wisdom. This change lasts until you finish your next short or long rest","level": 4}],
-"id": "Custom2a44ab67-5a96-4514-ac61-8e99f989c76b","isFeature": true,"jsonType": "feat","level": 1,"name": "Strength of Mind","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You can replace your proficiency in Wisdom saving throws whenever you finish a short or long rest. To do so, choose Strength, Dexterity, Constitution, or Charisma. You gain proficiency in saves using that ability, instead of Wisdom. This change lasts until you finish your next short or long rest",
+            "level": 4
+        }
+    ],
+    "id": "Custom2a44ab67-5a96-4514-ac61-8e99f989c76b",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Strength of Mind",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "The divine magic flowing through you makes you immune to disease","level": 3}],
-"id": "Custome8bd574f-c074-4951-abe3-060add2895af","isFeature": true,"jsonType": "feat","level": 1,"name": "Divine Health","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "The divine magic flowing through you makes you immune to disease",
+            "level": 3
+        }
+    ],
+    "id": "Custome8bd574f-c074-4951-abe3-060add2895af",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Divine Health",
+    "notes": "",
+    "type": "Feat"
+}

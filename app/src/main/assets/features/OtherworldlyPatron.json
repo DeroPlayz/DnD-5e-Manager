@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You have struck a bargain with an otherworldly being of your choice. Your choice grants you special features","level": 1}],
-"id": "Customca1aa457-70fd-4690-bac0-40c79d1b4b30","isFeature": true,"jsonType": "feat","level": 1,"name": "Otherworldly Patron","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You have struck a bargain with an otherworldly being of your choice. Your choice grants you special features",
+            "level": 1
+        }
+    ],
+    "id": "Customca1aa457-70fd-4690-bac0-40c79d1b4b30",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Otherworldly Patron",
+    "notes": "",
+    "type": "Feat"
+}

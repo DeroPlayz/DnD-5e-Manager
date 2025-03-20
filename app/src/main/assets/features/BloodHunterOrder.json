@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, Order of the Profane Soul, or Order of the Lycan, all detailed at the end of the class description. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level","level": 3}],
-"id": "Custom2344963c-a8f1-453c-b6c9-f0afcefed2df","isFeature": true,"jsonType": "feat","level": 1,"name": "Blood Hunter Order","notes": "","type": "Feat"}
+{
+    "descriptionModels": [
+        {
+            "description": "You commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, Order of the Profane Soul, or Order of the Lycan, all detailed at the end of the class description. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level",
+            "level": 3
+        }
+    ],
+    "id": "Custom2344963c-a8f1-453c-b6c9-f0afcefed2df",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Blood Hunter Order",
+    "notes": "",
+    "type": "Feat"
+}

@@ -6,6 +6,7 @@ import static com.example.dnd5emanager.MainMenu.Races;
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
@@ -25,6 +26,9 @@ import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -54,6 +58,8 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Intelligence;
     private TextView Wisdom;
     private TextView Charisma;
+
+    String[] RaceArray;
 
     private ArrayAdapter<String> Adapter;
     TextView RacialStrengthBonus;
@@ -104,10 +110,9 @@ public class CharacterCreatorPageOne extends Fragment {
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
         Charisma.setOnFocusChangeListener(textChanges);
 
-        String[] RaceArray = new String[Races.size()];
-        for(int i = 0; i < Races.size(); i++){
-            RaceArray[i] = Races.get(i).getName();
-        }
+        RaceArray = Races.keySet().toArray(new String[0]);
+        Arrays.sort(RaceArray);
+        Log.d("Race Array", Arrays.toString(RaceArray));
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Race.setAdapter(Adapter);
@@ -125,9 +130,8 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
                     for (int i = 0; i < Races.size(); i++) {
-//                        Log.d("Race Length:", i + " out of " + Races.size());
-                        if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-                            if (!Races.get(i).getHasSubraces()) {
+                        if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
+                            if (!Objects.requireNonNull(Races.get(RaceArray[i])).getHasSubraces()) {
                                 Subrace.setEnabled(false);
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
@@ -158,14 +162,14 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneMaximumHealth.setOnClickListener(v ->{
             updateClass();
-            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDie());
+//            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
         binding.characterCreatorPageOneRollHealth.setOnClickListener(v -> {
             updateClass();
-            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().rollInitialHealth());
+//            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().rollInitialHealth());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
@@ -330,8 +334,8 @@ public class CharacterCreatorPageOne extends Fragment {
     @SuppressLint("SetTextI18n")
     public void updateRace(View view) {
         for (int i = 0; i < Races.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(Races.get(i).getName())) {
-                NewCharacter.setRace(Races.get(i));
+            if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
+                NewCharacter.setRace(Races.get(RaceArray[i]));
 //                Log.d("Race", "Found");
             }
         }
