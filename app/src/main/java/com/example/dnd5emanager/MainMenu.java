@@ -102,7 +102,7 @@ public class MainMenu extends Fragment {
     }
 
     public void parseRaces(Context context, String dir) {
-//        Log.d("Jason", "He was just born.");
+        //Log.d("Jason", "He was just born.");
         AssetManager AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -119,31 +119,32 @@ public class MainMenu extends Fragment {
                     boolean hasSubraces = false;
 
                     Races.add(new Race(
-                            jsonObject.getString("name"),
-                            jsonObject.getInt("ac"),
-                            jsonObject.getJSONObject("speed").getInt("normal"),
-                            jsonObject.getJSONObject("speed").getInt("fly"),
-                            jsonObject.getJSONObject("speed").getInt("climb"),
-                            jsonObject.getJSONObject("speed").getInt("swim"),
-                            jsonObject.getJSONObject("speed").getInt("burrow"),
-                            jsonObject.getJSONObject("abilityScores").getInt("str"),
-                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
-                            jsonObject.getJSONObject("abilityScores").getInt("con"),
-                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
-                            jsonObject.getJSONObject("abilityScores").getInt("cha"),
-                            hasSubraces
+                        jsonObject.getString("name"),
+                        jsonObject.getInt("ac"),
+                        jsonObject.getJSONObject("speed").getInt("normal"),
+                        jsonObject.getJSONObject("speed").getInt("fly"),
+                        jsonObject.getJSONObject("speed").getInt("climb"),
+                        jsonObject.getJSONObject("speed").getInt("swim"),
+                        jsonObject.getJSONObject("speed").getInt("burrow"),
+                        jsonObject.getJSONObject("abilityScores").getInt("str"),
+                        jsonObject.getJSONObject("abilityScores").getInt("dex"),
+                        jsonObject.getJSONObject("abilityScores").getInt("con"),
+                        jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
+                        jsonObject.getJSONObject("abilityScores").getInt("wis"),
+                        jsonObject.getJSONObject("abilityScores").getInt("cha"),
+                        hasSubraces
                     ));
                 }
             }
-        } catch (IOException | JSONException e) {
+        }
+        catch (IOException | JSONException e){
             Log.d("Jason?", "He's dead.");
             throw new RuntimeException(e);
         }
     }
 
     public void parseSpells(Context context, String dir) {
-//        Log.d("Jason", "He was just born.");
+        //Log.d("Jason", "He was just born.");
         AssetManager AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -168,51 +169,78 @@ public class MainMenu extends Fragment {
                     if(jsonObject.getJSONObject("components").getString("raw").contains("(")){
                         materialCost = jsonObject.getJSONObject("components").getString("raw").substring(jsonObject.getJSONObject("components").getString("raw").indexOf("("));
                     }
+
                     Spells.add(new Spell(
-                            jsonObject.getString("casting_time"),
-                            toStringArray(jsonObject.getJSONArray("classes")),
-                            jsonObject.getJSONObject("components").getBoolean("verbal"),
-                            jsonObject.getJSONObject("components").getBoolean("somatic"),
-                            jsonObject.getJSONObject("components").getBoolean("material"),
-                            materialCost,
-                            jsonObject.getString("description"),
-                            jsonObject.getString("duration"),
-                            level,
-                            jsonObject.getString("name"),
-                            jsonObject.getString("range"),
-                            jsonObject.getBoolean("ritual"),
-                            jsonObject.getString("school")
+                        jsonObject.getString("casting_time"),
+                        toStringArray(jsonObject.getJSONArray("classes")),
+                        jsonObject.getJSONObject("components").getBoolean("verbal"),
+                        jsonObject.getJSONObject("components").getBoolean("somatic"),
+                        jsonObject.getJSONObject("components").getBoolean("material"),
+                        materialCost,
+                        jsonObject.getString("description"),
+                        jsonObject.getString("duration"),
+                        level,
+                        jsonObject.getString("name"),
+                        jsonObject.getString("range"),
+                        jsonObject.getBoolean("ritual"),
+                        jsonObject.getString("school")
                     ));
                 }
             }
-        } catch (IOException | JSONException e) {
+        }
+        catch (IOException | JSONException e){
             Log.d("Jason?", "He's dead.");
             throw new RuntimeException(e);
         }
     }
 
-//    public void processJSONObject(JSONObject jsonObject, String filename) throws JSONException{
-//        String name = jsonObject.getString("name");
-//        int ac = jsonObject.getInt("ac");
-//
-//    }
-
-//    public int countFiles(String directoryPath) {
-//        AssetManager AM = requireContext().getAssets();
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-//            AM.list("assets")
-//        }
-//    }
+    public void parseBackgrounds(Context context, String dir) {
+        //Log.d("Jason", "He was just born.");
+        AssetManager AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    
+                    Backgrounds.add(new Background(
+                        jsonObject.getString("name"),
+                        toStringArray(jsonObject.getJSONArray("classes")),
+                        jsonObject.getJSONObject("components").getBoolean("verbal"),
+                        jsonObject.getJSONObject("components").getBoolean("somatic"),
+                        jsonObject.getJSONObject("components").getBoolean("material"),
+                        materialCost,
+                        jsonObject.getString("description"),
+                        jsonObject.getString("duration"),
+                        level,
+                        jsonObject.getString("name"),
+                        jsonObject.getString("range"),
+                        jsonObject.getBoolean("ritual"),
+                        jsonObject.getString("school")
+                    ));
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
 
     private String[] toStringArray(JSONArray array) {
         if(array==null)
             return null;
-
         String[] arr=new String[array.length()];
         for(int i=0; i<arr.length; i++) {
             arr[i]=array.optString(i);
         }
         return arr;
     }
-
 }

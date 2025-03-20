@@ -33,7 +33,8 @@ def convert_cah_to_json(directory):
                     print(f"Error processing {cah_filepath}: {e}")
 
 if __name__ == "__main__":
-    directory_to_scan = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets"
+    # directory_to_scan = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets"
+    directory_to_scan = "/workspaces/capstoneproject-e5-studios/app/src/main/assets"
     if os.path.exists(directory_to_scan):
         convert_cah_to_json(directory_to_scan)
     else:
