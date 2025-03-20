@@ -1,0 +1,109 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point)",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom8b5b1ba4-7b87-46e0-ad0b-2fc80028d9be",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Touch of Death",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom788c7b77-c81c-4ae7-a2f4-5c796d111931",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hour of Reaping",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead",
+                        "level": 11
+                    }
+                ],
+                "id": "Customd7d00e4a-1862-4ff6-b181-fe5002b4c51d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mastery of Death",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you touch one creature within 5 feet of you, and expend 1 to 10 ki points. The target must make a Constitution saving throw. On a failed save, it takes 2d10 necrotic damage per ki point spent on a failed save, or half as much on a successful one",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom39d688ab-8233-4eff-9f17-931acba4de36",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Touch of the Long Death",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "monk_way_of_the_long_death",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Way of the Long Death",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "unarmoredDefense": "Wisdom",
+    "weaponProficiencies": []
+}

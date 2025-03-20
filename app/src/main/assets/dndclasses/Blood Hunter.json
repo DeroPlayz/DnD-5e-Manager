@@ -1,0 +1,894 @@
+{
+    "acModifier": "DEX",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 2,
+            "level": 5
+        },
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "A Martial Weapon",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Simple Weapon",
+                    "number": 2
+                }
+            ],
+            "id": "567d03f9-6968-4b9e-acd0-a03fd986acb1"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow and 20 Bolts",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Hand Crossbow and 20 Bolts",
+                    "number": 1
+                }
+            ],
+            "id": "71d94c10-dc82-4a1e-86ae-1641310f63a6"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Studded Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Scale Mail Armor",
+                    "number": 1
+                }
+            ],
+            "id": "23f3f00f-3ade-4f01-8f2d-1d5bb7166c3f"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "3af97b9d-a739-4757-a854-3fc3e5a0dda6"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "d3c295ea-bbae-45b8-9e8d-76908da29d0f",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Acrobatics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Survival",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have survived the imbibing of the Hunter\u2019s Bane, a poisonous alchemical concoction that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.",
+                        "level": 1
+                    },
+                    {
+                        "description": "You have survived the imbibing of the Hunter\u2019s Bane, a poisonous alchemical concoction that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it.\n\nYou have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.\n\nUpon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check",
+                        "level": 11
+                    }
+                ],
+                "id": "Customb84ac749-0af4-4b5b-a819-3352d710f3a8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hunter's Bane",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required)",
+                        "level": 1
+                    },
+                    {
+                        "description": "You learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d6 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required)",
+                        "level": 5
+                    },
+                    {
+                        "description": "You learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d6 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).\n\nYou gain access to an additional Primal Rite at 6th level",
+                        "level": 6
+                    },
+                    {
+                        "description": "You learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d8 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).\n\nYou gain access to an additional Primal Rite at 6th level and 11th level",
+                        "level": 11
+                    },
+                    {
+                        "description": "You learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d8 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).\n\nYou gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level",
+                        "level": 14
+                    },
+                    {
+                        "description": "You learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.\n\nAs a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d10 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.\n\nWhen a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.\n\nCrimson rite can be used on multiple weapons, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).\n\nYou gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom5752b4e2-cbbd-4706-9f93-538f2d742edb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Crimson Rite",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Primal Rites\nChoose from the following: Rite of the Flame, Rite of the Frozen, Rite of the Storm\n\nEsoteric Rites\nChoose from the following: Rite of the Roar, Rite of the Oracle, Rite of the Dead\n\nRite of the Dead --> Your rite damage is necrotic type.\n\nRite of the Flame --> Your rite damage is fire type.\n\nRite of the Frozen --> Your rite damage is cold type.\n\nRite of the Oracle --> Your rite damage is psychic type.\n\nRite of the Roar --> Your rite damage is thunder type.\n\nRite of the Storm --> Your rite damage is lightning type",
+                        "level": 1
+                    }
+                ],
+                "id": "Customb04e433c-0f25-4694-9bca-86cb711ab4ce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Primal Rite List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You adopt a style of fighting as your specialty. Choose one of the following options. You can\u2019t take a Fighting Style option more than once, even if you later get to choose again",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom745919e1-fbe8-4f59-bf83-5c654b84b525",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fighting Style",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest",
+                        "level": 2
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest",
+                        "level": 5
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests",
+                        "level": 6
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th, and 9th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests",
+                        "level": 9
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th, and 9th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests",
+                        "level": 11
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th, 9th and 13th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests",
+                        "level": 13
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th, 9th, 13th and 16th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests",
+                        "level": 16
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th, 9th, 13th and 16th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests, and at 17th level, you can use it four times between rests",
+                        "level": 17
+                    },
+                    {
+                        "description": "You gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the \u201cblood curses\u201d section. You learn one additional blood curse of your choice, and you can choose one of the blood curses you know and replace it with another blood curse, at 5th, 9th, 13th, 16th, and 20th level.\n\nWhen you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to amplify the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood in their bodies are immune to blood curses (DM\u2019s discretion).\n\nYou can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests, and at 17th level, you can use it four times between rests",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom17d48fde-61c8-4aa0-a9a9-5ba3b0cf9dc5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blood Maledict",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Blood Curse of Binding:\nAs a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.\n\nAmplify: This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).\n\nBlood Curse of Mutual Suffering:\nAs a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.\n\nAmplify: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance.\n\nBlood Curse of Purgation:\nAs a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.\n\nAmplify: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed.\n\nBlood Curse of Spell Sunder:\nWhen an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.\n\nAmplify: You make a Wisdom ability check. The DC equals 10 + the spell\u2019s level. On a success, the creature\u2019s spell misses you automatically.\n\nBlood Curse of the Eyeless:\nWhen an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.\n\nAmplify: Following the triggering attack, the affected enemy has disadvantage on the next attack roll they make.\n\nBlood Curse of the Fallen Puppet:\nThe moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.\n\nAmplify: You grant a bonus to the attack roll and damage roll of the cursed creature\u2019s attack equal to your Wisdom modifier (minimum of 1).\n\nBlood Curse of the Fending Rite:\nWhen an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equal to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.\n\nAmplify: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.\n\nBlood Curse of the Marked:\nAs a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.\n\nAmplify: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn",
+                        "level": 1
+                    }
+                ],
+                "id": "Customb31ade9d-af56-46de-b341-b01c6cebd778",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blood Curses List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, Order of the Profane Soul, or Order of the Lycan, all detailed at the end of the class description. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom2344963c-a8f1-453c-b6c9-f0afcefed2df",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blood Hunter Order",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn",
+                        "level": 5
+                    }
+                ],
+                "id": "Custom27f108c2-71ed-460d-8510-214096f329ab",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Extra Attack",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make a Wisdom ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints toward a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details. You cannot use this feature again until you finish a short or long rest",
+                        "level": 9
+                    }
+                ],
+                "id": "Customc20b2b4b-965e-4c22-992d-9611bdd45ab1",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Grim Psychometry",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You beckon the surrounding shadows to grant you unnatural swiftness on the battlefield. You gain darkvision out to 30 feet, or if you have darkvision, extend it out an additional 30 feet. While in dim light or darkness, your speed increases by 10 feet, and attacks of opportunity made against you have disadvantage",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom7f6751ff-a45d-4777-a62f-b2872d16a826",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Dark Velocity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can no longer become frightened, and you have advantage on saving throws against magical Charm effects",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom59b0027e-778a-4c32-9042-04028ebfb5b8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hardened Soul",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your ability to harness your pain, and the pain of your foes, is perfected. When you are below one fourth of your current maximum hit points, all of your crimson rite damage dice are maximized.\n\nIn addition, when you critically hit with a weapon attack that bears your crimson rite, you regain a use of your Blood Maledict feature",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom82e9a89c-fd6d-4cc7-8d12-d6c774464311",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sanguine Mastery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hitDie": "D10",
+    "hpModifier": "CON",
+    "id": "blood_hunter",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Blood Hunter",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": false,
+        "intelligence": false,
+        "str": true,
+        "wis": true
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 1
+                },
+                {
+                    "amount": 2,
+                    "level": 6
+                },
+                {
+                    "amount": 3,
+                    "level": 11
+                },
+                {
+                    "amount": 4,
+                    "level": 14
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Esoteric Rite. Your rite damage is necrotic type",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Custom8e8cfa65-20f3-493c-bc06-3d81d059fa31",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rite of the Dead",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 14
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Your rite damage is fire type",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom84715862-a798-4832-8d3b-b86e8eb3f05d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rite of the Flame",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Your rite damage is cold type",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom019ca20c-2095-4d0c-86c0-3438e7eef147",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rite of the Frozen",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Esoteric Rite. Your rite damage is psychic type",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Custom4592b9db-dccd-4c84-a21d-a2aa67503405",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rite of the Oracle",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 14
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Esoteric Rite. Your rite damage is thunder type",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Customcc5a0fad-1547-404e-8d0d-3324c23b8422",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rite of the Roar",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 14
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Your rite damage is lightning type",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom8d0dbacc-2712-4f17-9579-3c4780618262",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rite of the Storm",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "603f54f7-b34c-4ce5-895d-0c04ea0fbc3b",
+            "name": "Primal Rite",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 2
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom6a7d7d8c-091d-47c1-b918-410dbd4278b3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customb0c50c97-a12d-4d8c-832c-734e8667c855",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dueling",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom52e3c67e-3eef-44d7-9a82-cdc15ab7362b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Great Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customfb5d7c7c-6cab-4bd5-a5ab-a710dac8bb7f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Two-Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "56c6f20b-a442-497b-919c-f9ebc773d812",
+            "name": "Fighting Style",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 2
+                },
+                {
+                    "amount": 2,
+                    "level": 5
+                },
+                {
+                    "amount": 3,
+                    "level": 9
+                },
+                {
+                    "amount": 4,
+                    "level": 13
+                },
+                {
+                    "amount": 5,
+                    "level": 16
+                },
+                {
+                    "amount": 6,
+                    "level": 20
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.\n\nAmplify: This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required)",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom73dbe818-bd6b-4910-adcc-36d635e54b21",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of Binding",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.\n\nAmplify: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom04359925-d597-4180-a563-7c658c78f12d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of Mutual Suffering",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.\n\nAmplify: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customc7609378-33d4-46a2-859d-2ffbe736fab5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of Purgation",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.\n\nAmplify: You make a Wisdom ability check. The DC equals 10 + the spell\u2019s level. On a success, the creature\u2019s spell misses you automatically",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom78ee9cd0-b101-4374-a003-7b699e4cafff",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of Spell Sunder",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.\n\nAmplify: Following the triggering attack, the affected enemy has disadvantage on the next attack roll they make",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom1c350a2d-f2e7-4e5f-a25d-a67728f49cc3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of the Eyeless",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.\n\nAmplify: You grant a bonus to the attack roll and damage roll of the cursed creature\u2019s attack equal to your Wisdom modifier (minimum of 1)",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom092f73a0-1fd7-4b7b-be99-68323f1fe4b7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of the Fallen Puppet",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equal to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.\n\nAmplify: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom168ceb8f-0082-4c1b-87d2-110daf3d7811",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of the Fending Rite",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.\n\nAmplify: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customa37274e1-6c35-4a5d-b5ba-1cef23010be3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blood Curse of the Marked",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": true,
+            "id": "4e7582f9-b1b4-462a-86cb-4929deab320e",
+            "name": "Known Blood Curses",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "associatedValue": "1d4",
+                    "level": 2
+                },
+                {
+                    "amount": 1,
+                    "associatedValue": "1d6",
+                    "level": 5
+                },
+                {
+                    "amount": 2,
+                    "associatedValue": "1d6",
+                    "level": 6
+                },
+                {
+                    "amount": 3,
+                    "associatedValue": "1d8",
+                    "level": 11
+                },
+                {
+                    "amount": 4,
+                    "associatedValue": "1d10",
+                    "level": 17
+                }
+            ],
+            "associatedValueName": "Crimson Rite Dice",
+            "id": "2bd82b1e-1b29-48b5-9cd2-734cb3a22903",
+            "name": "Blood Maledict Uses",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "WIS",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Alchemist's supplies"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

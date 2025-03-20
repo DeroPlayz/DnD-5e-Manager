@@ -1,0 +1,385 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.\n\n- Honesty: Don't lie or cheat. Let your word be your promise.\n\n- Courage: Never fear to act, though caution is wise.\n\n- Compassion: Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.\n\n- Honor: Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible, while causing the least amount of harm.\n\n- Duty: Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom50cb4f00-89b0-449b-b173-0300e7adacc3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tenets of Devotion",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "3rd \t--> Protection from Evil and Good, Sanctuary",
+                        "level": 3
+                    },
+                    {
+                        "description": "3rd \t--> Protection from Evil and Good, Sanctuary\n5th \t--> Lesser Restoration, Zone of Truth",
+                        "level": 5
+                    },
+                    {
+                        "description": "3rd \t--> Protection from Evil and Good, Sanctuary\n5th \t--> Lesser Restoration, Zone of Truth\n9th \t--> Beacon of Hope, Dispel Magic",
+                        "level": 9
+                    },
+                    {
+                        "description": "3rd \t--> Protection from Evil and Good, Sanctuary\n5th \t--> Lesser Restoration, Zone of Truth\n9th \t--> Beacon of Hope, Dispel Magic\n13th\t--> Freedom of Movement, Guardian of Faith",
+                        "level": 13
+                    },
+                    {
+                        "description": "3rd \t--> Protection from Evil and Good, Sanctuary\n5th \t--> Lesser Restoration, Zone of Truth\n9th \t--> Beacon of Hope, Dispel Magic\n13th\t--> Freedom of Movement, Guardian of Faith\n17th\t--> Commune, Flame Strike",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom6d33d67b-7b45-4738-8c02-6b0994541791",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Oath of Devotion Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following two Channel Divinity options.\n\n- Sacred Weapon: As an action, for 1 minute, you add your Charisma modifier to attack rolls made with a weapon of your choice (with a minimum bonus of +1).The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. if the weapon is not already magical, it becomes magical for the duration. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.\n\n- Turn the Unholy: As an action, you can make any fiend or undead, provided that it's within 30 feet and that can see or hear you, make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom22766c68-b8ab-4109-b94b-63f17ff17ae8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You and friendly creatures within 10 feet of you can't be charmed while you are conscious",
+                        "level": 7
+                    },
+                    {
+                        "description": "You and friendly creatures within 30 feet of you can't be charmed while you are conscious",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom8aa6a5bf-4b1f-4200-bad4-3b4bf8dbe074",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Aura of Devotion",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You are always under the effects of a Protection from Evil and Good spell",
+                        "level": 15
+                    }
+                ],
+                "id": "Customeda21a28-a637-4831-b681-1cfccd0880cd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Purity of Spirit",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can emanate light. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that. Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage. In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom82eecf0e-63e1-4761-9ed3-e50c1e02d0a1",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Holy Nimbus",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "paladin_oath_of_devotion",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Oath of Devotion",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric, paladin, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (holy water or powdered silver and iron, which the spell consumes)",
+                "description": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.\nThe protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Protection from Evil and Good",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "1st-level abjuration"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, cleric",
+                "components": "V, S, M (a small silver mirror)",
+                "description": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn\u00e2\u20ac\u2122t protect the warded creature from area effects, such as the explosion of a fireball.\n\nIf the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Sanctuary",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "1st-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S",
+                "description": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Lesser Restoration",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "2nd-level abjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S",
+                "description": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Beacon of Hope",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u00e2\u20ac\u2122s level. On a successful check, the spell ends.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell\u00e2\u20ac\u2122s level is equal to or less than the level of the spell slot you used.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Dispel Magic",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, paladin",
+                "components": "V, S",
+                "description": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. you know whether each creature succeeds or fails on its saving throw.\n\nAn affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.",
+                "duration": "10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Zone of Truth",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "enchantment",
+                "type": "2nd-level enchantment"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
+                "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Freedom of Movement",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V",
+                "description": "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.\n\nAny creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
+                "duration": "8 hours",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Guardian of Faith",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "conjuration",
+                "type": "4th-level conjuration"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "cleric",
+                "components": "V, S, M (incense and a vial of holy or unholy water)",
+                "description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Commune",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "5th-level divination (ritual)"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S, M (pinch of sulfur)",
+                "description": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) inceases by 1d6 for each slot level above 5th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Flame Strike",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

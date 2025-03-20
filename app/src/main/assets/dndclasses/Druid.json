@@ -1,0 +1,488 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 2,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Wooden Shield",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any Simple Weapon",
+                    "number": 1
+                }
+            ],
+            "id": "c84c9aad-4e8f-4264-aed8-998816731d8f"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scimitar",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any Simple Melee Weapon",
+                    "number": 1
+                }
+            ],
+            "id": "ca0d4d74-cffa-43b0-9a11-9f2b32273509"
+        },
+        {
+            "amountOfChoice": 3,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Druidic Focus",
+                    "number": 1
+                }
+            ],
+            "id": "93ef3ac5-2d0d-4e44-b6c7-db989ea1810d"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "747e1f49-2535-4f43-a61e-00fbc1947d68",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Animal Handling",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Survival",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "FULL",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0419d0a2-fe23-4325-8f44-c03eea8b6a67",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Druidic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Cantrips\nYou know two cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have two 1st-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 1
+                    },
+                    {
+                        "description": "Cantrips\nYou know two cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have three 1st-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 2
+                    },
+                    {
+                        "description": "Cantrips\nYou know two cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level and two 2nd-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 3
+                    },
+                    {
+                        "description": "Cantrips\nYou know three cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level and three 2nd-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 4
+                    },
+                    {
+                        "description": "Cantrips\nYou know three cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 5
+                    },
+                    {
+                        "description": "Cantrips\nYou know three cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level and three 3rd-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 6
+                    },
+                    {
+                        "description": "Cantrips\nYou know three cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 7
+                    },
+                    {
+                        "description": "Cantrips\nYou know three cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level and two 4th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 8
+                    },
+                    {
+                        "description": "Cantrips\nYou know three cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level and one 5th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 9
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level and two 5th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 10
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level and one 6th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 11
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level and one 7th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 13
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level, one 7th-level and one 8th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 15
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 17
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, one 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 18
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, two 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 19
+                    },
+                    {
+                        "description": "Cantrips\nYou know four cantrips of your choice from the druid spell list.\n\nPreparing and Casting Spells\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, two 6th-level, two 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can also change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your druid spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.\n\nSpell Save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\nYou can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your druid spells",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom5db084f0-e402-4d4c-924d-58178e0bc5e9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Spellcasting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your action to magically assume the shape of a beast that you have seen before. The beast CR must be lower or equal to 1/4, and may not have any flying or swimming speed. You can use this feature twice. You regain expended uses when you finish a short or long rest",
+                        "level": 2
+                    },
+                    {
+                        "description": "You can use your action to magically assume the shape of a beast that you have seen before. The beast CR must be lower or equal to 1/2, and may not have any flying speed. You can use this feature twice. You regain expended uses when you finish a short or long rest",
+                        "level": 4
+                    },
+                    {
+                        "description": "You can use your action to magically assume the shape of a beast that you have seen before. The beast CR must be lower or equal to 1. You can use this feature twice. You regain expended uses when you finish a short or long rest",
+                        "level": 8
+                    }
+                ],
+                "id": "Custom0311d130-5616-4a87-a751-6dd84e50b72f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wild Shape",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 2nd level, you choose to identify with a circle of druids. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level",
+                        "level": 2
+                    }
+                ],
+                "id": "Customeb303d14-32e5-4170-9de2-8ac71a0a5143",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Druid Circle",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "For every 10 years that pass, your body ages only 1 year",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom4d3ac86b-6883-4780-89a8-91cd224fb3ad",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Timeless Body",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components",
+                        "level": 18
+                    }
+                ],
+                "id": "Customadd475e8-705d-4da5-a2ba-3e78ecce1abc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Beast Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your Wild Shape an unlimited number of times.\n\nAdditionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape",
+                        "level": 20
+                    }
+                ],
+                "id": "Customacef7897-7c3e-471e-b95b-e7afb42c25c9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Archdruid",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "druid",
+    "jsonType": "class",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Druidic"
+        }
+    ],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": false,
+    "name": "Druid",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": false,
+        "intelligence": true,
+        "str": false,
+        "wis": true
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 2
+                },
+                {
+                    "amount": 2,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.\n\nWhen you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customc9d9ed75-d802-4fc5-8981-41b6853a6945",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Wild Companion",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custom1f25e181-3478-4297-95cc-364c9b1e44d9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Cantrip Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "193d0ab3-80fb-49cd-9d1a-a974a28ceeec",
+            "name": "Druid Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": true,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Herbalism kit"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Club"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dagger"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dart"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Javelin"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Mace"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Quarterstaff"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Scimitar"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Sickle"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Sling"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Spear"
+        }
+    ]
+}

@@ -1,0 +1,377 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom026ccc82-91fe-456a-957b-5959993329c4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Firearm Proficiency",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with Tinker\u00e2\u20ac\u2122s Tools. You may use them to craft ammunition at half the cost, repair damaged firearms, or even draft and create new ones (DM\u00e2\u20ac\u2122s discretion). Some extremely experimental and intricate firearms are only available through crafting.\n\nFirearm Properties:\nFirearms are a new and volatile technology, and as such bring their own unique set of weapon properties. Some properties are followed by a number, and this number signifies an element of that property (outlined below). These properties replace the optional ones. Firearms are ranged weapons.\n\n- Reload: The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm.\n\n- Misfire: Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon\u00e2\u20ac\u2122s Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker\u00e2\u20ac\u2122s Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon\u00e2\u20ac\u2122s misfire score by 1.\n\n- Explosive: Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so.\n\nAmmunition:\nAll firearms require ammunition to make an attack, and due to their rare nature, ammunition may be near impossible to find or purchase. However, if materials are gathered, you can craft ammunition yourself using your Tinker\u00e2\u20ac\u2122s Tools at half the cost. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed below next to the price",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom312751b7-0b58-4eca-95c8-ea12f8e5b049",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Gunsmith",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn to perform powerful trick shots to disable or damage your opponents using your firearms. You know two trick shots of your choice. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one.\n\nMany maneuvers enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.\n\nGrit: You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM\u00e2\u20ac\u2122s discretion). You regain all expended grit points after a short or long rest.\n\nSaving Throws:\nSome of your trick shots require your targets to make a saving throw to resist the trick shot\u00e2\u20ac\u2122s effects. The saving throw DC is calculated as follows:\n\nTrick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier",
+                        "level": 3
+                    },
+                    {
+                        "description": "You learn to perform powerful trick shots to disable or damage your opponents using your firearms. You know three trick shots of your choice. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one.\n\nMany maneuvers enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.\n\nGrit: You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM\u00e2\u20ac\u2122s discretion). You regain all expended grit points after a short or long rest.\n\nSaving Throws:\nSome of your trick shots require your targets to make a saving throw to resist the trick shot\u00e2\u20ac\u2122s effects. The saving throw DC is calculated as follows:\n\nTrick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier",
+                        "level": 7
+                    },
+                    {
+                        "description": "You learn to perform powerful trick shots to disable or damage your opponents using your firearms. You know four trick shots of your choice. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one.\n\nMany maneuvers enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.\n\nGrit: You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM\u00e2\u20ac\u2122s discretion). You regain all expended grit points after a short or long rest.\n\nSaving Throws:\nSome of your trick shots require your targets to make a saving throw to resist the trick shot\u00e2\u20ac\u2122s effects. The saving throw DC is calculated as follows:\n\nTrick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier",
+                        "level": 10
+                    },
+                    {
+                        "description": "You learn to perform powerful trick shots to disable or damage your opponents using your firearms. You know five trick shots of your choice. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one.\n\nMany maneuvers enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.\n\nGrit: You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM\u00e2\u20ac\u2122s discretion). You regain all expended grit points after a short or long rest.\n\nSaving Throws:\nSome of your trick shots require your targets to make a saving throw to resist the trick shot\u00e2\u20ac\u2122s effects. The saving throw DC is calculated as follows:\n\nTrick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier",
+                        "level": 15
+                    },
+                    {
+                        "description": "You learn to perform powerful trick shots to disable or damage your opponents using your firearms. You know six trick shots of your choice. Each time you learn a new trick shot, you can also replace one trick shot you know with a different one.\n\nMany maneuvers enhance an attack in some way. Each use of a trick shot must be declared before the attack roll is made. You can use only one trick shot per attack.\n\nGrit: You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM\u00e2\u20ac\u2122s discretion). You regain all expended grit points after a short or long rest.\n\nSaving Throws:\nSome of your trick shots require your targets to make a saving throw to resist the trick shot\u00e2\u20ac\u2122s effects. The saving throw DC is calculated as follows:\n\nTrick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier",
+                        "level": 18
+                    }
+                ],
+                "id": "Customd119ad8b-6ccf-4b80-a044-a68e2da035f6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Adept Marksman",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You add your proficiency bonus to your initiative. You can also stow a firearm, then draw another firearm as a single object interaction on your turn",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom3810ff90-2c0a-4e94-b5f9-db3b727fb601",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Quickdraw",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn how to quickly attempt to fix a jammed gun. You can spend a grit point to attempt to repair a misfired (but not broken) firearm as a bonus action",
+                        "level": 10
+                    }
+                ],
+                "id": "Customc14ffcd7-8b55-41af-8fe0-a6fbbc761f0c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rapid Repair",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can reload any firearm as a bonus action",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom31a62ad8-9e37-4de5-a6d1-c1e9be5e31fe",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Lightning Reload",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your firearm attacks score a critical hit on a roll of 19-20, and you regain a grit point on a roll of 19 or 20 on a d20 attack roll",
+                        "level": 18
+                    }
+                ],
+                "id": "Customd0c5bd0c-392d-476c-8b28-eb414ffc79e0",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Vicious Intent",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you score a critical hit on an attack with a firearm, the target additionally suffers half of the damage from the attack at the end of its next turn",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom6bdbdcbb-8b74-4130-9f43-c11b61d6f921",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hemorrhaging Critical",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_gunslinger",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Gunslinger",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 3
+                },
+                {
+                    "amount": 3,
+                    "level": 7
+                },
+                {
+                    "amount": 4,
+                    "level": 10
+                },
+                {
+                    "amount": 5,
+                    "level": 15
+                },
+                {
+                    "amount": 6,
+                    "level": 18
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can use the powerful blast and thundering sound of your firearm to shake the resolve of a creature. You can expend one grit point while making a Charisma (Intimidation) check to gain advantage on the roll",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom8c1b0974-882e-43ac-a7ca-e7c975ba64b0",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Bullying Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one grit point to attempt to dizzy your opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of their next turn",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom5dc144e3-948c-49d0-8269-4ee3aeb2920a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dazing Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one grit point to gain advantage on the attack roll",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customebe78303-ecc8-41e0-a04f-13236c3099f2",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Deadeye Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one grit point to attempt to shoot an object from their hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of your choice and have that object be pushed 10 feet away from you",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom5b4a63b5-e8a6-4741-99a8-dd46c2932c25",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Disarming Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one grit point to attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 15 feet away from you",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom020b7e9c-e5d7-4195-a04d-f80fdfe70e56",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Forceful Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one grit point to attempt to fire through multiple opponents. The initial attack gains a +1 to the firearm\u00e2\u20ac\u2122s misfire score. On a hit, the creature suffers normal damage and you make an attack roll with disadvantage against every creature in a line directly behind the target within your first range increment. Only the initial attack can misfire",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom578198ba-fad4-4655-bd82-bc366042c229",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Piercing Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one or more grit points to enhance the volatility of the attack. For each grit point expended, the attack gains a +2 to the firearm\u00e2\u20ac\u2122s misfire score. If the attack hits, you can roll one additional weapon damage die per grit point spent when determining the damage",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customb9e0f0d3-1991-4787-89e2-31a9daffebbb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Violent Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you make a firearm attack against a creature, you can expend one grit point to attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom39f19817-99a5-4883-b467-ccb3a89cccbc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Winging Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": true,
+            "id": "b2d57d23-c5a1-410f-be6d-30f61ae6bb53",
+            "name": "Trick Shots",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Firearm"
+        }
+    ]
+}

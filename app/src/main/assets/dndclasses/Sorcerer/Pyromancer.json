@@ -1,0 +1,108 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you start casting a spell of 1st level or higher that deals fire damage, fiery magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take fire damage equal to half your sorcerer level",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom5e9c2879-86b6-4166-b931-13a2d38625b3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Heart of Fire",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain resistance to fire damage. In addition, spells you cast ignore resistance to fire damage",
+                        "level": 6
+                    }
+                ],
+                "id": "Custome9e6ea33-1d92-4f22-ab11-f4eedb801d60",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fire in the Veins",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom77e4904b-03d6-4101-8710-540f02b58989",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Pyromancer's Fury",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain immunity to fire damage. In addition, any spell or effect you create ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage",
+                        "level": 18
+                    }
+                ],
+                "id": "Customcc7c7154-cc37-4dc8-a96d-a0e5784d63d2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fiery Soul",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "sorcerer_pyromancer",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Pyromancer",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

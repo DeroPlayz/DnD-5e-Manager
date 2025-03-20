@@ -1,0 +1,132 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain a new attack option that you can use with the Attack action. This special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.\n\nWhen you take the Attack action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action.\n\nWhen you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom382b1d30-98da-44b1-adef-42648889ed7b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Radiant Sun Bolt",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the Burning Hands spell as a bonus action.\n\nYou can spend additional ki points to cast burning hands as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk leve",
+                        "level": 6
+                    }
+                ],
+                "id": "Custombbdc591f-f8b5-48ee-a868-86760d87466d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Searing Arc Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts.\n\nEach creature in that 20-foot-radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.\n\nYou can increase the sphere's damage by spending ki points. Each point you spend, to a maximum of 3, increases the damage by 2d6",
+                        "level": 11
+                    }
+                ],
+                "id": "Custom15b9ab7a-ce98-43a7-a2ec-2d4a7ddfc352",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Searing Sunburst",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.\n\nIf a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier",
+                        "level": 17
+                    }
+                ],
+                "id": "Customa63efa40-4475-402a-b403-918ee3a632fa",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sun Shield",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "monk_way_of_the_sun_soul",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Way of the Sun Soul",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 6,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u2019t being worn or carried.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Burning Hands",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (15-foot cone)",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "unarmoredDefense": "Wisdom",
+    "weaponProficiencies": []
+}

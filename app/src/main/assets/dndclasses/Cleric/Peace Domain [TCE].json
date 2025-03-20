@@ -1,0 +1,424 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in the Insight, Performance, or Persuasion skill (your choice)",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom7e1a5324-9adb-47b0-8ea5-2e8c32c6946b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Implement of Peace",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom10f67b96-44b4-49ea-9da7-b37ef9539daf",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Emboldening Bond",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom4521a883-f47d-44dc-bdbc-ff54ec54312d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity: Balm of Peace",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The bond you forge between people helps them protect each other. When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 30 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom8ae0da89-22bd-40df-830d-5d61aebaa754",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Protective Bond",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone else's damage, the creature has resistance to that damage",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom360e7896-c09b-4b56-9684-57b286432328",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Expansive Bond",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "cleric_peace_domain_[tce]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Peace Domain [TCE]",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 8
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip",
+                                "level": 8
+                            }
+                        ],
+                        "id": "Custom7b6acda0-9a7f-4e0d-b5d6-646de5983575",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Potent Spellcasting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 8
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn",
+                                "level": 8
+                            }
+                        ],
+                        "id": "Customd71df4e5-4cb5-4a05-8ffe-c8ad8721690a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blessed Strikes",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 8
+                }
+            ],
+            "canReselect": false,
+            "id": "e8d911f2-ca00-4142-9d0c-4fa8206cb141",
+            "name": "Peace Domain Potent Feature",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 1,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "6935b925-38d2-4d75-98b0-a82c7cab34f7",
+            "name": "Emboldening Bond Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, paladin",
+                "components": "V, S",
+                "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Heroism",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, cleric",
+                "components": "V, S, M (a small silver mirror)",
+                "description": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn\u00e2\u20ac\u2122t protect the warded creature from area effects, such as the explosion of a fireball.\n\nIf the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Sanctuary",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "1st-level abjuration"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, paladin",
+                "components": "V, S, M (a tiny strip of white cloth)",
+                "description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target\u00e2\u20ac\u2122s hit point maximum and current hit points increase by 5 for the duration.",
+                "duration": "8 hours",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, a target\u00e2\u20ac\u2122s hit points increase by an additional 5 for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Aid",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "2nd-level abjuration"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
+                "description": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 hit points or if you and the  target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Warding Bond",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "2nd-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S",
+                "description": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Beacon of Hope",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, fighter, rogue, wizard",
+                "components": "V, S, M (a short piece of fine copper wire)",
+                "description": "You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.\n\nYou can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn\u00e2\u20ac\u2122t arrive.",
+                "duration": "1 round",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Sending",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Unlimited",
+                "school": "evocation",
+                "type": "3rd-level evocation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "paladin",
+                "components": "V",
+                "description": "",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Aura of Purity",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (30-foot radius)",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, fighter, rogue, wizard",
+                "components": "V S M (Clear crystal hemisphere, gum arabic hemisphere)",
+                "description": "A sphere encloses a Large or smaller creature or object. An unwilling creature must make a Dexterity save. On a failure, the creature is enclosed.\nNothing can pass through the barrier, though a creature in the sphere can breathe. The sphere is immune to all damage, and a creature or object inside can't be affected by anything outside the sphere, nor can it affect anything outside in turn.\nThe sphere is weightless and just large enough to contain the creature or object. An enclosed creature can use its action to push against the sphere and roll it at up to half the creature's speed. The globe also can be picked up and moved by other creatures.\nA Disintegrate targeting the globe destroys it without harming anything inside.",
+                "duration": "Conc. Up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Otiluke's Resilient Sphere",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "Evocation",
+                "type": "4th-level evocation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, cleric, druid, bard",
+                "components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
+                "description": "You imbue a creature you touch with positive energy to undo a debilitating Effect. You can reduce the target's Exhaustion level by one, or end one of the following Effects on the target.\n\n- One Effect that Charmed or Petrified the target\n\n- One curse, including the target's Attunement to a Cursed magic item\n\n- Any reduction to one of the target's Ability Scores\n\n- One Effect reducing the target's hit point maximum",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Greater Restoration",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "5th-level abjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (pieces of eggshell from two different kinds of creatures)",
+                "description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren\u00e2\u20ac\u2122t affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can\u00e2\u20ac\u2122t extend to other planes of existence",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Rary's Telepathic Bond",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "divination",
+                "type": "5th-level divination (ritual)"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

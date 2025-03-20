@@ -1,0 +1,126 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you finish a short or long rest,you can gain one skill or tool proficiency of yourchoice, as a ghostly presence shares itsknowledge with you. This proficiency lasts untilyou use this feature again",
+                        "level": 1
+                    }
+                ],
+                "id": "Customd0c7e9fe-d51c-4c79-8bbe-6c79cd190dd7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Whispers Of The Dead",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As you nudge someone closer to the grave, youcan cause deathly wails to be heard near them.Immediately after you deal your Sneak Attackdamage to a creature on your turn, you cantarget a second creature that you can see within30 feet of the first creature. Roll half the numberof Sneak Attack dice for your level (round up),and the second creature takes psychic damageequal to the roll\u2019s total, as wails of the deadsound around them for a moment.\n\nYou can use this feature a number of timesequal to your proficiency bonus, and you regainall expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom2787823e-6abd-452c-9e1d-910a258b4498",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wails From The Grave",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When a life ends in your presence, you\u2019re able tosnatch a token from the departing soul, a sliverof its life essence that takes physical form: as areaction when a creature you can see dies within30 feet of you, you open your free hand and aTiny trinket appears there, a soul trinket. TheDM chooses the trinket\u2019s form or has you roll onthe Trinkets table todetermine it.\n\nWhile the soul trinket is on your person, youhave advantage on death saving throws andConstitution saving throws, as your vitality isenhanced by the life essence within the object.You can have a maximum number of soultrinkets equal to your proficiency bonus, and youcan\u2019t create one while at your maximum.\n\nAs an action, you can destroy one of your soultrinkets, no matter where it\u2019s located. When youdo so, you can ask the spirit associated with thetrinket one question. The spirit appears to youand answers in a language it knew in life. It\u2019sunder no obligation to be truthful, and itanswers as concisely as possible, eager to befree",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom91139009-c0d8-4f36-8f22-43ef6ac0d3aa",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Token Of The Departed ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can now phase partially into the realm of the dead, becoming like a ghost. As a bonus action, you assume a spectral form. While in this form, you have a flying speed of 10 feet, you can hover, and attack rolls have disadvantage against you. You can also move through creatures and objects as if they were difficult terrain, but you take 1d10 force damage if you end your turn inside a creature or an object. You stay in this form for 10 minutes or until you end it as a bonus action. \n\nTo use this feature again, you must finish a long rest or destroy oneof your soul trinkets as part of the bonus actionyou use to activate Ghost Walk.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom36526027-1443-4260-94a8-f8559180eb95",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ghost Walk",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you use your Wails from the Grave feature, you can now deal the psychic damage to both the first and the second creature.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom45f1023c-1b5f-48d2-92f6-d3a1015452d5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Death Knell",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_phantom_[ua]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Phantom [UA]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

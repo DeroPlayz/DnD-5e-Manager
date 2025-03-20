@@ -1,0 +1,519 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Rapier",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 1
+                }
+            ],
+            "id": "de9ad30b-0f76-4df7-984b-579564c43876"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Shortbow and Quiver of 20 arrows",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 1
+                }
+            ],
+            "id": "22910bce-99b3-4ac8-882e-a9cd44df45ae"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Burglar's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "b89b29e8-5753-4765-9857-ebf9c0d22e22"
+        },
+        {
+            "amountOfChoice": 3,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dagger",
+                    "number": 2
+                },
+                {
+                    "description": "",
+                    "name": "Thieves' tools",
+                    "number": 1
+                }
+            ],
+            "id": "d0c666bc-913a-427e-aa62-ca4000269520"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 4,
+            "id": "8b55e44f-8ece-42d0-a97a-462193286583",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Acrobatics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Deception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Intimidation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Performance",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Persuasion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Stealth",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies",
+                        "level": 1
+                    },
+                    {
+                        "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom0bdecae9-e7d6-4069-baab-544f8d58e2ce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Expertise",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Once per turn, you can deal extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 1
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 2d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 3
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 3d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 5
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 4d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 7
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 5d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 9
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 6d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 11
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 7d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 13
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 8d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 15
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 9d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 17
+                    },
+                    {
+                        "description": "Once per turn, you can deal extra 10d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table",
+                        "level": 19
+                    }
+                ],
+                "id": "Custome88337be-0416-41f0-ba48-b47090c01956",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sneak Attack",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.\n\nIn addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom069597dc-8fe6-41f3-a558-f0e924ea0108",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Thieves' Cant",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your Bonus Action to take the Dash, Disengage, or Hide action",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom9365d4ac-4ab1-4b17-acff-296beeabe860",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Cunning Action",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You choose an archetype that you emulate in the exercise of your rogue abilities. Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level",
+                        "level": 3
+                    }
+                ],
+                "id": "Customd17db8bd-4114-468e-b3b3-3817e7df6d80",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Roguish Archetype",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you",
+                        "level": 5
+                    }
+                ],
+                "id": "Custom605ea6c0-96b2-4e21-bba2-2530f6272fc3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Uncanny Dodge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom5e7380de-6f0d-4b42-b9d0-991bcab386dc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Evasion",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10",
+                        "level": 11
+                    }
+                ],
+                "id": "Custom51428118-2ef1-4ec9-92b3-08eca4b6438d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Reliable Talent",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom6898ffa2-6bf3-4190-8515-9c29d1096f7d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blindsense",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in Wisdom saving throws",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom93aa5ba6-9126-4727-9238-9d3b777c7678",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Slippery Mind",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "No attack roll has advantage against you while you aren't incapacitated",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom94ae566f-9a78-4340-8401-3cb700488c54",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Elusive",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom7f97e8cd-c50e-4edc-be3a-ba5279e36429",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Stroke of Luck",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "rogue",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": true,
+    "multiclassWeapons": false,
+    "name": "Rogue",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": true,
+        "intelligence": true,
+        "str": false,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custome9308584-6684-4421-b09d-d1eb5f461121",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Steady Aim",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": false,
+            "id": "4e8e9d2f-07ee-42d0-9870-34bc5c141f41",
+            "name": "Rogue Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Thieves' tools"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, hand"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Longsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Rapier"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortsword"
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your divine magics draw the blood from inflicted wounds, worsening the agony of your nearby foes. When you use a spell of 1st level or higher to inflict damage to any creatures that have blood, those creatures suffer additional necrotic damage equal to 2 + the spell\u00e2\u20ac\u2122s level",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom18b9043b-e5a8-4ff3-95f2-8042713a7142",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bloodletting Focus",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your Channel Divinity to briefly control a creature\u00e2\u20ac\u2122s actions against their will. As an action, you target a Large or smaller creature that has blood within 60 feet of you. That creature must succeed on a Constitution saving throw against your spell save DC or immediately move up to half of their movement in any direction of your choice and make a single weapon attack against a creature of your choice within range. Dead or unconscious creatures automatically fail their saving throw",
+                        "level": 2
+                    },
+                    {
+                        "description": "You can use your Channel Divinity to briefly control a creature\u00e2\u20ac\u2122s actions against their will. As an action, you target a Huge or smaller creature that has blood within 60 feet of you. That creature must succeed on a Constitution saving throw against your spell save DC or immediately move up to half of their movement in any direction of your choice and make a single weapon attack against a creature of your choice within range. Dead or unconscious creatures automatically fail their saving throw",
+                        "level": 8
+                    }
+                ],
+                "id": "Customa1374c5f-e6b5-4c53-aca2-6d7acf602e80",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity: Blood Puppet",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your Channel Divinity to focus on a sample of blood from a creature that is at least 2 ounces, and that has been spilt no longer than a week ago. As an action, you can focus on the blood of the creature to form a bond and gain information about their current circumstances. You know their approximate distance and direction from you, as well as their general state of health, as long as they are within 10 miles of you. You can maintain this effect as though you were concentrating on a spell for up to 1 hour. During your bond, you can spend an action to attempt to connect with the bonded creature\u00e2\u20ac\u2122s senses. The target makes a Constitution saving throw against your spell save DC. If they succeed, the connection is resisted, ending the bond. You suffer 2d6 necrotic damage. Upon a failed saving throw, you can choose to either see through the eyes of or hear through their ears of the target for a number of rounds equal to your Wisdom modifier (minimum of 1). During this time, you are blind or deaf (respectively) with regard to your own senses. Once this connection ends, the Crimson Bond is lost",
+                        "level": 6
+                    }
+                ],
+                "id": "Customde0bedea-5f3a-48b9-8f2c-636278b5e642",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity: Crimson Bond",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can sacrifice a portion of your own vitality to recover expended spell slots. As an action, you recover spell slots that have a combined level equal to or less than half of your cleric level (rounded up), and none of the slots can be 6th level or higher. You immediately suffer 1d6 damage per spell slot level recovered. You can\u00e2\u20ac\u2122t use this feature again until you finish a long rest. For example, if you\u00e2\u20ac\u2122re an 8th-level cleric, you can recover up to four levels of spell slots. You can recover a single 4th-level spell slots, two 2nd-level spell slots, a 3rd-level spell slot and a 1st level spell slot, or four 1st-level spell slots. You then suffer 4d6 damage",
+                        "level": 8
+                    }
+                ],
+                "id": "Custom7a14559c-00b0-470b-87e2-7ff345750c78",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sanguine Recall",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 8
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can emit a powerful aura as an action that extends 30 feet out from you that pulses necrotic energy through the veins of nearby foes, causing them to burst and bleed. For 1 minute, any enemy creatures with blood that begin their turn within the aura or enter it for the first time on their turn immediately suffer 2d6 necrotic damage. Any enemy creature with blood that would regain hit points while within the aura only regains half of the intended number of hit points (rounded up). Once you use this feature, you can\u00e2\u20ac\u2122t use it again until you finish a long rest",
+                        "level": 17
+                    }
+                ],
+                "id": "Customdd8b622b-04e9-4646-8e06-ea129aad573f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Vascular Corruption Aura",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "cleric_blood_domain",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Blood Domain",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
+                "description": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature\u00e2\u20ac\u2122s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u00e2\u20ac\u2122s hit points must be equal to or less than the remaining total for that creature to be affected.\n\nUndead and creatures immune to being charmed aren\u00e2\u20ac\u2122t affected by this spell.",
+                "duration": "1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Sleep",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Ray of Sickness",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "necromancy",
+                "type": "1st-level necromancy"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.\n\nAt the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Ray of Enfeeblement",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "necromancy",
+                "type": "2nd-level necromancy"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.\n\nOn your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Crown of Madness",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "enchantment",
+                "type": "2nd-Level enchantment"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a shaving of licorice root)",
+                "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u00e2\u20ac\u2122s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u00e2\u20ac\u2122t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Haste",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "transmutation",
+                "type": "3rd-level transmutation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a drop of molasses)",
+                "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u00e2\u20ac\u2122s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u00e2\u20ac\u2122t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u00e2\u20ac\u2122s abilities or magic items, it can\u00e2\u20ac\u2122t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u00e2\u20ac\u2122t take effect until the creature\u00e2\u20ac\u2122s next turn, and the creature must use its action on that turn to complete the spell. If it can\u00e2\u20ac\u2122t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Slow",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "transmutation",
+                "type": "3rd-level transmutation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.\n\nIf you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.\n\nIf you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Blight",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "necromancy",
+                "type": "4th-level necromancy"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+                "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+                "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Stoneskin",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Dominate Person",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "enchantment",
+                "type": "5th-level enchantment"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (a small, straight piece of iron)",
+                "description": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Hold Monster",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "enchantment",
+                "type": "5th-level enchantment"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

@@ -1,0 +1,365 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 2,
+    "armorProficiencies": [],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Quarterstaff",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dagger",
+                    "number": 1
+                }
+            ],
+            "id": "b2bb362a-b9fe-4f95-aecd-e41770d42843"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Component Pouch",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Arcane Focus",
+                    "number": 1
+                }
+            ],
+            "id": "a20ab074-f004-4019-903b-6b30b89ab731"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scholar's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "6ccad4f4-1533-4571-a1d7-a75dbb251073"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Spellbook",
+                    "number": 1
+                }
+            ],
+            "id": "4ed8c7f0-98a1-4a73-b086-fb3050781f70"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "dbcc8fb1-76e7-4dd1-b411-47078307c3b0",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "FULL",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Cantrips:\nYou know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have two 1st-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 1
+                    },
+                    {
+                        "description": "Cantrips:\nYou know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have three 1st-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 2
+                    },
+                    {
+                        "description": "Cantrips:\nYou know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level and two 2nd-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 3
+                    },
+                    {
+                        "description": "Cantrips:\nYou know four cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level and three 2nd-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 4
+                    },
+                    {
+                        "description": "Cantrips:\nYou know four cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 5
+                    },
+                    {
+                        "description": "Cantrips:\nYou know four cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level and three 3rd-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 6
+                    },
+                    {
+                        "description": "Cantrips:\nYou know four cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 7
+                    },
+                    {
+                        "description": "Cantrips:\nYou know four cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level and two 4th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 8
+                    },
+                    {
+                        "description": "Cantrips:\nYou know four cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level and one 5th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 9
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level and two 5th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 10
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level and one 6th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 11
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level and one 7th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 13
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level, one 7th-level and one 8th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 15
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 17
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, one 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 18
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, two 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 19
+                    },
+                    {
+                        "description": "Cantrips:\nYou know five cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels.\n\nYour Spellbook:\nYou have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know.\n\nAdding New Spells:\nWhen you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you can prepare and if you can spare the time to decipher and copy it.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nReplacing Your Spellbook:\nYou can copy a spell from your own spellbook into another book. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal.\n\nPreparing and Casting Spells:\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, two 6th-level, two 7th-level, one 8th-level and one 9th-level spell slots. To cast one spell. you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nYou can change your list of prepared spells when you finish a long rest.\n\nSpellcasting Ability:\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability.\n\nIn addition, you use your Intelligence modifier and proficiency bonus for the spell save DC of a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier.\n\nSpell Attack modifier = your proficiency bonus + your Intelligence modifier.\n\nRitual Casting:\nYou can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher:\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots. as shown on the Wizard table. On your adventures. you might find other spells that you can add to your spellbook",
+                        "level": 20
+                    }
+                ],
+                "id": "Customeb68219a-633f-4c85-9b3c-9bb4153a5755",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Spellcasting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher",
+                        "level": 1
+                    }
+                ],
+                "id": "Custome06ff388-cfe5-4185-a05f-863c4564d0bf",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Arcane Recovery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of several schools.\n\nYour choice grants you features at 2nd level and again at 6th, 10th, and 14th level",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom30a2054e-6d6e-4f01-82b9-0fadab98c262",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Arcane Tradition",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom1dfe7751-fda4-4627-aff6-253ec7036ba8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Spell Mastery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.\n\nIf you want to cast either spell at a higher level, you must expend a spell slot as normal",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom542263c2-4aaa-43b5-9bb0-0bea3a8cbd73",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Signature Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hitDie": "D6",
+    "hpModifier": "Constitution",
+    "id": "wizard",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": false,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": false,
+    "name": "Wizard",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": false,
+        "intelligence": true,
+        "str": false,
+        "wis": true
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom08d8a773-6d3d-4cb9-ad0c-ae2046a6c239",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Cantrip Formulas",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": false,
+            "id": "925bf556-feb1-4a2a-9323-3a96f9dff2ac",
+            "name": "Wizard Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dagger"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dart"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Sling"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Quarterstaff"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, light"
+        }
+    ]
+}

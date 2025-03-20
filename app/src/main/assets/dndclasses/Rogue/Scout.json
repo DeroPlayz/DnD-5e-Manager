@@ -1,0 +1,137 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom155b1dd3-dbc4-45a2-a1f5-84c0a206a669",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Skirmisher",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in the Nature and Survival skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies",
+                        "level": 3
+                    }
+                ],
+                "id": "Customdb2aaa8c-0b99-4270-8973-f374bb56d234",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Survivalist",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom826f1219-f2e1-4f27-8358-e64769a58bd8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Superior Mobility",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on initiative rolls. In addition, the first creature you hit during the first round of a combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn",
+                        "level": 13
+                    }
+                ],
+                "id": "Custom93195f83-e14b-47fa-8303-aa3505c42767",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ambush Master",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn",
+                        "level": 17
+                    }
+                ],
+                "id": "Customb755d298-4277-4cdd-b1a3-9245394fb67e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sudden Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_scout",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": false,
+    "multiclassSkills": true,
+    "multiclassTools": false,
+    "multiclassWeapons": false,
+    "name": "Scout",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "full,nature"
+        },
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "full,survival"
+        }
+    ],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

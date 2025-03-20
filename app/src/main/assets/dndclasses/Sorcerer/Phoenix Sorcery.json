@@ -1,0 +1,126 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can magically ignite a flammable object you touch with your hand",
+                        "level": 1
+                    }
+                ],
+                "id": "Customb730d319-328e-4631-91ca-791918bc29e2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ignite",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you magically wreathe yourself in swirling fire. For 1 minute, you gain the following benefits:\n\n- You shed bright light in a 30-foot radius and dim light for an additional 30 feet.\n- Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.\n- Whenever you roll fire damage on your turn, the roll gains a bonus equal to your Charisma modifier.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0365bb53-aacd-43d2-a5d4-c72c2cdf9c1c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mantle of Flame",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you are reduced to 0 hit points, you can use your reaction instead be reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your sorcerer level + your Charisma modifier.\n\nIf you use this feature while under the effects of your Mantle of Flame, this feature instead deals fire damage equal to your sorcerer level + double your Charisma modifier, and your Mantle of Flame immediately ends. Once you use this feature, you can't use it again until you finish a long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Customc9c21303-0d6d-440a-8ead-367caeebecce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Phoenix Spark",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you expend a spell slot to cast a spell that includes a fire damage roll, you regain hit points equal to the slot's level + your Charisma modifier",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom66987d86-2d54-4ab8-94bc-c24b4159329f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Nourishing Fire",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "While under the effect of your Mantle of Flame feature, you gain additional benefits:\n\nYou have a flying speed of 40 feet and can hover.\nYou have resistance to all damage.\nIf you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom52503a72-ac69-4fa0-95ba-e27ece4044b5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Form of the Phoenix",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "sorcerer_phoenix_sorcery",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Phoenix Sorcery",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,385 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "A paladin who assumes the Oath of the Watchers swears to safeguard the mortal realm from otherworldly threats.\n\n- Vigilance: The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.\n\n- Loyalty: Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.\n\n- Discipline: You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond",
+                        "level": 3
+                    }
+                ],
+                "id": "Custome3e0f8e4-5fa3-4df6-b605-1aa272153ff9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tenets of the Watchers",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.\n\nPaladin Level --> Spells \n\n3rd --> alarm, chromatic orb",
+                        "level": 3
+                    },
+                    {
+                        "description": "You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.\n\nPaladin Level --> Spells \n\n3rd --> alarm, chromatic orb\n5th --> augury, moonbeam",
+                        "level": 5
+                    },
+                    {
+                        "description": "You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.\n\nPaladin Level --> Spells \n\n3rd --> alarm, chromatic orb\n5th --> augury, moonbeam\n9th --> counterspell, nondetection",
+                        "level": 9
+                    },
+                    {
+                        "description": "You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.\n\nPaladin Level --> Spells \n\n3rd --> alarm, chromatic orb\n5th --> augury, moonbeam\n9th --> counterspell, nondetection\n13th --> aura of purity, banishment",
+                        "level": 13
+                    },
+                    {
+                        "description": "You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.\n\nPaladin Level --> Spells \n\n3rd --> alarm, chromatic orb\n5th --> augury, moonbeam\n9th --> counterspell, nondetection\n13th --> aura of purity, banishment\n17th --> hold monster, hallow",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom4a020903-fdb9-4b06-8202-ed8d77d12234",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Oath Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following Channel Divinity options.\n\nSee the Sacred Oath class feature for how Channel Divinity works.\n\n- Watcher's Will: You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, all the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.\n\n- Abjure the Extraplanar: You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each elemental, fey, fiend, or aberration within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom65a91c9e-3944-4204-bc56-4bc0b7d570ad",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You emit an aura of alertness while you aren't incapacitated. When you and any creature of your choice within 10 feet of you rolls initiative, you each gain a bonus to initiative equal to your Charisma modifier (minimum of +1)",
+                        "level": 7
+                    },
+                    {
+                        "description": "You emit an aura of alertness while you aren't incapacitated. When you and any creature of your choice within 30 feet of you rolls initiative, you each gain a bonus to initiative equal to your Charisma modifier (minimum of +1)",
+                        "level": 18
+                    }
+                ],
+                "id": "Customae5d8f5b-e9f0-4412-b575-5908c70b40f6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Aura of the Sentinel",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You've learned how to magically chastise anyone who dares cast unwanted spells at you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on a saving throw against a spell, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the spellcaster",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom3b6db862-df19-40c8-8f19-addba2227d41",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Vigilant Rebuke",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You manifest a spark of your deity's power in defense of your sacred oath. As a bonus action, you gain the following benefits for 1 minute:\n\n- You gain truesight in a 120-foot radius.\n\n- You have advantage on attack rolls against elementals, fey, fiends, and aberrations.\n\n. When you hit a creature with an attack and deal damage to it, you can also force it to make a Charisma saving throw. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours.\n\nOnce you use this bonus action, you can't use it again until you finish a long rest",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom91cc3286-6af6-409d-8036-ccfc68fd54db",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mortal Bulwark",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "paladin_oath_of_the_watchers_[ua]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Oath of the Watchers [UA]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+                "components": "V, S, M (a tiny bell and a piece of fine silver wire)",
+                "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+                "duration": "8 hours",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Alarm",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "1st-level abjuration (ritual)"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a diamond worth at least 50gp)",
+                "description": "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 of the type you chose.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Chromatic Orb",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "cleric",
+                "components": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)",
+                "description": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren\u00e2\u20ac\u2122t especially good or bad\n\nThe spell doesn\u00e2\u20ac\u2122t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Augury",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "2nd-level divination (ritual)"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell.",
+                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "S",
+                "description": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u00e2\u20ac\u2122s level. On a success, the creature\u00e2\u20ac\u2122s spell fails and has no effect.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Counterspell",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S, M (a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes)",
+                "description": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can\u00e2\u20ac\u2122t be targeted by any divination magic or perceived through magical scrying sensors.",
+                "duration": "8 hours",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Nondetection",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "paladin",
+                "components": "V",
+                "description": "",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Aura of Purity",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (30-foot radius)",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric, paladin, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (an item distasteful to the target)",
+                "description": "You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma saving throw or be banished.\n\nIf the target is native to the plane of existance you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.\n\nIf the target is native to a different plane of existance than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Banishment",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid",
+                "components": "V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
+                "description": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much on a successful one.\n\nA shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spells light.\n\nOn each of your turns after you cast this spell use can use an action to move the beam 60 feet in any direction.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Moonbeam",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "2nd-level evocation"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (a small, straight piece of iron)",
+                "description": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Hold Monster",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "enchantment",
+                "type": "5th-level enchantment"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "24 hours",
+                "classes": "cleric",
+                "components": "V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)",
+                "description": "You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a *hallow* spell. The affected area is subject to the following effects.\n\nFirst, celestials, elementals, fey, fiends, and undead can\u00e2\u20ac\u2122t enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.\n\nSecond, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the GM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell\u00e2\u20ac\u2122s area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.",
+                "duration": "Until dispelled",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Hallow",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

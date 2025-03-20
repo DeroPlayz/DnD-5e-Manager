@@ -1,0 +1,1153 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Heavy Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 2,
+            "level": 5
+        },
+        {
+            "amount": 3,
+            "level": 11
+        },
+        {
+            "amount": 4,
+            "level": 20
+        },
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Chain Mail",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Leather Armor, Longbow and 20 Arrows",
+                    "number": 1
+                }
+            ],
+            "id": "d4c43206-863e-47bf-a36d-a931ed7024e2"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Martial Weapon and Shield",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Martial Weapon",
+                    "number": 2
+                }
+            ],
+            "id": "c1f2b5dc-ab0c-42d5-9593-70b4525d7f66"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow and 20 bolts",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Handaxe",
+                    "number": 2
+                }
+            ],
+            "id": "3e2f2919-5225-4cb6-9e6c-425f563307d1"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "72687f9e-7030-4b4a-b34c-72ef75b90154"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "1749c005-5a4b-40e1-bd39-0e6ea64ace6e",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Acrobatics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Animal Handling",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Intimidation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Survival",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have a fighting style that grants you a feature",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom74cbee90-3569-4ac1-b610-2e1b724edfbe",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fighting Style",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0769b185-23fd-43b6-9644-77bf45b8113b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Second Wind",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again",
+                        "level": 2
+                    },
+                    {
+                        "description": "On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature twice, you must finish a short or long rest before you can use it again. You can't use it twice on the same turn",
+                        "level": 17
+                    }
+                ],
+                "id": "Customfa0b636c-2476-47d0-8a1b-55c5f286c0c6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Action Surge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You choose an archetype that you strive to emulate in your combat styles and techniques. It grants you a feature a 3rd level, and again at 7th, 10th, 15th, and 18th level",
+                        "level": 3
+                    }
+                ],
+                "id": "Customa566f2ed-c54b-4a00-8d5f-f352f4dc8b3b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Martial Archetype",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attack 2 times instead of once, whenever you take the Attack action on your turn",
+                        "level": 5
+                    },
+                    {
+                        "description": "You can attack 3 times instead of once, whenever you take the Attack action on your turn",
+                        "level": 11
+                    },
+                    {
+                        "description": "You can attack 4 times instead of once, whenever you take the Attack action on your turn",
+                        "level": 20
+                    }
+                ],
+                "id": "Customaa326561-317c-4229-a1af-5e323cd0e2fa",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Extra Attack",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 1 time between long rests",
+                        "level": 9
+                    },
+                    {
+                        "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 2 times between long rests",
+                        "level": 13
+                    },
+                    {
+                        "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 3 times between long rests",
+                        "level": 17
+                    }
+                ],
+                "id": "Customc0077d3d-a78f-4377-8a82-d1bf755a161b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Indomitable",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        }
+    ],
+    "hitDie": "D10",
+    "hpModifier": "Constitution",
+    "id": "fighter",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "Fighter",
+    "savingThrows": {
+        "cha": false,
+        "con": true,
+        "dex": false,
+        "intelligence": false,
+        "str": true,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:\n\n- Replace a fighting style you know with another fighting style available to fighters.\n\n- If you know any maneuvers from the Battle Master archetype, you can replace one maneuver you know with a different maneuver",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custom44d3e9c1-a8a8-4f6f-9801-1a7ad2f24b60",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Martial Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "c377fe58-5583-4c61-b12c-57b25a8ee001",
+            "name": "Fighter Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 9
+                },
+                {
+                    "amount": 2,
+                    "level": 13
+                },
+                {
+                    "amount": 3,
+                    "level": 17
+                }
+            ],
+            "associatedValueName": "",
+            "id": "a71d1d17-4962-49d6-8d81-e7fb20d4b2db",
+            "name": "Indomitable Uses",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypeSelectionLevel": 1,
+    "subtypes": [
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customc7dd47ec-3883-42cd-9238-6614c2557f67",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_archery",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Archery",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "While you are wearing armor, you gain a +1 bonus to AC",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom1af7e9f5-4aab-44a5-bce2-6b3641898993",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_defense",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Defense",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customf7ab777c-1294-48ce-9f66-72db27881def",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Dueling",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_dueling",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Dueling",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom2206d8fd-1a38-47be-8187-ca737ca1c77f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Great Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_great_weapon_fighting",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Great Weapon Fighting",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom8be7c6b5-3944-42ed-9416-507ac07a40ae",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Protection",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_protection",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Protection",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom65a097dc-c1c5-4058-b763-5a69b7fe2e4c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Two-Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_two-weapon_fighting",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Two-Weapon Fighting",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customce4bdbe9-2357-4ae2-acdd-0a66f537e88f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Mariner",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_mariner",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Mariner",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are trained in making ranged attack at close quarters. When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customba470d47-7cac-4e00-b2b3-78a31ce33470",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Close Quarters Shooter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_close_quarters_shooter",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Close Quarters Shooter",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You excel at defending narrow passages, doorways, and other tight spaces. As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom5045e1f7-070e-4346-82e7-55151ec798ba",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Tunnel Fighter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_tunnel_fighter",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Tunnel Fighter",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom2fdc627b-18a4-4a8b-a124-08aa9bc553da",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Blind Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_blind_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Blind Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom32e062f7-c9b1-436c-b536-fd5c9a05b95a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Interception",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_interception_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Interception [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).\n\nYou gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom84360095-82c5-4750-823f-a32e0b753fc8",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Superior Technique",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_superior_technique_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Superior Technique [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon.\n\nIn addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom98593d6c-dc12-4e31-b6f3-700e255db424",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Thrown Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_thrown_weapon_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Thrown Weapon Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.\n\nAt the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom313ffa2d-b5f1-4bee-845b-7ffc99efcc43",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Unarmed Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "fighter_unarmed_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Unarmed Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Intelligence",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        }
+    ],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

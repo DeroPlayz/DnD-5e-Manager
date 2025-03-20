@@ -1,0 +1,422 @@
+{
+    "acModifier": "DEX",
+    "archetypeSelectionLevel": 1,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Handaxe and Light Hammer",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Simple weapon",
+                    "number": 2
+                }
+            ],
+            "id": "93bd8750-049a-4f43-8e58-2e1deceacd4b"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow",
+                    "number": 1
+                },
+                {
+                    "ammunitionTypeName": "Bolt",
+                    "description": "",
+                    "name": "Bolt",
+                    "number": 20
+                }
+            ],
+            "id": "4fb141a4-90cd-4ce4-a907-51ef4657044b"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scale Mail",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Studded Leather Armor",
+                    "number": 1
+                }
+            ],
+            "id": "a2a4d410-d26b-4f0b-bf72-ac02cf82f041"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Thieves' Tools",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "f29f808e-9f6a-4942-a6da-2575e83b8cf0"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 3,
+            "id": "cbeb0932-de3b-49bd-b824-06a2fcb83906",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Deception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "HALF",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You choose the type of Artificer Specialist you\r\nare: Alchemist, Mechanist, or Gunsmith, all of which are\rdetailed at the end of the class description. Your choice\rgrants you features at 1st level and again at 3rd, 9th, 14th,\rand 17th level",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom7d319aed-3294-4459-ac96-1c436d9205fd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Artificier Specialist",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know\rthe artificer spells Detect Magic and Identify, and you can cast\rthem as rituals. You don\u00e2\u20ac\u2122t need to provide a material\rcomponent when casting identify with this class feature",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa781782f-a5f9-429e-901e-bb07f2b6b75d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Magic Item Analysis",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your proficiency bonus is doubled for\rany ability check you make that uses any of the tool\rproficiencies you gain from this class",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom0217f550-164c-4958-b9c7-fb084afb7247",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tool Expertise",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the use of a magic item that you have\r\ncrafted. Choose the item from the list of 2nd-level items\rbelow.\r\n\nCrafting an item is a difficult task. When you gain a magic\ritem from this feature, it reflects long hours of study,\rtinkering, and experimentation that allowed you to complete\r\nan item of your own unique design. Unlike normal magical\ritem crafting, you develop the formula as you work on the\ritem, and the cost of creation is covered by your normal living\r\nexpenses. Upon completion you are considered to know the\rformula for crafting the chosen item. You are assumed to\rwork on this item in your leisure time and to finish it when\r\nyou level up.\n\r\nYou complete another item of your choice when you reach\rcertain levels in this class: 5th, 10th, 15th, and 20th level. The\ritem you choose must be on the list for your current artificer\r\nlevel or a lower level.\r\n\n- 2nd Level: bag of holding, cap of water breathing, driftglobe,\rgoggles of night, sending stones\r\n\n- 5th Level: alchemy jug, helm of comprehending languages,\rlantern of revealing, ring of swimming, robe of useful items,\rrope of climbing, wand of magic detection, wand of secrets\n\r\n- 10th Level: bag of beans, chime of opening, decanter of\r\nendless water, eyes of minute seeing, folding boat,\rHeward\u00e2\u20ac\u2122s handy haversack\n\r\n- 15th Level: boots of striding and springing, bracers of\rarchery, brooch of shielding, broom of flying, hat of\rdisguise, slippers of spider climbing.\n\r\n- 20th Level: eyes of the eagle, gem of brightness, gloves of\rmissile snaring, gloves of swimming and climbing, ring of\rjumping, ring of mind shielding, wings of flying",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom13a1020a-fdc1-4445-b438-43b34904b6f8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wondrous Invention",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to cast\rspells. The spells you learn are limited in scope,\rprimarily concerned with modifying creatures and objects or\rcreating items",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom18955ed0-3687-47d6-a882-50d5ad888dcd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Spellcasting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your experience in creating your own wondrous invention makes you more adept at crafting a magic item than\ra normal spellcaster",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom85519fd4-e184-48ec-b56b-74277ffc4eee",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Improved Magical Crafting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to channel your\rartificer spells into objects for later use. When you cast an\rartificer spell with a casting time of 1 action, you can increase\rits casting time to 1 minute. If you do so and hold a\rnonmagical item throughout the casting, you expend a spell\rslot, but none of the spell\u00e2\u20ac\u2122s effects occur. Instead, the spell\rtransfers into that item for later use if the item doesn\u00e2\u20ac\u2122t\ralready contain a spell from this feature.\r\n\nAny creature holding the item thereafter can use an action\rto activate the spell if the creature has an Intelligence score\rof at least 6. The spell is cast using your spellcasting ability,\rtargeting the creature that activates the item. If the spell\rtargets more than one creature, the creature that activates\rthe item selects the additional targets. If the spell has an area\rof effect, it is centered on the item. If the spell\u00e2\u20ac\u2122s range is self,\rit targets the creature that activates the item. If the spell\rrequires concentration, the creature that activates the item\rmaintains the concentration as if they had cast the spell.\r\n\nWhen you infuse a spell in this way, it must be used within\r8 hours. After that time, its magic fades and is wasted.\rYou can have a limited number of infused spells at the\rsame time. The number equals your Intelligence modifier",
+                        "level": 4
+                    }
+                ],
+                "id": "Custom32b1eb60-7772-42a8-8056-f8ced331fe70",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Infuse Magic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 4
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your superior understanding of magic items allows you to master their use. You can now attune to up to\rfour, rather than three, magic items at a time",
+                        "level": 5
+                    },
+                    {
+                        "description": "Your superior understanding of magic items allows you to master their use. You can now attune to up to\rfive, rather than three, magic items at a time.",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom8c4051d6-6e5d-40e9-a2e5-9a58359917f2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Superior Attunement",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your understanding of magic items is\runmatched, allowing you to mingle your soul with items\rlinked to you. You can attune to up to six magic items at once.\r\nIn addition, you gain a +1 bonus to all saving throws per\rmagic item you are currently attuned to",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom7c512846-38ee-413c-8bfe-10e11dafb75f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Soul of Artifice",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hitDie": "D8",
+    "hpModifier": "CON",
+    "id": "artificer",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Artificer",
+    "savingThrows": {
+        "cha": false,
+        "con": true,
+        "dex": false,
+        "intelligence": true,
+        "str": false,
+        "wis": false
+    },
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "INT",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "Artificer__revised_, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+                "components": "V, S",
+                "description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Detect Magic",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "1st-level divination (Ritual)"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "Artificer__revised_, Bard, Wizard",
+                "components": "V, S, M (a pearl worth at least 100 gp and an owl feather)",
+                "description": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\n\nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Identify",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "divination",
+                "type": "1st-level divination (Ritual)"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Thieves' Tools"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "Crossbow, hand"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, heavy"
+        }
+    ]
+}

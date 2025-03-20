@@ -1,0 +1,415 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Heavy Armor"
+        }
+    ],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with martial weapons and heavy armor",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0825dd0c-c3d0-4b68-bf2d-b6e04108e7ae",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you use the Attack action, you can make one weapon attack as a bonus action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custombbbef002-a4fb-4423-bb81-1e866faebb2f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Priest of Zeal",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you roll fire or thunder damage, you can use your Channel Divinity to deal maximum damage instead of rolling",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom2d3ccc6e-412d-4f7e-b4fe-01a6cefd8516",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity: Consuming Fervor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you deal thunder damage to a Large or smaller creature, you can also push it up to 10 feet away from you",
+                        "level": 6
+                    }
+                ],
+                "id": "Custome5e165b3-9719-46dd-b309-67c44d5118d6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Resounding Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target",
+                        "level": 8
+                    },
+                    {
+                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage of the same type dealt by the weapon to the target",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom444a63b6-fa13-49f4-85a2-849f373ccba0",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Divine Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 8
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra 5d10 fire damage and an extra 5d10 damage of the weapon's type. You then fall unconscious and begin making death saving throws as normal, or you die if the damage you took would have killed you outright.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom058787d7-c62d-4609-8a83-3df4088cb3c5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blaze of Glory",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "cleric_zeal_domain",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Zeal Domain",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "WIS"
+                                }
+                            ]
+                        },
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 1,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "d526c7ee-1f74-4d38-ab69-ed4e7edf84f4",
+            "name": "Priest of Zeal Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "paladin",
+                "components": "V",
+                "description": "The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spell ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Searing Smite",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "paladin",
+                "components": "V",
+                "description": "The first time you hit with a melee weapon attack during this spell's duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Thunderous Smite",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, paladin, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Magic Weapon",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "transmutation",
+                "type": "2nd-level transmutation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (a chip of mica)",
+                "description": "A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a lO-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.\n\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd levei or higher, the damage increases by ld8 for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Shatter",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "2nd-level evocation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a shaving of licorice root)",
+                "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u00e2\u20ac\u2122s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u00e2\u20ac\u2122t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Haste",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "transmutation",
+                "type": "3rd-level transmutation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a tiny ball of bat guano and sulfur)",
+                "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Fireball",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "150 feet",
+                "school": "evocation",
+                "type": "3rd-level evocation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (a bit of phosphorous or a firefly)",
+                "description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.",
+                "duration": "10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Fire Shield",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "evocation",
+                "type": "4th-level evocation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
+                "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Freedom of Movement",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "paladin",
+                "components": "V",
+                "description": "You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take 5d6 thunder damage, as well as 5d6 radiant or necrotic damage (your choice), and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn't knocked prone.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Destructive Wave",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (30-foot radius)",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S, M (pinch of sulfur)",
+                "description": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) inceases by 1d6 for each slot level above 5th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Flame Strike",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

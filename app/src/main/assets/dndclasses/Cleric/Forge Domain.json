@@ -1,0 +1,381 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Heavy Armor"
+        }
+    ],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with heavy armor and smith's tools",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom9e20d98f-f1ef-444b-8e73-633405304dca",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiency",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At the end of a long rest, touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest, the object becomes a magic item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Customdf31d04b-3169-466c-ab88-0c1224a58194",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blessing of the Forge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can conduct an hour-long ritual that crafts a nonmagical item that must include some metal. The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.\n\nThe thing you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritual's end, magically forming even nonmetal parts of the creation.\n\nThe ritual can create a duplicate of a nonmagical item that contains metal, such as a key, if you possess the original during the ritual",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom05e8ab15-c7e4-482b-9a9b-7aaeda30fb67",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity: Artisan's Blessing",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain resistance to fire damage and you gain a +1 bonus to AC while wearing heavy armor",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom62c87d69-bb3c-49f2-9e93-1517a12a9674",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Soul of the Forge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target",
+                        "level": 8
+                    },
+                    {
+                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 fire damage to the target",
+                        "level": 14
+                    }
+                ],
+                "id": "Customa54d3228-b31d-47f1-9be2-ac5f80502a25",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Divine Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 8
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain immunity to fire damage, and you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks while wearing heavy armor",
+                        "level": 17
+                    }
+                ],
+                "id": "Customc46d98cb-b2b2-4555-97a0-0dec0188a54b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Saint of Forge and Fire",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "cleric_forge_domain",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Forge Domain",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "artificer__eb_, artificer__revised_, bard, fighter, rogue, wizard",
+                "components": "V, S, M (a pearl worth at least 100 gp and an owl feather)",
+                "description": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\n\nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Identify",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "divination",
+                "type": "1st-level divination (Ritual)"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "paladin",
+                "components": "V",
+                "description": "The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spell ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Searing Smite",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, druid, bard",
+                "components": "V, S, M (a piece of iron and a flame)",
+                "description": "Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.\n\nIf a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn\u00e2\u20ac\u2122t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Heat Metal",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "transmutation",
+                "type": "2nd-level transmutation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, paladin, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Magic Weapon",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "transmutation",
+                "type": "2nd-level transmutation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, paladin",
+                "components": "V, S",
+                "description": "A nonmagical weapon you touch becomes a magic weapon.\n\nChoose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Elemental Weapon",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "transmutation",
+                "type": "3rd-level transmutation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "Touch a willing creature. They have resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Protection from Energy",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "10 minutes",
+                "classes": "artificer, artificer__eb_, artificer__revised_, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from flax or wool.\n\nChoose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the spell is commensurate with the quality of the raw materials.\n\nCreatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Fabricate",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "transmutation",
+                "type": "4th-level transmutation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a small piece of phosphorus)",
+                "description": "You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.\n\nWhen the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.\n\nOne side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Wall of Fire",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "4th-level evocation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.\n\nAs a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n\n| Size   | HP | AC | Attack   | Str | Dex |\n\n| Tiny   | 20 | 18 | +8 to hit, 1d4+4 damage  |   4 |  18 |\n\n| Small  | 25 | 16 | +6 to hit, 1d8+2 damage  |   6 |  14 |\n\n| Medium | 40 | 13 | +5 to hit, 2d6+1 damage  |  10 |  12 |\n\n| Large  | 50 | 10 | +6 to hit, 2d10+2 damage |  14 |  10 |\n\n| Huge   | 80 | 10 | +8 to hit, 2d12+2 damage |  18 |   6 |\n\nAn animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.\n\nIf you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The GM might rule that a specific object inflicts slashing or piercing damage based on its form.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Animate Objects",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "Transmutation",
+                "type": "5th-level transmutation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a tiny piece of matter of the same type of the item you plan to create)",
+                "description": "You pull wisps of Shadow material from the Shadowfell to create a nonliving object of vegetable matter within range - soft goods, rope, wood, or something similar. You can also use this spell to create mineral Objects such as stone, Crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.\n\nThe duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.\n\n| Material  | Duration   |\n\n| Vegetable matter  | 1 day  |\n\n| Stone or crystal  | 12 hours   |\n\n| Precious metals   | 1 hour |\n\n| Gems  | 10 minutes |\n\n| Adamantine or mithral | 1 minute   |\n\nUsing any material created by this spell as another spell's material component causes that spell to fail.",
+                "duration": "Special",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Creation",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "illusion",
+                "type": "5th-level illusion"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Smith's Tools"
+        }
+    ],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,137 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with sidearms and hacking tools",
+                        "level": 2
+                    }
+                ],
+                "id": "Customf92a17e6-648e-400c-b511-41dac5f40b04",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You trade out your spellbook for a specially attuned storage device, capable of recording magical data. The computing power of this device must be equal to or greater than a tablet computer. Only one storage device can be attuned to you at any given time. Spells can be copied into this device at half the cost of copying spells into a spellbook",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom6f1acf10-5a5a-4a63-8189-3240a07d4363",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Technological Savant",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can insert a spell within an electronic device of your choosing, so that by touching a key or flicking a switch using an action, the spell activates. All variables of the spell are set at the time of casting. The computing power of this device must be equal to or greater than a mobile phone.\n\nA programmed spell remains placed in its device for 48 hours, and is gone once it is discharged. You can use this feature to place a programmed spell in only one device at a time, and a device can hold only one programmed spell. Only you can activate the programmed spell in the device. If the device is destroyed, the programmed spell is lost.\n\nA concentration spell placed in a device cannot be activated while you are concentrating on another spell. Once you use this feature, you can't use it again until you finish a long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Customfc472727-71dc-4c03-8ccd-111601e43e01",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Program Spell",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can cast spells through networked electronic devices, including cameras, mobile phones, and computers. For example, if a creature is under the observation of a security camera and you can see the video feed from that camera on a computer, you can cast a spell into the computer and out through the security camera to target that creature.\n\nIf the spell requires the caster to be seen, the target must see you or a live image of you. If the spell requires the caster to be heard, the target must be able to hear you or a live audio transmission of you. The spell's range is determined using the distance from you to your device, and then from the target to its device. You must be able to see or otherwise determine the location of the target. This feature can be used to cast only spells that target specific creatures. Spells that affect an area are not subject to online casting.\n\nThis feature can be used a number of times per day equal to your Intelligence modifier (minimum of once)",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom973fb786-3c5f-4b2a-b398-c4a4c7db0889",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Online Casting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have learned to imprint vestiges of your consciousness on electronic devices with significant computing power. When you cast a concentration spell, you can use a device whose computing power is equal to or greater than a tablet computer to maintain concentration of the spell on your behalf. The device must be held or worn by you to maintain this effect. If the device is destroyed, taken from you, dropped, or turned off, the concentration ends. Once you use this feature, you can't use it again until you finish a long rest",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom386c0de9-fae3-44d6-875b-315f60fc2dcd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Chained Device",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "wizard_technomancy",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Technomancy",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "Sidearms"
+        },
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "Hacking tools"
+        }
+    ],
+    "weaponProficiencies": []
+}

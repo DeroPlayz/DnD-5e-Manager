@@ -1,0 +1,702 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 1,
+    "armorProficiencies": [],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow and 20 Bolts",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any Simple Weapon",
+                    "number": 1
+                }
+            ],
+            "id": "f24ae4b8-4c54-4300-aa5a-a3333f74afcb"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Component Pouch",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Arcane Focus",
+                    "number": 1
+                }
+            ],
+            "id": "8b55fa15-6ab0-40f5-b32a-db5d6f97d0f2"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "2dcc8ade-549d-49b7-b555-ce4e203114ce"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dagger",
+                    "number": 2
+                }
+            ],
+            "id": "96e08645-9899-4eea-ac29-1991b5b7a1b9"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "0a9f2776-868b-482f-8d2c-3a9a3bab657f",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Deception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Intimidation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Persuasion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "FULL",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Cantrips\nYou know 4 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have two 1st-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 2 spells of up to 1st-level of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 1
+                    },
+                    {
+                        "description": "Cantrips\nYou know 4 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have three 1st-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 3 spells of up to 1st-level of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 2
+                    },
+                    {
+                        "description": "Cantrips\nYou know 4 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 4 spells of up to 2nd-level of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 3
+                    },
+                    {
+                        "description": "Cantrips\nYou know 5 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 5 spells of up to 2nd-level of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 4
+                    },
+                    {
+                        "description": "Cantrips\nYou know 5 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 6 spells of up to 3rd-level of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 5
+                    },
+                    {
+                        "description": "Cantrips\nYou know 5 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and three 3rd-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 7 spells of up to 3rd-level of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 6
+                    },
+                    {
+                        "description": "Cantrips\nYou know 5 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 8 spells of up to 4th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 7
+                    },
+                    {
+                        "description": "Cantrips\nYou know 5 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level and two 4th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 9 spells of up to 4th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 8
+                    },
+                    {
+                        "description": "Cantrips\nYou know 5 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level and one 5th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 10 spells of up to 5th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 9
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level and two 5th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 11 spells of up to 5th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 10
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level and one 6th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 12 spells of up to 6th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 11
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level and one 7th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 13 spells of up to 7th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 13
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level, one 7th-level and one 8th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 14 spells of up to 8th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 15
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, two 5th-level, one 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 15 spells of up to 9th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 17
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, one 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 15 spells of up to 9th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 18
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, two 6th-level, one 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 15 spells of up to 9th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 19
+                    },
+                    {
+                        "description": "Cantrips\nYou know 6 cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level, three 4th-level, three 5th-level, two 6th-level, two 7th-level, one 8th-level and one 9th-level spell slots. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 15 spells of up to 9th-evel of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nCharisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + Charisma modifier.\n\nSpell attack modifier = Your proficiency bonus + Charisma modifier.\n\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells",
+                        "level": 20
+                    }
+                ],
+                "id": "Customc74c265d-f8e5-49ca-89cc-1192819e39e7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Spellcasting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose a sorcerous origin, which describes the source of your innate magical power. Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom89098fa0-2b9c-4f2d-ac46-88aaec7d0276",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sorcerous Origin",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain sorcery points, which allow you to create a variety of magical effects.\n\nSorcery Points\nYour sorcery point amount equals your Sorcerer level, to a maximum of 20. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.\n\nFlexible Casting\nYou can use your sorcery points to gain additional Spell Slots, or sacrifice Spell Slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.\n\nCreating Spell Slots: You can transform unexpended sorcery points into one spell slot as a  bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.\n\nLevel --> Cost\n1st\t--> 2\n2nd --> 3\n3rd\t--> 5\n4th\t--> 6\n5th\t--> 7\n\nConverting a Spell Slot to Sorcery Points: As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom89d34318-45b0-47f0-959c-da7f9f5ea329",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Font of Magic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain 2 of the following Metamagic options of your choice.\n\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted.\n\nCareful Spell:\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n\nDistant Spell:\nWhen you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.\n\nEmpowered Spell:\nWhen you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.\n\nExtended Spell:\nWhen you cast a spell with a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.\n\nHeightened Spell:\nWhen you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.\n\nQuickened Spell:\nWhen you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.\n\nSubtle Spell:\nWhen you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.\n\nTwinned Spell:\nWhen you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level",
+                        "level": 3
+                    },
+                    {
+                        "description": "You gain 3 of the following Metamagic options of your choice.\n\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted.\n\nCareful Spell:\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n\nDistant Spell:\nWhen you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.\n\nEmpowered Spell:\nWhen you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.\n\nExtended Spell:\nWhen you cast a spell with a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.\n\nHeightened Spell:\nWhen you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.\n\nQuickened Spell:\nWhen you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.\n\nSubtle Spell:\nWhen you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.\n\nTwinned Spell:\nWhen you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level",
+                        "level": 10
+                    },
+                    {
+                        "description": "You gain 4 of the following Metamagic options of your choice.\n\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted.\n\nCareful Spell:\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.\n\nDistant Spell:\nWhen you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.\n\nEmpowered Spell:\nWhen you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.\n\nExtended Spell:\nWhen you cast a spell with a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.\n\nHeightened Spell:\nWhen you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.\n\nQuickened Spell:\nWhen you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.\n\nSubtle Spell:\nWhen you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.\n\nTwinned Spell:\nWhen you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom8f0e5632-247e-4fcb-8ce9-6e2c037e7a8c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Metamagic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You regain 4 expended sorcery points whenever you finish a short rest",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom208aa4d2-c362-44ee-93ff-b1afb2acd45e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Sorcerous Restoration",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success",
+                        "level": 5
+                    }
+                ],
+                "id": "Custom5d3989b6-db9a-40c8-910c-c1ff35d0e07a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Magical Guidance",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        }
+    ],
+    "hitDie": "D6",
+    "hpModifier": "Constitution",
+    "id": "sorcerer",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": false,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": false,
+    "name": "Sorcerer",
+    "savingThrows": {
+        "cha": true,
+        "con": true,
+        "dex": false,
+        "intelligence": false,
+        "str": false,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                },
+                {
+                    "amount": 2,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have access to the following additional options.\n\nSeeking Spell:\nIf you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.\n\nTransmuted Spell:\nWhen you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom7ad90981-ef13-447f-8d59-a0bceedf2076",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Metamagic Options",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:\n\n- Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.\n\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custom353180cb-e4fe-4b65-b451-5584c295b6c0",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Sorcerous Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "41dc2b33-6e79-4faa-8c23-c690e755dfaf",
+            "name": "Sorcerer Optional Features",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 3
+                },
+                {
+                    "amount": 3,
+                    "level": 10
+                },
+                {
+                    "amount": 4,
+                    "level": 17
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom8060c582-56aa-405e-a0af-1977708747f1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Careful Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.\n\nWhen you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom8f18ff92-ef7d-4bc0-b729-fbcec3342c9e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Distant Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom4ea47f8a-ed16-4a15-8ddc-309caa6c85c5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Empowered Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom856e8b7c-6b4c-4ec3-b2ed-2a6c05846920",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Extended Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custombe5ed556-afb7-43a3-b630-a5b9d7d3a3eb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Heightened Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customb027a6d0-c091-46bc-a57f-d7a4fd90d70b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Quickened Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom0a9fd491-01bc-42f2-ad05-0fd97a97df0e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Subtle Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom0c011a9d-b528-417e-80ee-ee7169dcc97c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Twinned Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custombc730b65-50a3-47ad-aba2-36a08775a575",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Seeking Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customf5b60ce4-e320-4b8b-8912-7b857fe6d6c4",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Transmuted Spell",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": false,
+            "id": "2dfa7d8b-bee1-4473-a27f-1f53ba012951",
+            "name": "Metamagic Options",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 2
+                },
+                {
+                    "amount": 3,
+                    "level": 3
+                },
+                {
+                    "amount": 4,
+                    "level": 4
+                },
+                {
+                    "amount": 5,
+                    "level": 5
+                },
+                {
+                    "amount": 6,
+                    "level": 6
+                },
+                {
+                    "amount": 7,
+                    "level": 7
+                },
+                {
+                    "amount": 8,
+                    "level": 8
+                },
+                {
+                    "amount": 9,
+                    "level": 9
+                },
+                {
+                    "amount": 10,
+                    "level": 10
+                },
+                {
+                    "amount": 11,
+                    "level": 11
+                },
+                {
+                    "amount": 12,
+                    "level": 12
+                },
+                {
+                    "amount": 13,
+                    "level": 13
+                },
+                {
+                    "amount": 14,
+                    "level": 14
+                },
+                {
+                    "amount": 15,
+                    "level": 15
+                },
+                {
+                    "amount": 16,
+                    "level": 16
+                },
+                {
+                    "amount": 17,
+                    "level": 17
+                },
+                {
+                    "amount": 18,
+                    "level": 18
+                },
+                {
+                    "amount": 19,
+                    "level": 19
+                },
+                {
+                    "amount": 20,
+                    "level": 20
+                }
+            ],
+            "associatedValueName": "",
+            "id": "d94a6cdf-91ca-4bab-b2ed-b9b691739b86",
+            "name": "Sorcery Points",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dagger"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Dart"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Sling"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Quarterstaff"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, light"
+        }
+    ]
+}

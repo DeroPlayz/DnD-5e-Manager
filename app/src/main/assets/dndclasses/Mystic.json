@@ -1,0 +1,895 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 1,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Spear",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Mace",
+                    "number": 1
+                }
+            ],
+            "id": "0c98039f-239f-43ce-9230-dabc70c56b0a"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Studded Leather Armor",
+                    "number": 1
+                }
+            ],
+            "id": "5cbc39ec-d197-4671-bfa3-68c12c9881eb"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow and 20 bolts",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any simple weapon",
+                    "number": 1
+                }
+            ],
+            "id": "7de6b8a7-d1d2-44df-acf2-a50db4b0b0ef"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scholar's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "bd5393b9-3413-4b15-bbf4-bd5eafa1be4d"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "9f4aea01-77d8-4259-a872-15fa0b243072",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know 1 psionic talent of your choice. When that number goes up for you, choose a new talent",
+                        "level": 1
+                    },
+                    {
+                        "description": "You know 2 psionic talents of your choice. When that number goes up for you, choose a new talent",
+                        "level": 3
+                    },
+                    {
+                        "description": "You know 3 psionic talents of your choice. When that number goes up for you, choose a new talent",
+                        "level": 10
+                    },
+                    {
+                        "description": "You know 4 psionic talents of your choice. When that number goes up for you, choose a new talent",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom0657678c-0c71-4cbb-a939-db065716320a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Talents",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You know 1 psionic discipline of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 1
+                    },
+                    {
+                        "description": "You know 2 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 3
+                    },
+                    {
+                        "description": "You know 3 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 5
+                    },
+                    {
+                        "description": "You know 4 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 7
+                    },
+                    {
+                        "description": "You know 5 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 9
+                    },
+                    {
+                        "description": "You know 6 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 12
+                    },
+                    {
+                        "description": "You know 7 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 15
+                    },
+                    {
+                        "description": "You know 8 psionic disciplines of your choice. When that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nUsing a Discipline:\nEach psionic discipline has several ways you can use it. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\nPsychic Focus:\nThe Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points:\nA discipline provides different options for how to use it with your psi points. Each effect option has a name and the psi point cost of that option appears in parentheses. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\nSome options show a range rather than a specific cost. To use that option, you must spend a number of points within that range, abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline. Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents:\nDisciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials.\n\nDuration:\nAn effect option in a discipline specifies how long its effect lasts.\n\n- Instantaneous: If no duration is specified, the effect of the option is instantaneous.\n\n- Concentration: Some options require concentration to maintain their effects. This requirement is noted with \"conc.\", and is followed by the maximum duration of the concentration.\n\nConcentrating on a discipline follows the same rules as concentrating on a spell.\n\nTargets and Areas of Effect:\nPsionic disciplines use the same rules as spells for determining targets and areas of effect.\n\nSaving Throws and Attack Rolls:\nIf a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability. Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects:\nThe effects of different psionic disciplines add together while the durations overlap. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect applies while the durations of the effects overlap.\n\nPsionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule",
+                        "level": 18
+                    }
+                ],
+                "id": "Customdc2a246a-a002-43e6-99a2-99ea2a5cc36e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Disciplines",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 4 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 1
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 6 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 2
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 14 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 3
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 17 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 4
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 27 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 5
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 32 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 6
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 38 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 7
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 44 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 8
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 57 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 9
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 64 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 10
+                    },
+                    {
+                        "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 71 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom119f62ac-fd8a-4330-8577-f94d2ebace61",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psi Points",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 2",
+                        "level": 1
+                    },
+                    {
+                        "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 3",
+                        "level": 3
+                    },
+                    {
+                        "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 5",
+                        "level": 5
+                    },
+                    {
+                        "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 6",
+                        "level": 7
+                    },
+                    {
+                        "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 7",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom639ecf36-951d-4b61-8dbd-c2b88d0916ce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psi Limit",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit. You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines",
+                        "level": 1
+                    }
+                ],
+                "id": "Customdf6691b3-190d-45f9-80a0-c7f5dc50fa62",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psychic Focus",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.\n\nDiscipline save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nDiscipline attack modifier = your proficiency bonus + your Intelligence modifier",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom9d15fa23-5e1c-481d-8e97-c2cedce2c8c3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Ability",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 1st level, you choose a Mystic Order. Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 14th level",
+                        "level": 1
+                    }
+                ],
+                "id": "Customaf52857d-25d0-40af-9b77-eb3cc7b9c953",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mystic Order",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Immediately after you spend psi points on a psionic discipline, you can take a bonus action to regain hit points equal to the number of psi points you spent",
+                        "level": 2
+                    }
+                ],
+                "id": "Custome5da7816-6ac6-4203-a64f-ea93966786c4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mystical Recovery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself",
+                        "level": 2
+                    }
+                ],
+                "id": "Customfa2e9d44-f0f7-4927-9bb2-8bf909c6b3cd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Telepathy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can replace your proficiency in Wisdom saving throws whenever you finish a short or long rest. To do so, choose Strength, Dexterity, Constitution, or Charisma. You gain proficiency in saves using that ability, instead of Wisdom. This change lasts until you finish your next short or long rest",
+                        "level": 4
+                    }
+                ],
+                "id": "Custom2a44ab67-5a96-4514-ac61-8e99f989c76b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Strength of Mind",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 4
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent",
+                        "level": 8
+                    },
+                    {
+                        "description": "Once on each of your turns when you hit a creature with a weapon, you can deal an extra 2d8 psychic damage to that target. In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent",
+                        "level": 14
+                    }
+                ],
+                "id": "Customb2049e78-ab78-4b57-9c9b-ab2b5ee78abb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Potent Psionics",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 8
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can't be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom53a7f9b4-bd9a-4457-bfbe-1412833871ce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Consumptive Power",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you gain 9 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also use normal psi points at the same time you use your special psi points. When you finish a long rest, you lose any of these special points that you haven't spent. If more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn't use these special points, the disciplines end that you're concentrating on\n\nYou have one use of this feature, and you regain any expended use of it with a long rest",
+                        "level": 11
+                    },
+                    {
+                        "description": "As an action, you gain 9 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also use normal psi points at the same time you use your special psi points. When you finish a long rest, you lose any of these special points that you haven't spent. If more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn't use these special points, the disciplines end that you're concentrating on\n\nYou have two uses of this feature, and you regain any expended use of it with a long rest",
+                        "level": 13
+                    },
+                    {
+                        "description": "As an action, you gain 11 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also use normal psi points at the same time you use your special psi points. When you finish a long rest, you lose any of these special points that you haven't spent. If more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn't use these special points, the disciplines end that you're concentrating on\n\nYou have three uses of this feature, and you regain any expended use of it with a long rest",
+                        "level": 15
+                    },
+                    {
+                        "description": "As an action, you gain 11 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also use normal psi points at the same time you use your special psi points. When you finish a long rest, you lose any of these special points that you haven't spent. If more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn't use these special points, the disciplines end that you're concentrating on\n\nYou have four uses of this feature, and you regain any expended use of it with a long rest",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom9ec038ea-b6fe-465b-a83e-0ab8f671c873",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Mastery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following benefits:\n\n- You gain resistance to bludgeoning, piercing, and slashing damage.\n- You no longer age.\n- You are immune to disease, poison damage, and the poisoned condition.\n- If you die, roll a d20. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall unconscious. You and your gear disappear. You appear at a spot of your choice 1d3 days later on the plane of existence where you died, having gained the benefits of one long rest",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom6ea301bc-991b-4842-b4ca-dd94ed65d3c2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Body",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "mystic",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": false,
+    "name": "Mystic",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": false,
+        "intelligence": true,
+        "str": false,
+        "wis": true
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 1
+                },
+                {
+                    "amount": 2,
+                    "level": 3
+                },
+                {
+                    "amount": 3,
+                    "level": 10
+                },
+                {
+                    "amount": 4,
+                    "level": 17
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you cause bright light to radiate from your body in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. The light lasts for 1 hour, and you can extinguish it earlier as a bonus action",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom6e2e68fe-ade7-4739-ae59-4fcbe67eb6cc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Beacon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, a one-handed melee weapon you hold becomes one with your hand. For the next minute, you can't let go of the weapon nor can it be forced from your grasp",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custombb692786-6389-402e-a1e1-3c570f728ae9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blade Meld",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you erase your image from the mind of one creature you can see within 120 feet of you; the target must succeed on a Wisdom saving throw, or you are invisible to it until the end of your next turn",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom483468b1-8253-4c2f-a060-b28b829581a5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blind Spot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you plant a false belief in the mind of one creature that you can see within 60 feet of you. You can create a sound or an image. Only the target of this talent perceives the sound or image you create. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a creature's roar, a musical instrument, or any other sound you pick. It lasts for 1 minute. If you create an object, it must fit within a 5- foot cube and can't move or be reflective. The image can't create any effect that influences a sense other than sight. The image lasts for 1 minute, and it disappears if the creature touches it",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custome0374602-52d1-4fae-97f2-919ab3f24112",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Delusion",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 1d8 acid, cold, fire, lightning, or thunder damage (your choice)",
+                                "level": 1
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 2d8 acid, cold, fire, lightning, or thunder damage (your choice)",
+                                "level": 5
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 3d8 acid, cold, fire, lightning, or thunder damage (your choice)",
+                                "level": 11
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 4d8 acid, cold, fire, lightning, or thunder damage (your choice)",
+                                "level": 17
+                            }
+                        ],
+                        "id": "Custom46abe693-fc93-44b3-b5f6-23d03ed4727e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Energy Beam",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you alter your density and weight to improve your mobility. For the rest of your turn, your walking speed increases by 10 feet, and the first time you stand up this turn, you do so without expending any of your movement if your speed is greater than 0",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom6c3cb61e-083f-4dd5-a383-e05c80ac6561",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Light Step",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an Intelligence of at least 2, otherwise this talent fails and the action is wasted. This communication can occur until the end of the current turn. You don't need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target's choice, gaining perfect recall of one thing it saw or did",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom209203f0-b1fa-45e0-8756-7d479d084fb7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mind Meld",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone",
+                                "level": 1
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 2d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone",
+                                "level": 5
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 3d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone",
+                                "level": 11
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 3d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone",
+                                "level": 17
+                            }
+                        ],
+                        "id": "Custom5248c0d0-fe01-4fd8-9068-fc5ba420571a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mind Slam",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 1d10 psychic damage",
+                                "level": 1
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 2d10 psychic damage",
+                                "level": 5
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 3d10 psychic damage",
+                                "level": 11
+                            },
+                            {
+                                "description": "As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 4d10 psychic damage",
+                                "level": 17
+                            }
+                        ],
+                        "id": "Custom13e89c48-48ee-4afc-9970-5bc0b1e6f2f5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mind Thrust",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you beguile one humanoid you can see within 120 feet of you. The target must succeed on a Charisma saving throw or be charmed by you until the end of your next turn",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customf1218ab7-c71d-4b99-9b58-17d8f0c486ab",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mystic Charm",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can use your action to manipulate or move one object within 30 feet of you. The object can't weigh more than 10 pounds, and you can't affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction. This talent allows you to open an unlocked door, pour out a beer stein, and so on. The object falls to the ground at the end of your turn if you leave it suspended in midair",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom4c1db02f-a82e-4417-bb32-8c562ae8c7bc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mystic Hand",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can't lift the target off the ground unless it is already airborne or underwater",
+                                "level": 1
+                            },
+                            {
+                                "description": "As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 2d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can't lift the target off the ground unless it is already airborne or underwater",
+                                "level": 5
+                            },
+                            {
+                                "description": "As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 3d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can't lift the target off the ground unless it is already airborne or underwater",
+                                "level": 11
+                            },
+                            {
+                                "description": "As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 4d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can't lift the target off the ground unless it is already airborne or underwater",
+                                "level": 17
+                            }
+                        ],
+                        "id": "Custom6220d0d2-2080-40df-893f-da8e215840b9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Psychic Hammer",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "6795427b-a285-466e-99ee-6edef7eeed5f",
+            "name": "Psionic Talents",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 4,
+                    "associatedValue": "2",
+                    "level": 1
+                },
+                {
+                    "amount": 6,
+                    "associatedValue": "2",
+                    "level": 2
+                },
+                {
+                    "amount": 14,
+                    "associatedValue": "3",
+                    "level": 3
+                },
+                {
+                    "amount": 17,
+                    "associatedValue": "3",
+                    "level": 4
+                },
+                {
+                    "amount": 27,
+                    "associatedValue": "5",
+                    "level": 5
+                },
+                {
+                    "amount": 32,
+                    "associatedValue": "5",
+                    "level": 6
+                },
+                {
+                    "amount": 38,
+                    "associatedValue": "6",
+                    "level": 7
+                },
+                {
+                    "amount": 44,
+                    "associatedValue": "6",
+                    "level": 8
+                },
+                {
+                    "amount": 57,
+                    "associatedValue": "7",
+                    "level": 9
+                },
+                {
+                    "amount": 64,
+                    "associatedValue": "7",
+                    "level": 10
+                },
+                {
+                    "amount": 71,
+                    "associatedValue": "7",
+                    "level": 18
+                }
+            ],
+            "associatedValueName": "Psi Limit",
+            "id": "6664c934-3d90-4c14-8f7b-afbf69d18691",
+            "name": "Psi Points",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        }
+    ]
+}

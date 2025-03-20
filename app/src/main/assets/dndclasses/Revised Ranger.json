@@ -1,0 +1,1299 @@
+{
+    "acModifier": "DEX",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        },
+        {
+            "amount": 2,
+            "level": 5
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scalemail",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                }
+            ],
+            "id": "810c990c-4c20-4ae4-9ab4-66df0013e320"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 2
+                },
+                {
+                    "description": "",
+                    "name": "Simple Melee Weapon",
+                    "number": 2
+                }
+            ],
+            "id": "f843fe9f-c160-4088-9a8d-1b58de83ce56"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "381da991-0b6b-4f1b-b8cd-00d3d33eb318"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Longbow",
+                    "number": 1
+                },
+                {
+                    "ammunitionTypeName": "Arrow",
+                    "description": "",
+                    "name": "20 Arrows",
+                    "number": 1
+                }
+            ],
+            "id": "9913065a-71fe-4862-9f8b-c7a7653fe4fa"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 3,
+            "id": "beed4c21-760c-44e1-b030-0dc46c4b90d2",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Animal Handling",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Stealth",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Survival",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "HALF",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose a type of favored enemy: beasts, humanoids, fey, monstrosities or undead.\n\nYou gain +2 to damage rolls against these creatures and have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them. When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0e4eca2d-30fe-4855-ac27-797391c15825",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Favored Enemy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You are a master of navigating the natural world, and you react with swift and decisive action when attacked. You gain the following benefits:\n\n- You ignore difficult terrain. \n- You have advantage on initiative rolls. \n-  On your first turn of combat, you have advantage on attack rolls against enemies who have not taken their turn yet. \n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa33dc3b5-273f-4a4f-a523-6a12c847be52",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Natural Explorer ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You adopt a particular style of fighting as your specialty. You can't take a Fighting Style option more than once, even if you later get to choose again",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom8fcee185-97b4-4f94-b822-4bbb7c7aa7bf",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fighting Style",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have two 1st-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 2 1st spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 2
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have three 1st-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 3 1st-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 3
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 4 1st or 2nd-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 5
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level and three 2nd-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 5 1st or 2nd-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 7
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level, four 2nd-level and two 3rd-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 6 1st, 2nd or 3rd-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 9
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level, four 2nd-level and three 3rd-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 7 1st, 2nd or 3rd-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 11
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level, four 2nd-level, three 3rd-level and one 4th-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 8 1st, 2nd, 3rd or 4th-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 13
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level, four 2nd-level, three 3rd-level and two 4th-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 9 1st, 2nd, 3rd or 4th-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 15
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level, four 2nd-level, three 3rd-level, three 4th-level and one 5th-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 10 1st, 2nd, 3rd, 4th or 5th-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 17
+                    },
+                    {
+                        "description": "You have learned to cast spells.\n\nSpell Slots\nYou have four 1st-level, four 2nd-level, three 3rd-level, three 4th-level and two 5th-level slots. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known of 1st Level and Higher\nYou know 11 1st, 2nd, 3rd, 4th or 5th-level spells of your choice from the ranger spell list.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\nWisdom is your spellcasting ability for your ranger spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+                        "level": 19
+                    }
+                ],
+                "id": "Custom5d2d06e1-3ac9-4b20-949e-0b3605798b31",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Spellcasting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 3rd level, you choose an archetype that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom20abd13b-8c05-4f5a-a0fa-952b0bfa7889",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ranger Archetype",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have an innate ability to communicate with beasts and they see you as a kindred spirit. Through sounds and gestures you can communicate with beasts as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sorts, it's short term needs (like food or shelter) and actions you can take (if any) to persuade it not to attack. You cannot use this ability against a beast you have attacked in the last 10 minutes.\n\nAdditionally, you can attune your senses to determine if any of your favoured enemies lurk nearby. By spending 1 uninterrupted minute in concentration, as if you were concentrating on a spell, you can sense whether any favoured enemies are within 5 miles of you. This feature reveals which of your favoured enemies are present, their numbers, and the creatures general direction and distance (in miles) from you. If there are multiple groups of you favoured enemies within range, you learn this information for each of them. ",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom2bd68e93-c23c-49b9-940b-ca097e93b407",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Primeval Awareness",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can take the dash action as a bonus action. ",
+                        "level": 8
+                    }
+                ],
+                "id": "Customfcdcc870-9c66-4681-ba17-7d2c863773c6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fleet of Foot",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 8
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you attempt to hide on your turn, you can opt not to move. If you avoid moving, creatures that attempt to detect you take a -10 to their Wisdom (Perception) checks until the end of your next turn. You lose this benefit if you move or fall prone, either voluntaringly or through some external force. You are still automatically detected if any effect or action causes you to no longer be hidden.\n\nIf you remain to be hidden until your next turn, you can continue to remain motionless and gain this benefit until you are detected. ",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom86cce0ee-9602-47fb-931c-6db2f32fa30e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hide in Plain Sight",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use the Hide action as a bonus action on your turn. Also, you can't be tracked by non-magical means, unless you choose to leave a trail",
+                        "level": 14
+                    }
+                ],
+                "id": "Customb4922df9-212f-44de-80e1-0769ea8d1f34",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Vanish",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.\n\nYou are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened",
+                        "level": 18
+                    }
+                ],
+                "id": "Custome178b9ce-cf92-4840-8152-5d82d7c767a2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Feral Senses",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied",
+                        "level": 20
+                    }
+                ],
+                "id": "Customfd47cbe0-d735-43ba-8c2b-009866d97806",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Foe Slayer",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose a type of greater favoured enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all benefits against this chosen enemy that you normally gain against your favoured enemy, including an additional language. Your bonus damage rolls against all favoured enemies increases to +4. \n\nAdditionally, you have advantage on saving throws against spells and abilities used by greater favoured enemies. ",
+                        "level": 6
+                    }
+                ],
+                "id": "Customc8677147-de92-4900-920a-256283d15c7b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Greater Favoured Enemy ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attack twice instead of once when you take the Attack action. This is not true for Beast Conclave, as it has the Coordinated Attack feature",
+                        "level": 5
+                    }
+                ],
+                "id": "Custom9b410e66-6899-4833-a48c-1bcdc058892a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Extra Attack ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        }
+    ],
+    "hitDie": "D10",
+    "hpModifier": "CON",
+    "id": "revised_ranger",
+    "jsonType": "class",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1 (Favored Enemy Related)"
+        },
+        {
+            "hint": "",
+            "level": 6,
+            "proficiency": "Choose 1 (Favored Enemy Related)"
+        }
+    ],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "Revised Ranger",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": true,
+        "intelligence": false,
+        "str": true,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 1
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom549c1f18-31aa-4e69-baf0-1b0d2f196f67",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Beasts",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom0d6f9cc3-eb2c-4be3-8426-28877a142da6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fey",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customecbb3d01-24fe-4f4b-a84e-5185ec749be1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Monstrosities",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customde7eed8e-5f68-4af1-b2e9-4a0a8a737b6a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Undead",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customb41eab24-b8db-45b5-a18c-bf6fb5a3b527",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Humanoids ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "6a15ff88-6c89-4fb1-a8d2-7166529d8d35",
+            "name": "Favored Enemy ",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 6
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom90ed1cf1-b2d3-4557-b669-ae6a29b03f82",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Constructs ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom1d070502-2500-4aa7-b418-abd5f0dc9974",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Aberrations ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom535344f6-59a8-44cc-8404-189eca749804",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Celestials ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom9f2adcc4-6af2-4303-a460-a918eb21de7f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fiends ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom7ecc44b9-74e5-4904-8ee2-51ed59a3fb98",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dragons ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Customca42b119-aee8-4a8e-90a6-5a9283b73c5c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Elementals ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom48e1386f-884b-4b31-a74a-b1a9434260ba",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Giants ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                }
+            ],
+            "canReselect": false,
+            "id": "b3928ffe-be5e-4615-b34f-c0e894efa627",
+            "name": "Greater Favoured Enemy ",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Customa744d2f7-3ea6-4100-b1df-f7e8014110dd",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Martial Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "cb31e6a4-4bd2-4ab2-8998-447367eb9e37",
+            "name": "Revised Ranger Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "WIS",
+    "spells": [],
+    "subtypeSelectionLevel": 2,
+    "subtypes": [
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customb6f79067-f2b3-452f-a14b-8d2a2e865470",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_archery",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Archery",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "While you are wearing armor, you gain a +1 bonus to AC",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom8bd87157-5951-4ee4-a666-33cb5a630040",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_defense",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Defense",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom938c0cac-6382-4f94-8da9-658903bba6ef",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Dueling",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_dueling",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Dueling",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom471ac7fb-e504-47ea-93fc-a0154348bf9a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Two-Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_two-weapon_fighting",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Two-Weapon Fighting",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are trained in making ranged attack at close quarters. When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customf4048930-e298-48db-8fb2-cebf721fa3c3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Close Quarters Shooter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_close_quarters_shooter",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Close Quarters Shooter",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You excel at defending narrow passages, doorways, and other tight spaces. As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custome623216b-1aea-4546-a4bc-04bddc80241e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Tunnel Fighter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_tunnel_fighter",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Tunnel Fighter",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom24cfe7e4-4d9e-4add-9c70-52d843c46f09",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Mariner",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_mariner",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Mariner",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom475fbdb6-80e4-4414-b615-1ee5e413129e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Blind Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_blind_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Blind Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customfc6b4dcc-b75a-43d4-b1a3-98b112f5e969",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Druidic Warrior",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_druidic_warrior_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Druidic Warrior [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon.\n\nIn addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom23b15032-c9b6-4f8f-95ec-c20802ef331e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Thrown Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_thrown_weapon_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Thrown Weapon Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        }
+    ],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

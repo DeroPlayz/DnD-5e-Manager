@@ -1,0 +1,169 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "FULL",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with Thieves' Tools. You also gain proficiency in Sleight of Hand and one additional skill of your choice. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom253f3db7-c397-4a54-8a75-04cd43dd250f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can tumble. When you tumble, you gain the following benefits for the rest of your turn:\n\n- You gain the benefits of taking the Dash and Disengage actions.\n- You gain a climbing speed equal to your current speed.\n- You take half damage from falling",
+                        "level": 3
+                    }
+                ],
+                "id": "Customc1313e21-a2e3-4225-987b-b26a589412c2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tumbling Fool",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can cast Detect Thoughts up to a number of times equal to your Charisma modifier. You regain any expended uses of this ability after completing a long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom5884045e-bc11-40e2-96ca-311030f4ef0f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fool's Insight",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can expend one use of Bardic Inspiration after you fail an ability check, fail a saving throw, or miss with an attack roll. Roll a Bardic Inspiration die and add the number rolled to your attack, saving throw, or ability check, using the new result in place of the failed one.\n\nIf using this ability grants you a success on the attack, saving throw, or ability check, note the number you rolled on the Bardic Inspiration die. The DM can then apply that result as a penalty to an attack or check you make, and you cannot use this ability again until you suffer this drawback. When the DM invokes this penalty, describe an embarrassing gaffe or mistake you make as part of the affected die roll",
+                        "level": 14
+                    }
+                ],
+                "id": "Customde675886-0f68-4c91-9f17-0de9330efef5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fool's Luck",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "bard_college_of_satire",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "College of Satire",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "full,sleight_of_hand"
+        }
+    ],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "CHA"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 6,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "e39d17d6-ddb1-422e-befc-0ea6808cde75",
+            "name": "Detect Thoughts Casts Remaining",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 6,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a copper piece)",
+                "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u00e2\u20ac\u2122t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u00e2\u20ac\u201dwhat is most on its mind in that moment. As an action, you can either shift your attention to another creature\u00e2\u20ac\u2122s thoughts or attempt to probe deeper into the same creature\u00e2\u20ac\u2122s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u00e2\u20ac\u2122s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u00e2\u20ac\u2122t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u00e2\u20ac\u2122t detect a creature with an Intelligence of 3 or lower or one that doesn\u00e2\u20ac\u2122t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u00e2\u20ac\u2122t see it, but it must still be within range.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Detect Thoughts",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "self",
+                "school": "divination",
+                "type": "2nd-Level divination"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Thieves' tools"
+        }
+    ],
+    "weaponProficiencies": []
+}
