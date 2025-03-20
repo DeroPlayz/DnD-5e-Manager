@@ -1,130 +1,21 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customee21dd96-7005-401f-af7b-a90474570207",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Green Hag",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,deception"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "CHA",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Artificier, Bard, Sorcerer, Warlock, Wizard",
-                "components": "V, S, M (an eyelash encased in gum arabic)",
-                "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 2,
-                "name": "Invisibility",
-                "range": "Touch",
-                "school": "illusion",
-                "type": "2nd-level illusion"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can mimic sounds you have heard, including humanoid voices and animals. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mimicry",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have proficiency in the Charisma (Deception) skill",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Deceptive",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can cast the invisibility spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Invisible Passage",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your creature type is both humanoid and fey",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Green Hag Blood",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customee21dd96-7005-401f-af7b-a90474570207","jsonType": "race","languages": [],
+"name": "Green Hag","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,deception"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Artificier, Bard, Sorcerer, Warlock, Wizard","components": "V, S, M (an eyelash encased in gum arabic)","description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.","duration": "Concentration, up to 1 hour","higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.","isCustom": false,"isRitual": false,"level": 2,"name": "Invisibility","range": "Touch","school": "illusion","type": "2nd-level illusion"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You can mimic sounds you have heard, including humanoid voices and animals. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Mimicry","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have proficiency in the Charisma (Deception) skill","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Deceptive","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can cast the invisibility spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Invisible Passage","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Your creature type is both humanoid and fey","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Green Hag Blood","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

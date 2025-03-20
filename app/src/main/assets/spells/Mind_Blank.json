@@ -1,30 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "bard",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils _[wish](../wish/ \"wish (lvl 9)\")_ spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.",
-    "duration": "24 hours",
-    "level": "8",
-    "name": "Mind Blank",
-    "range": "Touch",
-    "ritual": false,
-    "school": "abjuration",
-    "tags": [
-        "bard",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level8"
-    ],
-    "type": "8th-level abjuration"
-}
+{"casting_time": "1 action","classes": ["bard","fighter","rogue","wizard"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils _[wish](../wish/ \"wish (lvl 9)\")_ spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.","duration": "24 hours","level": "8","name": "Mind Blank","range": "Touch","ritual": false,"school": "abjuration","tags": ["bard","fighter","rogue","wizard","level8"],
+"type": "8th-level abjuration"}

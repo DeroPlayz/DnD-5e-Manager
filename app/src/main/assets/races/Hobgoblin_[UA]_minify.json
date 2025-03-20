@@ -1,36 +1,10 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custome605ba5b-e4b1-46cf-a814-1b56b3d65c49",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Hobgoblin [UA]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custome605ba5b-e4b1-46cf-a814-1b56b3d65c49","jsonType": "race","languages": [],
+"name": "Hobgoblin [UA]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [],
+"weaponProficiencies": []}

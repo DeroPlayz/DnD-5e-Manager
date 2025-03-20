@@ -1,36 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "druid",
-        "sorcerer",
-        "warlock",
-        "blood_hunter",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "* You are immune to fire damage and have resistance to cold damage.\n\n* Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.\n\n* You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.",
-    "duration": "Concentration, up to 10 minutes",
-    "level": "6",
-    "name": "Investiture of Flame",
-    "range": "Self",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "druid",
-        "sorcerer",
-        "warlock",
-        "blood_hunter",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level6"
-    ],
-    "type": "6th-level transmutation"
-}
+{"casting_time": "1 action","classes": ["druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "* You are immune to fire damage and have resistance to cold damage.\n\n* Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.\n\n* You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.","duration": "Concentration, up to 10 minutes","level": "6","name": "Investiture of Flame","range": "Self","ritual": false,"school": "transmutation","tags": ["druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level6"],
+"type": "6th-level transmutation"}

@@ -1,94 +1,18 @@
-{
-    "abilityScores": {
-        "cha": 2,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom3e9f433d-0367-432f-876c-43d4ae467bba",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Ordinary-Breed Catfolk",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,stealth"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 20,
-        "fly": 0,
-        "normal": 35,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You are proficient in the Stealth skill",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Catlike Tread",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your movement speed increases to 35 feet",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fleet of Foot",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to damage taken from falling",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Nine Lives",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 2,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom3e9f433d-0367-432f-876c-43d4ae467bba","jsonType": "race","languages": [],
+"name": "Ordinary-Breed Catfolk","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,stealth"}],
+"speed": {"burrow": 0,"climb": 20,"fly": 0,"normal": 35,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You are proficient in the Stealth skill","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Catlike Tread","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Your movement speed increases to 35 feet","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Fleet of Foot","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have resistance to damage taken from falling","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Nine Lives","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

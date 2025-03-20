@@ -1,27 +1,5 @@
-{
-    "casting_time": "1 minute",
-    "classes": [
-        "cleric"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "specially marked sticks, bones, or similar tokens worth at least 25 gp"
-        ],
-        "raw": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren\u2019t especially good or bad\n\nThe spell doesn\u2019t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.",
-    "duration": "Instantaneous",
-    "level": "2",
-    "name": "Augury",
-    "range": "Self",
-    "ritual": true,
-    "school": "divination",
-    "tags": [
-        "cleric",
-        "level2"
-    ],
-    "type": "2nd-level divination (ritual)"
-}
+{"casting_time": "1 minute","classes": ["cleric"],
+"components": {"material": true,"materials_needed": ["specially marked sticks, bones, or similar tokens worth at least 25 gp"],
+"raw": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)","somatic": true,"verbal": true},
+"description": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren\u2019t especially good or bad\n\nThe spell doesn\u2019t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.","duration": "Instantaneous","level": "2","name": "Augury","range": "Self","ritual": true,"school": "divination","tags": ["cleric","level2"],
+"type": "2nd-level divination (ritual)"}

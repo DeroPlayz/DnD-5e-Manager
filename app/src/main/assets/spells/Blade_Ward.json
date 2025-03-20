@@ -1,36 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "bard",
-        "sorcerer",
-        "warlock",
-        "blood_hunter",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
-    "duration": "1 Round",
-    "level": "cantrip",
-    "name": "Blade Ward",
-    "range": "Self",
-    "ritual": false,
-    "school": "Abjuration",
-    "tags": [
-        "bard",
-        "sorcerer",
-        "warlock",
-        "blood_hunter",
-        "fighter",
-        "rogue",
-        "wizard",
-        "cantrip"
-    ],
-    "type": "Abjuration cantrip"
-}
+{"casting_time": "1 action","classes": ["bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.","duration": "1 Round","level": "cantrip","name": "Blade Ward","range": "Self","ritual": false,"school": "Abjuration","tags": ["bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","cantrip"],
+"type": "Abjuration cantrip"}

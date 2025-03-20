@@ -1,39 +1,5 @@
-{
-    "casting_time": "1 minute",
-    "classes": [
-        "bard",
-        "druid",
-        "warlock",
-        "blood_hunter",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a hummingbird feather"
-        ],
-        "raw": "V, S, M (a hummingbird feather)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.\n\nThis spell immediately ends if you cast it again before its duration ends.",
-    "duration": "8 hours",
-    "level": "9",
-    "name": "Foresight",
-    "range": "Touch",
-    "ritual": false,
-    "school": "divination",
-    "tags": [
-        "bard",
-        "druid",
-        "warlock",
-        "blood_hunter",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level9"
-    ],
-    "type": "9th-level divination"
-}
+{"casting_time": "1 minute","classes": ["bard","druid","warlock","blood_hunter","fighter","rogue","wizard"],
+"components": {"material": true,"materials_needed": ["a hummingbird feather"],
+"raw": "V, S, M (a hummingbird feather)","somatic": true,"verbal": true},
+"description": "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.\n\nThis spell immediately ends if you cast it again before its duration ends.","duration": "8 hours","level": "9","name": "Foresight","range": "Touch","ritual": false,"school": "divination","tags": ["bard","druid","warlock","blood_hunter","fighter","rogue","wizard","level9"],
+"type": "9th-level divination"}

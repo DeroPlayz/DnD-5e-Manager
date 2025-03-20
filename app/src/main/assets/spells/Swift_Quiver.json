@@ -1,31 +1,5 @@
-{
-    "casting_time": "1 bonus action",
-    "classes": [
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a quiver containing at least one piece of ammunition"
-        ],
-        "raw": "V, S, M (a quiver containing at least one piece of ammunition)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.\n\nOn each of your turns until the spell ends, you can use a bonus action to make two attacks with a weapon that uses ammunition from the quiver. Each time you make such a ranged attack, your quiver magically replaces the piece of ammunition you used with a similar piece of nonmagical ammunition. Any pieces of ammunition created by this spell disintegrate when the spell ends. If the quiver leaves your possession, the spell ends.",
-    "duration": "Concentration, up to 1 minute",
-    "level": "5",
-    "name": "Swift Quiver",
-    "range": "Touch",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "level5"
-    ],
-    "type": "5th-level transmutation"
-}
+{"casting_time": "1 bonus action","classes": ["ranger__revised__","revised_ranger","ranger"],
+"components": {"material": true,"materials_needed": ["a quiver containing at least one piece of ammunition"],
+"raw": "V, S, M (a quiver containing at least one piece of ammunition)","somatic": true,"verbal": true},
+"description": "You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.\n\nOn each of your turns until the spell ends, you can use a bonus action to make two attacks with a weapon that uses ammunition from the quiver. Each time you make such a ranged attack, your quiver magically replaces the piece of ammunition you used with a similar piece of nonmagical ammunition. Any pieces of ammunition created by this spell disintegrate when the spell ends. If the quiver leaves your possession, the spell ends.","duration": "Concentration, up to 1 minute","level": "5","name": "Swift Quiver","range": "Touch","ritual": false,"school": "transmutation","tags": ["ranger__revised__","revised_ranger","ranger","level5"],
+"type": "5th-level transmutation"}

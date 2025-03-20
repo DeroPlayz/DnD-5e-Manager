@@ -1,30 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer__eb_",
-        "bard",
-        "sorcerer",
-        "wizard"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "Your magic deepens a creature\u2019s understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.\nYou must choose a skill in which the target is proficient and that isn\u2019t already benefiting from an effect, such as Expertise, that doubles its proficiency bonus",
-    "duration": "Concentration, up to 1 hour",
-    "level": "5",
-    "name": "Skill Empowerment",
-    "range": "Touch",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "artificer__eb_",
-        "bard",
-        "sorcerer",
-        "wizard",
-        "level5"
-    ],
-    "type": "5rd-level transmutation"
-}
+{"casting_time": "1 action","classes": ["artificer__eb_","bard","sorcerer","wizard"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "Your magic deepens a creature\u2019s understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.\nYou must choose a skill in which the target is proficient and that isn\u2019t already benefiting from an effect, such as Expertise, that doubles its proficiency bonus","duration": "Concentration, up to 1 hour","level": "5","name": "Skill Empowerment","range": "Touch","ritual": false,"school": "transmutation","tags": ["artificer__eb_","bard","sorcerer","wizard","level5"],
+"type": "5rd-level transmutation"}

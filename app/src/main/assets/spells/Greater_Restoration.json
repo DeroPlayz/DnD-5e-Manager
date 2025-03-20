@@ -1,35 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "cleric",
-        "druid",
-        "bard"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "diamond dust worth at least 100 gp, which the spell consumes"
-        ],
-        "raw": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You imbue a creature you touch with positive energy to undo a debilitating Effect. You can reduce the target's Exhaustion level by one, or end one of the following Effects on the target.\n\n- One Effect that Charmed or Petrified the target\n\n- One curse, including the target's Attunement to a Cursed magic item\n\n- Any reduction to one of the target's Ability Scores\n\n- One Effect reducing the target's hit point maximum",
-    "duration": "Instantaneous",
-    "level": "5",
-    "name": "Greater Restoration",
-    "range": "Touch",
-    "ritual": false,
-    "school": "abjuration",
-    "tags": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "cleric",
-        "druid",
-        "bard",
-        "level5"
-    ],
-    "type": "5th-level abjuration"
-}
+{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","cleric","druid","bard"],
+"components": {"material": true,"materials_needed": ["diamond dust worth at least 100 gp, which the spell consumes"],
+"raw": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)","somatic": true,"verbal": true},
+"description": "You imbue a creature you touch with positive energy to undo a debilitating Effect. You can reduce the target's Exhaustion level by one, or end one of the following Effects on the target.\n\n- One Effect that Charmed or Petrified the target\n\n- One curse, including the target's Attunement to a Cursed magic item\n\n- Any reduction to one of the target's Ability Scores\n\n- One Effect reducing the target's hit point maximum","duration": "Instantaneous","level": "5","name": "Greater Restoration","range": "Touch","ritual": false,"school": "abjuration","tags": ["artificer__eb_","artificer__revised_","cleric","druid","bard","level5"],
+"type": "5th-level abjuration"}

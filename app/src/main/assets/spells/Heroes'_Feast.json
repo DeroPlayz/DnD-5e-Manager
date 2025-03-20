@@ -1,29 +1,5 @@
-{
-    "casting_time": "10 minutes",
-    "classes": [
-        "cleric",
-        "druid"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes"
-        ],
-        "raw": "V, S, M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don\u2019t set in until this hour is over. Up to twelve other creatures can partake of the feast.\n\nA creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours",
-    "duration": "Instantaneous",
-    "level": "6",
-    "name": "Heroes' Feast",
-    "range": "30 feet",
-    "ritual": false,
-    "school": "conjuration",
-    "tags": [
-        "cleric",
-        "druid",
-        "level6"
-    ],
-    "type": "6th-level conjuration"
-}
+{"casting_time": "10 minutes","classes": ["cleric","druid"],
+"components": {"material": true,"materials_needed": ["a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes"],
+"raw": "V, S, M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)","somatic": true,"verbal": true},
+"description": "You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don\u2019t set in until this hour is over. Up to twelve other creatures can partake of the feast.\n\nA creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours","duration": "Instantaneous","level": "6","name": "Heroes' Feast","range": "30 feet","ritual": false,"school": "conjuration","tags": ["cleric","druid","level6"],
+"type": "6th-level conjuration"}

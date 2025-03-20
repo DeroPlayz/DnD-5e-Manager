@@ -1,30 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You gain the ability to move or manipulate Creatures or Objects by thought. When you cast the spell, and as your Action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate Effect below. You can affect the same target round after round, or choose a new one at any time. If you switch Targets, the prior target is no longer affected by the spell.\n\nCreature: You can try to move a Huge or smaller creature. Make an ability check with your Spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your Telekinetic grip. A creature lifted upward is suspended in mid-air.\n\nOn subsequent rounds, you can use your Action to attempt to maintain your Telekinetic grip on the creature by repeating the contest.\n\nObject: You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.\n\nIf the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.\n\nYou can exert fine control on Objects with your Telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the Contents from a vial",
-    "duration": "Concentration, up to 10 minutes",
-    "level": "5",
-    "name": "Telekinesis",
-    "range": "60 feet",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level5"
-    ],
-    "type": "5th-level transmutation"
-}
+{"casting_time": "1 action","classes": ["sorcerer","fighter","rogue","wizard"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "You gain the ability to move or manipulate Creatures or Objects by thought. When you cast the spell, and as your Action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate Effect below. You can affect the same target round after round, or choose a new one at any time. If you switch Targets, the prior target is no longer affected by the spell.\n\nCreature: You can try to move a Huge or smaller creature. Make an ability check with your Spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your Telekinetic grip. A creature lifted upward is suspended in mid-air.\n\nOn subsequent rounds, you can use your Action to attempt to maintain your Telekinetic grip on the creature by repeating the contest.\n\nObject: You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.\n\nIf the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.\n\nYou can exert fine control on Objects with your Telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the Contents from a vial","duration": "Concentration, up to 10 minutes","level": "5","name": "Telekinesis","range": "60 feet","ritual": false,"school": "transmutation","tags": ["sorcerer","fighter","rogue","wizard","level5"],
+"type": "5th-level transmutation"}

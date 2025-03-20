@@ -1,140 +1,19 @@
-{
-    "abilityScores": {
-        "cha": 2,
-        "con": 0,
-        "dex": 1,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom300f6450-ac31-4ec6-ab3c-941a7d862489",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Infernal"
-        }
-    ],
-    "name": "Glasya",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "CHA",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Bard, Sorcerer, Warlock, Wizard",
-                "components": "S, M (a bit of fleece)",
-                "description": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else\u2019s voice, a lion\u2019s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can\u2019t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 0,
-                "name": "Minor Illusion",
-                "range": "30 feet",
-                "school": "Illusion",
-                "type": "Illusion cantrip"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Artificier, Bard, Cleric, Sorcerer, Wizard",
-                "components": "V, S",
-                "description": "You make yourself -- including your clothing, armor, weapons, and other belongings on your person -- look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n\nTo discern that you are disguised, a creature can use its action to inspect your apperance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 1,
-                "name": "Disguise Self",
-                "range": "Self",
-                "school": "illusion",
-                "type": "1st-level illusion"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Artificier, Bard, Sorcerer, Warlock, Wizard",
-                "components": "V, S, M (an eyelash encased in gum arabic)",
-                "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 2,
-                "name": "Invisibility",
-                "range": "Touch",
-                "school": "illusion",
-                "type": "2nd-level illusion"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to fire damage",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hellish Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the Minor Illusion cantrip. Charisma is your spellcasting ability for this spell",
-                        "level": 1
-                    },
-                    {
-                        "description": "You know the Minor Illusion cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 3
-                    },
-                    {
-                        "description": "You know the Minor Illusion cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Invisibility spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
-                        "level": 5
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Legacy of Malbolge",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 2,"con": 0,"dex": 1,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom300f6450-ac31-4ec6-ab3c-941a7d862489","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Infernal"}],
+"name": "Glasya","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "S, M (a bit of fleece)","description": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else\u2019s voice, a lion\u2019s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can\u2019t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Minor Illusion","range": "30 feet","school": "Illusion","type": "Illusion cantrip"}},
+{"level": 3,"spellModel": {"castingTime": "1 action","classes": "Artificier, Bard, Cleric, Sorcerer, Wizard","components": "V, S","description": "You make yourself -- including your clothing, armor, weapons, and other belongings on your person -- look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n\nTo discern that you are disguised, a creature can use its action to inspect your apperance and must succeed on an Intelligence (Investigation) check against your spell save DC.","duration": "1 hour","higherLevels": "","isCustom": false,"isRitual": false,"level": 1,"name": "Disguise Self","range": "Self","school": "illusion","type": "1st-level illusion"}},
+{"level": 5,"spellModel": {"castingTime": "1 action","classes": "Artificier, Bard, Sorcerer, Warlock, Wizard","components": "V, S, M (an eyelash encased in gum arabic)","description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.","duration": "Concentration, up to 1 hour","higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.","isCustom": false,"isRitual": false,"level": 2,"name": "Invisibility","range": "Touch","school": "illusion","type": "2nd-level illusion"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Hellish Resistance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the Minor Illusion cantrip. Charisma is your spellcasting ability for this spell","level": 1},
+{"description": "You know the Minor Illusion cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 3},
+{"description": "You know the Minor Illusion cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Invisibility spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.","level": 5}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Legacy of Malbolge","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

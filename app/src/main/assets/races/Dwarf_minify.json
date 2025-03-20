@@ -1,154 +1,27 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 2,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "dwarf",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dwarvish"
-        }
-    ],
-    "name": "Dwarf",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 0,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 25,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u00e2\u20ac\u2122t discern color in darkness, only shades of gray.",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom69e07636-8562-4150-8606-66f9f64c56fe",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Darkvision (60 ft.)",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on saving throws against poison, and you have resistance against poison damage",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom0e1235d0-0519-4fa3-b74d-9a76313d5631",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dwarven Resilience",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom17a15a00-be18-4b82-b793-ecbec759cafa",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dwarven Combat Training",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with the artisan\u00e2\u20ac\u2122s tools of your choice: smith\u00e2\u20ac\u2122s tools, brewer\u00e2\u20ac\u2122s supplies, or mason\u00e2\u20ac\u2122s tools.",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom95ac0447-bfc7-49db-92ed-d0eea5cbc5c0",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tool Proficiency",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom187b36d2-1c99-4682-82f6-68d0ce941173",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Stonecunning",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Battleaxe"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Handaxe"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Warhammer"
-        }
-    ]
-}
+{"abilityScores": {"cha": 0,"con": 2,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "dwarf","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Dwarvish"}],
+"name": "Dwarf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u00e2\u20ac\u2122t discern color in darkness, only shades of gray.","level": 1}],
+"id": "Custom69e07636-8562-4150-8606-66f9f64c56fe","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision (60 ft.)","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against poison, and you have resistance against poison damage","level": 1}],
+"id": "Custom0e1235d0-0519-4fa3-b74d-9a76313d5631","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Resilience","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.","level": 1}],
+"id": "Custom17a15a00-be18-4b82-b793-ecbec759cafa","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Combat Training","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You gain proficiency with the artisan\u00e2\u20ac\u2122s tools of your choice: smith\u00e2\u20ac\u2122s tools, brewer\u00e2\u20ac\u2122s supplies, or mason\u00e2\u20ac\u2122s tools.","level": 1}],
+"id": "Custom95ac0447-bfc7-49db-92ed-d0eea5cbc5c0","isFeature": true,"jsonType": "feat","level": 1,"name": "Tool Proficiency","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.","level": 1}],
+"id": "Custom187b36d2-1c99-4682-82f6-68d0ce941173","isFeature": true,"jsonType": "feat","level": 1,"name": "Stonecunning","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Battleaxe"},
+{"hint": "","level": 1,"proficiency": "Handaxe"},
+{"hint": "","level": 1,"proficiency": "Warhammer"}]}

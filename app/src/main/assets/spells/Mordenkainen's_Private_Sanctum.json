@@ -1,35 +1,4 @@
-{
-    "casting_time": "10 minutes",
-    "classes": [
-        "artificer",
-        "artificer__eb_",
-        "artificer__revised_",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": true,
-        "raw": "V S M (Lead, opaque glass, cotton/cloth, powdered chrysolite)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You make magically secure cube that's as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it. When you cast the spell, you decide what sort of security it provides:\n\n* Sound can't pass through the area's barriers.\n* The barrier prevents vision (including darkvision) through it.\n* Sensors created by divination spells can't appear inside the area or pass through the barrier.\n* Creatures in the area can't be targeted by divination spells.\n* Nothing can teleport into or out of the area.\n* Planar travel is blocked within the area.\n\nCasting this spell on the same spot every day for a year makes this effect permanent.",
-    "duration": "24 hours",
-    "higher_levels": "You can increase the size of the cube by 100 feet for each slot level beyond 4th.",
-    "level": "4",
-    "name": "Mordenkainen's Private Sanctum",
-    "range": "120 feet",
-    "ritual": false,
-    "school": "Abjuration",
-    "tags": [
-        "artificer",
-        "artificer__eb_",
-        "artificer__revised_",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level4"
-    ],
-    "type": "4th-level abjuration"
-}
+{"casting_time": "10 minutes","classes": ["artificer","artificer__eb_","artificer__revised_","fighter","rogue","wizard"],
+"components": {"material": true,"raw": "V S M (Lead, opaque glass, cotton/cloth, powdered chrysolite)","somatic": true,"verbal": true},
+"description": "You make magically secure cube that's as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it. When you cast the spell, you decide what sort of security it provides:\n\n* Sound can't pass through the area's barriers.\n* The barrier prevents vision (including darkvision) through it.\n* Sensors created by divination spells can't appear inside the area or pass through the barrier.\n* Creatures in the area can't be targeted by divination spells.\n* Nothing can teleport into or out of the area.\n* Planar travel is blocked within the area.\n\nCasting this spell on the same spot every day for a year makes this effect permanent.","duration": "24 hours","higher_levels": "You can increase the size of the cube by 100 feet for each slot level beyond 4th.","level": "4","name": "Mordenkainen's Private Sanctum","range": "120 feet","ritual": false,"school": "Abjuration","tags": ["artificer","artificer__eb_","artificer__revised_","fighter","rogue","wizard","level4"],
+"type": "4th-level abjuration"}

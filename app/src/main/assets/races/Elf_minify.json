@@ -1,126 +1,22 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 2,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "elf",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Elvish"
-        }
-    ],
-    "name": "Elf",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 0,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,perception"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u00e2\u20ac\u2122t discern color in darkness, only shades of gray",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom705af75e-6bd4-402a-afbb-18e9bdf13d81",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Darkvision (60 ft.)",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Proficient in Perception skill",
-                        "level": 1
-                    }
-                ],
-                "id": "Custombeb5b17e-36b2-4e04-b772-14f46ff45351",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Keen Senses",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom32c399c8-0bef-45d1-99b5-c63626c94e6a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fey Ancestry",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep",
-                        "level": 1
-                    }
-                ],
-                "id": "Customfc5a8db4-1d15-48e9-8d5b-a8bd53636467",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Trance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 2,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "elf","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Elvish"}],
+"name": "Elf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,perception"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u00e2\u20ac\u2122t discern color in darkness, only shades of gray","level": 1}],
+"id": "Custom705af75e-6bd4-402a-afbb-18e9bdf13d81","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision (60 ft.)","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Proficient in Perception skill","level": 1}],
+"id": "Custombeb5b17e-36b2-4e04-b772-14f46ff45351","isFeature": true,"jsonType": "feat","level": 1,"name": "Keen Senses","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep","level": 1}],
+"id": "Custom32c399c8-0bef-45d1-99b5-c63626c94e6a","isFeature": true,"jsonType": "feat","level": 1,"name": "Fey Ancestry","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep","level": 1}],
+"id": "Customfc5a8db4-1d15-48e9-8d5b-a8bd53636467","isFeature": true,"jsonType": "feat","level": 1,"name": "Trance","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

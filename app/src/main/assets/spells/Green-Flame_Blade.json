@@ -1,39 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "warlock",
-        "sorcerer",
-        "wizard",
-        "blood_hunter__egw_",
-        "artificer",
-        "blood_hunter"
-    ],
-    "components": {
-        "material": true,
-        "raw": "V, M (a melee weapon worth at least 1 sp)",
-        "somatic": false,
-        "verbal": true
-    },
-    "description": "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier",
-    "higher_levels": "This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8)",
-    "duration": "Instantaneous",
-    "level": "cantrip",
-    "name": "Green-Flame Blade",
-    "range": "5 feet",
-    "ritual": false,
-    "school": "evocation",
-    "tags": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "warlock",
-        "sorcerer",
-        "wizard",
-        "blood_hunter__egw_",
-        "artificer",
-        "blood_hunter",
-        "cantrip"
-    ],
-    "type": "Evocation cantrip"
-}
+{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","warlock","sorcerer","wizard","blood_hunter__egw_","artificer","blood_hunter"],
+"components": {"material": true,"raw": "V, M (a melee weapon worth at least 1 sp)","somatic": false,"verbal": true},
+"description": "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier","higher_levels": "This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8)","duration": "Instantaneous","level": "cantrip","name": "Green-Flame Blade","range": "5 feet","ritual": false,"school": "evocation","tags": ["artificer__eb_","artificer__revised_","warlock","sorcerer","wizard","blood_hunter__egw_","artificer","blood_hunter","cantrip"],
+"type": "Evocation cantrip"}

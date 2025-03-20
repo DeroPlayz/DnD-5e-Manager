@@ -1,107 +1,20 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 1
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "valenar_wood_elf",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Valenar Wood Elf",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 35,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "A Valenar elf gains proficiency with the scimitar, double scimitar, longbow, and shortbow",
-                        "level": 1
-                    }
-                ],
-                "id": "Customee7ee08e-c362-4a1b-86db-73d7e04c8997",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Valenar Elf",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your base walking speed increases to 35 ft.",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom9b05e481-747d-455a-a241-f29f19326f32",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fleet of Foot",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom3677cb76-495d-4fdf-a58d-a449cee63efc",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mask of the Wild",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Scimitar"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Shortbow"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Longbow"
-        }
-    ]
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 1},
+"ac": 10,"armorProficiencies": [],
+"id": "valenar_wood_elf","jsonType": "race","languages": [],
+"name": "Valenar Wood Elf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 35,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "A Valenar elf gains proficiency with the scimitar, double scimitar, longbow, and shortbow","level": 1}],
+"id": "Customee7ee08e-c362-4a1b-86db-73d7e04c8997","isFeature": true,"jsonType": "feat","level": 1,"name": "Valenar Elf","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Your base walking speed increases to 35 ft.","level": 1}],
+"id": "Custom9b05e481-747d-455a-a241-f29f19326f32","isFeature": true,"jsonType": "feat","level": 1,"name": "Fleet of Foot","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena","level": 1}],
+"id": "Custom3677cb76-495d-4fdf-a58d-a449cee63efc","isFeature": true,"jsonType": "feat","level": 1,"name": "Mask of the Wild","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Scimitar"},
+{"hint": "","level": 1,"proficiency": "Shortbow"},
+{"hint": "","level": 1,"proficiency": "Longbow"}]}

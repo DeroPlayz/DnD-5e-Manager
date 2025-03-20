@@ -1,65 +1,13 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customaf11bcf3-dd40-410b-8ab2-e4c57b240abd",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Aquan"
-        }
-    ],
-    "name": "Tortle",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Piercing",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Snap"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can hold your breath for up to 1 hour at a time",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hold Breath",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customaf11bcf3-dd40-410b-8ab2-e4c57b240abd","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Aquan"}],
+"name": "Tortle","racialWeapon": {"abilityName": "Strength","damageType": "Piercing","diceAmount": 1,"diceTypeName": "d4","name": "Snap"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You can hold your breath for up to 1 hour at a time","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Hold Breath","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

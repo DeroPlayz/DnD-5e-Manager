@@ -1,47 +1,11 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 1,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom765ea1d6-45bd-42c0-868a-70bac758b8c6",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Gith"
-        }
-    ],
-    "name": "Gith",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 0,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom765ea1d6-45bd-42c0-868a-70bac758b8c6","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Gith"}],
+"name": "Gith","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [],
+"weaponProficiencies": []}

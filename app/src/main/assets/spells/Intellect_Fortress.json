@@ -1,41 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "warlock",
-        "sorcerer",
-        "wizard",
-        "blood_hunter__egw_",
-        "bard",
-        "artificer",
-        "blood_hunter"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V",
-        "somatic": false,
-        "verbal": true
-    },
-    "description": "For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.",
-    "duration": "1 hour",
-    "level": "3",
-    "name": "Intellect Fortress",
-    "range": "30 feet",
-    "ritual": false,
-    "school": "abjuration",
-    "tags": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "warlock",
-        "sorcerer",
-        "wizard",
-        "blood_hunter__egw_",
-        "bard",
-        "artificer",
-        "blood_hunter",
-        "level3"
-    ],
-    "type": "3rd-level abjuration",
-    "higher_levels": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them."
-}
+{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","warlock","sorcerer","wizard","blood_hunter__egw_","bard","artificer","blood_hunter"],
+"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
+"description": "For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.","duration": "1 hour","level": "3","name": "Intellect Fortress","range": "30 feet","ritual": false,"school": "abjuration","tags": ["artificer__eb_","artificer__revised_","warlock","sorcerer","wizard","blood_hunter__egw_","bard","artificer","blood_hunter","level3"],
+"type": "3rd-level abjuration","higher_levels": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them."}

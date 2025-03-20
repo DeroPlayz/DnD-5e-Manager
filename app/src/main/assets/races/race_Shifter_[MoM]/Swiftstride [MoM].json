@@ -1,55 +1,12 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom3d8319a9-4ae9-4df7-8e8d-daff8ee5c67d",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Swiftstride [MoM]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks",
-                        "level": 1
-                    }
-                ],
-                "id": "Customf2a6d763-26e4-47ac-810f-14610d601c53",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Swiftstride Shifting",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom3d8319a9-4ae9-4df7-8e8d-daff8ee5c67d","jsonType": "race","languages": [],
+"name": "Swiftstride [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks","level": 1}],
+"id": "Customf2a6d763-26e4-47ac-810f-14610d601c53","isFeature": true,"jsonType": "feat","level": 1,"name": "Swiftstride Shifting","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

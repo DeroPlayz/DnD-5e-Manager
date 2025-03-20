@@ -1,144 +1,28 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "name": "Gem Dragonborn [UA]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 1
-                    },
-                    {
-                        "description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 3d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 5
-                    },
-                    {
-                        "description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 4d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 11
-                    },
-                    {
-                        "description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 5d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 17
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Gem Breath Weapon",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to the damage type associated with your Gem Ancestry",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Gem Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can telepathically speak to any creature you can see within 30 feet of you. You don\u00e2\u20ac\u2122t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn\u00e2\u20ac\u2122t give the creature the ability to respond to you telepathically",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Gem Psionic Mind",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can\u00e2\u20ac\u2122t do so again until you finish a long rest",
-                        "level": 3
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Gem Flight",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Choose 3 (ALL)",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Ability Score Increase",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Gem Dragonborn [UA]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1},
+{"description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 3d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 5},
+{"description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 4d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 11},
+{"description": "When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 5d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one.\n\nYou can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 17}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Gem Breath Weapon","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have resistance to the damage type associated with your Gem Ancestry","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Gem Resistance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can telepathically speak to any creature you can see within 30 feet of you. You don\u00e2\u20ac\u2122t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn\u00e2\u20ac\u2122t give the creature the ability to respond to you telepathically","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Gem Psionic Mind","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can\u00e2\u20ac\u2122t do so again until you finish a long rest","level": 3}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Gem Flight","notes": "","type": "Feat"},
+"level": 3},
+{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

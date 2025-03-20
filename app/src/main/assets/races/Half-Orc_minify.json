@@ -1,122 +1,22 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 1,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 2,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom7978a284-74cb-4e8f-8eda-29d9b4bd02df",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Orc"
-        }
-    ],
-    "name": "Half-Orc",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 0,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,intimidation"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Thanks to your orc blood, you have Superior vision in dark and dim conditions. You can see in dim light within 60 feet of us if it were a bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Darkvision",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency in the Intimidation skill",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Menacing",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Relentless Endurance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you score a critical hit with a melee weapon,you can roll one of the weapon's damage dice one additional time and that it to the extra damage of the critical hit.",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Savage Attacks",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 2,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom7978a284-74cb-4e8f-8eda-29d9b4bd02df","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Orc"}],
+"name": "Half-Orc","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,intimidation"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Thanks to your orc blood, you have Superior vision in dark and dim conditions. You can see in dim light within 60 feet of us if it were a bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You gain proficiency in the Intimidation skill","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Menacing","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Relentless Endurance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When you score a critical hit with a melee weapon,you can roll one of the weapon's damage dice one additional time and that it to the extra damage of the critical hit.","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Savage Attacks","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

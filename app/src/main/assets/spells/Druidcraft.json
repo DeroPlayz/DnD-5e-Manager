@@ -1,24 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "druid"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "* You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.\n\n* You instantly make a flower bloom, a seed pod open, or a leaf bud bloom.\n\n* You create an instantenous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint order of skunk. The effect must fit in a 5-foot cube.\n\n* You instantly light or snuff out a candle, a torch, or a small campfire.",
-    "duration": "Instantaneous",
-    "level": "cantrip",
-    "name": "Druidcraft",
-    "range": "30 feet",
-    "ritual": false,
-    "school": "Transmutation",
-    "tags": [
-        "druid",
-        "cantrip"
-    ],
-    "type": "Transmutation cantrip"
-}
+{"casting_time": "1 action","classes": ["druid"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "* You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.\n\n* You instantly make a flower bloom, a seed pod open, or a leaf bud bloom.\n\n* You create an instantenous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint order of skunk. The effect must fit in a 5-foot cube.\n\n* You instantly light or snuff out a candle, a torch, or a small campfire.","duration": "Instantaneous","level": "cantrip","name": "Druidcraft","range": "30 feet","ritual": false,"school": "Transmutation","tags": ["druid","cantrip"],
+"type": "Transmutation cantrip"}

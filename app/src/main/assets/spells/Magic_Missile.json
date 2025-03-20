@@ -1,31 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
-    "duration": "Instantaneous",
-    "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.",
-    "level": "1",
-    "name": "Magic Missile",
-    "range": "120 feet",
-    "ritual": false,
-    "school": "evocation",
-    "tags": [
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level1"
-    ],
-    "type": "1st-level evocation"
-}
+{"casting_time": "1 action","classes": ["sorcerer","fighter","rogue","wizard"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.","duration": "Instantaneous","higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.","level": "1","name": "Magic Missile","range": "120 feet","ritual": false,"school": "evocation","tags": ["sorcerer","fighter","rogue","wizard","level1"],
+"type": "1st-level evocation"}

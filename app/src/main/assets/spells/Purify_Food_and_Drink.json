@@ -1,30 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer__eb_",
-        "cleric",
-        "druid",
-        "paladin"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V, S",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.",
-    "duration": "Instantaneous",
-    "level": "1",
-    "name": "Purify Food and Drink",
-    "range": "10 feet",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "artificer__eb_",
-        "cleric",
-        "druid",
-        "paladin",
-        "level1"
-    ],
-    "type": "1st-level transmutation"
-}
+{"casting_time": "1 action","classes": ["artificer__eb_","cleric","druid","paladin"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.","duration": "Instantaneous","level": "1","name": "Purify Food and Drink","range": "10 feet","ritual": false,"school": "transmutation","tags": ["artificer__eb_","cleric","druid","paladin","level1"],
+"type": "1st-level transmutation"}

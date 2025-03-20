@@ -1,33 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a drop of molasses"
-        ],
-        "raw": "V, S, M (a drop of molasses)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u2019s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u2019s abilities or magic items, it can\u2019t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u2019t take effect until the creature\u2019s next turn, and the creature must use its action on that turn to complete the spell. If it can\u2019t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.",
-    "duration": "Concentration, up to 1 minute",
-    "level": "3",
-    "name": "Slow",
-    "range": "120 feet",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level3"
-    ],
-    "type": "3rd-level transmutation"
-}
+{"casting_time": "1 action","classes": ["sorcerer","fighter","rogue","wizard"],
+"components": {"material": true,"materials_needed": ["a drop of molasses"],
+"raw": "V, S, M (a drop of molasses)","somatic": true,"verbal": true},
+"description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u2019s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u2019s abilities or magic items, it can\u2019t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u2019t take effect until the creature\u2019s next turn, and the creature must use its action on that turn to complete the spell. If it can\u2019t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.","duration": "Concentration, up to 1 minute","level": "3","name": "Slow","range": "120 feet","ritual": false,"school": "transmutation","tags": ["sorcerer","fighter","rogue","wizard","level3"],
+"type": "3rd-level transmutation"}

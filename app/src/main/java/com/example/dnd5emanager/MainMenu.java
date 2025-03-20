@@ -55,7 +55,7 @@ public class MainMenu extends Fragment {
     //    public static ArrayList<Subclass> Subclasses = new ArrayList<Subclass>();
     public static ArrayList<Spell> Spells = new ArrayList<Spell>();
 
-//    public static ArrayList<Background> Backgrounds = new ArrayList<Background>();
+    public static ArrayList<Background> Backgrounds = new ArrayList<Background>();
 //    public static ArrayList<Feat> Feats = new ArrayList<Feat>();
 
 //    public static ArrayList<Item> Items = new ArrayList<Item>();
@@ -194,7 +194,7 @@ public class MainMenu extends Fragment {
         }
     }
 
-    public void parseBackgrounds(Context context, String dir) {
+    public void parseFeatures(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
         AssetManager AM = context.getAssets();
         try {
@@ -210,21 +210,19 @@ public class MainMenu extends Fragment {
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
                     
-                    Backgrounds.add(new Background(
-                        jsonObject.getString("name"),
-                        toStringArray(jsonObject.getJSONArray("classes")),
-                        jsonObject.getJSONObject("components").getBoolean("verbal"),
-                        jsonObject.getJSONObject("components").getBoolean("somatic"),
-                        jsonObject.getJSONObject("components").getBoolean("material"),
-                        materialCost,
-                        jsonObject.getString("description"),
-                        jsonObject.getString("duration"),
-                        level,
-                        jsonObject.getString("name"),
-                        jsonObject.getString("range"),
-                        jsonObject.getBoolean("ritual"),
-                        jsonObject.getString("school")
-                    ));
+//                    Backgrounds.add(new Background(
+//                        jsonObject.getString("name"),
+//                        toStringArray(jsonObject.getJSONArray("classes")),
+//                        jsonObject.getJSONObject("components").getBoolean("verbal"),
+//                        jsonObject.getJSONObject("components").getBoolean("somatic"),
+//                        jsonObject.getJSONObject("components").getBoolean("material"),
+//                        jsonObject.getString("description"),
+//                        jsonObject.getString("duration"),
+//                        jsonObject.getString("name"),
+//                        jsonObject.getString("range"),
+//                        jsonObject.getBoolean("ritual"),
+//                        jsonObject.getString("school")
+//                    ));
                 }
             }
         }

@@ -1,166 +1,22 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom9c05e12b-ef37-4ecb-aa37-1618873ca2fa",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Air Genasi [MoM]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 35,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can\u00e2\u20ac\u2122t take reactions until the start of its next turn.\n\nThe spell\u00e2\u20ac\u2122s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "Shocking Grasp",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "Evocation",
-                "type": "Evocation cantrip"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls",
-                "classes": "artificer__eb_, bard, sorcerer, fighter, rogue, wizard",
-                "components": "V, M (a small feather or a piece of down)",
-                "description": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Feather Fall",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "transmutation",
-                "type": "1st-level transmutation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
-                "description": "One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.\n\nThe target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.\n\nWhen the spell ends, the target floats gently to the ground if it is still aloft.",
-                "duration": "Concentration, up to 10 minutes.",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Levitate",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "transmutation",
-                "type": "2nd-level transmutation"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can hold your breath indefinitely while you're not incapacitated",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom14ee6b5f-17c2-4be5-9538-73eb6ae8f2bb",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Unending Breath",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to lightning damage",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom879fa553-2e5c-4225-b985-6b5669548616",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Lightning Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the shocking grasp cantrip.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
-                        "level": 1
-                    },
-                    {
-                        "description": "You know the shocking grasp cantrip. Starting at 3rd level, you can cast the feather fall spell with this trait, without requiring a material component. Once you cast feather fall with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
-                        "level": 3
-                    },
-                    {
-                        "description": "You know the shocking grasp cantrip. Starting at 3rd level, you can cast the feather fall spell with this trait, without requiring a material component. Starting 5th level, you can also cast the levitate spell with this trait, without requiring a material component. Once you cast feather fall or levitate with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
-                        "level": 5
-                    }
-                ],
-                "id": "Custom84c3e473-2072-41a5-81aa-f67e7c29dfee",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mingle with the Wind",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom9c05e12b-ef37-4ecb-aa37-1618873ca2fa","jsonType": "race","languages": [],
+"name": "Air Genasi [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 35,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard","components": "V, S","description": "Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can\u00e2\u20ac\u2122t take reactions until the start of its next turn.\n\nThe spell\u00e2\u20ac\u2122s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).","duration": "Instantaneous","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 0,"name": "Shocking Grasp","notes": "","pinned": false,"prepared": false,"range": "Touch","school": "Evocation","type": "Evocation cantrip"}},
+{"level": 3,"spellModel": {"castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls","classes": "artificer__eb_, bard, sorcerer, fighter, rogue, wizard","components": "V, M (a small feather or a piece of down)","description": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 1,"name": "Feather Fall","notes": "","pinned": false,"prepared": false,"range": "60 feet","school": "transmutation","type": "1st-level transmutation"}},
+{"level": 5,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard","components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)","description": "One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.\n\nThe target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.\n\nWhen the spell ends, the target floats gently to the ground if it is still aloft.","duration": "Concentration, up to 10 minutes.","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Levitate","notes": "","pinned": false,"prepared": false,"range": "60 feet","school": "transmutation","type": "2nd-level transmutation"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You can hold your breath indefinitely while you're not incapacitated","level": 1}],
+"id": "Custom14ee6b5f-17c2-4be5-9538-73eb6ae8f2bb","isFeature": true,"jsonType": "feat","level": 1,"name": "Unending Breath","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have resistance to lightning damage","level": 1}],
+"id": "Custom879fa553-2e5c-4225-b985-6b5669548616","isFeature": true,"jsonType": "feat","level": 1,"name": "Lightning Resistance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the shocking grasp cantrip.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 1},
+{"description": "You know the shocking grasp cantrip. Starting at 3rd level, you can cast the feather fall spell with this trait, without requiring a material component. Once you cast feather fall with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 3},
+{"description": "You know the shocking grasp cantrip. Starting at 3rd level, you can cast the feather fall spell with this trait, without requiring a material component. Starting 5th level, you can also cast the levitate spell with this trait, without requiring a material component. Once you cast feather fall or levitate with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 5}],
+"id": "Custom84c3e473-2072-41a5-81aa-f67e7c29dfee","isFeature": true,"jsonType": "feat","level": 1,"name": "Mingle with the Wind","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

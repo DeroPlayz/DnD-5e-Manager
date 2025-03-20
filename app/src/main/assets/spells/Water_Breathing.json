@@ -1,47 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer",
-        "artificer__eb_",
-        "artificer__revised_",
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a short reed or piece of straw"
-        ],
-        "raw": "V, S, M (a short reed or piece of straw)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "This spell grants up to ten willing creatures you can see within range the abilily to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.",
-    "duration": "24 hours",
-    "level": "3",
-    "name": "Water Breathing",
-    "range": "30 feet",
-    "ritual": true,
-    "school": "transmutation",
-    "tags": [
-        "artificer",
-        "artificer__eb_",
-        "artificer__revised_",
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard",
-        "level3"
-    ],
-    "type": "3rd-level transmutation (ritual)"
-}
+{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","druid","ranger__revised__","revised_ranger","ranger","sorcerer","fighter","rogue","wizard"],
+"components": {"material": true,"materials_needed": ["a short reed or piece of straw"],
+"raw": "V, S, M (a short reed or piece of straw)","somatic": true,"verbal": true},
+"description": "This spell grants up to ten willing creatures you can see within range the abilily to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.","duration": "24 hours","level": "3","name": "Water Breathing","range": "30 feet","ritual": true,"school": "transmutation","tags": ["artificer","artificer__eb_","artificer__revised_","druid","ranger__revised__","revised_ranger","ranger","sorcerer","fighter","rogue","wizard","level3"],
+"type": "3rd-level transmutation (ritual)"}

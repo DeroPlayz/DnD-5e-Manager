@@ -1,140 +1,19 @@
-{
-    "abilityScores": {
-        "cha": 2,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 1,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customc5f071be-aaef-44dd-bdfb-ab58987a3b97",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Infernal"
-        }
-    ],
-    "name": "Mephistopheles",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "CHA",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Bard, Sorcerer, Warlock, Wizard",
-                "components": "V, S",
-                "description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 0,
-                "name": "Mage Hand",
-                "range": "30 feet",
-                "school": "Conjuration",
-                "type": "Conjuration cantrip"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Sorcerer, Wizard",
-                "components": "V, S",
-                "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u2019t being worn or carried.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 1,
-                "name": "Burning Hands",
-                "range": "Self (15-foot cone)",
-                "school": "evocation",
-                "type": "1st-level evocation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "Druid",
-                "components": "V, S, M (leaf of sumac)",
-                "description": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.\n\nYou can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.\n\nThe flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 2,
-                "name": "Flame Blade",
-                "range": "Self",
-                "school": "evocation",
-                "type": "2nd-level evocation"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to fire damage",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hellish Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the Mage Hand cantrip. Charisma is your spellcasting ability for this spell",
-                        "level": 1
-                    },
-                    {
-                        "description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Burning Hands spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 3
-                    },
-                    {
-                        "description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Burning Hands spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Flame Blade spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 5
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Legacy of Cania",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 2,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customc5f071be-aaef-44dd-bdfb-ab58987a3b97","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Infernal"}],
+"name": "Mephistopheles","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "V, S","description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Mage Hand","range": "30 feet","school": "Conjuration","type": "Conjuration cantrip"}},
+{"level": 3,"spellModel": {"castingTime": "1 action","classes": "Sorcerer, Wizard","components": "V, S","description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u2019t being worn or carried.","duration": "Instantaneous","higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.","isCustom": false,"isRitual": false,"level": 1,"name": "Burning Hands","range": "Self (15-foot cone)","school": "evocation","type": "1st-level evocation"}},
+{"level": 5,"spellModel": {"castingTime": "1 bonus action","classes": "Druid","components": "V, S, M (leaf of sumac)","description": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.\n\nYou can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.\n\nThe flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.","duration": "Concentration, up to 10 minutes","higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.","isCustom": false,"isRitual": false,"level": 2,"name": "Flame Blade","range": "Self","school": "evocation","type": "2nd-level evocation"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Hellish Resistance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the Mage Hand cantrip. Charisma is your spellcasting ability for this spell","level": 1},
+{"description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Burning Hands spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 3},
+{"description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Burning Hands spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Flame Blade spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 5}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Legacy of Cania","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

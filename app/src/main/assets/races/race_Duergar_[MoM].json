@@ -1,187 +1,27 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom50189da8-c192-4352-87bc-43890c405123",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "name": "Duergar [MoM]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of powdered iron)",
-                "description": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\n\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\n\n- Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's Attack with them deal 1d4 extra damage.\n\n- Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Enlarge/Reduce",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "transmutation",
-                "type": "2nd-level transmutation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (an eyelash encased in gum arabic)",
-                "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Invisibility",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "illusion",
-                "type": "2nd-level illusion"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Choose 3 (ALL)",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom8fb56a9d-33d6-40f2-b684-7cd399474dcc",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Ability Score Increase",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom76df9889-45df-40bd-99e2-cc2870bbe859",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Darkvision",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can cast the enlarge/reduce spell on yourself with this trait, without requiring a material component. Once you cast it with this trait, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
-                        "level": 3
-                    },
-                    {
-                        "description": "You can cast the enlarge/reduce spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the invisibility spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
-                        "level": 5
-                    }
-                ],
-                "id": "Custombd4057c9-4f4c-494c-9373-c0d96bb47316",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Duergar Magic",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage",
-                        "level": 1
-                    }
-                ],
-                "id": "Custome2b6fc08-497f-46c4-b2c0-960103fefffb",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dwarven Resilience",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom71e28e7b-57a0-453f-a7fc-30267b238cc7",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Psionic Fortitude",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom50189da8-c192-4352-87bc-43890c405123","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Duergar [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [{"level": 3,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard","components": "V, S, M (a pinch of powdered iron)","description": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\n\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\n\n- Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's Attack with them deal 1d4 extra damage.\n\n- Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)","duration": "Concentration, up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Enlarge/Reduce","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "transmutation","type": "2nd-level transmutation"}},
+{"level": 5,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard","components": "V, S, M (an eyelash encased in gum arabic)","description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.","duration": "Concentration, up to 1 hour","higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Invisibility","notes": "","pinned": false,"prepared": false,"range": "Touch","school": "illusion","type": "2nd-level illusion"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
+"id": "Custom8fb56a9d-33d6-40f2-b684-7cd399474dcc","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray","level": 1}],
+"id": "Custom76df9889-45df-40bd-99e2-cc2870bbe859","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can cast the enlarge/reduce spell on yourself with this trait, without requiring a material component. Once you cast it with this trait, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 3},
+{"description": "You can cast the enlarge/reduce spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the invisibility spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 5}],
+"id": "Custombd4057c9-4f4c-494c-9373-c0d96bb47316","isFeature": true,"jsonType": "feat","level": 1,"name": "Duergar Magic","notes": "","type": "Feat"},
+"level": 3},
+{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage","level": 1}],
+"id": "Custome2b6fc08-497f-46c4-b2c0-960103fefffb","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Resilience","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws you make to avoid or end the charmed or stunned condition on yourself","level": 1}],
+"id": "Custom71e28e7b-57a0-453f-a7fc-30267b238cc7","isFeature": true,"jsonType": "feat","level": 1,"name": "Psionic Fortitude","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

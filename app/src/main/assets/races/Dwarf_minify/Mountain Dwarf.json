@@ -1,66 +1,13 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 2,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Medium Armor"
-        }
-    ],
-    "id": "mountain_dwarf",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Mountain Dwarf",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 25,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have proficiency with light and medium armor",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom141b0764-b7cf-471d-a208-ead280b5f4f2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dwarven Armor Training",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 2,"wis": 0},
+"ac": 10,"armorProficiencies": [{"hint": "","level": 1,"proficiency": "Light Armor"},
+{"hint": "","level": 1,"proficiency": "Medium Armor"}],
+"id": "mountain_dwarf","jsonType": "race","languages": [],
+"name": "Mountain Dwarf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have proficiency with light and medium armor","level": 1}],
+"id": "Custom141b0764-b7cf-471d-a208-ead280b5f4f2","isFeature": true,"jsonType": "feat","level": 1,"name": "Dwarven Armor Training","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

@@ -1,88 +1,18 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 2,
-        "intelligence": 1,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom0bfcb920-79d6-4271-a837-c76463366f1d",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Gremlin",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You are resistant to fire damage",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Almost Fire Proof",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You count as a tinker gnome for all feats",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tinkerer",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have proficiency with one artisan\u2019s tool of your choice. Using those tools, you can spend 1 hour and 10gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp) that works for 24 hours, or when you use your action to dismantle it. You can have up to three such devices active at one time. You may reclaim the parts used to create the device once it stops functioning, only if it did not explode. When you create a device, choose one of the following options:\n\n- Arsonist's Friend: A small brass rod with a slit at the top and a button on the side. When the button on the device is pushed roll 1d6. On an even roll, the device produces a miniature flame, which you can use to light a candle, torch, or campfire. On a roll of one, the device explodes causing 1d4 fire damage to the user.\n\n- Blast Orb: The device is a small brass orb that makes a ticking sound once a small button on the top is pressed. One round after the button at the top is pressed the device explodes in a 5-foot radius dealing 1d8 fire damage to anything within it. If the device is destroyed, nothing happens.\n\n- Bomb Boy: A clockwork tiny construct that is in the form of a goblin. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in the direction it is facing making a loud wailing sound as it walks. When it is destroyed roll a d20. On a roll of 12 or higher, the object explodes in a sphere five feet in diameter dealing 1d4 piercing damage.",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dangerous Tinker",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 2,"intelligence": 1,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom0bfcb920-79d6-4271-a837-c76463366f1d","jsonType": "race","languages": [],
+"name": "Gremlin","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You are resistant to fire damage","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Almost Fire Proof","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You count as a tinker gnome for all feats","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Tinkerer","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have proficiency with one artisan\u2019s tool of your choice. Using those tools, you can spend 1 hour and 10gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp) that works for 24 hours, or when you use your action to dismantle it. You can have up to three such devices active at one time. You may reclaim the parts used to create the device once it stops functioning, only if it did not explode. When you create a device, choose one of the following options:\n\n- Arsonist's Friend: A small brass rod with a slit at the top and a button on the side. When the button on the device is pushed roll 1d6. On an even roll, the device produces a miniature flame, which you can use to light a candle, torch, or campfire. On a roll of one, the device explodes causing 1d4 fire damage to the user.\n\n- Blast Orb: The device is a small brass orb that makes a ticking sound once a small button on the top is pressed. One round after the button at the top is pressed the device explodes in a 5-foot radius dealing 1d8 fire damage to anything within it. If the device is destroyed, nothing happens.\n\n- Bomb Boy: A clockwork tiny construct that is in the form of a goblin. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in the direction it is facing making a loud wailing sound as it walks. When it is destroyed roll a d20. On a roll of 12 or higher, the object explodes in a sphere five feet in diameter dealing 1d4 piercing damage.","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Dangerous Tinker","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

@@ -1,55 +1,12 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom1df8543b-8b97-4a13-af9c-e4eeee180884",
-    "jsonType": "race",
-    "languages": [],
-    "name": "White Ancestry",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your chromatic Ancestry damage type is Cold",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom5a53ffce-cd01-420c-ba03-78eb53e411e1",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "White Chromatic Ancestry",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom1df8543b-8b97-4a13-af9c-e4eeee180884","jsonType": "race","languages": [],
+"name": "White Ancestry","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Your chromatic Ancestry damage type is Cold","level": 1}],
+"id": "Custom5a53ffce-cd01-420c-ba03-78eb53e411e1","isFeature": true,"jsonType": "feat","level": 1,"name": "White Chromatic Ancestry","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

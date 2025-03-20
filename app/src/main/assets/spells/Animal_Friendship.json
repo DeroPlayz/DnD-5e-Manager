@@ -1,36 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "bard",
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a morsel of food"
-        ],
-        "raw": "V, S, M (a morsel of food)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spell ends.",
-    "duration": "24 hours",
-    "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.",
-    "level": "1",
-    "name": "Animal Friendship",
-    "range": "30 feet",
-    "ritual": false,
-    "school": "enchantment",
-    "tags": [
-        "bard",
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "level1"
-    ],
-    "type": "1st-level enchantment"
-}
+{"casting_time": "1 action","classes": ["bard","druid","ranger__revised__","revised_ranger","ranger"],
+"components": {"material": true,"materials_needed": ["a morsel of food"],
+"raw": "V, S, M (a morsel of food)","somatic": true,"verbal": true},
+"description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spell ends.","duration": "24 hours","higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.","level": "1","name": "Animal Friendship","range": "30 feet","ritual": false,"school": "enchantment","tags": ["bard","druid","ranger__revised__","revised_ranger","ranger","level1"],
+"type": "1st-level enchantment"}

@@ -1,28 +1,4 @@
-{
-    "casting_time": "1 reaction",
-    "classes": [
-        "bard",
-        "wizard",
-        "sorcerer"
-    ],
-    "components": {
-        "material": false,
-        "raw": "V",
-        "somatic": false,
-        "verbal": true
-    },
-    "description": "You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.\nYou can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.",
-    "duration": "Instantaneous",
-    "level": "1",
-    "name": "Silvery Barbs",
-    "range": "60 feet",
-    "ritual": false,
-    "school": "enchantment",
-    "tags": [
-        "bard",
-        "wizard",
-        "sorcerer",
-        "level1"
-    ],
-    "type": "1st-level enchantment"
-}
+{"casting_time": "1 reaction","classes": ["bard","wizard","sorcerer"],
+"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
+"description": "You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.\nYou can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.","duration": "Instantaneous","level": "1","name": "Silvery Barbs","range": "60 feet","ritual": false,"school": "enchantment","tags": ["bard","wizard","sorcerer","level1"],
+"type": "1st-level enchantment"}

@@ -1,122 +1,18 @@
-{
-    "abilityScores": {
-        "cha": 2,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 1,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom62225ad2-d70b-4ccf-9efe-ef6fd858f865",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Infernal"
-        }
-    ],
-    "name": "Mammon",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "CHA",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Bard, Sorcerer, Warlock, Wizard",
-                "components": "V, S",
-                "description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 0,
-                "name": "Mage Hand",
-                "range": "30 feet",
-                "school": "Conjuration",
-                "type": "Conjuration cantrip"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Artificier, Wizard",
-                "components": "V, S, M (gold dust w orth at least 25 gp, which the spell consumes)",
-                "description": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.\n\nWhile affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.",
-                "duration": "Until dispelled",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 2,
-                "name": "Arcane Lock",
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "2nd-Level abjuration"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to fire damage",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hellish Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the Mage Hand cantrip. Charisma is your spellcasting ability for this spell",
-                        "level": 1
-                    },
-                    {
-                        "description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Tenser's Floating Disk spell once with this trait and regain the ability to do so when you finish a short or long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 3
-                    },
-                    {
-                        "description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Tenser's Floating Disk spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the Arcane Lock spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 5
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Legacy of Minauros",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 2,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom62225ad2-d70b-4ccf-9efe-ef6fd858f865","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Infernal"}],
+"name": "Mammon","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "V, S","description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Mage Hand","range": "30 feet","school": "Conjuration","type": "Conjuration cantrip"}},
+{"level": 5,"spellModel": {"castingTime": "1 action","classes": "Artificier, Wizard","components": "V, S, M (gold dust w orth at least 25 gp, which the spell consumes)","description": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.\n\nWhile affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.","duration": "Until dispelled","higherLevels": "","isCustom": false,"isRitual": false,"level": 2,"name": "Arcane Lock","range": "Touch","school": "abjuration","type": "2nd-Level abjuration"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Hellish Resistance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the Mage Hand cantrip. Charisma is your spellcasting ability for this spell","level": 1},
+{"description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Tenser's Floating Disk spell once with this trait and regain the ability to do so when you finish a short or long rest. Charisma is your spellcasting ability for these spells","level": 3},
+{"description": "You know the Mage Hand cantrip. When you reach 3rd level, you can cast the Tenser's Floating Disk spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the Arcane Lock spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 5}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Legacy of Minauros","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

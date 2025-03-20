@@ -1,37 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "cleric",
-        "druid",
-        "paladin",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a yew leaf"
-        ],
-        "raw": "V, S, M (a yew leaf)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
-    "duration": "Concentration, up to 10 minutes",
-    "level": "1",
-    "name": "Detect Poison or Disease",
-    "range": "Self",
-    "ritual": true,
-    "school": "divination",
-    "tags": [
-        "cleric",
-        "druid",
-        "paladin",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "level1"
-    ],
-    "type": "1st-level divination (Ritual)"
-}
+{"casting_time": "1 action","classes": ["cleric","druid","paladin","ranger__revised__","revised_ranger","ranger"],
+"components": {"material": true,"materials_needed": ["a yew leaf"],
+"raw": "V, S, M (a yew leaf)","somatic": true,"verbal": true},
+"description": "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.","duration": "Concentration, up to 10 minutes","level": "1","name": "Detect Poison or Disease","range": "Self","ritual": true,"school": "divination","tags": ["cleric","druid","paladin","ranger__revised__","revised_ranger","ranger","level1"],
+"type": "1st-level divination (Ritual)"}

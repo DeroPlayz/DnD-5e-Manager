@@ -1,132 +1,21 @@
-{
-    "abilityScores": {
-        "cha": 1,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "the_houses_of_shadow",
-    "jsonType": "race",
-    "languages": [],
-    "name": "The Houses of Shadow",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "S, M (a bit of fleece)",
-                "description": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else\u00e2\u20ac\u2122s voice, a lion\u00e2\u20ac\u2122s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object\u00e2\u20ac\u201dsuch as a chair, muddy footprints, or a small chest\u00e2\u20ac\u201dit must be no larger than a 5-foot cube. The image can\u00e2\u20ac\u2122t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "Minor Illusion",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "Illusion",
-                "type": "Illusion cantrip"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with one musical instrument or the Performance skill",
-                        "level": 1
-                    }
-                ],
-                "id": "Customedfb6e1c-4dd8-4ee4-88ce-b5a1d0a5ba6b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Natural Talent",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom8a2e0113-8cba-40d6-b7b3-36122a5ff262",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Gift of the Shadows",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the Minor Illusion cantrip. CHA is your spellcasting ability for it",
-                        "level": 1
-                    }
-                ],
-                "id": "Customaa383d61-b679-4d7c-a499-ae4628d823cd",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Shape Shadows",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the minor illusion cantrip. Charisma is your spellcasting ability for this trait",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom56d771bd-390b-4fff-a706-36999053a730",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Slip Into Shadow",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 1,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "the_houses_of_shadow","jsonType": "race","languages": [],
+"name": "The Houses of Shadow","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard","components": "S, M (a bit of fleece)","description": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else\u00e2\u20ac\u2122s voice, a lion\u00e2\u20ac\u2122s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object\u00e2\u20ac\u201dsuch as a chair, muddy footprints, or a small chest\u00e2\u20ac\u201dit must be no larger than a 5-foot cube. The image can\u00e2\u20ac\u2122t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 0,"name": "Minor Illusion","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "Illusion","type": "Illusion cantrip"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You gain proficiency with one musical instrument or the Performance skill","level": 1}],
+"id": "Customedfb6e1c-4dd8-4ee4-88ce-b5a1d0a5ba6b","isFeature": true,"jsonType": "feat","level": 1,"name": "Natural Talent","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll one Intuition die, a d4, and add the number rolled to the ability check","level": 1}],
+"id": "Custom8a2e0113-8cba-40d6-b7b3-36122a5ff262","isFeature": true,"jsonType": "feat","level": 1,"name": "Gift of the Shadows","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the Minor Illusion cantrip. CHA is your spellcasting ability for it","level": 1}],
+"id": "Customaa383d61-b679-4d7c-a499-ae4628d823cd","isFeature": true,"jsonType": "feat","level": 1,"name": "Shape Shadows","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the minor illusion cantrip. Charisma is your spellcasting ability for this trait","level": 1}],
+"id": "Custom56d771bd-390b-4fff-a706-36999053a730","isFeature": true,"jsonType": "feat","level": 1,"name": "Slip Into Shadow","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

@@ -1,87 +1,17 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 1,
-        "wis": 2
-    },
-    "ac": 12,
-    "armorProficiencies": [],
-    "id": "Customb53cc665-ebd4-4152-afda-175ed4ae22fb",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Giant"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "name": "Ravnica Loxodon",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 25,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your memory is the stuff of legends. If you spend a minute thinking, you can accurately recall any face, name, or location you have been to in the past years. The recall increases for every minute you spend thinking.",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Elephant's Memory",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When not wearing armor, your AC is 12 + your Dexterity modifier",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Thick Hide",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 1,"wis": 2},
+"ac": 12,"armorProficiencies": [],
+"id": "Customb53cc665-ebd4-4152-afda-175ed4ae22fb","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Giant"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Ravnica Loxodon","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Your memory is the stuff of legends. If you spend a minute thinking, you can accurately recall any face, name, or location you have been to in the past years. The recall increases for every minute you spend thinking.","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Elephant's Memory","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When not wearing armor, your AC is 12 + your Dexterity modifier","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Thick Hide","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

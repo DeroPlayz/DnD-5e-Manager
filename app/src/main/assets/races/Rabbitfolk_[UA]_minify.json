@@ -1,126 +1,22 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom402c3e5a-d59c-4d58-9d5a-605570d1ee99",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "name": "Rabbitfolk [UA]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,perception"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Choose 3 (ALL)",
-                        "level": 1
-                    }
-                ],
-                "id": "Customa1685d0a-0600-4fa1-97d3-cf711eeae416",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Ability Score Increase",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You add your proficiency bonus to your initiative rolls",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom4ddcf0fb-d824-4b3a-a74f-778406c200e3",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hare-Trigger",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a successa",
-                        "level": 1
-                    }
-                ],
-                "id": "Customb121a615-9ee8-438f-87c9-a88d21f2d8c0",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Lucky Footwork",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Once during each of your turns when you walk at least 5 feet, you can hop, rolling a d12 and moving that many feet in a direction of your choice. This extra distance doesn\u00e2\u20ac\u2122t cost movement, but you can hop only if your speed isn\u00e2\u20ac\u2122t 0",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom7b6f3984-0f90-45a6-8d67-fbb2624b19e9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Rabbit Hop",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom402c3e5a-d59c-4d58-9d5a-605570d1ee99","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Rabbitfolk [UA]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,perception"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
+"id": "Customa1685d0a-0600-4fa1-97d3-cf711eeae416","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You add your proficiency bonus to your initiative rolls","level": 1}],
+"id": "Custom4ddcf0fb-d824-4b3a-a74f-778406c200e3","isFeature": true,"jsonType": "feat","level": 1,"name": "Hare-Trigger","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a successa","level": 1}],
+"id": "Customb121a615-9ee8-438f-87c9-a88d21f2d8c0","isFeature": true,"jsonType": "feat","level": 1,"name": "Lucky Footwork","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Once during each of your turns when you walk at least 5 feet, you can hop, rolling a d12 and moving that many feet in a direction of your choice. This extra distance doesn\u00e2\u20ac\u2122t cost movement, but you can hop only if your speed isn\u00e2\u20ac\u2122t 0","level": 1}],
+"id": "Custom7b6f3984-0f90-45a6-8d67-fbb2624b19e9","isFeature": true,"jsonType": "feat","level": 1,"name": "Rabbit Hop","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

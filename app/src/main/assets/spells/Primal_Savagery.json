@@ -1,25 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "druid"
-    ],
-    "components": {
-        "material": false,
-        "raw": "S",
-        "somatic": true,
-        "verbal": false
-    },
-    "description": "You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.",
-    "duration": "Instantaneous",
-    "higher_levels": "The spell\u2019s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)",
-    "level": "cantrip",
-    "name": "Primal Savagery",
-    "range": "Self",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "druid",
-        "cantrip"
-    ],
-    "type": "Transmutation cantrip"
-}
+{"casting_time": "1 action","classes": ["druid"],
+"components": {"material": false,"raw": "S","somatic": true,"verbal": false},
+"description": "You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.","duration": "Instantaneous","higher_levels": "The spell\u2019s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)","level": "cantrip","name": "Primal Savagery","range": "Self","ritual": false,"school": "transmutation","tags": ["druid","cantrip"],
+"type": "Transmutation cantrip"}

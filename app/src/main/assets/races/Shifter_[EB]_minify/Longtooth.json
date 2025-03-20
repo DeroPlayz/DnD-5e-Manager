@@ -1,61 +1,12 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 1,
-        "intelligence": 0,
-        "str": 2,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customce4f1a9f-5ed3-467f-bbf8-04f6fd54fbd2",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Longtooth",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,intimidation"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal pierce ing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an un armed strike",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom029657c3-23ad-4496-9428-c04d9316630c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Shifting Feature",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 1,"intelligence": 0,"str": 2,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customce4f1a9f-5ed3-467f-bbf8-04f6fd54fbd2","jsonType": "race","languages": [],
+"name": "Longtooth","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,intimidation"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal pierce ing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an un armed strike","level": 1}],
+"id": "Custom029657c3-23ad-4496-9428-c04d9316630c","isFeature": true,"jsonType": "feat","level": 1,"name": "Shifting Feature","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

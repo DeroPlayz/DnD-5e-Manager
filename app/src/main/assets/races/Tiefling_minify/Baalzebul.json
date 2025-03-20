@@ -1,140 +1,19 @@
-{
-    "abilityScores": {
-        "cha": 2,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 1,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customa527adbe-48d0-40f2-bbe0-1d9a8f18f99b",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Infernal"
-        }
-    ],
-    "name": "Baalzebul",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "CHA",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Cleric",
-                "components": "V",
-                "description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
-                "duration": "Up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 0,
-                "name": "Thaumaturgy",
-                "range": "30 feet",
-                "school": "Transmutation",
-                "type": "Transmutation cantrip"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Sorcerer, Wizard",
-                "components": "V, S",
-                "description": "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 1,
-                "name": "Ray of Sickness",
-                "range": "60 feet",
-                "school": "necromancy",
-                "type": "1st-level necromancy"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Bard, Sorcerer, Warlock, Wizard",
-                "components": "V, S",
-                "description": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "level": 2,
-                "name": "Crown of Madness",
-                "range": "120 feet",
-                "school": "enchantment",
-                "type": "2nd-Level enchantment"
-            }
-        }
-    ],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to fire damage",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hellish Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You know the Thaumaturgy cantrip. Charisma is your spellcasting ability for this spell",
-                        "level": 1
-                    },
-                    {
-                        "description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Ray of Sickness spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 3
-                    },
-                    {
-                        "description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Ray of Sickness spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Crown of Madness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
-                        "level": 5
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Legacy of Maladomini",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 2,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customa527adbe-48d0-40f2-bbe0-1d9a8f18f99b","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Infernal"}],
+"name": "Baalzebul","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Cleric","components": "V","description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.","duration": "Up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Thaumaturgy","range": "30 feet","school": "Transmutation","type": "Transmutation cantrip"}},
+{"level": 3,"spellModel": {"castingTime": "1 action","classes": "Sorcerer, Wizard","components": "V, S","description": "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.","duration": "Instantaneous","higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.","isCustom": false,"isRitual": false,"level": 1,"name": "Ray of Sickness","range": "60 feet","school": "necromancy","type": "1st-level necromancy"}},
+{"level": 5,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Warlock, Wizard","components": "V, S","description": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.","duration": "Concentration, up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 2,"name": "Crown of Madness","range": "120 feet","school": "enchantment","type": "2nd-Level enchantment"}}],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Hellish Resistance","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You know the Thaumaturgy cantrip. Charisma is your spellcasting ability for this spell","level": 1},
+{"description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Ray of Sickness spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 3},
+{"description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Ray of Sickness spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Crown of Madness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 5}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Legacy of Maladomini","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

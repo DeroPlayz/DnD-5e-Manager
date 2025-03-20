@@ -1,77 +1,15 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 2,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customa98f8be9-6eff-4de3-b6cf-3549050b1075",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Beasthide",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,athletics"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have proficiency with the Athletics skill",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tough",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted, you have a +1 bonus to your AC",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Shifting Feature",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 2,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customa98f8be9-6eff-4de3-b6cf-3549050b1075","jsonType": "race","languages": [],
+"name": "Beasthide","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,athletics"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have proficiency with the Athletics skill","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Tough","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted, you have a +1 bonus to your AC","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Shifting Feature","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

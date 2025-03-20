@@ -1,28 +1,4 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "sorcerer",
-        "warlock",
-        "wizard"
-    ],
-    "components": {
-        "material": true,
-        "raw": "V, S, M (a razorvine leaf)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "For the duration, you sense the presence of portals, even inactive ones, within 30 feet of yourself.\nIf you detect a portal in this way, you can use your action to study it. Make a DC 15 ability check using your spellcasting ability. On a successful check, you learn the destination plane of the portal and what portal key it requires, then the spell ends. On a failed check, you learn nothing and can't study that portal again using this spell until you cast it again.\nThe spell can penetrate most barriers but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
-    "duration": "Concentration, up to 1 minute",
-    "level": "2",
-    "name": "Warp Sense",
-    "range": "Self",
-    "ritual": false,
-    "school": "divination",
-    "tags": [
-        "sorcerer",
-        "warlock",
-        "wizard",
-        "level2"
-    ],
-    "type": "2nd-level divination"
-}
+{"casting_time": "1 action","classes": ["sorcerer","warlock","wizard"],
+"components": {"material": true,"raw": "V, S, M (a razorvine leaf)","somatic": true,"verbal": true},
+"description": "For the duration, you sense the presence of portals, even inactive ones, within 30 feet of yourself.\nIf you detect a portal in this way, you can use your action to study it. Make a DC 15 ability check using your spellcasting ability. On a successful check, you learn the destination plane of the portal and what portal key it requires, then the spell ends. On a failed check, you learn nothing and can't study that portal again using this spell until you cast it again.\nThe spell can penetrate most barriers but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.","duration": "Concentration, up to 1 minute","level": "2","name": "Warp Sense","range": "Self","ritual": false,"school": "divination","tags": ["sorcerer","warlock","wizard","level2"],
+"type": "2nd-level divination"}

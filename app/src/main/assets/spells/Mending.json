@@ -1,43 +1,5 @@
-{
-    "casting_time": "1 minute",
-    "classes": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "bard",
-        "cleric",
-        "druid",
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "two lodestones"
-        ],
-        "raw": "V, S, M (two lodestones)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "This spell repairs a single break or tear in an object you touch, such as a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no longer than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\n\nThis spell can physically repair a magic item or construct, but the spell can\u2019t restore magic to such an object.",
-    "duration": "Instantaneous",
-    "level": "cantrip",
-    "name": "Mending",
-    "range": "Touch",
-    "ritual": false,
-    "school": "Transmutation",
-    "tags": [
-        "artificer__eb_",
-        "artificer__revised_",
-        "bard",
-        "cleric",
-        "druid",
-        "sorcerer",
-        "fighter",
-        "rogue",
-        "wizard",
-        "cantrip"
-    ],
-    "type": "Transmutation cantrip"
-}
+{"casting_time": "1 minute","classes": ["artificer__eb_","artificer__revised_","bard","cleric","druid","sorcerer","fighter","rogue","wizard"],
+"components": {"material": true,"materials_needed": ["two lodestones"],
+"raw": "V, S, M (two lodestones)","somatic": true,"verbal": true},
+"description": "This spell repairs a single break or tear in an object you touch, such as a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no longer than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\n\nThis spell can physically repair a magic item or construct, but the spell can\u2019t restore magic to such an object.","duration": "Instantaneous","level": "cantrip","name": "Mending","range": "Touch","ritual": false,"school": "Transmutation","tags": ["artificer__eb_","artificer__revised_","bard","cleric","druid","sorcerer","fighter","rogue","wizard","cantrip"],
+"type": "Transmutation cantrip"}

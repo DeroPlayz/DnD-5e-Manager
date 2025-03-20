@@ -1,43 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "artificer",
-        "artificer__eb_",
-        "artificer__revised_",
-        "cleric",
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "sorcerer"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "a piece of cork"
-        ],
-        "raw": "V, S, M (a piece of cork)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "This spell grants the ability to move across any liquid surface--such as water, acid, mud, snow, quicksand, or lava--as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heal). Up to ten willing creatures you can see within range gain this abilily for the duration.\n\nlf you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.",
-    "duration": "1 hours",
-    "level": "3",
-    "name": "Water Walk",
-    "range": "30 feet",
-    "ritual": true,
-    "school": "transmutation",
-    "tags": [
-        "artificer",
-        "artificer__eb_",
-        "artificer__revised_",
-        "cleric",
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "sorcerer",
-        "level2"
-    ],
-    "type": "3rd-level transmutation (ritual)"
-}
+{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","cleric","druid","ranger__revised__","revised_ranger","ranger","sorcerer"],
+"components": {"material": true,"materials_needed": ["a piece of cork"],
+"raw": "V, S, M (a piece of cork)","somatic": true,"verbal": true},
+"description": "This spell grants the ability to move across any liquid surface--such as water, acid, mud, snow, quicksand, or lava--as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heal). Up to ten willing creatures you can see within range gain this abilily for the duration.\n\nlf you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.","duration": "1 hours","level": "3","name": "Water Walk","range": "30 feet","ritual": true,"school": "transmutation","tags": ["artificer","artificer__eb_","artificer__revised_","cleric","druid","ranger__revised__","revised_ranger","ranger","sorcerer","level2"],
+"type": "3rd-level transmutation (ritual)"}

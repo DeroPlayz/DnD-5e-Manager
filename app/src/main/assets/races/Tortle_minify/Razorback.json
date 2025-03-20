@@ -1,105 +1,21 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 1,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 1,
-        "wis": 1
-    },
-    "ac": 13,
-    "armorProficiencies": [],
-    "id": "Custom7d41e3e5-3782-450d-92d8-e03ab80ca52a",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Razorback",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Piercing",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Fists"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 25,
-        "swim": 30
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have a hard shell that protects you from harm. Your Armor Class is equal to 13 + your Constitution modifier",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Shell",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Using an action, you can pull your head and limbs into your shell for up to an hour. While retreating, you are prone, your speed is 5 feet and you are resistant to non-magical piercing, slashing, and bludgeoning damage. Once used you cannot use this feature against until you complete a short or long rest",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Retreat to Shell",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you are struck by a creature within 5 feet of your, you can use your reaction to cause that creature to take 1d4 piercing damage from the barbs on your shell",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Razorback",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your barbed fists are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike",
-                        "level": 1
-                    }
-                ],
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Razor Fist",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 1,"wis": 1},
+"ac": 13,"armorProficiencies": [],
+"id": "Custom7d41e3e5-3782-450d-92d8-e03ab80ca52a","jsonType": "race","languages": [],
+"name": "Razorback","racialWeapon": {"abilityName": "Strength","damageType": "Piercing","diceAmount": 1,"diceTypeName": "d4","name": "Fists"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 30},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have a hard shell that protects you from harm. Your Armor Class is equal to 13 + your Constitution modifier","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Shell","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Using an action, you can pull your head and limbs into your shell for up to an hour. While retreating, you are prone, your speed is 5 feet and you are resistant to non-magical piercing, slashing, and bludgeoning damage. Once used you cannot use this feature against until you complete a short or long rest","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Retreat to Shell","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When you are struck by a creature within 5 feet of your, you can use your reaction to cause that creature to take 1d4 piercing damage from the barbs on your shell","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Razorback","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Your barbed fists are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike","level": 1}],
+"isFeature": true,"jsonType": "feat","level": 1,"name": "Razor Fist","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

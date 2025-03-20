@@ -1,125 +1,23 @@
-{
-    "abilityScores": {
-        "cha": 1,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 2
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Customec1b4b26-8547-433d-813c-7419ac3ca512",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Quori"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "name": "Kalashtar [EB]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on all Wisdom saving throws",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom8d406435-5632-4062-b46e-9f4e8db078fa",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dual Mind",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to psychic damage",
-                        "level": 1
-                    }
-                ],
-                "id": "Customff23631e-a1bb-4d8e-a591-58fb71c6f239",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mental Discipline",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.\n\nWhen you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.",
-                        "level": 1
-                    }
-                ],
-                "id": "Customdc021c9d-707a-4baa-8a66-7c20371e0994",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mind Link",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like dream, but not to spells and other magical effects that put you to sleep, like sleep",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom2024a197-bd8f-4cc8-90f8-5f9fc1d5096e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Severed from Dreams",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 1,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 2},
+"ac": 10,"armorProficiencies": [],
+"id": "Customec1b4b26-8547-433d-813c-7419ac3ca512","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Quori"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Kalashtar [EB]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You have advantage on all Wisdom saving throws","level": 1}],
+"id": "Custom8d406435-5632-4062-b46e-9f4e8db078fa","isFeature": true,"jsonType": "feat","level": 1,"name": "Dual Mind","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have resistance to psychic damage","level": 1}],
+"id": "Customff23631e-a1bb-4d8e-a591-58fb71c6f239","isFeature": true,"jsonType": "feat","level": 1,"name": "Mental Discipline","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.\n\nWhen you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.","level": 1}],
+"id": "Customdc021c9d-707a-4baa-8a66-7c20371e0994","isFeature": true,"jsonType": "feat","level": 1,"name": "Mind Link","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like dream, but not to spells and other magical effects that put you to sleep, like sleep","level": 1}],
+"id": "Custom2024a197-bd8f-4cc8-90f8-5f9fc1d5096e","isFeature": true,"jsonType": "feat","level": 1,"name": "Severed from Dreams","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

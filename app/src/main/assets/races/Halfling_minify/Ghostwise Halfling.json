@@ -1,55 +1,12 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 1
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "ghostwise_halfling",
-    "jsonType": "race",
-    "languages": [],
-    "name": "Ghostwise Halfling",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "skillProficiencies": [],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 25,
-        "swim": 0
-    },
-    "spellcastingAbility": "INT",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom1ed18a47-1824-4906-ad7e-b6dc71e292c9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Silent Speech",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 1},
+"ac": 10,"armorProficiencies": [],
+"id": "ghostwise_halfling","jsonType": "race","languages": [],
+"name": "Ghostwise Halfling","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
+"spellcastingAbility": "INT","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time","level": 1}],
+"id": "Custom1ed18a47-1824-4906-ad7e-b6dc71e292c9","isFeature": true,"jsonType": "feat","level": 1,"name": "Silent Speech","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

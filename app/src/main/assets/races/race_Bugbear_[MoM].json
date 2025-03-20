@@ -1,180 +1,31 @@
-{
-    "abilityScores": {
-        "cha": 0,
-        "con": 0,
-        "dex": 0,
-        "intelligence": 0,
-        "str": 0,
-        "wis": 0
-    },
-    "ac": 10,
-    "armorProficiencies": [],
-    "id": "Custom1756ef8c-fe1c-4fc3-a4a6-5ce12229c50f",
-    "jsonType": "race",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Common"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "name": "Bugbear [MoM]",
-    "racialWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "d4",
-        "name": "Unarmed Strike"
-    },
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,stealth"
-        }
-    ],
-    "speed": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "normal": 30,
-        "swim": 0
-    },
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "toolProficiencies": [],
-    "traits": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Choose 3 (ALL)",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom9d79d186-22f8-480f-a794-30c86a63b129",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Ability Score Increase",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom1f7e8f92-f600-40ed-ae44-2545d18f7cbf",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Darkvision",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself",
-                        "level": 1
-                    }
-                ],
-                "id": "Customccd7ad93-8df6-4337-8622-b5c8ee30454d",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fey Ancestry",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom6e49a95a-98c7-427c-9928-a7c5fda02b14",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Long-Limbed",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
-                        "level": 1
-                    }
-                ],
-                "id": "Customb1a57b67-4d00-4755-9358-714066a66896",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Powerful Build",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom47ccbc7d-c436-436e-8b5a-7a86a59159d4",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Sneaky",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom33fd88b0-ac8e-49a8-b4a9-ff423b47d3c3",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Surprise Attack",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        }
-    ],
-    "weaponProficiencies": []
-}
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Custom1756ef8c-fe1c-4fc3-a4a6-5ce12229c50f","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
+{"hint": "","level": 1,"proficiency": "Choose 1"}],
+"name": "Bugbear [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
+"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,stealth"}],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
+"id": "Custom9d79d186-22f8-480f-a794-30c86a63b129","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray","level": 1}],
+"id": "Custom1f7e8f92-f600-40ed-ae44-2545d18f7cbf","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself","level": 1}],
+"id": "Customccd7ad93-8df6-4337-8622-b5c8ee30454d","isFeature": true,"jsonType": "feat","level": 1,"name": "Fey Ancestry","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal","level": 1}],
+"id": "Custom6e49a95a-98c7-427c-9928-a7c5fda02b14","isFeature": true,"jsonType": "feat","level": 1,"name": "Long-Limbed","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift","level": 1}],
+"id": "Customb1a57b67-4d00-4755-9358-714066a66896","isFeature": true,"jsonType": "feat","level": 1,"name": "Powerful Build","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "You are proficient in the Stealth skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature","level": 1}],
+"id": "Custom47ccbc7d-c436-436e-8b5a-7a86a59159d4","isFeature": true,"jsonType": "feat","level": 1,"name": "Sneaky","notes": "","type": "Feat"},
+"level": 1},
+{"feat": {"descriptionModels": [{"description": "If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat","level": 1}],
+"id": "Custom33fd88b0-ac8e-49a8-b4a9-ff423b47d3c3","isFeature": true,"jsonType": "feat","level": 1,"name": "Surprise Attack","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

@@ -1,33 +1,5 @@
-{
-    "casting_time": "1 action",
-    "classes": [
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger"
-    ],
-    "components": {
-        "material": true,
-        "materials_needed": [
-            "seven sharp thorns or seven small twigs, each sharpened to a point"
-        ],
-        "raw": "V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)",
-        "somatic": true,
-        "verbal": true
-    },
-    "description": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.\n\nThe transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.",
-    "duration": "Concentration, up to 10 minutes",
-    "level": "2",
-    "name": "Spike Growth",
-    "range": "150 feet",
-    "ritual": false,
-    "school": "transmutation",
-    "tags": [
-        "druid",
-        "ranger__revised__",
-        "revised_ranger",
-        "ranger",
-        "level2"
-    ],
-    "type": "2nd-level transmutation"
-}
+{"casting_time": "1 action","classes": ["druid","ranger__revised__","revised_ranger","ranger"],
+"components": {"material": true,"materials_needed": ["seven sharp thorns or seven small twigs, each sharpened to a point"],
+"raw": "V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)","somatic": true,"verbal": true},
+"description": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.\n\nThe transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.","duration": "Concentration, up to 10 minutes","level": "2","name": "Spike Growth","range": "150 feet","ritual": false,"school": "transmutation","tags": ["druid","ranger__revised__","revised_ranger","ranger","level2"],
+"type": "2nd-level transmutation"}
