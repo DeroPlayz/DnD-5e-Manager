@@ -1,8 +1,9 @@
 package com.example.dnd5emanager.DataClasses;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class PlayerCharacter {
     private String Name;
@@ -212,27 +213,33 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    private ArrayList<CharacterClass> Classes = new ArrayList<>();
-    public void clearClasses(){Classes = new ArrayList<>();}
-    public ArrayList<CharacterClass> getClasses(){return Classes;}
+    private ArrayList<CharacterClass> PlayerClasses = null;
+    public void clearClasses(){
+        PlayerClasses = new ArrayList<>();}
+    public ArrayList<CharacterClass> getPlayerClasses(){return PlayerClasses;}
     public void setLevel(CharacterClass Class, int Level) {
-        if(Classes.contains(Class)){
-            Classes.get(Classes.indexOf(Class)).setLevel(Level);
+        if(PlayerClasses.contains(Class)){
+            PlayerClasses.get(PlayerClasses.indexOf(Class)).setLevel(Level);
         }
     }
     public void setPrimaryClass(CharacterClass Class) {
-        if(Classes.size() > 1) {
-            Classes.set(0, Class);
-        } else {
-            Classes.add(Class);
+        if(PlayerClasses != null && !PlayerClasses.isEmpty()){
+            PlayerClasses.set(0, Class);
+        }
+        else{
+            Log.d("Does God hate me?", "Yes.");
+            PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
         }
     }
-    public CharacterClass getPrimaryClass(){return Classes.get(0);}
+
+    public CharacterClass getPrimaryClass(){
+        return new CharacterClass();
+    }
 
     public int getLevel(){
         int lev = 0;
-        for (int i = 0; i < Classes.size(); i++){
-            lev += Classes.get(i).getLevel();
+        for (int i = 0; i < PlayerClasses.size(); i++){
+            lev += PlayerClasses.get(i).getLevel();
         }
         return lev;
     }

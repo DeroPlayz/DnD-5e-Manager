@@ -31,4 +31,15 @@ public class CharacterClass {
             SelectableClassSkills = selectableClassSkills;
             SelectableSkillCount = selectableSkillCount;
     }
+
+    public CharacterClass(){
+        Name = "";
+        HitDice = "";
+        ArmorProficiencies = new Armor[0];
+        AttacksByLevel = 0;
+        BaseAC = 0;
+        BaseClassSkills = new String[0];
+        SelectableClassSkills = new String[0];
+        SelectableSkillCount = 0;
+    }
 }

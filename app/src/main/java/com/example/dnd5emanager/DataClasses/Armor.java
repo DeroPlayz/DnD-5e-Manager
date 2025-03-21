@@ -3,7 +3,7 @@ package com.example.dnd5emanager.DataClasses;
 public class Armor{
     private String Name;
     private String ArmorType;
-    private int Cost;
+    private String Cost;
     private String Description;
     private boolean isAttuned;
     private boolean isCustom;
@@ -11,11 +11,11 @@ public class Armor{
     private int MaxModBonus;
     private String ModifierFormatted;
     private boolean StealthDisadvantage;
-    private int Weight; //In imperial pounds.
+    private String Weight;
 
-    public Armor(String name, String armorType, int cost, String description, boolean isAttuned,
+    public Armor(String name, String armorType, String cost, String description, boolean isAttuned,
          boolean isCustom, boolean isProficient, int maxModBonus, String modifierFormatted,
-         boolean stealthDisadvantage, int weight){
+         boolean stealthDisadvantage, String weight){
             this.Name = name;
             this.ArmorType = armorType;
             this.Cost = cost;

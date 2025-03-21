@@ -65,7 +65,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/character_creator_page_one_view_character"
+        android:id="@+id/character_creator_page_one_next_page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="540dp"
