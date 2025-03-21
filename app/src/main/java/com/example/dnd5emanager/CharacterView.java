@@ -60,6 +60,17 @@ public class CharacterView extends Fragment {
             }
         }
 
+        String ClassDisp = "";
+        if(CurrentCharacter.getRace() != null) {
+            if (CurrentCharacter.getRace().getHasSubraces()) {
+                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+            } else {
+                //When no subrace is present, the "base" race is shown.
+                RaceDisp += CurrentCharacter.getRace().getName();
+            }
+        }
+
         //Updates the visible textbox.
         CharacterRace.setText(RaceDisp);
 
@@ -135,7 +146,6 @@ public class CharacterView extends Fragment {
 
     @Override
     public void onDestroyView() {
-//        CharacterCreatorPageOne.NewCharacter = new PlayerCharacter();
         super.onDestroyView();
         binding = null;
     }

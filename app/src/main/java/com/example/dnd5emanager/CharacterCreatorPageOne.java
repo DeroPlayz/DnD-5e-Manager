@@ -1,13 +1,11 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
 import static com.example.dnd5emanager.MainMenu.Classes;
 import static com.example.dnd5emanager.MainMenu.Races;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
@@ -29,7 +27,6 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
@@ -73,7 +70,7 @@ public class CharacterCreatorPageOne extends Fragment {
     TextView RacialCharismaBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        NewCharacter.setPrimaryClass(new CharacterClass());
+//        NewCharacter.setPrimaryClass(new CharacterClass());
         OnFocusChangeListener textChanges = new OnFocusChangeListener() {
 
         @Override

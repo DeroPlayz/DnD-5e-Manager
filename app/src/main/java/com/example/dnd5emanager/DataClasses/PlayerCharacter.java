@@ -213,7 +213,7 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    private ArrayList<CharacterClass> PlayerClasses = null;
+    private ArrayList<CharacterClass> PlayerClasses = new ArrayList<>(1);
     public void clearClasses(){
         PlayerClasses = new ArrayList<>();}
     public ArrayList<CharacterClass> getPlayerClasses(){return PlayerClasses;}
@@ -223,13 +223,7 @@ public class PlayerCharacter {
         }
     }
     public void setPrimaryClass(CharacterClass Class) {
-        if(PlayerClasses != null && !PlayerClasses.isEmpty()){
-            PlayerClasses.set(0, Class);
-        }
-        else{
-            Log.d("Does God hate me?", "Yes.");
-            PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
-        }
+        PlayerClasses.set(0, Class);
     }
 
     public CharacterClass getPrimaryClass(){
