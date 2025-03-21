@@ -30,10 +30,10 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.883" />
+        app:layout_constraintVertical_bias="0.882" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText5"
+        android:id="@+id/Bonds"
         android:layout_width="405dp"
         android:layout_height="55dp"
         android:hint="Bonds"
@@ -54,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <Button
         android:id="@+id/character_creator_page_two_back_button"
@@ -102,10 +102,10 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.403" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/toocharacterview"
         android:layout_width="117dp"
         android:layout_height="85dp"
         android:text="SEE DETAILS"

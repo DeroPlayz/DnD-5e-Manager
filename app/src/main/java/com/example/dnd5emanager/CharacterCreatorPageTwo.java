@@ -26,6 +26,7 @@ import java.util.ArrayList;
 public class CharacterCreatorPageTwo extends Fragment {
 
     private CharacterCreatorPageTwoBinding binding;
+    private EditText Bonds;
 
     @Override
     public View onCreateView(
@@ -42,6 +43,9 @@ public class CharacterCreatorPageTwo extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
+        });
+        binding.toocharacterview.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterView);
         });
         super.onViewCreated(view, savedInstanceState);
 
