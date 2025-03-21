@@ -1,6 +1,7 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -41,6 +42,7 @@ public class CharacterCreatorPageTwo extends Fragment {
 
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        Log.d("New Guy:", CharacterCreatorPageOne.NewCharacter.getPrimaryClass().getName());
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
         });

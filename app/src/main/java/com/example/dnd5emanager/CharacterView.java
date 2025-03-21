@@ -48,6 +48,7 @@ public class CharacterView extends Fragment {
 
         //Second verse, same as the first; this time, for the character's race.
         TextView CharacterRace = view.findViewById(R.id.characterRace);
+        TextView CharacterClass = view.findViewById(R.id.characterClass);
 
         String RaceDisp = "";
         if(CurrentCharacter.getRace() != null) {
@@ -61,18 +62,13 @@ public class CharacterView extends Fragment {
         }
 
         String ClassDisp = "";
-        if(CurrentCharacter.getRace() != null) {
-            if (CurrentCharacter.getRace().getHasSubraces()) {
-                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
-                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
-            } else {
-                //When no subrace is present, the "base" race is shown.
-                RaceDisp += CurrentCharacter.getRace().getName();
-            }
+        if(CurrentCharacter.getPrimaryClass() != null) {
+            ClassDisp += CurrentCharacter.getPrimaryClass().getName();
         }
 
         //Updates the visible textbox.
         CharacterRace.setText(RaceDisp);
+        CharacterClass.setText(ClassDisp);
 
         //Just like the other two. These aren't great descriptions of functionality, but I'm fucking exhausted. It's 11 pm.
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);

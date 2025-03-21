@@ -312,7 +312,7 @@ public class MainMenu extends Fragment {
                     inputStream.read(buffer);
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    Log.d("How are you doing, Jason?", jsonString);
+//                    Log.d("How are you doing, Jason?", jsonString);
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Armor.put(jsonObject.getString("name"), new Armor(
                             jsonObject.getString("name"),

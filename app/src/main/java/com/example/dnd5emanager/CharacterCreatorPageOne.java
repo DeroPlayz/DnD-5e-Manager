@@ -6,6 +6,7 @@ import static com.example.dnd5emanager.MainMenu.Races;
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
@@ -70,13 +71,9 @@ public class CharacterCreatorPageOne extends Fragment {
     TextView RacialCharismaBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-//        NewCharacter.setPrimaryClass(new CharacterClass());
+        NewCharacter.setPrimaryClass(Classes.get("Artificer"));
         OnFocusChangeListener textChanges = new OnFocusChangeListener() {
-
-        @Override
-        public void onFocusChange(View v, boolean hasFocus) {
-        update(v);
-        }
+            @Override public void onFocusChange(View v, boolean hasFocus){update(v);}
         };
 
         RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
