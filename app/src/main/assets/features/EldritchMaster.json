@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again",
+            "level": 20
+        }
+    ],
+    "id": "Custom7314f1a6-6cb6-4870-bf79-96aa97a52e34",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Eldritch Master",
+    "notes": "",
+    "type": "Feat"
+}

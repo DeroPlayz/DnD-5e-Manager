@@ -1,0 +1,378 @@
+{
+    "acModifier": "DEX",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You're deeply familiar with employing its tools.\n\n- Proficiencies: You gain proficiency with smith's tools and woodcarver's tools, assuming you don't already have them. You also gain those tools for free-the result of tinkering you've done as you've prepared for this specialization.\n\nIn addition, you gain the ability to use rods,\nstaffs, and wands as spellcasting focuses for your artificer spells. You also gain a nonmagical, wooden wand for free, which you've carved in your spare time.\n\n- Crafting: If you craft a magic item in the wand category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom083d8462-2371-421b-80e6-060a536acd57",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tools of the Trade",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> shield, thunderwave",
+                        "level": 3
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> shield, thunderwave\n5th --> scorching ray, shatter",
+                        "level": 5
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> shield, thunderwave\n5th --> scorching ray, shatter\n9th --> fireball, wind wall",
+                        "level": 9
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> shield, thunderwave\n5th --> scorching ray, shatter\n9th --> fireball, wind wall\n13th --> ice storm, wall of fire",
+                        "level": 13
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> shield, thunderwave\n5th --> scorching ray, shatter\n9th --> fireball, wind wall\n13th --> ice storm, wall of fire\n17th --> cone of cold, wall of force",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom69f30ef1-25b1-48fb-a0d1-dd88d4893818",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Artillerist Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn how to create a magical turret. With your smith's tools in hand, you can take an action to magically summon a Medium turret in an unoccupied space on a horizontal surface within 5 feet of you.\n\nThe turret is a magical object that occupies its space and that has crab like legs. It has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the mending spell is cast on it, it regains 2d6 hit points. It disappears if it is reduced to 0 hit points or after 10 minutes. You can dismiss it early as an action.\n\nWhen you summon the turret, you decide which type it is, choosing from the options on the Arcane Turrets table. On each of your turns, you can take a bonus action to cause the turret to activate if you are within 60 feet of it. As part of the same action, you can direct the turret to walk or climb up to 15 feet to an unoccupied space.\n\nYou can summon a turret once for free and must finish a long rest before doing so again. You can also summon the turret by expending a spell slot of 1st level or higher. If you summon a second turret, the first turret disappears\n\nAs an action, you can command your turret to detonate if you are within 60 feet of it. Doing so destroys the turret and forces each creature within 10 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d6 force damage on a failed save or half as much damage on a successful one.\n\nTurret --> Activation\n\nFlamethrower --> The turret exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC taking 1d8 fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.\n\nForce Ballista --> Make a ranged spell attack, originating from the turret, at one creature or object within 120 feet of it. On a hit, the target takes 2d8 force damage, and if the target is a creature, it is pushed up to 5 feet away from the turret.\n\nDefender --> The turret emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1)",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom586300d9-da4a-4703-8f0b-1a361442c5d9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Arcane Turret",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You now regularly experiment with channeling different types of magic through wands. Whenever you finish a long rest and your woodcarver's tools are with you, you can touch a nonmagical, wooden wand and turn it into a magic item. When you do so, you invest it with one artificer cantrip of your choice-even one you don't know-that has a casting time of 1 action. As an action, you can cause the magic wand to produce the cantrip, using your spellcasting ability modifier (other creatures are unable to use the wand is magic). The wand loses this magic when you finish your next long rest.\n\nAny damage roll you make for a cantrip in the wand gains a bonus equal to your Intelligence modifier (minimum of +1).",
+                        "level": 6
+                    },
+                    {
+                        "description": "You now regularly experiment with channeling different types of magic through wands. Whenever you finish a long rest and your woodcarver's tools are with you, you can touch a nonmagical, wooden wand and turn it into a magic item. When you do so, you invest it with one artificer cantrip of your choice-even one you don't know-that has a casting time of 1 action. As an action, you can cause the magic wand to produce the cantrip, using your spellcasting ability modifier (other creatures are unable to use the wand is magic). The wand loses this magic when you finish your next long rest.\n\nAny damage roll you make for a cantrip in the wand gains a bonus equal to your Intelligence modifier (minimum of +1).\n\nWhen you reach 14th level in this class, you can invest the wand with two cantrips at the end of a long rest.",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom481c767c-8a04-4b1c-9b85-aa83a0358bfb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wand Prototype",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You're a master at conjuring a well-defended emplacement. You and your allies have half cover while within 10 feet of a turret you create with Arcane Turret, as a result of a shimmering field of magical protection that the turret emits\n\nYou can also now summon a second turret for free and must finish a long rest before doing so again. If you summon the second turret while the first is still present, the first one doesn't disappear, and each turret can be of a different type (if you summon a third turret, the first turret vanishes). Moreover, you can use one bonus action to activate both turrets.",
+                        "level": 14
+                    }
+                ],
+                "id": "Custome17d7bb6-540d-4b78-b61a-e0f0fa4cfeb7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fortified Position",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "CON",
+    "id": "artificer__revised__artillerist",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Artillerist",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "INT",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+                "classes": "sorcerer, wizard",
+                "components": "V, S",
+                "description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+                "duration": "1 round",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Shield",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "abjuration",
+                "type": "1st-level abjuration"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, druid, sorcerer, wizard",
+                "components": "V, S",
+                "description": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn\u00e2\u20ac\u2122t pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell\u00e2\u20ac\u2122s effect, and the spell emits a thunderous boom audible out to 300 feet.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Thunderwave",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (15-foot cube)",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, wizard",
+                "components": "V, S",
+                "description": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Scorching Ray",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "2nd-level evocation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, warlock, blood_hunter, wizard",
+                "components": "V, S, M (a chip of mica)",
+                "description": "A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a lO-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.\n\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd levei or higher, the damage increases by ld8 for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Shatter",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "2nd-level evocation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, wizard",
+                "components": "V, S, M (a tiny ball of bat guano and sulfur)",
+                "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Fireball",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "150 feet",
+                "school": "evocation",
+                "type": "3rd-level evocation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid, ranger__revised_, ranger",
+                "components": "V, S, M (a tiny fan and a feather of exotic origin)",
+                "description": "A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.\n\nWhen the wall appears, each creature within its area must make a Strength saving throw. A creature takes 3d8 bludgeoning damage on a failed save, or half as much damage on a successful one.\n\nThe strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) Creatures in gaseous form can\u00e2\u20ac\u2122t pass through it.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Wind Wall",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "3rd-level evocation"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid, sorcerer, wizard",
+                "components": "V, S, M (a pinch of dust and a few drops of water)",
+                "description": "A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.\n\nHailstones turn the storm\u00e2\u20ac\u2122s area of effect into difficult terrain until the end of your next turn.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Ice Storm",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "300 feet",
+                "school": "evocation",
+                "type": "4th-level evocation"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid, sorcerer, wizard",
+                "components": "V, S, M (a small piece of phosphorus)",
+                "description": "You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.\n\nWhen the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.\n\nOne side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Wall of Fire",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "4th-level evocation"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, wizard",
+                "components": "V, S, M (a small crystal or a glass cone)",
+                "description": "A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one.\n\nA creature killed by this spell becomes a frozen statue until it thaws.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Cone of Cold",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (60-foot cone)",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "wizard",
+                "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
+                "description": "An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature\u00e2\u20ac\u2122s space when it appears, the creature is pushed to one side of the wall (your choice which side).\n\nNothing can physically pass through the wall. It is immune to all damage and can\u00e2\u20ac\u2122t be dispelled by *[dispel magic](../dispel-magic/ \"dispel magic (lvl 3)\")*. A *[disintegrate](../disintegrate/ \"disintegrate (lvl 6)\")* spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Wall of Force",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Smith's tools"
+        },
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Woodcarver's tools"
+        }
+    ],
+    "weaponProficiencies": []
+}

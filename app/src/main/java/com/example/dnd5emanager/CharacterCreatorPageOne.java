@@ -1,10 +1,13 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.MainMenu.Classes;
+import static com.example.dnd5emanager.MainMenu.Races;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
@@ -19,11 +22,15 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -54,6 +61,9 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Wisdom;
     private TextView Charisma;
 
+    String[] RaceArray;
+    String[] ClassArray;
+
     private ArrayAdapter<String> Adapter;
     TextView RacialStrengthBonus;
     TextView RacialDexterityBonus;
@@ -63,12 +73,13 @@ public class CharacterCreatorPageOne extends Fragment {
     TextView RacialCharismaBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        NewCharacter.setPrimaryClass(new CharacterClass());
         OnFocusChangeListener textChanges = new OnFocusChangeListener() {
 
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                update(v);
-            }
+        @Override
+        public void onFocusChange(View v, boolean hasFocus) {
+        update(v);
+        }
         };
 
         RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
@@ -103,10 +114,13 @@ public class CharacterCreatorPageOne extends Fragment {
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
         Charisma.setOnFocusChangeListener(textChanges);
 
-        String[] RaceArray = new String[RealRaces.size()];
-        for(int i = 0; i < RealRaces.size(); i++){
-            RaceArray[i] = RealRaces.get(i).getName();
-        }
+        RaceArray = Races.keySet().toArray(new String[0]);
+        Arrays.sort(RaceArray);
+//        Log.d("Race Array", Arrays.toString(RaceArray));
+
+        ClassArray = Classes.keySet().toArray(new String[0]);
+        Arrays.sort(ClassArray);
+
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Race.setAdapter(Adapter);
@@ -123,19 +137,18 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < RealRaces.size(); i++) {
-//                        Log.d("Race Length:", i + " out of " + RealRaces.size());
-                        if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
-                            if (!RealRaces.get(i).getHasSubraces()) {
+                    for (int i = 0; i < Races.size(); i++) {
+                        if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
+                            if (!Objects.requireNonNull(Races.get(RaceArray[i])).getHasSubraces()) {
                                 Subrace.setEnabled(false);
                                 Subrace.setClickable(false);
                                 Subrace.setVisibility(View.INVISIBLE);
                             } else {
-                                for (int j = 0; j < Subraces.size(); j++) {
-                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-                                        Adapter.add(Subraces.get(j).getName());
-                                    }
-                                }
+//                                for (int j = 0; j < Subraces.size(); j++) {
+//                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
+//                                        Adapter.add(Subraces.get(j).getName());
+//                                    }
+//                                }
                             }
                         }
                     }
@@ -157,19 +170,19 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneMaximumHealth.setOnClickListener(v ->{
             updateClass();
-            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDie());
+//            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
         binding.characterCreatorPageOneRollHealth.setOnClickListener(v -> {
             updateClass();
-            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().rollInitialHealth());
+//            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().rollInitialHealth());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
-        binding.characterCreatorPageOneViewCharacter.setOnClickListener(v -> {
+        binding.characterCreatorPageOneNextPage.setOnClickListener(v -> {
             Name = view.findViewById(R.id.character_creator_page_one_edit_name);
             Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Level = view.findViewById(R.id.character_creator_page_one_edit_level);
@@ -186,28 +199,36 @@ public class CharacterCreatorPageOne extends Fragment {
             if(Name.getText().toString().isEmpty()){
                 MissingData.add("Name");
             }
+
             if(Level.getText().toString().isEmpty()){
                 updateClass();
                 NewCharacter.setLevel(NewCharacter.getPrimaryClass(), 1);
             }
+
             if(Health.getText().toString().isEmpty()){
                 MissingData.add("Health");
             }
+
             if(Strength.getText().toString().isEmpty()){
                 MissingData.add("Strength");
             }
+
             if(Dexterity.getText().toString().isEmpty()){
                 MissingData.add("Dexterity");
             }
+
             if(Constitution.getText().toString().isEmpty()){
                 MissingData.add("Constitution");
             }
+
             if(Intelligence.getText().toString().isEmpty()){
                 MissingData.add("Intelligence");
             }
+
             if(Wisdom.getText().toString().isEmpty()){
                 MissingData.add("Wisdom");
             }
+
             if(Charisma.getText().toString().isEmpty()){
                 MissingData.add("Charisma");
             }
@@ -228,7 +249,7 @@ public class CharacterCreatorPageOne extends Fragment {
             }
             else{
                 update(v);
-                CurrentCharacter = NewCharacter;
+                MainMenu.CurrentCharacter = NewCharacter;
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
             }
         });
@@ -328,19 +349,19 @@ public class CharacterCreatorPageOne extends Fragment {
 
     @SuppressLint("SetTextI18n")
     public void updateRace(View view) {
-        for (int i = 0; i < RealRaces.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
-                NewCharacter.setRace(RealRaces.get(i));
+        for (int i = 0; i < Races.size(); i++) {
+            if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
+                NewCharacter.setRace(Races.get(RaceArray[i]));
 //                Log.d("Race", "Found");
             }
         }
-        if (NewCharacter.getRace().getHasSubraces()) {
-            for (int i = 0; i < Subraces.size(); i++) {
-                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
-                    NewCharacter.setSubrace(Subraces.get(i));
-                }
-            }
-        }
+//        if (NewCharacter.getRace().getHasSubraces()) {
+//            for (int i = 0; i < Subraces.size(); i++) {
+//                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
+//                    NewCharacter.setSubrace(Subraces.get(i));
+//                }
+//            }
+//        }
         RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
         if (Integer.parseInt(RacialStrengthBonus.getText().toString()) > 0) {
             RacialStrengthBonus.setText("+" + RacialStrengthBonus.getText());
@@ -367,12 +388,11 @@ public class CharacterCreatorPageOne extends Fragment {
         }
     }
 
-    public void updateClass(){
+    public void updateClass() {
         NewCharacter.clearClasses();
-        for (int i = 0; i < CharacterClasses.size(); i++) {
-            if (Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())) {
-                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
-                break;
+        for (int i = 0; i < Classes.size(); i++) {
+            if (Class.getSelectedItem().toString().equals(ClassArray[i])) {
+                NewCharacter.setPrimaryClass(Classes.get(ClassArray[i]));
             }
         }
     }

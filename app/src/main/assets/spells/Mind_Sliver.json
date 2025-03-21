@@ -1,0 +1,4 @@
+{"casting_time": "1 action","classes": ["warlock","sorcerer","wizard","blood_hunter__egw_","blood_hunter"],
+"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
+"description": "You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn","higher_levels": "This spell's damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6)","duration": "1 round","level": "cantrip","name": "Mind Sliver","range": "60 feet","ritual": false,"school": "enchantment","tags": ["warlock","sorcerer","wizard","blood_hunter__egw_","blood_hunter","cantrip"],
+"type": "Enchantment cantrip"}

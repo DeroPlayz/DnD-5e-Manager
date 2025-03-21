@@ -1,0 +1,178 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in one of the following skills of your choice: History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom14d70f74-1d60-46a8-9158-e07fd208ad5d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiency",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. You can use this feature three times, and you regain all expended uses of it when you finish a long rest",
+                        "level": 3
+                    },
+                    {
+                        "description": "As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 10 temporary hit points. You can use this feature three times, and you regain all expended uses of it when you finish a long rest",
+                        "level": 10
+                    },
+                    {
+                        "description": "As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 15 temporary hit points. You can use this feature three times, and you regain all expended uses of it when you finish a long rest",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom7ccdd4d1-ffc5-46ff-839a-85a9f3c2124c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fighting Spirit",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier. You also gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)",
+                        "level": 7
+                    }
+                ],
+                "id": "Custome31bf8fc-a4cf-4ac1-9029-dbd869aabe68",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Elegant Courtier",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you roll initiative and have no uses of Fighting Spirit remaining, you regain one use",
+                        "level": 10
+                    }
+                ],
+                "id": "Customdbc99fe4-6d93-4f99-a09b-6a06683c218c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tireless Spirit",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you take the Attack action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can only do so once per turn",
+                        "level": 15
+                    }
+                ],
+                "id": "Customa4e35579-0737-4145-ad14-5d8a7a8a304b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rapid Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you take damage that reduces you to 0 hit points and doesn't kill you outright, you can use your reaction to delay falling unconscious and immediately take an extra turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points. Once you use this feature, you can't use it again until you finish a long rest",
+                        "level": 18
+                    }
+                ],
+                "id": "Customfea05010-fe43-4541-984a-099c7d813482",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Strength Before Death",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_samurai",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Samurai",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 3,
+                    "associatedValue": "5",
+                    "level": 3
+                },
+                {
+                    "amount": 3,
+                    "associatedValue": "10",
+                    "level": 10
+                },
+                {
+                    "amount": 3,
+                    "associatedValue": "15",
+                    "level": 15
+                }
+            ],
+            "associatedValueName": "Temp HP",
+            "id": "fe79088c-1dc9-478c-bd7c-a5321713f6f0",
+            "name": "Fighting Spirit Uses",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

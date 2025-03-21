@@ -1,0 +1,1340 @@
+{
+    "acModifier": "DEX",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        },
+        {
+            "amount": 2,
+            "level": 5
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Simple Weapon",
+                    "number": 2
+                }
+            ],
+            "id": "b2df568f-1906-4856-8fdd-e7714e2ecd43"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Crossbow, light",
+                    "number": 1
+                },
+                {
+                    "ammunitionTypeName": "Bolt",
+                    "description": "",
+                    "name": "Bolt",
+                    "number": 20
+                }
+            ],
+            "id": "b12cf9a9-0942-4d45-9e05-9a1af6a63e8f"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Studded Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Scale Mail",
+                    "number": 1
+                }
+            ],
+            "id": "dfb48098-0f44-437f-9c62-813615da055d"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Thieves' Tools",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "b9014b25-7b0f-4cd9-b3af-27511765ab26"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "4e4bdded-3efc-4911-bbfc-b2fd638a9f2d",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "HALF",
+    "features": [],
+    "hitDie": "D8",
+    "hpModifier": "CON",
+    "id": "artificer__revised_",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": true,
+    "multiclassWeapons": false,
+    "name": "Artificer (Revised)",
+    "savingThrows": {
+        "cha": false,
+        "con": true,
+        "dex": false,
+        "intelligence": true,
+        "str": false,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 3,
+                    "level": 2
+                },
+                {
+                    "amount": 3,
+                    "level": 3
+                },
+                {
+                    "amount": 4,
+                    "level": 4
+                },
+                {
+                    "amount": 4,
+                    "level": 5
+                },
+                {
+                    "amount": 4,
+                    "level": 6
+                },
+                {
+                    "amount": 5,
+                    "level": 7
+                },
+                {
+                    "amount": 5,
+                    "level": 8
+                },
+                {
+                    "amount": 5,
+                    "level": 9
+                },
+                {
+                    "amount": 5,
+                    "level": 10
+                },
+                {
+                    "amount": 6,
+                    "level": 11
+                },
+                {
+                    "amount": 6,
+                    "level": 12
+                },
+                {
+                    "amount": 6,
+                    "level": 13
+                },
+                {
+                    "amount": 6,
+                    "level": 14
+                },
+                {
+                    "amount": 7,
+                    "level": 15
+                },
+                {
+                    "amount": 7,
+                    "level": 16
+                },
+                {
+                    "amount": 7,
+                    "level": 17
+                },
+                {
+                    "amount": 7,
+                    "level": 18
+                },
+                {
+                    "amount": 8,
+                    "level": 19
+                },
+                {
+                    "amount": 5,
+                    "level": 20
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 4th-level artificer\nItem: A pair of boots (requires attunement)\n\nWhile wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custombe2e3ff2-59d8-41b5-a403-53fdd2095d77",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Boots of the Winding Path",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A suit of armor or a shield\n\nA creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item. The bonus increases to +2 when you reach 12th level in this class",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom40fe0372-49f4-496b-96d2-42c5556fa799",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Enhanced Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A simple or martial weapon\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it. The bonus increases to +2 when you reach 12th level in this class",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom56905634-965d-4b37-b051-3e9b86483e2c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Enhanced Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 4th-level artificer\nItem: 2\u00e2\u20ac\u201c5 pouches\n\nThe infused pouches all share one interdimensional space of the same capacity as a single pouch. Thus, reaching into any of the pouches allows access to the same storage space. A pouch operates as long as it is within 100 miles of another one of the pouches; the pouch is otherwise empty and won\u00e2\u20ac\u2122t accept any contents. If this infusion ends, the items stored in the shared space move into one of the pouches, determined at random. The rest of the pouches become empty",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custom5ad7b444-cbd2-437a-99e9-889a4a5658c1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Many-Handed Pouch",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 8th-level artificer\nItem: A simple or martial weapon (requires attunement)\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action. As a reaction immediately after being hit by a melee attack, the wielder can cause the attacker to be blinded until the end of the attacker\u00e2\u20ac\u2122s next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. Once used, this reaction can\u00e2\u20ac\u2122t be used again until the wielder finishes a short or long rest",
+                                "level": 8
+                            }
+                        ],
+                        "id": "Customafe34c45-011d-4b7d-a206-8fffcc15a446",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Radiant Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 8
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A simple or martial weapon with the ammunition property (requires attunement)\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it. The weapon requires no ammunition; it magically produces one piece of ammunition each time you make a ranged attack with it, unless you manually load it. The ammunition produced by the weapon vanishes the instant after the it hits or misses a target",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom69a98317-fdd1-4f0c-a81e-d9b8356048e1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Repeating Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom72fe09b7-237d-4a3b-9da2-a7305333ec89",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Alchemy Jug",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom7ab4791d-3e81-4e1d-86f7-caddadba5aa6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Bag of holding",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom9596dc82-c525-4abe-b798-114d7f69893f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Cap of water breathing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom250bfa5f-637f-470e-b59b-eeeeb1cbabb2",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Cloak of the manta ray",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom2f442f04-1c8f-4c8b-8ccf-02795bd1d916",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Goggles of night",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom26177524-1488-43ca-b24b-ec2ba5348c0d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Lantern of revealing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customaff1c080-5a5a-4d50-ad01-5c1b7794c08c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Rope of climbing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custome381fb13-69f5-4df7-a04b-623e394fb5fb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Sending stones",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customf7fca84a-aea0-48d6-9c1b-c8f1e260bd54",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Wand of magic detection",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customa063cf6a-6b07-4b52-a147-cbece7929d35",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Wand of secrets",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom54fd84b1-6d50-4c74-aec9-b9563ed7dc49",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Wand of secrets",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom9ab6ccf1-20c3-46e7-a961-9cabf3bf904b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Boots of elvenkind",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom5fee5d98-9010-45d2-9107-e05ac7bf2dba",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Boots of striding and springing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customf8e7832f-d146-415d-93d5-fafd21da73d1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Boots of the winterlands",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom9a328574-f9c9-4054-b952-49ccadc62055",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Bracers of archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom160c6ee8-2922-43ba-8583-e433fe1e01c5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Brooch of shielding",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customed9b4423-de07-4a86-a3a6-07c85620dd5a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Cloak of elvenkind",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom1f9a89e8-9a4a-48e0-b559-e914da36c5a3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Cloak of protection",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom070e6426-d341-4b3a-bdd5-f16c9a41d09b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Eyes of charming",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customf2a0a558-8445-4bf7-affc-573bba42828e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Eyes of the eagle",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customcf1fd59c-c352-4f40-8f0b-6c1fcaa23b9e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Gauntlets of ogre power",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom1b3e111f-5c7f-446e-b459-747ec8c8c36a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Gloves of missile snaring",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom19741445-246e-4bde-bdd8-985cf7e3f2a7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Gloves of swimming and climbing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customb4dff235-b678-4580-88c8-dbbf8a92fdc6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Gloves of thievery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customb3cad298-973f-4cea-98d9-150ba0fc559e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Hat of disguise",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom90403d20-0b46-49b9-bfae-8303505a5271",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Headband of intellect",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customc7389c14-59b4-4a8b-a74b-3224da07501b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Helm of telepathy",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom81c97fcb-7d02-4461-95c4-6137009080a6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Medallion of thoughts",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom33ab2acc-5182-428a-92c5-b65795aadf84",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Periapt of wound closure",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom50860d88-9727-4507-9910-34547d8741a4",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Pipes of haunting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Customf94cc38a-03b0-4f72-970f-ca6e215b1b72",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Pipes of the sewers",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custome1c2776a-a0d6-45c8-8a83-f3e55848ea43",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Quiver of Ehlonna",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom042122f8-3963-4ff6-b3b7-4b96327c439d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Ring of jumping",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom94f8038b-aca1-4174-b406-4cb183bcc081",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Ring of mind shielding",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom01d7ccd9-a252-4f9d-a95b-c3fef46b547a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Ring of water walking",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom7f7cc691-967d-41e1-aea1-6acf166c26c7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Slippers of spider climbing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom7e3642a7-28b1-4b23-9182-e750d33817be",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Winged boots",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom8a21429c-371f-4f70-b743-7487887db56e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Winged boots",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom11821e79-a715-4927-bbce-ed57300286bb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Amulet of health",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom3f46e765-6438-4d10-857b-213063d8c39b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Belt of hill giant strength",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom001e8983-b362-47dc-8c82-064d31ff79bf",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Boots of levitation",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Customc136643d-9d63-4c4c-be12-72d1059bbeb2",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Boots of speed",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom857f5138-a734-45b3-8b45-d35062795032",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Bracers of defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom82502581-0c55-4086-82c8-272577bc83eb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Cloak of the bat",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom13dae9e6-ff94-462a-829f-4010e9a8167d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Dimensional shackles",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Customb91ce2f7-8b45-45df-8d4a-77fbe7101fb2",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Gem of seeing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item doesn't require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom7ec639fa-36ad-4921-81bb-d8f81c165266",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Horn of blasting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom10b20bb1-f0aa-4a4c-af04-bfe7dde4f329",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Ring of free action",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custom0cb0ce6c-d911-4ed4-aa77-69a3f9f576fc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Ring of protection",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This item does require attunement",
+                                "level": 16
+                            }
+                        ],
+                        "id": "Custome6f7e4c1-d28f-420b-a3ec-5f8baa119f98",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Ring of the ram",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 16
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 8th-level artificer\nItem: A suit of armor (requires attunement)\n\nWhile wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder",
+                                "level": 8
+                            }
+                        ],
+                        "id": "Custom6a8b0f0a-5687-425b-af36-03bb43406435",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Resistant Armor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 8
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A simple or martial weapon with the thrown property\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder\u00e2\u20ac\u2122s hand immediately after it is used to make a ranged attack",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom8472e1b0-8338-4538-80ce-3e1fde42f585",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Returning Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "canReselect": true,
+            "id": "dbb6bc00-c0a5-4a00-9acd-deab18d83d02",
+            "name": "Artificer Infusions",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "INT",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1 Artisan's Tool"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Thieves' tools"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Tinker's tools"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, hand"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, heavy"
+        }
+    ]
+}

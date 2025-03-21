@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success",
+            "level": 5
+        }
+    ],
+    "id": "Custom5d3989b6-db9a-40c8-910c-c1ff35d0e07a",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Magical Guidance",
+    "notes": "",
+    "type": "Feat"
+}

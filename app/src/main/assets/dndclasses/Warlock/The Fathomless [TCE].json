@@ -1,0 +1,219 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSpell Level --> Spells\n1st --> create or destroy water, thunderwave\n2nd --> gust of wind, silence\n3rd --> lightning bolt, sleet storm\n4th --> control water, summon elemental (water only)\n5th --> Bigby's hand (appears as a tentacle), cone of cold",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom2a8603d8-42c8-4bd4-9b58-c8ca4c5e5dc9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Expanded Spell List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.\n\nWhen you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.\n\nAs a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack.\n\nYou can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    },
+                    {
+                        "description": "As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.\n\nWhen you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 2d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.\n\nAs a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack.\n\nYou can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom1bfd049f-631e-4b81-92e8-16881c8903f5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tentacle of the Deeps",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain a swimming speed of 40 feet, and you can breathe underwater",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom94b5adba-8947-41ae-841c-a005f223b188",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Gift of the Sea",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain resistance to cold damage. In addition, when you are fully submerged, any creature that is also fully submerged can understand your speech, and you can understand theirs",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom5f19cd80-9c31-4bde-8232-9c87f8851884",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Oceanic Soul",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by 1d8",
+                        "level": 6
+                    },
+                    {
+                        "description": "When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by 2d8",
+                        "level": 10
+                    }
+                ],
+                "id": "Customce7ebe89-21fa-4c61-bee3-1387ac7f0545",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Guardian Coil",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn the spell Evard's black tentacles. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.\n\nWhenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your concentration on this spell",
+                        "level": 10
+                    }
+                ],
+                "id": "Customed36a76e-df9a-43f3-a6ed-c097e4609828",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Grasping Tentacles",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can teleport yourself and up to five other willing creatures that you can see within 30 feet of you. You all vanish and then reappear up to 1 mile away in a body of water you've seen (pond size or larger) or within 30 feet of it, each of you appearing in an unoccupied space within 30 feet of the others.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom78c8edf8-6850-4a13-8efe-635c509eb821",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fathomless Plunge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "warlock_the_fathomless_[tce]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "The Fathomless [TCE]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 1,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "9ab222c5-256d-449d-bbc2-3618df27d771",
+            "name": "Tentacle of the Deeps Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 10,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (Tentacle of giant octopus/squid)",
+                "description": "For the duration, tentacles fill a 20-foot square on the ground that you can see and turn it into difficult terrain.\n\nWhen a creature enters the area for the first time or starts its turn there, it must pass a Dexterity save or take 3d6 bludgeoning damage and be restrained until the spell ends. If it's already restrained by the tentacles, it takes 3d6 bludgeoning damage.\n\nThe restrained creature can use its action to make a Strength or Dexterity check of its choice. On a success, it's freed.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Evard's Black Tentacles",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "conjuration",
+                "type": "4th-level conjuration"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

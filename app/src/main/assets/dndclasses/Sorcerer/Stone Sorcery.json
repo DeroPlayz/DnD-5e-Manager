@@ -1,0 +1,169 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with shields, simple weapons, and martial weapons",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc1277ae6-e7c6-4b26-833f-fa072c07b02e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When your Spellcasting feature lets you learn a sorcerer spell of 1st level or higher, you can select the spell from the following list of spells, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.\n\nSpell Level\t --> Spell\n\n1st\t--> Compelled Duel\n1st\t--> Searing Smite\n1st\t--> Thunderous Smite\n1st\t--> Wrathful Smite\n2nd --> Branding Smite\n2nd --> Magic Weapon\n3rd\t--> Blinding Smite\n3rd\t--> Elemental Weapon\n4th\t--> Staggering Smite",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0da038b6-5cd8-4fa3-9a65-e00429daf953",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Metal Magic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class.\n\nAs an action, you can gain a base AC of 13 + your Constitution modifier if you aren't wearing armor. This effect lasts until you end it as a bonus action, you are incapacitated, or you don armor other than a shield",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom8aff743d-b909-4940-bf2b-ff1c03fe9c01",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Stone's Durability",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis is a dim, gray aura of earth magic that protects the target. Any bludgeoning, piercing, or slashing damage the target takes is reduced by 2 + your sorcerer level divided by 4. This effect lasts for 1 minute, until you use it again, or until you are incapacitated.\n\nIn addition, when a creature you can see within 60 feet of you hits the protected target with a melee attack, you can use your reaction to teleport to an unoccupied space you can see within 5 feet of the attacker. You can teleport only if you and the attacker are on the same surface. You can then make one melee weapon attack against the attacker. If that attack hits, it deals an extra 1d10 force damage",
+                        "level": 6
+                    },
+                    {
+                        "description": "As a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis is a dim, gray aura of earth magic that protects the target. Any bludgeoning, piercing, or slashing damage the target takes is reduced by 2 + your sorcerer level divided by 4. This effect lasts for 1 minute, until you use it again, or until you are incapacitated.\n\nIn addition, when a creature you can see within 60 feet of you hits the protected target with a melee attack, you can use your reaction to teleport to an unoccupied space you can see within 5 feet of the attacker. You can teleport only if you and the attacker are on the same surface. You can then make one melee weapon attack against the attacker. If that attack hits, it deals an extra 2d10 force damage",
+                        "level": 11
+                    },
+                    {
+                        "description": "As a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis is a dim, gray aura of earth magic that protects the target. Any bludgeoning, piercing, or slashing damage the target takes is reduced by 2 + your sorcerer level divided by 4. This effect lasts for 1 minute, until you use it again, or until you are incapacitated.\n\nIn addition, when a creature you can see within 60 feet of you hits the protected target with a melee attack, you can use your reaction to teleport to an unoccupied space you can see within 5 feet of the attacker. You can teleport only if you and the attacker are on the same surface. You can then make one melee weapon attack against the attacker. If that attack hits, it deals an extra 3d10 force damage",
+                        "level": 17
+                    }
+                ],
+                "id": "Customae3df442-68f8-4876-b370-de4135d21edc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Stone Aegis",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast a spell that deals damage, choose one creature damaged by that spell on the round you cast it. That creature takes extra force damage equal to half your sorcerer level. This feature can be used only once per casting of a spell",
+                        "level": 14
+                    }
+                ],
+                "id": "Customf0c623f4-9e69-4f8f-bd01-c868a092b969",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Stone's Edge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you use your Stone's Aegis to protect an ally, you can choose up to three creatures to gain its benefits",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom21b581ae-70b2-44e6-8272-2b36c1cfdbd3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Earth Master's Aegis",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "sorcerer_stone_sorcery",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "Stone Sorcery",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

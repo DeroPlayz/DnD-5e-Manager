@@ -1,0 +1,19 @@
+{
+    "descriptionModels": [
+        {
+            "description": "Your superior understanding of magic items allows you to master their use. You can now attune to up to\rfour, rather than three, magic items at a time",
+            "level": 5
+        },
+        {
+            "description": "Your superior understanding of magic items allows you to master their use. You can now attune to up to\rfive, rather than three, magic items at a time.",
+            "level": 15
+        }
+    ],
+    "id": "Custom8c4051d6-6e5d-40e9-a2e5-9a58359917f2",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Superior Attunement",
+    "notes": "",
+    "type": "Feat"
+}

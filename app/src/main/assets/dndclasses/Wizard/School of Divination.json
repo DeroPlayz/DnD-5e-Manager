@@ -1,0 +1,130 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The gold and time you must spend to copy a divination spell into your spellbook is halved",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom30380d31-e8ed-44e2-947f-ede2ad323b25",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Divination Savant",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20 and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.\n\nEach foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls",
+                        "level": 2
+                    },
+                    {
+                        "description": "Glimpses of the future begin to press in on your awareness. When you finish a long rest, roll three d20 and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.\n\nEach foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls",
+                        "level": 14
+                    }
+                ],
+                "id": "Custome695b6ad-a9d3-4487-bf8d-385cac76d6fc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Portent",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level",
+                        "level": 6
+                    }
+                ],
+                "id": "Customb463241a-a594-4823-8cf2-82d1350391c3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Expert Divination",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can't use the feature again until you finish a rest.\n\n- Darkvision: You gain darkvision out to a range of 60 feet.\n- Ethereal Sight: You can see into the Ethereal Plane within 60 feet of you.\n- Greater Comprehension: You can read any language.\n- See Invisibility: You can see invisible creatures and objects within 10 feet of you that are within line of sight",
+                        "level": 10
+                    }
+                ],
+                "id": "Customc0568e3c-3b56-404a-95b5-13de092add97",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "The Third Eye",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You roll three d20 for your Portent feature, rather than two",
+                        "level": 14
+                    }
+                ],
+                "id": "Customb40f396c-1f4c-4478-b87a-291c377e1608",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Greater Portent",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "wizard_school_of_divination",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "School of Divination",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,188 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following benefits:\n\n- If you can\u00e2\u20ac\u2122t already, you learn to speak, read, and write Draconic.\n\n- You learn the thaumaturgy cantrip, which is a ranger spell for you",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom6ca94782-78e2-4524-b509-77515cbe0e5a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Draconic Gift",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can magically summon the drake bound to you. As an action, you can summon the drake, which appears in an unoccupied space of your choice that you can see within 30 feet of you.\n\nThe drake is friendly to you and your companions and obeys your commands. See its game statistics in the Drake Companion stat block, which uses your proficiency bonus (PB) in several places. When you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake such as its color, scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics\n\nIn combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.\n\nOnce you summon the drake, you can\u00e2\u20ac\u2122t do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it.\n\nThe drake remains for a number of hours equal to your proficiency bonus, until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when the drake vanishes",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom1c0a97dd-4284-4e27-af18-d0a3d3a9b5c7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Drake Companion",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "While your drake is summoned, you and the drake gain the following benefits:\n\n- You gain resistance to the damage type chosen for the drake\u00e2\u20ac\u2122s Draconic Essence.\n\n- Choose one of the following: the drake gains a swimming speed of 40 feet and can breathe both air and water, or the drake grows wings and gains a flying speed of 40 feet.\n\n- The drake\u00e2\u20ac\u2122s bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence",
+                        "level": 7
+                    }
+                ],
+                "id": "Customb9d4e630-6a53-4f18-8545-e02364106e83",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bond of Fang and Scale",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 6d6 damage on a failed save, or half as much damage on a successful one.\n\nOnce you use this feature, you can\u00e2\u20ac\u2122t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again",
+                        "level": 11
+                    },
+                    {
+                        "description": "As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one.\n\nOnce you use this feature, you can\u00e2\u20ac\u2122t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom9d09a918-0ca4-4ba2-989e-0369ea681bcb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Drake's Breath",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "While your drake is summoned, you and the drake gain the following benefits:\n\n- The drake grows to Large size\n\n- The drake\u00e2\u20ac\u2122s bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence (for a total of 2d6 extra damage).\n\n- When either you or the drake takes damage while you\u00e2\u20ac\u2122re within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom5cd5f3ba-2850-440c-9a0c-f31a30a2074c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Perfected Bond",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "ranger_drakewarden_[ua]",
+    "jsonType": "class",
+    "languages": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Draconic"
+        }
+    ],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Drakewarden [UA]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                }
+            ],
+            "associatedValueName": "",
+            "id": "ab637bf4-e00f-4b8d-983b-d26244e6d602",
+            "name": "Drake Summonings",
+            "type": "BASIC",
+            "usesLeft": 0
+        },
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 11
+                }
+            ],
+            "associatedValueName": "",
+            "id": "207b1547-27fe-4733-b19b-a9a38f6bc4d1",
+            "name": "Drake's Breath Uses",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V",
+                "description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+                "duration": "Up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Thaumaturgy",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "Transmutation",
+                "type": "Transmutation cantrip"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

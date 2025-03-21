@@ -1,0 +1,494 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain domain spells at the cleric levels listed on the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\nCleric Level --> Domain Spells\n1st --> dissonant whispers, heroism",
+                        "level": 1
+                    },
+                    {
+                        "description": "You gain domain spells at the cleric levels listed on the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\nCleric Level --> Domain Spells\n1st --> dissonant whispers, heroism\n3rd --> see invisibility, warding bond",
+                        "level": 3
+                    },
+                    {
+                        "description": "You gain domain spells at the cleric levels listed on the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\nCleric Level --> Domain Spells\n1st --> dissonant whispers, heroism\n3rd --> see invisibility, warding bond\n5th --> beacon of hope, clairvoyance",
+                        "level": 5
+                    },
+                    {
+                        "description": "You gain domain spells at the cleric levels listed on the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\nCleric Level --> Domain Spells\n1st --> dissonant whispers, heroism\n3rd --> see invisibility, warding bond\n5th --> beacon of hope, clairvoyance\n7th --> death ward, divination",
+                        "level": 7
+                    },
+                    {
+                        "description": "You gain domain spells at the cleric levels listed on the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\nCleric Level --> Domain Spells\n1st --> dissonant whispers, heroism\n3rd --> see invisibility, warding bond\n5th --> beacon of hope, clairvoyance\n7th --> death ward, divination\n9th --> commune, geas",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom10d9a607-214e-4189-a7ce-ddc110a20865",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Domain Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can cast the augury spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.\n\nIn addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random reading\u00e2\u20ac\u201dsuch as augury, commune, or divination\u00e2\u20ac\u201dreduce that chance by 25 percent",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom3c738614-d2b6-4170-880e-41642831c89e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Omens and Portents",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw against your spell save DC to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the target's location, and you know the direction of its movement if it is in motion.\n\nIn addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a d6, and the target receives extra damage or healing, respectively, equal to the number rolled.\n\nYou can use this feature's action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom572d4298-f566-4cfe-b7d5-45c20d93c830",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ties That Bind",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the target's defenses. Until the end of your next turn, you gain one of the following effects of your choice:\n\nThe next time you make an attack roll against the target, roll a d6 and add the number rolled to the total.\nThe next time the target must make a saving throw against a spell you cast, the target must roll a d6 and subtract the number rolled from the saving throw.\n\nYou can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Customf7df1598-d748-4015-b2d7-037df50d01fd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Insightful Striking",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip",
+                        "level": 8
+                    }
+                ],
+                "id": "Customb023a068-9993-4eb3-8ab2-0f2669903a67",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Potent Spellcasting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 8
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can cast the foresight spell once without expending a spell slot; when you cast the spell in this way, the spell's duration is 1 minute for that casting. Once you cast the spell in this way, you can't do so again until you finish a long rest",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom3361275d-181f-4c16-b3a5-4ee6afae0dd7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Visions of the Future",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use your Channel Divinity to see and manipulate the strands of fate that weave around other individuals. As a bonus action, you can enter this state for up to 1 minute or until you lose your concentration (as if you were concentrating on a spell). For the duration, whenever another creature you can see makes an attack roll or an ability check, you can use a reaction to give the roll advantage or disadvantage (your choice)",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom4d88e995-bb01-4dbc-af0c-fc390cda2bbc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity: Strands of Fate",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "Customae69c83a-099b-4e46-908b-9c8d99eb3f22",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Fate Domain [UA]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 1,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "fad16539-0164-44c9-9bd3-8a2f6971a571",
+            "name": "Ties That Bind Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        },
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 6,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "ef18f85e-30a1-4a3a-a9e1-ae07fbcb3d2c",
+            "name": "Insightful Striking Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard",
+                "components": "V",
+                "description": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Dissonant Whispers",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, paladin",
+                "components": "V, S",
+                "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Heroism",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a pinch of tale and a small sprinkling of powdered silver)",
+                "description": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "See Invisibility",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "2nd-level divination"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
+                "description": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 hit points or if you and the  target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Warding Bond",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "2nd-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S",
+                "description": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Beacon of Hope",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "10 minutes",
+                "classes": "bard, cleric, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a focus worth at least 100gp, either a jeweled horn for hearing or a glass eye for seeing)",
+                "description": "You create an Invisible sensor within range in a Location familiar to you (a place you have visited or seen before) or in an obvious Location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the Duration, and it can't be attacked or otherwise interacted with.\n\nWhen you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.\n\nA creature that can see the sensor (such as a creature benefitting from See Invisibility or truesight) sees a luminous, intangible orb about the size of your fist",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Clairvoyance",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "1 mile",
+                "school": "divination",
+                "type": "3rd-level divination"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, cleric, paladin",
+                "components": "V, S",
+                "description": "You touch a creature and grant it a measure of protection from death.\n\nThe first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.",
+                "duration": "8 hours",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Death Ward",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S, M (incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes)",
+                "description": "Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.\n\nThe spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast this spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Divination",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "4th-level divination (ritual)"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "cleric",
+                "components": "V, S, M (incense and a vial of holy or unholy water)",
+                "description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Commune",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "5th-level divination (ritual)"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "cleric, fighter, rogue, wizard, paladin, druid, bard",
+                "components": "V",
+                "description": "You place a command on a creature that you can see, forcing it to do or refrain from doing some action or activity you decide. The command can be anything except something that would obviously cause the target to die.\n\nIf the creature can't understand you, this spell has no effect. If it can understand you, it must succeed a Wisdom save or become charmed by you. While the creature is charmed, it takes 5d10 psychic damage each time it does something that directly counters to your instructions, but no more than once each day.\n\nYou can end the spell early by using an action to dismiss it. A Remove Curse, Greater Restoration, or Wish spell also ends it.",
+                "duration": "30 days",
+                "higherLevels": "When you cast this using a 7th or 8th level spell slot, the duration is 1 year. If you use a 9th level slot, the spell lasts until it is ended by one of the spells mentioned above.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Geas",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "enchantment",
+                "type": "5th-level enchantment"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "cleric",
+                "components": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)",
+                "description": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren\u00e2\u20ac\u2122t especially good or bad\n\nThe spell doesn\u00e2\u20ac\u2122t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Augury",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "2nd-level divination (ritual)"
+            }
+        },
+        {
+            "level": 14,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "bard, druid, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (a hummingbird feather)",
+                "description": "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.\n\nThis spell immediately ends if you cast it again before its duration ends.",
+                "duration": "8 hours",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 9,
+                "name": "Foresight",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "divination",
+                "type": "9th-level divination"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

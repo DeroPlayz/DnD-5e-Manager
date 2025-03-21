@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "Whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus. At 18th level, the range of this aura increases to 30 feet",
+            "level": 6
+        }
+    ],
+    "id": "Customae060849-2910-4035-b340-6c9487078112",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Aura of Protection",
+    "notes": "",
+    "type": "Feat"
+}

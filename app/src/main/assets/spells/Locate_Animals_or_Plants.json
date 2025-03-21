@@ -1,0 +1,5 @@
+{"casting_time": "1 action","classes": ["bard","druid","ranger__revised__","revised_ranger","ranger"],
+"components": {"material": true,"materials_needed": ["a bit of fur from a bloodhound"],
+"raw": "V, S, M (a bit of fur from a bloodhound)","somatic": true,"verbal": true},
+"description": "Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.","duration": "Instantaneous","level": "2","name": "Locate Animals or Plants","range": "Self","ritual": true,"school": "divination","tags": ["bard","druid","ranger__revised__","revised_ranger","ranger","level2"],
+"type": "2nd-level divination (ritual)"}

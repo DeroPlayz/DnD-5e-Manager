@@ -1,0 +1,12 @@
+{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
+"ac": 10,"armorProficiencies": [],
+"id": "Customac10ffc1-4f66-4a7b-b4f7-98caee6567e7","jsonType": "race","languages": [],
+"name": "Longtooth [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
+"skillProficiencies": [],
+"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
+"spellcastingAbility": "Intelligence","spells": [],
+"toolProficiencies": [],
+"traits": [{"feat": {"descriptionModels": [{"description": "When you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike","level": 1}],
+"id": "Customa6108701-c196-4686-ad50-9f477579e1a4","isFeature": true,"jsonType": "feat","level": 1,"name": "Longtooth Shifting","notes": "","type": "Feat"},
+"level": 1}],
+"weaponProficiencies": []}

@@ -1,0 +1,277 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 2,
+            "level": 5
+        },
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Greataxe",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any Martial Melee Weapon",
+                    "number": 1
+                }
+            ],
+            "id": "f6830063-bb90-426f-be97-4b11d1144c6c"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Handaxe",
+                    "number": 2
+                },
+                {
+                    "description": "",
+                    "name": "Any Simple Weapon",
+                    "number": 1
+                }
+            ],
+            "id": "4609e096-cb25-4f60-8d37-b8a34fb1db65"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Explorer's Pack ",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Javelin",
+                    "number": 4
+                }
+            ],
+            "id": "3fc02cac-a133-45d1-a48e-e34c76f7fe50"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "5fc5734e-7872-40e7-95b5-7bf2169a617e",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Animal Handling",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Intimidation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Survival",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [],
+    "hitDie": "D12",
+    "hpModifier": "Constitution",
+    "id": "barbarian",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": false,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "Barbarian",
+    "savingThrows": {
+        "cha": false,
+        "con": true,
+        "dex": false,
+        "intelligence": false,
+        "str": true,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                },
+                {
+                    "amount": 2,
+                    "level": 7
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level",
+                                "level": 3
+                            },
+                            {
+                                "description": "You gain proficiency in two skills of your choice from the list of skills available to barbarians at 1st level",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Customdaa8555e-fc3e-488f-b871-94bc784286e8",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Primal Knowledge",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As part of the bonus action you take to enter your rage, you can move up to half your speed",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Customedd4f83c-8ece-447a-9180-1216ea25b078",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Instinctive Pounce",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                }
+            ],
+            "canReselect": false,
+            "id": "d3b23d54-235a-43ae-8526-1c361a0f367a",
+            "name": "Barbarian Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "associatedValue": "+2",
+                    "level": 1
+                },
+                {
+                    "amount": 3,
+                    "associatedValue": "+2",
+                    "level": 3
+                },
+                {
+                    "amount": 4,
+                    "associatedValue": "+2",
+                    "level": 6
+                },
+                {
+                    "amount": 4,
+                    "associatedValue": "+3",
+                    "level": 9
+                },
+                {
+                    "amount": 5,
+                    "associatedValue": "+3",
+                    "level": 12
+                },
+                {
+                    "amount": 5,
+                    "associatedValue": "+4",
+                    "level": 16
+                },
+                {
+                    "amount": 6,
+                    "associatedValue": "+4",
+                    "level": 17
+                }
+            ],
+            "associatedValueName": "Rage Damage",
+            "id": "ca81df2f-4d6f-4596-a670-28a4c11eecb4",
+            "name": "Rages",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "unarmoredDefense": "Constitution",
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

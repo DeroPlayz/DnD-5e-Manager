@@ -1,0 +1,19 @@
+{
+    "descriptionModels": [
+        {
+            "description": "On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again",
+            "level": 2
+        },
+        {
+            "description": "On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature twice, you must finish a short or long rest before you can use it again. You can't use it twice on the same turn",
+            "level": 17
+        }
+    ],
+    "id": "Customfa0b636c-2476-47d0-8a1b-55c5f286c0c6",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Action Surge",
+    "notes": "",
+    "type": "Feat"
+}

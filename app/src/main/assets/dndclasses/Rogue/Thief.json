@@ -1,0 +1,126 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom3c64bc85-2a7b-4447-890b-91ab3d562e0b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fast Hands",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Climbing no longer costs you extra movement.\n\nIn addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom8cfcb0c6-f7ab-44da-a3d7-65ebb41bf578",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Second-Story Work",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom64a06898-60e7-45a7-93ba-78f6580ba1d7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Supreme Sneak",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You ignore all class, race, and level requirements on the use of magic items",
+                        "level": 13
+                    }
+                ],
+                "id": "Custom736fa436-412c-44ad-a575-edf0ce764cbd",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Use Magic Device",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom3043c0cd-e1c8-4eef-9683-fa8cd17c538b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Thief's Reflexes",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_thief",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Thief",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

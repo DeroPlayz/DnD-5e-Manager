@@ -1,0 +1,23 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can use your action to magically assume the shape of a beast that you have seen before. The beast CR must be lower or equal to 1/4, and may not have any flying or swimming speed. You can use this feature twice. You regain expended uses when you finish a short or long rest",
+            "level": 2
+        },
+        {
+            "description": "You can use your action to magically assume the shape of a beast that you have seen before. The beast CR must be lower or equal to 1/2, and may not have any flying speed. You can use this feature twice. You regain expended uses when you finish a short or long rest",
+            "level": 4
+        },
+        {
+            "description": "You can use your action to magically assume the shape of a beast that you have seen before. The beast CR must be lower or equal to 1. You can use this feature twice. You regain expended uses when you finish a short or long rest",
+            "level": 8
+        }
+    ],
+    "id": "Custom0311d130-5616-4a87-a751-6dd84e50b72f",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Wild Shape",
+    "notes": "",
+    "type": "Feat"
+}

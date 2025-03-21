@@ -1,0 +1,4 @@
+{"casting_time": "1 action","classes": ["cleric","paladin"],
+"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
+"description": "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) can\u2019t become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned","duration": "Concentration, up to 10 minutes","level": "4","name": "Aura of Purity","range": "Self (30-foot radius)","ritual": false,"school": "abjuration","tags": ["cleric","paladin","level4"],
+"type": "4th-level abjuration"}

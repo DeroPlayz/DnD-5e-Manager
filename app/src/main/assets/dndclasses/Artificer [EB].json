@@ -1,0 +1,960 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Any simple weapon",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any simple weapon",
+                    "number": 1
+                }
+            ],
+            "id": "0ba68399-803a-48d1-bd9d-4828d9fa8d4f"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Crossbow, light",
+                    "number": 1
+                },
+                {
+                    "ammunitionTypeName": "Bolt",
+                    "description": "",
+                    "name": "Bolt",
+                    "number": 20
+                }
+            ],
+            "id": "6761c7db-438e-4538-82f5-1e3da700b84f"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Studded Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Scale Mail",
+                    "number": 1
+                }
+            ],
+            "id": "a92cf039-21b7-4e03-963d-bcf490c16eb2"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Thieves' Tools",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "297f10e5-37a8-439a-9dc2-a5f51a968901"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "1d19807d-f4b5-4027-8ec6-36e1f506995e",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "HALF",
+    "features": [],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "artificer__eb_",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": true,
+    "multiclassWeapons": false,
+    "name": "Artificer [EB]",
+    "savingThrows": {
+        "cha": false,
+        "con": true,
+        "dex": false,
+        "intelligence": true,
+        "str": false,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 4,
+                    "level": 2
+                },
+                {
+                    "amount": 6,
+                    "level": 6
+                },
+                {
+                    "amount": 8,
+                    "level": 10
+                },
+                {
+                    "amount": 10,
+                    "level": 14
+                },
+                {
+                    "amount": 12,
+                    "level": 18
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 6th-level artificer\nItem: A pair of boots (requires attunement)\n\nWhile wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom222b9cde-7616-459c-aea5-21b5945412d9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Boots of the Winding Path",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A rod, staff, or wand (requires attunement)\n\nWhile holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.",
+                                "level": 2
+                            },
+                            {
+                                "description": "Item: A rod, staff, or wand (requires attunement)\n\nWhile holding this item, a creature gains a +2 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Customcd2b187c-5400-4041-9b99-1af8701fc241",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Enhanced Arcane Focus",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A suit of armor or a shield\n\nA creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.",
+                                "level": 2
+                            },
+                            {
+                                "description": "Item: A suit of armor or a shield\n\nA creature gains a +2 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Custom777f96b9-aaa8-4be9-b6b8-2c8d10139f4c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Enhanced Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A simple or martial weapon\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it",
+                                "level": 2
+                            },
+                            {
+                                "description": "Item: A simple or martial weapon\n\nThis magic weapon grants a +2 bonus to attack and damage rolls made with it",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Custom6737d0ac-fd7d-477a-8834-d444d24e2fc0",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Enhanced Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A gem or crystal worth at least 100 gp\n\nYou learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.\n\nYou determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.\n\nThe homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block, which uses your proficiency bonus in several places.\n\nIn combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.\n\nThe homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customd22e2807-0e9b-4f4e-bf9b-9c65217b5562",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Homunculus Servant",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 6th-level artificer\nItem: A simple or martial weapon (requires attunement)\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet.\nThe wielder can extinguish the light as a bonus action.\nThe weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom5917427e-73fa-42fa-9953-08ec8a8dab4e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Radiant Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A simple or martial weapon with the ammunition property (requires attunement)\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.\n\nIf you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customdebef143-84c4-4a63-88bc-bdf3d9ea662f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Repeating Shot",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below.\n\nFROM 2ND-LEVEL:\n\nMagic Item --> Requires Attunement?\n\nAlchemy jug --> No\nArmblade --> Yes\nBag of holding --> No\nCap of water breathing --> No\nGoggles of night --> No\nProsthetic limb --> Yes\nRope of climbing --> No\nSending stones --> No\nWand of magic detection --> No\nWand of secrets --> No",
+                                "level": 2
+                            },
+                            {
+                                "description": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below.\n\nFROM 2ND-LEVEL:\n\nMagic Item --> Requires Attunement?\n\nAlchemy jug --> No\nArmblade --> Yes\nBag of holding --> No\nCap of water breathing --> No\nGoggles of night --> No\nProsthetic limb --> Yes\nRope of climbing --> No\nSending stones --> No\nWand of magic detection --> No\nWand of secrets --> No\n\nFROM 6TH-LEVEL\n\nMagic Item --> Requires Attunement?\n\nBoots of elvenkind --> No\nCloak of elvenkind --> Yes\nCloak of the manta ray --> No\nEyes of charming --> Yes\nGloves of thievery --> No\nLantern of revealing --> No\nPipes of haunting --> No\nRing of water walking --> No\nWand sheath --> Yes",
+                                "level": 6
+                            },
+                            {
+                                "description": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below.\n\nFROM 2ND-LEVEL:\n\nMagic Item --> Requires Attunement?\n\nAlchemy jug --> No\nArmblade --> Yes\nBag of holding --> No\nCap of water breathing --> No\nGoggles of night --> No\nProsthetic limb --> Yes\nRope of climbing --> No\nSending stones --> No\nWand of magic detection --> No\nWand of secrets --> No\n\nFROM 6TH-LEVEL\n\nMagic Item --> Requires Attunement?\n\nBoots of elvenkind --> No\nCloak of elvenkind --> Yes\nCloak of the manta ray --> No\nEyes of charming --> Yes\nGloves of thievery --> No\nLantern of revealing --> No\nPipes of haunting --> No\nRing of water walking --> No\nWand sheath --> Yes\n\nFROM 10TH-LEVEL\n\nMagic Item --> Requires Attunement?\n\nBoots of striding and springing --> Yes\nBoots of the winterlands --> Yes\nBracers of archery --> Yes\nBrooch of shielding --> Yes\nCloak of protection --> Yes\nEyes of the eagle --> Yes\nGauntlets of ogre power --> Yes\nGloves of missile snaring --> Yes\nGloves of swimming and climbing --> Yes\nHat of disguise --> Yes\nHeadband of intellect --> Yes\nHelm of telepathy --> Yes\nMedallion of thoughts --> Yes\nPeriapt of wound closure --> Yes\nPipes of the sewers --> Yes\nQuiver of Ehlonna --> Yes\nRing of jumping --> Yes\nRing of mind shielding --> Yes\nSlippers of spider climbing --> Yes\nVentilating lung --> Yes\nWinged boots --> Yes",
+                                "level": 10
+                            },
+                            {
+                                "description": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below.\n\nFROM 2ND-LEVEL:\n\nMagic Item --> Requires Attunement?\n\nAlchemy jug --> No\nArmblade --> Yes\nBag of holding --> No\nCap of water breathing --> No\nGoggles of night --> No\nProsthetic limb --> Yes\nRope of climbing --> No\nSending stones --> No\nWand of magic detection --> No\nWand of secrets --> No\n\nFROM 6TH-LEVEL\n\nMagic Item --> Requires Attunement?\n\nBoots of elvenkind --> No\nCloak of elvenkind --> Yes\nCloak of the manta ray --> No\nEyes of charming --> Yes\nGloves of thievery --> No\nLantern of revealing --> No\nPipes of haunting --> No\nRing of water walking --> No\nWand sheath --> Yes\n\nFROM 10TH-LEVEL\n\nMagic Item --> Requires Attunement?\n\nBoots of striding and springing --> Yes\nBoots of the winterlands --> Yes\nBracers of archery --> Yes\nBrooch of shielding --> Yes\nCloak of protection --> Yes\nEyes of the eagle --> Yes\nGauntlets of ogre power --> Yes\nGloves of missile snaring --> Yes\nGloves of swimming and climbing --> Yes\nHat of disguise --> Yes\nHeadband of intellect --> Yes\nHelm of telepathy --> Yes\nMedallion of thoughts --> Yes\nPeriapt of wound closure --> Yes\nPipes of the sewers --> Yes\nQuiver of Ehlonna --> Yes\nRing of jumping --> Yes\nRing of mind shielding --> Yes\nSlippers of spider climbing --> Yes\nVentilating lung --> Yes\nWinged boots --> Yes\n\nFROM 14TH-LEVEL\n\nMagic Item --> Requires Attunement?\n\nAmulet of health --> Yes\nArcane propulsion arm --> Yes\nBelt of hill giant strength --> Yes\nBoots of levitation --> Yes\nBoots of speed --> Yes\nBracers of defense --> Yes\nCloak of the bat --> Yes\nDimensional shackles --> No\nGem of seeing --> Yes\nHorn of blasting --> No\nRing of free action --> Yes\nRing of protection --> Yes\nRing of the ram --> Yes",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Customd5937dcf-c362-4ac2-9d39-a50c7c6c3947",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 6th-level artificer\nItem: A shield (requires attunement)\n\nA creature gains a +1 bonus to Armor Class while wield ing this shield.\nThe shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Customb1542e04-ab46-444f-89ee-e8a67ef84c93",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Repulsion Shield",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 6th-level artificer\nItem: A suit of armor (requires attunement)\n\nWhile wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom4ff9f978-96c2-4802-99cb-d839dad71fc5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Resistant Armor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A simple or martial weapon with the thrown property\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom0ed09d45-0e5c-4972-929e-3e2479df365a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Returning Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Second time you pick this infusion, refer to the original for instructions",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom92505129-e02a-47f2-8aea-4a9ab6c7271a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #2",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Third time you pick this infusion, refer to the original for instructions",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customf9bc7c26-b319-4fde-8c55-b0e2866487ee",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #3",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Fourth time you pick this infusion, refer to the original for instructions",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customfceac40c-e0d6-4e5f-be23-003013349b31",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #4",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Fifth time you pick this infusion, refer to the original for instructions",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom02698140-b556-43d8-958f-56a498dad9c1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #5",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Sixth time you pick this infusion, refer to the original for instructions",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom10634b1a-a62c-4be9-b072-02297f4033cd",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #6",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Seventh time you pick this infusion, refer to the original for instructions",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Custom31f71f2c-1d72-4c3c-b9b2-daa9da69c12a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #7",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 10
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Eighth time you pick this infusion, refer to the original for instructions",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Custom2320381b-3a8b-4ce1-8df8-4b82e153e744",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #8",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 10
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Ninth time you pick this infusion, refer to the original for instructions",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Custom27ce70c1-1402-4562-a132-4311a767823c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #9",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 14
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Tenth time you pick this infusion, refer to the original for instructions",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Customc0c46a61-1168-4703-9e69-33881aab92a5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #10",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 14
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Eleventh time you pick this infusion, refer to the original for instructions",
+                                "level": 18
+                            }
+                        ],
+                        "id": "Custome9a4fa86-b278-4165-a90f-f13e3ea89c46",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #11",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 18
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Twelvth time you pick this infusion, refer to the original for instructions",
+                                "level": 18
+                            }
+                        ],
+                        "id": "Custom5f7c80d0-c6ed-4379-a612-e4d687619c38",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Replicate Magic Item #12",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 18
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 10th-level artificer\nItem: A suit of armor (requires attunement)\n\nWhile wearing this armor, a creature can use its Intelligence modifier in place of its Strength modifier when making Strength checks and Strength saving throws.\n\nThe armor has 4 charges. As a reaction when it would be knocked prone, the wearer can expend 1 charge to not be knocked prone. The armor regains 1d4 expended charges daily at dawn.",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Custombe89f51b-addc-4a52-8d89-ea9c1efe8a40",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Armor of Magical Strength",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 10
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A suit of armor\nAs an action, a creature wearing this infused armor can integrate into it artisan's tools or thieves' tools. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.\n\nThe wearer can add its Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool.",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom9828f669-14a2-4a01-a623-59eca8fb427a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Armor of Tools",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 10th-level artificer\nItem: A helmet (requires attunement)\n\nWhile wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't incapacitated.",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Customefdad680-c878-4054-b395-a86c21525a6a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Helm of Awareness",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 10
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A suit of armor or robes\n\nThe infused item can send a jolt to the wearer to refocus their mind. While wearing this infused item, whenever the creature fails a Constitution saving throw to maintain concentration on a spell, it can use its reaction to succeed instead.",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom7ed60ff1-8318-4967-9e8e-2e05cbd16e54",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mind Sharpener",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 6th-level artificer\nItem: A ring (requires attunement)\n\nWhile wearing this ring, the creature can recover one expended spell slot as an action. The maximum level of the recovered slot is equal to the number of magic items the wearer is currently attuned to. Once used, the ring can't be used again until the next dawn.",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom009ae9ae-5cdd-4497-8ad5-715366649966",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Spell-Refueling Ring",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 14th level\nItem: A suit of armor (requires attunement)\n\nThe wearer of this armor gains these benefits:\n\n- The wearer's walking speed increases by 5 feet.\n\n- The armor includes gauntlets, each of which is a magic melee weapon that can be wielded only when the hand is holding nothing. The wearer is proficient with the gauntlets, and each one deals 1d8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the gauntlet detaches and flies at the attack's target, then immediately returns to the wearer and reattaches.\n\n- The armor can't be removed against the wearer's will.\n\n- If the wearer is missing any limbs, the armor replaces those limbs-hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace",
+                                "level": 14
+                            }
+                        ],
+                        "id": "Custom8cab730f-708e-4ea2-a97a-72c3aded2ebe",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Arcane Propulsion Armor [TCE]",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 14
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This armor has 6 charges. The wearer can expend the armor's charges in the following ways:\n\n- When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add a bonus to the roll equal to its Intelligence modifier.\n\n- If the creature would be knocked prone, it can use its reaction to expend 1 charge to avoid being knocked prone.\n\nThe armor regains 1d6 expended charges daily at dawn",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customa48ede06-f667-4ecb-b458-9a864377433c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Armor of Magical Strength [TCE]",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 10th level\nItem: A helmet (requires attunement)\n\nWhile wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't incapacitated",
+                                "level": 10
+                            }
+                        ],
+                        "id": "Custome2d3307c-cc08-437b-9edd-162a43efcf56",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Helm of Awareness [TCE]",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 10
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Item: A suit of armor or robes\n\nThe infused item can send a jolt to the wearer to refocus their mind. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to expend 1 of the item's charges to succeed instead. The item regains 1d4 expended charges daily at dawn",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom4ee751aa-ac16-4638-9055-f611f55a8a51",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mind Sharpener [TCE]",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 6th level\nItem: A ring (requires attunement)\n\nWhile wearing this ring, the creature can recover one expended spell slot as an action. The recovered slot can be of 3rd level or lower. Once used, the ring can't be used again until the next dawn",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Customd9b23b56-1ed3-4d20-81ba-336c51d0fcf3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Spell-Refueling Ring",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                }
+            ],
+            "canReselect": true,
+            "id": "4350e4c2-c055-400b-8c90-15b7e3b0d06d",
+            "name": "Artificer Infusions",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 1
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are proficient with firearms",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom4b2863e1-b5a1-490e-92cd-6a2baf60f118",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Firearm Proficiency",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "9ee19c03-7f52-409f-a2a9-4178277ccff5",
+            "name": "Optional Artificer Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 2
+                },
+                {
+                    "amount": 3,
+                    "level": 6
+                },
+                {
+                    "amount": 4,
+                    "level": 10
+                },
+                {
+                    "amount": 5,
+                    "level": 14
+                },
+                {
+                    "amount": 6,
+                    "level": 18
+                }
+            ],
+            "associatedValueName": "",
+            "id": "27fad8de-d4ba-4882-9687-9af2a9559ee7",
+            "name": "Item Infusions",
+            "type": "BASIC",
+            "usesLeft": 0
+        },
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "INT"
+                                }
+                            ]
+                        },
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 7,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "db852aae-f9b7-4da4-bab4-59f325cc5326",
+            "name": "Flash of Genius Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        },
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 2,
+                                    "operator": "PLUS",
+                                    "stat": "INT"
+                                }
+                            ]
+                        },
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 2,
+                                    "operator": "PLUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 11,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "e100703d-7140-4963-b938-1e2092042db1",
+            "name": "Item-stored Spell Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Thieves' tools"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Tinker's tools"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1 Artisan's"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "When you roll for initiative and have no ki points remaining, you regain 4 ki points",
+            "level": 20
+        }
+    ],
+    "id": "Custom15850ef6-3d6b-4142-97e5-223d41b577f3",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Perfect Self",
+    "notes": "",
+    "type": "Feat"
+}

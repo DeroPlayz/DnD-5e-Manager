@@ -1,0 +1,109 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target: \n\n- It must succeed on a Dexterity saving throw or be knocked prone.\n- It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.\n- It can't take reactions until the end of your next turn",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom42738765-da00-4656-bc9a-49db1e799699",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Open Hand Technique",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again",
+                        "level": 6
+                    }
+                ],
+                "id": "Customb72f92a8-f7fb-40a6-a310-2d858999f8bf",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wholeness of Body",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At the end of a long rest, you gain the effect of a Sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus",
+                        "level": 11
+                    }
+                ],
+                "id": "Custom02da3522-8d8f-4804-afdd-b9dbf2f8dcbe",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tranquility",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.\n\nYou can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom64649b42-f86f-4544-87a6-6b038b0ea0bc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Quivering Palm",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "monk_way_of_the_open_hand",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Way of the Open Hand",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "unarmoredDefense": "Wisdom",
+    "weaponProficiencies": []
+}

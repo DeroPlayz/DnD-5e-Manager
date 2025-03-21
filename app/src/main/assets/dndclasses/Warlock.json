@@ -1,0 +1,1600 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 1,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow and 20 Bolts",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any Simple Weapon",
+                    "number": 1
+                }
+            ],
+            "id": "095a47cf-f768-406d-8526-0a3bc7a8e230"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Component Pouch",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Arcane Focus",
+                    "number": 1
+                }
+            ],
+            "id": "be78ba61-973a-4449-aa8a-59cb636745d9"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scholar's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "ec20e0d7-d28b-438d-bc6b-38620c6c4902"
+        },
+        {
+            "amountOfChoice": 3,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any Simple Weapon",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Daggers",
+                    "number": 2
+                }
+            ],
+            "id": "9cdfb003-fb35-418d-b2fc-632f0b5b28ea"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "970fba49-2047-46d6-a144-45520a64bc3e",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Arcana",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Deception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Intimidation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "features": [],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "warlock",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "Warlock",
+    "savingThrows": {
+        "cha": true,
+        "con": false,
+        "dex": false,
+        "intelligence": false,
+        "str": false,
+        "wis": true
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 2
+                },
+                {
+                    "amount": 3,
+                    "level": 5
+                },
+                {
+                    "amount": 4,
+                    "level": 7
+                },
+                {
+                    "amount": 5,
+                    "level": 9
+                },
+                {
+                    "amount": 6,
+                    "level": 12
+                },
+                {
+                    "amount": 7,
+                    "level": 15
+                },
+                {
+                    "amount": 8,
+                    "level": 18
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Eldritch Blast cantrip\n\nWhen you cast Eldritch Blast, add your Charisma modifier to the damage it deals on a hit",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom166a1f85-e20d-4804-97c8-464c7e1d85da",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Agonizing Blast",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast Mage Armor on yourself at will, without expending a spell slot or material components",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom4850ab0d-927c-4325-b462-cc95e97a939e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Armor of Shadows",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 9th level\nYou can cast Levitate on yourself at will, without expending a spell slot or material components",
+                                "level": 9
+                            }
+                        ],
+                        "id": "Custom7f824b5e-a630-4cce-ad19-54726bd9b4c8",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Ascendant Step",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 9
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Pact of the Tome feature\n\nYou no longer need to sleep and can\u00e2\u20ac\u2122t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom38de459d-db16-4ad9-8a3d-9c401c95b666",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Aspect of the Moon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast Speak with Animals at will, without expending a spell slot",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom1df868c2-6f41-45d8-9a93-942cb5d762e4",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Beast Speech",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain proficiency in the Deception and Persuasion skills",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom36d6f8cd-0590-4b54-9a7e-f1a700a101c3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Beguiling Influence",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 7th level\n\nYou can cast Compulsion once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom49401bac-c90b-4e80-ad1e-5455fd817722",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Bewitching Whispers",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Pact of the Tome feature\n\nYou can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list; these rituals needn\u00e2\u20ac\u2122t be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.\n\nOn your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom87e378eb-202e-4c7f-89d5-21f7d6d9004e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Book of Ancient Secrets",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 15th level, Pact of the Chain feature\n\nYou can cast Hold Monster at will \u00e2\u20ac\u201c targeting a celestial, fiend, or elemental \u00e2\u20ac\u201c without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Customf213b9d7-74f9-41a2-9894-b65de4fb8793",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Chains of Carceri",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level\n\nAs a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.\n\nThe aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).\n\nOnce you use this invocation, you can\u00e2\u20ac\u2122t use it again until you finish a short or long rest",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Customd857efa9-c914-4840-a3d3-56699d06cce7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Cloak of Flies",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom64c268f6-ad6d-4ca3-9401-b2bdb5ef350d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Devil's Sight",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 7th level\n\nYou can cast Confusion once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom4f93f36c-9306-4f2c-892c-d34be414cdd1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dreadful Word",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast Detect Magic at will, without expending a spell slot or material components",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom5c7bff08-7f7c-4bb7-9a40-4789bcd25d77",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Eldritch Sight",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level, Pact of the Blade feature\n\nOnce per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Customb381e455-8296-4baf-8048-63b6fef8c8a0",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Eldritch Smite",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Eldritch Blast cantrip\n\nWhen you cast Eldritch Blast, its range is 300 feet",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom337817a7-1b97-4ee8-9378-f46b062c86d2",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Eldritch Spear",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can read all writing",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom95a41bb7-10ce-41e5-a0d4-04e4e5031cf5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Eyes of the Rune Keeper",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast False Life on yourself at will as a 1st-level spell, without expending a spell slot or material components",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customcdfca42a-8e55-4a57-aed3-23ceba492cd5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fiendish Vigor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customec4d0ee9-e176-4c2a-83af-eb4a4321a7a3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Gaze of Two Minds",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 7th level\n\nAs an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don\u00e2\u20ac\u2122t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.\n\nOnce you use this invocation, you can\u00e2\u20ac\u2122t use it again until you finish a short or long rest",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom9066addd-822c-4a81-9868-a132f0ed2336",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Ghostly Gaze",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level\n\nYou can breathe underwater, and you gain a swimming speed equal to your walking speed.\n\nYou can also cast Water Breathing without expending a spell slot. You regain the ability to do so when you finish a long rest",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Customb13fa4c4-23b5-4284-b28e-84213562e5ce",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Gift of the Depths",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Pact of the Chain feature\n\nWhenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customeeaef1dc-f8f9-43a5-8511-af1c05a44e74",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Gift of the Ever-Living Ones",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Eldritch Blast cantrip\n\nOnce on each of your turns when you hit a creature with your Eldritch Blast, you can move that creature in a straight line 10 feet closer to yourself",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom99b68c62-e3e4-4828-92b5-df585996c696",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Grasp of Hadar",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Pact of the Blade feature\n\nYou can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.\n\nFinally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customeaa6515c-b20c-4654-be0a-a5ea4f25ed0e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Improved Pact Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Eldritch Blast cantrip\n\nOnce on each of your turns when you hit a creature with your Eldritch Blast, you can reduce that creature\u00e2\u20ac\u2122s speed by 10 feet until the end of your next turn",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custome7849bcf-dce9-480b-a041-46eb3fef18f4",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Lance of Lethargy",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 12th level, Pact of the Blade feature\n\nWhen you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1)",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom6b86d55c-7a1a-4b34-9ad7-f80f1b522a46",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Lifedrinker",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level, Hex spell or a warlock feature that curses\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your Hex spell or by a warlock feature of yours, such as Hexblade\u00e2\u20ac\u2122s Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Customa7e25e03-6b01-42b5-913c-8b8468860506",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Maddening Hex",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast Disguise Self at will, without expending a spell slot",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customd33ebb65-0b26-435e-ab85-5d247a9811bf",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mask of Many Faces",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 15th level\n\nYou can cast Alter Self at will, without expending a spell slot",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Custom1ae8e07b-5386-4e98-a3fb-146a3c518453",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Master of Myriad Forms",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 9th level\n\nYou can cast Conjure Elemental once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 9
+                            }
+                        ],
+                        "id": "Custom69dd1c36-93f2-45ab-a85c-959d17d3f50a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Minions of Chaos",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 9
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level\n\nYou can cast Slow once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Customa260c794-8650-4e8f-b1d2-e0141c7ef11b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mire the Mind",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast Silent Image at will, without expending a spell slot or material components",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom40fe8c5d-23eb-4d06-976a-c095b9268619",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Misty Visions",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level\n\nWhen you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Custom6d1640f9-7443-4374-ace6-d4dbfbbd2475",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "One with Shadows",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 9th level\n\nYou can cast Jump on yourself at will, without expending a spell slot",
+                                "level": 9
+                            }
+                        ],
+                        "id": "Customa63b1c79-a0d8-4263-8a10-448660e973a4",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Otherworldly Leap",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 9
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 7th level, Hex spell or a warlock feature that curses\n\nYour curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your Hex spell or by a warlock feature of yours, such as Hexblade\u00e2\u20ac\u2122s Curse and Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom00883cb0-6a83-46cb-8015-6ab2decb0c23",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Relentless Hex",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Eldritch Blast cantrip\n\nWhen you hit a creature with Eldritch Blast, you can push the creature up to 10 feet away from you in a straight line",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom850aa08a-9a99-439c-9bf4-c08f289ef09f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Repelling Blast",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 7th level\n\nYou can cast Polymorph once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom3494ba58-f40b-402a-b735-55098884fb24",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Sculptor of Flesh",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 15th level\n\nYou can cast Invisibility at will, without expending a spell slot",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Custom723bd4fd-a452-4e01-989f-3974925e8624",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Shroud of Shadow",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level\n\nYou can cast Bestow Curse once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Custom2c764178-052f-4584-8d29-b7c8e3370d1c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Sign of Ill Omen",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 9th level, Pact of the Blade feature\n\nYou can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon counts as a magic weapon with a +2 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon",
+                                "level": 9
+                            }
+                        ],
+                        "id": "Custom91f2797e-2d39-418f-92f5-9d01a28e7b4a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Superior Pact Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 9
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can cast Bane once using a warlock spell slot. You can't do so again until you finish a long rest",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom15271acc-58c1-4b6a-b3cd-6b409097928c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Thief of Five Fates",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level, Pact of the Blade feature\n\nYou can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Custom0dea4b4e-21c1-4d23-bcfb-41d7e743d69b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Thirsting Blade",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 5th level\n\nAs a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.\n\nOnce you use this invocation, you can\u00e2\u20ac\u2122t use it again until you finish a short or long rest",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Custom4bf00100-4587-4ee6-a8b1-8820308f597b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Tomb of Levistus",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 7th level\n\nYou can cast Freedom of Movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Customfae65072-55b7-4b74-bddb-0a864958b64b",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Trickster's Escape",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 15th level, Pact of the Blade feature\n\nYou can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon counts as a magic weapon with a +3 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Custom4368e768-958d-4e88-bb39-fda5e2ba21bf",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Ultimate Pact Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 15th level\n\nYou can cast Arcane Eye at will, without expending a spell slot",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Custom43a7b61b-dcc1-40c0-8dde-bbd3c7e50edf",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Visions of Distant Realms",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: Pact of the Chain feature\n\nYou can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customeca3c125-6a57-48af-b3e7-48032907ab59",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Voice of the Chain Master",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 9th level\n\nYou can cast Speak with Dead at will, without expending a spell slot",
+                                "level": 9
+                            }
+                        ],
+                        "id": "Customd01b1571-6bac-47f7-b369-1f127a40dff5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Whispers of the Grave",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 9
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisite: 15th level\n\nYou can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Customb401dbc1-9fc9-42ea-b4c5-f12e407ef480",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Witch Sight",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: 12th level, Pact of the Talisman\n\nWhile someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you. The teleportation can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom97c16a9c-5a72-493f-9708-96ccfd045c70",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Bond of the Talisman",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 12
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have advantage on Constitution saving throws that you make to maintain your concentration on a spell",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customec776a66-cf0a-4f10-bb4e-97abb2620b17",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Eldritch Mind",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: 5th level, Pact of the Tome\n\nA new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nYou can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.\n\nAs an action, you can magically erase a name on the page by touching it",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom6600041c-82b0-48de-9bfe-7a3f91aa0fed",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Far Scribe",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: 9th level, Pact of the Tome\n\nA new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nWhen any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.\n\nAs an action, you can magically erase a name on the page by touching it",
+                                "level": 9
+                            }
+                        ],
+                        "id": "Customb0a29bb3-99ff-427b-8497-4eb721b7941c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Gift of the Protectors",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 9
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: Pact of the Chain\n\nWhen you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:\n\n- The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.\n\n- As a bonus action, you can command the familiar to take the Attack action.\n\n- The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.\n\n- If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\n- When the familiar takes damage, you can use your reaction to grant it resistance against that damage",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom38d2da88-b0ca-4113-9899-900e810ab336",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Investment of the Chain Master",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: 7th level, Pact of the Talisman\n\nWhen the wearer of your talisman fails a saving throw, they can add a d4 to the roll, potentially turning the save into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Customc7a5c190-0a68-4d2a-aa40-875ecd93595a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Protection of the Talisman",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: Pact of the Talisman\n\nWhen the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom0846680c-3fff-4143-a23f-c8b108a0c311",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Rebuke of the Talisman",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Prerequisites: 5th level\n\nYou can cast animate dead without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Custome9c7e1ff-c980-4713-9229-2892f149b20a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Undying Servitude",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                }
+            ],
+            "canReselect": false,
+            "id": "0d8a37d9-e65a-421f-b5b7-a0554ff31fd3",
+            "name": "Eldritch Invocations",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:\n\n- Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list. You can do this by editing your character using the three vertical dots in the top-right corner of your character sheet.\n\n- Replace the option you chose for the Pact Boon feature with one of that feature's other options",
+                                "level": 4
+                            },
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:\n\n- Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the warlock spell list.\n\n- Replace the option you chose for the Pact Boon feature with one of that feature's other options. You can do this by editing your character using the three vertical dots in the top-right corner of your character sheet.\n\n- If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level. If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify",
+                                "level": 12
+                            }
+                        ],
+                        "id": "Custom8d851e74-eee3-47a5-a3dd-af509aa32037",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Eldritch Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "f36b873d-db74-4f48-8691-0ab921912416",
+            "name": "Warlock Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [
+        {
+            "id": "b9a25b0f-ccb7-4cde-b21b-ec493cc59f36",
+            "level": 1,
+            "slotsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 1
+                },
+                {
+                    "amount": 2,
+                    "level": 2
+                },
+                {
+                    "amount": 0,
+                    "level": 3
+                }
+            ]
+        },
+        {
+            "id": "8b5daa51-8e8e-447b-8b8e-ba782c90e80e",
+            "level": 2,
+            "slotsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 3
+                },
+                {
+                    "amount": 0,
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "id": "3d7d1450-29f5-4ee1-8863-d1c01c19f2ed",
+            "level": 3,
+            "slotsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 5
+                },
+                {
+                    "amount": 0,
+                    "level": 7
+                }
+            ]
+        },
+        {
+            "id": "710f8e2c-3e67-4fe7-ab24-3c67f2eab333",
+            "level": 4,
+            "slotsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 7
+                },
+                {
+                    "amount": 0,
+                    "level": 9
+                }
+            ]
+        },
+        {
+            "id": "bd804fc6-94dd-4ba5-92bc-5a8cec2afdc5",
+            "level": 5,
+            "slotsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 9
+                },
+                {
+                    "amount": 3,
+                    "level": 11
+                },
+                {
+                    "amount": 4,
+                    "level": 17
+                }
+            ]
+        },
+        {
+            "id": "984db751-947b-49d6-a3b4-3ddc059cc548",
+            "level": 6,
+            "slotsPerLevel": []
+        },
+        {
+            "id": "fa91dcda-f80f-4a7c-967e-81432ae9e694",
+            "level": 7,
+            "slotsPerLevel": []
+        },
+        {
+            "id": "2984ee51-d2d2-4cc7-be22-f157b13436e6",
+            "level": 8,
+            "slotsPerLevel": []
+        },
+        {
+            "id": "1712be48-2466-478d-962c-46d13fbaf204",
+            "level": 9,
+            "slotsPerLevel": []
+        }
+    ],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypeSelectionLevel": 3,
+    "subtypes": [
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You learn the Find Familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known. When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit or sprite. Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom1cdd1608-ef97-4d4f-a99f-849ac67649aa",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Pact of the Chain",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "warlock_pact_of_the_chain",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Pact of the Chain",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [
+                {
+                    "level": 3,
+                    "spellModel": {
+                        "castingTime": "1 hour",
+                        "classes": "fighter, rogue, wizard",
+                        "components": "V, S, M (10gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)",
+                        "description": "You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, Lizard, Octopus, owl, Poisonous Snake, fish (quipper), rat, raven, Sea Horse, Spider, or Weasel. Appearing in an unoccupied space within range, the familiar has the Statistics of the chosen form, though it is a Celestial, fey, or fiend (your choice) instead of a beast.\n\nYour familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.\n\nWhen the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.\n\nWhile your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.\n\nAs an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.\n\nYou can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.\n\nFinally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your action modifier for the roll.",
+                        "duration": "Instantaneous",
+                        "higherLevels": "",
+                        "isCustom": false,
+                        "isRitual": true,
+                        "jsonType": "spell",
+                        "level": 1,
+                        "name": "Find Familiar",
+                        "notes": "",
+                        "pinned": false,
+                        "prepared": false,
+                        "range": "10 feet",
+                        "school": "conjuration",
+                        "type": "1st-level conjuration (ritual)"
+                    }
+                }
+            ],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\nYou can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extra-dimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extra-dimensional space when the bond breaks",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customae1b133d-8fb8-47f7-b5f9-d689a6397a25",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Pact of the Blade",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "warlock_pact_of_the_blade",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Pact of the Blade",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom274cd106-220d-495b-893b-40fc251c5fbd",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Pact of the Tome",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "warlock_pact_of_the_tome",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Pact of the Tome",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.\n\nIf you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom15cbc5ce-c2ca-486b-9174-2c995e69f405",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Pact of the Talisman",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "warlock_pact_of_the_talisman",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Pact of the Talisman",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        }
+    ],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        }
+    ]
+}

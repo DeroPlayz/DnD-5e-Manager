@@ -1,0 +1,4 @@
+{"casting_time": "1 bonus action","classes": ["cleric"],
+"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
+"description": "Regardless of its current hit points, a celestial, an element, a fey or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a _wish_ spell.","duration": "Instantaneous","level": "7","name": "Divine Word","range": "30 feet","ritual": false,"school": "evocation","tags": ["cleric","level7"],
+"type": "7th-level evocation"}

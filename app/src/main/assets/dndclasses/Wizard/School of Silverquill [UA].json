@@ -1,0 +1,175 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn one cantrip of your choice, either sacred flame or vicious mockery. It doesn't count against the number of cantrips you know, and it is added to your class spell list if it isn't there already.\n\nAdditionally, you gain proficiency in your choice of two of the following skills: Deception, Intimidation, Performance, Persuasion, or Insight",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa07fb19f-6cc9-4ff6-be14-c03a12bcfecb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Eloquent Apprentice",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can invoke words laced with magic to demoralize your foes and turn their misfortune into a boon to bolster your allies. Immediately after a creature you can see within 60 feet of you succeeds on an attack roll, an ability check, or a saving throw, you can use your reaction to demoralize the creature. Unless the creature is immune to being charmed, it rerolls the d20 and must use the lower roll. If the attack roll, ability check, or saving throw then fails, you can choose a different creature you can see within 60 feet of you (you can choose yourself). That creature is empowered, and can reroll one attack roll, ability check, or saving throw it makes within 1 minute and use the higher result. A creature can be empowered by only one use of this feature at a time.\n\nOnce a creature fails an attack roll, an ability check, or a saving throw because of a reroll forced by this feature, you can't use the feature again until you finish a long rest, unless you expend a spell slot to use it again",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom13837e60-9f6f-41c0-a07b-b7f90c8e24c7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Silvery Barbs",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn the darkness spell, and it is added to your class spell list if it isn't there already. If you are a wizard, you add it to your spellbook, if it's not there already.\n\nYou can cast the spell without expending a spell slot, and you can't do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal 2d10 psychic damage to that creature.\n\nYou can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom2fcb858f-0ffe-4a5b-9911-ebbbfaccb34c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Inky Shroud",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast a spell that deals damage, you can invoke additional words of power to change the spell's damage type to your choice of psychic or radiant. Any creature damaged by the spell takes extra damage equal to your proficiency bonus and has its emotions swayed with despair or adoration, based on the damage type dealt:\n\n- Psychic: The creature is frightened of you until the start of your next turn.\n\n- Radiant: The creature is charmed by you until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom0ffe5634-ec5b-4cc1-8423-5024bfa7698a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Infusion of Eloquence",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can invoke a word of power that is the pinnacle of your magical study. You gain the following options:\n\n- Deadly Despair: When the target of your Silvery Barbs fails an attack roll, an ability check, or a saving throw because of the reroll, you can invoke a word of despair to give the target vulnerability to one damage type of your choice until the start of your next turn.\n\n- Selfless Invocation: When a creature you can see within 60 feet of you takes damage, you can invoke a word of power using your reaction to grant the creature resistance to that damage, and you take an amount of psychic damage equal to the damage that creature takes",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom1d8bc465-e9d7-446b-b2d6-76369bf9f051",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Word of Power",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "wizard_school_of_silverquill_[ua]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "School of Silverquill [UA]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 10,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "b84e6594-521e-4008-926e-226074081226",
+            "name": "Infusion of Eloquence Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [
+        {
+            "level": 6,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, M (bat fur and a drop of pitch or piece of coal)",
+                "description": "Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can\u2019t see through this darkness, and nonmagical light can\u2019t illuminate it. If the point you choose is on an object you are holding or one that isn\u2019t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell\u2019s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Darkness",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "2nd-Level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

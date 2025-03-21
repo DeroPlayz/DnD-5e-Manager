@@ -1,0 +1,4 @@
+{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","warlock","sorcerer","wizard","blood_hunter__egw_","artificer","blood_hunter"],
+"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
+"description": "You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 force damage","higher_levels": "This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)","duration": "Instantaneous","level": "cantrip","name": "Sword Burst","range": "5 feet","ritual": false,"school": "conjuration","tags": ["artificer__eb_","artificer__revised_","warlock","sorcerer","wizard","blood_hunter__egw_","artificer","blood_hunter","cantrip"],
+"type": "Conjuration cantrip"}

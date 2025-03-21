@@ -1,0 +1,153 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice.\n\nAdditionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language",
+                        "level": 3
+                    }
+                ],
+                "id": "Customa36d6570-ed7a-4bf2-8efa-e6a1e338fc04",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Master of Intrigue",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom91f9edba-72c5-4b52-9e42-be6fbe106b26",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Master of Tactics",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:\n\n- Intelligence score\n- Wisdom score\n- Charisma score\n- Class levels (if any)\n\nAt the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom283b90d3-f913-484b-b796-2e892d2b650f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Insightful Manipulator",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are targeted by an attack, while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you",
+                        "level": 13
+                    }
+                ],
+                "id": "Customd0c74526-5d04-42ef-973a-a586e2edbf48",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Misdirection",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can present false thoughts by succeeding on a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.\n\nAdditionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful if you so choose, and you can't be compelled to tell the truth by magic",
+                        "level": 17
+                    }
+                ],
+                "id": "Customb86d3b74-8a29-410c-9ebc-04cd85c8e875",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Soul of Deceit",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_mastermind",
+    "jsonType": "class",
+    "languages": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Choose 1"
+        },
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Mastermind",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Disguise kit"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Forgery kit"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1 Gaming Set"
+        }
+    ],
+    "weaponProficiencies": []
+}

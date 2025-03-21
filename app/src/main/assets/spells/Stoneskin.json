@@ -1,0 +1,5 @@
+{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","druid","sorcerer","ranger__revised__","revised_ranger","ranger","fighter","rogue","wizard"],
+"components": {"material": true,"materials_needed": ["diamond dust worth 100 gp, which the spell consumes"],
+"raw": "V, S, M (diamond dust worth 100 gp, which the spell consumes)","somatic": true,"verbal": true},
+"description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.","duration": "Concentration, up to 1 hour","level": "4","name": "Stoneskin","range": "Touch","ritual": false,"school": "abjuration","tags": ["artificer","artificer__eb_","artificer__revised_","druid","sorcerer","ranger__revised__","revised_ranger","ranger","fighter","rogue","wizard","level4"],
+"type": "4th-level abjuration"}

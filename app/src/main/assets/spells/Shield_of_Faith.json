@@ -1,0 +1,5 @@
+{"casting_time": "1 bonus action","classes": ["artificer","artificer__revised_","cleric","paladin"],
+"components": {"material": true,"materials_needed": ["a small parchment with a bit of holy text written on it"],
+"raw": "V, S, M (a small parchment with a bit of holy text written on it)","somatic": true,"verbal": true},
+"description": "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.","duration": "Concentration, up to 10 minutes","level": "1","name": "Shield of Faith","range": "60 feet","ritual": false,"school": "abjuration","tags": ["artificer","artificer__revised_","cleric","paladin","level1"],
+"type": "1st-level abjuration"}

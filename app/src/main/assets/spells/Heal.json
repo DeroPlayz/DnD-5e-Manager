@@ -1,0 +1,4 @@
+{"casting_time": "1 action","classes": ["cleric","druid"],
+"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
+"description": "Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.","duration": "Instantaneous","higher_levels": "When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.","level": "6","name": "Heal","range": "60 feet","ritual": false,"school": "evocation","tags": ["cleric","druid","level6"],
+"type": "6th-level evocation"}

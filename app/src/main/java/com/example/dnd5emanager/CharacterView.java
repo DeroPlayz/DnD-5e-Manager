@@ -1,10 +1,8 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.CharacterCreatorPageOne.NewCharacter;
-import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
+import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
