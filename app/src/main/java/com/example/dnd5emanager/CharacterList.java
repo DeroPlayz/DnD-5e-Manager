@@ -29,10 +29,10 @@ public class CharacterList extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.characterListBackButton.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterList.this).navigate(R.id.goToMainMenu);
-        });
-
+        binding.characterListBackButton.setOnClickListener(v ->
+                NavHostFragment.findNavController(CharacterList.this)
+                        .navigate(R.id.goToMainMenu)
+        );
 //        binding.characterListViewCharacterDemo.setOnClickListener(v ->
 //                NavHostFragment.findNavController(CharacterList.this)
 //                        .navigate(R.id.goToCharacterView)
