@@ -110,23 +110,28 @@ public class CharacterCreatorPageOne extends Fragment {
 
         RaceArray = Races.keySet().toArray(new String[0]);
         Arrays.sort(RaceArray);
-//        Log.d("Race Array", Arrays.toString(RaceArray));
-
+//        SubraceArray = Subraces.
         ClassArray = Classes.keySet().toArray(new String[0]);
         Arrays.sort(ClassArray);
 
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Race.setAdapter(Adapter);
 
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassArray);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Class.setAdapter(Adapter);
 
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (Race != null) {
-                    Adapter.clear();
+//                    Adapter.clear();
                     Subrace.setEnabled(true);
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
@@ -164,14 +169,14 @@ public class CharacterCreatorPageOne extends Fragment {
 
         binding.characterCreatorPageOneMaximumHealth.setOnClickListener(v ->{
             updateClass();
-//            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass());
+            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDieMaxValue());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
         binding.characterCreatorPageOneRollHealth.setOnClickListener(v -> {
             updateClass();
-//            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().rollInitialHealth());
+            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDieMaxValue());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
@@ -385,8 +390,11 @@ public class CharacterCreatorPageOne extends Fragment {
     public void updateClass() {
         NewCharacter.clearClasses();
         for (int i = 0; i < Classes.size(); i++) {
+            Log.d("Current Class", ClassArray[i]);
             if (Class.getSelectedItem().toString().equals(ClassArray[i])) {
+                Log.d("Success?", "Yes!!");
                 NewCharacter.setPrimaryClass(Classes.get(ClassArray[i]));
+                Log.d("Wait who?", Objects.requireNonNull(Classes.get(ClassArray[i])).getName());
             }
         }
     }

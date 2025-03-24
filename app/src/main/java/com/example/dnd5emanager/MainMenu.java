@@ -20,6 +20,7 @@ import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Armor;
 import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Spell;
+import com.example.dnd5emanager.DataClasses.Subrace;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
 
 import org.json.JSONArray;
@@ -36,7 +37,7 @@ public class MainMenu extends Fragment {
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
     public static Map<String, PlayerCharacter> Characters = new HashMap<>();
     public static Map<String, Race> Races = new HashMap<>();
-//    public static Map<String, Subrace> Subraces = new HashMap<>();
+    public static Map<String, Subrace> Subraces = new HashMap<>();
 //    public static Map<String, Monster> Monsters = new HashMap<>();
 
     public static Map<String, CharacterClass> Classes = new HashMap<>();
@@ -83,7 +84,7 @@ public class MainMenu extends Fragment {
         );
 
         parseRaces(requireContext(), "races");
-        parseClasses(requireContext(), "classes");
+        parseClasses(requireContext(), "dndclasses");
         parseSpells(requireContext(), "spells");
         parseFeatures(requireContext(), "features");
         parseItems(requireContext(), "items");
@@ -111,7 +112,7 @@ public class MainMenu extends Fragment {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    boolean hasSubraces = false;
+                    boolean hasSubraces = AM.list(dir + "/" + fileName + "Subraces") != null;
 
                     Races.put(jsonObject.getString("name"), new Race(
                         jsonObject.getString("name"),
@@ -138,6 +139,43 @@ public class MainMenu extends Fragment {
         }
     }
 
+//    public void parseSubraces(Context context, String dir) {
+//        //Log.d("Jason", "He was just born.");
+//        AssetManager AM = context.getAssets();
+//        try {
+//            String[] fileNames = AM.list(dir);
+//            if (fileNames != null) {
+//                for (String fileName : fileNames) {
+//                    String fullPath = dir + "/" + fileName;
+//                    InputStream inputStream = AM.open(fullPath);
+//                    int size = inputStream.available();
+//                    byte[] buffer = new byte[size];
+//                    inputStream.read(buffer);
+//                    inputStream.close();
+//                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+//                    JSONObject jsonObject = new JSONObject(jsonString);
+//                    Subraces.put(jsonObject.getString("name"), new Subrace(
+//                            jsonObject.getString("name"),
+//                            jsonObject.getInt("ac"),
+//                            jsonObject.getJSONObject("speed").getInt("normal"),
+//                            jsonObject.getJSONObject("speed").getInt("fly"),
+//                            jsonObject.getJSONObject("speed").getInt("climb"),
+//                            jsonObject.getJSONObject("speed").getInt("swim"),
+//                            jsonObject.getJSONObject("speed").getInt("burrow"),
+//                            jsonObject.getJSONObject("abilityScores").getInt("str"),
+//                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
+//                            jsonObject.getJSONObject("abilityScores").getInt("con"),
+//                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
+//                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
+//                    ));
+//                }
+//            }
+//        }
+//        catch (IOException | JSONException e){
+//            Log.d("Jason?", "He's dead.");
+//            throw new RuntimeException(e);
+//        }
+//    }
     public void parseClasses(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
         AssetManager AM = context.getAssets();
@@ -146,6 +184,7 @@ public class MainMenu extends Fragment {
             if (fileNames != null) {
                 for (String fileName : fileNames) {
                     String fullPath = dir + "/" + fileName;
+                    Log.d("Input Stream", fullPath);
                     InputStream inputStream = AM.open(fullPath);
                     int size = inputStream.available();
                     byte[] buffer = new byte[size];
@@ -155,13 +194,12 @@ public class MainMenu extends Fragment {
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Classes.put(jsonObject.getString("name"), new CharacterClass(
                             jsonObject.getString("name"),
-                            jsonObject.getString("hitDice"),
+                            jsonObject.getString("hitDie"),
                             toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
-                            jsonObject.getInt("attacksByLevel"),
-                            jsonObject.getInt("baseAC"),
-                            toStringArray(jsonObject.getJSONArray("baseClassSkills")),
-                            toStringArray(jsonObject.getJSONArray("selectableClassSkills")),
-                            jsonObject.getInt("selectableSkillCount")
+                            jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount"),
+                            jsonObject.getInt("baseAc"),
+                            toStringArray(jsonObject.getJSONArray("classSkills").getJSONObject(0).getJSONArray("skillsModels")),
+                            jsonObject.getJSONArray("classSkills").getJSONObject(0).getInt("amountOfChoice")
                     ));
                 }
             }

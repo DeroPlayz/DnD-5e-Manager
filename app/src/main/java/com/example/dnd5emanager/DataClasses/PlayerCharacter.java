@@ -215,7 +215,9 @@ public class PlayerCharacter {
 
     private ArrayList<CharacterClass> PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
     public void clearClasses(){
-        PlayerClasses = new ArrayList<>();}
+        PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
+    }
+
     public ArrayList<CharacterClass> getPlayerClasses(){return PlayerClasses;}
     public void setLevel(CharacterClass Class, int Level) {
         if(PlayerClasses.contains(Class)){
@@ -223,11 +225,14 @@ public class PlayerCharacter {
         }
     }
     public void setPrimaryClass(CharacterClass Class) {
+        if(PlayerClasses == null){
+            PlayerClasses = new ArrayList<>(1);
+        }
         PlayerClasses.set(0, Class);
     }
 
     public CharacterClass getPrimaryClass(){
-        return new CharacterClass();
+        return PlayerClasses.get(0);
     }
 
     public int getLevel(){
