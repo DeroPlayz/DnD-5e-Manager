@@ -1,0 +1,178 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you make a Wisdom (Insight) check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8",
+                        "level": 3
+                    }
+                ],
+                "id": "Customd0ff4be0-98f5-4bc5-83dd-93f9ff21a7b8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ear for Deceit",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use a bonus action to make a Wisdom (Perception) check to spot a hidden creature or object or to make an Intelligence (Investigation) check to uncover or decipher clues",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom9fe98276-9c83-4603-a98f-db4c32cb5036",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Eye for Detail",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, contested by the target's Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.\n\nThis benefit lasts for 1 minute or until you successfully use this feature against a different target",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom6a6d8d19-3bae-4830-bd5d-c1311e2280c4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Insightful Fighting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on any Wisdom (Perception) or Intelligence (Investigation) check if you move no more than half your speed on the same turn",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom2fed2c41-ccfa-454e-b456-ac4018971c10",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Steady Eye",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
+                        "level": 13
+                    }
+                ],
+                "id": "Customba44b180-5daa-4bcf-9ad6-15350cdb5861",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Unerring Eye",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by 3d6",
+                        "level": 17
+                    }
+                ],
+                "id": "Customb8097731-516f-4b93-a156-b36e8c5b90ed",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Eye for Weakness",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_inquisitive",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Inquisitive",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "WIS"
+                                }
+                            ]
+                        },
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 13,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "6e36433b-bde6-41ee-8276-af77332ee57b",
+            "name": "Unerring Eye Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

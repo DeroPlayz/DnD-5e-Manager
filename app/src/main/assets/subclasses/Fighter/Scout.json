@@ -1,0 +1,349 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in three of the following skills of your choice: Acrobatics, Athletics, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You can choose to gain proficiency with thieves' tools in place of one skill choice",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom86fede58-1c11-4c34-808e-1229679ff64a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have 4 superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You can expend superiority dice to gain a number of different benefits:\n\n- When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.\n\n- When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.\n\n- If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it",
+                        "level": 3
+                    },
+                    {
+                        "description": "You have 5 superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You can expend superiority dice to gain a number of different benefits:\n\n- When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.\n\n- When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.\n\n- If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it",
+                        "level": 7
+                    },
+                    {
+                        "description": "You have 5 superiority dice, which are d10s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You can expend superiority dice to gain a number of different benefits:\n\n- When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.\n\n- When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.\n\n- If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it",
+                        "level": 10
+                    },
+                    {
+                        "description": "You have 6 superiority dice, which are d10s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You can expend superiority dice to gain a number of different benefits:\n\n- When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.\n\n- When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.\n\n- If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it",
+                        "level": 15
+                    },
+                    {
+                        "description": "You have 6 superiority dice, which are d12s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You can expend superiority dice to gain a number of different benefits:\n\n- When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.\n\n- When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.\n\n- If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom8b38939e-e8af-4d04-89dd-5d5a5828e73e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Combat Superiority",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nYou choose additional favored terrain types at 7th and 15th level",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom8f9552eb-2505-4d37-be58-4c727801c7b4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Natural Explorer",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your superiority dice turn into d10s",
+                        "level": 10
+                    },
+                    {
+                        "description": "Your superiority dice turn into d12s",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom60ca4247-87c8-4b45-ac00-98c2c9f49266",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Improved Combat Superiority",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You roll initiative and have no superiority dice remaining, you regain 1 superiority die",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom423c52c1-4494-4e04-a7bf-d2145cc14e26",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Relentless",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_scout",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Scout",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                },
+                {
+                    "amount": 2,
+                    "level": 7
+                },
+                {
+                    "amount": 3,
+                    "level": 15
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom47c54fbd-df63-4463-9fef-4341a0c1d4fb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Arctic",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customde71e81e-0fef-4c27-a210-795242f943e6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Coast",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom2d4514d7-d78b-44e6-a720-417cc31858a9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Desert",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom78b812f8-5d58-4201-96fa-2a37adcd16ad",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Forest",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom3fab5d48-8b8c-4a60-9695-47065d700bf7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Grassland",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customefaab845-4405-4b8a-b33c-0b58bf62d8cc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mountain",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom148aa0c5-ccaa-472b-a5ac-ae9d9db5df1f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Swamp",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Natural Explorer' feature effects for this terrain",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom9cce8c9e-536a-4d8f-94a4-63c50b04dd02",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Underdark",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "c82022d2-40ba-439a-9efc-8129a50ae248",
+            "name": "Favored Terrains",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 4,
+                    "associatedValue": "d8",
+                    "level": 3
+                },
+                {
+                    "amount": 5,
+                    "associatedValue": "d8",
+                    "level": 7
+                },
+                {
+                    "amount": 5,
+                    "associatedValue": "d10",
+                    "level": 10
+                },
+                {
+                    "amount": 6,
+                    "associatedValue": "d10",
+                    "level": 15
+                },
+                {
+                    "amount": 6,
+                    "associatedValue": "d12",
+                    "level": 18
+                }
+            ],
+            "associatedValueName": "Dice Type",
+            "id": "2ce872da-0265-4ab8-b0a9-e7e929735f6e",
+            "name": "Superiority Dice",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,386 @@
+{
+    "acModifier": "DEX",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "By the time you adopt this specialty at 3rd level you're deeply familiar with employing its tools.\n\n- Proficiencies: You gain proficiency with calligrapher's supplies and the forgery kit assuming you don't already have them. You also gain calligrapher's supplies and the forgery kit for free-the result of tinkering you've done as you've prepared for this specialization.\n\n- Crafting: If you craft a magic item in the scroll category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold",
+                        "level": 3
+                    }
+                ],
+                "id": "Customc8118878-7e4c-4e20-8383-d8783293df78",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tools of the Trade ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> comprehend languages, dissonant whispers ",
+                        "level": 3
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> comprehend languages, dissonant whispers \n5th --> detect thoughts, locate object",
+                        "level": 5
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> comprehend languages, dissonant whispers \n5th --> detect thoughts, locate object\n9th --> hypnotic pattern, tongues",
+                        "level": 9
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> comprehend languages, dissonant whispers \n5th --> detect thoughts, locate object\n9th --> hypnotic pattern, tongues\n13th --> locate Creature, phantasmal killer",
+                        "level": 13
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare\n\n3rd --> comprehend languages, dissonant whispers \n5th --> detect thoughts, locate object\n9th --> hypnotic pattern, tongues\n13th --> locate Creature, phantasmal killer\n17th --> modify memory, legend lore",
+                        "level": 17
+                    }
+                ],
+                "id": "Customa7cb3e7a-b47b-4006-8446-b4d8b93f7c7a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Archivist's Spells ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you finish a long rest and your calligrapher\u00e2\u20ac\u2122s supplies are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.\n\nTelepathic Advisor: The artificial mind telepathically supplies you with advice and information about certain topics: while the item is on your person, you have proficiency in two skills of your choice; the item\u00e2\u20ac\u2122s main material determines which skills you can choose from.\n\nManifest Mind. As a bonus action while the item is on your person, you can cause the mind to manifest as a Tiny spectral presence, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and invulnerable, and it sheds dim light in a 10-foot radius. You determine its appearance based on the object's main material. While manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. As an action, you can hear and see using the mind\u00e2\u20ac\u2122s senses, instead of your own, until your concentration ends (as if concentrating on a spell). \n\nAs a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stop manifesting if it is ever more than 300 feet away from its magic item or if you dismiss it as a bonus action. \n\nWhen you cast an artificer spell on your turn, you can cast it as if you were in the spectral mind\u00e2\u20ac\u2122s space, instead of your own, using its senses. You can do so a number of times per day equal to your Intelligence modifier (at least once), and you regain all expended uses when you finish a long rest.\n\nInformation Overload: As an action while the item is on your person, you can try to magically overload the thoughts of one creature you or the mind can see that is within 5 feet of the manifested mind, channeling a jumble of information from the artificial mind. Unless the target succeeds on an Intelligence saving throw against your spell save DC, the target takes 1d8 psychic damage, and the next attack roll against it before the end of your next turn has advantage, since it is temporarily too distracted to defend itself well. Whenever you deal damage with this feature, you can expend a spell slot to deal extra damage to the target. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than first.",
+                        "level": 3
+                    },
+                    {
+                        "description": "Whenever you finish a long rest and your calligrapher\u00e2\u20ac\u2122s supplies are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.\n\nTelepathic Advisor: The artificial mind telepathically supplies you with advice and information about certain topics: while the item is on your person, you have proficiency in two skills of your choice; the item\u00e2\u20ac\u2122s main material determines which skills you can choose from.\n\nManifest Mind. As a bonus action while the item is on your person, you can cause the mind to manifest as a Tiny spectral presence, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and invulnerable, and it sheds dim light in a 10-foot radius. You determine its appearance based on the object's main material. While manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. As an action, you can hear and see using the mind\u00e2\u20ac\u2122s senses, instead of your own, until your concentration ends (as if concentrating on a spell). \n\nAs a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stop manifesting if it is ever more than 300 feet away from its magic item or if you dismiss it as a bonus action. \n\nWhen you cast an artificer spell on your turn, you can cast it as if you were in the spectral mind\u00e2\u20ac\u2122s space, instead of your own, using its senses. You can do so a number of times per day equal to your Intelligence modifier (at least once), and you regain all expended uses when you finish a long rest.\n\nInformation Overload: As an action while the item is on your person, you can try to magically overload the thoughts of one creature you or the mind can see that is within 5 feet of the manifested mind, channeling a jumble of information from the artificial mind. Unless the target succeeds on an Intelligence saving throw against your spell save DC, the target takes 2d8 psychic damage, and the next attack roll against it before the end of your next turn has advantage, since it is temporarily too distracted to defend itself well. Whenever you deal damage with this feature, you can expend a spell slot to deal extra damage to the target. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than first.",
+                        "level": 5
+                    },
+                    {
+                        "description": "Whenever you finish a long rest and your calligrapher\u00e2\u20ac\u2122s supplies are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.\n\nTelepathic Advisor: The artificial mind telepathically supplies you with advice and information about certain topics: while the item is on your person, you have proficiency in two skills of your choice; the item\u00e2\u20ac\u2122s main material determines which skills you can choose from.\n\nManifest Mind. As a bonus action while the item is on your person, you can cause the mind to manifest as a Tiny spectral presence, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and invulnerable, and it sheds dim light in a 10-foot radius. You determine its appearance based on the object's main material. While manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. As an action, you can hear and see using the mind\u00e2\u20ac\u2122s senses, instead of your own, until your concentration ends (as if concentrating on a spell). \n\nAs a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stop manifesting if it is ever more than 300 feet away from its magic item or if you dismiss it as a bonus action. \n\nWhen you cast an artificer spell on your turn, you can cast it as if you were in the spectral mind\u00e2\u20ac\u2122s space, instead of your own, using its senses. You can do so a number of times per day equal to your Intelligence modifier (at least once), and you regain all expended uses when you finish a long rest.\n\nInformation Overload: As an action while the item is on your person, you can try to magically overload the thoughts of one creature you or the mind can see that is within 5 feet of the manifested mind, channeling a jumble of information from the artificial mind. Unless the target succeeds on an Intelligence saving throw against your spell save DC, the target takes 3d8 psychic damage, and the next attack roll against it before the end of your next turn has advantage, since it is temporarily too distracted to defend itself well. Whenever you deal damage with this feature, you can expend a spell slot to deal extra damage to the target. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than first.",
+                        "level": 11
+                    },
+                    {
+                        "description": "Whenever you finish a long rest and your calligrapher\u00e2\u20ac\u2122s supplies are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.\n\nTelepathic Advisor: The artificial mind telepathically supplies you with advice and information about certain topics: while the item is on your person, you have proficiency in two skills of your choice; the item\u00e2\u20ac\u2122s main material determines which skills you can choose from.\n\nManifest Mind. As a bonus action while the item is on your person, you can cause the mind to manifest as a Tiny spectral presence, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and invulnerable, and it sheds dim light in a 10-foot radius. You determine its appearance based on the object's main material. While manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. As an action, you can hear and see using the mind\u00e2\u20ac\u2122s senses, instead of your own, until your concentration ends (as if concentrating on a spell). \n\nAs a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stop manifesting if it is ever more than 300 feet away from its magic item or if you dismiss it as a bonus action. \n\nWhen you cast an artificer spell on your turn, you can cast it as if you were in the spectral mind\u00e2\u20ac\u2122s space, instead of your own, using its senses. You can do so a number of times per day equal to your Intelligence modifier (at least once), and you regain all expended uses when you finish a long rest.\n\nInformation Overload: As an action while the item is on your person, you can try to magically overload the thoughts of one creature you or the mind can see that is within 5 feet of the manifested mind, channeling a jumble of information from the artificial mind. Unless the target succeeds on an Intelligence saving throw against your spell save DC, the target takes 4d8 psychic damage, and the next attack roll against it before the end of your next turn has advantage, since it is temporarily too distracted to defend itself well. Whenever you deal damage with this feature, you can expend a spell slot to deal extra damage to the target. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than first.",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom5358f87a-1f98-4943-8e0b-876746f98e8b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Artificial Mind",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Magical Telephony: While you have your Artificial Mind item on your person, you can communicate telepathically with anyone carrying an item bearing one of your artificer infusions, as the mind transmits your thoughts to each other. That person can also communicate telepathically with you as long as they have the item. This two-way communication can even cross planar boundaries.\n\nPsychic Damage: When you make a psychic damage roll for an artificer spell or for Information Overload, you gain a bonus to the damage roll equal to your Intelligence modifier (minimum bonus of +1).",
+                        "level": 6
+                    }
+                ],
+                "id": "Customfbd11eca-2292-44bc-8c27-6ed713d04fe7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Mind Network",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Mind Overload: When you expend a spell slot to increase the damage of Information Overload, the target must succeed on an Intelligence saving throw against your spell save DC or be stunned until the end of your next turn.\n\nInfoportation: As an action while your Artificial Mind magic item is on your person, you cause the mind to turn you into pure information, teleporting you to the unoccupied space nearest to the spectral mind or to an item bearing one of your artificer infusions, where you physically reappear. You can teleport in this way once for free and must finish a long rest before doing so again. You can also use this special ability by expending a spell slot of 2nd level or higher.",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom5e94a2c9-bc4b-4e4c-82e1-ebccc77d59c0",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Pure Information ",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "CON",
+    "id": "artificer__revised__archivist_",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Archivist ",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "INT",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, wizard",
+                "components": "V, S, M (a pinch of soot and salt)",
+                "description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u00e2\u20ac\u2122t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u00e2\u20ac\u2122t part of a written language.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Comprehend Languages",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "1st-level divination (Ritual)"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard",
+                "components": "V",
+                "description": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Dissonant Whispers",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, wizard",
+                "components": "V, S, M (a copper piece)",
+                "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u00e2\u20ac\u2122t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u00e2\u20ac\u201dwhat is most on its mind in that moment. As an action, you can either shift your attention to another creature\u00e2\u20ac\u2122s thoughts or attempt to probe deeper into the same creature\u00e2\u20ac\u2122s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u00e2\u20ac\u2122s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u00e2\u20ac\u2122t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u00e2\u20ac\u2122t detect a creature with an Intelligence of 3 or lower or one that doesn\u00e2\u20ac\u2122t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u00e2\u20ac\u2122t see it, but it must still be within range.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Detect Thoughts",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "self",
+                "school": "divination",
+                "type": "2nd-Level divination"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, druid, paladin, ranger__revised_, ranger, wizard",
+                "components": "V, S, M (a forked twig)",
+                "description": "Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.\n\nThe spell can locate a specific object known to you, as long as you have seen it up close-\u00e2\u20ac\u201dwithin 30 feet-\u00e2\u20ac\u201dat least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.\n\nThis spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Locate Object",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "2nd-level divination"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, wizard",
+                "components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
+                "description": "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Hypnotic Pattern",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "illusion",
+                "type": "3rd-level illusion"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, sorcerer, warlock, blood_hunter, wizard",
+                "components": "V, M (a small clay model of a ziggurat)",
+                "description": "This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Tongues",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "divination",
+                "type": "3rd-level divination"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, druid, paladin, ranger__revised_, ranger, wizard",
+                "components": "V, S, M (a bit of fur from a bloodhound)",
+                "description": "Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.\n\nThe spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close\u00e2\u20ac\u201d-within 30 feet-\u00e2\u20ac\u201dat least once. If the creature you described or named is in a different form, such as being under the effects of a *[polymorph](../polymorph/ \"polymorph (lvl 4)\")* spell, this spell doesn\u00e2\u20ac\u2122t locate the creature.\n\nThis spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Locate Creature",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "4th-level divination"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "wizard",
+                "components": "V, S",
+                "description": "You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the start of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Phantasmal Killer",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "illusion",
+                "type": "4th-level illusion"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "10 minutes",
+                "classes": "cleric, wizard, bard",
+                "components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
+                "description": "Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Legend Lore",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "5th-level divination"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, wizard",
+                "components": "V, S",
+                "description": "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.\n\nWhile this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.\n\nYou must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn\u00e2\u20ac\u2122t altered. Otherwise, the modified memories take hold when the spell ends.\n\nA modified memory doesn\u00e2\u20ac\u2122t necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.\n\nA *[remove curse](../remove-curse/ \"remove curse (lvl 3)\")* or *[greater restoration](../greater-restoration/ \"greater restoration (lvl 5)\")* spell cast on the target restores the creature's true memory.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target\u00e2\u20ac\u2122s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature\u00e2\u20ac\u2122s past (9th level).",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Modify Memory",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "enchantment",
+                "type": "5th-level enchantment"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Calligrapher's tools"
+        },
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Forgery kit"
+        }
+    ],
+    "weaponProficiencies": []
+}

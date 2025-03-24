@@ -1,0 +1,141 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon you're wielding. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:\n\n- The attacks ignore half and three-quarters cover.\n- On each hit, the weapon deals additional damage to the target equal to 2 + half your fighter level.\n\nYou can use this feature three times. You regain all expended uses of it when you finish a short or long rest",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom02a86fdf-aef6-4cd3-ab40-ec07c0dd148e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Steady Aim",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can take the Search action as a bonus action. You also gain proficiency in the Perception, Investigation, or Survival skill (choose one)",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom47391c7b-13ec-428d-8c62-9cdf753f2ab6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Careful Eyes",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Making a ranged attack roll while within 5 feet of an enemy doesn't impose disadvantage on your roll. In addition, if you hit a creature within 5 feet of you with a ranged attack on your turn, that creature can't take reactions until the end of this turn",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom586c20ba-b5d3-4bef-a2a4-31a2b7fc3224",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Close-Quarters Shooting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom8ea1beec-71b1-4061-bb67-09bcacf71c0a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rapid Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you take the Attack action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom35a88995-1af2-49a7-bef0-40dbd0eb71b6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Snap Shot",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_sharpshooter",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Sharpshooter",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 3,
+                    "level": 3
+                }
+            ],
+            "associatedValueName": "",
+            "id": "1dda0f5a-d972-4c17-af71-5563f25bc70e",
+            "name": "Steady Aim Uses",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

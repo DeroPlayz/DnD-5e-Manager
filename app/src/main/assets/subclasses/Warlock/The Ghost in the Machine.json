@@ -1,0 +1,173 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the On/Off cantrip, and the following new spells are added to the warlock spell list for you.\n\n1st\t--> Infallible Relay, Remote Access\n2nd --> Arcane Hacking, Digital Phantom\n3rd\t--> Haywire, Invisibility to Cameras\n4th\t--> Conjure Knowbot, System Backdoor\n5th\t--> Shutdown, Synchronicity",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc58e4373-4a5f-45c7-9d61-9f1cfe574373",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ghost in the Machine Expanded Spell List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with hacking tools",
+                        "level": 1
+                    }
+                ],
+                "id": "Customd79f17ca-a970-4b97-acbc-d92525ffe0e3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiency",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can target a computerized device within 30 feet of you. If the targeted device is held or otherwise actively used by a living creature, that creature must make an Intelligence saving throw against your spell save DC. On a failed save, the targeted device cease to function until the end of your next turn. If the targeted device is not held or used by a creature, the DM makes a special saving throw for the device with disadvantage and a +0 modifier. Certain shielded devices might negate the disadvantage, at the DM's determination. Once you use this feature, you can't use it again until you finish a short or long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom83299f6d-6d55-4045-8245-416a7ca08fef",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Information Surge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can touch a device or socket connected to a hardwired network and teleport along this network to another device or socket within your line of sight. Once you use this feature, you can't  use it again until you finish a short or long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom6d50db54-44a7-4808-a38c-ab54f990b72b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wire Walk",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on saving throws against scrying, thought detection, or any other method of magically learning your whereabouts or reading your thoughts. For any such effect that does not  grant you a saving throw but which requires the creature targeting you to make an ability check, the check is made with disadvantage",
+                        "level": 10
+                    }
+                ],
+                "id": "Customffe937d6-c866-4ea9-b9b6-fbfba57a4343",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Personal Encryption",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one. Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the command spell. The target makes its saving throw against your command with disadvantage. You can issue this command at any time while the target remains infected. Once you use this feature, you can't use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a lesser restoration spell",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom255bfe53-abb7-42c1-a793-2634340b77fb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Technovirus",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "warlock_the_ghost_in_the_machine",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "The Ghost in the Machine",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You can turn on or off any electronic device as long as it has a clearly defined on or off function easily accessed from its outside. Any device that requires a software based sequence is unaffected by this cantrip.",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "On/Off",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "transmutation",
+                "type": "Transmutation cantrip"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Hacking tools"
+        }
+    ],
+    "weaponProficiencies": []
+}

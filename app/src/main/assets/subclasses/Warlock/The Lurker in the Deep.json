@@ -1,0 +1,166 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The Lurker in the Deep lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSpell Level --> Spells\n\n1 --> Create or destroy water, Thunderwave\n2 --> Gust of wind, Silence\n3 --> Lightning bolt, Sleet Storm\n4 --> Control water, Evard's black tentacles\n5 --> Commune with nature, Cone of cold",
+                        "level": 1
+                    }
+                ],
+                "id": "Customc823897b-8dfe-4d19-8239-082257eae6ab",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Expanded Spell List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.\r\n\nWhen you create the tentacle, you can make a melee spell attack against a creature within 10 feet of it. On a hit, the target takes 1d8 cold or lightning damage (your choice when it takes the damage) and its speed is reduced by 10 feet until the start of your next turn. As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack.\n\nYou can summon the tentacle a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest",
+                        "level": 1
+                    },
+                    {
+                        "description": "You gain the ability to magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.\r\n\nWhen you create the tentacle, you can make a melee spell attack against a creature within 10 feet of it. On a hit, the target takes 2d8 cold or lightning damage (your choice when it takes the damage) and its speed is reduced by 10 feet until the start of your next turn. As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack.\n\nYou can summon the tentacle a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest",
+                        "level": 10
+                    }
+                ],
+                "id": "Customdf939997-ee1b-4c11-a674-9af6e409c3df",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Grasp of the Deep",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your patron accepts you into its inner court of servitors. You can telepathically communicate with any aberration, beast, elemental, or monstrosity that has an innate swimming speed, while it is within 120 feet of you. The creature can understand you and can respond telepathically",
+                        "level": 1
+                    }
+                ],
+                "id": "Customa725bdeb-4750-47a9-8dca-69cf0c64e018",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Scion of the Deep",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your patron grants you greater abilities. You gain the following benefits:\r\n\n- You can breathe both air and water.\r\n\n-  You gain a swimming speed equal to your \r\nwalking speed. \r\n\n- You gain resistance to cold damage",
+                        "level": 6
+                    }
+                ],
+                "id": "Customf432e738-5670-4c68-ab73-abfaa36867c5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fathomless Soul",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The tentacle you create with Grasp of the Deep can defend you and others. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to the chosen creature by half. After doing so, the tentacle vanishes",
+                        "level": 6
+                    }
+                ],
+                "id": "Custome3012810-1ab7-487f-a2d0-06379d0e35ea",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Guardian Grasp",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can magically draw forth a manifestation of your patron\u00e2\u20ac\u2122s insatiable hunger. As an action, choose a point you can see within 60 feet of you. For 1 minute, a translucent maw manifests in a 10-foot radius centered on that point. Each creature in that area when the maw appears must succeed on a Strength saving throw against your spell save DC or be restrained. Any creature that starts its turn in the maw\u00e2\u20ac\u2122s area takes 3d6 cold or lightning damage (your choice when it takes the damage). As an action, a restrained creature can repeat the saving throw, ending the restraint on a success. At the start of your turn, if there is a creature in the maw\u00e2\u20ac\u2122s area, you gain temporary hit points equal to your warlock level.\r\n\nOnce you use this feature, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                        "level": 10
+                    }
+                ],
+                "id": "Customb2c503a9-673b-496c-b186-9a954b2c4f13",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Devouring Maw",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to call upon your patron for aid. As an action, you choose a point within 30 feet of you where your patron tears through reality, manifesting a measure of its thalassic grandeur. Choose one of the following effects to issue from this manifestation point. Once you use either effect, you can\u00e2\u20ac\u2122t use this feature again until you finish a long rest.\n\n- Transport: You and up to five willing creatures of your choice that you can see within 30 feet of the manifestation point are grasped by spectral tentacles and yanked through your patron\u00e2\u20ac\u2122s realm. The tentacles teleport you and the chosen creatures to a point of your choice within 100 miles that you have visited within the past 24 hours. The tentacles then vanish. \r\n\n- Fury: You can direct a barrage of spectral tentacles to issue forth and strike up to five creatures you can see within 30 feet of the manifestation point. Each target must make a Dexterity saving throw against your spell save DC. On a failed save, the creature takes 6d10 cold or lightning damage (your choice) and is knocked prone. On a successful save, it takes half as much damage and is not knocked prone. The tentacles then vanish",
+                        "level": 14
+                    }
+                ],
+                "id": "Customafbaab2d-0ec6-46fb-b9c7-930aeb19a810",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Unleash the Depths",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "warlock_the_lurker_in_the_deep",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "The Lurker in the Deep",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

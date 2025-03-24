@@ -1,0 +1,161 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "Light Armor"
+        }
+    ],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with two tools of your choice",
+                        "level": 2
+                    }
+                ],
+                "id": "Customcb49dd41-3dd3-4cd1-b13f-1bfcd98feb9c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tools of the Inventor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with light armor and gain a suit of arcanomechanical armor\u2014a magic item that only you can attune to. While you are attuned to it and wearing it, it grants you resistance to force damage.\n\nThe armor is light armor and provides an AC of 12 + your Dexterity modifier. It weighs 8 pounds.\n\nYou can create a new suit of it at the end of a long rest by touching a nonmagical suit of studded leather armor, which magically transforms it. Doing so removes the magic from your previous arcanomechanical armor, turning it into nonmagical studded leather",
+                        "level": 2
+                    }
+                ],
+                "id": "Customa1e2be9c-00df-4a2d-91e5-0b5c66f3b434",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Arcanomechanical Armor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attempt to cast a spell you don't have prepared. When you use this ability, you use your action and choose one of the following options:\n\nRoll on the Reckless Casting table for cantrips and cast the resulting spell as part of this action.\nExpend a spell slot and roll twice on the Reckless Casting table for its level, or the 5th-level table if the slot is 6th level or higher. Pick which of the two results you want to use and cast the resulting spell as part of this action.\nIf the spell you cast isn't a wizard spell, it is nonetheless a wizard spell for you when you cast it with this feature",
+                        "level": 2
+                    }
+                ],
+                "id": "Custom9430473c-8a41-44e6-b43c-6816fe6585da",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Reckless Casting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 2
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast a spell while wearing your automechanical armor and are attuned to it, you can expend one additional spell slot of 1st or 2nd level to alter the spell. The effect depends on the spell slot you expend.\n\nA 1st-level slot allows you to manipulate the spell's energy. When you cast a spell that deals acid, cold, fire, lightning, or thunder damage, you can substitute that damage type for another one from that list.\n\nA 2nd-level slot increases the spell's raw force. If you roll damage for the spell when you cast it, increase that damage by 2d10 force damage against one of the spell's targets (your choice) this turn",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom9668db04-c88f-4519-a6bb-eefc892e1ac9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Alchemical Casting",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can replace one spell you have prepared with another spell from your spellbook. You can't use this ability again until you finish a short or long rest",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom9909f770-e713-44db-97fa-d412669ecf4e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Prodigious Inspiration",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your ability to improvise magic grows stronger. Whenever you roll on a Reckless Casting table for a spell other than a cantrip, you can roll on the table that is one level higher than the expended spell slot",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom72635792-bc3c-42e3-9006-8d9f48e6bbb5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Controlled Chaos",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "wizard_school_of_invention",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "School of Invention",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "Choose 1"
+        },
+        {
+            "hint": "",
+            "level": 2,
+            "proficiency": "Choose 1"
+        }
+    ],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,668 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 13,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom5441b57f-9d70-4545-b023-0b7a8014dd27",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Dragon Ancestor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class. Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom46a83676-3b49-48b0-bbf0-6515c3aa2196",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Draconic Resilience",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage. The damage bonus applies to one damage roll of a spell, not multiple rolls. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom885f9e10-35e4-4645-afc7-8ff990295c0f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Elemental Affinity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.\n\nYou can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom153343e5-5e1d-434d-b914-343c5a424ade",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Dragon Wings",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration, each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom3d4a46b7-2c23-495a-aefb-c185cc6b8d75",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Draconic Presence",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "sorcerer_draconic_bloodline",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Draconic Bloodline",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypeSelectionLevel": 1,
+    "subtypes": [
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Acid",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom19cfbabd-ae5d-453b-9600-926ba2f0493d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Black Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "black_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Black Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Lighting",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customb2a0ecf4-0408-467d-9cc9-c640f4e595f8",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Blue Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "blue_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Blue Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Fire",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customdc1871d7-1606-49b8-830f-4b702d3471b5",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Brass Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "brass_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Brass Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Lighting",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom40ded127-d84c-4212-a1bc-6e770ce82aab",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Bronze Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "bronze_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Bronze Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Acid",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom54fdb257-faa1-4f04-b280-65f782d2bc82",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Copper Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "copper_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Copper Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Fire",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custome0d9ca44-1045-4e5c-81fa-9c11b0886b0f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Gold Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "gold_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Gold Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Poison",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customf205e058-2ac1-4be6-be35-5ffd2414b30f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Green Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "green_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Green Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Fire",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom2d2075b9-1ed1-4493-b5ab-ecb9bcd00942",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Red Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "red_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Red Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Cold",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customab20b81d-637e-4f27-a033-3436d1c72d11",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Silver Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "silver_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Silver Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "Dexterity",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "The damage type associated with your dragon ancestor is Cold",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customd16f45e0-1e4a-4e49-81dc-f3227dff6a51",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "White Dragon Ancestor",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "hpModifier": "Constitution",
+            "id": "white_dragon",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "White Dragon",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "Charisma",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        }
+    ],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

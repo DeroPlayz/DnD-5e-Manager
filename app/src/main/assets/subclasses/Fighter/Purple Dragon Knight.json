@@ -1,0 +1,136 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Purple Dragon knights are tied to a specific order of Cormyrean knighthood. Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than Purple Dragon knights",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom0c975c78-5616-4c98-b102-73abbecd7ba6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Restriction: Knighthood",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom1abfb59e-f48e-47fc-a129-a499bb4d2fed",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rallying Cry",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance. Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom6bfc065c-6fa6-41a2-af84-400b4cc494e3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Royal Envoy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you",
+                        "level": 10
+                    },
+                    {
+                        "description": "When you use your Action Surge feature, you can choose two creatures within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you",
+                        "level": 18
+                    }
+                ],
+                "id": "Customc36a4898-1fad-44d1-9550-a3737e831940",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Inspiring Surge",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't incapacitated, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom2f0a60f4-3843-4d6c-8436-fd27a4964ec0",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bulwark",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_purple_dragon_knight",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Purple Dragon Knight",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [
+        {
+            "hint": "",
+            "level": 7,
+            "proficiency": "full,persuasion"
+        }
+    ],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

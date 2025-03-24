@@ -1,0 +1,220 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can spend 2 ki points to cast Darkness, Darkvision, Pass Without Trace, or Silence, without providing material components. Additionally, you gain the Minor Illusion cantrip if you don't already know it",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom374cbc5e-3c11-404d-bbe1-b2a3c7a37758",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Shadow Arts",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom9861c21b-6b0d-411a-a830-69c894b5abea",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Shadow Step",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light",
+                        "level": 11
+                    }
+                ],
+                "id": "Custom0242eb55-d13c-4580-94d5-b6a3e82459aa",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Cloak of Shadows",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature",
+                        "level": 17
+                    }
+                ],
+                "id": "Customafabdae3-df7a-4d88-8bb7-8c718db06cfe",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Opportunist",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "monk_way_of_shadow",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Way of Shadow",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "S, M (a bit of fleece)",
+                "description": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else\u2019s voice, a lion\u2019s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can\u2019t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Minor Illusion",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "Illusion",
+                "type": "Illusion cantrip"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, M (bat fur and a drop of pitch or piece of coal)",
+                "description": "Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can\u2019t see through this darkness, and nonmagical light can\u2019t illuminate it. If the point you choose is on an object you are holding or one that isn\u2019t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell\u2019s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Darkness",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "2nd-Level evocation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (either a pinch of dried carrot or an agate)",
+                "description": "You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.",
+                "duration": "8 hours",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Darkvision",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "transmutation",
+                "type": "2nd-level transmutation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "druid, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)",
+                "description": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can\u2019t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Pass Without Trace",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "abjuration",
+                "type": "2nd-level abjuration"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S",
+                "description": "For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it.",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Silence",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "illusion",
+                "type": "2nd-level illusion (ritual)"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "unarmoredDefense": "Wisdom",
+    "weaponProficiencies": []
+}

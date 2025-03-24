@@ -1,0 +1,385 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "- Actions over Words: Strive to be known by glorious deeds, not words.\n\n- Challenges Are but Tests: Face hardships with courage, and encourage your allies to face them with you.\n\n- Hone the Body: Like raw stone, your body must be worked so its potential can be realized.\n\n- Discipline the Soul: You must marshal the discipline to overcome failings within yourself that threaten to dim the glory of you and your friends",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom61f4b714-95f9-4a6c-90ab-2083d58f3da4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tenets of Glory",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.\n\n- Peerless Athlete: As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal).\n\n- Inspiring Smite: Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include you. The total number of temporary hit points equals 2d8 + your level in this class, divided among the chosen creatures however you like",
+                        "level": 3
+                    }
+                ],
+                "id": "Customa62bb3ae-7291-4728-81d6-e59e16dd2fe8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Channel Divinity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your walking speed increases by 10 feet. In addition, if you aren't incapacitated, the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn",
+                        "level": 7
+                    },
+                    {
+                        "description": "Your walking speed increases by 10 feet. In addition, if you aren't incapacitated, the walking speed of any ally who starts their turn within 10 feet of you increases by 10 feet until the end of that turn",
+                        "level": 18
+                    }
+                ],
+                "id": "Customeffd3307-692f-4349-bde2-8fbed19db14b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Aura of Alacrity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you or another creature you can see within 10 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction, provided the attacker is within your weapon's range.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest",
+                        "level": 15
+                    }
+                ],
+                "id": "Customfae5ebfb-facb-40e7-abb0-fe6c585c5ceb",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Glorious Defense",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you gain the following benefits for 1 minute:\n\n- You are blessed with an otherworldly presence, gaining advantage on all Charisma checks.\n\n- Once on each of your turns when you make a weapon attack and miss, you can cause that attack to hit instead.\n\n- If you fail a saving throw, you can use your reaction to reroll it. You must use this new roll.\n\nOnce you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom2348444d-5e84-446b-b337-b491ee378ec4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Living Legend",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 20
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "paladin_oath_of_glory_[tce]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Oath of Glory [TCE]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "CHA"
+                                }
+                            ]
+                        },
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 15,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "0b7e7919-855c-4e37-918b-15eb2786e20c",
+            "name": "Glorious Defense Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S",
+                "description": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.",
+                "duration": "1 round",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Guiding Bolt",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, paladin",
+                "components": "V, S",
+                "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Heroism",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, sorcerer",
+                "components": "V, S, M (fur or a feather from a beast)",
+                "description": "A creature you touch gains one of the following effects until the spell ends:\n\n- Bear's Endurance: The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.\n\n- Bull's Strength: The target has advantage on Strength checks, and its carrying capacity doubles.\n\n- Cat's Grace: The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.\n\n- Eagle's Splendor: The target has advantage on Charisma checks.\n\n- Fox's Cunning: The target has advantage on Intelligence checks.\n\n- Owl's Wisdom: The target has advantage on Wisdom checks",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Enhance Ability",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "transmutation",
+                "type": "2nd-level transmutation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 bonus action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, paladin, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Magic Weapon",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "transmutation",
+                "type": "2nd-level transmutation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a shaving of licorice root)",
+                "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u00e2\u20ac\u2122s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u00e2\u20ac\u2122t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Haste",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "transmutation",
+                "type": "3rd-level transmutation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "Touch a willing creature. They have resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Protection from Energy",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "3rd-level abjuration"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard",
+                "components": "V, S",
+                "description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take any action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect.\n\nA target isn't compelled to move into an obviously deadly hazard, such as a fire or a pit, but it will provoke opportunity attacks to move in the designated direction.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Compulsion",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "enchantment",
+                "type": "4th-level enchantment"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
+                "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
+                "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Freedom of Movement",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "abjuration",
+                "type": "4th-level abjuration"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 minute",
+                "classes": "cleric",
+                "components": "V, S, M (incense and a vial of holy or unholy water)",
+                "description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.",
+                "duration": "1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Commune",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "divination",
+                "type": "5th-level divination (ritual)"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S, M (pinch of sulfur)",
+                "description": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) inceases by 1d6 for each slot level above 5th.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Flame Strike",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

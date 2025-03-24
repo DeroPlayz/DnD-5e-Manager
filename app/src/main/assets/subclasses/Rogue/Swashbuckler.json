@@ -1,0 +1,126 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom5f16074b-2471-48dd-85b2-aacc5cbfafc2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Fancy Footwork",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.\n\nYou also gain an additional way to use your Sneak Attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom00490a69-7c3e-41ec-bf2f-7a4b6e2d4eb6",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rakish Audacity",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.\n\nIf you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.\n\nIf you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom70465283-e937-4cd7-94a8-343ec6e082ef",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Panache",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn",
+                        "level": 13
+                    }
+                ],
+                "id": "Customfa507766-1067-4903-b78f-cf29ee6bcc50",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Elegant Maneuver",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom7e812ae0-9dcc-4f3a-830d-ae7eb02937e8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Master Duelist",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_swashbuckler",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Swashbuckler",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

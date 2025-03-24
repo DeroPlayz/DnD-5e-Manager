@@ -1,0 +1,307 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your weapon attacks score a critical hit on a roll of 19 or 20",
+                        "level": 3
+                    },
+                    {
+                        "description": "Your weapon attacks score a critical hit on a roll of 18-20",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom0d99c208-b92b-4993-a4fe-63de6cdb2fab",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Improved Critical",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can add half your proficiency bonus (round up) to any Strength, Dexterity or Constitution check you make that doesn't already use your proficiency bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom03bcde2c-b013-4fab-9e6d-c955336bc338",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Remarkable Athlete",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can choose a second option from the Fighting Style class feature",
+                        "level": 10
+                    }
+                ],
+                "id": "Customd9a2d9ff-dfb5-4536-b4d5-d27c4273e360",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Additional Fighting Style",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your weapon attacks score a critical hit on a roll of 18-20",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom4d7776e6-081c-4be5-ac5d-8fcbe0b0c7f3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Superior Critical",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At the start of each of your turns, you regain hit points equal to 5 + your constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom32da06eb-390d-4320-a2fa-91b1bdaf867e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Survivor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_champion",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Champion",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 10
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom3a2161cb-bbb2-4f63-823e-b56b5636d17f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "While you are wearing armor, you gain a +1 bonus to AC",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom7dfd7a81-bd44-4485-8727-1d7c1a9745fc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customd27d4030-e2a3-4789-864d-b880e887f3f9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dueling",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom237375e9-8d52-4eb4-8c28-6a0b87e13f2e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Great Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom74d6797e-d60a-4406-88e5-27b6405af4b3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Protection",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customf61927a7-2d80-4969-a052-83559c34f857",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Two-Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom7d94ae9d-3aad-4d4a-8d43-6462f8dd337d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mariner",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are trained in making ranged attack at close quarters. When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom324b7e83-59d7-433b-809e-9f4eeaa6ab38",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Close Quarters Shooter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You excel at defending narrow passages, doorways, and other tight spaces. As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom6812f88a-7592-459f-a35e-56c37b3941da",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Tunnel Fighter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "e86cd2cb-099a-41f0-85cc-5a3269028f53",
+            "name": "Additional Fighting Style",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

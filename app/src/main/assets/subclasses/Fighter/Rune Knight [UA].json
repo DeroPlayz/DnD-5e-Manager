@@ -1,0 +1,365 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with smith\u00e2\u20ac\u2122s tools, and you learn to speak, read, and write Giant",
+                        "level": 3
+                    }
+                ],
+                "id": "Custombdff6b63-8d4b-441f-833a-0a136b4c266c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn how to use runes to enhance your gear. When you gain this feature, you learn how to inscribe two runes of your choice on weapons, armor, or shields (see each rune for details).\n\nWhenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, or a shield.\n\nYour rune remains on an object until you finish a long rest, and an object can bear only one of your runes.\n\nEach time you gain a level in this class, you can replace one rune you know with a different one.\n\nRunes always provide magical effects.\n\nIf a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Intelligence modifier",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom9fd2a39a-d2eb-4350-8d75-bdc1d0271f5d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rune Magic",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:\n\n- If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn\u00e2\u20ac\u2122t change.\n\n- You have advantage on Strength checks and Strength saving throws.\n\n- Your weapon attacks deal an extra 1d6 damage.\n\nYou can use this feature twice, and you regain all expended uses of it when you finish a long rest",
+                        "level": 3
+                    }
+                ],
+                "id": "Customca9c5f5e-66d1-45be-8d21-96696ace20ce",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Giant Might",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the creature\u00e2\u20ac\u2122s AC against that attack. The bonus equals 1 + your Intelligence modifier (minimum of +2).\n\nIn addition, you learn one new rune of your choice from the Rune Magic feature (for a total of three)",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom2aefc5c0-4bde-4546-8d0c-da84501930cc",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Defensive Runes",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The magic of your runes permanently alters you. When you gain this feature, roll 3d4. You grow a number of inches in height equal to the roll. Moreover, the extra damage you deal with your Giant Might feature increases to 1d8.\n\nIn addition, you learn one new rune of your choice from your Rune Magic feature (for a total of four)",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom14db9296-9510-48a7-9194-9828548f25f8",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Great Stature",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can invoke each rune you know from your Rune Magic feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.\n\nIn addition, you learn one new rune of your choice from the Rune Magic feature (for a total of five)",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom07972b5c-b711-4755-90b7-a5d52b88f002",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Rune Magic Mastery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn how to share your rune magic with your allies. When you use your Giant Might feature, you can choose one willing creature you can see within 60 feet of you. The chosen creature also gains the benefits of your Giant Might feature",
+                        "level": 18
+                    }
+                ],
+                "id": "Customd162dff3-b59f-49fe-9283-15d882ef9d0c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Blessing of the All Father",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_rune_knight_[ua]",
+    "jsonType": "class",
+    "languages": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Giant"
+        }
+    ],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Rune Knight [UA]",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 3
+                },
+                {
+                    "amount": 2,
+                    "level": 4
+                },
+                {
+                    "amount": 2,
+                    "level": 5
+                },
+                {
+                    "amount": 2,
+                    "level": 6
+                },
+                {
+                    "amount": 3,
+                    "level": 7
+                },
+                {
+                    "amount": 3,
+                    "level": 8
+                },
+                {
+                    "amount": 3,
+                    "level": 9
+                },
+                {
+                    "amount": 4,
+                    "level": 10
+                },
+                {
+                    "amount": 4,
+                    "level": 11
+                },
+                {
+                    "amount": 4,
+                    "level": 12
+                },
+                {
+                    "amount": 4,
+                    "level": 13
+                },
+                {
+                    "amount": 4,
+                    "level": 14
+                },
+                {
+                    "amount": 5,
+                    "level": 15
+                },
+                {
+                    "amount": 5,
+                    "level": 16
+                },
+                {
+                    "amount": 5,
+                    "level": 17
+                },
+                {
+                    "amount": 5,
+                    "level": 18
+                },
+                {
+                    "amount": 5,
+                    "level": 19
+                },
+                {
+                    "amount": 5,
+                    "level": 20
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This rune\u00e2\u20ac\u2122s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.\n\nIn addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke the rune, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom182fc53c-d612-4039-a79c-ea63e908b0fc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Haug (Hill Rune)",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This rune\u00e2\u20ac\u2122s magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.\n\nIn addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customb98cb15f-8caa-482b-9c21-a996326f5983",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Ild (Fire Rune)",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This rune\u00e2\u20ac\u2122s magic evokes a frost giant\u00e2\u20ac\u2122s stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.\n\nIn addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom6b54d4fb-ce4d-49e7-9616-2cf8056520f7",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Ise (Frost Rune)",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This rune\u00e2\u20ac\u2122s magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.\n\nIn addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack\u00e2\u20ac\u2122s range. Once you invoke the rune, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customa709022e-e6f7-4b49-be49-37bbc8bdcd39",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Skye (Cloud Rune)",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "This rune\u00e2\u20ac\u2122s magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.\n\nIn addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customaff3cee0-9130-4485-b131-76ccbb36b805",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Stein (Stone Rune)",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can\u00e2\u20ac\u2122t be surprised as long as you are not incapacitated.\n\nIn addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you\u00e2\u20ac\u2122re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can\u00e2\u20ac\u2122t do so again until you finish a short or long rest",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customad20315f-c23c-4e84-be80-34c01666dc15",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Uvar (Storm Rune)",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": true,
+            "id": "0f736944-9791-48b9-a8b1-7716cdf421dc",
+            "name": "Runes Known",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Smith's tools"
+        }
+    ],
+    "weaponProficiencies": []
+}
