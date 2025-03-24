@@ -65,7 +65,7 @@ public class CharacterView extends Fragment {
         //Updates the visible textbox.
         CharacterRace.setText(RaceDisp);
 
-        //Just like the other two. These aren't great descriptions of functionality, but I'm fucking exhausted. It's 11 pm.
+        //Just like the other two. These aren't great descriptions of functionality, but I'm f***ing exhausted. It's 11 pm.
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
         String LevelDisp = "";
 //        for(int i = 0; i < CurrentCharacter.getClassCount(); i++)
@@ -131,7 +131,7 @@ public class CharacterView extends Fragment {
         MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
 
         binding.characterViewBackButton.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterCreatorPageOne);
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
         });
     }
 

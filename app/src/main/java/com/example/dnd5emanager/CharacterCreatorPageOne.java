@@ -340,6 +340,12 @@ public class CharacterCreatorPageOne extends Fragment {
                 NewCharacter.setPrimaryClass(CharacterClasses.get(i));
                 break;
             }
+
+            }
         }
-    }
+
+    public void updateLevel(){
+
+
+}
 }
