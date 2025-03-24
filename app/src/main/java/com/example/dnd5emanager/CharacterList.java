@@ -1,9 +1,12 @@
 package com.example.dnd5emanager;
+import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
+import com.example.dnd5emanager. MainMenu;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -33,15 +36,39 @@ public class CharacterList extends Fragment {
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToMainMenu)
         );
-//        binding.characterListViewCharacterDemo.setOnClickListener(v ->
-//                NavHostFragment.findNavController(CharacterList.this)
-//                        .navigate(R.id.goToCharacterView)
-//        );
+        binding.listToview.setOnClickListener(v ->
+                        NavHostFragment.findNavController(CharacterList.this)
+                                .navigate(R.id.goToCharacterView)
+        );
+        //Finds the TextView element for the character name textbox.
+        TextView CharacterName = view.findViewById(R.id.characterName);
+        //Sets the textbox's value to the in-progress character's name.
+        CharacterName.setText(CurrentCharacter.getName());
         binding.characterListMakeNewCharacter.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToCharacterCreatorPageOne)
         );
 
+        TextView CharacterRace = view.findViewById(R.id.characterRace);
+        String RaceDisp = "";
+        if(CurrentCharacter.getRace() != null) {
+            if (CurrentCharacter.getRace().getHasSubraces()) {
+                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+            } else {
+                //When no subrace is present, the "base" race is shown.
+                RaceDisp += CurrentCharacter.getRace().getName();
+            }
+        }
+        CharacterRace.setText(RaceDisp);
+
+
+        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
+        String LevelDisp = "";
+
+        LevelDisp += CurrentCharacter.getLevel() + " ";
+        CharacterLevel.setText(LevelDisp);
+        
     }
 
     @Override

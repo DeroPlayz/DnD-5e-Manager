@@ -396,6 +396,12 @@ public class CharacterCreatorPageOne extends Fragment {
                 NewCharacter.setPrimaryClass(Classes.get(ClassArray[i]));
                 Log.d("Wait who?", Objects.requireNonNull(Classes.get(ClassArray[i])).getName());
             }
+
+            }
         }
-    }
+
+    public void updateLevel(){
+
+
+}
 }
