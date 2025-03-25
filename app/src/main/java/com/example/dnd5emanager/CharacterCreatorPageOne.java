@@ -1,5 +1,6 @@
 package com.example.dnd5emanager;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 import static com.example.dnd5emanager.MainMenu.Classes;
 import static com.example.dnd5emanager.MainMenu.Races;
 
@@ -28,6 +29,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
@@ -60,6 +62,7 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Charisma;
 
     String[] RaceArray;
+    String[] SubraceArray;
     String[] ClassArray;
 
     private ArrayAdapter<String> Adapter;
@@ -110,13 +113,9 @@ public class CharacterCreatorPageOne extends Fragment {
 
         RaceArray = Races.keySet().toArray(new String[0]);
         Arrays.sort(RaceArray);
-//        SubraceArray = Subraces.
+
         ClassArray = Classes.keySet().toArray(new String[0]);
         Arrays.sort(ClassArray);
-
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
 
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -351,16 +350,21 @@ public class CharacterCreatorPageOne extends Fragment {
         for (int i = 0; i < Races.size(); i++) {
             if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
                 NewCharacter.setRace(Races.get(RaceArray[i]));
-//                Log.d("Race", "Found");
             }
         }
-//        if (NewCharacter.getRace().getHasSubraces()) {
-//            for (int i = 0; i < Subraces.size(); i++) {
-//                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
-//                    NewCharacter.setSubrace(Subraces.get(i));
-//                }
-//            }
-//        }
+        Log.d("Current Race", NewCharacter.getRace().getName());
+        Log.d("Subrace Count", String.valueOf(NewCharacter.getRace().getSubraces().size()));
+//        Races.get(Race.getSelectedItem().toString()).
+        SubraceArray = new String[NewCharacter.getRace().getSubraces().size()];
+        for(int i = 0; i < SubraceArray.length; i++){
+            SubraceArray[i] = Objects.requireNonNull(NewCharacter.getRace().getSubraces().get(i).getName());
+            Log.d("Current Subrace", SubraceArray[i]);
+        }
+
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubraceArray);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subrace.setAdapter(Adapter);
+
         RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
         if (Integer.parseInt(RacialStrengthBonus.getText().toString()) > 0) {
             RacialStrengthBonus.setText("+" + RacialStrengthBonus.getText());

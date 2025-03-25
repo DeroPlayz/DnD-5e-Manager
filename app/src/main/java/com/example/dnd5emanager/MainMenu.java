@@ -30,8 +30,10 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class MainMenu extends Fragment {
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
@@ -84,6 +86,7 @@ public class MainMenu extends Fragment {
         );
 
         parseRaces(requireContext(), "races");
+        parseSubraces(requireContext(), "subraces");
         parseClasses(requireContext(), "dndclasses");
         parseSpells(requireContext(), "spells");
         parseFeatures(requireContext(), "features");
@@ -130,6 +133,7 @@ public class MainMenu extends Fragment {
                         jsonObject.getJSONObject("abilityScores").getInt("cha"),
                         hasSubraces
                     ));
+                    Log.d("Race Name", jsonObject.getString("name"));
                 }
             }
         }
@@ -139,43 +143,73 @@ public class MainMenu extends Fragment {
         }
     }
 
-//    public void parseSubraces(Context context, String dir) {
-//        //Log.d("Jason", "He was just born.");
-//        AssetManager AM = context.getAssets();
-//        try {
-//            String[] fileNames = AM.list(dir);
-//            if (fileNames != null) {
-//                for (String fileName : fileNames) {
-//                    String fullPath = dir + "/" + fileName;
-//                    InputStream inputStream = AM.open(fullPath);
-//                    int size = inputStream.available();
-//                    byte[] buffer = new byte[size];
-//                    inputStream.read(buffer);
-//                    inputStream.close();
-//                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-//                    JSONObject jsonObject = new JSONObject(jsonString);
-//                    Subraces.put(jsonObject.getString("name"), new Subrace(
-//                            jsonObject.getString("name"),
-//                            jsonObject.getInt("ac"),
-//                            jsonObject.getJSONObject("speed").getInt("normal"),
-//                            jsonObject.getJSONObject("speed").getInt("fly"),
-//                            jsonObject.getJSONObject("speed").getInt("climb"),
-//                            jsonObject.getJSONObject("speed").getInt("swim"),
-//                            jsonObject.getJSONObject("speed").getInt("burrow"),
-//                            jsonObject.getJSONObject("abilityScores").getInt("str"),
-//                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
-//                            jsonObject.getJSONObject("abilityScores").getInt("con"),
-//                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-//                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
-//                    ));
-//                }
-//            }
-//        }
-//        catch (IOException | JSONException e){
-//            Log.d("Jason?", "He's dead.");
-//            throw new RuntimeException(e);
-//        }
-//    }
+    public void parseSubraces(Context context, String dir) {
+        //Log.d("Jason", "He was just born.");
+        AssetManager AM = context.getAssets();
+        try {
+            String[] folderNames = AM.list(dir);
+            if (folderNames != null) {
+                for (String folderName : folderNames) {
+                    String parentPath = dir + "/" + folderName;
+                    String[] fileNames = AM.list(dir + "/" + folderName);
+                    if(fileNames != null){
+                        for(String fileName : fileNames){
+                            String fullPath = parentPath + "/" + fileName;
+//                            Log.d("Path", parentPath);
+                            InputStream inputStream = AM.open(fullPath);
+                            int size = inputStream.available();
+                            byte[] buffer = new byte[size];
+                            inputStream.read(buffer);
+                            inputStream.close();
+                            String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                            JSONObject jsonObject = new JSONObject(jsonString);
+                            Subraces.put(jsonObject.getString("name"), new Subrace(
+                                    jsonObject.getString("name"),
+//                                    Log.d("name", jsonObject.getString("name"));
+                                    jsonObject.getInt("ac"),
+//                                    Log.d("ac", String.valueOf(jsonObject.getInt("ac")));
+                                    jsonObject.getJSONObject("speed").getInt("normal"),
+//                                    Log.d("speed: normal", String.valueOf(jsonObject.getJSONObject("speed").getInt("normal")));
+                                    jsonObject.getJSONObject("speed").getInt("fly"),
+//                                    Log.d("speed: fly", String.valueOf(jsonObject.getJSONObject("speed").getInt("fly")));
+                                    jsonObject.getJSONObject("speed").getInt("climb"),
+//                                    Log.d("speed: climb", String.valueOf(jsonObject.getJSONObject("speed").getInt("climb")));
+                                    jsonObject.getJSONObject("speed").getInt("swim"),
+//                                    Log.d("speed: swim", String.valueOf(jsonObject.getJSONObject("speed").getInt("swim")));
+                                    jsonObject.getJSONObject("speed").getInt("burrow"),
+//                                    Log.d("speed: burrow", String.valueOf(jsonObject.getJSONObject("speed").getInt("burrow")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("str"),
+//                                    Log.d("abilityScores: str", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("str")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("dex"),
+//                                    Log.d("abilityScores: dex", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("dex")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("con"),
+//                                    Log.d("abilityScores: con", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("con")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
+//                                    Log.d("abilityScores: intelligence", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("intelligence")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("wis"),
+//                                    Log.d("abilityScores: wis", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("wis")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("cha")
+//                                    Log.d("abilityScore: cha", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("cha")));
+                            ));
+                            String RaceName = folderName.replace("_Subraces", "");
+                            RaceName = RaceName.replace("_", " ");
+                            Log.d("Current Race Name", RaceName);
+                            Log.d("Current Race Null", String.valueOf(Races.get(RaceName) == null) );
+                            Log.d("Current Subrace Name", Subraces.keySet().toArray(new String[0])[Subraces.size() - 1]);
+                            Log.d("Current Subrace Null", String.valueOf(Subraces.keySet().toArray(new String[0])[Subraces.size() - 1] == null));
+                            Log.d("", "");
+//                            Races.get(RaceName).addSubrace(Subraces.get(jsonObject.getString("name")));
+                        }
+                    }
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
+
     public void parseClasses(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
         AssetManager AM = context.getAssets();

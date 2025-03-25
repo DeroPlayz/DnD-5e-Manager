@@ -1,6 +1,8 @@
 package com.example.dnd5emanager.DataClasses;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Race {
     private String Name;
@@ -39,6 +41,15 @@ public class Race {
     private int ArmorClass;
         public int getArmorClass(){return ArmorClass;}
     private ArrayList<String> RacialTraits;
+
+    private ArrayList<Subrace> Subraces = new ArrayList<>();
+        public void addSubrace(Subrace Subrace){
+            Subraces.add(Subrace);
+        }
+        public ArrayList<Subrace> getSubraces(){
+            return Subraces;
+        }
+
     private boolean hasSubraces;
         public boolean getHasSubraces(){return hasSubraces;}
 

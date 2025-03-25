@@ -1,5 +1,5 @@
 package com.example.dnd5emanager;
-import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
+import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
 
 import com.example.dnd5emanager. MainMenu;
 import android.os.Bundle;
