@@ -52,7 +52,7 @@ public class CharacterView extends Fragment {
 
         String RaceDisp = "";
         if(CurrentCharacter.getRace() != null) {
-            if (CurrentCharacter.getRace().getHasSubraces()) {
+            if (CurrentCharacter.getRace().HasSubraces()) {
                 //If a subrace exists, it will prioritize displaying that, because it's more detailed.
                 RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
             } else {

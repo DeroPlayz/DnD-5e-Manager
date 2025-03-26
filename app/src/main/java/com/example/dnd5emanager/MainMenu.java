@@ -130,8 +130,7 @@ public class MainMenu extends Fragment {
                         jsonObject.getJSONObject("abilityScores").getInt("con"),
                         jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
                         jsonObject.getJSONObject("abilityScores").getInt("wis"),
-                        jsonObject.getJSONObject("abilityScores").getInt("cha"),
-                        hasSubraces
+                        jsonObject.getJSONObject("abilityScores").getInt("cha")
                     ));
                     Log.d("Race Name", jsonObject.getString("name"));
                 }
@@ -163,7 +162,7 @@ public class MainMenu extends Fragment {
                             inputStream.close();
                             String jsonString = new String(buffer, StandardCharsets.UTF_8);
                             JSONObject jsonObject = new JSONObject(jsonString);
-                            Subraces.put(jsonObject.getString("name"), new Subrace(
+                            Subrace TempSub = new Subrace(
                                     jsonObject.getString("name"),
 //                                    Log.d("name", jsonObject.getString("name"));
                                     jsonObject.getInt("ac"),
@@ -190,7 +189,8 @@ public class MainMenu extends Fragment {
 //                                    Log.d("abilityScores: wis", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("wis")));
                                     jsonObject.getJSONObject("abilityScores").getInt("cha")
 //                                    Log.d("abilityScore: cha", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("cha")));
-                            ));
+                            );
+                            Subraces.put(jsonObject.getString("name"), TempSub);
                             String RaceName = folderName.replace("_Subraces", "");
                             RaceName = RaceName.replace("_", " ");
                             Log.d("Current Race Name", RaceName);
@@ -198,7 +198,7 @@ public class MainMenu extends Fragment {
                             Log.d("Current Subrace Name", Subraces.keySet().toArray(new String[0])[Subraces.size() - 1]);
                             Log.d("Current Subrace Null", String.valueOf(Subraces.keySet().toArray(new String[0])[Subraces.size() - 1] == null));
                             Log.d("", "");
-//                            Races.get(RaceName).addSubrace(Subraces.get(jsonObject.getString("name")));
+                            Races.get(RaceName).addSubrace(Subraces.get(TempSub.getName()));
                         }
                     }
                 }

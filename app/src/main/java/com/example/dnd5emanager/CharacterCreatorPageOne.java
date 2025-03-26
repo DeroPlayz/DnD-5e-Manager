@@ -1,6 +1,5 @@
 package com.example.dnd5emanager;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 import static com.example.dnd5emanager.MainMenu.Classes;
 import static com.example.dnd5emanager.MainMenu.Races;
 
@@ -22,14 +21,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
@@ -135,20 +132,11 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < Races.size(); i++) {
-                        if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
-                            if (!Objects.requireNonNull(Races.get(RaceArray[i])).getHasSubraces()) {
-                                Subrace.setEnabled(false);
-                                Subrace.setClickable(false);
-                                Subrace.setVisibility(View.INVISIBLE);
-                            } else {
-//                                for (int j = 0; j < Subraces.size(); j++) {
-//                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-//                                        Adapter.add(Subraces.get(j).getName());
-//                                    }
-//                                }
-                            }
-                        }
+                    Log.d("Subraces?", String.valueOf(Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()));
+                    if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()) {
+                        Subrace.setEnabled(false);
+                        Subrace.setClickable(false);
+                        Subrace.setVisibility(View.INVISIBLE);
                     }
                     updateRace(view);
                 }

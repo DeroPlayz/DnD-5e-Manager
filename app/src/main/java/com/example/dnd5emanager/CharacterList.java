@@ -1,7 +1,6 @@
 package com.example.dnd5emanager;
 import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
 
-import com.example.dnd5emanager. MainMenu;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -52,7 +51,7 @@ public class CharacterList extends Fragment {
         TextView CharacterRace = view.findViewById(R.id.characterRace);
         String RaceDisp = "";
         if(CurrentCharacter.getRace() != null) {
-            if (CurrentCharacter.getRace().getHasSubraces()) {
+            if (CurrentCharacter.getRace().HasSubraces()) {
                 //If a subrace exists, it will prioritize displaying that, because it's more detailed.
                 RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
             } else {
