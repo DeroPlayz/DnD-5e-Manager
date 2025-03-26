@@ -10,7 +10,7 @@ public class CharacterClass {
     private int BaseAC;
     private String[] SelectableClassSkills;
     private int SelectableSkillCount;
-    private int Level = 0;
+    private int Level = 1;
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,
