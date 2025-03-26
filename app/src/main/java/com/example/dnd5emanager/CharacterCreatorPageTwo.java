@@ -46,9 +46,25 @@ public class CharacterCreatorPageTwo extends Fragment {
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
         });
-        binding.toocharacterview.setOnClickListener(v -> {
+        binding.tocharacterview.setOnClickListener(v -> {
+            TextView Personality = view.findViewById(R.id.character_creator_page_two_personality);
+            TextView Ideals = view.findViewById(R.id.character_creator_page_two_ideals);
+            TextView Bonds = view.findViewById(R.id.character_creator_page_two_bonds);
+            TextView Flaws = view.findViewById(R.id.character_creator_page_two_flaws);
+            TextView About = view.findViewById(R.id.character_creator_page_two_about);
+            Spinner Background = view.findViewById(R.id.character_creator_page_two_background);
+            Spinner Alignment = view.findViewById(R.id.character_creator_page_two_alignment);
+            CurrentCharacter.setPersonality(Personality.getText().toString());
+            CurrentCharacter.setIdeals(Ideals.getText().toString());
+            CurrentCharacter.setBonds(Bonds.getText().toString());
+            CurrentCharacter.setFlaws(Flaws.getText().toString());
+            CurrentCharacter.setAbout(About.getText().toString());
+            CurrentCharacter.setBackground(Background.getSelectedItem().toString());
+            CurrentCharacter.setAlignment(Alignment.getSelectedItem().toString());
+
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterView);
         });
+
         super.onViewCreated(view, savedInstanceState);
 
     }

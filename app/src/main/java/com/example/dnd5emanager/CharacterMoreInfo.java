@@ -19,7 +19,7 @@ import com.example.dnd5emanager.databinding.CharacterViewBinding;
 // * Use the {@link ThirdFragment#newInstance} factory method to
 // * create an instance of this fragment.
 // */
-public class CharacterView extends Fragment {
+public class CharacterMoreInfo extends Fragment {
     private CharacterViewBinding binding;
 
     @Override
@@ -136,10 +136,7 @@ public class CharacterView extends Fragment {
         MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
 
         binding.characterViewBackButton.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
-        });
-        binding.CharacterViewMoreInformation.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
+            NavHostFragment.findNavController(CharacterMoreInfo.this).navigate(R.id.goToCharacterList);
         });
     }
 

@@ -9,6 +9,8 @@
         android:id="@+id/goToMainMenu"
         app:destination="@id/MainMenu" />
     <action
+        android:id=""
+    <action
         android:id="@+id/goToSettings"
         app:destination="@id/Settings" />
     <action
