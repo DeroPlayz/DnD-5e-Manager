@@ -190,6 +190,9 @@ public class CharacterCreatorPageOne extends Fragment {
                 updateClass();
                 NewCharacter.setLevel(NewCharacter.getPrimaryClass(), 1);
             }
+            else{
+                NewCharacter.setLevel(NewCharacter.getPrimaryClass(), Integer.parseInt(Level.getText().toString()));
+            }
 
             if(Health.getText().toString().isEmpty()){
                 MissingData.add("Health");
