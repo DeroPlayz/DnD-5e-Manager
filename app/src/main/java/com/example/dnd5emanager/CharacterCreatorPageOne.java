@@ -279,7 +279,9 @@ public class CharacterCreatorPageOne extends Fragment {
         updateClass();
         updateAbilities(view);
         NewCharacter.setName(Name.getText().toString());
+        ///*****
         TextView Level = view.findViewById(R.id.character_creator_page_one_edit_level);
+        ///*****
         NewCharacter.setCurrentHealth(NewCharacter.getMaxHealth());
     }
 
@@ -344,8 +346,5 @@ public class CharacterCreatorPageOne extends Fragment {
             }
         }
 
-    public void updateLevel(){
 
-
-}
 }
