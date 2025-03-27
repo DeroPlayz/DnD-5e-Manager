@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.databinding.CharacterMoreInfoBinding;
 
@@ -33,8 +32,23 @@ public class CharacterMoreInfo extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        TextView About = view.findViewById(R.id.character_more_info_about);
+        TextView Personality = view.findViewById(R.id.character_more_info_personality);
+        TextView Bonds = view.findViewById(R.id.character_more_info_bonds);
+        TextView Ideals = view.findViewById(R.id.character_more_info_ideals);
+        TextView Flaws = view.findViewById(R.id.character_more_info_flaws);
+        String AboutVal = "About: " +  CurrentCharacter.getAbout();
+        String PersonalityVal = "Personality Traits: " + CurrentCharacter.getPersonality();
+        String BondsVal = "Bonds: " + CurrentCharacter.getBonds();
+        String IdealsVal = "Ideals: " + CurrentCharacter.getIdeals();
+        String FlawsVal = "Flaws: " + CurrentCharacter.getFlaws();
 
-
+        About.setText(AboutVal);
+        Personality.setText(PersonalityVal);
+        Bonds.setText(BondsVal);
+        Ideals.setText(IdealsVal);
+        Flaws.setText(FlawsVal);
+//        MainMenu.saveCharacter(requireContext(), CurrentCharacter);
     }
 
     @Override

@@ -9,35 +9,40 @@
     tools:context=".CharacterView">
 
     <TextView
-        android:id="@+id/character_more_info_about_text"
+        android:id="@+id/character_more_info_about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:text="About:"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/character_more_info_flaws_text"
+        android:id="@+id/character_more_info_flaws"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:text="Flaws:"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/character_more_info_ideals_text" />
+        app:layout_constraintTop_toBottomOf="@id/character_more_info_ideals" />
 
     <TextView
-        android:id="@+id/character_more_info_bonds_text"
+        android:id="@+id/character_more_info_bonds"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:text="Bonds:"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/character_more_info_personality_text" />
+        app:layout_constraintTop_toBottomOf="@id/character_more_info_personality" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
@@ -46,25 +51,29 @@
         app:barrierDirection="top" />
 
     <TextView
-        android:id="@+id/character_more_info_personality_text"
+        android:id="@+id/character_more_info_personality"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:text="Personality Traits:"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/character_more_info_about_text" />
+        app:layout_constraintTop_toBottomOf="@id/character_more_info_about" />
 
     <TextView
-        android:id="@+id/character_more_info_ideals_text"
+        android:id="@+id/character_more_info_ideals"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:text="Ideals:"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/character_more_info_bonds_text" />
+        app:layout_constraintTop_toBottomOf="@id/character_more_info_bonds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
