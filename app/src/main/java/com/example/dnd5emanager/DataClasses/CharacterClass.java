@@ -13,6 +13,7 @@ public class CharacterClass {
     private int Level = 1;
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
+
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,
         int attacksByLevel, int baseAC, String[] selectableClassSkills,
         int selectableSkillCount){
@@ -26,7 +27,7 @@ public class CharacterClass {
     }
 
     public CharacterClass(){
-        Name = "";
+        Name = " ";
         HitDie = "D10";
         ArmorProficiencies = new Armor[0];
         AttacksByLevel = 0;

@@ -267,8 +267,34 @@ public class PlayerCharacter {
         else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
         else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
         else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
-        }
+    }
 
+    private String Personality = "";
+    public void setPersonality(String Personality){this.Personality = Personality;}
+    public String getPersonality(){return Personality;}
+
+    private String Ideals = "";
+    public void setIdeals(String Ideals){this.Ideals = Ideals;}
+    public String getIdeals(){return Ideals;}
+
+    private String Bonds = "";
+    public void setBonds(String Bonds){this.Bonds = Bonds;}
+    public String getBonds(){return Bonds;}
+    private String Flaws = "";
+    public void setFlaws(String Flaws){this.Flaws = Flaws;}
+    public String getFlaws(){return Flaws;}
+
+    private String About = "";
+    public void setAbout(String About){this.About = About;}
+    public String getAbout(){return About;}
+
+    private String Background = "";
+    public void setBackground(String Background){this.Background = Background;}
+    public String getBackground(){return Background;}
+
+    private String Alignment = "";
+    public void setAlignment(String Alignment){this.Alignment = Alignment;}
+    public String getAlignment(){return Alignment;}
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.

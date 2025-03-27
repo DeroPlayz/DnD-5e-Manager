@@ -9,7 +9,7 @@
     tools:ignore="LabelFor">
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText6"
+        android:id="@+id/character_creator_page_two_flaws"
         android:layout_width="413dp"
         android:layout_height="58dp"
         android:hint="Flaws"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.762" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText7"
+        android:id="@+id/character_creator_page_two_about"
         android:layout_width="409dp"
         android:layout_height="58dp"
         android:hint="About"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.882" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/Bonds"
+        android:id="@+id/character_creator_page_two_bonds"
         android:layout_width="405dp"
         android:layout_height="55dp"
         android:hint="Bonds"
@@ -45,7 +45,7 @@
         app:layout_constraintVertical_bias="0.636" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText4"
+        android:id="@+id/character_creator_page_two_ideals"
         android:layout_width="407dp"
         android:layout_height="58dp"
         android:hint="Ideals"
@@ -69,7 +69,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/backgroundSpinner"
+        android:id="@+id/character_creator_page_two_background"
         android:layout_width="271dp"
         android:layout_height="62dp"
         android:entries="@array/backgrounds"
@@ -82,7 +82,7 @@
         />
 
     <Spinner
-        android:id="@+id/spinner8"
+        android:id="@+id/character_creator_page_two_alignment"
         android:layout_width="271dp"
         android:layout_height="62dp"
         android:entries="@array/personality"
@@ -94,6 +94,7 @@
         app:layout_constraintVertical_bias="0.224" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/character_creator_page_two_personality"
         android:layout_width="408dp"
         android:layout_height="54dp"
         android:hint="Personality Traits"
@@ -105,7 +106,7 @@
         app:layout_constraintVertical_bias="0.403" />
 
     <Button
-        android:id="@+id/toocharacterview"
+        android:id="@+id/tocharacterview"
         android:layout_width="117dp"
         android:layout_height="85dp"
         android:text="SEE DETAILS"

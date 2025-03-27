@@ -8,6 +8,10 @@
     <action
         android:id="@+id/goToMainMenu"
         app:destination="@id/MainMenu" />
+
+    /><action
+    android:id="@+id/goTCharacterMoreInfo"
+    app:destination="@id/characterMoreInfo"/>
     <action
         android:id="@+id/goToSettings"
         app:destination="@id/Settings" />
@@ -123,5 +127,9 @@
         android:label="Dungeon Master's Player Manager"
         tools:layout="@layout/dm_player_manager" >
     </fragment>
+    <fragment
+        android:id="@+id/characterMoreInfo"
+        android:name="com.example.dnd5emanager.CharacterMoreInfo"
+        android:label="CharacterMoreInfo" />
 
 </navigation>
