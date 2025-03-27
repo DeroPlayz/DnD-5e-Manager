@@ -1,8 +1,14 @@
 package com.example.dnd5emanager;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.DocumentsContract;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,9 +33,15 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -92,6 +104,13 @@ public class MainMenu extends Fragment {
         parseFeatures(requireContext(), "features");
         parseItems(requireContext(), "items");
         parseArmor(requireContext(), "armor");
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            try {
+                Files.createFile(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS).toPath());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     @Override
@@ -99,6 +118,56 @@ public class MainMenu extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
+    public final static String DEFAULT_DIRECTORY = "Documents/5E Characters";
+
+//    private boolean create(Context context, String fileName, String jsonString) throws IOException {
+//        String FILENAME = CurrentCharacter.getName() + ".json";
+//        FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
+//        if (jsonString != null) {
+//            fos.write(jsonString.getBytes());
+//        }
+//        fos.close();
+//        return true;
+//
+//    }
+//
+//    public boolean isFilePresent(Context context, String fileName) {
+//        String path = context.getFilesDir().getAbsolutePath() + "/" + fileName;
+//        File file = new File(path);
+//        return file.exists();
+//    }
+
+//    public PlayerCharacter loadCharacter(Context context, String filename) {
+//        File file = new File(context.getFilesDir(), filename);
+//
+//        try {
+//            FileInputStream fis = new FileInputStream(file);
+//            InputStreamReader isr = new InputStreamReader(fis, StandardCharsets.UTF_8);
+//            StringBuilder sb = new StringBuilder();
+//            int read;
+//            char[] buffer = new char[1024];
+//            while ((read = isr.read(buffer)) != -1) {
+//                sb.append(buffer, 0, read);
+//            }
+//            isr.close();
+//
+//            JSONObject jsonObject = new JSONObject(sb.toString());
+//
+//            PlayerCharacter character = new PlayerCharacter();
+//            character.name = jsonObject.getString("name");
+//            character.level = jsonObject.getInt("level");
+//            character.strength = jsonObject.getInt("strength");
+//            character.dexterity = jsonObject.getInt("dexterity");
+//            // ... get other attributes ...
+//
+//            Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
+//            return character;
+//        } catch (JSONException | IOException e) {
+//            Log.e("LoadCharacter", "Error loading character", e);
+//            return null; // Or handle the error as appropriate for your app
+//        }
+//    }
 
     public void parseRaces(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
