@@ -104,13 +104,8 @@ public class MainMenu extends Fragment {
         parseFeatures(requireContext(), "features");
         parseItems(requireContext(), "items");
         parseArmor(requireContext(), "armor");
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            try {
-                Files.createFile(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS).toPath());
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
+        CurrentCharacter = loadCharacter(requireContext(), "bob.json");
+//        File file = new File(requireContext().getFilesDir(), filename);
     }
 
     @Override
@@ -119,55 +114,62 @@ public class MainMenu extends Fragment {
         binding = null;
     }
 
-    public final static String DEFAULT_DIRECTORY = "Documents/5E Characters";
+    public static void saveCharacter(Context context, PlayerCharacter character) {
+        try {
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("name", character.getName());
+            jsonObject.put("about", character.getAbout());
+            jsonObject.put("personality", character.getPersonality());
+            jsonObject.put("ideals", character.getIdeals());
+            jsonObject.put("bonds", character.getBonds());
+            jsonObject.put("flaws", character.getFlaws());
 
-//    private boolean create(Context context, String fileName, String jsonString) throws IOException {
-//        String FILENAME = CurrentCharacter.getName() + ".json";
-//        FileOutputStream fos = context.openFileOutput(fileName,Context.MODE_PRIVATE);
-//        if (jsonString != null) {
-//            fos.write(jsonString.getBytes());
-//        }
-//        fos.close();
-//        return true;
-//
-//    }
-//
-//    public boolean isFilePresent(Context context, String fileName) {
-//        String path = context.getFilesDir().getAbsolutePath() + "/" + fileName;
-//        File file = new File(path);
-//        return file.exists();
-//    }
+            // ... add other attributes ...
 
-//    public PlayerCharacter loadCharacter(Context context, String filename) {
-//        File file = new File(context.getFilesDir(), filename);
-//
-//        try {
-//            FileInputStream fis = new FileInputStream(file);
-//            InputStreamReader isr = new InputStreamReader(fis, StandardCharsets.UTF_8);
-//            StringBuilder sb = new StringBuilder();
-//            int read;
-//            char[] buffer = new char[1024];
-//            while ((read = isr.read(buffer)) != -1) {
-//                sb.append(buffer, 0, read);
-//            }
-//            isr.close();
-//
-//            JSONObject jsonObject = new JSONObject(sb.toString());
-//
-//            PlayerCharacter character = new PlayerCharacter();
-//            character.name = jsonObject.getString("name");
-//            character.level = jsonObject.getInt("level");
-//            character.strength = jsonObject.getInt("strength");
-//            character.dexterity = jsonObject.getInt("dexterity");
-//            // ... get other attributes ...
-//
-//            Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
-//            return character;
-//        } catch (JSONException | IOException e) {
-//            Log.e("LoadCharacter", "Error loading character", e);
-//            return null; // Or handle the error as appropriate for your app
-//        }
-//    }
+            String jsonString = jsonObject.toString();
+
+            String filename = character.getName() + ".json"; // Or generate a unique filename
+            File file = new File(context.getFilesDir(), filename);
+            FileOutputStream fos = new FileOutputStream(file);
+            fos.write(jsonString.getBytes());
+            fos.close();
+            Log.d("SaveCharacter", "Character saved to: " + file.getAbsolutePath());
+        } catch (JSONException | IOException e) {
+            Log.e("SaveCharacter", "Error saving character", e);
+        }
+    }
+
+    public PlayerCharacter loadCharacter(Context context, String filename) {
+        File file = new File(context.getFilesDir(), filename);
+
+        try {
+            FileInputStream fis = new FileInputStream(file);
+            InputStreamReader isr = new InputStreamReader(fis, StandardCharsets.UTF_8);
+            StringBuilder sb = new StringBuilder();
+            int read;
+            char[] buffer = new char[1024];
+            while ((read = isr.read(buffer)) != -1) {
+                sb.append(buffer, 0, read);
+            }
+            isr.close();
+
+            JSONObject jsonObject = new JSONObject(sb.toString());
+
+            PlayerCharacter character = new PlayerCharacter();
+            character.setName(jsonObject.getString("name"));
+            character.setAbout(jsonObject.getString("about"));
+            character.setPersonality(jsonObject.getString("personality"));
+            character.setBonds(jsonObject.getString("bonds"));
+            character.setIdeals(jsonObject.getString("ideals"));
+            character.setFlaws(jsonObject.getString("flaws"));
+
+            Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
+            return character;
+        } catch (JSONException | IOException e) {
+            Log.e("LoadCharacter", "Error loading character", e);
+            return null; // Or handle the error as appropriate for your app
+        }
+    }
 
     public void parseRaces(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
