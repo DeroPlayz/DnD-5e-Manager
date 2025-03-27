@@ -139,7 +139,7 @@ public class CharacterView extends Fragment {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
         });
         binding.CharacterViewMoreInformation.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goTCharacterMoreInfo);
         });
     }
 
