@@ -31,59 +31,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/characterName"
-        android:layout_width="148dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="80dp"
-        android:text="Name"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
-
-    <TextView
-        android:id="@+id/characterRace"
+        android:id="@+id/character_list_choose_character_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:text="Race"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="Select your Character"
+        android:textColor="#000000"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/characterLevel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
-        android:text="Level"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
+    <Spinner
+        android:id="@+id/character_list_choose_character"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:spinnerMode="dropdown"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
-
-    <Button
-        android:id="@+id/listToview"
-        android:layout_width="408dp"
-        android:layout_height="83dp"
-        android:backgroundTint="#00FFFFFF"
-        android:text=" "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintTop_toBottomOf="@+id/character_list_make_new_character" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

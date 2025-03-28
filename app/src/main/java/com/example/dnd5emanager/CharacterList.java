@@ -1,10 +1,13 @@
 package com.example.dnd5emanager;
 import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
+import static com.example.dnd5emanager.MainMenu.Races;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -34,10 +37,6 @@ public class CharacterList extends Fragment {
         binding.characterListBackButton.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToMainMenu)
-        );
-        binding.listToview.setOnClickListener(v ->
-                        NavHostFragment.findNavController(CharacterList.this)
-                                .navigate(R.id.goToCharacterView)
         );
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
@@ -71,7 +70,13 @@ public class CharacterList extends Fragment {
             LevelDisp += CurrentCharacter.getLevel() + " ";
         }
         CharacterLevel.setText(LevelDisp);
-        
+
+        Spinner CharacterList = view.findViewById(R.id.character_list_choose_character);
+
+        String[] CharacterNames = MainMenu.Characters.keySet().toArray(new String[0]);
+        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, CharacterNames);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        CharacterList.setAdapter(Adapter);
     }
 
     @Override

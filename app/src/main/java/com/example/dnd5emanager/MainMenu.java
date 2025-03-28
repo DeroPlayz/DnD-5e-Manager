@@ -91,6 +91,9 @@ public class MainMenu extends Fragment {
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
         );
 
+        File directory = requireContext().getFilesDir();
+        directory.delete();
+
         parseRaces(requireContext(), "races");
         parseSubraces(requireContext(), "subraces");
         parseClasses(requireContext(), "dndclasses");
@@ -100,13 +103,12 @@ public class MainMenu extends Fragment {
         parseArmor(requireContext(), "armor");
         AssetManager AM = requireContext().getAssets();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            try {
-                Object[] CharactersStream = Files.list(requireContext().getFilesDir().toPath()).toArray();
-                for(int i = 0; i < CharactersStream.length; i++){
-                    File currentIteratedCharacter = new File(CharactersStream[i]).
-                }
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+            File CharacterFilesDir = new File(String.valueOf(requireContext().getFilesDir()));
+            File[] CharacterFileList = CharacterFilesDir.listFiles();
+            for(int i = 0; i < (CharacterFileList != null ? CharacterFileList.length : 0); i++){
+                Log.d("Who is temp guy?", CharacterFileList[i].toString());
+                PlayerCharacter tempGuy = loadCharacter(requireContext(), CharacterFileList[i].getName());
+                Characters.put(tempGuy.getName(), tempGuy);
             }
         }
         CurrentCharacter = loadCharacter(requireContext(), "bob.json");
@@ -173,6 +175,33 @@ public class MainMenu extends Fragment {
         } catch (JSONException | IOException e) {
             Log.e("LoadCharacter", "Error loading character", e);
             return null; // Or handle the error as appropriate for your app
+        }
+    }
+
+    public static void iterateFiles(String directoryPath) {
+        File directory = new File(directoryPath);
+
+        if (directory.exists() && directory.isDirectory()) {
+            File[] files = directory.listFiles();
+
+            if (files != null) {
+                for (File file : files) {
+                    if (file.isFile()) {
+                        // Process the file (e.g., get name, path, read content)
+                        Log.d("File: ", file.getName());
+                        Log.d("Path: ", file.getAbsolutePath());
+                        // You can add more file processing logic here
+                    } else if (file.isDirectory()) {
+                        // If you want to recursively iterate through subdirectories:
+                        Log.d("Directory: ", file.getName());
+                        iterateFiles(file.getAbsolutePath());
+                    }
+                }
+            } else {
+                Log.d("Error", "Empty directory or unable to list files.");
+            }
+        } else {
+            Log.d("Error", "Invalid directory path");
         }
     }
 
