@@ -1,14 +1,9 @@
 package com.example.dnd5emanager;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.DocumentsContract;
-import android.provider.MediaStore;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,17 +30,16 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.util.Arrays;
+import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
     public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
@@ -104,6 +98,17 @@ public class MainMenu extends Fragment {
         parseFeatures(requireContext(), "features");
         parseItems(requireContext(), "items");
         parseArmor(requireContext(), "armor");
+        AssetManager AM = requireContext().getAssets();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            try {
+                Object[] CharactersStream = Files.list(requireContext().getFilesDir().toPath()).toArray();
+                for(int i = 0; i < CharactersStream.length; i++){
+                    File currentIteratedCharacter = new File(CharactersStream[i]).
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
         CurrentCharacter = loadCharacter(requireContext(), "bob.json");
 //        File file = new File(requireContext().getFilesDir(), filename);
     }
