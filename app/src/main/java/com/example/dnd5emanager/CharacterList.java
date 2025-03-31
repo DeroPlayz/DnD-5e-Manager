@@ -1,7 +1,5 @@
 package com.example.dnd5emanager;
-import static com.example.dnd5emanager.MainMenu.Characters;
-import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
-import static com.example.dnd5emanager.MainMenu.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.databinding.CharacterListBinding;
 
 public class CharacterList extends Fragment {
@@ -78,7 +77,7 @@ public class CharacterList extends Fragment {
 
         Spinner CharacterList = view.findViewById(R.id.character_list_choose_character);
 
-        String[] CharacterNames = MainMenu.Characters.keySet().toArray(new String[0]);
+        String[] CharacterNames = Characters.keySet().toArray(new String[0]);
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, CharacterNames);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         CharacterList.setAdapter(Adapter);

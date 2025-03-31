@@ -1,6 +1,6 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
 ///**
@@ -151,7 +152,7 @@ public class CharacterView extends Fragment {
 
     @Override
     public void onDestroyView() {
-        MainMenu.saveCharacter(requireContext(), CurrentCharacter);
+        Methods.saveCharacter(requireContext(), CurrentCharacter);
         super.onDestroyView();
         binding = null;
     }

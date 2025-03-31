@@ -1,6 +1,6 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
