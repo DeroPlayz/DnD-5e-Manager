@@ -48,7 +48,6 @@ public class CharacterMoreInfo extends Fragment {
         Bonds.setText(BondsVal);
         Ideals.setText(IdealsVal);
         Flaws.setText(FlawsVal);
-        MainMenu.saveCharacter(requireContext(), CurrentCharacter);
     }
 
     @Override

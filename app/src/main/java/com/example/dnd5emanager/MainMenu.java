@@ -37,8 +37,10 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.stream.Stream;
 
 public class MainMenu extends Fragment {
@@ -102,17 +104,45 @@ public class MainMenu extends Fragment {
         parseItems(requireContext(), "items");
         parseArmor(requireContext(), "armor");
         AssetManager AM = requireContext().getAssets();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            File CharacterFilesDir = new File(String.valueOf(requireContext().getFilesDir()));
-            File[] CharacterFileList = CharacterFilesDir.listFiles();
-            for(int i = 0; i < (CharacterFileList != null ? CharacterFileList.length : 0); i++){
-                Log.d("Who is temp guy?", CharacterFileList[i].toString());
-                PlayerCharacter tempGuy = loadCharacter(requireContext(), CharacterFileList[i].getName());
-                Characters.put(tempGuy.getName(), tempGuy);
-            }
+        File[] files = iterateFiles(String.valueOf(requireContext().getFilesDir()));
+        for(int i = 0; i < Objects.requireNonNull(files).length; i++){
+            Log.d("Who is temp guy?", files[i].getName());
+            PlayerCharacter tempGuy = loadCharacter(requireContext(), files[i].getName());
+            Characters.put(tempGuy.getName(), tempGuy);
         }
-        CurrentCharacter = loadCharacter(requireContext(), "bob.json");
 //        File file = new File(requireContext().getFilesDir(), filename);
+    }
+
+    public static File[] iterateFiles(String directoryPath) {
+        File directory = new File(directoryPath);
+        ArrayList<File> FinalCharList = new ArrayList<>();
+        if (directory.exists() && directory.isDirectory()) {
+            File[] files = directory.listFiles();
+
+            if (files != null) {
+                for (File file : files) {
+                    if (file.isFile()) {
+                        // Process the file (e.g., get name, path, read content)
+                        if(!file.getName().equals("profileInstalled")){
+                            Log.d("File: ", file.getName());
+                            Log.d("Path: ", file.getAbsolutePath());
+                            FinalCharList.add(file);
+                        }
+                        // You can add more file processing logic here
+                    } else if (file.isDirectory()) {
+                        // If you want to recursively iterate through subdirectories:
+                        Log.d("Directory: ", file.getName());
+                        iterateFiles(file.getAbsolutePath());
+                    }
+                }
+                return FinalCharList.toArray(new File[0]);
+            } else {
+                Log.d("Error", "Empty directory or unable to list files.");
+            }
+        } else {
+            Log.d("Error", "Invalid directory path");
+        }
+        return null;
     }
 
     @Override
@@ -163,45 +193,18 @@ public class MainMenu extends Fragment {
             JSONObject jsonObject = new JSONObject(sb.toString());
 
             PlayerCharacter character = new PlayerCharacter();
-            character.setName(jsonObject.getString("name"));
-            character.setAbout(jsonObject.getString("about"));
-            character.setPersonality(jsonObject.getString("personality"));
-            character.setBonds(jsonObject.getString("bonds"));
-            character.setIdeals(jsonObject.getString("ideals"));
-            character.setFlaws(jsonObject.getString("flaws"));
+            character.setName(jsonObject.optString("name", ""));
+            character.setAbout(jsonObject.optString("about", ""));
+            character.setPersonality(jsonObject.optString("personality", ""));
+            character.setBonds(jsonObject.optString("bonds", ""));
+            character.setIdeals(jsonObject.optString("ideals", ""));
+            character.setFlaws(jsonObject.optString("flaws", ""));
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
             return character;
         } catch (JSONException | IOException e) {
             Log.e("LoadCharacter", "Error loading character", e);
             return null; // Or handle the error as appropriate for your app
-        }
-    }
-
-    public static void iterateFiles(String directoryPath) {
-        File directory = new File(directoryPath);
-
-        if (directory.exists() && directory.isDirectory()) {
-            File[] files = directory.listFiles();
-
-            if (files != null) {
-                for (File file : files) {
-                    if (file.isFile()) {
-                        // Process the file (e.g., get name, path, read content)
-                        Log.d("File: ", file.getName());
-                        Log.d("Path: ", file.getAbsolutePath());
-                        // You can add more file processing logic here
-                    } else if (file.isDirectory()) {
-                        // If you want to recursively iterate through subdirectories:
-                        Log.d("Directory: ", file.getName());
-                        iterateFiles(file.getAbsolutePath());
-                    }
-                }
-            } else {
-                Log.d("Error", "Empty directory or unable to list files.");
-            }
-        } else {
-            Log.d("Error", "Invalid directory path");
         }
     }
 

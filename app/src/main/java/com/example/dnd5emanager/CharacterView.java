@@ -138,13 +138,20 @@ public class CharacterView extends Fragment {
         binding.characterViewBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
         });
-        binding.CharacterViewMoreInformation.setOnClickListener(v -> {
+        binding.characterViewMoreInformation.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterMoreInfo);
+        });
+        binding.characterViewAddHealth.setOnClickListener(v -> {
+            CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() + 1);
+        });
+        binding.characterViewSubtractHealth.setOnClickListener(v -> {
+            CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() - 1);
         });
     }
 
     @Override
     public void onDestroyView() {
+        MainMenu.saveCharacter(requireContext(), CurrentCharacter);
         super.onDestroyView();
         binding = null;
     }

@@ -36,7 +36,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:text="Select your Character"
-        android:textColor="#000000"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +47,17 @@
         android:layout_height="40dp"
         android:layout_marginTop="80dp"
         android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/character_list_make_new_character" />
+
+    <Button
+        android:id="@+id/character_list_view_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Character"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/character_list_choose_character" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
