@@ -42,7 +42,9 @@ public class CharacterList extends Fragment {
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
         //Sets the textbox's value to the in-progress character's name.
-        CharacterName.setText(CurrentCharacter.getName());
+        if(CurrentCharacter != null){
+            CharacterName.setText(CurrentCharacter.getName());
+        }
         binding.characterListMakeNewCharacter.setOnClickListener(v ->
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToCharacterCreatorPageOne)
@@ -50,7 +52,7 @@ public class CharacterList extends Fragment {
 
         TextView CharacterRace = view.findViewById(R.id.characterRace);
         String RaceDisp = "";
-        if(CurrentCharacter.getRace() != null) {
+        if(CurrentCharacter != null && CurrentCharacter.getRace() != null) {
             if (CurrentCharacter.getRace().HasSubraces()) {
                 //If a subrace exists, it will prioritize displaying that, because it's more detailed.
                 RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
@@ -65,7 +67,9 @@ public class CharacterList extends Fragment {
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
         String LevelDisp = "";
 
-        LevelDisp += CurrentCharacter.getLevel() + " ";
+        if(CurrentCharacter != null) {
+            LevelDisp += CurrentCharacter.getLevel() + " ";
+        }
         CharacterLevel.setText(LevelDisp);
         
     }
