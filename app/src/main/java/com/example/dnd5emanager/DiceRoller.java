@@ -38,117 +38,32 @@ public class DiceRoller extends Fragment {
         return binding.getRoot();
     }
 
-    private void rotateDice8() {
-        int i = random.nextInt(5)+1;
-        Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
-        diceImage.startAnimation(anim);
-        switch(i){
-            case 1:
-                diceImage.setImageResource(R.drawable.eightsidedsideone);
-                break;
-            case 2:
-                diceImage.setImageResource(R.drawable.eightsidedsidetwo);
-                break;
-            case 3:
-                diceImage.setImageResource(R.drawable.eightsidedsidethree);
-                break;
-            case 4:
-                diceImage.setImageResource(R.drawable.eightsidedsidefour);
-                break;
-            case 5:
-                diceImage.setImageResource(R.drawable.eightsidedsidefive);
-                break;
-            case 6:
-                diceImage.setImageResource(R.drawable.eightsidedsidesix);
-                break;
-            case 7:
-                diceImage.setImageResource(R.drawable.eightsidedsideseven);
-            case 8:
-                diceImage.setImageResource(R.drawable.eightsidedsideeight);
 
-        }
-    }
-    private void rotateDice10() {
+    private void rotateDice() {
         int i = random.nextInt(5)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
         diceImage.startAnimation(anim);
         switch(i){
             case 1:
-                diceImage.setImageResource(R.drawable.tensidedsideone);
+                diceImage.setImageResource(R.drawable.dice1);
                 break;
             case 2:
-                diceImage.setImageResource(R.drawable.tensidedsidetwo);
+                diceImage.setImageResource(R.drawable.dice2);
                 break;
             case 3:
-                diceImage.setImageResource(R.drawable.tensidedsidethree);
+                diceImage.setImageResource(R.drawable.dice3);
                 break;
             case 4:
-                diceImage.setImageResource(R.drawable.tensidedsidefour);
+                diceImage.setImageResource(R.drawable.dice4);
                 break;
             case 5:
-                diceImage.setImageResource(R.drawable.tensidedsidefive);
+                diceImage.setImageResource(R.drawable.dice5);
                 break;
             case 6:
-                diceImage.setImageResource(R.drawable.tensidedsidesix);
-                break;
-            case 7:
-                diceImage.setImageResource(R.drawable.tensidedsideseven);
-                break;
-            case 8:
-                diceImage.setImageResource(R.drawable.tensidedsideeight);
-                break;
-            case 9:
-                diceImage.setImageResource(R.drawable.tensidedsidenine);
-                break;
-            case 10:
-                diceImage.setImageResource(R.drawable.tensidedsideten);
+                diceImage.setImageResource(R.drawable.dice6);
                 break;
         }
     }
-    private void rotateDice12() {
-        int i = random.nextInt(5)+1;
-        Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
-        diceImage.startAnimation(anim);
-        switch(i){
-            case 1:
-                diceImage.setImageResource(R.drawable.twelvesidedsideone);
-                break;
-            case 2:
-                diceImage.setImageResource(R.drawable.twelvesidedsidetwo);
-                break;
-            case 3:
-                diceImage.setImageResource(R.drawable.twelvesidedsidethree);
-                break;
-            case 4:
-                diceImage.setImageResource(R.drawable.twelvesidedsidefour);
-                break;
-            case 5:
-                diceImage.setImageResource(R.drawable.twelvesidedsidefive);
-                break;
-            case 6:
-                diceImage.setImageResource(R.drawable.twelvesidedsidesix);
-                break;
-            case 7:
-                diceImage.setImageResource(R.drawable.twelvesidedsideseven);
-                break;
-            case 8:
-                diceImage.setImageResource(R.drawable.twelvesidedsideeight);
-                break;
-            case 9:
-                diceImage.setImageResource(R.drawable.twelvesidedsidenine);
-                break;
-            case 10:
-                diceImage.setImageResource(R.drawable.twelvesidedsideten);
-                break;
-            case 11:
-                diceImage.setImageResource(R.drawable.twelvesidedsideeleven);
-                break;
-            case 12:
-                diceImage.setImageResource(R.drawable.twelvesidedsidetwelve);
-                break;
-        }
-    }
-
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -156,60 +71,23 @@ public class DiceRoller extends Fragment {
         binding.diceRollerBack.setOnClickListener(v ->
                 NavHostFragment.findNavController(DiceRoller.this).navigate(R.id.goToMainMenu));
 
+        diceImage = diceImage.findViewById(R.id.dice_image);
 
-        binding.tenSide.setOnClickListener(new View.OnClickListener() {
+        diceImage.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
-                rotateDice10();
+                rotateDice();
             }
         });
-        binding.eightSide.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                rotateDice8();
-            }});
-        binding.twelveSide.setOnClickListener(new View.OnClickListener() {
-                    public void onClick(View view) {
-                        rotateDice12();
-                    }
 
+    };
 
+    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
 
-
-
-
-
-            private void rotateDice6() {
-                int i = random.nextInt(5) + 1;
-                Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
-                diceImage.startAnimation(anim);
-                switch (i) {
-                    case 1:
-                        diceImage.setImageResource(R.drawable.dice1);
-                        break;
-                    case 2:
-                        diceImage.setImageResource(R.drawable.dice2);
-                        break;
-                    case 3:
-                        diceImage.setImageResource(R.drawable.dice3);
-                        break;
-                    case 4:
-                        diceImage.setImageResource(R.drawable.dice4);
-                        break;
-                    case 5:
-                        diceImage.setImageResource(R.drawable.dice5);
-                        break;
-                    case 6:
-                        diceImage.setImageResource(R.drawable.dice6);
-                        break;
-                }
-            }
-
-
-
-        });
-
-    }
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
-    }}
+    }
+}
+
+
