@@ -15,6 +15,8 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
+import java.io.File;
+
 ///**
 // * A simple {@link Fragment} subclass.
 // * Use the {@link ThirdFragment#newInstance} factory method to
@@ -138,21 +140,38 @@ public class CharacterView extends Fragment {
 
         binding.characterViewBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+
+        binding.characterViewDeleteCharacter.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
+            File file = new File(requireContext().getFilesDir(), CurrentCharacter.getName() + ".json");
+            CurrentCharacter = null;
+            file.delete();
+        });
+
         binding.characterViewMoreInformation.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterMoreInfo);
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+
         binding.characterViewAddHealth.setOnClickListener(v -> {
             CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() + 1);
+            CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+
         binding.characterViewSubtractHealth.setOnClickListener(v -> {
             CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() - 1);
+            CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
     }
 
     @Override
     public void onDestroyView() {
-        Methods.saveCharacter(requireContext(), CurrentCharacter);
+        if(CurrentCharacter != null)
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
         super.onDestroyView();
         binding = null;
     }
