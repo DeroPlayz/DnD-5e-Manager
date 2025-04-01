@@ -2,9 +2,29 @@ package com.example.dnd5emanager.DataClasses;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Constants {
+    public static PlayerCharacter CurrentCharacter = new PlayerCharacter();
+    public static Map<String, PlayerCharacter> Characters = new HashMap<>();
+    public static Map<String, Race> Races = new HashMap<>();
+    public static Map<String, Subrace> Subraces = new HashMap<>();
+//    public static Map<String, Monster> Monsters = new HashMap<>();
+
+    public static Map<String, CharacterClass> Classes = new HashMap<>();
+    //    public static Map<String, Subclass> Subclasses = new HashMap<>();
+    public static Map<String, Spell> Spells = new HashMap<>();
+
+    public static Map<String, Background> Backgrounds = new HashMap<>();
+    public static Map<String, Feature> Features = new HashMap<>();
+//    public static Map<String, Feat> Feats = new HashMap<>();
+
+    public static Map<String, Item> Items = new HashMap<>();
+    //    public static Map<String, Weapon> Weapons = new HashMap<>();
+    public static Map<String, Armor> Armor = new HashMap<>();
+
     //Elements
     public static final String Piercing = "Piercing";
     public static final String Bludgeoning = "Bludgeoning";
@@ -82,13 +102,4 @@ public class Constants {
     //Ranged-Specific
     public static final String WeaponAmmo = "Ammunition";
     public static final String LoadingWeapon = "Loading";
-
-//    public static Subclass findSub(String Name) {
-//        for (int i = 0; i < Subclasses.size(); i++) {
-//            if (Subclasses.get(i).getName().equals(Name)) {
-//                return Subclasses.get(i);
-//            }
-//        }
-//        return null;
-//    }
 }

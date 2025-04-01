@@ -1,5 +1,8 @@
 package com.example.dnd5emanager;
 
+import static androidx.core.content.ContentProviderCompat.requireContext;
+import static com.example.dnd5emanager.DataClasses.Methods.Initialize;
+
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +12,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.databinding.ActivityMainBinding;
 
 import android.view.Menu;
@@ -22,7 +26,6 @@ public class ActivityMain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 

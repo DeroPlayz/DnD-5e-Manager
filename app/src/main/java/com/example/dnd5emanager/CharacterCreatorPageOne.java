@@ -1,7 +1,7 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.MainMenu.Classes;
-import static com.example.dnd5emanager.MainMenu.Races;
+import static androidx.core.content.ContentProviderCompat.requireContext;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
@@ -21,6 +21,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.Constants;
+import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
@@ -238,7 +240,7 @@ public class CharacterCreatorPageOne extends Fragment {
             }
             else{
                 update(v);
-                MainMenu.CurrentCharacter = NewCharacter;
+                Constants.CurrentCharacter = NewCharacter;
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
             }
         });

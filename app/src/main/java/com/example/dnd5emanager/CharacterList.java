@@ -1,16 +1,19 @@
 package com.example.dnd5emanager;
-import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.databinding.CharacterListBinding;
 
 public class CharacterList extends Fragment {
@@ -35,14 +38,10 @@ public class CharacterList extends Fragment {
                 NavHostFragment.findNavController(CharacterList.this)
                         .navigate(R.id.goToMainMenu)
         );
-        binding.listToview.setOnClickListener(v ->
-                        NavHostFragment.findNavController(CharacterList.this)
-                                .navigate(R.id.goToCharacterView)
-        );
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
         //Sets the textbox's value to the in-progress character's name.
-        if(CurrentCharacter != null){
+        if(CurrentCharacter != null && CharacterName != null){
             CharacterName.setText(CurrentCharacter.getName());
         }
         binding.characterListMakeNewCharacter.setOnClickListener(v ->
@@ -61,7 +60,9 @@ public class CharacterList extends Fragment {
                 RaceDisp += CurrentCharacter.getRace().getName();
             }
         }
-        CharacterRace.setText(RaceDisp);
+        if(CharacterRace != null){
+            CharacterRace.setText(RaceDisp);
+        }
 
 
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
@@ -70,8 +71,22 @@ public class CharacterList extends Fragment {
         if(CurrentCharacter != null) {
             LevelDisp += CurrentCharacter.getLevel() + " ";
         }
-        CharacterLevel.setText(LevelDisp);
-        
+        if(CharacterLevel != null){
+            CharacterLevel.setText(LevelDisp);
+        }
+
+        Spinner CharacterList = view.findViewById(R.id.character_list_choose_character);
+
+        String[] CharacterNames = Characters.keySet().toArray(new String[0]);
+        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, CharacterNames);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        CharacterList.setAdapter(Adapter);
+
+        binding.characterListViewSelected.setOnClickListener(v ->{
+                CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
+                NavHostFragment.findNavController(CharacterList.this)
+                        .navigate(R.id.goToCharacterView);
+        });
     }
 
     @Override

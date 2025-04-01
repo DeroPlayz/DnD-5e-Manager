@@ -1,6 +1,6 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.MainMenu.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -48,7 +48,6 @@ public class CharacterMoreInfo extends Fragment {
         Bonds.setText(BondsVal);
         Ideals.setText(IdealsVal);
         Flaws.setText(FlawsVal);
-        MainMenu.saveCharacter(requireContext(), CurrentCharacter);
     }
 
     @Override

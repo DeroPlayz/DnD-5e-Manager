@@ -18,11 +18,10 @@
         android:id="@+id/abilities_card"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="415dp"
         app:cardBackgroundColor="#6999FF"
         app:cardCornerRadius="4dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/important_stats_card">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/abilities_layout"
@@ -50,8 +49,8 @@
                         android:layout_height="20dp"
                         android:text="Strength"
                         android:textAlignment="center"
-                        android:textSize="14sp"
                         android:textColor="@color/black"
+                        android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="@+id/character_view_strength_value"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="@+id/character_view_strength_value"
@@ -113,8 +112,8 @@
                         android:layout_height="20dp"
                         android:text="Dexterity"
                         android:textAlignment="center"
-                        android:textSize="14sp"
                         android:textColor="@color/black"
+                        android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="@+id/character_view_dexterity_value"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="@+id/character_view_dexterity_value"
@@ -176,8 +175,8 @@
                         android:layout_height="20dp"
                         android:text="Constitution"
                         android:textAlignment="center"
-                        android:textSize="13sp"
                         android:textColor="@color/black"
+                        android:textSize="13sp"
                         app:layout_constraintEnd_toEndOf="@+id/character_view_constitution_value"
                         app:layout_constraintStart_toStartOf="@+id/character_view_constitution_value"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -239,8 +238,8 @@
                         android:layout_height="20dp"
                         android:text="Intelligence"
                         android:textAlignment="center"
-                        android:textSize="13.5sp"
                         android:textColor="@color/black"
+                        android:textSize="13.5sp"
                         app:layout_constraintEnd_toEndOf="@+id/character_view_intelligence_value"
                         app:layout_constraintStart_toStartOf="@+id/character_view_intelligence_value"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -302,8 +301,8 @@
                         android:layout_height="20dp"
                         android:text="Wisdom"
                         android:textAlignment="center"
-                        android:textSize="14sp"
                         android:textColor="@color/black"
+                        android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="@+id/character_view_wisdom_value"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="@+id/character_view_wisdom_value"
@@ -366,8 +365,8 @@
                         android:layout_height="20dp"
                         android:text="Charisma"
                         android:textAlignment="center"
-                        android:textSize="14sp"
                         android:textColor="@color/black"
+                        android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="@+id/character_view_charisma_value"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="@+id/character_view_charisma_value"
@@ -479,6 +478,33 @@
                 android:textSize="16sp"
                 app:layout_constraintStart_toEndOf="@id/character_view_health_divider"
                 app:layout_constraintTop_toTopOf="@id/character_view_health_divider" />
+
+            <Button
+                android:id="@+id/character_view_add_health"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#00000000"
+                android:padding="0dp"
+                android:text="+"
+                android:textColor="#040303"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/character_view_subtract_health"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/character_view_subtract_health"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#00000000"
+                android:padding="0dp"
+                android:text="—"
+                android:textColor="#020101"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/character_view_max_health"
+                app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
@@ -545,7 +571,6 @@
         android:id="@+id/character_view_back_button"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="1dp"
         android:backgroundTint="#00FFFFFF"
         android:padding="0dp"
         android:text="🔙"
@@ -555,18 +580,26 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/CharacterViewMoreInformation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/character_view_delete_character"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="0dp"
+        android:text="🗑️"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@id/character_view_back_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/characterViewMoreInformation"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
         android:backgroundTint="#6998FD"
         android:text="More Information"
-        android:textSize="16sp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
