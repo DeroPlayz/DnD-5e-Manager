@@ -142,6 +142,9 @@ public class CharacterView extends Fragment {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+        binding.toDice.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToDiceRoller);
+        });
 
         binding.characterViewDeleteCharacter.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
