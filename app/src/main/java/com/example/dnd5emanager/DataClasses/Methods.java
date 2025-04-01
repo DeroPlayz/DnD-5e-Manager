@@ -24,6 +24,8 @@ import java.util.Objects;
 
 public class Methods {
 
+    public static AssetManager AM;
+
     public static void Initialize(Context c){
         LoadFromInternalStorage(c);
         parseRaces(c, "races");
@@ -36,8 +38,9 @@ public class Methods {
     }
     public static void LoadFromInternalStorage(Context c){
         AssetManager AM = c.getAssets();
+        Characters.clear();
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
-        for(int i = 0; i < Objects.requireNonNull(files).length; i++){
+        for(int i = 0; i < Objects.requireNonNull(files).length - 1; i++){
             Log.d("Who is temp guy?", files[i].getName());
             PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
             Characters.put(tempGuy.getName(), tempGuy);
@@ -135,7 +138,7 @@ public class Methods {
 
     public static void parseRaces(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -177,7 +180,7 @@ public class Methods {
 
     public static void parseSubraces(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] folderNames = AM.list(dir);
             if (folderNames != null) {
@@ -245,7 +248,7 @@ public class Methods {
 
     public static void parseClasses(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -279,7 +282,7 @@ public class Methods {
 
     public static void parseSpells(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -330,7 +333,7 @@ public class Methods {
 
     public static void parseFeatures(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -364,7 +367,7 @@ public class Methods {
 
     public static void parseItems(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -405,7 +408,7 @@ public class Methods {
 
     public static void parseArmor(Context context, String dir) {
         //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
