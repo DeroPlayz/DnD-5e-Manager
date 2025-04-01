@@ -133,6 +133,9 @@ public class CharacterView extends Fragment {
         binding.characterViewBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
         });
+        binding.toDice.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToDiceRoller);
+        });
 
         binding.characterViewDeleteCharacter.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
