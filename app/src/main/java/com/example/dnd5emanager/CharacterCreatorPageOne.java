@@ -52,7 +52,7 @@ public class CharacterCreatorPageOne extends Fragment {
     private Spinner Race;
     private Spinner Subrace;
     private Spinner Class;
-    private ArrayList<String> Selection = new ArrayList<>();
+    private Spinner Subclass;
     private TextView Strength;
     private TextView Dexterity;
     private TextView Constitution;
@@ -63,6 +63,7 @@ public class CharacterCreatorPageOne extends Fragment {
     String[] RaceArray;
     String[] SubraceArray;
     String[] ClassArray;
+    String[] SubclassArray;
 
     private ArrayAdapter<String> Adapter;
     TextView RacialStrengthBonus;
@@ -150,6 +151,31 @@ public class CharacterCreatorPageOne extends Fragment {
             }
         });
 
+        binding.characterCreatorPageOneEditClass.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (Class != null) {
+//                    Adapter.clear();
+                    Subclass.setEnabled(true);
+                    Subclass.setClickable(true);
+                    Subclass.setVisibility(View.VISIBLE);
+                    Subclass.setAdapter(Adapter);
+//                    Log.d("Subclasses?", String.valueOf(Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()));
+//                    if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
+//                        Subclass.setEnabled(false);
+//                        Subclass.setClickable(false);
+//                        Subclass.setVisibility(View.INVISIBLE);
+//                    }
+                    updateClass();
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
         binding.characterCreatorPageOneMinimumHealth.setOnClickListener(v ->{
             NewCharacter.setMaxHealth(1);
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
@@ -157,15 +183,14 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneMaximumHealth.setOnClickListener(v ->{
-            updateClass();
             NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDieMaxValue());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
         binding.characterCreatorPageOneRollHealth.setOnClickListener(v -> {
-            updateClass();
-            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDieMaxValue());
+            Log.d("Hit Die", String.valueOf(NewCharacter.getPrimaryClass().getHitDieMaxValue()));
+            NewCharacter.setMaxHealth((int) (Math.random() * NewCharacter.getPrimaryClass().getHitDieMaxValue()) + 1);
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });

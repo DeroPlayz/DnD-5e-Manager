@@ -1,5 +1,7 @@
 package com.example.dnd5emanager.DataClasses;
 
+import java.util.ArrayList;
+
 public class CharacterClass {
     private String Name;
         public String getName(){return Name;}
@@ -13,6 +15,22 @@ public class CharacterClass {
     private int Level = 1;
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
+
+    private ArrayList<Subclass> Subclasses = new ArrayList<>();
+    public void addSubclass(Subclass Subclass){
+        Subclasses.add(Subclass);
+    }
+    public ArrayList<Subclass> getSubclasses(){
+        return Subclasses;
+    }
+    public boolean HasSubclasses(){
+        if(Subclasses.size() > 1){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,
         int attacksByLevel, int baseAC, String[] selectableClassSkills,

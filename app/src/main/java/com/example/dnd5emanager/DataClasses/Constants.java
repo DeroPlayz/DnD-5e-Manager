@@ -11,10 +11,12 @@ public class Constants {
     public static Map<String, PlayerCharacter> Characters = new HashMap<>();
     public static Map<String, Race> Races = new HashMap<>();
     public static Map<String, Subrace> Subraces = new HashMap<>();
+
 //    public static Map<String, Monster> Monsters = new HashMap<>();
 
     public static Map<String, CharacterClass> Classes = new HashMap<>();
-    //    public static Map<String, Subclass> Subclasses = new HashMap<>();
+    public static Map<String, Subclass> Subclasses = new HashMap<>();
+
     public static Map<String, Spell> Spells = new HashMap<>();
 
     public static Map<String, Background> Backgrounds = new HashMap<>();

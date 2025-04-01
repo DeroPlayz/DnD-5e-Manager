@@ -31,6 +31,7 @@ public class Methods {
         parseRaces(c, "races");
         parseSubraces(c, "subraces");
         parseClasses(c, "dndclasses");
+        parseSubclasses(c, "subclasses");
         parseSpells(c, "spells");
         parseFeatures(c, "features");
         parseItems(c, "items");
@@ -137,7 +138,7 @@ public class Methods {
     }
 
     public static void parseRaces(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -179,7 +180,7 @@ public class Methods {
     }
 
     public static void parseSubraces(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] folderNames = AM.list(dir);
@@ -247,7 +248,7 @@ public class Methods {
     }
 
     public static void parseClasses(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -280,8 +281,60 @@ public class Methods {
         }
     }
 
+    public static void parseSubclasses(Context context, String dir) {
+        Log.d("Jason", "He was just born.");
+        AM = context.getAssets();
+        try {
+            String[] folderNames = AM.list(dir);
+            if (folderNames != null) {
+                for (String folderName : folderNames) {
+                    String parentPath = dir + "/" + folderName;
+                    String[] fileNames = AM.list(dir + "/" + folderName);
+                    if(fileNames != null){
+                        for(String fileName : fileNames){
+                            String fullPath = parentPath + "/" + fileName;
+//                            Log.d("Path", parentPath);
+                            InputStream inputStream = AM.open(fullPath);
+                            int size = inputStream.available();
+                            byte[] buffer = new byte[size];
+                            inputStream.read(buffer);
+                            inputStream.close();
+                            String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                            JSONObject jsonObject = new JSONObject(jsonString);
+                            int ABL;
+                            if(jsonObject.optJSONArray("attacksByLevel") == null){
+                                ABL = 0;
+                            }
+                            else{
+                                jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount")
+                            }
+                            Subclass TempSub = new Subclass(
+                                jsonObject.getString("name"),
+                                toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
+,
+                                jsonObject.getInt("baseAc"),
+                                "FUCK"
+                            );
+                            Subclasses.put(jsonObject.getString("name"), TempSub);
+                            Log.d("Current Class Name", folderName);
+                            Log.d("Current Class Null", String.valueOf(Races.get(folderName) == null) );
+                            Log.d("Current Subclass Name", Subraces.keySet().toArray(new String[0])[Subraces.size() - 1]);
+                            Log.d("Current Subclass Null", String.valueOf(Subraces.keySet().toArray(new String[0])[Subraces.size() - 1] == null));
+                            Log.d("", "");
+                            Classes.get(folderName).addSubclass(Subclasses.get(TempSub.getName()));
+                        }
+                    }
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "He's dead.");
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void parseSpells(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -332,7 +385,7 @@ public class Methods {
     }
 
     public static void parseFeatures(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -366,7 +419,7 @@ public class Methods {
     }
 
     public static void parseItems(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
@@ -407,7 +460,7 @@ public class Methods {
     }
 
     public static void parseArmor(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
+        Log.d("Jason", "He was just born.");
         AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
