@@ -481,8 +481,8 @@
 
             <Button
                 android:id="@+id/character_view_add_health"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="66dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="10dp"
                 android:backgroundTint="#00000000"
                 android:padding="0dp"
@@ -494,8 +494,8 @@
 
             <Button
                 android:id="@+id/character_view_subtract_health"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="10dp"
                 android:backgroundTint="#00000000"
                 android:padding="0dp"
@@ -601,5 +601,13 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="676dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
