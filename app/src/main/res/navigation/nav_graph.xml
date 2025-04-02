@@ -32,7 +32,7 @@
         app:destination="@id/CharacterCreatorPageTwo" />
     <action
         android:id="@+id/goToDiceRoller"
-        app:destination="@id/diceRoller"/>
+        app:destination="@id/DiceRoller"/>
 
     <action
         android:id="@+id/goToDMManager"
@@ -136,8 +136,8 @@
         tools:layout="@layout/dm_player_manager" >
     </fragment>
     <fragment
-        android:id="@+id/diceRoller"
+        android:id="@+id/DiceRoller"
         android:name="com.example.dnd5emanager.DiceRoller"
-        android:label="dice_roller"
+        android:label="Dice Roller"
         tools:layout="@layout/dice_roller" />
 </navigation>
