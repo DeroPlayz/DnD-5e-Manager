@@ -292,13 +292,16 @@ public class Methods {
             String[] folderNames = AM.list(dir);
             if (folderNames != null) {
                 for (String folderName : folderNames) {
-                    if(Classes.get(folderName).HasSubclasses()) {
+                    String ClassName = folderName.replace("_", " ");
+//                    Log.d("Current Folder Name", ClassName);
+//                    Log.d("But is it a class?", String.valueOf(Classes.get(ClassName).getName()));
+                    if(Classes.get(ClassName).HasSubclasses()) {
                         String parentPath = dir + "/" + folderName;
                         String[] fileNames = AM.list(dir + "/" + folderName);
                         if (fileNames != null) {
                             for (String fileName : fileNames) {
                                 String fullPath = parentPath + "/" + fileName;
-                                //                            Log.d("Path", parentPath);
+    //                          Log.d("Path", parentPath);
                                 InputStream inputStream = AM.open(fullPath);
                                 int size = inputStream.available();
                                 byte[] buffer = new byte[size];
@@ -315,15 +318,15 @@ public class Methods {
                                         toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
                                         jsonObject.getInt("baseAc"),
                                         ABL,
-                                        "folderName"
+                                        "ClassName"
                                 );
-                                Log.d("Current Class Name", folderName);
-                                Log.d("Current Class Null", String.valueOf(Classes.get(folderName) == null));
+                                Log.d("Current Class Name", ClassName);
+                                Log.d("Current Class Null", String.valueOf(Classes.get(ClassName) == null));
                                 Log.d("Current Subclass Name", TempSub.getName());
-                                //                            Log.d("Current Subclass Null", String.valueOf(TempSub == null));
+    //                          Log.d("Current Subclass Null", String.valueOf(TempSub == null));
                                 Log.d("", "");
                                 Subclasses.put(jsonObject.getString("name"), TempSub);
-                                Classes.get(folderName).addSubclass(Subclasses.get(TempSub.getName()));
+                                Classes.get(ClassName).addSubclass(Subclasses.get(TempSub.getName()));
                             }
                         }
                     }
