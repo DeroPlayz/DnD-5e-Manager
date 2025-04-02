@@ -71,7 +71,7 @@ public class DiceRoller extends Fragment {
         binding.diceRollerBack.setOnClickListener(v ->
                 NavHostFragment.findNavController(DiceRoller.this).navigate(R.id.goToMainMenu));
 
-        diceImage = diceImage.findViewById(R.id.dice_image);
+        diceImage = view.findViewById(R.id.dice_image);
 
         diceImage.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
