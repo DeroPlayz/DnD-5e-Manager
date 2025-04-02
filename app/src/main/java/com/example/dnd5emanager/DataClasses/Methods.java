@@ -273,6 +273,10 @@ public class Methods {
                             jsonObject.getJSONArray("classSkills").getJSONObject(0).getInt("amountOfChoice")
                     ));
                 }
+                String[] ClassNames = Classes.keySet().toArray(new String[0]);
+                for(int i = 0; i < ClassNames.length; i++){
+                    Log.d("Class #" + i, ClassNames[i]);
+                }
             }
         }
         catch (IOException | JSONException e){
@@ -288,40 +292,39 @@ public class Methods {
             String[] folderNames = AM.list(dir);
             if (folderNames != null) {
                 for (String folderName : folderNames) {
-                    String parentPath = dir + "/" + folderName;
-                    String[] fileNames = AM.list(dir + "/" + folderName);
-                    if(fileNames != null){
-                        for(String fileName : fileNames){
-                            String fullPath = parentPath + "/" + fileName;
-//                            Log.d("Path", parentPath);
-                            InputStream inputStream = AM.open(fullPath);
-                            int size = inputStream.available();
-                            byte[] buffer = new byte[size];
-                            inputStream.read(buffer);
-                            inputStream.close();
-                            String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                            JSONObject jsonObject = new JSONObject(jsonString);
-                            int ABL;
-                            if(jsonObject.optJSONArray("attacksByLevel") == null){
-                                ABL = 0;
+                    if(Classes.get(folderName).HasSubclasses()) {
+                        String parentPath = dir + "/" + folderName;
+                        String[] fileNames = AM.list(dir + "/" + folderName);
+                        if (fileNames != null) {
+                            for (String fileName : fileNames) {
+                                String fullPath = parentPath + "/" + fileName;
+                                //                            Log.d("Path", parentPath);
+                                InputStream inputStream = AM.open(fullPath);
+                                int size = inputStream.available();
+                                byte[] buffer = new byte[size];
+                                inputStream.read(buffer);
+                                inputStream.close();
+                                String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                                JSONObject jsonObject = new JSONObject(jsonString);
+                                int ABL = 1;
+                                if (jsonObject.getJSONArray("attacksByLevel").length() != 0) {
+                                    ABL = jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount");
+                                }
+                                Subclass TempSub = new Subclass(
+                                        jsonObject.getString("name"),
+                                        toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
+                                        jsonObject.getInt("baseAc"),
+                                        ABL,
+                                        "folderName"
+                                );
+                                Log.d("Current Class Name", folderName);
+                                Log.d("Current Class Null", String.valueOf(Classes.get(folderName) == null));
+                                Log.d("Current Subclass Name", TempSub.getName());
+                                //                            Log.d("Current Subclass Null", String.valueOf(TempSub == null));
+                                Log.d("", "");
+                                Subclasses.put(jsonObject.getString("name"), TempSub);
+                                Classes.get(folderName).addSubclass(Subclasses.get(TempSub.getName()));
                             }
-                            else{
-                                jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount")
-                            }
-                            Subclass TempSub = new Subclass(
-                                jsonObject.getString("name"),
-                                toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
-,
-                                jsonObject.getInt("baseAc"),
-                                "FUCK"
-                            );
-                            Subclasses.put(jsonObject.getString("name"), TempSub);
-                            Log.d("Current Class Name", folderName);
-                            Log.d("Current Class Null", String.valueOf(Races.get(folderName) == null) );
-                            Log.d("Current Subclass Name", Subraces.keySet().toArray(new String[0])[Subraces.size() - 1]);
-                            Log.d("Current Subclass Null", String.valueOf(Subraces.keySet().toArray(new String[0])[Subraces.size() - 1] == null));
-                            Log.d("", "");
-                            Classes.get(folderName).addSubclass(Subclasses.get(TempSub.getName()));
                         }
                     }
                 }
