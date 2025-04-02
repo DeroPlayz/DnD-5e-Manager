@@ -113,17 +113,31 @@ public class CharacterCreatorPageOne extends Fragment {
 
         RaceArray = Races.keySet().toArray(new String[0]);
         Arrays.sort(RaceArray);
-
-        ClassArray = Classes.keySet().toArray(new String[0]);
-        Arrays.sort(ClassArray);
-
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Race.setAdapter(Adapter);
 
+        ClassArray = Classes.keySet().toArray(new String[0]);
+        Arrays.sort(ClassArray);
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Log.d("Class Spinner?", String.valueOf(Class != null));
         Class.setAdapter(Adapter);
+
+        Log.d("Subclasses null", String.valueOf(Subclasses == null));
+        SubclassArray = Subclasses.keySet().toArray(new String[0]);
+        ArrayList<String> ValidSubclasses = new ArrayList<>();
+        for(int i = 0; i < SubclassArray.length; i++){
+            if(Subclasses.get(SubclassArray[i]).getParentClass().equals(Class.getSelectedItem().toString())){
+                ValidSubclasses.add(SubclassArray[i]);
+            }
+        }
+        SubclassArray = ValidSubclasses.toArray(new String[0]);
+        Arrays.sort(SubclassArray);
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassArray);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Log.d("Subclass Spinner Null?", String.valueOf(SubclassArray == null));
+        Subclass.setAdapter(Adapter);
 
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

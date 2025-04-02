@@ -7,6 +7,8 @@ public class Subclass{
         public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
     String ParentClass;
+        public void setParentClass(String ParentClass){this.ParentClass = ParentClass;}
+        public String getParentClass(){return ParentClass;}
     private Armor[] ArmorProficiencies;
     private int AttacksByLevel;
     private int BaseAC;
