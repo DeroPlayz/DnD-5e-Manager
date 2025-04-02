@@ -1,0 +1,466 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Heavy Armor"
+        }
+    ],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with heavy armor. You also gain proficiency with smith's tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan's tools of your choice",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom72fbe03d-0c47-4546-9b09-6eb418f7902d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tools of the Trade",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n3 --> magic missile, thunderwave",
+                        "level": 3
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n3 --> magic missile, thunderwave\n5 --> mirror image, shatter",
+                        "level": 5
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n3 --> magic missile, thunderwave\n5 --> mirror image, shatter\n9 --> hypnotic pattern, lightning bolt",
+                        "level": 9
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n3 --> magic missile, thunderwave\n5 --> mirror image, shatter\n9 --> hypnotic pattern, lightning bolt\n13 --> fire shield, greater invisibility",
+                        "level": 13
+                    },
+                    {
+                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n3 --> magic missile, thunderwave\n5 --> mirror image, shatter\n9 --> hypnotic pattern, lightning bolt\n13 --> fire shield, greater invisibility\n17 --> passwall, wall of force",
+                        "level": 17
+                    }
+                ],
+                "id": "Customfae764a1-ac51-4d95-b895-3657ce98c4f2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Armorer Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have smith's tools in hand.\n\nYou gain the following benefits while wearing this armor:\n\n- If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.\n\n- You can use the arcane armor as a spellcasting focus for your artificer spells.\n\n- The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to a limb it replaces.\n\n- You can doff or don the armor as an action. The armor continues to be Arcane Armor until you don another suit of armor or you die",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom9d935782-15b3-4459-a4a8-cf2a307054e2",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Arcane Armor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can customize your Arcane Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.\n\nEach model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.\n\nYou can change the armor's model whenever you finish a short or long rest, provided you have smith's tools in hand.\n\nGUARDIAN\nYou design your armor to be in the front line of conflict. It has the following features:\n\n- Thunder Gauntlets: Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.\n\n- Defensive Field: As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nINFILTRATOR\nYou customize your armor for subtle undertakings. It has the following features:\n\n- Lightning Launcher: A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.\n\n- Powered Steps: Your walking speed increases by 5 feet.\n\n- Dampening Field: You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal",
+                        "level": 3
+                    },
+                    {
+                        "description": "You can customize your Arcane Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.\n\nEach model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.\n\nYou can change the armor's model whenever you finish a short or long rest, provided you have smith's tools in hand.\n\nGUARDIAN\nYou design your armor to be in the front line of conflict. It has the following features:\n\n- Thunder Gauntlets: Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.\n\n- Defensive Field: As a bonus action, you can gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\n- Perfected Guardian: When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically force the creature to make a Strength saving throw against your spell save DC, pulling the creature up to 30 feet toward you to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest\n\nINFILTRATOR\nYou customize your armor for subtle undertakings. It has the following features:\n\n- Lightning Launcher: A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra 1d6 lightning damage to that target.\n\n- Powered Steps: Your walking speed increases by 5 feet.\n\n- Dampening Field: You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other, as normal.\n\n- Perfected Infiltrator: Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra 1d6 lightning damage",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom26012ac1-1cce-4d5f-96b9-6ee3beadba40",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Armor Model",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn",
+                        "level": 5
+                    }
+                ],
+                "id": "Custom9d9214f1-5311-4d97-9d1e-b77bf1d0992c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Extra Attack",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 5
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor",
+                        "level": 9
+                    }
+                ],
+                "id": "Custome3e0ba1b-dd8e-4732-aea2-af3f38e0e680",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Armor Modifications",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your Arcane Armor gains additional benefits based on its model, which are now listed in the Armor Model feature",
+                        "level": 15
+                    }
+                ],
+                "id": "Customc78dc800-a8cb-4881-a30b-82a3825a4b3f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Perfected Armor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "artificer__eb__armorer_[tce]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Armorer [TCE]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 3,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "67f8c3d3-28a2-42b6-a1c3-1b36ba7b2faa",
+            "name": "Armor Defensive Field Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        },
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 15,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "13e6068b-66dc-4d2b-8254-c5984122d567",
+            "name": "Protected Armor Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Magic Missile",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, druid, sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn\u00e2\u20ac\u2122t pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell\u00e2\u20ac\u2122s effect, and the spell emits a thunderous boom audible out to 300 feet.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Thunderwave",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (15-foot cube)",
+                "school": "evocation",
+                "type": "1st-level evocation"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.\n\nEach time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\n\nlf you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\n\nA duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.\n\nA creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
+                "duration": "1 Minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Mirror Image",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "illusion",
+                "type": "2nd-level illusion"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (a chip of mica)",
+                "description": "A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a lO-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.\n\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 3rd levei or higher, the damage increases by ld8 for each slot level above 2nd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Shatter",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "evocation",
+                "type": "2nd-level evocation"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
+                "description": "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Hypnotic Pattern",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "illusion",
+                "type": "3rd-level illusion"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
+                "description": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.\n\nThe lightning ignites flammable objects in the area that aren't being worn or carried.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Lightning Bolt",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (1OO-foot line)",
+                "school": "evocation",
+                "type": "3rd-level evocation"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (a bit of phosphorous or a firefly)",
+                "description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.",
+                "duration": "10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Fire Shield",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self",
+                "school": "evocation",
+                "type": "4th-level evocation"
+            }
+        },
+        {
+            "level": 13,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard, bard",
+                "components": "V, S",
+                "description": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target\u00e2\u20ac\u2122s person.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Greater Invisibility",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "illusion",
+                "type": "4th-level illusion"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (a pinch of sesame seeds)",
+                "description": "A Passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the Duration. You choose the opening's dimensions - up to 5 feet wide, 8 feet tall, and 20 feet deep. The Passage creates no instability in a structure surrounding it.\n\nWhen the opening disappears, any creatures or Objects still in the Passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Passwall",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "transmutation",
+                "type": "5th-level transmutation"
+            }
+        },
+        {
+            "level": 17,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
+                "description": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or Resting on a solid surface. You can form it into a hemispherical dome or a Sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).\n\nNothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal Travel through the wall",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Wall of Force",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "120 feet",
+                "school": "evocation",
+                "type": "5th-level evocation"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Smith's tools"
+        }
+    ],
+    "weaponProficiencies": []
+}
