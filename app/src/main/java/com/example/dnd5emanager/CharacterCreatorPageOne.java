@@ -24,6 +24,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.Subclass;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -98,6 +99,8 @@ public class CharacterCreatorPageOne extends Fragment {
         Subrace.setOnFocusChangeListener(textChanges);
         Class = view.findViewById(R.id.character_creator_page_one_edit_class);
         Class.setOnFocusChangeListener(textChanges);
+        Subclass = view.findViewById(R.id.character_creator_page_one_edit_subclass);
+        Subclass.setOnFocusChangeListener(textChanges);
         Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
         Strength.setOnFocusChangeListener(textChanges);
         Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
@@ -121,23 +124,7 @@ public class CharacterCreatorPageOne extends Fragment {
         Arrays.sort(ClassArray);
         Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassArray);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Log.d("Class Spinner?", String.valueOf(Class != null));
         Class.setAdapter(Adapter);
-
-        Log.d("Subclasses null", String.valueOf(Subclasses == null));
-        SubclassArray = Subclasses.keySet().toArray(new String[0]);
-        ArrayList<String> ValidSubclasses = new ArrayList<>();
-        for(int i = 0; i < SubclassArray.length; i++){
-            if(Subclasses.get(SubclassArray[i]).getParentClass().equals(Class.getSelectedItem().toString())){
-                ValidSubclasses.add(SubclassArray[i]);
-            }
-        }
-        SubclassArray = ValidSubclasses.toArray(new String[0]);
-        Arrays.sort(SubclassArray);
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Log.d("Subclass Spinner Null?", String.valueOf(SubclassArray == null));
-        Subclass.setAdapter(Adapter);
 
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -168,19 +155,19 @@ public class CharacterCreatorPageOne extends Fragment {
         binding.characterCreatorPageOneEditClass.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (Class != null) {
+                if (Subclass != null) {
 //                    Adapter.clear();
                     Subclass.setEnabled(true);
                     Subclass.setClickable(true);
                     Subclass.setVisibility(View.VISIBLE);
                     Subclass.setAdapter(Adapter);
-//                    Log.d("Subclasses?", String.valueOf(Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()));
-//                    if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
-//                        Subclass.setEnabled(false);
-//                        Subclass.setClickable(false);
-//                        Subclass.setVisibility(View.INVISIBLE);
-//                    }
-                    updateClass();
+                    Log.d("Subclasses?", String.valueOf(Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()));
+                    if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
+                        Subclass.setEnabled(false);
+                        Subclass.setClickable(false);
+                        Subclass.setVisibility(View.INVISIBLE);
+                    }
+                    updateSubclass();
                 }
             }
 
@@ -434,9 +421,30 @@ public class CharacterCreatorPageOne extends Fragment {
                 NewCharacter.setPrimaryClass(Classes.get(ClassArray[i]));
                 Log.d("Wait who?", Objects.requireNonNull(Classes.get(ClassArray[i])).getName());
             }
+        }
+    }
 
+    public void updateSubclass(){
+        Log.d("Is Subclasses Map null?", String.valueOf(Subclasses == null));
+        Log.d("Subclass Map Length", String.valueOf(Subclasses.size()));
+        SubclassArray = Subclasses.keySet().toArray(new String[0]);
+        ArrayList<String> ValidSubclasses = new ArrayList<>();
+        for(int i = 0; i < SubclassArray.length; i++){
+            Log.d("Subclass", Subclasses.get(SubclassArray[i]).getName());
+            Log.d("Parent Class", Subclasses.get(SubclassArray[i]).getParentClass());
+            Log.d("", "");
+            if(Subclasses.get(SubclassArray[i]).getParentClass().equals(Class.getSelectedItem().toString())){
+                ValidSubclasses.add(SubclassArray[i]);
             }
         }
-
-
+        SubclassArray = ValidSubclasses.toArray(new String[0]);
+        Arrays.sort(SubclassArray);
+        Log.d("Is SubclassArray null?", String.valueOf(SubclassArray == null));
+        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassArray);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Log.d("Subclass Spinner Null?", String.valueOf(Subclass == null));
+        Log.d("Is the ADAPTER null?", String.valueOf(Adapter == null));
+        Log.d("SHIT", Arrays.toString(SubclassArray));
+        Subclass.setAdapter(Adapter);
+    }
 }
