@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".DiceRoller">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,26 +14,28 @@
         android:id="@+id/dice_roller_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#75C7AE"
         android:text="Button"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/black"
-        android:gravity="center">
 
-        <ImageView
-            android:id="@+id/dice_image"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:src="@drawable/dice1">
 
-        </ImageView>
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dice1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433">
+
+    </ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
