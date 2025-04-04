@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Subclass{
     String Name;
-        public void setName(String Name){this.Name = Name;}
+
+    public void setName(String Name){this.Name = Name;}
         public String getName(){return Name;}
     String ParentClass;
         public void setParentClass(String ParentClass){this.ParentClass = ParentClass;}
@@ -23,5 +24,13 @@ public class Subclass{
         this.BaseAC = BaseAC;
         this.ParentClass = ParentClass;
     }
-    
+
+    public Subclass() {
+        this.Name = "";
+        this.ArmorProficiencies = new Armor[0];
+        this.AttacksByLevel = 0;
+        this.BaseAC = 0;
+        this.ParentClass = "";
+    }
+
 }

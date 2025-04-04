@@ -214,6 +214,7 @@ public class PlayerCharacter {
         public Subrace getSubrace(){return Subrace;}
 
     private ArrayList<CharacterClass> PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
+
     public void clearClasses(){
         PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
     }

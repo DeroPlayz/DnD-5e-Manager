@@ -16,6 +16,9 @@ public class CharacterClass {
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
 
+    private Subclass Subclass = new Subclass();
+        public void setSubclass(Subclass Subclass){this.Subclass = Subclass;}
+        public Subclass getSubclass(){return Subclass;}
     private ArrayList<Subclass> Subclasses = new ArrayList<>();
     public void addSubclass(Subclass Subclass){
         Subclasses.add(Subclass);

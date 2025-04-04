@@ -1,7 +1,10 @@
 package com.example.dnd5emanager;
 
-import static androidx.core.content.ContentProviderCompat.requireContext;
 import static com.example.dnd5emanager.DataClasses.Constants.*;
+
+import com.example.dnd5emanager.DataClasses.CharacterClass;
+import com.example.dnd5emanager.DataClasses.Race;
+import com.example.dnd5emanager.DataClasses.Subrace;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
@@ -22,7 +25,6 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.Constants;
-import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Subclass;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
@@ -61,12 +63,15 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Wisdom;
     private TextView Charisma;
 
-    String[] RaceArray;
-    String[] SubraceArray;
-    String[] ClassArray;
-    String[] SubclassArray;
+    Race[] RaceArray;
+    private ArrayAdapter<String> RaceAdapter;
+    Subrace[] SubraceArray;
+    private ArrayAdapter<Subrace> SubraceAdapter;
+    CharacterClass[] ClassArray;
+    private ArrayAdapter<String> ClassAdapter;
+    Subclass[] SubclassArray;
+    private ArrayAdapter<String> SubclassAdapter;
 
-    private ArrayAdapter<String> Adapter;
     TextView RacialStrengthBonus;
     TextView RacialDexterityBonus;
     TextView RacialConstitutionBonus;
@@ -114,17 +119,25 @@ public class CharacterCreatorPageOne extends Fragment {
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
         Charisma.setOnFocusChangeListener(textChanges);
 
-        RaceArray = Races.keySet().toArray(new String[0]);
-        Arrays.sort(RaceArray);
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Race.setAdapter(Adapter);
+        RaceArray = Races.values().toArray(new Race[0]);
+        String[] RaceNames = new String[RaceArray.length];
+        for(int i = 0; i < RaceNames.length; i++){
+            RaceNames[i] = RaceArray[i].getName();
+        }
+        Arrays.sort(RaceNames);
+        RaceAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceNames);
+        RaceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Race.setAdapter(RaceAdapter);
 
-        ClassArray = Classes.keySet().toArray(new String[0]);
-        Arrays.sort(ClassArray);
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Class.setAdapter(Adapter);
+        ClassArray = Classes.values().toArray(new CharacterClass[0]);
+        String[] ClassNames = new String[ClassArray.length];
+        for(int i = 0; i < ClassNames.length; i++){
+            ClassNames[i] = ClassArray[i].getName();
+        }
+        Arrays.sort(ClassNames);
+        ClassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassNames);
+        ClassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Class.setAdapter(ClassAdapter);
 
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -135,14 +148,14 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setEnabled(true);
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
-                    Subrace.setAdapter(Adapter);
+                    Subrace.setAdapter(RaceAdapter);
                     Log.d("Subraces?", String.valueOf(Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()));
                     if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()) {
                         Subrace.setEnabled(false);
                         Subrace.setClickable(false);
                         Subrace.setVisibility(View.INVISIBLE);
                     }
-                    updateRace(view);
+                    updateRace();
                 }
             }
 
@@ -160,7 +173,7 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subclass.setEnabled(true);
                     Subclass.setClickable(true);
                     Subclass.setVisibility(View.VISIBLE);
-                    Subclass.setAdapter(Adapter);
+                    Subclass.setAdapter(SubclassAdapter);
                     Log.d("Subclasses?", String.valueOf(Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()));
                     if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
                         Subclass.setEnabled(false);
@@ -324,7 +337,7 @@ public class CharacterCreatorPageOne extends Fragment {
 
 
     public void update(View view){
-        updateRace(view);
+        updateRace();
         updateClass();
         updateAbilities(view);
         NewCharacter.setName(Name.getText().toString());
@@ -366,25 +379,22 @@ public class CharacterCreatorPageOne extends Fragment {
         else{NewCharacter.setCharisma(0);}
     }
 
+    public void updateRace(){
+        NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
+    }
+
     @SuppressLint("SetTextI18n")
-    public void updateRace(View view) {
-        for (int i = 0; i < Races.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(RaceArray[i])) {
-                NewCharacter.setRace(Races.get(RaceArray[i]));
-            }
-        }
-        Log.d("Current Race", NewCharacter.getRace().getName());
-        Log.d("Subrace Count", String.valueOf(NewCharacter.getRace().getSubraces().size()));
-//        Races.get(Race.getSelectedItem().toString()).
-        SubraceArray = new String[NewCharacter.getRace().getSubraces().size()];
-        for(int i = 0; i < SubraceArray.length; i++){
-            SubraceArray[i] = Objects.requireNonNull(NewCharacter.getRace().getSubraces().get(i).getName());
-            Log.d("Current Subrace", SubraceArray[i]);
+    public void updateRaceOld(View view) {
+        NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
+        Log.d("Race", Race.getSelectedItem().toString());
+        SubraceArray = Subraces.values().toArray(new Subrace[0]);
+        if(NewCharacter.getRace() == null){
+            updateRace();
         }
 
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubraceArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Subrace.setAdapter(Adapter);
+        SubraceAdapter = new ArrayAdapter<Subrace>(requireContext(), android.R.layout.simple_spinner_item, SubraceArray);
+        SubraceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subrace.setAdapter(SubraceAdapter);
 
         RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
         if (Integer.parseInt(RacialStrengthBonus.getText().toString()) > 0) {
@@ -412,39 +422,54 @@ public class CharacterCreatorPageOne extends Fragment {
         }
     }
 
-    public void updateClass() {
+    public void updateClass(){
+        NewCharacter.setPrimaryClass(Classes.get(Class.getSelectedItem().toString()));
+        for(int i = 0; i < NewCharacter.getPrimaryClass().getSubclasses().size(); i++){
+            Log.d("Sub #" + i, NewCharacter.getPrimaryClass().getSubclasses().get(i).getName());
+        }
+        String[] SubclassNames = new String[NewCharacter.getPrimaryClass().getSubclasses().size()];
+        for(int i = 0; i < NewCharacter.getPrimaryClass().getSubclasses().size(); i++){
+            SubclassNames[i] = NewCharacter.getPrimaryClass().getSubclasses().get(i).getName();
+        }
+        Arrays.sort(SubclassNames);
+        SubclassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
+        SubclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subclass.setAdapter(SubclassAdapter);
+    }
+
+    public void updateClassOld() {
         NewCharacter.clearClasses();
         for (int i = 0; i < Classes.size(); i++) {
-            Log.d("Current Class", ClassArray[i]);
-            if (Class.getSelectedItem().toString().equals(ClassArray[i])) {
+            Log.d("Current Class", ClassArray[i].getName());
+            if (Class.getSelectedItem().toString().equals(ClassArray[i].getName())) {
                 Log.d("Success?", "Yes!!");
-                NewCharacter.setPrimaryClass(Classes.get(ClassArray[i]));
-                Log.d("Wait who?", Objects.requireNonNull(Classes.get(ClassArray[i])).getName());
+                NewCharacter.setPrimaryClass(Classes.get(Class.getSelectedItem().toString()));
+                Log.d("Wait who?", ClassArray[i].getName());
             }
         }
     }
 
     public void updateSubclass(){
-        Log.d("Is Subclasses Map null?", String.valueOf(Subclasses == null));
-        Log.d("Subclass Map Length", String.valueOf(Subclasses.size()));
-        SubclassArray = Subclasses.keySet().toArray(new String[0]);
-        ArrayList<String> ValidSubclasses = new ArrayList<>();
-        for(int i = 0; i < SubclassArray.length; i++){
-            Log.d("Subclass", Subclasses.get(SubclassArray[i]).getName());
-            Log.d("Parent Class", Subclasses.get(SubclassArray[i]).getParentClass());
-            Log.d("", "");
-            if(Subclasses.get(SubclassArray[i]).getParentClass().equals(Class.getSelectedItem().toString())){
-                ValidSubclasses.add(SubclassArray[i]);
-            }
+        Log.d("Subclass Selected Item", String.valueOf(Subclass.getSelectedItem()));
+        if(Subclass.getSelectedItem() != null) {
+            Log.d("Functional?", "Hell yeah!");
+            NewCharacter.getPrimaryClass().setSubclass(Subclasses.get(Subclass.getSelectedItem().toString()));
         }
-        SubclassArray = ValidSubclasses.toArray(new String[0]);
-        Arrays.sort(SubclassArray);
-        Log.d("Is SubclassArray null?", String.valueOf(SubclassArray == null));
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Log.d("Subclass Spinner Null?", String.valueOf(Subclass == null));
-        Log.d("Is the ADAPTER null?", String.valueOf(Adapter == null));
-        Log.d("SHIT", Arrays.toString(SubclassArray));
-        Subclass.setAdapter(Adapter);
+    }
+
+    public void updateSubclassOld(){
+        Log.d("Subclass Map Length", String.valueOf(Subclasses.size()));
+        Log.d("Is Subclasses Map null?", String.valueOf(Subclasses == null));
+        SubclassArray = Subclasses.values().toArray(new Subclass[0]);
+        String[] SubclassNames = new String[SubclassArray.length];
+        for(int i = 0; i < SubclassNames.length; i++){
+            SubclassNames[i] = SubclassArray[i].getName();
+//            Log.d("Subclass", Subclasses.get(Subclass.getSelectedItem().toString()).getName());
+//            Log.d("Parent Class", Subclasses.get(Subclass.getSelectedItem().toString()).getParentClass());
+        }
+        Arrays.sort(SubclassNames);
+        SubclassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
+        SubclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subclass.setAdapter(SubclassAdapter);
     }
 }

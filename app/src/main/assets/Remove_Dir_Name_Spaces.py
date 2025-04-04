@@ -19,7 +19,10 @@ def rename_files_and_folders_recursive(folder_path):
                 # Add underscores after closing characters and before capital letters.
                 new_dir_name = re.sub(r'([)\]])([A-Z])', r'\1_\2', new_dir_name)
 
+                # new_dir_name = re.sub("_of", "of", new_dir_name)
                 new_dir_name = re.sub("__", "_", new_dir_name)
+
+                new_dir_name = re.sub("of", "_of", new_dir_name)
 
                 new_dir_path = os.path.join(root, new_dir_name)
                 if old_dir_path != new_dir_path:

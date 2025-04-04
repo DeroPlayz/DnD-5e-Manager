@@ -288,7 +288,7 @@ public class Methods {
     }
 
     public static void parseSubclasses(Context context, String dir) {
-        Log.d("Jason", "He was just born in Subrace.");
+        Log.d("Jason", "He was just born in Subclass.");
         AM = context.getAssets();
         try {
             String[] folderNames = AM.list(dir);
@@ -297,7 +297,6 @@ public class Methods {
                     String ClassName = folderName.replace("_", " ");
                     Log.d("Current Folder Name", folderName);
                     Log.d("But is it a class?", String.valueOf(Classes.get(ClassName).getName()));
-                    Log.d("Okay but does it have subclasses?", String.valueOf(Classes.get(ClassName).HasSubclasses()));
 //                    if(Classes.get(ClassName).HasSubclasses()) {
                         String parentPath = dir + "/" + folderName;
                         String[] fileNames = AM.list(dir + "/" + folderName);
@@ -323,12 +322,13 @@ public class Methods {
                                         ABL,
                                         ClassName
                                 );
+                                Subclasses.put(jsonObject.getString("name") + "." + ClassName, TempSub);
                                 Log.d("Current Class Name", ClassName);
                                 Log.d("Current Class Null", String.valueOf(Classes.get(ClassName) == null));
                                 Log.d("Current Subclass Name", TempSub.getName());
                                 Log.d("Current Subclass Null", String.valueOf(Subclasses.get(TempSub.getName()) == null));
+                                Log.d("Current JSON Name", jsonObject.getString("name"));
                                 Log.d("", "");
-                                Subclasses.put(jsonObject.getString("name"), TempSub);
                                 Classes.get(ClassName).addSubclass(Subclasses.get(TempSub.getName()));
                                 Log.d("Current Class Name", Classes.get(ClassName).getName());
                             }
@@ -337,7 +337,7 @@ public class Methods {
                 }
                 String[] SubclassNames = Subclasses.keySet().toArray(new String[0]);
                 for(int i = 0; i < SubclassNames.length; i++){
-                    Log.d("Subclass #" + i, SubclassNames[i] + "(" + Subclasses.get(SubclassNames[i]).getParentClass() + ")");
+                    Log.d("Subclass #" + i, SubclassNames[i] + " (" + Subclasses.get(SubclassNames[i]).getParentClass() + ")");
                 }
             }
         }
