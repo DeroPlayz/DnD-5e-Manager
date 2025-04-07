@@ -145,16 +145,26 @@ public class CharacterCreatorPageOne extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 updateRace();
                 if (Race != null) {
+                    Log.d("Race", "Not null");
 //                    Adapter.clear();
                     Subrace.setEnabled(true);
+                    Log.d("Subrace", "Enabled");
                     Subrace.setClickable(true);
+                    Log.d("Subrace", "Clickable");
                     Subrace.setVisibility(View.VISIBLE);
+                    Log.d("Subrace", "Visible");
                     Subrace.setAdapter(SubraceAdapter);
-                    Log.d("Subraces?", String.valueOf(Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()));
+                    Log.d("Subrace", "Adapter set");
+
+//                    Log.d("Subraces?", String.valueOf(Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()));
+
                     if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()) {
                         Subrace.setEnabled(false);
+                        Log.d("Subrace", "Disabled");
                         Subrace.setClickable(false);
+                        Log.d("Subrace", "Unclickable");
                         Subrace.setVisibility(View.INVISIBLE);
+                        Log.d("Subrace", "Invisible");
                     }
                 }
             }
@@ -170,11 +180,16 @@ public class CharacterCreatorPageOne extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 updateClass();
                 if (Subclass != null) {
+                    Log.d("Subclass", "Not null.");
 //                    Adapter.clear();
                     Subclass.setEnabled(true);
+                    Log.d("Subclass", "Enabled.");
                     Subclass.setClickable(true);
+                    Log.d("Subclass", "Clickable.");
                     Subclass.setVisibility(View.VISIBLE);
+                    Log.d("Subclass", "Visible.");
                     Subclass.setAdapter(SubclassAdapter);
+                    Log.d("Subclass", "Adapter set.");
 //                    Log.d("Subclasses?", String.valueOf(Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()));
 //                    if(!NewCharacter.getPrimaryClass().HasSubclasses()){
 //                        Subclass.setEnabled(false);
@@ -378,7 +393,9 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateRace(){
+        Log.d("Race", "Updating");
         NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
+        Log.d("Race", "Updated");
         updateSubrace();
     }
 
@@ -390,6 +407,7 @@ public class CharacterCreatorPageOne extends Fragment {
             Log.d("Matches current race", String.valueOf(SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())));
             if(SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())){
                 SubraceNames[i] = SubraceAL.get(i).getName();
+                Log.d("Subrace Name", SubraceNames[i]);
             }
         }
 
@@ -446,10 +464,15 @@ public class CharacterCreatorPageOne extends Fragment {
                 SubclassNames[i] = NewCharacter.getPrimaryClass().getSubclasses().get(i).getName();
             }
         }
+        Log.d("Class Names", "Not updated.");
         updateSubclass();
+        Log.d("Subs", "Updated.");
         SubclassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
+        Log.d("Adapter", "Reassigned.");
         SubclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Log.d("Subs", "Dropdown changed.");
         Subclass.setAdapter(SubclassAdapter);
+        Log.d("Subclass", "Adapter set.");
     }
 
     public void updateClassOld() {
