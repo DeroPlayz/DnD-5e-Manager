@@ -1,11 +1,18 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Features;
+import static com.example.dnd5emanager.DataClasses.Constants.Items;
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Spells;
+import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
-import android.widget.ArrayAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +26,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -193,7 +199,7 @@ public class Methods {
                     if(fileNames != null){
                         for(String fileName : fileNames){
                             String fullPath = parentPath + "/" + fileName;
-//                            Log.d("Path", parentPath);
+                            Log.d("Name of Folder/Parent Race", folderName);
                             InputStream inputStream = AM.open(fullPath);
                             int size = inputStream.available();
                             byte[] buffer = new byte[size];
@@ -204,6 +210,7 @@ public class Methods {
                             Subrace TempSub = new Subrace(
                                     jsonObject.getString("name"),
 //                                    Log.d("name", jsonObject.getString("name"));
+                                    folderName.replace("_Subraces", ""),
                                     jsonObject.getInt("ac"),
 //                                    Log.d("ac", String.valueOf(jsonObject.getInt("ac")));
                                     jsonObject.getJSONObject("speed").getInt("normal"),
@@ -322,7 +329,14 @@ public class Methods {
                                         ABL,
                                         ClassName
                                 );
-                                Subclasses.put(jsonObject.getString("name") + "." + ClassName, TempSub);
+                                if(Subclasses.get(jsonObject.getString("name")) != null){
+                                    Log.d("Already exists", jsonObject.getString("name"));
+                                    Subclasses.put(jsonObject.getString("name") + "(" + ClassName + ")", TempSub);
+                                }
+                                else{
+                                    Log.d("New subclass!", jsonObject.getString("name"));
+                                    Subclasses.put(jsonObject.getString("name"), TempSub);
+                                }
                                 Log.d("Current Class Name", ClassName);
                                 Log.d("Current Class Null", String.valueOf(Classes.get(ClassName) == null));
                                 Log.d("Current Subclass Name", TempSub.getName());
