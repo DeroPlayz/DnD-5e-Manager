@@ -382,7 +382,7 @@ public class CharacterCreatorPageOne extends Fragment {
         RaceNames = new String[RaceAL.size()];
         for(int i = 0; i < RaceNames.length; i++){
             Log.d("Race", RaceAL.get(i).getName());
-            SubraceNames[i] = SubraceAL.get(i).getName();
+            RaceNames[i] = RaceAL.get(i).getName();
         }
         if(Race.getSelectedItem() != null) {
             NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
