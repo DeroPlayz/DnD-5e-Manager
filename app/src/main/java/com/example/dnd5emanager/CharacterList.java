@@ -1,7 +1,10 @@
 package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Methods.LoadFromInternalStorage;
+import static com.example.dnd5emanager.DataClasses.Methods.iterateFiles;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +18,8 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.databinding.CharacterListBinding;
+
+import java.io.File;
 
 public class CharacterList extends Fragment {
 
@@ -77,15 +82,22 @@ public class CharacterList extends Fragment {
 
         Spinner CharacterList = view.findViewById(R.id.character_list_choose_character);
 
+        LoadFromInternalStorage(requireContext());
+
         String[] CharacterNames = Characters.keySet().toArray(new String[0]);
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, CharacterNames);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         CharacterList.setAdapter(Adapter);
-
         binding.characterListViewSelected.setOnClickListener(v ->{
+            if(!Characters.isEmpty()){
                 CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
                 NavHostFragment.findNavController(CharacterList.this)
-                        .navigate(R.id.goToCharacterView);
+                    .navigate(R.id.goToCharacterView);
+            }
+            else{
+                NavHostFragment.findNavController(CharacterList.this)
+                    .navigate(R.id.goToCharacterCreatorPageOne);
+            }
         });
     }
 

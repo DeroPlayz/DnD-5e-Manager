@@ -55,6 +55,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        android:id="@+id/character_creator_page_one_edit_subclass"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
         android:id="@+id/character_creator_page_one_edit_class"
         android:layout_width="150dp"
         android:layout_height="50dp"

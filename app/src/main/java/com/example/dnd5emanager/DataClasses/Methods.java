@@ -1,6 +1,14 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Features;
+import static com.example.dnd5emanager.DataClasses.Constants.Items;
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Spells;
+import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -24,11 +32,14 @@ import java.util.Objects;
 
 public class Methods {
 
+    public static AssetManager AM;
+
     public static void Initialize(Context c){
         LoadFromInternalStorage(c);
         parseRaces(c, "races");
         parseSubraces(c, "subraces");
         parseClasses(c, "dndclasses");
+        parseSubclasses(c, "subclasses");
         parseSpells(c, "spells");
         parseFeatures(c, "features");
         parseItems(c, "items");
@@ -36,8 +47,9 @@ public class Methods {
     }
     public static void LoadFromInternalStorage(Context c){
         AssetManager AM = c.getAssets();
+        Characters.clear();
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
-        for(int i = 0; i < Objects.requireNonNull(files).length; i++){
+        for(int i = 0; i < Objects.requireNonNull(files).length - 1; i++){
             Log.d("Who is temp guy?", files[i].getName());
             PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
             Characters.put(tempGuy.getName(), tempGuy);
@@ -134,8 +146,8 @@ public class Methods {
     }
 
     public static void parseRaces(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Race.");
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -170,14 +182,14 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "shot dead in Race.");
             throw new RuntimeException(e);
         }
     }
 
     public static void parseSubraces(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Subrace.");
+        AM = context.getAssets();
         try {
             String[] folderNames = AM.list(dir);
             if (folderNames != null) {
@@ -187,7 +199,7 @@ public class Methods {
                     if(fileNames != null){
                         for(String fileName : fileNames){
                             String fullPath = parentPath + "/" + fileName;
-//                            Log.d("Path", parentPath);
+                            Log.d("Name of Folder/Parent Race", folderName);
                             InputStream inputStream = AM.open(fullPath);
                             int size = inputStream.available();
                             byte[] buffer = new byte[size];
@@ -198,6 +210,7 @@ public class Methods {
                             Subrace TempSub = new Subrace(
                                     jsonObject.getString("name"),
 //                                    Log.d("name", jsonObject.getString("name"));
+                                    folderName.replace("_Subraces", ""),
                                     jsonObject.getInt("ac"),
 //                                    Log.d("ac", String.valueOf(jsonObject.getInt("ac")));
                                     jsonObject.getJSONObject("speed").getInt("normal"),
@@ -238,14 +251,14 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "Shot dead in Subrace.");
             throw new RuntimeException(e);
         }
     }
 
     public static void parseClasses(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Class.");
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -269,17 +282,88 @@ public class Methods {
                             jsonObject.getJSONArray("classSkills").getJSONObject(0).getInt("amountOfChoice")
                     ));
                 }
+                String[] ClassNames = Classes.keySet().toArray(new String[0]);
+                for(int i = 0; i < ClassNames.length; i++){
+                    Log.d("Class #" + i, ClassNames[i]);
+                }
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "Shot dead in Class.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void parseSubclasses(Context context, String dir) {
+        Log.d("Jason", "He was just born in Subclass.");
+        AM = context.getAssets();
+        try {
+            String[] folderNames = AM.list(dir);
+            if (folderNames != null) {
+                for (String folderName : folderNames) {
+                    String ClassName = folderName.replace("_", " ");
+                    Log.d("Current Folder Name", folderName);
+                    Log.d("But is it a class?", String.valueOf(Classes.get(ClassName).getName()));
+//                    if(Classes.get(ClassName).HasSubclasses()) {
+                        String parentPath = dir + "/" + folderName;
+                        String[] fileNames = AM.list(dir + "/" + folderName);
+                        if (fileNames != null) {
+                            for (String fileName : fileNames) {
+                                String fullPath = parentPath + "/" + fileName;
+                                Log.d("Path", fullPath);
+                                InputStream inputStream = AM.open(fullPath);
+                                int size = inputStream.available();
+                                byte[] buffer = new byte[size];
+                                inputStream.read(buffer);
+                                inputStream.close();
+                                String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                                JSONObject jsonObject = new JSONObject(jsonString);
+                                int ABL = 1;
+                                if (jsonObject.getJSONArray("attacksByLevel").length() != 0) {
+                                    ABL = jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount");
+                                }
+                                Subclass TempSub = new Subclass(
+                                        jsonObject.getString("name"),
+                                        toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
+                                        jsonObject.getInt("baseAc"),
+                                        ABL,
+                                        ClassName
+                                );
+                                if(Subclasses.get(jsonObject.getString("name")) != null){
+                                    Log.d("Already exists", jsonObject.getString("name"));
+                                    Subclasses.put(jsonObject.getString("name") + "(" + ClassName + ")", TempSub);
+                                }
+                                else{
+                                    Log.d("New subclass!", jsonObject.getString("name"));
+                                    Subclasses.put(jsonObject.getString("name"), TempSub);
+                                }
+                                Log.d("Current Class Name", ClassName);
+                                Log.d("Current Class Null", String.valueOf(Classes.get(ClassName) == null));
+                                Log.d("Current Subclass Name", TempSub.getName());
+                                Log.d("Current Subclass Null", String.valueOf(Subclasses.get(TempSub.getName()) == null));
+                                Log.d("Current JSON Name", jsonObject.getString("name"));
+                                Log.d("", "");
+                                Classes.get(ClassName).addSubclass(Subclasses.get(TempSub.getName()));
+                                Log.d("Current Class Name", Classes.get(ClassName).getName());
+                            }
+                        }
+//                    }
+                }
+                String[] SubclassNames = Subclasses.keySet().toArray(new String[0]);
+                for(int i = 0; i < SubclassNames.length; i++){
+                    Log.d("Subclass #" + i, SubclassNames[i] + " (" + Subclasses.get(SubclassNames[i]).getParentClass() + ")");
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Subclass.");
             throw new RuntimeException(e);
         }
     }
 
     public static void parseSpells(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Spell.");
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -323,14 +407,14 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "Shot dead in Spell.");
             throw new RuntimeException(e);
         }
     }
 
     public static void parseFeatures(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Feature.");
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -357,14 +441,14 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "Shot dead in Feature.");
             throw new RuntimeException(e);
         }
     }
 
     public static void parseItems(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Item.");
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -398,14 +482,14 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "Shot dead in Item.");
             throw new RuntimeException(e);
         }
     }
 
     public static void parseArmor(Context context, String dir) {
-        //Log.d("Jason", "He was just born.");
-        AssetManager AM = context.getAssets();
+        Log.d("Jason", "He was just born in Armor.");
+        AM = context.getAssets();
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -436,7 +520,7 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "He's dead.");
+            Log.d("Jason?", "Shot dead in Armor.");
             throw new RuntimeException(e);
         }
     }
@@ -452,10 +536,10 @@ public class Methods {
     }
 
     private static Armor[] toArmorArray(JSONArray array) throws JSONException {
-        if(array==null)
+        if (array == null)
             return null;
         Armor[] arr = new Armor[array.length()];
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = Armor.get(array.optString(i));
         }
         return arr;
