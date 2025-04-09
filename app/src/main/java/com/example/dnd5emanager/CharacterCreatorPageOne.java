@@ -63,13 +63,20 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Wisdom;
     private TextView Charisma;
 
-    Race[] RaceArray;
+    ArrayList<Race> RaceAL;
+    String[] RaceNames;
     private ArrayAdapter<String> RaceAdapter;
+
     ArrayList<Subrace> SubraceAL;
+    String[] SubraceNames;
     private ArrayAdapter<String> SubraceAdapter;
-    CharacterClass[] ClassArray;
+
+    ArrayList<CharacterClass> ClassAL;
+    String[] ClassNames;
     private ArrayAdapter<String> ClassAdapter;
+
     ArrayList<Subclass> SubclassAL;
+    String[] SubclassNames;
     private ArrayAdapter<String> SubclassAdapter;
 
     TextView RacialStrengthBonus;
@@ -119,26 +126,6 @@ public class CharacterCreatorPageOne extends Fragment {
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
         Charisma.setOnFocusChangeListener(textChanges);
 
-        RaceArray = Races.values().toArray(new Race[0]);
-        String[] RaceNames = new String[RaceArray.length];
-        for(int i = 0; i < RaceNames.length; i++){
-            RaceNames[i] = RaceArray[i].getName();
-        }
-        Arrays.sort(RaceNames);
-        RaceAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceNames);
-        RaceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Race.setAdapter(RaceAdapter);
-
-        ClassArray = Classes.values().toArray(new CharacterClass[0]);
-        String[] ClassNames = new String[ClassArray.length];
-        for(int i = 0; i < ClassNames.length; i++){
-            ClassNames[i] = ClassArray[i].getName();
-        }
-        Arrays.sort(ClassNames);
-        ClassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassNames);
-        ClassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Class.setAdapter(ClassAdapter);
-
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -146,15 +133,14 @@ public class CharacterCreatorPageOne extends Fragment {
                 updateRace();
                 if (Race != null) {
                     Log.d("Race", "Not null");
-
                     Subrace.setEnabled(true);
                     Log.d("Subrace", "Enabled");
                     Subrace.setClickable(true);
                     Log.d("Subrace", "Clickable");
                     Subrace.setVisibility(View.VISIBLE);
                     Log.d("Subrace", "Visible");
-                    Subrace.setAdapter(SubraceAdapter);
-                    Log.d("Subrace", "Adapter set");
+
+                    updateSubrace();
 
                     Log.d("Subraces?", String.valueOf(Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()));
 
@@ -193,7 +179,7 @@ public class CharacterCreatorPageOne extends Fragment {
                     if(!NewCharacter.getPrimaryClass().HasSubclasses()){
                         Subclass.setEnabled(false);
                         Subclass.setClickable(false);
-                       Subclass.setVisibility(View.INVISIBLE);
+                        Subclass.setVisibility(View.INVISIBLE);
                     }
                 }
             }
@@ -392,17 +378,21 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateRace(){
-        Log.d("Race", "Updating");
-        if(Race.getSelectedItem() != null){
+        RaceAL = new ArrayList<Race>(Arrays.asList(Races.values().toArray(new Race[0])));
+        RaceNames = new String[RaceAL.size()];
+        for(int i = 0; i < RaceNames.length; i++){
+            Log.d("Race", RaceAL.get(i).getName());
+            SubraceNames[i] = SubraceAL.get(i).getName();
+        }
+        if(Race.getSelectedItem() != null) {
             NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
-            Log.d("Race", "Updated");
         }
         updateSubrace();
     }
 
     public void updateSubrace(){
         SubraceAL = new ArrayList<Subrace>(Arrays.asList(Subraces.values().toArray(new Subrace[0])));
-        String[] SubraceNames = new String[SubraceAL.size()];
+        SubraceNames = new String[SubraceAL.size()];
         for(int i = 0; i < SubraceNames.length; i++){
             Log.d("Subrace Parent", SubraceAL.get(i).getParentRace());
             Log.d("Matches current race", String.valueOf(SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())));
@@ -414,22 +404,22 @@ public class CharacterCreatorPageOne extends Fragment {
 
         SubraceAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubraceNames);
         SubraceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Log.d("Subrace Null?", String.valueOf(Subrace == null));
-        Log.d("Subrace Adapter Null?", String.valueOf(SubraceAdapter = null));
         Subrace.setAdapter(SubraceAdapter);
     }
 
+
     public void updateClass(){
-        NewCharacter.setPrimaryClass(Classes.get(Class.getSelectedItem().toString()));
-        String[] SubclassNames = new String[NewCharacter.getPrimaryClass().getSubclasses().size()];
-        for(int i = 0; i < NewCharacter.getPrimaryClass().getSubclasses().size(); i++){
-            if(NewCharacter.getPrimaryClass().getSubclasses().get(i) != null){
-                Log.d("Sub #" + i, NewCharacter.getPrimaryClass().getSubclasses().get(i).getName());
-                SubclassNames[i] = NewCharacter.getPrimaryClass().getSubclasses().get(i).getName();
+        if(Class.getSelectedItem() != null){
+            NewCharacter.setPrimaryClass(Classes.get(Class.getSelectedItem().toString()));
+            SubclassNames = new String[NewCharacter.getPrimaryClass().getSubclasses().size()];
+            for(int i = 0; i < NewCharacter.getPrimaryClass().getSubclasses().size(); i++){
+                if(NewCharacter.getPrimaryClass().getSubclasses().get(i) != null){
+                    Log.d("Sub #" + i, NewCharacter.getPrimaryClass().getSubclasses().get(i).getName());
+                    SubclassNames[i] = NewCharacter.getPrimaryClass().getSubclasses().get(i).getName();
+                }
             }
+            updateSubclass();
         }
-        Log.d("Class Names", "Not updated.");
-        updateSubclass();
     }
 
     public void updateSubclass(){
@@ -441,13 +431,13 @@ public class CharacterCreatorPageOne extends Fragment {
             Log.d("Functional?", "Hell yeah!");
             Log.d("Subclass Selected Item", Subclass.getSelectedItem().toString());
             NewCharacter.getPrimaryClass().setSubclass(Subclasses.get(Subclass.getSelectedItem().toString()));
+            Log.d("Subs", "Updated.");
+            SubclassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
+            Log.d("Adapter", "Reassigned.");
+            SubclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            Log.d("Subs", "Dropdown changed.");
+            Subclass.setAdapter(SubclassAdapter);
+            Log.d("Subclass", "Adapter set.");
         }
-        Log.d("Subs", "Updated.");
-        SubclassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
-        Log.d("Adapter", "Reassigned.");
-        SubclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Log.d("Subs", "Dropdown changed.");
-        Subclass.setAdapter(SubclassAdapter);
-        Log.d("Subclass", "Adapter set.");
     }
 }
