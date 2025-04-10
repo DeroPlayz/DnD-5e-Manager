@@ -12,61 +12,45 @@
         android:id="@+id/character_creator_page_two_flaws"
         android:layout_width="413dp"
         android:layout_height="58dp"
+        android:layout_marginTop="20dp"
         android:hint="Flaws"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_two_ideals" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/character_creator_page_two_about"
         android:layout_width="409dp"
         android:layout_height="58dp"
+        android:layout_marginTop="300dp"
         android:hint="About"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/character_creator_page_two_bonds"
         android:layout_width="405dp"
         android:layout_height="55dp"
+        android:layout_marginTop="20dp"
         android:hint="Bonds"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/character_creator_page_two_personality"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_two_personality" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/character_creator_page_two_ideals"
         android:layout_width="407dp"
         android:layout_height="58dp"
+        android:layout_marginTop="20dp"
         android:hint="Ideals"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517" />
-
-    <Button
-        android:id="@+id/character_creator_page_two_back_button"
-        android:layout_width="68dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="1dp"
-        android:padding="0dp"
-        android:text="back"
-        android:textAlignment="center"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_two_bonds" />
 
     <Spinner
         android:id="@+id/character_creator_page_two_background"
@@ -97,13 +81,11 @@
         android:id="@+id/character_creator_page_two_personality"
         android:layout_width="408dp"
         android:layout_height="54dp"
+        android:layout_marginTop="20dp"
         android:hint="Personality Traits"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_two_about" />
 
     <Button
         android:id="@+id/tocharacterview"
@@ -112,8 +94,21 @@
         android:text="SEE DETAILS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/character_creator_page_two_back_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="0dp"
+        android:text="🔙"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
