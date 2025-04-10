@@ -56,6 +56,7 @@ public class PlayerCharacter {
                 StrengthBonus = StrengthBase / 2;
             } else {
                 StrengthBonus = (int) Math.nextDown((Strength - 10.0) / 2.0);
+                StrengthBonus += Race.getStrengthBonus();
             }
         }
         public int getStrengthBonus(){return StrengthBonus;}
@@ -77,6 +78,7 @@ public class PlayerCharacter {
                 DexterityBonus = DexterityBase / 2;
             } else {
                 DexterityBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
+                DexterityBonus += Race.getDexterityBonus();
             }
         }
         public int getDexterityBonus(){return DexterityBonus;}
@@ -104,6 +106,7 @@ public class PlayerCharacter {
                 ConstitutionBonus = ConstitutionBase / 2;
             } else{
                 ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0) / 2.0);
+                ConstitutionBonus += Race.getConstitutionBonus();
             }
         }
         public int getConstitutionBonus(){return ConstitutionBonus;}
@@ -120,6 +123,7 @@ public class PlayerCharacter {
                 IntelligenceBonus = IntelligenceBase / 2;
             } else {
                 IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0) / 2.0);
+                IntelligenceBonus += Race.getIntelligenceBonus();
             }
         }
         public int getIntelligenceBonus(){return IntelligenceBonus;}
@@ -153,6 +157,7 @@ public class PlayerCharacter {
                 WisdomBonus = WisdomBase / 2;
             } else {
                 WisdomBonus = (int) Math.nextDown((Wisdom - 10.0) / 2.0);
+                WisdomBonus += Race.getWisdomBonus();
             }
         }
         public int getWisdomBonus(){return WisdomBonus;}
@@ -186,6 +191,7 @@ public class PlayerCharacter {
                 CharismaBonus = CharismaBase / 2;
             } else {
                 CharismaBonus = (int) Math.nextDown((Charisma - 10.0) / 2.0);
+                CharismaBonus += Race.getCharismaBonus();
             }
         }
         public int getCharismaBonus(){return CharismaBonus;}
