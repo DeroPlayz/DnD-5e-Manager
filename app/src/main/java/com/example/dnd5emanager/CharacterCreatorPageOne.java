@@ -126,6 +126,8 @@ public class CharacterCreatorPageOne extends Fragment {
         Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
         Charisma.setOnFocusChangeListener(textChanges);
 
+        updateRace();
+
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -381,24 +383,25 @@ public class CharacterCreatorPageOne extends Fragment {
         RaceAL = new ArrayList<Race>(Arrays.asList(Races.values().toArray(new Race[0])));
         RaceNames = new String[RaceAL.size()];
         for(int i = 0; i < RaceNames.length; i++){
-            Log.d("Race", RaceAL.get(i).getName());
+            Log.d("Race #" + i, RaceAL.get(i).getName());
             RaceNames[i] = RaceAL.get(i).getName();
         }
+        Log.d("Race Selected Null?", String.valueOf(Race.getSelectedItem() != null));
         if(Race.getSelectedItem() != null) {
             NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
         }
-        updateSubrace();
+        RaceAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceNames);
+        RaceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Race.setAdapter(RaceAdapter);
+//        updateSubrace();
     }
 
     public void updateSubrace(){
         SubraceAL = new ArrayList<Subrace>(Arrays.asList(Subraces.values().toArray(new Subrace[0])));
         SubraceNames = new String[SubraceAL.size()];
         for(int i = 0; i < SubraceNames.length; i++){
-            Log.d("Subrace Parent", SubraceAL.get(i).getParentRace());
-            Log.d("Matches current race", String.valueOf(SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())));
             if(SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())){
                 SubraceNames[i] = SubraceAL.get(i).getName();
-                Log.d("Subrace Name", SubraceNames[i]);
             }
         }
 
@@ -414,7 +417,7 @@ public class CharacterCreatorPageOne extends Fragment {
             SubclassNames = new String[NewCharacter.getPrimaryClass().getSubclasses().size()];
             for(int i = 0; i < NewCharacter.getPrimaryClass().getSubclasses().size(); i++){
                 if(NewCharacter.getPrimaryClass().getSubclasses().get(i) != null){
-                    Log.d("Sub #" + i, NewCharacter.getPrimaryClass().getSubclasses().get(i).getName());
+                    Log.d("Subclass #" + i, NewCharacter.getPrimaryClass().getSubclasses().get(i).getName());
                     SubclassNames[i] = NewCharacter.getPrimaryClass().getSubclasses().get(i).getName();
                 }
             }
