@@ -69,16 +69,15 @@ public class CharacterList extends Fragment {
             CharacterRace.setText(RaceDisp);
         }
 
+//        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
+//        String LevelDisp = "";
 
-        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
-        String LevelDisp = "";
-
-        if(CurrentCharacter != null) {
-            LevelDisp += CurrentCharacter.getLevel() + " ";
-        }
-        if(CharacterLevel != null){
-            CharacterLevel.setText(LevelDisp);
-        }
+//        if(CurrentCharacter != null) {
+//            LevelDisp += CurrentCharacter.getLevel() + " ";
+//        }
+//        if(CharacterLevel != null){
+//            CharacterLevel.setText(LevelDisp);
+//        }
 
         Spinner CharacterList = view.findViewById(R.id.character_list_choose_character);
 
@@ -91,10 +90,12 @@ public class CharacterList extends Fragment {
         binding.characterListViewSelected.setOnClickListener(v ->{
             if(!Characters.isEmpty()){
                 CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
+                Log.d("View Character", "Found existing character. Viewing it.");
                 NavHostFragment.findNavController(CharacterList.this)
                     .navigate(R.id.goToCharacterView);
             }
             else{
+                Log.d("View Character", "No existing character found. Creating new one.");
                 NavHostFragment.findNavController(CharacterList.this)
                     .navigate(R.id.goToCharacterCreatorPageOne);
             }

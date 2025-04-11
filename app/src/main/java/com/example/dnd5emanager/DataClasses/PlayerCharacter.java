@@ -243,11 +243,11 @@ public class PlayerCharacter {
     }
 
     public int getLevel(){
-        int lev = 0;
+        int Level = 0;
         for (int i = 0; i < PlayerClasses.size(); i++){
-            lev += PlayerClasses.get(i).getLevel();
+            Level += PlayerClasses.get(i).getLevel();
         }
-        return lev;
+        return Level;
     }
 
     int XP = 0;

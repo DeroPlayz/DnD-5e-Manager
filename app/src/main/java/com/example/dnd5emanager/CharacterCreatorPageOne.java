@@ -131,28 +131,19 @@ public class CharacterCreatorPageOne extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 updateRace();
                 if (Race != null) {
-                    Log.d("Race", "Not null");
                     Subrace.setEnabled(true);
-                    Log.d("Subrace", "Enabled");
                     Subrace.setClickable(true);
-                    Log.d("Subrace", "Clickable");
                     Subrace.setVisibility(View.VISIBLE);
-                    Log.d("Subrace", "Visible");
 
                     loadSubraces();
 
-                    Log.d("Subraces?", String.valueOf(Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()));
 
                     if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()) {
                         Subrace.setEnabled(false);
-                        Log.d("Subrace", "Disabled");
                         Subrace.setClickable(false);
-                        Log.d("Subrace", "Unclickable");
                         Subrace.setVisibility(View.INVISIBLE);
-                        Log.d("Subrace", "Invisible");
                     }
                 }
-                Log.d("Updating!", "");
                 updateStats();
             }
 
@@ -167,25 +158,17 @@ public class CharacterCreatorPageOne extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 updateClass();
                 if (Class != null) {
-                    Log.d("Class", "Not null");
                     Subclass.setEnabled(true);
-                    Log.d("Subclass", "Enabled");
                     Subclass.setClickable(true);
-                    Log.d("Subclass", "Clickable");
                     Subclass.setVisibility(View.VISIBLE);
-                    Log.d("Subclass", "Visible");
 
                     loadSubclasses();
 
-                    Log.d("Subclasses?", String.valueOf(Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()));
 
                     if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
                         Subclass.setEnabled(false);
-                        Log.d("Subclass", "Disabled");
                         Subclass.setClickable(false);
-                        Log.d("Subclass", "Unclickable");
                         Subclass.setVisibility(View.INVISIBLE);
-                        Log.d("Subclass", "Invisible");
                     }
                 }
             }
@@ -209,7 +192,6 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneRollHealth.setOnClickListener(v -> {
-            Log.d("Hit Die", String.valueOf(NewCharacter.getPrimaryClass().getHitDieMaxValue()));
             NewCharacter.setMaxHealth((int) (Math.random() * NewCharacter.getPrimaryClass().getHitDieMaxValue()) + 1);
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
@@ -409,7 +391,6 @@ public class CharacterCreatorPageOne extends Fragment {
         RaceAL = new ArrayList<Race>(Arrays.asList(Races.values().toArray(new Race[0])));
         RaceNames = new String[RaceAL.size()];
         for(int i = 0; i < RaceNames.length; i++){
-            Log.d("Race #" + i, RaceAL.get(i).getName());
             RaceNames[i] = RaceAL.get(i).getName();
         }
         Arrays.sort(RaceNames);
@@ -425,7 +406,6 @@ public class CharacterCreatorPageOne extends Fragment {
         for(int i = 0; i < SubraceNames.length; i++) {
             if(NewCharacter.getRace() != null){
                 if (SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())) {
-                    Log.d("Subrace #" + i, SubraceAL.get(i).getName());
                     ValidSubraceNames.add(SubraceAL.get(i).getName());
                 }
             }
@@ -441,7 +421,6 @@ public class CharacterCreatorPageOne extends Fragment {
         ClassAL = new ArrayList<CharacterClass>(Arrays.asList(Classes.values().toArray(new CharacterClass[0])));
         ClassNames = new String[ClassAL.size()];
         for(int i = 0; i < ClassNames.length; i++){
-            Log.d("Class #" + i, SubraceAL.get(i).getName());
             ClassNames[i] = ClassAL.get(i).getName();
         }
         Arrays.sort(ClassNames);
@@ -456,7 +435,6 @@ public class CharacterCreatorPageOne extends Fragment {
         ArrayList<String> ValidSubclassNames = new ArrayList<>();
         for(int i = 0; i < SubclassNames.length; i++){
             if(SubclassAL.get(i).getParentClass().equals(NewCharacter.getPrimaryClass().getName())){
-                Log.d("Subclass #" + i, SubclassAL.get(i).getName());
                 ValidSubclassNames.add(SubclassAL.get(i).getName());
             }
         }
