@@ -73,9 +73,11 @@ public class CharacterMoreInfo extends Fragment {
                     public void onCancel(DialogInterface dialog) {
                         if(which == 0){
                             CurrentCharacter.setAbout(EditLore.getText().toString());
+                            Log.d("CharacterMoreInfo", CurrentCharacter.getAbout());
                         }
                         else if(which == 1){
                             CurrentCharacter.setPersonality(EditLore.getText().toString());
+                            Log.d("CharacterMoreInfo", CurrentCharacter.getPersonality());
                         }
                         else if(which == 2){
                             CurrentCharacter.setBonds(EditLore.getText().toString());
@@ -83,9 +85,11 @@ public class CharacterMoreInfo extends Fragment {
                         }
                         else if(which == 3){
                             CurrentCharacter.setIdeals(EditLore.getText().toString());
+                            Log.d("CharacterMoreInfo", CurrentCharacter.getIdeals());
                         }
                         else if(which == 4){
                             CurrentCharacter.setFlaws(EditLore.getText().toString());
+                            Log.d("CharacterMoreInfo", CurrentCharacter.getFlaws());
                         }
                     }
                 });
@@ -102,7 +106,6 @@ public class CharacterMoreInfo extends Fragment {
 
 
         AlertDialog EditChooseCategory = EditCategoryTitle.create();
-        EditChooseCategory.show();
 
         binding.characterMoreInfoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterMoreInfo.this).navigate(R.id.goToCharacterView);
@@ -112,42 +115,43 @@ public class CharacterMoreInfo extends Fragment {
         binding.characterMoreInfoEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!inEditMode[0]){
-                    About.setEnabled(false);
-                    About.setClickable(false);
-                    About.setVisibility(View.INVISIBLE);
-                    Personality.setEnabled(false);
-                    Personality.setClickable(false);
-                    Personality.setVisibility(View.INVISIBLE);
-                    Bonds.setEnabled(false);
-                    Bonds.setClickable(false);
-                    Bonds.setVisibility(View.INVISIBLE);
-                    Ideals.setEnabled(false);
-                    Ideals.setClickable(false);
-                    Ideals.setVisibility(View.INVISIBLE);
-                    Flaws.setEnabled(false);
-                    Flaws.setClickable(false);
-                    Flaws.setVisibility(View.INVISIBLE);
-                    inEditMode[0] = true;
-                }
-                else if(inEditMode[0]){
-                    About.setEnabled(true);
-                    About.setClickable(true);
-                    About.setVisibility(View.VISIBLE);
-                    Personality.setEnabled(true);
-                    Personality.setClickable(true);
-                    Personality.setVisibility(View.VISIBLE);
-                    Bonds.setEnabled(true);
-                    Bonds.setClickable(true);
-                    Bonds.setVisibility(View.VISIBLE);
-                    Ideals.setEnabled(true);
-                    Ideals.setClickable(true);
-                    Ideals.setVisibility(View.VISIBLE);
-                    Flaws.setEnabled(true);
-                    Flaws.setClickable(true);
-                    Flaws.setVisibility(View.VISIBLE);
-                    inEditMode[0] = false;
-                }
+//                if(!inEditMode[0]){
+//                    About.setEnabled(false);
+//                    About.setClickable(false);
+//                    About.setVisibility(View.INVISIBLE);
+//                    Personality.setEnabled(false);
+//                    Personality.setClickable(false);
+//                    Personality.setVisibility(View.INVISIBLE);
+//                    Bonds.setEnabled(false);
+//                    Bonds.setClickable(false);
+//                    Bonds.setVisibility(View.INVISIBLE);
+//                    Ideals.setEnabled(false);
+//                    Ideals.setClickable(false);
+//                    Ideals.setVisibility(View.INVISIBLE);
+//                    Flaws.setEnabled(false);
+//                    Flaws.setClickable(false);
+//                    Flaws.setVisibility(View.INVISIBLE);
+//                    inEditMode[0] = true;
+//                    EditChooseCategory.show();
+//                }
+//                else if(inEditMode[0]){
+//                    About.setEnabled(true);
+//                    About.setClickable(true);
+//                    About.setVisibility(View.VISIBLE);
+//                    Personality.setEnabled(true);
+//                    Personality.setClickable(true);
+//                    Personality.setVisibility(View.VISIBLE);
+//                    Bonds.setEnabled(true);
+//                    Bonds.setClickable(true);
+//                    Bonds.setVisibility(View.VISIBLE);
+//                    Ideals.setEnabled(true);
+//                    Ideals.setClickable(true);
+//                    Ideals.setVisibility(View.VISIBLE);
+//                    Flaws.setEnabled(true);
+//                    Flaws.setClickable(true);
+//                    Flaws.setVisibility(View.VISIBLE);
+//                    inEditMode[0] = false;
+//                }
             }
         });
     }
