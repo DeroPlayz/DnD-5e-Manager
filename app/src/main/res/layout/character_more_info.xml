@@ -34,6 +34,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierDirection="top" />
+
     <TextView
         android:id="@+id/character_more_info_about"
         android:layout_width="match_parent"
@@ -69,12 +75,6 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_personality" />
-
-    <androidx.constraintlayout.widget.Barrier
-        android:id="@+id/barrier"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:barrierDirection="top" />
 
     <TextView
         android:id="@+id/character_more_info_personality"

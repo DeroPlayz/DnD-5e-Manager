@@ -4,6 +4,7 @@ import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -58,100 +59,121 @@ public class CharacterMoreInfo extends Fragment {
 
         final boolean[] inEditMode = {false};
 
-        EditText EditLore = new EditText(getContext());
+        AlertDialog.Builder LoreEditor = new AlertDialog.Builder(requireContext());
 
-        AlertDialog.Builder EditSelectedLore = new AlertDialog.Builder(getContext());
-        EditSelectedLore.setView(EditLore);
-
-        AlertDialog.Builder EditCategoryTitle = new AlertDialog.Builder(getContext());
-
-        EditCategoryTitle.setItems(new String[]{"Edit About", "Edit Personality", "Edit Bonds", "Edit Ideals", "Edit Flaws"}, new DialogInterface.OnClickListener() {
+        binding.characterMoreInfoAbout.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
-                EditCategoryTitle.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                    @Override
-                    public void onCancel(DialogInterface dialog) {
-                        if(which == 0){
-                            CurrentCharacter.setAbout(EditLore.getText().toString());
-                            Log.d("CharacterMoreInfo", CurrentCharacter.getAbout());
+            public void onClick(View v) {
+                if (inEditMode[0]) {
+                    Log.d("Editing Lore", "About");
+                    EditText EditAbout = new EditText(getContext());
+                    EditAbout.setText(About.getText().toString().replace("About: ", ""));
+                    LoreEditor.setView(EditAbout);
+                    LoreEditor.show();
+                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(DialogInterface dialog) {
+                            About.setText("About: " + EditAbout.getText());
+                            CurrentCharacter.setAbout(EditAbout.getText().toString());
                         }
-                        else if(which == 1){
-                            CurrentCharacter.setPersonality(EditLore.getText().toString());
-                            Log.d("CharacterMoreInfo", CurrentCharacter.getPersonality());
-                        }
-                        else if(which == 2){
-                            CurrentCharacter.setBonds(EditLore.getText().toString());
-                            Log.d("CharacterMoreInfo", CurrentCharacter.getBonds());
-                        }
-                        else if(which == 3){
-                            CurrentCharacter.setIdeals(EditLore.getText().toString());
-                            Log.d("CharacterMoreInfo", CurrentCharacter.getIdeals());
-                        }
-                        else if(which == 4){
-                            CurrentCharacter.setFlaws(EditLore.getText().toString());
-                            Log.d("CharacterMoreInfo", CurrentCharacter.getFlaws());
-                        }
-                    }
-                });
-                if(which == 0){
-                    EditLore.setText(CurrentCharacter.getAbout());
-                    EditSelectedLore.show();
-                }
-                else if(which == 1){
-                    EditLore.setText(CurrentCharacter.getPersonality());
-                    EditSelectedLore.show();
+                    });
                 }
             }
         });
 
+        binding.characterMoreInfoPersonality.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (inEditMode[0]) {
+                    Log.d("Editing Lore", "Personality");
+                    EditText EditPersonality = new EditText(getContext());
+                    EditPersonality.setText(Personality.getText().toString().replace("Personality Traits: ", ""));
+                    LoreEditor.setView(EditPersonality);
+                    LoreEditor.show();
+                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(DialogInterface dialog) {
+                            Personality.setText("Personality Traits: " + EditPersonality.getText());
+                            CurrentCharacter.setPersonality(EditPersonality.getText().toString());
+                        }
+                    });
+                }
+            }
+        });
 
-        AlertDialog EditChooseCategory = EditCategoryTitle.create();
+        binding.characterMoreInfoBonds.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (inEditMode[0]) {
+                    Log.d("Editing Lore", "Bonds");
+                    EditText EditBonds = new EditText(getContext());
+                    EditBonds.setText(Bonds.getText().toString().replace("Bonds: ", ""));
+                    LoreEditor.setView(EditBonds);
+                    LoreEditor.show();
+                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(DialogInterface dialog) {
+                            Bonds.setText("Bonds: " + EditBonds.getText());
+                            CurrentCharacter.setBonds(EditBonds.getText().toString());
+                        }
+                    });
+                }
+            }
+        });
+
+        binding.characterMoreInfoIdeals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (inEditMode[0]) {
+                    Log.d("Editing Lore", "Ideals");
+                    EditText EditIdeals = new EditText(getContext());
+                    EditIdeals.setText(Ideals.getText().toString().replace("Ideals: ", ""));
+                    LoreEditor.setView(EditIdeals);
+                    LoreEditor.show();
+                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(DialogInterface dialog) {
+                            Ideals.setText("Ideals: " + EditIdeals.getText());
+                            CurrentCharacter.setIdeals(EditIdeals.getText().toString());
+                        }
+                    });
+                }
+            }
+        });
+
+        binding.characterMoreInfoFlaws.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (inEditMode[0]) {
+                    Log.d("Editing Lore", "Flaws");
+                    EditText EditFlaws = new EditText(getContext());
+                    EditFlaws.setText(Flaws.getText().toString().replace("Flaws: ", ""));
+                    LoreEditor.setView(EditFlaws);
+                    LoreEditor.show();
+                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(DialogInterface dialog) {
+                            Flaws.setText("Flaws: " + EditFlaws.getText());
+                            CurrentCharacter.setFlaws(EditFlaws.getText().toString());
+                        }
+                    });
+                }
+            }
+        });
 
         binding.characterMoreInfoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterMoreInfo.this).navigate(R.id.goToCharacterView);
         });
 
-
         binding.characterMoreInfoEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                if(!inEditMode[0]){
-//                    About.setEnabled(false);
-//                    About.setClickable(false);
-//                    About.setVisibility(View.INVISIBLE);
-//                    Personality.setEnabled(false);
-//                    Personality.setClickable(false);
-//                    Personality.setVisibility(View.INVISIBLE);
-//                    Bonds.setEnabled(false);
-//                    Bonds.setClickable(false);
-//                    Bonds.setVisibility(View.INVISIBLE);
-//                    Ideals.setEnabled(false);
-//                    Ideals.setClickable(false);
-//                    Ideals.setVisibility(View.INVISIBLE);
-//                    Flaws.setEnabled(false);
-//                    Flaws.setClickable(false);
-//                    Flaws.setVisibility(View.INVISIBLE);
-//                    inEditMode[0] = true;
-//                    EditChooseCategory.show();
-//                }
-//                else if(inEditMode[0]){
-//                    About.setEnabled(true);
-//                    About.setClickable(true);
-//                    About.setVisibility(View.VISIBLE);
-//                    Personality.setEnabled(true);
-//                    Personality.setClickable(true);
-//                    Personality.setVisibility(View.VISIBLE);
-//                    Bonds.setEnabled(true);
-//                    Bonds.setClickable(true);
-//                    Bonds.setVisibility(View.VISIBLE);
-//                    Ideals.setEnabled(true);
-//                    Ideals.setClickable(true);
-//                    Ideals.setVisibility(View.VISIBLE);
-//                    Flaws.setEnabled(true);
-//                    Flaws.setClickable(true);
-//                    Flaws.setVisibility(View.VISIBLE);
-//                    inEditMode[0] = false;
-//                }
+                if(!inEditMode[0]){
+                    inEditMode[0] = true;
+                }
+                else if(inEditMode[0]){
+                    inEditMode[0] = false;
+                }
             }
         });
     }
