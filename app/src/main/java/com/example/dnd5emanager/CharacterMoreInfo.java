@@ -57,124 +57,102 @@ public class CharacterMoreInfo extends Fragment {
         Ideals.setText(IdealsVal);
         Flaws.setText(FlawsVal);
 
-        final boolean[] inEditMode = {false};
-
         AlertDialog.Builder LoreEditor = new AlertDialog.Builder(requireContext());
+
+//Log.d("Current About Edit", EditAbout.getText().toString());
 
         binding.characterMoreInfoAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (inEditMode[0]) {
                     Log.d("Editing Lore", "About");
                     EditText EditAbout = new EditText(getContext());
                     EditAbout.setText(About.getText().toString().replace("About: ", ""));
-                    LoreEditor.setView(EditAbout);
-                    LoreEditor.show();
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            About.setText("About: " + EditAbout.getText());
+                            About.setText("About: " + EditAbout.getText().toString());
                             CurrentCharacter.setAbout(EditAbout.getText().toString());
                         }
                     });
-                }
+                    LoreEditor.setView(EditAbout);
+                    LoreEditor.show();
             }
         });
 
         binding.characterMoreInfoPersonality.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (inEditMode[0]) {
                     Log.d("Editing Lore", "Personality");
                     EditText EditPersonality = new EditText(getContext());
                     EditPersonality.setText(Personality.getText().toString().replace("Personality Traits: ", ""));
-                    LoreEditor.setView(EditPersonality);
-                    LoreEditor.show();
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Personality.setText("Personality Traits: " + EditPersonality.getText());
+                            Personality.setText("Personality Traits: " + EditPersonality.getText().toString());
                             CurrentCharacter.setPersonality(EditPersonality.getText().toString());
                         }
                     });
-                }
+                    LoreEditor.setView(EditPersonality);
+                    LoreEditor.show();
             }
         });
 
         binding.characterMoreInfoBonds.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (inEditMode[0]) {
                     Log.d("Editing Lore", "Bonds");
                     EditText EditBonds = new EditText(getContext());
                     EditBonds.setText(Bonds.getText().toString().replace("Bonds: ", ""));
-                    LoreEditor.setView(EditBonds);
-                    LoreEditor.show();
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Bonds.setText("Bonds: " + EditBonds.getText());
+                            Bonds.setText("Bonds: " + EditBonds.getText().toString());
                             CurrentCharacter.setBonds(EditBonds.getText().toString());
                         }
                     });
-                }
+                    LoreEditor.setView(EditBonds);
+                    LoreEditor.show();
             }
         });
 
         binding.characterMoreInfoIdeals.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (inEditMode[0]) {
                     Log.d("Editing Lore", "Ideals");
                     EditText EditIdeals = new EditText(getContext());
                     EditIdeals.setText(Ideals.getText().toString().replace("Ideals: ", ""));
-                    LoreEditor.setView(EditIdeals);
-                    LoreEditor.show();
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Ideals.setText("Ideals: " + EditIdeals.getText());
+                            Ideals.setText("Ideals: " + EditIdeals.getText().toString());
                             CurrentCharacter.setIdeals(EditIdeals.getText().toString());
                         }
                     });
-                }
+                    LoreEditor.setView(EditIdeals);
+                    LoreEditor.show();
             }
         });
 
         binding.characterMoreInfoFlaws.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (inEditMode[0]) {
                     Log.d("Editing Lore", "Flaws");
                     EditText EditFlaws = new EditText(getContext());
                     EditFlaws.setText(Flaws.getText().toString().replace("Flaws: ", ""));
-                    LoreEditor.setView(EditFlaws);
-                    LoreEditor.show();
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Flaws.setText("Flaws: " + EditFlaws.getText());
+                            Flaws.setText("Flaws: " + EditFlaws.getText().toString());
                             CurrentCharacter.setFlaws(EditFlaws.getText().toString());
                         }
                     });
-                }
+                    LoreEditor.setView(EditFlaws);
+                    LoreEditor.show();
             }
         });
 
         binding.characterMoreInfoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterMoreInfo.this).navigate(R.id.goToCharacterView);
-        });
-
-        binding.characterMoreInfoEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(!inEditMode[0]){
-                    inEditMode[0] = true;
-                }
-                else if(inEditMode[0]){
-                    inEditMode[0] = false;
-                }
-            }
         });
     }
 

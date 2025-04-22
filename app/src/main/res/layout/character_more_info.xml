@@ -21,19 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/character_more_info_edit"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="1dp"
-        android:backgroundTint="#00FFFFFF"
-        android:padding="0dp"
-        android:text="✏"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
         android:layout_width="0dp"
