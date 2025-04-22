@@ -3,6 +3,7 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,7 @@ public class CharacterView extends Fragment {
     TextView CharacterName;
     TextView CharacterRace;
     TextView CharacterClass;
+    TextView InitiativeBonus;
     TextView Strength;
     TextView StrengthValue;
     TextView StrengthMod;
@@ -67,11 +69,16 @@ public class CharacterView extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        Methods.saveCharacter(requireContext(), CurrentCharacter);
+
         CharacterName = view.findViewById(R.id.characterName);
 
         CharacterRace = view.findViewById(R.id.characterRace);
 
         CharacterClass = view.findViewById(R.id.characterClass);
+
+        InitiativeBonus = view.findViewById(R.id.character_view_initiative_bonus_value);
 
         Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
         StrengthValue = view.findViewById(R.id.character_view_strength_value);
@@ -107,14 +114,24 @@ public class CharacterView extends Fragment {
         MaxHealth = view.findViewById(R.id.character_view_max_health);
 
         updateName();
+        if(CurrentCharacter.getRace() != null) {
+            Log.d("Race Before", CurrentCharacter.getRace().getName());
+        }
+        else{
+            Log.d("Race Before", "Null");
+        }
         updateRace();
+        Log.d("Race After", CurrentCharacter.getRace().getName());
         updateClass();
         updateStats();
         updateHealth();
 
+        binding.movementLayout.setOnClickListener(v -> {
+            Log.d("Hi!", "That's all!");
+        });
+
         binding.characterViewBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
-            Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
 
         binding.characterViewDeleteCharacter.setOnClickListener(v -> {
@@ -148,6 +165,7 @@ public class CharacterView extends Fragment {
 
     public void updateRace(){
         String DisplayRace = "";
+        Log.d("Is Race Null?", String.valueOf(CurrentCharacter.getRace() == null));
         if(CurrentCharacter.getRace() != null) {
             if (CurrentCharacter.getRace().HasSubraces()) {
                 //If a subrace exists, it will prioritize displaying that, because it's more detailed.
@@ -195,13 +213,17 @@ public class CharacterView extends Fragment {
     }
 
     public void updateDexterity(){
+        CurrentCharacter.setDexterity();
         CurrentCharacter.setDexterityBonus();
         DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
         DexterityMod.setText(String.valueOf(CurrentCharacter.getDexterityBonus()));
         DexteritySave.setText(String.valueOf(CurrentCharacter.getDexteritySave()));
+        CurrentCharacter.setInitiativeBonus();
+        InitiativeBonus.setText(String.valueOf(CurrentCharacter.getInitiativeBonus()));
     }
 
     public void updateConstitution(){
+        CurrentCharacter.setConstitution();
         CurrentCharacter.setConstitutionBonus();
         ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
         ConstitutionMod.setText(String.valueOf(CurrentCharacter.getConstitutionBonus()));
@@ -209,6 +231,7 @@ public class CharacterView extends Fragment {
     }
 
     public void updateIntelligence(){
+        CurrentCharacter.setIntelligence();
         CurrentCharacter.setIntelligenceBonus();
         IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
         IntelligenceMod.setText(String.valueOf(CurrentCharacter.getIntelligenceBonus()));
@@ -216,6 +239,7 @@ public class CharacterView extends Fragment {
     }
 
     public void updateWisdom(){
+        CurrentCharacter.setWisdom();
         CurrentCharacter.setWisdomBonus();
         WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
         WisdomMod.setText(String.valueOf(CurrentCharacter.getWisdomBonus()));
@@ -223,6 +247,7 @@ public class CharacterView extends Fragment {
     }
 
     public void updateCharisma(){
+        CurrentCharacter.setCharisma();
         CurrentCharacter.setCharismaBonus();
         CharismaValue.setText(String.valueOf(CurrentCharacter.getCharisma()));
         CharismaMod.setText(String.valueOf(CurrentCharacter.getCharismaBonus()));

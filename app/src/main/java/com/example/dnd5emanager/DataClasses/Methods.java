@@ -51,7 +51,7 @@ public class Methods {
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
         for(int i = 0; i < Objects.requireNonNull(files).length - 1; i++){
             PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
-            Characters.put(tempGuy.getName(), tempGuy);
+//            Characters.put(tempGuy.getName(), tempGuy);
         }
     }
 
@@ -91,13 +91,21 @@ public class Methods {
         try {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", character.getName());
+            jsonObject.put("race", character.getRace());
+            jsonObject.put("subrace", character.getSubrace());
+            jsonObject.put("classes", character.getPlayerClasses());
+            jsonObject.put("strength", character.getFlaws());
+            jsonObject.put("dexterity", character.getFlaws());
+            jsonObject.put("constitution", character.getFlaws());
+            jsonObject.put("intelligence", character.getFlaws());
+            jsonObject.put("wisdom", character.getFlaws());
+            jsonObject.put("charisma", character.getFlaws());
+            jsonObject.put("alignment", character.getAlignment());
             jsonObject.put("about", character.getAbout());
             jsonObject.put("personality", character.getPersonality());
             jsonObject.put("ideals", character.getIdeals());
             jsonObject.put("bonds", character.getBonds());
             jsonObject.put("flaws", character.getFlaws());
-
-            // ... add other attributes ...
 
             String jsonString = jsonObject.toString();
 
@@ -134,6 +142,21 @@ public class Methods {
             character.setPersonality(jsonObject.optString("personality", ""));
             character.setBonds(jsonObject.optString("bonds", ""));
             character.setIdeals(jsonObject.optString("ideals", ""));
+            character.setFlaws(jsonObject.optString("flaws", ""));
+            character.setName(jsonObject.optString("name", ""));
+            character.setRace(Races.get(jsonObject.optString("race", "")));
+            character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
+            character.setBaseStrength(jsonObject.optInt("strength", 0));
+            character.setBaseDexterity(jsonObject.optInt("dexterity", 0));
+            character.setBaseConstitution(jsonObject.optInt("constitution", 0));
+            character.setBaseIntelligence(jsonObject.optInt("intelligence", 0));
+            character.setBaseWisdom(jsonObject.optInt("wisdom", 0));
+            character.setBaseCharisma(jsonObject.optInt("charisma", 0));
+            character.setAlignment(jsonObject.optString("alignment", ""));
+            character.setAbout(jsonObject.optString("about", ""));
+            character.setPersonality(jsonObject.optString("personality", ""));
+            character.setIdeals(jsonObject.optString("ideals", ""));
+            character.setBonds(jsonObject.optString("bonds", ""));
             character.setFlaws(jsonObject.optString("flaws", ""));
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());

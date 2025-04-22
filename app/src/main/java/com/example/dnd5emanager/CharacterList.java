@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.Constants;
+import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.databinding.CharacterListBinding;
 
 import java.io.File;
@@ -90,6 +91,13 @@ public class CharacterList extends Fragment {
         binding.characterListViewSelected.setOnClickListener(v ->{
             if(!Characters.isEmpty()){
                 CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
+                Methods.saveCharacter(requireContext(), CurrentCharacter);
+
+                // Delete all characters when they're being funky.
+//                File file = new File(requireContext().getFilesDir(), CurrentCharacter.getName() + ".json");
+//                file.delete();
+
+                Log.d("Current Character", CurrentCharacter.toString());
                 Log.d("View Character", "Found existing character. Viewing it.");
                 NavHostFragment.findNavController(CharacterList.this)
                     .navigate(R.id.goToCharacterView);

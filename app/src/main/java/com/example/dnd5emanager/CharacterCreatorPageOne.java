@@ -276,23 +276,23 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneRollStats.setOnClickListener(v -> {
-            NewCharacter.setStrength(setStat());
-            Strength.setText(String.valueOf(NewCharacter.getStrength()));
+            NewCharacter.setBaseStrength(setStat());
+            Strength.setText(String.valueOf(NewCharacter.getBaseStrength()));
 
-            NewCharacter.setDexterity(setStat());
-            Dexterity.setText(String.valueOf(NewCharacter.getDexterity()));
+            NewCharacter.setBaseDexterity(setStat());
+            Dexterity.setText(String.valueOf(NewCharacter.getBaseDexterity()));
 
-            NewCharacter.setConstitution(setStat());
-            Constitution.setText(String.valueOf(NewCharacter.getConstitution()));
+            NewCharacter.setBaseConstitution(setStat());
+            Constitution.setText(String.valueOf(NewCharacter.getBaseConstitution()));
 
-            NewCharacter.setIntelligence(setStat());
-            Intelligence.setText(String.valueOf(NewCharacter.getIntelligence()));
+            NewCharacter.setBaseIntelligence(setStat());
+            Intelligence.setText(String.valueOf(NewCharacter.getBaseIntelligence()));
 
-            NewCharacter.setWisdom(setStat());
-            Wisdom.setText(String.valueOf(NewCharacter.getWisdom()));
+            NewCharacter.setBaseWisdom(setStat());
+            Wisdom.setText(String.valueOf(NewCharacter.getBaseWisdom()));
 
-            NewCharacter.setCharisma(setStat());
-            Charisma.setText(String.valueOf(NewCharacter.getCharisma()));
+            NewCharacter.setBaseCharisma(setStat());
+            Charisma.setText(String.valueOf(NewCharacter.getBaseCharisma()));
         });
 
     }
@@ -343,34 +343,34 @@ public class CharacterCreatorPageOne extends Fragment {
 
     public void updateStats(){
         if(!Strength.getText().toString().isEmpty()){
-            NewCharacter.setStrength(Integer.parseInt(Strength.getText().toString()));
+            NewCharacter.setBaseStrength(Integer.parseInt(Strength.getText().toString()));
         }
-        else{NewCharacter.setStrength(0);}
+        else{NewCharacter.setBaseStrength(0);}
 
         if(!Dexterity.getText().toString().isEmpty()){
-            NewCharacter.setDexterity(Integer.parseInt(Dexterity.getText().toString()));
+            NewCharacter.setBaseDexterity(Integer.parseInt(Dexterity.getText().toString()));
         }
-        else{NewCharacter.setDexterity(0);}
+        else{NewCharacter.setBaseDexterity(0);}
 
         if(!Constitution.getText().toString().isEmpty()){
-            NewCharacter.setConstitution(Integer.parseInt(Constitution.getText().toString()));
+            NewCharacter.setBaseConstitution(Integer.parseInt(Constitution.getText().toString()));
         }
-        else{NewCharacter.setConstitution(0);}
+        else{NewCharacter.setBaseConstitution(0);}
 
         if(!Intelligence.getText().toString().isEmpty()){
-            NewCharacter.setIntelligence(Integer.parseInt(Intelligence.getText().toString()));
+            NewCharacter.setBaseIntelligence(Integer.parseInt(Intelligence.getText().toString()));
         }
-        else{NewCharacter.setIntelligence(0);}
+        else{NewCharacter.setBaseIntelligence(0);}
 
         if(!Wisdom.getText().toString().isEmpty()){
-            NewCharacter.setWisdom(Integer.parseInt(Wisdom.getText().toString()));
+            NewCharacter.setBaseWisdom(Integer.parseInt(Wisdom.getText().toString()));
         }
-        else{NewCharacter.setWisdom(0);}
+        else{NewCharacter.setBaseWisdom(0);}
 
         if(!Charisma.getText().toString().isEmpty()){
-            NewCharacter.setCharisma(Integer.parseInt(Charisma.getText().toString()));
+            NewCharacter.setBaseCharisma(Integer.parseInt(Charisma.getText().toString()));
         }
-        else{NewCharacter.setCharisma(0);}
+        else{NewCharacter.setBaseCharisma(0);}
 
         NewCharacter.setStrengthBonus();
         NewCharacter.setDexterityBonus();
