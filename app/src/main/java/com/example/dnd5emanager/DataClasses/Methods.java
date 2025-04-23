@@ -49,9 +49,10 @@ public class Methods {
         AssetManager AM = c.getAssets();
         Characters.clear();
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
-        for(int i = 0; i < Objects.requireNonNull(files).length - 1; i++){
+        for(int i = 0; i < Objects.requireNonNull(files).length; i++){
             PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
-//            Characters.put(tempGuy.getName(), tempGuy);
+            Log.d("Temp Guy", tempGuy.getName());
+            Characters.put(tempGuy.getName(), tempGuy);
         }
     }
 
@@ -91,21 +92,45 @@ public class Methods {
         try {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", character.getName());
-            jsonObject.put("race", character.getRace());
-            jsonObject.put("subrace", character.getSubrace());
-            jsonObject.put("classes", character.getPlayerClasses());
-            jsonObject.put("strength", character.getFlaws());
-            jsonObject.put("dexterity", character.getFlaws());
-            jsonObject.put("constitution", character.getFlaws());
-            jsonObject.put("intelligence", character.getFlaws());
-            jsonObject.put("wisdom", character.getFlaws());
-            jsonObject.put("charisma", character.getFlaws());
+            jsonObject.put("race", character.getRace().getName());
+            if(character.getRace().HasSubraces()){
+                jsonObject.put("subrace", character.getSubrace().getName());
+            }
+            JSONArray Classes = new JSONArray();
+            JSONArray Subclasses = new JSONArray();
+            for(int i = 0; i < character.getPlayerClasses().size(); i++){
+                Classes.put(character.getPlayerClasses().get(i).getName());
+                if(character.getPlayerClasses().get(i).HasSubclasses()) {
+                    Subclasses.put(character.getPlayerClasses().get(i).getSubclass());
+                }
+            }
+            jsonObject.put("classes", Classes);
+            jsonObject.put("subclasses", Subclasses);
+            jsonObject.put("strength", character.getStrength());
+            jsonObject.put("dexterity", character.getDexterity());
+            jsonObject.put("constitution", character.getConstitution());
+            jsonObject.put("intelligence", character.getIntelligence());
+            jsonObject.put("wisdom", character.getWisdom());
+            jsonObject.put("charisma", character.getCharisma());
             jsonObject.put("alignment", character.getAlignment());
             jsonObject.put("about", character.getAbout());
             jsonObject.put("personality", character.getPersonality());
             jsonObject.put("ideals", character.getIdeals());
             jsonObject.put("bonds", character.getBonds());
             jsonObject.put("flaws", character.getFlaws());
+
+            Log.d("Saved Name", String.valueOf(character.getName()));
+            Log.d("Saved Race", String.valueOf(character.getRace().getName()));
+            if(character.getRace().HasSubraces()) {
+                Log.d("Saved Subrace", String.valueOf(character.getSubrace().getName()));
+            }
+            Log.d("Saved Player Classes", String.valueOf(character.getPlayerClasses()));
+            Log.d("Saved Alignment", String.valueOf(character.getAlignment()));
+            Log.d("Saved About", String.valueOf(character.getAbout()));
+            Log.d("Saved Personality", String.valueOf(character.getPersonality()));
+            Log.d("Saved Ideals", String.valueOf(character.getIdeals()));
+            Log.d("Saved Bonds", String.valueOf(character.getBonds()));
+            Log.d("Saved Flaws", String.valueOf(character.getFlaws()));
 
             String jsonString = jsonObject.toString();
 
@@ -138,12 +163,6 @@ public class Methods {
 
             PlayerCharacter character = new PlayerCharacter();
             character.setName(jsonObject.optString("name", ""));
-            character.setAbout(jsonObject.optString("about", ""));
-            character.setPersonality(jsonObject.optString("personality", ""));
-            character.setBonds(jsonObject.optString("bonds", ""));
-            character.setIdeals(jsonObject.optString("ideals", ""));
-            character.setFlaws(jsonObject.optString("flaws", ""));
-            character.setName(jsonObject.optString("name", ""));
             character.setRace(Races.get(jsonObject.optString("race", "")));
             character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
             character.setBaseStrength(jsonObject.optInt("strength", 0));
@@ -158,6 +177,22 @@ public class Methods {
             character.setIdeals(jsonObject.optString("ideals", ""));
             character.setBonds(jsonObject.optString("bonds", ""));
             character.setFlaws(jsonObject.optString("flaws", ""));
+
+            Log.d("Loaded Name", jsonObject.optString("name", ""));
+            Log.d("Loaded Race", jsonObject.optString("race", ""));
+            Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
+            Log.d("Loaded Strength", String.valueOf((jsonObject.optInt("strength", 0))));
+            Log.d("Loaded Dexterity", String.valueOf((jsonObject.optInt("dexterity", 0))));
+            Log.d("Loaded Constitution", String.valueOf((jsonObject.optInt("constitution", 0))));
+            Log.d("Loaded Intelligence", String.valueOf((jsonObject.optInt("intelligence", 0))));
+            Log.d("Loaded Wisdom", String.valueOf((jsonObject.optInt("wisdom", 0))));
+            Log.d("Loaded Charisma", String.valueOf((jsonObject.optInt("charisma", 0))));
+            Log.d("Loaded Alignment", jsonObject.optString("alignment", ""));
+            Log.d("Loaded About", jsonObject.optString("about", ""));
+            Log.d("Loaded Personality", jsonObject.optString("personality", ""));
+            Log.d("Loaded Ideals", jsonObject.optString("ideals", ""));
+            Log.d("Loaded Bonds", jsonObject.optString("bonds", ""));
+            Log.d("Loaded Flaws", jsonObject.optString("flaws", ""));
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
             return character;

@@ -134,10 +134,7 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setEnabled(true);
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
-
                     loadSubraces();
-
-
                     if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()) {
                         Subrace.setEnabled(false);
                         Subrace.setClickable(false);
@@ -161,10 +158,7 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subclass.setEnabled(true);
                     Subclass.setClickable(true);
                     Subclass.setVisibility(View.VISIBLE);
-
                     loadSubclasses();
-
-
                     if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
                         Subclass.setEnabled(false);
                         Subclass.setClickable(false);
@@ -267,6 +261,12 @@ public class CharacterCreatorPageOne extends Fragment {
             }
             else{
                 update();
+                if(Race.getSelectedItem() == null){
+                    NewCharacter.setRace(Races.get("Aarakocra"));
+                }
+                if(Class.getSelectedItem() == null){
+                    NewCharacter.setPrimaryClass(Classes.get("Artificer"));
+                }
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
             }
         });
@@ -447,11 +447,13 @@ public class CharacterCreatorPageOne extends Fragment {
 
     public void updateRace(){
         NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
+        Log.d("Updated Race", NewCharacter.getRace().getName());
     };
 
     public void updateSubrace(){
         if(NewCharacter.getRace().HasSubraces()){
             NewCharacter.setSubrace(Subraces.get(Subrace.getSelectedItem().toString()));
+            Log.d("Updated Subrace", NewCharacter.getSubrace().getName());
         }
     }
 

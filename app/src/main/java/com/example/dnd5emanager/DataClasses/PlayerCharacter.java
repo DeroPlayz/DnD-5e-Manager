@@ -385,12 +385,4 @@ public class PlayerCharacter {
         setCharismaBonus();
         setProficiencyBonus();
     }
-
-    public String toString(){
-        String s = "Character Name: " + Name +
-            "\nCharacter Race: " + Race.getName() +
-            "\nCharacter Class: " + PlayerClasses.get(0).getName() +
-            "\nCharacter Level: " + getLevel();
-        return s;
-    }
 }

@@ -21,6 +21,7 @@ import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.databinding.CharacterListBinding;
 
 import java.io.File;
+import java.util.Arrays;
 
 public class CharacterList extends Fragment {
 
@@ -55,24 +56,23 @@ public class CharacterList extends Fragment {
                         .navigate(R.id.goToCharacterCreatorPageOne)
         );
 
-        TextView CharacterRace = view.findViewById(R.id.characterRace);
-        String RaceDisp = "";
-        if(CurrentCharacter != null && CurrentCharacter.getRace() != null) {
-            if (CurrentCharacter.getRace().HasSubraces()) {
-                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
-                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
-            } else {
-                //When no subrace is present, the "base" race is shown.
-                RaceDisp += CurrentCharacter.getRace().getName();
-            }
-        }
-        if(CharacterRace != null){
-            CharacterRace.setText(RaceDisp);
-        }
+//        TextView CharacterRace = view.findViewById(R.id.characterRace);
+//        String RaceDisp = "";
+//        if(CurrentCharacter != null && CurrentCharacter.getRace() != null) {
+//            if (CurrentCharacter.getRace().HasSubraces()) {
+//                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+//                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+//            } else {
+//                //When no subrace is present, the "base" race is shown.
+//                RaceDisp += CurrentCharacter.getRace().getName();
+//            }
+//        }
+//        if(CharacterRace != null){
+//            CharacterRace.setText(RaceDisp);
+//        }
 
 //        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
 //        String LevelDisp = "";
-
 //        if(CurrentCharacter != null) {
 //            LevelDisp += CurrentCharacter.getLevel() + " ";
 //        }
@@ -85,19 +85,15 @@ public class CharacterList extends Fragment {
         LoadFromInternalStorage(requireContext());
 
         String[] CharacterNames = Characters.keySet().toArray(new String[0]);
+        Log.d("Character Names", Arrays.toString(CharacterNames));
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, CharacterNames);
         Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         CharacterList.setAdapter(Adapter);
         binding.characterListViewSelected.setOnClickListener(v ->{
             if(!Characters.isEmpty()){
-                CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
-                Methods.saveCharacter(requireContext(), CurrentCharacter);
-
-                // Delete all characters when they're being funky.
-//                File file = new File(requireContext().getFilesDir(), CurrentCharacter.getName() + ".json");
-//                file.delete();
-
-                Log.d("Current Character", CurrentCharacter.toString());
+//                CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
+                CurrentCharacter = Methods.loadCharacter(requireContext(), CharacterList.getSelectedItem().toString() + ".json");
+                Log.d("Current Character", CurrentCharacter.getName());
                 Log.d("View Character", "Found existing character. Viewing it.");
                 NavHostFragment.findNavController(CharacterList.this)
                     .navigate(R.id.goToCharacterView);

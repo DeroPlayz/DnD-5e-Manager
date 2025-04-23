@@ -121,7 +121,7 @@ public class CharacterView extends Fragment {
             Log.d("Race Before", "Null");
         }
         updateRace();
-        Log.d("Race After", CurrentCharacter.getRace().getName());
+//        Log.d("Race After", CurrentCharacter.getRace().getName());
         updateClass();
         updateStats();
         updateHealth();
@@ -165,7 +165,6 @@ public class CharacterView extends Fragment {
 
     public void updateRace(){
         String DisplayRace = "";
-        Log.d("Is Race Null?", String.valueOf(CurrentCharacter.getRace() == null));
         if(CurrentCharacter.getRace() != null) {
             if (CurrentCharacter.getRace().HasSubraces()) {
                 //If a subrace exists, it will prioritize displaying that, because it's more detailed.
