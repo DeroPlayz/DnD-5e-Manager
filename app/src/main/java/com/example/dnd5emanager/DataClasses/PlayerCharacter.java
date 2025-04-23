@@ -29,6 +29,12 @@ public class PlayerCharacter {
             return MaxHealth;
         }
 
+    private int InitiativeBonus;
+        public void setInitiativeBonus() {
+            InitiativeBonus = getDexterityBonus();
+        }
+        public int getInitiativeBonus(){return InitiativeBonus;}
+
     private int ProficiencyBonus;
         public void setProficiencyBonus() {
             if (ProficiencyBonus % 4 == 0) {
@@ -42,9 +48,12 @@ public class PlayerCharacter {
         }
 
     //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
+    private int BaseStrength;
+        public void setBaseStrength(int BaseStrength){this.BaseStrength = BaseStrength;}
+        public int getBaseStrength(){return BaseStrength;}
     private int Strength;
-        public void setStrength(int Strength) {
-            this.Strength = Strength;
+        public void setStrength() {
+            Strength = BaseStrength + Race.getStrengthBonus();
         }
         public int getStrength() {
             return Strength;
@@ -56,6 +65,7 @@ public class PlayerCharacter {
                 StrengthBonus = StrengthBase / 2;
             } else {
                 StrengthBonus = (int) Math.nextDown((Strength - 10.0) / 2.0);
+                StrengthBonus += Race.getStrengthBonus();
             }
         }
         public int getStrengthBonus(){return StrengthBonus;}
@@ -65,9 +75,12 @@ public class PlayerCharacter {
         public int getAthletics(){return Athletics;}
 
     //Dexterity is used for maneuvering or other more coordination-based actions.
+    private int BaseDexterity;
+        public void setBaseDexterity(int BaseDexterity){this.BaseDexterity = BaseDexterity;}
+        public int getBaseDexterity(){return BaseDexterity;}
     private int Dexterity;
-        public void setDexterity(int Dexterity) {
-            this.Dexterity= Dexterity;
+        public void setDexterity() {
+            Dexterity = BaseDexterity + Race.getDexterityBonus();
         }
         public int getDexterity(){return Dexterity;}
     private int DexterityBonus;
@@ -77,6 +90,7 @@ public class PlayerCharacter {
                 DexterityBonus = DexterityBase / 2;
             } else {
                 DexterityBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
+                DexterityBonus += Race.getDexterityBonus();
             }
         }
         public int getDexterityBonus(){return DexterityBonus;}
@@ -94,8 +108,11 @@ public class PlayerCharacter {
     //Constitution determines your ability to take a blow or deal with anything else without
     //faltering; playing an in-game drinking game and trying not to pass out?
     //Roll Constitution! Trying to maintain a spell's effect every turn? Roll Constitution!
+    private int BaseConstitution;
+        public void setBaseConstitution(int BaseConstitution){this.BaseConstitution = BaseConstitution;}
+        public int getBaseConstitution(){return BaseConstitution;}
     private int Constitution;
-        public void setConstitution(int Constitution){this.Constitution = Constitution;}
+        public void setConstitution(){Constitution = BaseConstitution + Race.getConstitutionBonus();}
         public int getConstitution(){return Constitution;}
     private int ConstitutionBonus;
         public void setConstitutionBonus() {
@@ -104,14 +121,18 @@ public class PlayerCharacter {
                 ConstitutionBonus = ConstitutionBase / 2;
             } else{
                 ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0) / 2.0);
+                ConstitutionBonus += Race.getConstitutionBonus();
             }
         }
         public int getConstitutionBonus(){return ConstitutionBonus;}
         public int getConstitutionSave(){return ConstitutionBonus;}
 
     //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
+    private int BaseIntelligence;
+        public void setBaseIntelligence(int BaseIntelligence){this.BaseIntelligence = BaseIntelligence;}
+        public int getBaseIntelligence(){return BaseIntelligence;}
     private int Intelligence;
-        public void setIntelligence(int Intelligence){this.Intelligence = Intelligence;}
+        public void setIntelligence(){Intelligence = BaseIntelligence + Race.getIntelligenceBonus();}
         public int getIntelligence(){return Intelligence;}
     private int IntelligenceBonus;
         public void setIntelligenceBonus() {
@@ -120,6 +141,7 @@ public class PlayerCharacter {
                 IntelligenceBonus = IntelligenceBase / 2;
             } else {
                 IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0) / 2.0);
+                IntelligenceBonus += Race.getIntelligenceBonus();
             }
         }
         public int getIntelligenceBonus(){return IntelligenceBonus;}
@@ -143,8 +165,11 @@ public class PlayerCharacter {
         public int getReligion(){return Religion;}
 
     //Wisdom is common sense or instinct, or street smart plainly put.
+    private int BaseWisdom;
+        public void setBaseWisdom(int BaseWisdom){this.BaseWisdom = BaseWisdom;}
+        public int getBaseWisdom(){return BaseWisdom;}
     private int Wisdom;
-        public void setWisdom(int Wisdom){this.Wisdom = Wisdom;}
+        public void setWisdom(){Wisdom = BaseWisdom + Race.getWisdomBonus();}
         public int getWisdom(){return Wisdom;}
     private int WisdomBonus;
         public void setWisdomBonus() {
@@ -153,6 +178,7 @@ public class PlayerCharacter {
                 WisdomBonus = WisdomBase / 2;
             } else {
                 WisdomBonus = (int) Math.nextDown((Wisdom - 10.0) / 2.0);
+                WisdomBonus += Race.getWisdomBonus();
             }
         }
         public int getWisdomBonus(){return WisdomBonus;}
@@ -176,8 +202,11 @@ public class PlayerCharacter {
     //Charisma is exactly what you think; how seriously people take your self-image;
     //how charming you are, how threatening you are,
     //how believable you are when you lie, etc.
+    private int BaseCharisma;
+        public void setBaseCharisma(int BaseCharisma){this.BaseCharisma = BaseCharisma;}
+        public int getBaseCharisma(){return BaseCharisma;}
     private int Charisma;
-        public void setCharisma(int Charisma){this.Charisma = Charisma;}
+        public void setCharisma(){Charisma = BaseCharisma + Race.getCharismaBonus();}
         public int getCharisma(){return Charisma;}
     private int CharismaBonus;
         public void setCharismaBonus() {
@@ -186,6 +215,7 @@ public class PlayerCharacter {
                 CharismaBonus = CharismaBase / 2;
             } else {
                 CharismaBonus = (int) Math.nextDown((Charisma - 10.0) / 2.0);
+                CharismaBonus += Race.getCharismaBonus();
             }
         }
         public int getCharismaBonus(){return CharismaBonus;}
@@ -237,11 +267,11 @@ public class PlayerCharacter {
     }
 
     public int getLevel(){
-        int lev = 0;
+        int Level = 0;
         for (int i = 0; i < PlayerClasses.size(); i++){
-            lev += PlayerClasses.get(i).getLevel();
+            Level += PlayerClasses.get(i).getLevel();
         }
-        return lev;
+        return Level;
     }
 
     int XP = 0;

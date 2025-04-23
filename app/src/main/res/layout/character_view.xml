@@ -431,9 +431,65 @@
         android:id="@+id/important_stats_card"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/characterLevel">
+        app:layout_constraintTop_toBottomOf="@+id/characterClass">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/initiative_bonus_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/character_view_initiative_bonus_text"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:text="Initiative Bonus"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/character_view_initiative_bonus_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/character_view_initiative_bonus_text"
+                app:layout_constraintStart_toStartOf="@id/character_view_initiative_bonus_text"
+                app:layout_constraintTop_toBottomOf="@id/character_view_initiative_bonus_text" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/movement_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/character_view_movement_text"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="285dp"
+                android:text="Movement"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/character_view_movement_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/character_view_movement_text"
+                app:layout_constraintStart_toStartOf="@id/character_view_movement_text"
+                app:layout_constraintTop_toBottomOf="@id/character_view_movement_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/health_layout"
@@ -447,7 +503,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:text="Health:"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -457,7 +513,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:text="/"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@id/character_view_health_text"
                 app:layout_constraintTop_toTopOf="@id/character_view_health_text" />
 
@@ -466,7 +522,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="/"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@id/character_view_current_health"
                 app:layout_constraintTop_toTopOf="@id/character_view_current_health" />
 
@@ -475,33 +531,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="/"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@id/character_view_health_divider"
                 app:layout_constraintTop_toTopOf="@id/character_view_health_divider" />
 
             <Button
                 android:id="@+id/character_view_add_health"
-                android:layout_width="66dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:backgroundTint="#00000000"
                 android:padding="0dp"
                 android:text="+"
                 android:textColor="#040303"
-                android:textSize="14sp"
+                android:textSize="28sp"
                 app:layout_constraintStart_toEndOf="@id/character_view_subtract_health"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/character_view_subtract_health"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="10dp"
                 android:backgroundTint="#00000000"
                 android:padding="0dp"
                 android:text="—"
                 android:textColor="#020101"
-                android:textSize="14sp"
+                android:textSize="28sp"
                 app:layout_constraintStart_toEndOf="@id/character_view_max_health"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -520,21 +575,6 @@
         android:textSize="24sp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/characterLevel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="80dp"
-        android:text="Level"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -563,7 +603,7 @@
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias=".5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -601,13 +641,5 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/toDice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dice"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="676dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
