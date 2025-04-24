@@ -1,11 +1,18 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Features;
+import static com.example.dnd5emanager.DataClasses.Constants.Items;
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Spells;
+import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
-import android.widget.ArrayAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +26,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -43,9 +49,9 @@ public class Methods {
         AssetManager AM = c.getAssets();
         Characters.clear();
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
-        for(int i = 0; i < Objects.requireNonNull(files).length - 1; i++){
-            Log.d("Who is temp guy?", files[i].getName());
+        for(int i = 0; i < Objects.requireNonNull(files).length; i++){
             PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
+            Log.d("Temp Guy", tempGuy.getName());
             Characters.put(tempGuy.getName(), tempGuy);
         }
     }
@@ -86,13 +92,45 @@ public class Methods {
         try {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", character.getName());
+            jsonObject.put("race", character.getRace().getName());
+            if(character.getRace().HasSubraces()){
+                jsonObject.put("subrace", character.getSubrace().getName());
+            }
+            JSONArray Classes = new JSONArray();
+            JSONArray Subclasses = new JSONArray();
+            for(int i = 0; i < character.getPlayerClasses().size(); i++){
+                Classes.put(character.getPlayerClasses().get(i).getName());
+                if(character.getPlayerClasses().get(i).HasSubclasses()) {
+                    Subclasses.put(character.getPlayerClasses().get(i).getSubclass());
+                }
+            }
+            jsonObject.put("classes", Classes);
+            jsonObject.put("subclasses", Subclasses);
+            jsonObject.put("strength", character.getStrength());
+            jsonObject.put("dexterity", character.getDexterity());
+            jsonObject.put("constitution", character.getConstitution());
+            jsonObject.put("intelligence", character.getIntelligence());
+            jsonObject.put("wisdom", character.getWisdom());
+            jsonObject.put("charisma", character.getCharisma());
+            jsonObject.put("alignment", character.getAlignment());
             jsonObject.put("about", character.getAbout());
             jsonObject.put("personality", character.getPersonality());
             jsonObject.put("ideals", character.getIdeals());
             jsonObject.put("bonds", character.getBonds());
             jsonObject.put("flaws", character.getFlaws());
 
-            // ... add other attributes ...
+            Log.d("Saved Name", String.valueOf(character.getName()));
+            Log.d("Saved Race", String.valueOf(character.getRace().getName()));
+            if(character.getRace().HasSubraces()) {
+                Log.d("Saved Subrace", String.valueOf(character.getSubrace().getName()));
+            }
+            Log.d("Saved Player Classes", String.valueOf(character.getPlayerClasses()));
+            Log.d("Saved Alignment", String.valueOf(character.getAlignment()));
+            Log.d("Saved About", String.valueOf(character.getAbout()));
+            Log.d("Saved Personality", String.valueOf(character.getPersonality()));
+            Log.d("Saved Ideals", String.valueOf(character.getIdeals()));
+            Log.d("Saved Bonds", String.valueOf(character.getBonds()));
+            Log.d("Saved Flaws", String.valueOf(character.getFlaws()));
 
             String jsonString = jsonObject.toString();
 
@@ -125,11 +163,36 @@ public class Methods {
 
             PlayerCharacter character = new PlayerCharacter();
             character.setName(jsonObject.optString("name", ""));
+            character.setRace(Races.get(jsonObject.optString("race", "")));
+            character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
+            character.setBaseStrength(jsonObject.optInt("strength", 0));
+            character.setBaseDexterity(jsonObject.optInt("dexterity", 0));
+            character.setBaseConstitution(jsonObject.optInt("constitution", 0));
+            character.setBaseIntelligence(jsonObject.optInt("intelligence", 0));
+            character.setBaseWisdom(jsonObject.optInt("wisdom", 0));
+            character.setBaseCharisma(jsonObject.optInt("charisma", 0));
+            character.setAlignment(jsonObject.optString("alignment", ""));
             character.setAbout(jsonObject.optString("about", ""));
             character.setPersonality(jsonObject.optString("personality", ""));
-            character.setBonds(jsonObject.optString("bonds", ""));
             character.setIdeals(jsonObject.optString("ideals", ""));
+            character.setBonds(jsonObject.optString("bonds", ""));
             character.setFlaws(jsonObject.optString("flaws", ""));
+
+            Log.d("Loaded Name", jsonObject.optString("name", ""));
+            Log.d("Loaded Race", jsonObject.optString("race", ""));
+            Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
+            Log.d("Loaded Strength", String.valueOf((jsonObject.optInt("strength", 0))));
+            Log.d("Loaded Dexterity", String.valueOf((jsonObject.optInt("dexterity", 0))));
+            Log.d("Loaded Constitution", String.valueOf((jsonObject.optInt("constitution", 0))));
+            Log.d("Loaded Intelligence", String.valueOf((jsonObject.optInt("intelligence", 0))));
+            Log.d("Loaded Wisdom", String.valueOf((jsonObject.optInt("wisdom", 0))));
+            Log.d("Loaded Charisma", String.valueOf((jsonObject.optInt("charisma", 0))));
+            Log.d("Loaded Alignment", jsonObject.optString("alignment", ""));
+            Log.d("Loaded About", jsonObject.optString("about", ""));
+            Log.d("Loaded Personality", jsonObject.optString("personality", ""));
+            Log.d("Loaded Ideals", jsonObject.optString("ideals", ""));
+            Log.d("Loaded Bonds", jsonObject.optString("bonds", ""));
+            Log.d("Loaded Flaws", jsonObject.optString("flaws", ""));
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
             return character;
@@ -142,6 +205,7 @@ public class Methods {
     public static void parseRaces(Context context, String dir) {
         Log.d("Jason", "He was just born in Race.");
         AM = context.getAssets();
+        int RaceNumber = 0;
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
@@ -171,7 +235,8 @@ public class Methods {
                             jsonObject.getJSONObject("abilityScores").getInt("wis"),
                             jsonObject.getJSONObject("abilityScores").getInt("cha")
                     ));
-                    Log.d("Race Name", jsonObject.getString("name"));
+                    Log.d("Race #" + RaceNumber, jsonObject.getString("name"));
+                    RaceNumber++;
                 }
             }
         }
@@ -184,6 +249,7 @@ public class Methods {
     public static void parseSubraces(Context context, String dir) {
         Log.d("Jason", "He was just born in Subrace.");
         AM = context.getAssets();
+        int SubraceNumber = 0;
         try {
             String[] folderNames = AM.list(dir);
             if (folderNames != null) {
@@ -193,7 +259,7 @@ public class Methods {
                     if(fileNames != null){
                         for(String fileName : fileNames){
                             String fullPath = parentPath + "/" + fileName;
-//                            Log.d("Path", parentPath);
+//                            Log.d("Name of Folder/Parent Race", folderName);
                             InputStream inputStream = AM.open(fullPath);
                             int size = inputStream.available();
                             byte[] buffer = new byte[size];
@@ -201,43 +267,28 @@ public class Methods {
                             inputStream.close();
                             String jsonString = new String(buffer, StandardCharsets.UTF_8);
                             JSONObject jsonObject = new JSONObject(jsonString);
-                            Subrace TempSub = new Subrace(
+                            Subraces.put(jsonObject.getString("name"), new Subrace(
                                     jsonObject.getString("name"),
-//                                    Log.d("name", jsonObject.getString("name"));
+                                    folderName.replace("_Subraces", ""),
                                     jsonObject.getInt("ac"),
-//                                    Log.d("ac", String.valueOf(jsonObject.getInt("ac")));
                                     jsonObject.getJSONObject("speed").getInt("normal"),
-//                                    Log.d("speed: normal", String.valueOf(jsonObject.getJSONObject("speed").getInt("normal")));
                                     jsonObject.getJSONObject("speed").getInt("fly"),
-//                                    Log.d("speed: fly", String.valueOf(jsonObject.getJSONObject("speed").getInt("fly")));
                                     jsonObject.getJSONObject("speed").getInt("climb"),
-//                                    Log.d("speed: climb", String.valueOf(jsonObject.getJSONObject("speed").getInt("climb")));
                                     jsonObject.getJSONObject("speed").getInt("swim"),
-//                                    Log.d("speed: swim", String.valueOf(jsonObject.getJSONObject("speed").getInt("swim")));
                                     jsonObject.getJSONObject("speed").getInt("burrow"),
-//                                    Log.d("speed: burrow", String.valueOf(jsonObject.getJSONObject("speed").getInt("burrow")));
                                     jsonObject.getJSONObject("abilityScores").getInt("str"),
-//                                    Log.d("abilityScores: str", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("str")));
                                     jsonObject.getJSONObject("abilityScores").getInt("dex"),
-//                                    Log.d("abilityScores: dex", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("dex")));
                                     jsonObject.getJSONObject("abilityScores").getInt("con"),
-//                                    Log.d("abilityScores: con", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("con")));
                                     jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-//                                    Log.d("abilityScores: intelligence", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("intelligence")));
                                     jsonObject.getJSONObject("abilityScores").getInt("wis"),
-//                                    Log.d("abilityScores: wis", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("wis")));
-                                    jsonObject.getJSONObject("abilityScores").getInt("cha")
-//                                    Log.d("abilityScore: cha", String.valueOf(jsonObject.getJSONObject("abilityScores").getInt("cha")));
+                                    jsonObject.getJSONObject("abilityScores").getInt("cha"))
                             );
-                            Subraces.put(jsonObject.getString("name"), TempSub);
+//                            Subraces.put(jsonObject.getString("name"), TempSub);
                             String RaceName = folderName.replace("_Subraces", "");
                             RaceName = RaceName.replace("_", " ");
-                            Log.d("Current Race Name", RaceName);
-                            Log.d("Current Race Null", String.valueOf(Races.get(RaceName) == null) );
-                            Log.d("Current Subrace Name", Subraces.keySet().toArray(new String[0])[Subraces.size() - 1]);
-                            Log.d("Current Subrace Null", String.valueOf(Subraces.keySet().toArray(new String[0])[Subraces.size() - 1] == null));
-                            Log.d("", "");
-                            Races.get(RaceName).addSubrace(Subraces.get(TempSub.getName()));
+                            Objects.requireNonNull(Races.get(RaceName)).addSubrace(Subraces.get(jsonObject.getString("name")));
+                            Log.d("Subrace #" + SubraceNumber, jsonObject.getString("name"));
+                            SubraceNumber++;
                         }
                     }
                 }
@@ -252,12 +303,13 @@ public class Methods {
     public static void parseClasses(Context context, String dir) {
         Log.d("Jason", "He was just born in Class.");
         AM = context.getAssets();
+        int ClassNumber = 0;
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
                 for (String fileName : fileNames) {
                     String fullPath = dir + "/" + fileName;
-                    Log.d("Input Stream", fullPath);
+//                    Log.d("Class Path", fullPath);
                     InputStream inputStream = AM.open(fullPath);
                     int size = inputStream.available();
                     byte[] buffer = new byte[size];
@@ -274,10 +326,8 @@ public class Methods {
                             toStringArray(jsonObject.getJSONArray("classSkills").getJSONObject(0).getJSONArray("skillsModels")),
                             jsonObject.getJSONArray("classSkills").getJSONObject(0).getInt("amountOfChoice")
                     ));
-                }
-                String[] ClassNames = Classes.keySet().toArray(new String[0]);
-                for(int i = 0; i < ClassNames.length; i++){
-                    Log.d("Class #" + i, ClassNames[i]);
+                    Log.d("Class #" + ClassNumber, jsonObject.getString("name"));
+                    ClassNumber++;
                 }
             }
         }
@@ -290,54 +340,49 @@ public class Methods {
     public static void parseSubclasses(Context context, String dir) {
         Log.d("Jason", "He was just born in Subclass.");
         AM = context.getAssets();
+        int SubclassNumber = 0;
         try {
             String[] folderNames = AM.list(dir);
             if (folderNames != null) {
                 for (String folderName : folderNames) {
                     String ClassName = folderName.replace("_", " ");
-                    Log.d("Current Folder Name", folderName);
-                    Log.d("But is it a class?", String.valueOf(Classes.get(ClassName).getName()));
-//                    if(Classes.get(ClassName).HasSubclasses()) {
-                        String parentPath = dir + "/" + folderName;
-                        String[] fileNames = AM.list(dir + "/" + folderName);
-                        if (fileNames != null) {
-                            for (String fileName : fileNames) {
-                                String fullPath = parentPath + "/" + fileName;
-                                Log.d("Path", fullPath);
-                                InputStream inputStream = AM.open(fullPath);
-                                int size = inputStream.available();
-                                byte[] buffer = new byte[size];
-                                inputStream.read(buffer);
-                                inputStream.close();
-                                String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                                JSONObject jsonObject = new JSONObject(jsonString);
-                                int ABL = 1;
-                                if (jsonObject.getJSONArray("attacksByLevel").length() != 0) {
-                                    ABL = jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount");
-                                }
-                                Subclass TempSub = new Subclass(
-                                        jsonObject.getString("name"),
-                                        toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
-                                        jsonObject.getInt("baseAc"),
-                                        ABL,
-                                        ClassName
-                                );
-                                Subclasses.put(jsonObject.getString("name") + "." + ClassName, TempSub);
-                                Log.d("Current Class Name", ClassName);
-                                Log.d("Current Class Null", String.valueOf(Classes.get(ClassName) == null));
-                                Log.d("Current Subclass Name", TempSub.getName());
-                                Log.d("Current Subclass Null", String.valueOf(Subclasses.get(TempSub.getName()) == null));
-                                Log.d("Current JSON Name", jsonObject.getString("name"));
-                                Log.d("", "");
-                                Classes.get(ClassName).addSubclass(Subclasses.get(TempSub.getName()));
-                                Log.d("Current Class Name", Classes.get(ClassName).getName());
+                    String parentPath = dir + "/" + folderName;
+                    String[] fileNames = AM.list(dir + "/" + folderName);
+                    if (fileNames != null) {
+                        for (String fileName : fileNames) {
+                            String fullPath = parentPath + "/" + fileName;
+//                            Log.d("Subclass Path", fullPath);
+                            InputStream inputStream = AM.open(fullPath);
+                            int size = inputStream.available();
+                            byte[] buffer = new byte[size];
+                            inputStream.read(buffer);
+                            inputStream.close();
+                            String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                            JSONObject jsonObject = new JSONObject(jsonString);
+                            int ABL = 1;
+                            if (jsonObject.getJSONArray("attacksByLevel").length() != 0) {
+                                ABL = jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount");
                             }
+                            Subclass TempSub = new Subclass(
+                                    jsonObject.getString("name"),
+                                    toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
+                                    jsonObject.getInt("baseAc"),
+                                    ABL,
+                                    ClassName
+                            );
+                            if(Subclasses.get(jsonObject.getString("name")) != null){
+//                                Log.d("Already exists", jsonObject.getString("name"));
+                                Subclasses.put(jsonObject.getString("name") + "(" + ClassName + ")", TempSub);
+                            }
+                            else{
+//                                Log.d("New subclass!", jsonObject.getString("name"));
+                                Subclasses.put(jsonObject.getString("name"), TempSub);
+                            }
+                            Classes.get(ClassName).addSubclass(Subclasses.get(TempSub.getName()));
+                            Log.d("Subclass #" + SubclassNumber, jsonObject.getString("name"));
+                            SubclassNumber++;
                         }
-//                    }
-                }
-                String[] SubclassNames = Subclasses.keySet().toArray(new String[0]);
-                for(int i = 0; i < SubclassNames.length; i++){
-                    Log.d("Subclass #" + i, SubclassNames[i] + " (" + Subclasses.get(SubclassNames[i]).getParentClass() + ")");
+                    }
                 }
             }
         }

@@ -5,6 +5,9 @@ import java.util.ArrayList;
 public class Subrace {
     private String Name;
         public String getName(){return Name;}
+    private String ParentRace;
+        public String getParentRace(){return ParentRace;}
+
     private int BaseArmorClass;
 
     private int GroundSpeed;
@@ -32,9 +35,10 @@ public class Subrace {
     private ArrayList<String> ToolProficiencies;
 
 
-    public Subrace(String Name, int BaseArmorClass, int GroundSpeed, int AirSpeed,
+    public Subrace(String Name, String ParentRace, int BaseArmorClass, int GroundSpeed, int AirSpeed,
        int ClimbSpeed, int SwimSpeed, int BurrowSpeed, int StrengthBonus, int DexterityBonus, int ConstitutionBonus, int IntelligenceBonus, int WisdomBonus, int CharismaBonus){
         this.Name = Name;
+        this.ParentRace = ParentRace;
         this.BaseArmorClass = BaseArmorClass;
         this.GroundSpeed = GroundSpeed;
         this.AirSpeed = AirSpeed;

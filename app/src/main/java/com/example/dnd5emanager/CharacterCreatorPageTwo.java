@@ -1,5 +1,6 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.CharacterCreatorPageOne.NewCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.content.res.Resources;
@@ -41,7 +42,6 @@ public class CharacterCreatorPageTwo extends Fragment {
 
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        Log.d("New Guy:", CharacterCreatorPageOne.NewCharacter.getPrimaryClass().getName());
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
         });
@@ -53,13 +53,16 @@ public class CharacterCreatorPageTwo extends Fragment {
             TextView About = view.findViewById(R.id.character_creator_page_two_about);
             Spinner Background = view.findViewById(R.id.character_creator_page_two_background);
             Spinner Alignment = view.findViewById(R.id.character_creator_page_two_alignment);
-            CurrentCharacter.setPersonality(Personality.getText().toString());
-            CurrentCharacter.setIdeals(Ideals.getText().toString());
-            CurrentCharacter.setBonds(Bonds.getText().toString());
-            CurrentCharacter.setFlaws(Flaws.getText().toString());
-            CurrentCharacter.setAbout(About.getText().toString());
-            CurrentCharacter.setBackground(Background.getSelectedItem().toString());
-            CurrentCharacter.setAlignment(Alignment.getSelectedItem().toString());
+
+            NewCharacter.setPersonality(Personality.getText().toString());
+            NewCharacter.setIdeals(Ideals.getText().toString());
+            NewCharacter.setBonds(Bonds.getText().toString());
+            NewCharacter.setFlaws(Flaws.getText().toString());
+            NewCharacter.setAbout(About.getText().toString());
+            NewCharacter.setBackground(Background.getSelectedItem().toString());
+            NewCharacter.setAlignment(Alignment.getSelectedItem().toString());
+
+            CurrentCharacter = NewCharacter;
 
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterView);
         });
