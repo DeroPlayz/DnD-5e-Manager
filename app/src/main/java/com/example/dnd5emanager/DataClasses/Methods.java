@@ -124,7 +124,7 @@ public class Methods {
             if(character.getRace().HasSubraces()) {
                 Log.d("Saved Subrace", String.valueOf(character.getSubrace().getName()));
             }
-            Log.d("Saved Player Classes", String.valueOf(character.getPlayerClasses()));
+            Log.d("Saved Player Class", character.getPrimaryClass().getName());
             Log.d("Saved Alignment", String.valueOf(character.getAlignment()));
             Log.d("Saved About", String.valueOf(character.getAbout()));
             Log.d("Saved Personality", String.valueOf(character.getPersonality()));
