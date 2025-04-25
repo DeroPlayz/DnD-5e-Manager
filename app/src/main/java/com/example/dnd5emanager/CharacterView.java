@@ -205,6 +205,7 @@ public class CharacterView extends Fragment {
     }
 
     public void updateStrength(){
+        CurrentCharacter.setStrength();
         StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
         CurrentCharacter.setStrengthBonus();
         StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));

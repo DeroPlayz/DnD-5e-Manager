@@ -21,7 +21,7 @@ public class Constants {
 
     public static Map<String, Background> Backgrounds = new HashMap<>();
     public static Map<String, Feature> Features = new HashMap<>();
-//    public static Map<String, Feat> Feats = new HashMap<>();
+    public static Map<String, Feat> Feats = new HashMap<>();
 
     public static Map<String, Item> Items = new HashMap<>();
     //    public static Map<String, Weapon> Weapons = new HashMap<>();

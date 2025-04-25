@@ -6,14 +6,15 @@ public class Background {
     private String Name;
     private ArrayList<Feature> Features;
     private int Gold;
-//    private ArrayList<Equipment> Languages;
+    private ArrayList<Equipment> Equipment;
+    private ArrayList<String> Languages;
 
-    public Background(String Name, ArrayList<Feature> Features, int Gold /*ArrayList<Equipment> Equipment*/){
+    public Background(String Name, ArrayList<Feature> Features, int Gold, ArrayList<Equipment> Equipment, ArrayList<String> Languages){
         this.Name = Name;
         this.Features = Features;
         this.Gold = Gold;
-//        this.Equipment = Equipment;;
-
+        this.Equipment = Equipment;
+        this.Languages = Languages;
     }
 
 }

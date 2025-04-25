@@ -3,6 +3,7 @@ package com.example.dnd5emanager.DataClasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Armor;
 import static com.example.dnd5emanager.DataClasses.Constants.Characters;
 import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Feats;
 import static com.example.dnd5emanager.DataClasses.Constants.Features;
 import static com.example.dnd5emanager.DataClasses.Constants.Items;
 import static com.example.dnd5emanager.DataClasses.Constants.Races;
@@ -106,12 +107,12 @@ public class Methods {
             }
             jsonObject.put("classes", Classes);
             jsonObject.put("subclasses", Subclasses);
-            jsonObject.put("strength", character.getStrength());
-            jsonObject.put("dexterity", character.getDexterity());
-            jsonObject.put("constitution", character.getConstitution());
-            jsonObject.put("intelligence", character.getIntelligence());
-            jsonObject.put("wisdom", character.getWisdom());
-            jsonObject.put("charisma", character.getCharisma());
+            jsonObject.put("strength", character.getBaseStrength());
+            jsonObject.put("dexterity", character.getBaseDexterity());
+            jsonObject.put("constitution", character.getBaseConstitution());
+            jsonObject.put("intelligence", character.getBaseIntelligence());
+            jsonObject.put("wisdom", character.getBaseWisdom());
+            jsonObject.put("charisma", character.getBaseCharisma());
             jsonObject.put("alignment", character.getAlignment());
             jsonObject.put("about", character.getAbout());
             jsonObject.put("personality", character.getPersonality());
@@ -398,6 +399,7 @@ public class Methods {
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
+                int i = 0;
                 for (String fileName : fileNames) {
                     String fullPath = dir + "/" + fileName;
                     InputStream inputStream = AM.open(fullPath);
@@ -434,6 +436,8 @@ public class Methods {
                             jsonObject.getBoolean("ritual"),
                             jsonObject.getString("school")
                     ));
+                    Log.d("Spell #" + i, jsonObject.getString("name"));
+                    i++;
                 }
             }
         }
@@ -449,6 +453,7 @@ public class Methods {
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
+                int j = 0;
                 for (String fileName : fileNames) {
                     String fullPath = dir + "/" + fileName;
                     InputStream inputStream = AM.open(fullPath);
@@ -468,11 +473,52 @@ public class Methods {
                             jsonObject.getString("name"),
                             DescModels
                     ));
+
+                    Log.d("Feature #" + j, jsonObject.getString("name"));
                 }
             }
         }
         catch (IOException | JSONException e){
             Log.d("Jason?", "Shot dead in Feature.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void parseFeats(Context context, String dir) {
+        Log.d("Jason", "He was just born in Feat.");
+        AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                int j = 0;
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    Map<Integer, String> DescModels = new HashMap<>();
+
+                    for(int i = 0; i < jsonObject.getJSONArray("descriptionModels").length(); i++){
+                        DescModels.put(jsonObject.getJSONArray("descriptionModels").getJSONObject(i).getInt("level"), jsonObject.getJSONArray("descriptionModels").getString(i));
+                    }
+
+                    Feats.put(jsonObject.getString("name"), new Feat(
+                            jsonObject.getString("name"),
+                            DescModels,
+                            jsonObject.getInt("level")
+                    ));
+
+                    Log.d("Feat #" + j, jsonObject.getString("name"));
+                    j++;
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Feat.");
             throw new RuntimeException(e);
         }
     }
@@ -483,6 +529,7 @@ public class Methods {
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
+                int i = 0;
                 for (String fileName : fileNames) {
                     String fullPath = dir + "/" + fileName;
                     InputStream inputStream = AM.open(fullPath);
@@ -509,6 +556,8 @@ public class Methods {
                             jsonObject.getString("valueCoin"),
                             jsonObject.getString("weightUnit")
                     ));
+                    Log.d("Item #" + i, jsonObject.getString("name"));
+                    i++;
                 }
             }
         }
@@ -524,6 +573,7 @@ public class Methods {
         try {
             String[] fileNames = AM.list(dir);
             if (fileNames != null) {
+                int i = 0;
                 for (String fileName : fileNames) {
                     String fullPath = dir + "/" + fileName;
                     InputStream inputStream = AM.open(fullPath);
@@ -532,7 +582,6 @@ public class Methods {
                     inputStream.read(buffer);
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
-//                    Log.d("How are you doing, Jason?", jsonString);
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Armor.put(jsonObject.getString("name"), new Armor(
                             jsonObject.getString("name"),
@@ -547,6 +596,8 @@ public class Methods {
                             jsonObject.optBoolean("stealthDisadvantage", false),
                             jsonObject.optString("weight", "0 lbs.")
                     ));
+                    Log.d("Armor #" + i, jsonObject.getString("name"));
+                    i++;
                 }
             }
         }

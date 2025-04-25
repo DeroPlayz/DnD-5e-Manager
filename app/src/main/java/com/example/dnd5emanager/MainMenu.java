@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import static com.example.dnd5emanager.GlobalVariables.hasInitialized;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
@@ -25,6 +27,7 @@ import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Spell;
 import com.example.dnd5emanager.DataClasses.Subrace;
 import com.example.dnd5emanager.databinding.MainMenuBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -45,7 +48,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-public class MainMenu extends Fragment {
+public class MainMenu extends Fragment{
 
     private MainMenuBinding binding;
 
@@ -62,16 +65,24 @@ public class MainMenu extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Initialize(requireContext());
+        if(!hasInitialized){
+            Initialize(requireContext());
+            hasInitialized = true;
+        }
+
         binding.mainMenuViewCharacters.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)
         );
-//        binding.mainMenuViewDMMenu.setOnClickListener(v ->
+        binding.mainMenuViewDMMenu.setOnClickListener(v -> {
+            Snackbar snackbar = Snackbar.make(v, "DM Manager is still under development.", Snackbar.LENGTH_LONG);
+            snackbar.show();
 //                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
-//        );
-//        binding.mainMenuViewData.setOnClickListener(v ->
+        });
+        binding.mainMenuViewData.setOnClickListener(v ->{
+            Snackbar snackbar = Snackbar.make(v, "Compendium is still under development.", Snackbar.LENGTH_LONG);
+            snackbar.show();
 //                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
-//        );
+        });
 
         binding.mainMenuSettings.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToSettings)
