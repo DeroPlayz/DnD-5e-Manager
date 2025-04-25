@@ -98,15 +98,19 @@ public class Methods {
                 jsonObject.put("subrace", character.getSubrace().getName());
             }
             JSONArray Classes = new JSONArray();
-            JSONArray Subclasses = new JSONArray();
             for(int i = 0; i < character.getPlayerClasses().size(); i++){
-                Classes.put(character.getPlayerClasses().get(i).getName());
-                if(character.getPlayerClasses().get(i).HasSubclasses()) {
-                    Subclasses.put(character.getPlayerClasses().get(i).getSubclass());
+                JSONArray Class = new JSONArray();
+                Class.put(0, character.getPlayerClasses().get(i).getName());
+                if(character.getPlayerClasses().get(i).HasSubclasses()){
+                    Class.put(1, character.getPlayerClasses().get(i).getSubclass().getName());
                 }
+                else{
+                    Class.put(1, "None");
+                }
+                Class.put(2, character.getPlayerClasses().get(i).getLevel());
+                Class.put(3, character.getPlayerClasses().get(i).getHitDieMaxValue());
+                Classes.put(Class);
             }
-            jsonObject.put("classes", Classes);
-            jsonObject.put("subclasses", Subclasses);
             jsonObject.put("strength", character.getBaseStrength());
             jsonObject.put("dexterity", character.getBaseDexterity());
             jsonObject.put("constitution", character.getBaseConstitution());
@@ -165,6 +169,7 @@ public class Methods {
             PlayerCharacter character = new PlayerCharacter();
             character.setName(jsonObject.optString("name", ""));
             character.setRace(Races.get(jsonObject.optString("race", "")));
+            character.setPrimaryClass(Classes.get(jsonObject.getJSONArray("Classes").getJSONObject(0).toString()));
             character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
             character.setBaseStrength(jsonObject.optInt("strength", 0));
             character.setBaseDexterity(jsonObject.optInt("dexterity", 0));
