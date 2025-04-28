@@ -71,13 +71,16 @@ public class MainMenu extends Fragment {
 //        );
 //        binding.mainMenuViewData.setOnClickListener(v ->
 //                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
-//        );
+//        );`
 
         binding.mainMenuSettings.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToSettings)
         );
         binding.mainMenuHelpPage.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToHelp)
+        );
+        binding.toDice.setOnClickListener(v ->
+                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDiceRoller)
         );
     }
 
