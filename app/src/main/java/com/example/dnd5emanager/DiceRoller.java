@@ -8,7 +8,7 @@ public class DiceRoller {
     public final static int DICE_D12 = 12;
     public final static int DICE_D20 = 20;
 
-    public int rollDice(int count, int sides){
+    public static int rollDice(int count, int sides){
         int[] dice = new int[count];
         for (int i = 0; i < 4; i++) {
             dice[i] = (int) (Math.random() * sides) + 1;

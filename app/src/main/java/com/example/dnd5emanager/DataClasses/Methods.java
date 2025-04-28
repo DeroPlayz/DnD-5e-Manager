@@ -93,48 +93,69 @@ public class Methods {
         try {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", character.getName());
+            Log.d("Saved Name", String.valueOf(character.getName()));
+
             jsonObject.put("race", character.getRace().getName());
+            Log.d("Saved Race", String.valueOf(character.getRace().getName()));
+
             if(character.getRace().HasSubraces()){
                 jsonObject.put("subrace", character.getSubrace().getName());
-            }
-            JSONArray Classes = new JSONArray();
-            for(int i = 0; i < character.getPlayerClasses().size(); i++){
-                JSONArray Class = new JSONArray();
-                Class.put(0, character.getPlayerClasses().get(i).getName());
-                if(character.getPlayerClasses().get(i).HasSubclasses()){
-                    Class.put(1, character.getPlayerClasses().get(i).getSubclass().getName());
-                }
-                else{
-                    Class.put(1, "None");
-                }
-                Class.put(2, character.getPlayerClasses().get(i).getLevel());
-                Class.put(3, character.getPlayerClasses().get(i).getHitDieMaxValue());
-                Classes.put(Class);
-            }
-            jsonObject.put("strength", character.getBaseStrength());
-            jsonObject.put("dexterity", character.getBaseDexterity());
-            jsonObject.put("constitution", character.getBaseConstitution());
-            jsonObject.put("intelligence", character.getBaseIntelligence());
-            jsonObject.put("wisdom", character.getBaseWisdom());
-            jsonObject.put("charisma", character.getBaseCharisma());
-            jsonObject.put("alignment", character.getAlignment());
-            jsonObject.put("about", character.getAbout());
-            jsonObject.put("personality", character.getPersonality());
-            jsonObject.put("ideals", character.getIdeals());
-            jsonObject.put("bonds", character.getBonds());
-            jsonObject.put("flaws", character.getFlaws());
-
-            Log.d("Saved Name", String.valueOf(character.getName()));
-            Log.d("Saved Race", String.valueOf(character.getRace().getName()));
-            if(character.getRace().HasSubraces()) {
                 Log.d("Saved Subrace", String.valueOf(character.getSubrace().getName()));
             }
-            Log.d("Saved Player Class", character.getPrimaryClass().getName());
+
+            JSONArray Classes = new JSONArray();
+            for(int i = 0; i < character.getPlayerClasses().size(); i++){
+                CharacterClass currentClass = character.getPlayerClasses().get(i);
+                JSONObject Class = new JSONObject();
+                Class.put("name", currentClass.getName());
+                Log.d("Saved Player Class #" + i + " Name", character.getPlayerClasses().get(i).getName());
+                Class.put("level", currentClass.getLevel());
+                Log.d("Saved Player Class #" + i + " Level", String.valueOf(character.getPlayerClasses().get(i).getLevel()));
+                if(currentClass.HasSubclasses()){
+                    Class.put("subclass", currentClass.getSubclass().getName());
+                    Log.d("Saved Player Class #" + i + " Subclass", character.getPlayerClasses().get(i).getSubclass().getName());
+                }
+//                Class.put("hit_die", currentClass.getHitDie());
+                Classes.put(Class);
+                Log.d("Saved Player Class #" + i, character.getPlayerClasses().get(i).getName());
+            }
+            jsonObject.put("class_count", character.getPlayerClasses().size());
+            Log.d("Saved Player Class Count", String.valueOf(character.getPlayerClasses().size()));
+
+            jsonObject.put("strength", character.getBaseStrength());
+            Log.d("Saved Strength", String.valueOf(character.getBaseStrength()));
+
+            jsonObject.put("dexterity", character.getBaseDexterity());
+            Log.d("Saved Dexterity", String.valueOf(character.getBaseDexterity()));
+
+            jsonObject.put("constitution", character.getBaseConstitution());
+            Log.d("Saved Constitution", String.valueOf(character.getBaseConstitution()));
+
+            jsonObject.put("intelligence", character.getBaseIntelligence());
+            Log.d("Saved Intelligence", String.valueOf(character.getBaseIntelligence()));
+
+            jsonObject.put("wisdom", character.getBaseWisdom());
+            Log.d("Saved Wisdom", String.valueOf(character.getBaseWisdom()));
+
+            jsonObject.put("charisma", character.getBaseCharisma());
+            Log.d("Saved Charisma", String.valueOf(character.getBaseCharisma()));
+
+            jsonObject.put("alignment", character.getAlignment());
             Log.d("Saved Alignment", String.valueOf(character.getAlignment()));
+
+            jsonObject.put("about", character.getAbout());
             Log.d("Saved About", String.valueOf(character.getAbout()));
+
+            jsonObject.put("personality", character.getPersonality());
             Log.d("Saved Personality", String.valueOf(character.getPersonality()));
+
+            jsonObject.put("ideals", character.getIdeals());
             Log.d("Saved Ideals", String.valueOf(character.getIdeals()));
+
+            jsonObject.put("bonds", character.getBonds());
             Log.d("Saved Bonds", String.valueOf(character.getBonds()));
+
+            jsonObject.put("flaws", character.getFlaws());
             Log.d("Saved Flaws", String.valueOf(character.getFlaws()));
 
             String jsonString = jsonObject.toString();
@@ -144,9 +165,9 @@ public class Methods {
             FileOutputStream fos = new FileOutputStream(file);
             fos.write(jsonString.getBytes());
             fos.close();
-            Log.d("SaveCharacter", "Character saved to: " + file.getAbsolutePath());
+            Log.d("Saving Character", "Character saved to: " + file.getAbsolutePath());
         } catch (JSONException | IOException e) {
-            Log.e("SaveCharacter", "Error saving character", e);
+            Log.e("Saving Character", "Error saving character", e);
         }
     }
 
@@ -168,36 +189,60 @@ public class Methods {
 
             PlayerCharacter character = new PlayerCharacter();
             character.setName(jsonObject.optString("name", ""));
-            character.setRace(Races.get(jsonObject.optString("race", "")));
-            character.setPrimaryClass(Classes.get(jsonObject.getJSONArray("Classes").getJSONObject(0).toString()));
-            character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
-            character.setBaseStrength(jsonObject.optInt("strength", 0));
-            character.setBaseDexterity(jsonObject.optInt("dexterity", 0));
-            character.setBaseConstitution(jsonObject.optInt("constitution", 0));
-            character.setBaseIntelligence(jsonObject.optInt("intelligence", 0));
-            character.setBaseWisdom(jsonObject.optInt("wisdom", 0));
-            character.setBaseCharisma(jsonObject.optInt("charisma", 0));
-            character.setAlignment(jsonObject.optString("alignment", ""));
-            character.setAbout(jsonObject.optString("about", ""));
-            character.setPersonality(jsonObject.optString("personality", ""));
-            character.setIdeals(jsonObject.optString("ideals", ""));
-            character.setBonds(jsonObject.optString("bonds", ""));
-            character.setFlaws(jsonObject.optString("flaws", ""));
-
             Log.d("Loaded Name", jsonObject.optString("name", ""));
+
+            character.setRace(Races.get(jsonObject.optString("race", "")));
             Log.d("Loaded Race", jsonObject.optString("race", ""));
-            Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
+
+            if(Races.get(jsonObject.optString("race", "")).HasSubraces()){
+                character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
+                Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
+            }
+
+            int classCount = jsonObject.optInt("class_count", 1);
+            for(int i = 0; i < classCount; i++){
+                JSONObject Class = (JSONObject) jsonObject.getJSONArray("classes").get(i);
+                character.getPlayerClasses().add(Classes.get(Class.getString("name")));
+                character.getPlayerClasses().get(i).setLevel(Class.getInt("level"));
+                if(character.getPlayerClasses().get(i).HasSubclasses()) {
+                    character.getPlayerClasses().get(i).setSubclass(Subclasses.get(Class.getString("subclass")));
+                }
+            }
+
+            character.setBaseStrength(jsonObject.optInt("strength", 0));
             Log.d("Loaded Strength", String.valueOf((jsonObject.optInt("strength", 0))));
+
+            character.setBaseDexterity(jsonObject.optInt("dexterity", 0));
             Log.d("Loaded Dexterity", String.valueOf((jsonObject.optInt("dexterity", 0))));
+
+            character.setBaseConstitution(jsonObject.optInt("constitution", 0));
             Log.d("Loaded Constitution", String.valueOf((jsonObject.optInt("constitution", 0))));
+
+            character.setBaseIntelligence(jsonObject.optInt("intelligence", 0));
             Log.d("Loaded Intelligence", String.valueOf((jsonObject.optInt("intelligence", 0))));
+
+            character.setBaseWisdom(jsonObject.optInt("wisdom", 0));
             Log.d("Loaded Wisdom", String.valueOf((jsonObject.optInt("wisdom", 0))));
+
+            character.setBaseCharisma(jsonObject.optInt("charisma", 0));
             Log.d("Loaded Charisma", String.valueOf((jsonObject.optInt("charisma", 0))));
+
+            character.setAlignment(jsonObject.optString("alignment", ""));
             Log.d("Loaded Alignment", jsonObject.optString("alignment", ""));
+
+            character.setAbout(jsonObject.optString("about", ""));
             Log.d("Loaded About", jsonObject.optString("about", ""));
+
+            character.setPersonality(jsonObject.optString("personality", ""));
             Log.d("Loaded Personality", jsonObject.optString("personality", ""));
+
+            character.setIdeals(jsonObject.optString("ideals", ""));
             Log.d("Loaded Ideals", jsonObject.optString("ideals", ""));
+
+            character.setBonds(jsonObject.optString("bonds", ""));
             Log.d("Loaded Bonds", jsonObject.optString("bonds", ""));
+
+            character.setFlaws(jsonObject.optString("flaws", ""));
             Log.d("Loaded Flaws", jsonObject.optString("flaws", ""));
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
@@ -480,6 +525,7 @@ public class Methods {
                     ));
 
                     Log.d("Feature #" + j, jsonObject.getString("name"));
+                    j++;
                 }
             }
         }

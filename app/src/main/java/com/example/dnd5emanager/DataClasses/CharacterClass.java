@@ -1,12 +1,16 @@
 package com.example.dnd5emanager.DataClasses;
 
+import com.example.dnd5emanager.DiceRoller;
+import com.example.dnd5emanager.DiceRoller.*;
 import java.util.ArrayList;
 
 public class CharacterClass {
     private String Name;
         public String getName(){return Name;}
     private String HitDie;
-        public int getHitDieMaxValue(){return Integer.parseInt(HitDie.replace("D", ""));}
+        public int getHitDie(){return Integer.parseInt(HitDie.replace("D", ""));}
+        public int getHitDieCount(){return Level;}
+        public int rollHitDie(){return DiceRoller.rollDice(Level, getHitDie());}
     private Armor[] ArmorProficiencies;
     private int AttacksByLevel;
     private int BaseAC;
