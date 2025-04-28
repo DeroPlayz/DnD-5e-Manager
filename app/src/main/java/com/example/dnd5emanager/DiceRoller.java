@@ -39,6 +39,18 @@ public class DiceRoller extends Fragment {
     }
 
 
+    public static int rollDice(int count, int sides){
+        int[] dice = new int[count];
+        for (int i = 0; i < 4; i++) {
+            dice[i] = (int) (Math.random() * sides) + 1;
+        }
+        int total = 0;
+        for (int i = 0; i < dice.length; i++) {
+            total += dice[i];
+        }
+        return total;
+    }
+
     private void rotateDice() {
         int i = random.nextInt(5)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);

@@ -3,14 +3,10 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.CharacterCreatorPageOne.NewCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -19,10 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageTwoBinding;
-
-import java.util.ArrayList;
 
 public class CharacterCreatorPageTwo extends Fragment {
 
@@ -45,7 +38,7 @@ public class CharacterCreatorPageTwo extends Fragment {
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
         });
-        binding.tocharacterview.setOnClickListener(v -> {
+        binding.toCharacterView.setOnClickListener(v -> {
             TextView Personality = view.findViewById(R.id.character_creator_page_two_personality);
             TextView Ideals = view.findViewById(R.id.character_creator_page_two_ideals);
             TextView Bonds = view.findViewById(R.id.character_creator_page_two_bonds);
@@ -59,8 +52,8 @@ public class CharacterCreatorPageTwo extends Fragment {
             NewCharacter.setBonds(Bonds.getText().toString());
             NewCharacter.setFlaws(Flaws.getText().toString());
             NewCharacter.setAbout(About.getText().toString());
-            NewCharacter.setBackground(Background.getSelectedItem().toString());
-            NewCharacter.setAlignment(Alignment.getSelectedItem().toString());
+//            NewCharacter.setBackground(Background.getSelectedItem().toString());
+//            NewCharacter.setAlignment(Alignment.getSelectedItem().toString());
 
             CurrentCharacter = NewCharacter;
 
