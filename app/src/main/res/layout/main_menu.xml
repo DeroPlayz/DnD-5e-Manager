@@ -14,34 +14,33 @@
 
         <Button
             android:id="@+id/main_menu_view_characters"
-            android:layout_width="343dp"
-            android:layout_height="173dp"
-            android:layout_marginTop="96dp"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="40dp"
             android:backgroundTint="#D34141"
             android:text="Character⚔️"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="45dp"
-            app:cornerRadius="0dp"
+            app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/main_menu_help_page" />
 
         <Button
             android:id="@+id/main_menu_view_data"
-            android:layout_width="337dp"
+            android:layout_width="330dp"
             android:layout_height="170dp"
-            android:layout_marginTop="276dp"
+            android:layout_marginTop="20dp"
             android:backgroundTint="#3B812C"
             android:text="Information 📖"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="45dp"
-            app:cornerRadius="0dp"
+            app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/main_menu_view_characters" />
 
         <Button
             android:id="@+id/main_menu_help_page"
@@ -58,23 +57,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/main_menu_settings"
-            android:layout_width="96dp"
-            android:layout_height="78dp"
-            android:backgroundTint="#4B4A4A"
-            android:padding="0dp"
-            android:text="⚙️"
-            android:textAlignment="center"
-            android:textSize="45dp"
-            app:cornerRadius="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
         <TextView
             android:id="@+id/Title"
             android:layout_width="123dp"
@@ -90,19 +72,29 @@
 
         <Button
             android:id="@+id/toDice"
-            android:layout_width="343dp"
-            android:layout_height="173dp"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
             android:backgroundTint="#DB8B2B"
-            android:text="DICE"
+            android:text="Dice"
+            android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="50dp"
-            android:textStyle="bold"
-            app:cornerRadius="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/main_menu_view_data"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@+id/main_menu_view_data" />
+
+        <ImageButton
+            android:id="@+id/main_menu_settings"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/cog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

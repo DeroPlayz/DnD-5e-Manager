@@ -25,7 +25,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![DIA](campaign/descent-into-avernus.svg)
 ![EE](campaign/elemental-evil.svg)
 ![HOTDQ](campaign/hoard-of-the-dragon-queen.svg)
-![LOX](campaign/light-of-xaryxis.svg)
+
 ![OOTA](campaign/out-of-the-abyss.svg)
 ![ROTF](campaign/rime-of-the-frostmaiden.svg)
 ![SKT](campaign/storm-kings-thunder.svg)

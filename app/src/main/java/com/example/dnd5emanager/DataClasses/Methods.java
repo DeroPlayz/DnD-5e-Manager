@@ -50,11 +50,17 @@ public class Methods {
         AssetManager AM = c.getAssets();
         Characters.clear();
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
-        for(int i = 0; i < Objects.requireNonNull(files).length; i++){
-            PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
-            Log.d("Is temp guy null?", String.valueOf(tempGuy == null));
-            Log.d("Temp Guy", tempGuy.getName());
-            Characters.put(tempGuy.getName(), tempGuy);
+        if(files != null) {
+            for(int i = 0; i < files.length; i++) {
+                if(files[i] != null){
+                    PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
+                    Log.d("Is temp guy null?", String.valueOf(tempGuy == null));
+                    if(tempGuy != null){
+                        Log.d("Temp Guy", tempGuy.getName());
+                        Characters.put(tempGuy.getName(), tempGuy);
+                    }
+                }
+            }
         }
     }
 
@@ -207,7 +213,7 @@ public class Methods {
 
             int classCount = jsonObject.optInt("class_count", 1);
             for(int i = 0; i < classCount; i++){
-                JSONObject Class = (JSONObject) jsonObject.getJSONArray("classes").get(i);
+                JSONObject Class = jsonObject.getJSONArray("classes").getJSONObject(i);
                 character.getPlayerClasses().set(i ,Classes.get(Class.getString("name")));
                 Log.d("Loaded Player Class #" + i, Class.getString("name"));
                 Log.d("Current Player Class #" + i, character.getPlayerClasses().get(i).getName());
