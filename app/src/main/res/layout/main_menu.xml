@@ -91,7 +91,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="8dp"
-            android:scaleType="centerInside"
+            android:scaleType="centerCrop"
             android:src="@drawable/cog"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
