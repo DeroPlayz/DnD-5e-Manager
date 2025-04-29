@@ -36,7 +36,6 @@ public class Methods {
     public static AssetManager AM;
 
     public static void Initialize(Context c){
-        LoadFromInternalStorage(c);
         parseRaces(c, "races");
         parseSubraces(c, "subraces");
         parseClasses(c, "dndclasses");
@@ -45,6 +44,7 @@ public class Methods {
         parseFeatures(c, "features");
         parseItems(c, "items");
         parseArmor(c, "armor");
+        LoadFromInternalStorage(c);
     }
     public static void LoadFromInternalStorage(Context c){
         AssetManager AM = c.getAssets();
@@ -52,6 +52,7 @@ public class Methods {
         File[] files = iterateFiles(String.valueOf(c.getFilesDir()));
         for(int i = 0; i < Objects.requireNonNull(files).length; i++){
             PlayerCharacter tempGuy = loadCharacter(c, files[i].getName());
+            Log.d("Is temp guy null?", String.valueOf(tempGuy == null));
             Log.d("Temp Guy", tempGuy.getName());
             Characters.put(tempGuy.getName(), tempGuy);
         }
@@ -119,6 +120,10 @@ public class Methods {
                 Classes.put(Class);
                 Log.d("Saved Player Class #" + i, character.getPlayerClasses().get(i).getName());
             }
+            jsonObject.put("classes", Classes);
+            Log.d("Saved Player Classes", "Saved all " + character.getPlayerClasses().size() + " of them.");
+
+
             jsonObject.put("class_count", character.getPlayerClasses().size());
             Log.d("Saved Player Class Count", String.valueOf(character.getPlayerClasses().size()));
 
@@ -193,8 +198,9 @@ public class Methods {
 
             character.setRace(Races.get(jsonObject.optString("race", "")));
             Log.d("Loaded Race", jsonObject.optString("race", ""));
+            Log.d("Current Race", character.getRace().getName());
 
-            if(Races.get(jsonObject.optString("race", "")).HasSubraces()){
+            if(character.getRace().HasSubraces()){
                 character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
                 Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
             }
@@ -202,10 +208,16 @@ public class Methods {
             int classCount = jsonObject.optInt("class_count", 1);
             for(int i = 0; i < classCount; i++){
                 JSONObject Class = (JSONObject) jsonObject.getJSONArray("classes").get(i);
-                character.getPlayerClasses().add(Classes.get(Class.getString("name")));
+                character.getPlayerClasses().set(i ,Classes.get(Class.getString("name")));
+                Log.d("Loaded Player Class #" + i, Class.getString("name"));
+                Log.d("Current Player Class #" + i, character.getPlayerClasses().get(i).getName());
                 character.getPlayerClasses().get(i).setLevel(Class.getInt("level"));
+                Log.d("Loaded Player Class #" + i + " Level", String.valueOf(Class.getInt("level")));
+                Log.d("Current Player Class #" + i + " Level", String.valueOf(character.getPlayerClasses().get(i).getLevel()));
                 if(character.getPlayerClasses().get(i).HasSubclasses()) {
                     character.getPlayerClasses().get(i).setSubclass(Subclasses.get(Class.getString("subclass")));
+                    Log.d("Loaded Player Class #" + i + " Subclass", Class.getString("subclass"));
+                    Log.d("Current Player Class #" + i + " Subclass", character.getPlayerClasses().get(i).getSubclass().getName());
                 }
             }
 

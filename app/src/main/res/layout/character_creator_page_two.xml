@@ -8,17 +8,6 @@
     tools:context=".CharacterCreatorPageTwo"
     tools:ignore="LabelFor">
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="180dp"
-        android:layout_height="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
-
     <Button
         android:id="@+id/character_creator_page_two_back_button"
         android:layout_width="75dp"
@@ -32,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/character_creator_page_two_background"
         android:layout_width="178dp"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,8 +31,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.084" />
 
+    <Spinner
+        android:id="@+id/character_creator_page_two_alignment"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/character_creator_page_two_personality"
         android:layout_width="408dp"
         android:layout_height="56dp"
         android:hint="Personality Traits"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.338" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText3"
+        android:id="@+id/character_creator_page_two_ideals"
         android:layout_width="410dp"
         android:layout_height="56dp"
         android:hint="Ideals"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.435" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText4"
+        android:id="@+id/character_creator_page_two_bonds"
         android:layout_width="411dp"
         android:layout_height="58dp"
         android:hint="Bonds"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.532" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText6"
+        android:id="@+id/character_creator_page_two_flaws"
         android:layout_width="410dp"
         android:layout_height="53dp"
         android:hint="Flaws"
@@ -88,7 +88,7 @@
         app:layout_constraintVertical_bias="0.623" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText5"
+        android:id="@+id/character_creator_page_two_about"
         android:layout_width="411dp"
         android:layout_height="69dp"
         android:hint="About"
@@ -100,7 +100,7 @@
         app:layout_constraintVertical_bias="0.719" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/toCharacterView"
         android:layout_width="122dp"
         android:layout_height="101dp"
         android:text="See Details"
