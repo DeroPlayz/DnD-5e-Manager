@@ -37,9 +37,9 @@ public class CharacterView extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        TextView Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
-        TextView Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
-        TextView Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
+        TextView Strength = view.findViewById(R.id.STRENGTH_TEXT);
+        TextView Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
+        TextView Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
         TextView Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
         TextView Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
         TextView Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);

@@ -105,11 +105,11 @@ public class CharacterCreatorPageOne extends Fragment {
 //        Class.setOnFocusChangeListener(textChanges);
         Subclass = view.findViewById(R.id.character_creator_page_one_edit_subclass);
 //        Subclass.setOnFocusChangeListener(textChanges);
-        Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
+        Strength = view.findViewById(R.id.STRENGTH_TEXT);
 //        Strength.setOnFocusChangeListener(textChanges);
-        Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
+        Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
 //        Dexterity.setOnFocusChangeListener(textChanges);
-        Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
+        Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
 //        Constitution.setOnFocusChangeListener(textChanges);
         Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
 //        Intelligence.setOnFocusChangeListener(textChanges);
@@ -193,12 +193,12 @@ public class CharacterCreatorPageOne extends Fragment {
             Name = view.findViewById(R.id.character_creator_page_one_edit_name);
             Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Level = view.findViewById(R.id.character_creator_page_one_edit_level);
-            Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
-            Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
-            Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
-            Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
-            Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
-            Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+            Strength = view.findViewById(R.id.STRENGTH_TEXT);
+            Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
+            Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
+//            Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
+//            Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
+//            Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
 
             Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
             ArrayList<String> MissingData = new ArrayList<>();
