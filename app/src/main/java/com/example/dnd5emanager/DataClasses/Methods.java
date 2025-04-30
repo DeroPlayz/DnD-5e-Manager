@@ -13,6 +13,8 @@ import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -30,21 +32,56 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Methods {
 
     public static AssetManager AM;
-
+    private static Handler mainHandler;
+    private static ExecutorService executorService;
     public static void Initialize(Context c){
-        parseRaces(c, "races");
-        parseSubraces(c, "subraces");
-        parseClasses(c, "dndclasses");
-        parseSubclasses(c, "subclasses");
-        parseSpells(c, "spells");
-        parseFeatures(c, "features");
-        parseItems(c, "items");
-        parseArmor(c, "armor");
-        LoadFromInternalStorage(c);
+        mainHandler = new Handler(Looper.getMainLooper());
+        executorService = Executors.newFixedThreadPool(10); // Example: Thread pool with 2 threads
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                parseRaces(c, "races");
+                parseSubraces(c, "subraces");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseClasses(c, "dndclasses");
+                parseSubclasses(c, "subclasses");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseSpells(c, "spells");
+                parseFeatures(c, "features");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseItems(c, "items");
+                parseArmor(c, "armor");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                LoadFromInternalStorage(c);
+            }
+        });
     }
     public static void LoadFromInternalStorage(Context c){
         AssetManager AM = c.getAssets();
@@ -355,7 +392,7 @@ public class Methods {
 //                            Subraces.put(jsonObject.getString("name"), TempSub);
                             String RaceName = folderName.replace("_Subraces", "");
                             RaceName = RaceName.replace("_", " ");
-                            Objects.requireNonNull(Races.get(RaceName)).addSubrace(Subraces.get(jsonObject.getString("name")));
+                            Races.get(RaceName).addSubrace(Subraces.get(jsonObject.getString("name")));
                             Log.d("Subrace #" + SubraceNumber, jsonObject.getString("name"));
                             SubraceNumber++;
                         }

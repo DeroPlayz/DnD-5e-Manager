@@ -9,14 +9,14 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#00FFFFFF"
         android:padding="38dp">
 
         <Button
             android:id="@+id/main_menu_view_characters"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="60dp"
             android:backgroundTint="#D34141"
             android:text="Character⚔️"
             android:textAlignment="center"
@@ -25,11 +25,11 @@
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/main_menu_help_page" />
+            app:layout_constraintTop_toBottomOf="@id/Title" />
 
         <Button
             android:id="@+id/main_menu_view_data"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
             android:layout_height="170dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="#3B812C"
@@ -42,37 +42,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/main_menu_view_characters" />
 
-        <Button
-            android:id="@+id/main_menu_help_page"
-            android:layout_width="85dp"
-            android:layout_height="78dp"
-            android:backgroundTint="#FFEB3B"
-            android:text=" ? "
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="45dp"
-            app:cornerRadius="0dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.616"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <TextView
             android:id="@+id/Title"
             android:layout_width="123dp"
             android:layout_height="72dp"
-            android:layout_marginTop="4dp"
             android:text="5e Manager"
             android:textSize="25dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/toDice"
-            android:layout_width="330dp"
+            android:layout_width="match_parent"
             android:layout_height="170dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="#DB8B2B"
@@ -82,6 +65,7 @@
             android:textSize="50dp"
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/main_menu_view_data" />
 
@@ -90,11 +74,21 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginTop="4dp"
-            android:layout_marginEnd="8dp"
-            android:scaleType="centerInside"
+            android:contentDescription="setting buttons"
+            android:scaleType="centerCrop"
             android:src="@drawable/cog"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/main_menu_help_page"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="help button"
+            android:scaleType="centerCrop"
+            android:src="@drawable/skillcheck"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Title" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

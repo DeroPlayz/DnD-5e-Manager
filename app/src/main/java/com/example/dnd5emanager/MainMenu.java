@@ -1,6 +1,7 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Methods.Initialize;
+import static com.example.dnd5emanager.GlobalVariables.hasInitialized;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -62,7 +63,15 @@ public class MainMenu extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Initialize(requireContext());
+        if(!hasInitialized) {
+            Log.d("Data", "Not yet loaded, loading now.");
+            Initialize(requireContext());
+            hasInitialized = true;
+            Log.d("Data", "Loaded.");
+        }
+        else{
+            Log.d("Data", "Loaded earlier this instance.");
+        }
         binding.mainMenuViewCharacters.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)
         );
