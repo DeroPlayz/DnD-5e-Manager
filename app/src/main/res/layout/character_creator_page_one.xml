@@ -75,8 +75,8 @@
         android:id="@+id/character_creator_page_one_next_page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="28dp"
         android:text="Next Page"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -85,7 +85,7 @@
         android:id="@+id/character_creator_page_one_roll_stats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="500dp"
         android:layout_marginEnd="24dp"
         android:text="Roll Stats"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,13 +95,13 @@
         android:id="@+id/character_creator_page_one_edit_health"
         android:layout_width="105dp"
         android:layout_height="50dp"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="24dp"
         android:ems="10"
         android:hint="5"
         android:inputType="text"
         android:maxLength="3"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="470dp" />
+        tools:layout_editor_absoluteY="513dp" />
 
     <Button
         android:id="@+id/character_creator_page_one_minimum_health"
@@ -148,22 +148,24 @@
         android:id="@+id/STRENGTH_ICON"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
         android:adjustViewBounds="true"
         android:background="@drawable/strength"
         android:scaleType="centerCrop"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_edit_subrace" />
 
     <TextView
         android:id="@+id/STRENGTH_TEXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
         android:background="@color/white"
         android:text="Strength"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/STRENGTH_ICON" />
+        app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/STRENGTH_ICON" />
 
     <EditText
         android:id="@+id/EDIT_STRENGTH"
@@ -171,16 +173,19 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/STRENGTH_TEXT" />
 
     <ImageView
         android:id="@+id/DEXTERITY_ICON"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/dexterity"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintEnd_toStartOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_edit_subrace" />
 
     <TextView
         android:id="@+id/DEXTERITY_TEXT"
@@ -188,9 +193,9 @@
         android:layout_height="wrap_content"
         android:text="Dexterity"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/CONSTITUTION_TEXT"
-        app:layout_constraintStart_toEndOf="@id/STRENGTH_TEXT"
-        app:layout_constraintTop_toBottomOf="@id/DEXTERITY_ICON" />
+        app:layout_constraintEnd_toEndOf="@id/DEXTERITY_ICON"
+        app:layout_constraintStart_toStartOf="@id/DEXTERITY_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/DEXTERITY_ICON" />
 
     <EditText
         android:id="@+id/EDIT_DEXTERITY"
@@ -198,25 +203,28 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:layout_constraintEnd_toEndOf="@id/DEXTERITY_ICON"
+        app:layout_constraintStart_toStartOf="@id/DEXTERITY_ICON"
+        app:layout_constraintTop_toBottomOf="@id/DEXTERITY_TEXT" />
 
     <ImageView
         android:id="@+id/CONSTITUTION_ICON"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
         android:src="@drawable/constitution"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="210dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_edit_subclass" />
 
     <TextView
         android:id="@+id/CONSTITUTION_TEXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
         android:text="Constitution"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toStartOf="@id/CONSTITUTION_ICON"
         tools:layout_editor_absoluteY="270dp" />
 
     <EditText
@@ -225,7 +233,101 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toStartOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CONSTITUTION_TEXT" />
+
+    <ImageView
+        android:id="@+id/INTELLIGENCE_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/intelligence"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
+
+    <TextView
+        android:id="@+id/INTELLIGENCE_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intelligence"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_INTELLIGENCE"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
+
+    <ImageView
+        android:id="@+id/INTELLIGENCE_ICON2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/intelligence"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
+
+    <TextView
+        android:id="@+id/INTELLIGENCE_TEXT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intelligence"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_INTELLIGENCE2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
+
+    <ImageView
+        android:id="@+id/INTELLIGENCE_ICON3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/intelligence"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
+
+    <TextView
+        android:id="@+id/INTELLIGENCE_TEXT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intelligence"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_INTELLIGENCE3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
