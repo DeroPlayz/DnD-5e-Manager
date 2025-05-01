@@ -40,9 +40,9 @@ public class CharacterView extends Fragment {
         TextView Strength = view.findViewById(R.id.STRENGTH_TEXT);
         TextView Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
         TextView Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
-        TextView Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
-        TextView Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
-        TextView Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+        TextView Intelligence = view.findViewById(R.id.INTELLIGENCE_TEXT);
+        TextView Wisdom = view.findViewById(R.id.WISDOM_TEXT);
+        TextView Charisma = view.findViewById(R.id.CHARISMA_TEXT);
 
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);

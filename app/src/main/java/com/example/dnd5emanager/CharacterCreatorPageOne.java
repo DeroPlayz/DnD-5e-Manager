@@ -86,12 +86,12 @@ public class CharacterCreatorPageOne extends Fragment {
     TextView RacialCharismaBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
-        RacialDexterityBonus = view.findViewById(R.id.character_creator_page_one_racial_dexterity);
-        RacialConstitutionBonus = view.findViewById(R.id.character_creator_page_one_racial_constitution);
-        RacialIntelligenceBonus = view.findViewById(R.id.character_creator_page_one_racial_intelligence);
-        RacialWisdomBonus = view.findViewById(R.id.character_creator_page_one_racial_wisdom);
-        RacialCharismaBonus = view.findViewById(R.id.character_creator_page_one_racial_charisma);
+        RacialStrengthBonus = view.findViewById(R.id.RACIAL_STRENGTH);
+        RacialDexterityBonus = view.findViewById(R.id.RACIAL_DEXTERITY);
+        RacialConstitutionBonus = view.findViewById(R.id.RACIAL_CONSTITUTION);
+        RacialIntelligenceBonus = view.findViewById(R.id.RACIAL_INTELLIGENCE);
+        RacialWisdomBonus = view.findViewById(R.id.RACIAL_WISDOM);
+        RacialCharismaBonus = view.findViewById(R.id.RACIAL_CHARISMA);
 
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
 //        Name.setOnFocusChangeListener(textChanges);
@@ -105,17 +105,17 @@ public class CharacterCreatorPageOne extends Fragment {
 //        Class.setOnFocusChangeListener(textChanges);
         Subclass = view.findViewById(R.id.character_creator_page_one_edit_subclass);
 //        Subclass.setOnFocusChangeListener(textChanges);
-        Strength = view.findViewById(R.id.STRENGTH_TEXT);
+        Strength = view.findViewById(R.id.EDIT_STRENGTH);
 //        Strength.setOnFocusChangeListener(textChanges);
-        Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
+        Dexterity = view.findViewById(R.id.EDIT_DEXTERITY);
 //        Dexterity.setOnFocusChangeListener(textChanges);
-        Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
+        Constitution = view.findViewById(R.id.EDIT_CONSTITUTION);
 //        Constitution.setOnFocusChangeListener(textChanges);
-        Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
+        Intelligence = view.findViewById(R.id.EDIT_INTELLIGENCE);
 //        Intelligence.setOnFocusChangeListener(textChanges);
-        Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
+        Wisdom = view.findViewById(R.id.EDIT_WISDOM);
 //        Wisdom.setOnFocusChangeListener(textChanges);
-        Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+        Charisma = view.findViewById(R.id.EDIT_CHARISMA);
 //        Charisma.setOnFocusChangeListener(textChanges);
 
         loadRaces();
@@ -377,12 +377,85 @@ public class CharacterCreatorPageOne extends Fragment {
         NewCharacter.setWisdomBonus();
         NewCharacter.setCharismaBonus();
 
-        RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
-        RacialDexterityBonus.setText(String.valueOf(NewCharacter.getRace().getDexterityBonus()));
-        RacialConstitutionBonus.setText(String.valueOf(NewCharacter.getRace().getConstitutionBonus()));
-        RacialIntelligenceBonus.setText(String.valueOf(NewCharacter.getRace().getIntelligenceBonus()));
-        RacialWisdomBonus.setText(String.valueOf(NewCharacter.getRace().getWisdomBonus()));
-        RacialCharismaBonus.setText(String.valueOf(NewCharacter.getRace().getCharismaBonus()));
+
+        if(NewCharacter.getRace().getStrengthBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getStrengthBonus();
+            RacialStrengthBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getStrengthBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getStrengthBonus();
+            RacialStrengthBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getStrengthBonus();
+            RacialStrengthBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getDexterityBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getDexterityBonus();
+            RacialDexterityBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getDexterityBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getDexterityBonus();
+            RacialDexterityBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getDexterityBonus();
+            RacialDexterityBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getConstitutionBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getConstitutionBonus();
+            RacialConstitutionBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getConstitutionBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getConstitutionBonus();
+            RacialConstitutionBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getConstitutionBonus();
+            RacialConstitutionBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getIntelligenceBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getIntelligenceBonus();
+            RacialIntelligenceBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getIntelligenceBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getIntelligenceBonus();
+            RacialIntelligenceBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getIntelligenceBonus();
+            RacialIntelligenceBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getWisdomBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getWisdomBonus();
+            RacialWisdomBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getWisdomBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getWisdomBonus();
+            RacialWisdomBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getWisdomBonus();
+            RacialWisdomBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getCharismaBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getCharismaBonus();
+            RacialCharismaBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getCharismaBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getCharismaBonus();
+            RacialCharismaBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getCharismaBonus();
+            RacialCharismaBonus.setText(s);
+        }
+
     }
 
     public void loadRaces(){
