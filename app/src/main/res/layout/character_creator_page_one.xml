@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CharacterCreatorPageOne"
-    tools:ignore="LabelFor">
+    tools:ignore="LabelFor"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_name"
@@ -75,61 +77,65 @@
         android:id="@+id/character_creator_page_one_next_page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="580dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="40dp"
         android:text="Next Page"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/EDIT_CHARISMA" />
 
     <Button
         android:id="@+id/character_creator_page_one_roll_stats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="65dp"
         android:text="Roll Stats"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_WISDOM" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_health"
-        android:layout_width="105dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="5"
         android:inputType="text"
         android:maxLength="3"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintEnd_toEndOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_minimum_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_minimum_health"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:text="Minimum Health"
-        android:textSize="11.5sp"
-        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_edit_health"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_health" />
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@id/centerAligner"
+        app:layout_constraintTop_toTopOf="@id/centerAligner" />
 
     <Button
         android:id="@+id/character_creator_page_one_maximum_health"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginStart="20dp"
         android:text="Maximum Health"
-        android:textSize="11.5sp"
-        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_edit_health"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_minimum_health" />
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_roll_health"
-        android:layout_width="75dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:padding="1dp"
         android:text="Roll Health"
-        android:textSize="11sp"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/character_creator_page_one_maximum_health"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_maximum_health"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_back_button"
@@ -176,6 +182,54 @@
         app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
         app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
         app:layout_constraintTop_toBottomOf="@+id/STRENGTH_TEXT" />
+
+    <TextView
+        android:id="@+id/RACIAL_STRENGTH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/RACIAL_DEXTERITY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/DEXTERITY_ICON"
+        app:layout_constraintStart_toStartOf="@id/DEXTERITY_ICON"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/RACIAL_CONSTITUTION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toStartOf="@id/CONSTITUTION_ICON"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/RACIAL_INTELLIGENCE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/RACIAL_WISDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/WISDOM_ICON"
+        app:layout_constraintStart_toStartOf="@id/WISDOM_ICON"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/RACIAL_CHARISMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/CHARISMA_ICON"
+        app:layout_constraintStart_toStartOf="@id/CHARISMA_ICON"
+        tools:layout_editor_absoluteY="347dp" />
 
     <ImageView
         android:id="@+id/DEXTERITY_ICON"
@@ -242,7 +296,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="60dp"
         android:src="@drawable/intelligence"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
@@ -269,65 +323,76 @@
         app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
 
     <ImageView
-        android:id="@+id/INTELLIGENCE_ICON2"
+        android:id="@+id/WISDOM_ICON"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="15dp"
-        android:src="@drawable/intelligence"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
+        android:layout_marginTop="60dp"
+        android:src="@drawable/wisdom"
+        app:layout_constraintEnd_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintStart_toEndOf="@+id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_DEXTERITY" />
 
     <TextView
-        android:id="@+id/INTELLIGENCE_TEXT2"
+        android:id="@+id/WISDOM_TEXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intelligence"
+        android:text="Wisdom"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_ICON" />
+        app:layout_constraintEnd_toEndOf="@id/WISDOM_ICON"
+        app:layout_constraintStart_toStartOf="@id/WISDOM_ICON"
+        app:layout_constraintTop_toBottomOf="@id/WISDOM_ICON" />
 
     <EditText
-        android:id="@+id/EDIT_INTELLIGENCE2"
+        android:id="@+id/EDIT_WISDOM"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="-1dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
+        app:layout_constraintEnd_toEndOf="@id/WISDOM_ICON"
+        app:layout_constraintStart_toStartOf="@id/WISDOM_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/WISDOM_TEXT" />
 
     <ImageView
-        android:id="@+id/INTELLIGENCE_ICON3"
+        android:id="@+id/CHARISMA_ICON"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="15dp"
-        android:src="@drawable/intelligence"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/charisma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_CONSTITUTION" />
 
     <TextView
-        android:id="@+id/INTELLIGENCE_TEXT3"
+        android:id="@+id/CHARISMA_TEXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intelligence"
+        android:text="Charisma"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_ICON" />
+        app:layout_constraintEnd_toEndOf="@id/CHARISMA_ICON"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CHARISMA_ICON" />
 
     <EditText
-        android:id="@+id/EDIT_INTELLIGENCE3"
+        android:id="@+id/EDIT_CHARISMA"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="-1dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
-        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
+        app:layout_constraintEnd_toEndOf="@id/CHARISMA_ICON"
+        app:layout_constraintStart_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CHARISMA_TEXT" />
+
+    <Space
+        android:id="@+id/centerAligner"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_next_page" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
