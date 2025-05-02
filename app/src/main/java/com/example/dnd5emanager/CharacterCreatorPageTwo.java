@@ -1,13 +1,14 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.CharacterCreatorPageOne.NewCharacter;
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
+import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
+import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -15,13 +16,27 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.Background;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageTwoBinding;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CharacterCreatorPageTwo extends Fragment {
 
-    private CharacterCreatorPageTwoBinding binding;
-    private EditText Bonds;
+    ArrayList<Background> BackgroundAL;
+    String[] BackgroundNames;
+    private ArrayAdapter<String> BackgroundAdapter;
 
+    private TextView Personality;
+    private TextView Ideals;
+    private TextView Bonds;
+    private TextView Flaws;
+    private TextView About;
+    private Spinner Background;
+    private Spinner Alignment;
+
+    private CharacterCreatorPageTwoBinding binding;
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
@@ -35,25 +50,48 @@ public class CharacterCreatorPageTwo extends Fragment {
 
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        Personality = view.findViewById(R.id.character_creator_page_two_personality);
+        Ideals = view.findViewById(R.id.character_creator_page_two_ideals);
+        Bonds = view.findViewById(R.id.character_creator_page_two_bonds);
+        Flaws = view.findViewById(R.id.character_creator_page_two_flaws);
+        About = view.findViewById(R.id.character_creator_page_two_about);
+        Background = view.findViewById(R.id.character_creator_page_two_background);
+        Alignment = view.findViewById(R.id.character_creator_page_two_alignment);
+
+        loadBackgrounds(view);
+
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
         });
-        binding.toCharacterView.setOnClickListener(v -> {
-            TextView Personality = view.findViewById(R.id.character_creator_page_two_personality);
-            TextView Ideals = view.findViewById(R.id.character_creator_page_two_ideals);
-            TextView Bonds = view.findViewById(R.id.character_creator_page_two_bonds);
-            TextView Flaws = view.findViewById(R.id.character_creator_page_two_flaws);
-            TextView About = view.findViewById(R.id.character_creator_page_two_about);
-            Spinner Background = view.findViewById(R.id.character_creator_page_two_background);
-            Spinner Alignment = view.findViewById(R.id.character_creator_page_two_alignment);
 
-            NewCharacter.setPersonality(Personality.getText().toString());
-            NewCharacter.setIdeals(Ideals.getText().toString());
-            NewCharacter.setBonds(Bonds.getText().toString());
-            NewCharacter.setFlaws(Flaws.getText().toString());
-            NewCharacter.setAbout(About.getText().toString());
-//            NewCharacter.setBackground(Background.getSelectedItem().toString());
-//            NewCharacter.setAlignment(Alignment.getSelectedItem().toString());
+        binding.toCharacterView.setOnClickListener(v -> {
+            if(Personality.getText() != null){
+                NewCharacter.setPersonality(Personality.getText().toString());
+            }
+
+            if(Ideals.getText() != null){
+                NewCharacter.setIdeals(Ideals.getText().toString());
+            }
+
+            if(Bonds.getText() != null){
+                NewCharacter.setBonds(Bonds.getText().toString());
+            }
+
+            if(Flaws.getText() != null){
+                NewCharacter.setFlaws(Flaws.getText().toString());
+            }
+
+            if(About.getText() != null){
+                NewCharacter.setAbout(About.getText().toString());
+            }
+
+            if(Background.getSelectedItem() != null){
+                NewCharacter.setBackground(Background.getSelectedItem().toString());
+            }
+
+            if(Alignment.getSelectedItem() != null){
+                NewCharacter.setAlignment(Alignment.getSelectedItem().toString());
+            }
 
             CurrentCharacter = NewCharacter;
 
@@ -64,6 +102,17 @@ public class CharacterCreatorPageTwo extends Fragment {
 
     }
 
+    public void loadBackgrounds(View v){
+        BackgroundAL = new ArrayList<Background>(Arrays.asList(Backgrounds.values().toArray(new Background[0])));
+        BackgroundNames = new String[BackgroundAL.size()];
+        for(int i = 0; i < BackgroundNames.length; i++){
+            BackgroundNames[i] = BackgroundAL.get(i).getName();
+        }
+        Arrays.sort(BackgroundNames);
+        BackgroundAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, BackgroundNames);
+        BackgroundAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Background.setAdapter(BackgroundAdapter);
+    }
 
     public void onDestroyView() {
         super.onDestroyView();

@@ -8,107 +8,95 @@
     tools:context=".CharacterCreatorPageTwo"
     tools:ignore="LabelFor">
 
+    <Spinner
+        android:id="@+id/character_creator_page_two_background"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_back_button" />
+
+    <Spinner
+        android:id="@+id/character_creator_page_two_alignment"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_background" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/character_creator_page_two_personality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Personality Traits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_alignment" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/character_creator_page_two_ideals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Ideals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_personality" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/character_creator_page_two_bonds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Bonds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_ideals" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/character_creator_page_two_flaws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Flaws"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_bonds" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/character_creator_page_two_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="About"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_two_flaws" />
+
+    <Button
+        android:id="@+id/toCharacterView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="See Details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_two_back_button" />
+
     <Button
         android:id="@+id/character_creator_page_two_back_button"
-        android:layout_width="75dp"
-        android:layout_height="55dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginStart="1dp"
+        android:backgroundTint="#00FFFFFF"
         android:padding="0dp"
-        android:text="back"
+        android:text="🔙"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/character_creator_page_two_background"
-        android:layout_width="178dp"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
-
-    <Spinner
-        android:id="@+id/character_creator_page_two_alignment"
-        android:layout_width="180dp"
-        android:layout_height="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/character_creator_page_two_personality"
-        android:layout_width="408dp"
-        android:layout_height="56dp"
-        android:hint="Personality Traits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/character_creator_page_two_ideals"
-        android:layout_width="410dp"
-        android:layout_height="56dp"
-        android:hint="Ideals"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/character_creator_page_two_bonds"
-        android:layout_width="411dp"
-        android:layout_height="58dp"
-        android:hint="Bonds"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/character_creator_page_two_flaws"
-        android:layout_width="410dp"
-        android:layout_height="53dp"
-        android:hint="Flaws"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.623" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/character_creator_page_two_about"
-        android:layout_width="411dp"
-        android:layout_height="69dp"
-        android:hint="About"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
-
-    <Button
-        android:id="@+id/toCharacterView"
-        android:layout_width="122dp"
-        android:layout_height="101dp"
-        android:text="See Details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.771"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

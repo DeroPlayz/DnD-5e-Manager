@@ -193,12 +193,12 @@ public class CharacterCreatorPageOne extends Fragment {
             Name = view.findViewById(R.id.character_creator_page_one_edit_name);
             Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Level = view.findViewById(R.id.character_creator_page_one_edit_level);
-            Strength = view.findViewById(R.id.STRENGTH_TEXT);
-            Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
-            Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
-//            Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
-//            Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
-//            Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+            Strength = view.findViewById(R.id.EDIT_STRENGTH);
+            Dexterity = view.findViewById(R.id.EDIT_DEXTERITY);
+            Constitution = view.findViewById(R.id.EDIT_CONSTITUTION);
+            Intelligence = view.findViewById(R.id.EDIT_INTELLIGENCE);
+            Wisdom = view.findViewById(R.id.EDIT_WISDOM);
+            Charisma = view.findViewById(R.id.EDIT_CHARISMA);
 
             Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
             ArrayList<String> MissingData = new ArrayList<>();
@@ -519,7 +519,7 @@ public class CharacterCreatorPageOne extends Fragment {
     public void updateRace(){
         NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
         Log.d("Updated Race", NewCharacter.getRace().getName());
-    };
+    }
 
     public void updateSubrace(){
         if(NewCharacter.getRace().HasSubraces()){

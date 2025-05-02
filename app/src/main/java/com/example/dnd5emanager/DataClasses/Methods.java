@@ -31,55 +31,76 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Methods {
 
     public static AssetManager AM;
     private static Handler mainHandler;
     private static ExecutorService executorService;
+
+    static boolean[] complete = {false, false, false, false};
+
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
         executorService = Executors.newFixedThreadPool(10); // Example: Thread pool with 2 threads
+        if(complete[0]) {
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    parseRaces(c, "races");
+                    parseSubraces(c, "subraces");
+                    complete[0] = true;
+                }
+            });
+        }
 
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                parseRaces(c, "races");
-                parseSubraces(c, "subraces");
-            }
-        });
+        if(complete[1]) {
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    parseClasses(c, "dndclasses");
+                    parseSubclasses(c, "subclasses");
+                    complete[1] = true;
+
+                }
+            });
+        }
+
+        if(complete[2]){
+            executorService.execute(new Runnable() {
+                @Override
+                public void run(){
+                    parseSpells(c, "spells");
+                    parseFeatures(c, "features");
+                    parseFeats(c, "feats");
+                    complete[2] = true;
+                }
+            });
+        }
+
+        if(complete[3]){
+            executorService.execute(new Runnable() {
+                @Override
+                public void run(){
+                    parseItems(c, "items");
+                    parseArmor(c, "armor");
+                    complete[3] = true;
+                }
+            });
+        }
 
         executorService.execute(new Runnable() {
             @Override
             public void run(){
-                parseClasses(c, "dndclasses");
-                parseSubclasses(c, "subclasses");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseSpells(c, "spells");
-                parseFeatures(c, "features");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseItems(c, "items");
-                parseArmor(c, "armor");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                LoadFromInternalStorage(c);
+                try {
+                    executorService.awaitTermination(60, TimeUnit.SECONDS);
+                    LoadFromInternalStorage(c);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }
@@ -241,6 +262,7 @@ public class Methods {
 
             character.setRace(Races.get(jsonObject.optString("race", "")));
             Log.d("Loaded Race", jsonObject.optString("race", ""));
+            Log.d("Does it exist?", String.valueOf(Races.containsKey(jsonObject.optString("race", ""))));
             Log.d("Current Race", character.getRace().getName());
 
             if(character.getRace().HasSubraces()){
