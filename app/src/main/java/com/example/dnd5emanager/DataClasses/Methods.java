@@ -1,6 +1,7 @@
 package com.example.dnd5emanager.DataClasses;
 
 import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
 import static com.example.dnd5emanager.DataClasses.Constants.Characters;
 import static com.example.dnd5emanager.DataClasses.Constants.Classes;
 import static com.example.dnd5emanager.DataClasses.Constants.Feats;
@@ -46,7 +47,7 @@ public class Methods {
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
         executorService = Executors.newFixedThreadPool(10); // Example: Thread pool with 2 threads
-        if(complete[0]) {
+        if(!complete[0]) {
             executorService.execute(new Runnable() {
                 @Override
                 public void run() {
@@ -57,7 +58,7 @@ public class Methods {
             });
         }
 
-        if(complete[1]) {
+        if(!complete[1]) {
             executorService.execute(new Runnable() {
                 @Override
                 public void run() {
@@ -69,19 +70,20 @@ public class Methods {
             });
         }
 
-        if(complete[2]){
+        if(!complete[2]){
             executorService.execute(new Runnable() {
                 @Override
                 public void run(){
                     parseSpells(c, "spells");
                     parseFeatures(c, "features");
                     parseFeats(c, "feats");
+                    parseBackgrounds(c, "backgrounds");
                     complete[2] = true;
                 }
             });
         }
 
-        if(complete[3]){
+        if(!complete[3]){
             executorService.execute(new Runnable() {
                 @Override
                 public void run(){
@@ -646,7 +648,39 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Feat.");
+            Log.d("Jason?", "Shot dead in Background.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void parseBackgrounds(Context context, String dir) {
+        Log.d("Jason", "He was just born in Background.");
+        AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                int i = 0;
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    String materialCost = "";
+                    Backgrounds.put(jsonObject.getString("name"), new Background(
+                            jsonObject.getString("name"),
+                            jsonObject.getInt("goldPieces")
+                    ));
+                    Log.d("Background #" + i, jsonObject.getString("name"));
+                    i++;
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Background.");
             throw new RuntimeException(e);
         }
     }

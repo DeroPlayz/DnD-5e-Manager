@@ -23,11 +23,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class CharacterCreatorPageTwo extends Fragment {
-
-    ArrayList<Background> BackgroundAL;
-    String[] BackgroundNames;
-    private ArrayAdapter<String> BackgroundAdapter;
-
     private TextView Personality;
     private TextView Ideals;
     private TextView Bonds;
@@ -58,7 +53,8 @@ public class CharacterCreatorPageTwo extends Fragment {
         Background = view.findViewById(R.id.character_creator_page_two_background);
         Alignment = view.findViewById(R.id.character_creator_page_two_alignment);
 
-        loadBackgrounds(view);
+        loadBackgrounds();
+        loadAlignments();
 
         binding.characterCreatorPageTwoBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
@@ -102,16 +98,23 @@ public class CharacterCreatorPageTwo extends Fragment {
 
     }
 
-    public void loadBackgrounds(View v){
-        BackgroundAL = new ArrayList<Background>(Arrays.asList(Backgrounds.values().toArray(new Background[0])));
-        BackgroundNames = new String[BackgroundAL.size()];
+    public void loadBackgrounds(){
+        ArrayList<Background> BackgroundAL = new ArrayList<Background>(Arrays.asList(Backgrounds.values().toArray(new Background[0])));
+        String[] BackgroundNames = new String[BackgroundAL.size()];
         for(int i = 0; i < BackgroundNames.length; i++){
             BackgroundNames[i] = BackgroundAL.get(i).getName();
         }
         Arrays.sort(BackgroundNames);
-        BackgroundAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, BackgroundNames);
+        ArrayAdapter<String> BackgroundAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, BackgroundNames);
         BackgroundAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Background.setAdapter(BackgroundAdapter);
+    }
+
+    public void loadAlignments(){
+        String[] Alignments = {"Lawful Good", "Neutral Good", "Chaotic Good", "Lawful Neutral", "True Neutral", "Chaotic Neutral", "Lawful Evil", "Neutral Evil", "Chaotic Evil"};
+        ArrayAdapter<String> AlignmentAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Alignments);
+        AlignmentAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Alignment.setAdapter(AlignmentAdapter);
     }
 
     public void onDestroyView() {

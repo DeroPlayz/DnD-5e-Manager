@@ -200,6 +200,34 @@ public class CharacterCreatorPageOne extends Fragment {
             Wisdom = view.findViewById(R.id.EDIT_WISDOM);
             Charisma = view.findViewById(R.id.EDIT_CHARISMA);
 
+            Log.d("Written Strength", String.valueOf(Integer.parseInt(Strength.getText().toString())));
+            Log.d("Written Dexterity", String.valueOf(Integer.parseInt(Dexterity.getText().toString())));
+            Log.d("Written Constitution", String.valueOf(Integer.parseInt(Constitution.getText().toString())));
+            Log.d("Written Intelligence", String.valueOf(Integer.parseInt(Intelligence.getText().toString())));
+            Log.d("Written Wisdom", String.valueOf(Integer.parseInt(Wisdom.getText().toString())));
+            Log.d("Written Charisma", String.valueOf(Integer.parseInt(Charisma.getText().toString())));
+
+            NewCharacter.setBaseStrength(Integer.parseInt(Strength.getText().toString()));
+            NewCharacter.setBaseDexterity(Integer.parseInt(Dexterity.getText().toString()));
+            NewCharacter.setBaseConstitution(Integer.parseInt(Constitution.getText().toString()));
+            NewCharacter.setBaseIntelligence(Integer.parseInt(Intelligence.getText().toString()));
+            NewCharacter.setBaseWisdom(Integer.parseInt(Wisdom.getText().toString()));
+            NewCharacter.setBaseCharisma(Integer.parseInt(Charisma.getText().toString()));
+
+            NewCharacter.setStrength();
+            NewCharacter.setDexterity();
+            NewCharacter.setConstitution();
+            NewCharacter.setIntelligence();
+            NewCharacter.setWisdom();
+            NewCharacter.setCharisma();
+
+            Log.d("Current Strength", String.valueOf(NewCharacter.getStrength()));
+            Log.d("Current Dexterity", String.valueOf(NewCharacter.getDexterity()));
+            Log.d("Current Constitution", String.valueOf(NewCharacter.getConstitution()));
+            Log.d("Current Intelligence", String.valueOf(NewCharacter.getIntelligence()));
+            Log.d("Current Wisdom", String.valueOf(NewCharacter.getWisdom()));
+            Log.d("Current Charisma", String.valueOf(NewCharacter.getCharisma()));
+
             Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
             ArrayList<String> MissingData = new ArrayList<>();
 

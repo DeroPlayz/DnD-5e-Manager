@@ -3,6 +3,7 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,13 +47,6 @@ public class CharacterView extends Fragment {
 
         super.onViewCreated(view, savedInstanceState);
 
-        TextView Strength = view.findViewById(R.id.STRENGTH_TEXT);
-        TextView Dexterity = view.findViewById(R.id.DEXTERITY_TEXT);
-        TextView Constitution = view.findViewById(R.id.CONSTITUTION_TEXT);
-        TextView Intelligence = view.findViewById(R.id.INTELLIGENCE_TEXT);
-        TextView Wisdom = view.findViewById(R.id.WISDOM_TEXT);
-        TextView Charisma = view.findViewById(R.id.CHARISMA_TEXT);
-
         //Finds the TextView element for the character name textbox.
         TextView CharacterName = view.findViewById(R.id.characterName);
         //Sets the textbox's value to the in-progress character's name.
@@ -60,7 +54,6 @@ public class CharacterView extends Fragment {
 
         //Second verse, same as the first; this time, for the character's race.
         TextView CharacterRace = view.findViewById(R.id.characterRace);
-        TextView CharacterClass = view.findViewById(R.id.characterClass);
 
         String RaceDisp = "";
         if(CurrentCharacter.getRace() != null) {
@@ -73,21 +66,22 @@ public class CharacterView extends Fragment {
             }
         }
 
-        String ClassDisp = "";
-        if(CurrentCharacter.getPrimaryClass() != null) {
-            ClassDisp += CurrentCharacter.getPrimaryClass().getName();
-        }
-
         //Updates the visible textbox.
         CharacterRace.setText(RaceDisp);
-        CharacterClass.setText(ClassDisp);
-
         //Just like the other two. These aren't great descriptions of functionality, but I'm f***ing exhausted. It's 11 pm.
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
-        String LevelDisp = "";
-//        for(int i = 0; i < CurrentCharacter.getClassCount(); i++)
-        LevelDisp += "Level " + CurrentCharacter.getLevel() + " ";
-        CharacterLevel.setText(LevelDisp);
+        StringBuilder LevelDisp = new StringBuilder();
+        for(int i = 0; i < CurrentCharacter.getPlayerClasses().size(); i++){
+            LevelDisp.append("Level ").append(CurrentCharacter.getLevel()).append(" ").append(CurrentCharacter.getPlayerClasses().get(i).getName());
+            if(i < CurrentCharacter.getPlayerClasses().size() - 1){
+                LevelDisp.append(", ");
+            }
+        }
+        CharacterLevel.setText(LevelDisp.toString());
+
+//        Log.d("NG Class?", String.valueOf(NewCharacter.getPrimaryClass()));
+//        Log.d("CG Class?", String.valueOf(CurrentCharacter.getPrimaryClass()));
+//        Log.d("CG Class Count?", String.valueOf(CurrentCharacter.getClasses().size()));
 
         CurrentCharacter.setStrengthBonus();
         CurrentCharacter.setDexterityBonus();
@@ -95,10 +89,6 @@ public class CharacterView extends Fragment {
         CurrentCharacter.setIntelligenceBonus();
         CurrentCharacter.setWisdomBonus();
         CurrentCharacter.setCharismaBonus();
-
-//        Log.d("NG Class?", String.valueOf(NewCharacter.getPrimaryClass()));
-//        Log.d("CG Class?", String.valueOf(CurrentCharacter.getPrimaryClass()));
-//        Log.d("CG Class Count?", String.valueOf(CurrentCharacter.getClasses().size()));
 
         TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
         StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));

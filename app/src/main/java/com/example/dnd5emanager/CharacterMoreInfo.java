@@ -1,24 +1,29 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.Methods;
+import com.example.dnd5emanager.DataClasses.Background;
 import com.example.dnd5emanager.databinding.CharacterMoreInfoBinding;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 ///**
 // * A simple {@link Fragment} subclass.
@@ -45,17 +50,24 @@ public class CharacterMoreInfo extends Fragment {
         TextView Bonds = view.findViewById(R.id.character_more_info_bonds);
         TextView Ideals = view.findViewById(R.id.character_more_info_ideals);
         TextView Flaws = view.findViewById(R.id.character_more_info_flaws);
+        TextView Background = view.findViewById(R.id.character_more_info_background);
+        TextView Alignment = view.findViewById(R.id.character_more_info_alignment);
+
         String AboutVal = "About: " +  CurrentCharacter.getAbout();
         String PersonalityVal = "Personality Traits: " + CurrentCharacter.getPersonality();
         String BondsVal = "Bonds: " + CurrentCharacter.getBonds();
         String IdealsVal = "Ideals: " + CurrentCharacter.getIdeals();
         String FlawsVal = "Flaws: " + CurrentCharacter.getFlaws();
+        String BackgroundVal = "Background: " + CurrentCharacter.getBackground();
+        String AlignmentVal = "Alignment: " + CurrentCharacter.getAlignment();
 
         About.setText(AboutVal);
         Personality.setText(PersonalityVal);
         Bonds.setText(BondsVal);
         Ideals.setText(IdealsVal);
         Flaws.setText(FlawsVal);
+        Background.setText(BackgroundVal);
+        Alignment.setText(AlignmentVal);
 
         AlertDialog.Builder LoreEditor = new AlertDialog.Builder(requireContext());
 
@@ -148,6 +160,53 @@ public class CharacterMoreInfo extends Fragment {
                     });
                     LoreEditor.setView(EditFlaws);
                     LoreEditor.show();
+            }
+        });
+
+        binding.characterMoreInfoBackground.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("Editing Lore", "Background");
+                Spinner EditBackground = new Spinner(getContext());
+                ArrayList<Background> BackgroundAL = new ArrayList<Background>(Arrays.asList(Backgrounds.values().toArray(new Background[0])));
+                String[] BackgroundNames = new String[BackgroundAL.size()];
+                for(int i = 0; i < BackgroundNames.length; i++){
+                    BackgroundNames[i] = BackgroundAL.get(i).getName();
+                }
+                Arrays.sort(BackgroundNames);
+                ArrayAdapter<String> BackgroundAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, BackgroundNames);
+                BackgroundAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                EditBackground.setAdapter(BackgroundAdapter);
+                LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        Background.setText("Background: " + EditBackground.getSelectedItem().toString());
+                        CurrentCharacter.setBackground(EditBackground.getSelectedItem().toString());
+                    }
+                });
+                LoreEditor.setView(EditBackground);
+                LoreEditor.show();
+            }
+        });
+
+        binding.characterMoreInfoAlignment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("Editing Lore", "Alignment");
+                Spinner EditAlignment = new Spinner(getContext());
+                String[] Alignments = {"Lawful Good", "Neutral Good", "Chaotic Good", "Lawful Neutral", "True Neutral", "Chaotic Neutral", "Lawful Evil", "Neutral Evil", "Chaotic Evil"};
+                ArrayAdapter<String> AlignmentAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Alignments);
+                AlignmentAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                EditAlignment.setAdapter(AlignmentAdapter);
+                LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        Alignment.setText("Alignment: " + EditAlignment.getSelectedItem().toString());
+                        CurrentCharacter.setBackground(EditAlignment.getSelectedItem().toString());
+                    }
+                });
+                LoreEditor.setView(EditAlignment);
+                LoreEditor.show();
             }
         });
 

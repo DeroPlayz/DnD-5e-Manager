@@ -68,25 +68,26 @@
 
                     <TextView
                         android:id="@+id/character_view_strength_mod"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/character_view_strength_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
 
                     <TextView
                         android:id="@+id/character_view_strength_save"
-                        android:layout_width="27dp"
-                        android:layout_height="15dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:padding="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/character_view_strength_value"
-                        app:layout_constraintStart_toEndOf="@+id/character_view_strength_value" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/character_view_strength_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_strength_mod" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -126,30 +127,31 @@
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintEnd_toStartOf="@+id/character_view_dexterity_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_text" />
 
                     <TextView
                         android:id="@+id/character_view_dexterity_mod"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_text" />
 
                     <TextView
                         android:id="@+id/character_view_dexterity_save"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/character_view_dexterity_value"
-                        app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_mod" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -188,31 +190,32 @@
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintEnd_toStartOf="@+id/character_view_constitution_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_text" />
 
                     <TextView
                         android:id="@+id/character_view_constitution_mod"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_text" />
 
 
                     <TextView
                         android:id="@+id/character_view_constitution_save"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/character_view_constitution_value"
-                        app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_mod" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -256,26 +259,26 @@
 
                     <TextView
                         android:id="@+id/character_view_intelligence_mod"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_intelligence_text" />
 
 
                     <TextView
                         android:id="@+id/character_view_intelligence_save"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/character_view_intelligence_value"
-                        app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_intelligence_mod" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -315,31 +318,32 @@
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintEnd_toStartOf="@+id/character_view_wisdom_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_text" />
 
                     <TextView
                         android:id="@+id/character_view_wisdom_mod"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_text" />
 
 
                     <TextView
                         android:id="@+id/character_view_wisdom_save"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/character_view_wisdom_value"
-                        app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value"
+                        app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_mod" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -384,26 +388,26 @@
 
                     <TextView
                         android:id="@+id/character_view_charisma_mod"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_charisma_text" />
 
 
                     <TextView
                         android:id="@+id/character_view_charisma_save"
-                        android:layout_width="35dp"
-                        android:layout_height="20dp"
-                        android:padding="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="15sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/character_view_charisma_value"
-                        app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value" />
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value"
+                        app:layout_constraintTop_toBottomOf="@id/character_view_charisma_mod" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -479,30 +483,29 @@
                 app:layout_constraintStart_toEndOf="@id/character_view_health_divider"
                 app:layout_constraintTop_toTopOf="@id/character_view_health_divider" />
 
-            <Button
-                android:id="@+id/character_view_add_health"
-                android:layout_width="66dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#00000000"
-                android:padding="0dp"
-                android:text="+"
-                android:textColor="#040303"
-                android:textSize="14sp"
-                app:layout_constraintStart_toEndOf="@id/character_view_subtract_health"
+            <ImageButton
+                android:id="@+id/character_view_subtract_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:background="#00FFFFFF"
+                android:scaleX=".25"
+                android:scaleY=".25"
+                android:src="@drawable/disadvantage"
+                app:layout_constraintStart_toEndOf="@id/character_view_health_text"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/character_view_subtract_health"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginStart="10dp"
-                android:backgroundTint="#00000000"
-                android:padding="0dp"
-                android:text="—"
-                android:textColor="#020101"
-                android:textSize="14sp"
-                app:layout_constraintStart_toEndOf="@id/character_view_max_health"
+            <ImageButton
+                android:id="@+id/character_view_add_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-30dp"
+                android:background="#00372C2C"
+                android:scaleX=".25"
+                android:scaleY=".25"
+                android:src="@drawable/advantage"
+                app:layout_constraintStart_toEndOf="@id/character_view_current_health"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -524,48 +527,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/characterLevel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="210dp"
-        android:layout_marginEnd="80dp"
-        android:text="Level"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/characterRace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="135dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginTop="10dp"
         android:text="Race"
-        android:textSize="22sp"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@id/characterName"
+        app:layout_constraintStart_toStartOf="@id/characterName"
+        app:layout_constraintTop_toBottomOf="@id/characterName" />
 
     <TextView
-        android:id="@+id/characterClass"
+        android:id="@+id/characterLevel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="80dp"
-        android:text="Class"
+        android:layout_marginTop="10dp"
+        android:text="Level"
         android:textColor="@color/black"
         android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/characterName"
         app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@id/characterName"
+        app:layout_constraintTop_toBottomOf="@id/characterRace" />
 
     <Button
         android:id="@+id/character_view_back_button"
