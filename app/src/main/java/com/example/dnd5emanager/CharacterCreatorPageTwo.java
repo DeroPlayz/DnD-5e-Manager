@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
@@ -45,6 +46,14 @@ public class CharacterCreatorPageTwo extends Fragment {
 
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        OnBackPressedCallback callback = new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                NavHostFragment.findNavController(CharacterCreatorPageTwo.this).navigate(R.id.goToCharacterCreatorPageOne);
+            }
+        };
+        requireActivity().getOnBackPressedDispatcher().addCallback(getViewLifecycleOwner(), callback);
+
         Personality = view.findViewById(R.id.character_creator_page_two_personality);
         Ideals = view.findViewById(R.id.character_creator_page_two_ideals);
         Bonds = view.findViewById(R.id.character_creator_page_two_bonds);

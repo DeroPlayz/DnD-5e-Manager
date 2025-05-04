@@ -58,11 +58,13 @@
 
                     <TextView
                         android:id="@+id/character_view_strength_value"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/character_view_strength_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_strength_text" />
 
@@ -122,11 +124,12 @@
 
                     <TextView
                         android:id="@+id/character_view_dexterity_value"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/character_view_dexterity_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_dexterity_text" />
@@ -185,11 +188,12 @@
 
                     <TextView
                         android:id="@+id/character_view_constitution_value"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/character_view_constitution_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_constitution_text" />
@@ -249,11 +253,13 @@
 
                     <TextView
                         android:id="@+id/character_view_intelligence_value"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/character_view_intelligence_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_intelligence_text" />
 
@@ -313,11 +319,12 @@
 
                     <TextView
                         android:id="@+id/character_view_wisdom_value"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/character_view_wisdom_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_wisdom_text" />
@@ -378,11 +385,13 @@
 
                     <TextView
                         android:id="@+id/character_view_charisma_value"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:text="✏️"
                         android:textAlignment="center"
                         android:textSize="22sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/character_view_charisma_mod"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/character_view_charisma_text" />
 

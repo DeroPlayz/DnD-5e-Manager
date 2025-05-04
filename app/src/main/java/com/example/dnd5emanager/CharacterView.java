@@ -47,95 +47,11 @@ public class CharacterView extends Fragment {
 
         super.onViewCreated(view, savedInstanceState);
 
-        //Finds the TextView element for the character name textbox.
-        TextView CharacterName = view.findViewById(R.id.characterName);
-        //Sets the textbox's value to the in-progress character's name.
-        CharacterName.setText(CurrentCharacter.getName());
-
-        //Second verse, same as the first; this time, for the character's race.
-        TextView CharacterRace = view.findViewById(R.id.characterRace);
-
-        String RaceDisp = "";
-        if(CurrentCharacter.getRace() != null) {
-            if (CurrentCharacter.getRace().HasSubraces()) {
-                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
-                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
-            } else {
-                //When no subrace is present, the "base" race is shown.
-                RaceDisp += CurrentCharacter.getRace().getName();
-            }
-        }
-
-        //Updates the visible textbox.
-        CharacterRace.setText(RaceDisp);
-        //Just like the other two. These aren't great descriptions of functionality, but I'm f***ing exhausted. It's 11 pm.
-        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
-        StringBuilder LevelDisp = new StringBuilder();
-        for(int i = 0; i < CurrentCharacter.getPlayerClasses().size(); i++){
-            LevelDisp.append("Level ").append(CurrentCharacter.getLevel()).append(" ").append(CurrentCharacter.getPlayerClasses().get(i).getName());
-            if(i < CurrentCharacter.getPlayerClasses().size() - 1){
-                LevelDisp.append(", ");
-            }
-        }
-        CharacterLevel.setText(LevelDisp.toString());
-
-//        Log.d("NG Class?", String.valueOf(NewCharacter.getPrimaryClass()));
-//        Log.d("CG Class?", String.valueOf(CurrentCharacter.getPrimaryClass()));
-//        Log.d("CG Class Count?", String.valueOf(CurrentCharacter.getClasses().size()));
-
-        CurrentCharacter.setStrengthBonus();
-        CurrentCharacter.setDexterityBonus();
-        CurrentCharacter.setConstitutionBonus();
-        CurrentCharacter.setIntelligenceBonus();
-        CurrentCharacter.setWisdomBonus();
-        CurrentCharacter.setCharismaBonus();
-
-        TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
-        StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
-        TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
-        StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));
-        TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
-        StrengthSave.setText(String.valueOf(CurrentCharacter.getStrengthSave()));
-
-        TextView DexterityValue = view.findViewById(R.id.character_view_dexterity_value);
-        DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
-        TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
-        DexterityMod.setText(String.valueOf(CurrentCharacter.getDexterityBonus()));
-        TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
-        DexteritySave.setText(String.valueOf(CurrentCharacter.getDexteritySave()));
-
-        TextView ConstitutionValue = view.findViewById(R.id.character_view_constitution_value);
-        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
-        TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
-        ConstitutionMod.setText(String.valueOf(CurrentCharacter.getConstitutionBonus()));
-        TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
-        ConstitutionSave.setText(String.valueOf(CurrentCharacter.getConstitutionSave()));
-
-        TextView IntelligenceValue = view.findViewById(R.id.character_view_intelligence_value);
-        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
-        TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
-        IntelligenceMod.setText(String.valueOf(CurrentCharacter.getIntelligenceBonus()));
-        TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
-        IntelligenceSave.setText(String.valueOf(CurrentCharacter.getIntelligenceSave()));
-
-        TextView WisdomValue = view.findViewById(R.id.character_view_wisdom_value);
-        WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
-        TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
-        WisdomMod.setText(String.valueOf(CurrentCharacter.getWisdomBonus()));
-        TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
-        WisdomSave.setText(String.valueOf(CurrentCharacter.getWisdomSave()));
-
-        TextView CharismaValue = view.findViewById(R.id.character_view_charisma_value);
-        CharismaValue.setText(String.valueOf(CurrentCharacter.getCharisma()));
-        TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
-        CharismaMod.setText(String.valueOf(CurrentCharacter.getCharismaBonus()));
-        TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
-        CharismaSave.setText(String.valueOf(CurrentCharacter.getCharismaSave()));
-
-        TextView CurrentHealth = view.findViewById(R.id.character_view_current_health);
-        CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
-        TextView MaxHealth = view.findViewById(R.id.character_view_max_health);
-        MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
+        loadName(view);
+        loadRace(view);
+        loadClassAndLevel(view);
+        loadHealth(view);
+        loadStats(view);
 
         binding.characterViewBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
@@ -153,18 +69,157 @@ public class CharacterView extends Fragment {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterMoreInfo);
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+    }
 
-        binding.characterViewAddHealth.setOnClickListener(v -> {
-            CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() + 1);
-            CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
-            Methods.saveCharacter(requireContext(), CurrentCharacter);
-        });
+    public void loadName(View view){
+        TextView CharacterName = view.findViewById(R.id.characterName);
+        CharacterName.setText(CurrentCharacter.getName());
+    }
+
+    public void loadRace(View view){
+        TextView CharacterRace = view.findViewById(R.id.characterRace);
+        String RaceDisp = "";
+        if(CurrentCharacter.getRace() != null) {
+            if (CurrentCharacter.getRace().HasSubraces()) {
+                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+            } else {
+                //When no subrace is present, the "base" race is shown.
+                RaceDisp += CurrentCharacter.getRace().getName();
+            }
+        }
+        CharacterRace.setText(RaceDisp);
+    }
+
+    public void loadClassAndLevel(View view){
+        //Just like the other two. Not much to say.
+        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
+        StringBuilder LevelDisp = new StringBuilder();
+        for(int i = 0; i < CurrentCharacter.getPlayerClasses().size(); i++){
+            LevelDisp.append("Level ").append(CurrentCharacter.getLevel()).append(" ").append(CurrentCharacter.getPlayerClasses().get(i).getName());
+            if(i < CurrentCharacter.getPlayerClasses().size() - 1){
+                LevelDisp.append(", ");
+            }
+        }
+        CharacterLevel.setText(LevelDisp.toString());
+    }
+
+    public void loadHealth(View view){
+        TextView CurrentHealth = view.findViewById(R.id.character_view_current_health);
+        CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
+        TextView MaxHealth = view.findViewById(R.id.character_view_max_health);
+        MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
 
         binding.characterViewSubtractHealth.setOnClickListener(v -> {
             CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() - 1);
             CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+
+        binding.characterViewAddHealth.setOnClickListener(v -> {
+            CurrentCharacter.setCurrentHealth(CurrentCharacter.getCurrentHealth() + 1);
+            CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
+        });
+    }
+
+    public void loadStats(View view){
+        loadStrength(view);
+        loadDexterity(view);
+        loadConstitution(view);
+        loadIntelligence(view);
+        loadWisdom(view);
+        loadCharisma(view);
+    }
+
+    public void loadStrength(View view){
+        CurrentCharacter.setStrength();
+        CurrentCharacter.setStrengthBonus();
+        Log.d("Current Strength", String.valueOf(CurrentCharacter.getStrength()));
+
+        TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
+        StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
+
+        TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
+        StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));
+
+        TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
+        StrengthSave.setText(String.valueOf(CurrentCharacter.getStrengthSave()));
+    }
+
+    public void loadDexterity(View view){
+        CurrentCharacter.setDexterity();
+        CurrentCharacter.setDexterityBonus();
+        Log.d("Current Dexterity", String.valueOf(CurrentCharacter.getDexterity()));
+
+        TextView DexterityValue = view.findViewById(R.id.character_view_dexterity_value);
+        DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
+
+        TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
+        DexterityMod.setText(String.valueOf(CurrentCharacter.getDexterityBonus()));
+
+        TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
+        DexteritySave.setText(String.valueOf(CurrentCharacter.getDexteritySave()));
+    }
+
+    public void loadConstitution(View view){
+        CurrentCharacter.setConstitution();
+        CurrentCharacter.setConstitutionBonus();
+        Log.d("Current Constitution", String.valueOf(CurrentCharacter.getConstitution()));
+
+        TextView ConstitutionValue = view.findViewById(R.id.character_view_constitution_value);
+        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
+
+        TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
+        ConstitutionMod.setText(String.valueOf(CurrentCharacter.getConstitutionBonus()));
+
+        TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
+        ConstitutionSave.setText(String.valueOf(CurrentCharacter.getConstitutionSave()));
+    }
+
+    public void loadIntelligence(View view){
+        CurrentCharacter.setIntelligence();
+        CurrentCharacter.setIntelligenceBonus();
+        Log.d("Current Intelligence", String.valueOf(CurrentCharacter.getIntelligence()));
+
+        TextView IntelligenceValue = view.findViewById(R.id.character_view_intelligence_value);
+        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
+
+        TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
+        IntelligenceMod.setText(String.valueOf(CurrentCharacter.getIntelligenceBonus()));
+
+        TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
+        IntelligenceSave.setText(String.valueOf(CurrentCharacter.getIntelligenceSave()));
+    }
+
+    public void loadWisdom(View view){
+        CurrentCharacter.setWisdom();
+        CurrentCharacter.setWisdomBonus();
+        Log.d("Current Wisdom", String.valueOf(CurrentCharacter.getWisdom()));
+
+        TextView WisdomValue = view.findViewById(R.id.character_view_wisdom_value);
+        WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
+
+        TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
+        WisdomMod.setText(String.valueOf(CurrentCharacter.getWisdomBonus()));
+
+        TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
+        WisdomSave.setText(String.valueOf(CurrentCharacter.getWisdomSave()));
+    }
+
+    public void loadCharisma(View view){
+        CurrentCharacter.setCharisma();
+        CurrentCharacter.setCharismaBonus();
+        Log.d("Current Charisma", String.valueOf(CurrentCharacter.getCharisma()));
+
+        TextView CharismaValue = view.findViewById(R.id.character_view_charisma_value);
+        CharismaValue.setText(String.valueOf(CurrentCharacter.getCharisma()));
+
+        TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
+        CharismaMod.setText(String.valueOf(CurrentCharacter.getCharismaBonus()));
+
+        TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
+        CharismaSave.setText(String.valueOf(CurrentCharacter.getCharismaSave()));
     }
 
     @Override

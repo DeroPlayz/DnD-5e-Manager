@@ -42,57 +42,67 @@ public class Methods {
     private static Handler mainHandler;
     private static ExecutorService executorService;
 
-    static boolean[] complete = {false, false, false, false};
-
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(10); // Example: Thread pool with 2 threads
-        if(!complete[0]) {
-            executorService.execute(new Runnable() {
-                @Override
-                public void run() {
-                    parseRaces(c, "races");
-                    parseSubraces(c, "subraces");
-                    complete[0] = true;
-                }
-            });
-        }
+        executorService = Executors.newFixedThreadPool(16); // Example: Thread pool with 2 threads
 
-        if(!complete[1]) {
-            executorService.execute(new Runnable() {
-                @Override
-                public void run() {
-                    parseClasses(c, "dndclasses");
-                    parseSubclasses(c, "subclasses");
-                    complete[1] = true;
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                parseRaces(c, "races");
+                parseSubraces(c, "subraces");
+            }
+        });
 
-                }
-            });
-        }
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                parseClasses(c, "dndclasses");
+                parseSubclasses(c, "subclasses");
+            }
+        });
 
-        if(!complete[2]){
-            executorService.execute(new Runnable() {
-                @Override
-                public void run(){
-                    parseSpells(c, "spells");
-                    parseFeatures(c, "features");
-                    parseFeats(c, "feats");
-                    parseBackgrounds(c, "backgrounds");
-                    complete[2] = true;
-                }
-            });
-        }
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseSpells(c, "spells");
+            }
+        });
 
-        if(!complete[3]){
-            executorService.execute(new Runnable() {
-                @Override
-                public void run(){
-                    parseItems(c, "items");
-                    parseArmor(c, "armor");
-                    complete[3] = true;
-                }
-            });
-        }
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseFeatures(c, "features");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseFeats(c, "feats");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseBackgrounds(c, "backgrounds");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseItems(c, "items");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseArmor(c, "armor");
+            }
+        });
 
         executorService.execute(new Runnable() {
             @Override
@@ -106,6 +116,7 @@ public class Methods {
             }
         });
     }
+
     public static void LoadFromInternalStorage(Context c){
         AssetManager AM = c.getAssets();
         Characters.clear();
@@ -161,6 +172,11 @@ public class Methods {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", character.getName());
             Log.d("Saved Name", String.valueOf(character.getName()));
+
+            jsonObject.put("current_health", character.getCurrentHealth());
+            Log.d("Saved Current Health", String.valueOf(character.getCurrentHealth()));
+            jsonObject.put("max_health", character.getMaxHealth());
+            Log.d("Saved Max Health", String.valueOf(character.getMaxHealth()));
 
             jsonObject.put("race", character.getRace().getName());
             Log.d("Saved Race", String.valueOf(character.getRace().getName()));
@@ -262,6 +278,11 @@ public class Methods {
             character.setName(jsonObject.optString("name", ""));
             Log.d("Loaded Name", jsonObject.optString("name", ""));
 
+            character.setCurrentHealth(jsonObject.optInt("current_health", 1));
+            Log.d("Loaded Current Health", String.valueOf(jsonObject.optInt("current_health", 1)));
+            character.setMaxHealth(jsonObject.optInt("max_health", 1));
+            Log.d("Loaded Max Health", String.valueOf(jsonObject.optInt("max_health", 1)));
+
             character.setRace(Races.get(jsonObject.optString("race", "")));
             Log.d("Loaded Race", jsonObject.optString("race", ""));
             Log.d("Does it exist?", String.valueOf(Races.containsKey(jsonObject.optString("race", ""))));
@@ -348,8 +369,6 @@ public class Methods {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    boolean hasSubraces = AM.list(dir + "/" + fileName + "Subraces") != null;
-
                     Races.put(jsonObject.getString("name"), new Race(
                             jsonObject.getString("name"),
                             jsonObject.getInt("ac"),
