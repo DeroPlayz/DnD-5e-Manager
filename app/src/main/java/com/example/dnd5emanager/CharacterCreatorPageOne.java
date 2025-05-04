@@ -138,7 +138,7 @@ public class CharacterCreatorPageOne extends Fragment {
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
                     loadSubraces();
-                    if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).HasSubraces()) {
+                    if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).hasSubraces()) {
                         Subrace.setEnabled(false);
                         Subrace.setClickable(false);
                         Subrace.setVisibility(View.INVISIBLE);
@@ -539,7 +539,7 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateSubrace(){
-        if(NewCharacter.getRace().HasSubraces()){
+        if(NewCharacter.getRace().hasSubraces()){
             NewCharacter.setSubrace(Subraces.get(Subrace.getSelectedItem().toString()));
             Log.d("Updated Subrace", NewCharacter.getSubrace().getName());
         }

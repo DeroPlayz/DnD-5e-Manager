@@ -80,7 +80,7 @@ public class CharacterView extends Fragment {
         TextView CharacterRace = view.findViewById(R.id.characterRace);
         String RaceDisp = "";
         if(CurrentCharacter.getRace() != null) {
-            if (CurrentCharacter.getRace().HasSubraces()) {
+            if (CurrentCharacter.getRace().hasSubraces()) {
                 //If a subrace exists, it will prioritize displaying that, because it's more detailed.
                 RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
             } else {

@@ -47,7 +47,8 @@ public class Race {
         public ArrayList<Subrace> getSubraces(){
             return Subraces;
         }
-    public boolean HasSubraces(){
+
+    public boolean hasSubraces(){
         if(Subraces.size() > 1){
             return true;
         }

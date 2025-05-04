@@ -181,7 +181,7 @@ public class Methods {
             jsonObject.put("race", character.getRace().getName());
             Log.d("Saved Race", String.valueOf(character.getRace().getName()));
 
-            if(character.getRace().HasSubraces()){
+            if(character.getRace().hasSubraces()){
                 jsonObject.put("subrace", character.getSubrace().getName());
                 Log.d("Saved Subrace", String.valueOf(character.getSubrace().getName()));
             }
@@ -288,7 +288,7 @@ public class Methods {
             Log.d("Does it exist?", String.valueOf(Races.containsKey(jsonObject.optString("race", ""))));
             Log.d("Current Race", character.getRace().getName());
 
-            if(character.getRace().HasSubraces()){
+            if(character.getRace().hasSubraces()){
                 character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
                 Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
             }
