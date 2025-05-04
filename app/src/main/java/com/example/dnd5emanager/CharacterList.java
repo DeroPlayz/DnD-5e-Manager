@@ -8,14 +8,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.ImageView;
-import android.widget.ScrollView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -54,59 +51,51 @@ public class CharacterList extends Fragment {
                         .navigate(R.id.goToCharacterCreatorPageOne)
         );
 
+        TextView CharacterRace = view.findViewById(R.id.characterRace);
+        String RaceDisp = "";
+        if(CurrentCharacter != null && CurrentCharacter.getRace() != null) {
+            if (CurrentCharacter.getRace().hasSubraces()) {
+                //If a subrace exists, it will prioritize displaying that, because it's more detailed.
+                RaceDisp += CurrentCharacter.getSubrace().getName() + " ";
+            } else {
+                //When no subrace is present, the "base" race is shown.
+                RaceDisp += CurrentCharacter.getRace().getName();
+            }
+        }
+        if(CharacterRace != null){
+            CharacterRace.setText(RaceDisp);
+        }
+
+
+        TextView CharacterLevel = view.findViewById(R.id.characterLevel);
+        String LevelDisp = "";
+
+        if(CurrentCharacter != null) {
+            LevelDisp += CurrentCharacter.getLevel() + " ";
+        }
+        if(CharacterLevel != null){
+            CharacterLevel.setText(LevelDisp);
+        }
+
+        Spinner CharacterList = view.findViewById(R.id.character_list_choose_character);
+
         LoadFromInternalStorage(requireContext());
 
         String[] CharacterNames = Characters.keySet().toArray(new String[0]);
-
-        ScrollView character_list = view.findViewById(R.id.character_list);
-
-        for(int i = 0; i < CharacterNames.length; i++){
-            CardView CharCard = new CardView(requireContext());
-
-            ConstraintLayout Constraint = new ConstraintLayout(requireContext());
-
-            LayoutParams Wrap = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-            LayoutParams Zero = new LayoutParams(0, 0);
-
-            ImageView Icon = new ImageView(requireContext());
-            Constraint.addView(Icon);
-            Icon.setImageResource(R.drawable.person);
-            Icon.setLayoutParams(Wrap);
-            Icon.setTop(0);
-            Icon.setBottom(0);
-            Icon.setLeft(5);
-
-            TextView Name = new TextView(requireContext());
-            Constraint.addView(Name);
-            Name.setText(CharacterNames[i]);
-            Name.setLayoutParams(Zero);
-            Name.setTop(10);
-            Name.setLeft(10);
-
-            TextView Race = new TextView(requireContext());
-            Constraint.addView(Race);
-            if(Characters.get(CharacterNames[i]).getRace().hasSubraces()){
-                Race.setText(Characters.get(CharacterNames[i]).getSubrace().getName());
+        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, CharacterNames);
+        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        CharacterList.setAdapter(Adapter);
+        binding.characterListViewSelected.setOnClickListener(v ->{
+            if(!Characters.isEmpty()){
+                CurrentCharacter = Characters.get(CharacterList.getSelectedItem().toString());
+                NavHostFragment.findNavController(CharacterList.this)
+                        .navigate(R.id.goToCharacterView);
             }
             else{
-                Race.setText(Characters.get(CharacterNames[i]).getRace().getName());
+                NavHostFragment.findNavController(CharacterList.this)
+                        .navigate(R.id.goToCharacterCreatorPageOne);
             }
-            Race.setLayoutParams(Zero);
-            Race.setTop(10);
-            Race.setLeft(10);
-
-            TextView Class = new TextView(requireContext());
-            Constraint.addView(Class);
-            String ClassString = "Level" + Characters.get(CharacterNames[i]).getLevel() + " " + Characters.get(CharacterNames[i]).getPrimaryClass().getSubclass().getName();
-            Class.setText(ClassString);
-            Class.setLayoutParams(Zero);
-            Class.setTop(10);
-            Class.setLeft(10);
-
-            CharCard.setLayoutParams(Wrap);
-            CharCard.setId(i);
-            CharCard.addView(Constraint);
-        }
+        });
     }
 
     @Override
