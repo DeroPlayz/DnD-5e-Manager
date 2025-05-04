@@ -18,29 +18,105 @@
             android:layout_height="170dp"
             android:layout_marginTop="60dp"
             android:backgroundTint="#D34141"
-            android:text="Character⚔️"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="45dp"
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/Title" />
 
+        <TextView
+            android:id="@+id/character_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Characters"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toBottomOf="@id/main_menu_view_characters"
+            app:layout_constraintEnd_toStartOf="@id/character_icon"
+            app:layout_constraintStart_toStartOf="@id/main_menu_view_characters"
+            app:layout_constraintTop_toTopOf="@id/main_menu_view_characters" />
+
+        <ImageView
+            android:id="@+id/character_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX=".7"
+            android:src="@drawable/character"
+            app:layout_constraintBottom_toBottomOf="@id/main_menu_view_characters"
+            app:layout_constraintEnd_toEndOf="@id/main_menu_view_characters"
+            app:layout_constraintTop_toTopOf="@id/main_menu_view_characters"
+            tools:scaleY=".7" />
+
         <Button
             android:id="@+id/main_menu_view_data"
             android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:backgroundTint="#3B812C"
-            android:text="Information 📖"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="45dp"
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/main_menu_view_characters" />
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Information"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toBottomOf="@id/main_menu_view_data"
+            app:layout_constraintEnd_toStartOf="@id/info_icon"
+            app:layout_constraintStart_toStartOf="@id/main_menu_view_data"
+            app:layout_constraintTop_toTopOf="@id/main_menu_view_data" />
+
+        <ImageView
+            android:id="@+id/info_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX=".7"
+            android:src="@drawable/book"
+            app:layout_constraintBottom_toBottomOf="@id/main_menu_view_data"
+            app:layout_constraintEnd_toEndOf="@id/main_menu_view_data"
+            app:layout_constraintTop_toTopOf="@id/main_menu_view_data"
+            tools:scaleY=".7" />
+
+        <Button
+            android:id="@+id/main_menu_dice_roller"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#DB8B2B"
+            app:cornerRadius="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias=".5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_menu_view_data" />
+
+        <TextView
+            android:id="@+id/dice_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Dice Roller"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
+            app:layout_constraintEnd_toStartOf="@id/dice_icon"
+            app:layout_constraintStart_toStartOf="@id/main_menu_dice_roller"
+            app:layout_constraintTop_toTopOf="@id/main_menu_dice_roller" />
+
+        <ImageView
+            android:id="@+id/dice_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX=".7"
+            android:src="@drawable/d20"
+            app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
+            app:layout_constraintEnd_toEndOf="@id/main_menu_dice_roller"
+            app:layout_constraintTop_toTopOf="@id/main_menu_dice_roller"
+            tools:scaleY=".7" />
 
         <TextView
             android:id="@+id/Title"
@@ -52,22 +128,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/toDice"
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#DB8B2B"
-            android:text="Dice"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="50dp"
-            app:cornerRadius="100dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/main_menu_view_data" />
 
         <ImageButton
             android:id="@+id/main_menu_settings"

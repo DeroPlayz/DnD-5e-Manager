@@ -48,7 +48,7 @@ public class MainMenu extends Fragment {
         binding.mainMenuHelpPage.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToHelp)
         );
-        binding.toDice.setOnClickListener(v ->
+        binding.mainMenuDiceRoller.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDiceRoller)
         );
     }

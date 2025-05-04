@@ -69,6 +69,11 @@ public class CharacterView extends Fragment {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterMoreInfo);
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+
+        binding.characterViewDiceRoller.setOnClickListener(v -> {
+            NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToDiceRoller);
+            Methods.saveCharacter(requireContext(), CurrentCharacter);
+        });
     }
 
     public void loadName(View view){
