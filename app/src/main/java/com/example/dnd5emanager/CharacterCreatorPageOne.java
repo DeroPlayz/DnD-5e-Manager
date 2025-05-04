@@ -65,19 +65,15 @@ public class CharacterCreatorPageOne extends Fragment {
 
     ArrayList<Race> RaceAL;
     String[] RaceNames;
-    private ArrayAdapter<String> RaceAdapter;
 
     ArrayList<Subrace> SubraceAL;
     String[] SubraceNames;
-    private ArrayAdapter<String> SubraceAdapter;
 
     ArrayList<CharacterClass> ClassAL;
     String[] ClassNames;
-    private ArrayAdapter<String> ClassAdapter;
 
     ArrayList<Subclass> SubclassAL;
     String[] SubclassNames;
-    private ArrayAdapter<String> SubclassAdapter;
 
     TextView RacialStrengthBonus;
     TextView RacialDexterityBonus;
@@ -292,9 +288,7 @@ public class CharacterCreatorPageOne extends Fragment {
             }
         });
 
-        binding.characterCreatorPageOneBackButton.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList);
-        });
+        binding.characterCreatorPageOneBackButton.setOnClickListener(v -> NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList));
 
         binding.characterCreatorPageOneRollStats.setOnClickListener(v -> {
             NewCharacter.setBaseStrength(setStat());
@@ -337,8 +331,8 @@ public class CharacterCreatorPageOne extends Fragment {
         }
         dice[lowestValIndex] = 0;
         int total = 0;
-        for (int i = 0; i < dice.length; i++) {
-            total += dice[i];
+        for (int die : dice) {
+            total += die;
         }
         return total;
     }
@@ -482,19 +476,19 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void loadRaces(){
-        RaceAL = new ArrayList<Race>(Arrays.asList(Races.values().toArray(new Race[0])));
+        RaceAL = new ArrayList<>(Arrays.asList(Races.values().toArray(new Race[0])));
         RaceNames = new String[RaceAL.size()];
         for(int i = 0; i < RaceNames.length; i++){
             RaceNames[i] = RaceAL.get(i).getName();
         }
         Arrays.sort(RaceNames);
-        RaceAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceNames);
-        RaceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Race.setAdapter(RaceAdapter);
+        ArrayAdapter<String> raceAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, RaceNames);
+        raceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Race.setAdapter(raceAdapter);
     }
 
     public void loadSubraces(){
-        SubraceAL = new ArrayList<Subrace>(Arrays.asList(Subraces.values().toArray(new Subrace[0])));
+        SubraceAL = new ArrayList<>(Arrays.asList(Subraces.values().toArray(new Subrace[0])));
         SubraceNames = new String[SubraceAL.size()];
         ArrayList<String> ValidSubraceNames = new ArrayList<>();
         for(int i = 0; i < SubraceNames.length; i++) {
@@ -506,25 +500,25 @@ public class CharacterCreatorPageOne extends Fragment {
         }
         SubraceNames = ValidSubraceNames.toArray(new String[0]);
         Arrays.sort(SubraceNames);
-        SubraceAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubraceNames);
-        SubraceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Subrace.setAdapter(SubraceAdapter);
+        ArrayAdapter<String> subraceAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, SubraceNames);
+        subraceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subrace.setAdapter(subraceAdapter);
     }
 
     public void loadClasses(){
-        ClassAL = new ArrayList<CharacterClass>(Arrays.asList(Classes.values().toArray(new CharacterClass[0])));
+        ClassAL = new ArrayList<>(Arrays.asList(Classes.values().toArray(new CharacterClass[0])));
         ClassNames = new String[ClassAL.size()];
         for(int i = 0; i < ClassNames.length; i++){
             ClassNames[i] = ClassAL.get(i).getName();
         }
         Arrays.sort(ClassNames);
-        ClassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, ClassNames);
-        ClassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Class.setAdapter(ClassAdapter);
+        ArrayAdapter<String> classAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, ClassNames);
+        classAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Class.setAdapter(classAdapter);
     }
 
     public void loadSubclasses(){
-        SubclassAL = new ArrayList<Subclass>(Arrays.asList(Subclasses.values().toArray(new Subclass[0])));
+        SubclassAL = new ArrayList<>(Arrays.asList(Subclasses.values().toArray(new Subclass[0])));
         SubclassNames = new String[SubclassAL.size()];
         ArrayList<String> ValidSubclassNames = new ArrayList<>();
         for(int i = 0; i < SubclassNames.length; i++){
@@ -534,9 +528,9 @@ public class CharacterCreatorPageOne extends Fragment {
         }
         SubclassNames = ValidSubclassNames.toArray(new String[0]);
         Arrays.sort(SubclassNames);
-        SubclassAdapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
-        SubclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Subclass.setAdapter(SubclassAdapter);
+        ArrayAdapter<String> subclassAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
+        subclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subclass.setAdapter(subclassAdapter);
     }
 
     public void updateRace(){

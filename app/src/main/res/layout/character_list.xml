@@ -41,23 +41,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/character_list_choose_character"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="80dp"
-        android:spinnerMode="dropdown"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/character_list_make_new_character" />
+        app:layout_constraintTop_toBottomOf="@id/character_list_choose_character_text">
 
-    <Button
-        android:id="@+id/character_list_view_selected"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View Character"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/character_list_choose_character" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

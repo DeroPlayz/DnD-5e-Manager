@@ -44,6 +44,7 @@ dependencies {
     implementation(libs.media3.session)
     implementation(libs.exoplayer)
     implementation(libs.media3.exoplayer)
+    implementation(libs.firebase.crashlytics.buildtools)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
