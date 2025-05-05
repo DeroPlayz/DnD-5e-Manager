@@ -1,6 +1,7 @@
 package com.example.dnd5emanager.DataClasses;
 
 import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
 import static com.example.dnd5emanager.DataClasses.Constants.Characters;
 import static com.example.dnd5emanager.DataClasses.Constants.Classes;
 import static com.example.dnd5emanager.DataClasses.Constants.Feats;
@@ -31,18 +32,19 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Methods {
 
     public static AssetManager AM;
     private static Handler mainHandler;
     private static ExecutorService executorService;
+
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(10); // Example: Thread pool with 2 threads
+        executorService = Executors.newFixedThreadPool(16); // Example: Thread pool with 2 threads
 
         executorService.execute(new Runnable() {
             @Override
@@ -54,7 +56,7 @@ public class Methods {
 
         executorService.execute(new Runnable() {
             @Override
-            public void run(){
+            public void run() {
                 parseClasses(c, "dndclasses");
                 parseSubclasses(c, "subclasses");
             }
@@ -64,6 +66,12 @@ public class Methods {
             @Override
             public void run(){
                 parseSpells(c, "spells");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
                 parseFeatures(c, "features");
             }
         });
@@ -71,18 +79,44 @@ public class Methods {
         executorService.execute(new Runnable() {
             @Override
             public void run(){
+                parseFeats(c, "feats");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseBackgrounds(c, "backgrounds");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
                 parseItems(c, "items");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
                 parseArmor(c, "armor");
             }
         });
 
         executorService.execute(new Runnable() {
             @Override
-            public void run() {
-                LoadFromInternalStorage(c);
+            public void run(){
+                try {
+                    executorService.awaitTermination(60, TimeUnit.SECONDS);
+                    LoadFromInternalStorage(c);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }
+
     public static void LoadFromInternalStorage(Context c){
         AssetManager AM = c.getAssets();
         Characters.clear();
@@ -139,10 +173,15 @@ public class Methods {
             jsonObject.put("name", character.getName());
             Log.d("Saved Name", String.valueOf(character.getName()));
 
+            jsonObject.put("current_health", character.getCurrentHealth());
+            Log.d("Saved Current Health", String.valueOf(character.getCurrentHealth()));
+            jsonObject.put("max_health", character.getMaxHealth());
+            Log.d("Saved Max Health", String.valueOf(character.getMaxHealth()));
+
             jsonObject.put("race", character.getRace().getName());
             Log.d("Saved Race", String.valueOf(character.getRace().getName()));
 
-            if(character.getRace().HasSubraces()){
+            if(character.getRace().hasSubraces()){
                 jsonObject.put("subrace", character.getSubrace().getName());
                 Log.d("Saved Subrace", String.valueOf(character.getSubrace().getName()));
             }
@@ -239,11 +278,17 @@ public class Methods {
             character.setName(jsonObject.optString("name", ""));
             Log.d("Loaded Name", jsonObject.optString("name", ""));
 
+            character.setCurrentHealth(jsonObject.optInt("current_health", 1));
+            Log.d("Loaded Current Health", String.valueOf(jsonObject.optInt("current_health", 1)));
+            character.setMaxHealth(jsonObject.optInt("max_health", 1));
+            Log.d("Loaded Max Health", String.valueOf(jsonObject.optInt("max_health", 1)));
+
             character.setRace(Races.get(jsonObject.optString("race", "")));
             Log.d("Loaded Race", jsonObject.optString("race", ""));
+            Log.d("Does it exist?", String.valueOf(Races.containsKey(jsonObject.optString("race", ""))));
             Log.d("Current Race", character.getRace().getName());
 
-            if(character.getRace().HasSubraces()){
+            if(character.getRace().hasSubraces()){
                 character.setSubrace(Subraces.get(jsonObject.optString("subrace", "")));
                 Log.d("Loaded Subrace", jsonObject.optString("subrace", ""));
             }
@@ -324,8 +369,6 @@ public class Methods {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
-                    boolean hasSubraces = AM.list(dir + "/" + fileName + "Subraces") != null;
-
                     Races.put(jsonObject.getString("name"), new Race(
                             jsonObject.getString("name"),
                             jsonObject.getInt("ac"),
@@ -624,7 +667,39 @@ public class Methods {
             }
         }
         catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Feat.");
+            Log.d("Jason?", "Shot dead in Background.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void parseBackgrounds(Context context, String dir) {
+        Log.d("Jason", "He was just born in Background.");
+        AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                int i = 0;
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    String materialCost = "";
+                    Backgrounds.put(jsonObject.getString("name"), new Background(
+                            jsonObject.getString("name"),
+                            jsonObject.getInt("goldPieces")
+                    ));
+                    Log.d("Background #" + i, jsonObject.getString("name"));
+                    i++;
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Background.");
             throw new RuntimeException(e);
         }
     }
@@ -732,4 +807,6 @@ public class Methods {
         }
         return arr;
     }
+
+
 }

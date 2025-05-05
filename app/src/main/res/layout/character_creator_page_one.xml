@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CharacterCreatorPageOne"
-    tools:ignore="LabelFor">
+    tools:ignore="LabelFor"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_name"
@@ -25,8 +27,8 @@
         android:id="@+id/character_creator_page_one_edit_level"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
         android:ems="10"
         android:hint="1"
         android:inputType="number"
@@ -50,18 +52,16 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="150dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_race" />
 
     <Spinner
         android:id="@+id/character_creator_page_one_edit_subclass"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginTop="150dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_class" />
 
     <Spinner
         android:id="@+id/character_creator_page_one_edit_class"
@@ -75,221 +75,69 @@
 
     <Button
         android:id="@+id/character_creator_page_one_next_page"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="40dp"
         android:text="Next Page"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@id/centerAligner"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_CHARISMA" />
 
     <Button
         android:id="@+id/character_creator_page_one_roll_stats"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="65dp"
         android:text="Roll Stats"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_strength_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="STR"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_strength"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_strength" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_dexterity_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DEX"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_dexterity"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_dexterity" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_constitution_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CON"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_constitution"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_constitution" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_intelligence_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="INT"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_intelligence"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_intelligence"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_wisdom_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="WIS"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
-
-    <TextView
-        android:id="@+id/character_creator_page_one_charisma_display_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CHA"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_charisma"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_spacer2" />
-
-    <EditText
-        android:id="@+id/character_creator_page_one_edit_strength"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:hint="8"
-        android:inputType="number"
-        android:maxLength="2"
-        android:textAlignment="center"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
-
-    <EditText
-        android:id="@+id/character_creator_page_one_edit_intelligence"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:hint="8"
-        android:inputType="number"
-        android:maxLength="2"
-        android:textAlignment="center"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_intelligence_display_text" />
-
-    <EditText
-        android:id="@+id/character_creator_page_one_edit_wisdom"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:hint="8"
-        android:inputType="number"
-        android:maxLength="2"
-        android:textAlignment="center"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_intelligence"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_wisdom_display_text" />
-
-    <EditText
-        android:id="@+id/character_creator_page_one_edit_charisma"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:hint="8"
-        android:inputType="number"
-        android:maxLength="2"
-        android:textAlignment="center"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_charisma_display_text" />
-
-    <EditText
-        android:id="@+id/character_creator_page_one_edit_dexterity"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:hint="8"
-        android:inputType="number"
-        android:maxLength="2"
-        android:textAlignment="center"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_strength"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_strength" />
-
-    <EditText
-        android:id="@+id/character_creator_page_one_edit_constitution"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:hint="8"
-        android:inputType="number"
-        android:maxLength="2"
-        android:textAlignment="center"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_edit_dexterity"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_dexterity" />
+        app:layout_constraintEnd_toStartOf="@id/centerAligner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_WISDOM" />
 
     <EditText
         android:id="@+id/character_creator_page_one_edit_health"
-        android:layout_width="105dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="5"
         android:inputType="text"
         android:maxLength="3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_spacer1" />
-
-    <Space
-        android:id="@+id/character_creator_page_one_spacer1"
-        android:layout_width="20dp"
-        android:layout_height="160dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="240dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Space
-        android:id="@+id/character_creator_page_one_spacer2"
-        android:layout_width="190dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_spacer1"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+        app:layout_constraintBottom_toTopOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintEnd_toEndOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_minimum_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_minimum_health"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:text="Minimum Health"
-        android:textSize="11.5sp"
-        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_edit_health"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_health" />
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@id/centerAligner"
+        app:layout_constraintTop_toTopOf="@id/centerAligner" />
 
     <Button
         android:id="@+id/character_creator_page_one_maximum_health"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginStart="20dp"
         android:text="Maximum Health"
-        android:textSize="11.5sp"
-        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_edit_health"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_minimum_health" />
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_roll_health"
-        android:layout_width="75dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:padding="1dp"
         android:text="Roll Health"
-        android:textSize="11sp"
-        app:layout_constraintStart_toEndOf="@id/character_creator_page_one_minimum_health"
-        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_minimum_health" />
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/character_creator_page_one_maximum_health"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/character_creator_page_one_maximum_health"
+        app:layout_constraintTop_toTopOf="@id/character_creator_page_one_edit_health" />
 
     <Button
         android:id="@+id/character_creator_page_one_back_button"
@@ -304,64 +152,286 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/character_creator_page_one_racial_strength"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_strength"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_strength"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+    <ImageView
+        android:id="@+id/STRENGTH_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/strength"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_edit_subrace" />
 
     <TextView
-        android:id="@+id/character_creator_page_one_racial_intelligence"
+        android:id="@+id/STRENGTH_TEXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_intelligence"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_intelligence"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_intelligence" />
+        android:text="Strength"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/STRENGTH_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_STRENGTH"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/INTELLIGENCE_ICON"
+        app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/STRENGTH_TEXT" />
 
     <TextView
-        android:id="@+id/character_creator_page_one_racial_wisdom"
+        android:id="@+id/RACIAL_STRENGTH"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_wisdom"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_intelligence" />
+        android:layout_marginTop="347dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintStart_toStartOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/character_creator_page_one_racial_charisma"
+        android:id="@+id/RACIAL_DEXTERITY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_charisma"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_charisma"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_intelligence" />
+        android:layout_marginTop="347dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/DEXTERITY_ICON"
+        app:layout_constraintStart_toStartOf="@id/DEXTERITY_ICON"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/character_creator_page_one_racial_dexterity"
+        android:id="@+id/RACIAL_CONSTITUTION"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_dexterity"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_dexterity"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+        android:layout_marginTop="347dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toStartOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/character_creator_page_one_racial_constitution"
+        android:id="@+id/RACIAL_INTELLIGENCE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/character_creator_page_one_edit_constitution"
-        app:layout_constraintStart_toStartOf="@+id/character_creator_page_one_edit_constitution"
-        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_edit_strength" />
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_INTELLIGENCE" />
+
+    <TextView
+        android:id="@+id/RACIAL_WISDOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/WISDOM_ICON"
+        app:layout_constraintStart_toStartOf="@id/WISDOM_ICON"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_WISDOM" />
+
+    <TextView
+        android:id="@+id/RACIAL_CHARISMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/CHARISMA_ICON"
+        app:layout_constraintStart_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_CHARISMA" />
+
+    <ImageView
+        android:id="@+id/DEXTERITY_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/dexterity"
+        app:layout_constraintBottom_toTopOf="@+id/DEXTERITY_TEXT"
+        app:layout_constraintEnd_toStartOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toEndOf="@id/STRENGTH_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_edit_subrace" />
+
+    <TextView
+        android:id="@+id/DEXTERITY_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Dexterity"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/EDIT_DEXTERITY"
+        app:layout_constraintEnd_toEndOf="@id/DEXTERITY_ICON"
+        app:layout_constraintStart_toStartOf="@id/DEXTERITY_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/DEXTERITY_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_DEXTERITY"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/WISDOM_ICON"
+        app:layout_constraintEnd_toEndOf="@id/DEXTERITY_ICON"
+        app:layout_constraintStart_toStartOf="@id/DEXTERITY_ICON"
+        app:layout_constraintTop_toBottomOf="@id/DEXTERITY_TEXT" />
+
+    <ImageView
+        android:id="@+id/CONSTITUTION_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/constitution"
+        app:layout_constraintBottom_toTopOf="@+id/CONSTITUTION_TEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/character_creator_page_one_edit_subclass" />
+
+    <TextView
+        android:id="@+id/CONSTITUTION_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constitution"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/EDIT_CONSTITUTION"
+        app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toStartOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CONSTITUTION_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_CONSTITUTION"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/CHARISMA_ICON"
+        app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintStart_toStartOf="@id/CONSTITUTION_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CONSTITUTION_TEXT" />
+
+    <ImageView
+        android:id="@+id/INTELLIGENCE_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/intelligence"
+        app:layout_constraintBottom_toTopOf="@+id/INTELLIGENCE_TEXT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EDIT_STRENGTH" />
+
+    <TextView
+        android:id="@+id/INTELLIGENCE_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Intelligence"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/EDIT_INTELLIGENCE"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_INTELLIGENCE"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="66dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/character_creator_page_one_roll_stats"
+        app:layout_constraintEnd_toEndOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintStart_toStartOf="@id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/INTELLIGENCE_TEXT" />
+
+    <ImageView
+        android:id="@+id/WISDOM_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/wisdom"
+        app:layout_constraintBottom_toTopOf="@+id/WISDOM_TEXT"
+        app:layout_constraintEnd_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintStart_toEndOf="@+id/INTELLIGENCE_ICON"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_DEXTERITY" />
+
+    <TextView
+        android:id="@+id/WISDOM_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wisdom"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/EDIT_WISDOM"
+        app:layout_constraintEnd_toEndOf="@id/WISDOM_ICON"
+        app:layout_constraintStart_toStartOf="@id/WISDOM_ICON"
+        app:layout_constraintTop_toBottomOf="@id/WISDOM_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_WISDOM"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="123dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/character_creator_page_one_edit_health"
+        app:layout_constraintEnd_toEndOf="@id/WISDOM_ICON"
+        app:layout_constraintStart_toStartOf="@id/WISDOM_ICON"
+        app:layout_constraintTop_toBottomOf="@+id/WISDOM_TEXT" />
+
+    <ImageView
+        android:id="@+id/CHARISMA_ICON"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/charisma"
+        app:layout_constraintBottom_toTopOf="@+id/CHARISMA_TEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EDIT_CONSTITUTION" />
+
+    <TextView
+        android:id="@+id/CHARISMA_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charisma"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/EDIT_CHARISMA"
+        app:layout_constraintEnd_toEndOf="@id/CHARISMA_ICON"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CHARISMA_ICON" />
+
+    <EditText
+        android:id="@+id/EDIT_CHARISMA"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="65dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/character_creator_page_one_next_page"
+        app:layout_constraintEnd_toEndOf="@id/CHARISMA_ICON"
+        app:layout_constraintStart_toStartOf="@id/CHARISMA_ICON"
+        app:layout_constraintTop_toBottomOf="@id/CHARISMA_TEXT" />
+
+    <Space
+        android:id="@+id/centerAligner"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/character_creator_page_one_next_page" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
