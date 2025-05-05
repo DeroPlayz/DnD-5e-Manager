@@ -1,9 +1,34 @@
 package com.example.dnd5emanager.DataClasses;
 
-import android.util.Log;
+import static com.example.dnd5emanager.DataClasses.Constants.Acrobatics;
+import static com.example.dnd5emanager.DataClasses.Constants.AnimalHandling;
+import static com.example.dnd5emanager.DataClasses.Constants.Arcana;
+import static com.example.dnd5emanager.DataClasses.Constants.Athletics;
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Deception;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
+import static com.example.dnd5emanager.DataClasses.Constants.History;
+import static com.example.dnd5emanager.DataClasses.Constants.Insight;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
+import static com.example.dnd5emanager.DataClasses.Constants.Intimidation;
+import static com.example.dnd5emanager.DataClasses.Constants.Investigation;
+import static com.example.dnd5emanager.DataClasses.Constants.Medicine;
+import static com.example.dnd5emanager.DataClasses.Constants.Nature;
+import static com.example.dnd5emanager.DataClasses.Constants.Perception;
+import static com.example.dnd5emanager.DataClasses.Constants.Performance;
+import static com.example.dnd5emanager.DataClasses.Constants.Persuasion;
+import static com.example.dnd5emanager.DataClasses.Constants.Religion;
+import static com.example.dnd5emanager.DataClasses.Constants.SleightOfHand;
+import static com.example.dnd5emanager.DataClasses.Constants.Stealth;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
+import static com.example.dnd5emanager.DataClasses.Constants.Survival;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class PlayerCharacter {
     private String Name;
@@ -29,16 +54,56 @@ public class PlayerCharacter {
             return MaxHealth;
         }
 
-    private int InitiativeBonus;
-        public void setInitiativeBonus() {
-            InitiativeBonus = getDexterityBonus();
-        }
-        public int getInitiativeBonus(){return InitiativeBonus;}
+    private final Map<String, Integer> BaseAbilityScores = new HashMap<String, Integer>() {{
+        put(Strength, 0);
+        put(Dexterity, 0);
+        put(Constitution, 0);
+        put(Intelligence, 0);
+        put(Wisdom, 0);
+        put(Charisma, 0);
+    }};
+    public Map<String, Integer> getBaseAbilityScores(){return BaseAbilityScores;}
+    public int getAbilityScore(String Ability){
+        return BaseAbilityScores.get(Ability) + Race.getAbilityBonus(Ability);
+    }
 
-    ArrayList<String, Integer> BaseAbilityScores = {{"Strength", 0}, {"Dexterity", 0}, {"Constitution", 0}, {"Intelligence", 0}, {"Wisdom", 0}, {"Charisma"}, 0};
-    
-    public void getAbilityMod(String Ability){
-        int Value = BaseAbilityScores.
+    Map<String, Integer> Proficiencies = new HashMap<String, Integer>() {{
+        put(Strength, 0);
+        put(Athletics, 0);
+
+        put(Dexterity, 0);
+        put(Acrobatics, 0);
+        put(SleightOfHand, 0);
+        put(Stealth, 0);
+
+        put(Constitution, 0);
+
+        put(Intelligence, 0);
+        put(Arcana, 0);
+        put(History, 0);
+        put(Investigation, 0);
+        put(Nature, 0);
+        put(Religion, 0);
+
+        put(Wisdom, 0);
+        put(AnimalHandling, 0);
+        put(Insight, 0);
+        put(Medicine, 0);
+        put(Perception, 0);
+        put(Survival, 0);
+
+        put(Charisma, 0);
+        put(Deception, 0);
+        put(Intimidation, 0);
+        put(Performance, 0);
+        put(Persuasion, 0);
+    }};
+
+    /** @noinspection DataFlowIssue*/
+    public int getAbilityMod(String Ability){
+        int Value = BaseAbilityScores.get(Ability);
+        int Modifier = (int) Math.nextDown(((float) (Value - 10) /2));
+        return Modifier;
     }
 
     private ArrayList<Feature> PlayerFeatures;
@@ -142,55 +207,39 @@ public class PlayerCharacter {
     //Builds the character (duh).
     public PlayerCharacter(){
         Name = "";
-        Strength = StrengthBonus = Athletics =
-        Dexterity = DexterityBonus = Acrobatics = SleightOfHand = Stealth =
-        Constitution = ConstitutionBonus = MaxHealth = CurrentHealth =
-        Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion =
-        Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival =
-        Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
+        XP = 0;
+        BaseAbilityScores.put(Strength, 0);
+        BaseAbilityScores.put(Dexterity, 0);
+        BaseAbilityScores.put(Constitution, 0);
+        BaseAbilityScores.put(Intelligence, 0);
+        BaseAbilityScores.put(Wisdom, 0);
+        BaseAbilityScores.put(Charisma, 0);
     }
 
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
         this.Name = Name;
         this.Race = Race;
 
-        this.Strength = Strength;
+        BaseAbilityScores.put(Constants.Strength, Strength);
         //Every ability has a numerical score, and every character has a score for each ability, and that dictates the bonus you get when you roll this stat.
         //As an example, say you have a Strength score of 10. After this equation, you end up with a bonus of 0, meaning you don't add or subtract anything from your roll.
-        StrengthBonus = (int) Math.nextDown(((float) (Strength - 10) /2));
 
         //Say you have a Dexterity score of 15. 15-10 = 5, 5/2 = 2.5, and 2.5 rounded down is 2. Therefore, any time you roll your Dexterity stat, you add 2.
         //So if you rolled an 8, the actual value would be 10.
-        this.Dexterity = Dexterity;
-        DexterityBonus = (int) Math.nextDown(((float) (Dexterity - 10) /2));
+        BaseAbilityScores.put(Constants.Dexterity, Dexterity);
 
-        //The same applies to values below 10. If you have a Constitution score of 8, 8-10 is -2, -2 divided by 2 is -1. So for any Constitution roll you make
-        this.Constitution = Constitution;
-        ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
+        //The same applies to values below 10. If you have a Constitution score of 8, 8-10 is -2, -2 divided by 2 is -1. So for any Constitution roll you make.
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        MaxHealth = ConstitutionBonus;
+        BaseAbilityScores.put(Constants.Constitution, Constitution);
 
-        this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.
         //Any skill under that ability gets that bonus applied. So if your Intelligence bonus is 3,
         //then any time you roll a Arcana, History, Investigation, Nature, or Religion check, you get that +3 added to your roll.
-        IntelligenceBonus = (int) Math.nextDown(((float) (Intelligence - 10) /2));
+        BaseAbilityScores.put(Constants.Intelligence, Intelligence);
 
-        this.Wisdom = Wisdom;
-        WisdomBonus = (int) Math.nextDown(((float) (Wisdom - 10) /2));
+        BaseAbilityScores.put(Constants.Wisdom, Wisdom);
 
-        this.Charisma = Charisma;
-        CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
-    }
-
-    public void calibrate(){
-        setStrengthBonus();
-        setDexterityBonus();
-        setConstitutionBonus();
-        setIntelligenceBonus();
-        setWisdomBonus();
-        setCharismaBonus();
-        setProficiencyBonus();
+        BaseAbilityScores.put(Constants.Charisma, Charisma);
     }
 }

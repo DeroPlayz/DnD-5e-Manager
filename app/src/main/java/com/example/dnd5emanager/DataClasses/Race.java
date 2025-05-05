@@ -1,34 +1,44 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Race {
-    private String Name;
+    private final String Name;
         public String getName(){return Name;}
     //Ability Score Bonuses
-        private int StrengthBonus;
-            public int getStrengthBonus(){return StrengthBonus;}
-        private int DexterityBonus;
-            public int getDexterityBonus(){return DexterityBonus;}
-        private int ConstitutionBonus;
-            public int getConstitutionBonus(){return ConstitutionBonus;}
-        private int IntelligenceBonus;
-            public int getIntelligenceBonus(){return IntelligenceBonus;}
-        private int WisdomBonus;
-            public int getWisdomBonus(){return WisdomBonus;}
-        private int CharismaBonus;
-            public int getCharismaBonus(){return CharismaBonus;}
+    private final Map<String, Integer> AbilityBonuses = new HashMap<String, Integer>() {{
+        put(Strength, 0);
+        put(Dexterity, 0);
+        put(Constitution, 0);
+        put(Intelligence, 0);
+        put(Wisdom, 0);
+        put(Charisma, 0);
+    }};
+
+    /** @noinspection DataFlowIssue*/
+    public int getAbilityBonus(String Ability){
+        return AbilityBonuses.get(Ability);
+    }
 
     //Movement
-        private int GroundSpeed;
+        private final int GroundSpeed;
             public int getGroundSpeed(){return GroundSpeed;}
-        private int AirSpeed;
+        private final int AirSpeed;
             public int getAirSpeed(){return AirSpeed;}
-        private int ClimbSpeed;
+        private final int ClimbSpeed;
             public int getClimbSpeed(){return ClimbSpeed;}
-        private int SwimSpeed;
+        private final int SwimSpeed;
             public int getSwimSpeed(){return SwimSpeed;}
-        private int BurrowSpeed;
+        private final int BurrowSpeed;
             public int getBurrowSpeed(){return BurrowSpeed;}
 
     //Proficiencies
@@ -36,11 +46,11 @@ public class Race {
         private ArrayList<String> WeaponProficiencies;
         private ArrayList<String> ToolProficiencies;
 
-    private int ArmorClass;
+    private final int ArmorClass;
         public int getArmorClass(){return ArmorClass;}
     private ArrayList<String> RacialTraits;
 
-    private ArrayList<Subrace> Subraces = new ArrayList<>();
+    private final ArrayList<Subrace> Subraces = new ArrayList<>();
         public void addSubrace(Subrace Subrace){
             Subraces.add(Subrace);
         }
@@ -49,12 +59,7 @@ public class Race {
         }
 
     public boolean hasSubraces(){
-        if(Subraces.size() > 1){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return Subraces.size() > 1;
     }
 
     public Race(String Name, int ArmorClass, int GroundSpeed, int AirSpeed, int ClimbSpeed,
@@ -64,12 +69,12 @@ public class Race {
         ArrayList<String> ToolProficiencies, ArrayList<String> RacialTraits*/){
             this.Name = Name;
             this.ArmorClass = ArmorClass;
-            this.StrengthBonus = StrengthBonus;
-            this.DexterityBonus = DexterityBonus;
-            this.ConstitutionBonus = ConstitutionBonus;
-            this.IntelligenceBonus = IntelligenceBonus;
-            this.WisdomBonus = WisdomBonus;
-            this.CharismaBonus = CharismaBonus;
+            AbilityBonuses.put(Strength, StrengthBonus);
+            AbilityBonuses.put(Dexterity, DexterityBonus);
+            AbilityBonuses.put(Constitution, ConstitutionBonus);
+            AbilityBonuses.put(Intelligence, IntelligenceBonus);
+            AbilityBonuses.put(Wisdom, WisdomBonus);
+            AbilityBonuses.put(Charisma, CharismaBonus);
             this.GroundSpeed = GroundSpeed;
             this.AirSpeed = AirSpeed;
             this.ClimbSpeed = ClimbSpeed;

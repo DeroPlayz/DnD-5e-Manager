@@ -1,6 +1,7 @@
 package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.Skills;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.Methods;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
@@ -129,6 +131,7 @@ public class CharacterView extends Fragment {
         });
     }
 
+    /** @noinspection DataFlowIssue*/
     @SuppressLint("SetTextI18n")
     public void loadStats(View view){
         loadStrength(view);
@@ -153,114 +156,114 @@ public class CharacterView extends Fragment {
         TextView Performance = view.findViewById(R.id.performance);
         TextView Persuasion = view.findViewById(R.id.persuasion);
         TextView Religion = view.findViewById(R.id.religion);
-        TextView Sleight_of_Hand = view.findViewById(R.id.sleight_of_hand);
+        TextView SleightOfHand = view.findViewById(R.id.sleight_of_hand);
         TextView Stealth = view.findViewById(R.id.stealth);
         TextView Survival = view.findViewById(R.id.survival);
 
-        if(CurrentCharacter.getAcrobatics() > -1){
-            Acrobatics.setText(Acrobatics.getText().toString() + "  +" + CurrentCharacter.getAcrobatics());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.obatic))); > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Acrobatics.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Acrobatics.setText(Acrobatics.getText().toString() + "  -" + CurrentCharacter.getAcrobatics());
+            Acrobatics.setText(Acrobatics.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Acrobatics)));
         }
-        if(CurrentCharacter.getAnimalHandling() > -1){
-            Animal_Handling.setText(Animal_Handling.getText().toString() + "  +" + CurrentCharacter.getAnimalHandling());
-        }
-        else{
-            Animal_Handling.setText(Animal_Handling.getText().toString() + "  -" + CurrentCharacter.getAnimalHandling());
-        }
-        if(CurrentCharacter.getArcana() > -1){
-            Arcana.setText(Arcana.getText().toString() + "  +" + CurrentCharacter.getArcana());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.malHandlin))); > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Animal_Handling.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Arcana.setText(Arcana.getText().toString() + "  -" + CurrentCharacter.getArcana());
+            Animal_Handling.setText(Animal_Handling.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.AnimalHandling)));
         }
-        if(CurrentCharacter.getAthletics() > -1){
-            Athletics.setText(Athletics.getText().toString() + "  +" + CurrentCharacter.getAthletics());
-        }
-        else{
-            Athletics.setText(Athletics.getText().toString() + "  -" + CurrentCharacter.getAthletics());
-        }
-        if(CurrentCharacter.getDeception() > -1){
-            Deception.setText(Deception.getText().toString() + "  +" + CurrentCharacter.getDeception());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.an))); > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Arcana.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Deception.setText(Deception.getText().toString() + "  -" + CurrentCharacter.getDeception());
+            Arcana.setText(Arcana.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Arcana)));
         }
-        if(CurrentCharacter.getHistory() > -1){
-            History.setText(History.getText().toString() + "  +" + CurrentCharacter.getHistory());
-        }
-        else{
-            History.setText(History.getText().toString() + "  -" + CurrentCharacter.getHistory());
-        }
-        if(CurrentCharacter.getInsight() > -1){
-            Insight.setText(Insight.getText().toString() + "  +" + CurrentCharacter.getInsight());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.letic))); > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Athletics.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Insight.setText(Insight.getText().toString() + "  -" + CurrentCharacter.getInsight());
+            Athletics.setText(Athletics.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Athletics)));
         }
-        if(CurrentCharacter.getIntimidation() > -1){
-            Intimidation.setText(Intimidation.getText().toString() + "  +" + CurrentCharacter.getIntimidation());
-        }
-        else{
-            Intimidation.setText(Intimidation.getText().toString() + "  -" + CurrentCharacter.getIntimidation());
-        }
-        if(CurrentCharacter.getInvestigation() > -1){
-            Investigation.setText(Investigation.getText().toString() + "  +" + CurrentCharacter.getInvestigation());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.eptio))); > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Deception.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Investigation.setText(Investigation.getText().toString() + "  -" + CurrentCharacter.getInvestigation());
+            Deception.setText(Deception.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Deception)));
         }
-        if(CurrentCharacter.getMedicine() > -1){
-            Medicine.setText(Medicine.getText().toString() + "  +" + CurrentCharacter.getMedicine());
-        }
-        else{
-            Medicine.setText(Medicine.getText().toString() + "  -" + CurrentCharacter.getMedicine());
-        }
-        if(CurrentCharacter.getNature() > -1){
-            Nature.setText(Nature.getText().toString() + "  +" + CurrentCharacter.getNature());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.tor)));> -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))History.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Nature.setText(Nature.getText().toString() + "  -" + CurrentCharacter.getNature());
+            History.setText(History.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.History)));
         }
-        if(CurrentCharacter.getPerception() > -1){
-            Perception.setText(Perception.getText().toString() + "  +" + CurrentCharacter.getPerception());
-        }
-        else{
-            Perception.setText(Perception.getText().toString() + "  -" + CurrentCharacter.getPerception());
-        }
-        if(CurrentCharacter.getPerformance() > -1){
-            Performance.setText(Performance.getText().toString() + "  +" + CurrentCharacter.getPerformance());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.igh)));) > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Insight.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Performance.setText(Performance.getText().toString() + "  -" + CurrentCharacter.getPerformance());
+            Insight.setText(Insight.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Insight)));
         }
-        if(CurrentCharacter.getPersuasion() > -1){
-            Persuasion.setText(Persuasion.getText().toString() + "  +" + CurrentCharacter.getPersuasion());
-        }
-        else{
-            Persuasion.setText(Persuasion.getText().toString() + "  -" + CurrentCharacter.getPersuasion());
-        }
-        if(CurrentCharacter.getReligion() > -1){
-            Religion.setText(Religion.getText().toString() + "  +" + CurrentCharacter.getReligion());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.imidatio)));) > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Intimidation.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Religion.setText(Religion.getText().toString() + "  -" + CurrentCharacter.getReligion());
+            Intimidation.setText(Intimidation.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Intimidation)));
         }
-        if(CurrentCharacter.getSleightOfHand() > -1){
-            Sleight_of_Hand.setText(Sleight_of_Hand.getText().toString() + "  +" + CurrentCharacter.getSleightOfHand());
-        }
-        else{
-            Sleight_of_Hand.setText(Sleight_of_Hand.getText().toString() + "  -" + CurrentCharacter.getSleightOfHand());
-        }
-        if(CurrentCharacter.getStealth() > -1){
-            Stealth.setText(Stealth.getText().toString() + "  +" + CurrentCharacter.getStealth());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.estigatio))); > -1){
+get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Investigation.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
         }
         else{
-            Stealth.setText(Stealth.getText().toString() + "  -" + CurrentCharacter.getStealth());
+            Investigation.setText(Investigation.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.estigatio)));)
         }
-        if(CurrentCharacter.getSurvival() > -1){
-            Survival.setText(Survival.getText().toString() + "  +" + CurrentCharacter.getSurvival());
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Medicine)) > -1){
+            Medicine.setText(Medicine.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Medicine)));
+        }
+        else{
+            Medicine.setText(Medicine.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Medicine)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Nature)) > -1){
+            Nature.setText(Nature.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Nature)));
+        }
+        else{
+            Nature.setText(Nature.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Nature)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Perception)) > -1){
+            Perception.setText(Perception.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Perception)));
+        }
+        else{
+            Perception.setText(Perception.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Perception)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Performance)) > -1){
+            Performance.setText(Performance.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Performance)));
+        }
+        else{
+            Performance.setText(Performance.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Performance)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Persuasion)) > -1){
+            Persuasion.setText(Persuasion.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Persuasion)));
+        }
+        else{
+            Persuasion.setText(Persuasion.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Persuasion)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Religion)) > -1){
+            Religion.setText(Religion.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Religion)));
+        }
+        else{
+            Religion.setText(Religion.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Religion)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.SleightOfHand)) > -1){
+            SleightOfHand.setText(SleightOfHand.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.SleightOfHand)));
+        }
+        else{
+            SleightOfHand.setText(SleightOfHand.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.SleightOfHand)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Stealth)) > -1){
+            Stealth.setText(Stealth.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Stealth)));
+        }
+        else{
+            Stealth.setText(Stealth.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Stealth)));
+        }
+        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Survival)) > -1){
+            Survival.setText(Survival.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Survival)));
         }
         else{
             Survival.setText(Survival.getText().toString() + "  -" + CurrentCharacter.getSurvival());
