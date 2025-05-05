@@ -51,7 +51,7 @@ public class DiceRoller extends Fragment {
     }
 
     private void rotateDice6() {
-        int i = random.nextInt(5)+1;
+        int i = random.nextInt(6)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
         diceImage.startAnimation(anim);
         switch(i){
@@ -76,7 +76,7 @@ public class DiceRoller extends Fragment {
         }
     }
     private void rotateDice8() {
-        int i = random.nextInt(5)+1;
+        int i = random.nextInt(8)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
         diceImage.startAnimation(anim);
         switch(i){
@@ -107,8 +107,9 @@ public class DiceRoller extends Fragment {
         }
     }
     private void rotateDice10() {
-        int i = random.nextInt(5)+1;
+        int i = random.nextInt(10)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
+
         diceImage.startAnimation(anim);
         switch(i){
             case 1:
@@ -145,7 +146,7 @@ public class DiceRoller extends Fragment {
         }
     }
     private void rotateDice12() {
-        int i = random.nextInt(5)+1;
+        int i = random.nextInt(12)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
         diceImage.startAnimation(anim);
         switch(i){
@@ -196,6 +197,7 @@ public class DiceRoller extends Fragment {
                 NavHostFragment.findNavController(DiceRoller.this).navigate(R.id.goToMainMenu));
 
         diceImage = view.findViewById(R.id.dice_image);
+
 
         binding.sixSide.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
