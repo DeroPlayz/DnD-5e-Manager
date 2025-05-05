@@ -2,6 +2,7 @@ package com.example.dnd5emanager;
 
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -128,6 +129,7 @@ public class CharacterView extends Fragment {
         });
     }
 
+    @SuppressLint("SetTextI18n")
     public void loadStats(View view){
         loadStrength(view);
         loadDexterity(view);
@@ -135,6 +137,134 @@ public class CharacterView extends Fragment {
         loadIntelligence(view);
         loadWisdom(view);
         loadCharisma(view);
+
+        TextView Acrobatics = view.findViewById(R.id.acrobatics);
+        TextView Animal_Handling = view.findViewById(R.id.animal_handling);
+        TextView Arcana = view.findViewById(R.id.arcana);
+        TextView Athletics = view.findViewById(R.id.athletics);
+        TextView Deception = view.findViewById(R.id.deception);
+        TextView History = view.findViewById(R.id.history);
+        TextView Insight = view.findViewById(R.id.insight);
+        TextView Intimidation = view.findViewById(R.id.intimidation);
+        TextView Investigation = view.findViewById(R.id.investigation);
+        TextView Medicine = view.findViewById(R.id.medicine);
+        TextView Nature = view.findViewById(R.id.nature);
+        TextView Perception = view.findViewById(R.id.perception);
+        TextView Performance = view.findViewById(R.id.performance);
+        TextView Persuasion = view.findViewById(R.id.persuasion);
+        TextView Religion = view.findViewById(R.id.religion);
+        TextView Sleight_of_Hand = view.findViewById(R.id.sleight_of_hand);
+        TextView Stealth = view.findViewById(R.id.stealth);
+        TextView Survival = view.findViewById(R.id.survival);
+
+        if(CurrentCharacter.getAcrobatics() > -1){
+            Acrobatics.setText(Acrobatics.getText().toString() + "  +" + CurrentCharacter.getAcrobatics());
+        }
+        else{
+            Acrobatics.setText(Acrobatics.getText().toString() + "  -" + CurrentCharacter.getAcrobatics());
+        }
+        if(CurrentCharacter.getAnimalHandling() > -1){
+            Animal_Handling.setText(Animal_Handling.getText().toString() + "  +" + CurrentCharacter.getAnimalHandling());
+        }
+        else{
+            Animal_Handling.setText(Animal_Handling.getText().toString() + "  -" + CurrentCharacter.getAnimalHandling());
+        }
+        if(CurrentCharacter.getArcana() > -1){
+            Arcana.setText(Arcana.getText().toString() + "  +" + CurrentCharacter.getArcana());
+        }
+        else{
+            Arcana.setText(Arcana.getText().toString() + "  -" + CurrentCharacter.getArcana());
+        }
+        if(CurrentCharacter.getAthletics() > -1){
+            Athletics.setText(Athletics.getText().toString() + "  +" + CurrentCharacter.getAthletics());
+        }
+        else{
+            Athletics.setText(Athletics.getText().toString() + "  -" + CurrentCharacter.getAthletics());
+        }
+        if(CurrentCharacter.getDeception() > -1){
+            Deception.setText(Deception.getText().toString() + "  +" + CurrentCharacter.getDeception());
+        }
+        else{
+            Deception.setText(Deception.getText().toString() + "  -" + CurrentCharacter.getDeception());
+        }
+        if(CurrentCharacter.getHistory() > -1){
+            History.setText(History.getText().toString() + "  +" + CurrentCharacter.getHistory());
+        }
+        else{
+            History.setText(History.getText().toString() + "  -" + CurrentCharacter.getHistory());
+        }
+        if(CurrentCharacter.getInsight() > -1){
+            Insight.setText(Insight.getText().toString() + "  +" + CurrentCharacter.getInsight());
+        }
+        else{
+            Insight.setText(Insight.getText().toString() + "  -" + CurrentCharacter.getInsight());
+        }
+        if(CurrentCharacter.getIntimidation() > -1){
+            Intimidation.setText(Intimidation.getText().toString() + "  +" + CurrentCharacter.getIntimidation());
+        }
+        else{
+            Intimidation.setText(Intimidation.getText().toString() + "  -" + CurrentCharacter.getIntimidation());
+        }
+        if(CurrentCharacter.getInvestigation() > -1){
+            Investigation.setText(Investigation.getText().toString() + "  +" + CurrentCharacter.getInvestigation());
+        }
+        else{
+            Investigation.setText(Investigation.getText().toString() + "  -" + CurrentCharacter.getInvestigation());
+        }
+        if(CurrentCharacter.getMedicine() > -1){
+            Medicine.setText(Medicine.getText().toString() + "  +" + CurrentCharacter.getMedicine());
+        }
+        else{
+            Medicine.setText(Medicine.getText().toString() + "  -" + CurrentCharacter.getMedicine());
+        }
+        if(CurrentCharacter.getNature() > -1){
+            Nature.setText(Nature.getText().toString() + "  +" + CurrentCharacter.getNature());
+        }
+        else{
+            Nature.setText(Nature.getText().toString() + "  -" + CurrentCharacter.getNature());
+        }
+        if(CurrentCharacter.getPerception() > -1){
+            Perception.setText(Perception.getText().toString() + "  +" + CurrentCharacter.getPerception());
+        }
+        else{
+            Perception.setText(Perception.getText().toString() + "  -" + CurrentCharacter.getPerception());
+        }
+        if(CurrentCharacter.getPerformance() > -1){
+            Performance.setText(Performance.getText().toString() + "  +" + CurrentCharacter.getPerformance());
+        }
+        else{
+            Performance.setText(Performance.getText().toString() + "  -" + CurrentCharacter.getPerformance());
+        }
+        if(CurrentCharacter.getPersuasion() > -1){
+            Persuasion.setText(Persuasion.getText().toString() + "  +" + CurrentCharacter.getPersuasion());
+        }
+        else{
+            Persuasion.setText(Persuasion.getText().toString() + "  -" + CurrentCharacter.getPersuasion());
+        }
+        if(CurrentCharacter.getReligion() > -1){
+            Religion.setText(Religion.getText().toString() + "  +" + CurrentCharacter.getReligion());
+        }
+        else{
+            Religion.setText(Religion.getText().toString() + "  -" + CurrentCharacter.getReligion());
+        }
+        if(CurrentCharacter.getSleightOfHand() > -1){
+            Sleight_of_Hand.setText(Sleight_of_Hand.getText().toString() + "  +" + CurrentCharacter.getSleightOfHand());
+        }
+        else{
+            Sleight_of_Hand.setText(Sleight_of_Hand.getText().toString() + "  -" + CurrentCharacter.getSleightOfHand());
+        }
+        if(CurrentCharacter.getStealth() > -1){
+            Stealth.setText(Stealth.getText().toString() + "  +" + CurrentCharacter.getStealth());
+        }
+        else{
+            Stealth.setText(Stealth.getText().toString() + "  -" + CurrentCharacter.getStealth());
+        }
+        if(CurrentCharacter.getSurvival() > -1){
+            Survival.setText(Survival.getText().toString() + "  +" + CurrentCharacter.getSurvival());
+        }
+        else{
+            Survival.setText(Survival.getText().toString() + "  -" + CurrentCharacter.getSurvival());
+        }
     }
 
     public void loadStrength(View view){

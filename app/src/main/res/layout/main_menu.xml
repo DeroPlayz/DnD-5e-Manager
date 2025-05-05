@@ -38,8 +38,8 @@
 
         <ImageView
             android:id="@+id/character_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:scaleX=".7"
             android:src="@drawable/character"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_characters"
@@ -73,8 +73,8 @@
 
         <ImageView
             android:id="@+id/info_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:scaleX=".7"
             android:src="@drawable/book"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_data"
@@ -109,8 +109,8 @@
 
         <ImageView
             android:id="@+id/dice_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:scaleX=".7"
             android:src="@drawable/d20"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
