@@ -63,8 +63,22 @@ public class PlayerCharacter {
         put(Charisma, 0);
     }};
     public Map<String, Integer> getBaseAbilityScores(){return BaseAbilityScores;}
+
+    /** @noinspection DataFlowIssue*/
     public int getAbilityScore(String Ability){
         return BaseAbilityScores.get(Ability) + Race.getAbilityBonus(Ability);
+    }
+
+    /** @noinspection DataFlowIssue*/
+    public int getAbilityMod(String Ability){
+        int Value = getAbilityScore(Ability);
+        if((Value - 10) % 2 == 0){
+            return (Value - 10) /2;
+        }
+        else{
+            double temp = (double) (Value - 10) / 2;
+            return (int) (temp - 0.5);
+        }
     }
 
     Map<String, Integer> Proficiencies = new HashMap<String, Integer>() {{
@@ -98,13 +112,6 @@ public class PlayerCharacter {
         put(Performance, 0);
         put(Persuasion, 0);
     }};
-
-    /** @noinspection DataFlowIssue*/
-    public int getAbilityMod(String Ability){
-        int Value = BaseAbilityScores.get(Ability);
-        int Modifier = (int) Math.nextDown(((float) (Value - 10) /2));
-        return Modifier;
-    }
 
     private ArrayList<Feature> PlayerFeatures;
 

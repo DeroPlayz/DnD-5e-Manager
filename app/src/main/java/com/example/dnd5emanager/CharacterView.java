@@ -142,7 +142,7 @@ public class CharacterView extends Fragment {
         loadCharisma(view);
 
         TextView Acrobatics = view.findViewById(R.id.acrobatics);
-        TextView Animal_Handling = view.findViewById(R.id.animal_handling);
+        TextView AnimalHandling = view.findViewById(R.id.animal_handling);
         TextView Arcana = view.findViewById(R.id.arcana);
         TextView Athletics = view.findViewById(R.id.athletics);
         TextView Deception = view.findViewById(R.id.deception);
@@ -160,204 +160,209 @@ public class CharacterView extends Fragment {
         TextView Stealth = view.findViewById(R.id.stealth);
         TextView Survival = view.findViewById(R.id.survival);
 
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.obatic))); > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Acrobatics.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Acrobatics)) > -1){
+            Acrobatics.setText("Acrobatics  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Acrobatics)));
         }
         else{
-            Acrobatics.setText(Acrobatics.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Acrobatics)));
+            Acrobatics.setText("Acrobatics  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Acrobatics)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.malHandlin))); > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Animal_Handling.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
-        }
-        else{
-            Animal_Handling.setText(Animal_Handling.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.AnimalHandling)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.an))); > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Arcana.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)) > -1){
+            AnimalHandling.setText("Animal Handling  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)));
         }
         else{
-            Arcana.setText(Arcana.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Arcana)));
+            AnimalHandling.setText("Animal Handling  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.letic))); > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Athletics.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
-        }
-        else{
-            Athletics.setText(Athletics.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Athletics)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.eptio))); > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Deception.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)) > -1){
+            Arcana.setText("Arcana  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)));
         }
         else{
-            Deception.setText(Deception.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Deception)));
+            Arcana.setText("Arcana  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.tor)));> -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))History.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
-        }
-        else{
-            History.setText(History.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.History)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.igh)));) > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Insight.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)) > -1){
+            Athletics.setText("Athletics  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)));
         }
         else{
-            Insight.setText(Insight.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Insight)));
+            Athletics.setText("Athletics  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.imidatio)));) > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Intimidation.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
-        }
-        else{
-            Intimidation.setText(Intimidation.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Intimidation)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.estigatio))); > -1){
-get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )))Investigation.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(ConstantsgetBaseAbilityScores().get(Skills.get(Constants."  )));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)) > -1){
+            Deception.setText("Deception  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)));
         }
         else{
-            Investigation.setText(Investigation.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.getBaseAbilityScores().get(Skills.get(Constants.estigatio)));)
+            Deception.setText("Deception  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Medicine)) > -1){
-            Medicine.setText(Medicine.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Medicine)));
-        }
-        else{
-            Medicine.setText(Medicine.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Medicine)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Nature)) > -1){
-            Nature.setText(Nature.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Nature)));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.History)) > -1){
+            History.setText("History  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.History)));
         }
         else{
-            Nature.setText(Nature.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Nature)));
+            History.setText("History  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.History)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Perception)) > -1){
-            Perception.setText(Perception.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Perception)));
-        }
-        else{
-            Perception.setText(Perception.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Perception)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Performance)) > -1){
-            Performance.setText(Performance.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Performance)));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)) > -1){
+            Insight.setText("Insight  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)));
         }
         else{
-            Performance.setText(Performance.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Performance)));
+            Insight.setText("Insight  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Persuasion)) > -1){
-            Persuasion.setText(Persuasion.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Persuasion)));
-        }
-        else{
-            Persuasion.setText(Persuasion.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Persuasion)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Religion)) > -1){
-            Religion.setText(Religion.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Religion)));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)) > -1){
+            Intimidation.setText("Intimidation  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)));
         }
         else{
-            Religion.setText(Religion.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Religion)));
+            Intimidation.setText("Intimidation  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.SleightOfHand)) > -1){
-            SleightOfHand.setText(SleightOfHand.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.SleightOfHand)));
-        }
-        else{
-            SleightOfHand.setText(SleightOfHand.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.SleightOfHand)));
-        }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Stealth)) > -1){
-            Stealth.setText(Stealth.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Stealth)));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)) > -1){
+            Investigation.setText("Investigation  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)));
         }
         else{
-            Stealth.setText(Stealth.getText().toString() + "  -" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Stealth)));
+            Investigation.setText("Investigation  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)));
         }
-        if(CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Survival)) > -1){
-            Survival.setText(Survival.getText().toString() + "  +" + CurrentCharacter.getBaseAbilityScores().get(Skills.get(Constants.Survival)));
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)) > -1){
+            Medicine.setText("Medicine  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)));
         }
         else{
-            Survival.setText(Survival.getText().toString() + "  -" + CurrentCharacter.getSurvival());
+            Medicine.setText("Medicine  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)) > -1){
+            Nature.setText("Nature  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)));
+        }
+        else{
+            Nature.setText("Nature  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)) > -1){
+            Perception.setText("Perception  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)));
+        }
+        else{
+            Perception.setText("Perception  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)) > -1){
+            Performance.setText("Performance  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)));
+        }
+        else{
+            Performance.setText("Performance  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)) > -1){
+            Persuasion.setText("Persuasion  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)));
+        }
+        else{
+            Persuasion.setText("Persuasion  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)) > -1){
+            Religion.setText("Religion  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)));
+        }
+        else{
+            Religion.setText("Religion  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)) > -1){
+            SleightOfHand.setText("Sleight Of Hand  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)));
+        }
+        else{
+            SleightOfHand.setText("Sleight Of Hand  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)) > -1){
+            Stealth.setText("Stealth  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)));
+        }
+        else{
+            Stealth.setText("Stealth  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)));
+        }
+
+        if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)) > -1){
+            Survival.setText("Survival  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)));
+        }
+        else{
+            Survival.setText("Survival  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)));
         }
     }
 
     public void loadStrength(View view){
-        CurrentCharacter.setStrength();
-        CurrentCharacter.setStrengthBonus();
-        Log.d("Current Strength", String.valueOf(CurrentCharacter.getStrength()));
-
         TextView StrengthValue = view.findViewById(R.id.character_view_strength_value);
-        StrengthValue.setText(String.valueOf(CurrentCharacter.getStrength()));
+        StrengthValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Strength)));
 
         TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
-        StrengthMod.setText(String.valueOf(CurrentCharacter.getStrengthBonus()));
+        StrengthMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength)));
 
         TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
-        StrengthSave.setText(String.valueOf(CurrentCharacter.getStrengthSave()));
+        StrengthSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength)));
+
+        Log.d("Current Strength", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Strength)));
     }
 
     public void loadDexterity(View view){
-        CurrentCharacter.setDexterity();
-        CurrentCharacter.setDexterityBonus();
-        Log.d("Current Dexterity", String.valueOf(CurrentCharacter.getDexterity()));
-
         TextView DexterityValue = view.findViewById(R.id.character_view_dexterity_value);
-        DexterityValue.setText(String.valueOf(CurrentCharacter.getDexterity()));
+        DexterityValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Dexterity)));
 
         TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
-        DexterityMod.setText(String.valueOf(CurrentCharacter.getDexterityBonus()));
+        DexterityMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity)));
 
         TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
-        DexteritySave.setText(String.valueOf(CurrentCharacter.getDexteritySave()));
+        DexteritySave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity)));
+
+        Log.d("Current Dexterity", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Dexterity)));
     }
 
     public void loadConstitution(View view){
-        CurrentCharacter.setConstitution();
-        CurrentCharacter.setConstitutionBonus();
-        Log.d("Current Constitution", String.valueOf(CurrentCharacter.getConstitution()));
-
         TextView ConstitutionValue = view.findViewById(R.id.character_view_constitution_value);
-        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getConstitution()));
+        ConstitutionValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Constitution)));
 
         TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
-        ConstitutionMod.setText(String.valueOf(CurrentCharacter.getConstitutionBonus()));
+        ConstitutionMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution)));
 
         TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
-        ConstitutionSave.setText(String.valueOf(CurrentCharacter.getConstitutionSave()));
+        ConstitutionSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution)));
+
+        Log.d("Current Constitution", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Constitution)));
     }
 
     public void loadIntelligence(View view){
-        CurrentCharacter.setIntelligence();
-        CurrentCharacter.setIntelligenceBonus();
-        Log.d("Current Intelligence", String.valueOf(CurrentCharacter.getIntelligence()));
-
         TextView IntelligenceValue = view.findViewById(R.id.character_view_intelligence_value);
-        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getIntelligence()));
+        IntelligenceValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Intelligence)));
 
         TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
-        IntelligenceMod.setText(String.valueOf(CurrentCharacter.getIntelligenceBonus()));
+        IntelligenceMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence)));
 
         TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
-        IntelligenceSave.setText(String.valueOf(CurrentCharacter.getIntelligenceSave()));
+        IntelligenceSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence)));
+
+        Log.d("Current Intelligence", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Intelligence)));
     }
 
     public void loadWisdom(View view){
-        CurrentCharacter.setWisdom();
-        CurrentCharacter.setWisdomBonus();
-        Log.d("Current Wisdom", String.valueOf(CurrentCharacter.getWisdom()));
-
         TextView WisdomValue = view.findViewById(R.id.character_view_wisdom_value);
-        WisdomValue.setText(String.valueOf(CurrentCharacter.getWisdom()));
+        WisdomValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Wisdom)));
 
         TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
-        WisdomMod.setText(String.valueOf(CurrentCharacter.getWisdomBonus()));
+        WisdomMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom)));
 
         TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
-        WisdomSave.setText(String.valueOf(CurrentCharacter.getWisdomSave()));
+        WisdomSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom)));
+
+        Log.d("Current Wisdom", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Wisdom)));
     }
 
     public void loadCharisma(View view){
-        CurrentCharacter.setCharisma();
-        CurrentCharacter.setCharismaBonus();
-        Log.d("Current Charisma", String.valueOf(CurrentCharacter.getCharisma()));
-
         TextView CharismaValue = view.findViewById(R.id.character_view_charisma_value);
-        CharismaValue.setText(String.valueOf(CurrentCharacter.getCharisma()));
+        CharismaValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Charisma)));
 
         TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
-        CharismaMod.setText(String.valueOf(CurrentCharacter.getCharismaBonus()));
+        CharismaMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma)));
 
         TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
-        CharismaSave.setText(String.valueOf(CurrentCharacter.getCharismaSave()));
+        CharismaSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma)));
+
+        Log.d("Current Charisma", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Charisma)));
     }
 
     @Override

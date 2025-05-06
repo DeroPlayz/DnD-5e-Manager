@@ -310,7 +310,7 @@
         android:layout_marginTop="-2dp"
         android:layout_marginBottom="60dp"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="number"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/CHARISMA_ICON"
         app:layout_constraintEnd_toEndOf="@id/CONSTITUTION_ICON"

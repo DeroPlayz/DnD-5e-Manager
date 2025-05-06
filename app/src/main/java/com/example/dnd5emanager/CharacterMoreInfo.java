@@ -20,6 +20,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.Background;
+import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.databinding.CharacterMoreInfoBinding;
 
 import java.util.ArrayList;
@@ -44,6 +45,54 @@ public class CharacterMoreInfo extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        TextView Racial_Strength = view.findViewById(R.id.racial_strength);
+        String RacialStrength = "Racial Strength: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Strength);
+        Racial_Strength.setText(RacialStrength);
+
+        TextView Racial_Dexterity = view.findViewById(R.id.racial_dexterity);
+        String RacialDexterity = "Racial Dexterity: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Dexterity);
+        Racial_Dexterity.setText(RacialDexterity);
+
+        TextView Racial_Constitution = view.findViewById(R.id.racial_constitution);
+        String RacialConstitution = "Racial Constitution: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Constitution);
+        Racial_Constitution.setText(RacialConstitution);
+
+        TextView Racial_Intelligence = view.findViewById(R.id.racial_intelligence);
+        String RacialIntelligence = "Racial Intelligence: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Intelligence);
+        Racial_Intelligence.setText(RacialIntelligence);
+
+        TextView Racial_Wisdom = view.findViewById(R.id.racial_wisdom);
+        String RacialWisdom = "Racial Wisdom: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Wisdom);
+        Racial_Wisdom.setText(RacialWisdom);
+
+        TextView Racial_Charisma = view.findViewById(R.id.racial_charisma);
+        String RacialCharisma = "Racial Charisma: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Charisma);
+        Racial_Charisma.setText(RacialCharisma);
+
+        TextView ASI_Strength = view.findViewById(R.id.asi_strength);
+        String ASIStrength = "ASI Strength: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Strength);
+        ASI_Strength.setText(ASIStrength);
+
+        TextView ASI_Dexterity = view.findViewById(R.id.asi_dexterity);
+        String ASIDexterity = "ASI Dexterity: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Dexterity);
+        ASI_Dexterity.setText(ASIDexterity);
+
+        TextView ASI_Constitution = view.findViewById(R.id.asi_constitution);
+        String ASIConstitution = "ASI Constitution: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Constitution);
+        ASI_Constitution.setText(ASIConstitution);
+
+        TextView ASI_Intelligence = view.findViewById(R.id.asi_intelligence);
+        String ASIIntelligence = "ASI Intelligence: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Intelligence);
+        ASI_Intelligence.setText(ASIIntelligence);
+
+        TextView ASI_Wisdom = view.findViewById(R.id.asi_wisdom);
+        String ASIWisdom = "ASI Wisdom: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Wisdom);
+        ASI_Wisdom.setText(ASIWisdom);
+
+        TextView ASI_Charisma = view.findViewById(R.id.asi_charisma);
+        String ASICharisma = "ASI Charisma: +" + CurrentCharacter.getRace().getAbilityBonus(Constants.Charisma);
+        ASI_Charisma.setText(ASICharisma);
 
         TextView About = view.findViewById(R.id.character_more_info_about);
         TextView Personality = view.findViewById(R.id.character_more_info_personality);
@@ -71,8 +120,6 @@ public class CharacterMoreInfo extends Fragment {
 
         AlertDialog.Builder LoreEditor = new AlertDialog.Builder(requireContext());
 
-//Log.d("Current About Edit", EditAbout.getText().toString());
-
         binding.characterMoreInfoAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,7 +129,8 @@ public class CharacterMoreInfo extends Fragment {
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            About.setText("About: " + EditAbout.getText().toString());
+                            String Text = "About: " + EditAbout.getText().toString();
+                            About.setText(Text);
                             CurrentCharacter.setAbout(EditAbout.getText().toString());
                         }
                     });
@@ -100,7 +148,8 @@ public class CharacterMoreInfo extends Fragment {
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Personality.setText("Personality Traits: " + EditPersonality.getText().toString());
+                            String Text = "Personality Traits: " + EditPersonality.getText().toString();
+                            Personality.setText(Text);
                             CurrentCharacter.setPersonality(EditPersonality.getText().toString());
                         }
                     });
@@ -118,7 +167,8 @@ public class CharacterMoreInfo extends Fragment {
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Bonds.setText("Bonds: " + EditBonds.getText().toString());
+                            String Text = "Bonds: " + EditBonds.getText().toString();
+                            Bonds.setText(Text);
                             CurrentCharacter.setBonds(EditBonds.getText().toString());
                         }
                     });
@@ -136,7 +186,8 @@ public class CharacterMoreInfo extends Fragment {
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Ideals.setText("Ideals: " + EditIdeals.getText().toString());
+                            String Text = "Ideals: " + EditIdeals.getText().toString();
+                            Ideals.setText(Text);
                             CurrentCharacter.setIdeals(EditIdeals.getText().toString());
                         }
                     });
@@ -154,7 +205,8 @@ public class CharacterMoreInfo extends Fragment {
                     LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
                         @Override
                         public void onDismiss(DialogInterface dialog) {
-                            Flaws.setText("Flaws: " + EditFlaws.getText().toString());
+                            String Text = "Flaws: " + EditFlaws.getText().toString();
+                            Flaws.setText(Text);
                             CurrentCharacter.setFlaws(EditFlaws.getText().toString());
                         }
                     });
