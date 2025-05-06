@@ -37,7 +37,6 @@ public class DiceRoller extends Fragment {
         binding = com.example.dnd5emanager.databinding.DiceRollerBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
-
     public static int rollDice(int count, int sides){
         int[] dice = new int[count];
         for (int i = 0; i < 4; i++) {
@@ -49,7 +48,6 @@ public class DiceRoller extends Fragment {
         }
         return total;
     }
-
     private void rotateDice6() {
         int i = random.nextInt(6)+1;
         Animation anim = AnimationUtils.loadAnimation(diceImage.getContext(), R.anim.rotate);
@@ -189,7 +187,6 @@ public class DiceRoller extends Fragment {
 
         }
     }
-
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -221,9 +218,7 @@ public class DiceRoller extends Fragment {
         });
 
     };
-
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();
