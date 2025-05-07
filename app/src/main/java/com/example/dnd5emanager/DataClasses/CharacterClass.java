@@ -1,29 +1,37 @@
 package com.example.dnd5emanager.DataClasses;
 
 import com.example.dnd5emanager.DiceRoller;
-import com.example.dnd5emanager.DiceRoller.*;
+
 import java.util.ArrayList;
 
 public class CharacterClass {
-    private String Name;
+    private final String Name;
         public String getName(){return Name;}
-    private String HitDie;
+    private final String HitDie;
         public int getHitDie(){return Integer.parseInt(HitDie.replace("D", ""));}
         public int getHitDieCount(){return Level;}
         public int rollHitDie(){return DiceRoller.rollDice(Level, getHitDie());}
-    private Armor[] ArmorProficiencies;
-    private int AttacksByLevel;
-    private int BaseAC;
-    private String[] SelectableClassSkills;
-    private int SelectableSkillCount;
+    private final Armor[] ArmorProficiencies;
+    private final int AttacksByLevel;
+    private final int BaseAC;
+    private final String[] SelectableClassSkills;
+    private final int SelectableSkillCount;
     private int Level = 1;
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
 
+    private ArrayList<Feature> ClassFeatures;
+        public void addFeature(Feature Feature){
+            ClassFeatures.add(Feature);
+        }
+        public ArrayList<Feature> getClassFeatures(){
+            return ClassFeatures;
+        }
+
     private Subclass Subclass = new Subclass();
         public void setSubclass(Subclass Subclass){this.Subclass = Subclass;}
         public Subclass getSubclass(){return Subclass;}
-    private ArrayList<Subclass> Subclasses = new ArrayList<>();
+    private final ArrayList<Subclass> Subclasses = new ArrayList<>();
     public void addSubclass(Subclass Subclass){
         Subclasses.add(Subclass);
     }
@@ -31,12 +39,7 @@ public class CharacterClass {
         return Subclasses;
     }
     public boolean HasSubclasses(){
-        if(Subclasses.size() > 1){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return Subclasses.size() > 1;
     }
 
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,

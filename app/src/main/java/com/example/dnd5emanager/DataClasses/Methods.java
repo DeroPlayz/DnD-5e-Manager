@@ -601,6 +601,15 @@ public class Methods {
         }
     }
 
+//    public static void assignFeatures(){
+//        ArrayList<CharacterClass> AllClasses = new ArrayList<>(Arrays.asList(Constants.Classes.values().toArray(new CharacterClass[0])));
+//        ArrayList<Feature> AllFeatures = new ArrayList<>(Arrays.asList(Constants.Features.values().toArray(new Feature[0])));
+//        for(int i = 0; i < AllClasses.size(); i++){
+//            if(AllFeatures.get(i).)
+//        }
+//        Constants.Features.get()
+//    }
+
     public static void parseFeatures(Context context, String dir) {
         Log.d("Jason", "He was just born in Feature.");
         AM = context.getAssets();
