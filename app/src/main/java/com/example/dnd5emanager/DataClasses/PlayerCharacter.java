@@ -156,28 +156,27 @@ public class PlayerCharacter {
 
     int XP = 0;
     public void addXP(int XP){this.XP += XP; levelUpCheck();}
-    public void setXP(int XP){this.XP = XP; levelUpCheck();}
 
     public void levelUpCheck(){
-        if(getLevel() == 1 && XP >= 300)            {/*levelUp();*/}
-        else if(getLevel() == 2 && XP >= 900)       {/*levelUp();*/}
-        else if(getLevel() == 3 && XP >= 2700)      {/*levelUp();*/}
-        else if(getLevel() == 4 && XP >= 6500)      {/*levelUp();*/}
-        else if(getLevel() == 5 && XP >= 14000)     {/*levelUp();*/}
-        else if(getLevel() == 6 && XP >= 23000)     {/*levelUp();*/}
-        else if(getLevel() == 7 && XP >= 34000)     {/*levelUp();*/}
-        else if(getLevel() == 8 && XP >= 48000)     {/*levelUp();*/}
-        else if(getLevel() == 9 && XP >= 64000)     {/*levelUp();*/}
-        else if(getLevel() == 10 && XP >= 85000)    {/*levelUp();*/}
-        else if(getLevel() == 11 && XP >= 100000)   {/*levelUp();*/}
-        else if(getLevel() == 12 && XP >= 120000)   {/*levelUp();*/}
-        else if(getLevel() == 13 && XP >= 140000)   {/*levelUp();*/}
-        else if(getLevel() == 14 && XP >= 165000)   {/*levelUp();*/}
-        else if(getLevel() == 15 && XP >= 195000)   {/*levelUp();*/}
-        else if(getLevel() == 16 && XP >= 225000)   {/*levelUp();*/}
-        else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
-        else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
-        else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
+        if(getLevel() == 1 && XP >= 300)            {/*levelUp(2)*/}
+        else if(getLevel() == 2 && XP >= 900)       {/*levelUp(3)*/}
+        else if(getLevel() == 3 && XP >= 2700)      {/*levelUp(4)*/}
+        else if(getLevel() == 4 && XP >= 6500)      {/*levelUp(5)*/}
+        else if(getLevel() == 5 && XP >= 14000)     {/*levelUp(6)*/}
+        else if(getLevel() == 6 && XP >= 23000)     {/*levelUp(7)*/}
+        else if(getLevel() == 7 && XP >= 34000)     {/*levelUp(8)*/}
+        else if(getLevel() == 8 && XP >= 48000)     {/*levelUp(9)*/}
+        else if(getLevel() == 9 && XP >= 64000)     {/*levelUp(10)*/}
+        else if(getLevel() == 10 && XP >= 85000)    {/*levelUp(11)*/}
+        else if(getLevel() == 11 && XP >= 100000)   {/*levelUp(12)*/}
+        else if(getLevel() == 12 && XP >= 120000)   {/*levelUp(13)*/}
+        else if(getLevel() == 13 && XP >= 140000)   {/*levelUp(14)*/}
+        else if(getLevel() == 14 && XP >= 165000)   {/*levelUp(15)*/}
+        else if(getLevel() == 15 && XP >= 195000)   {/*levelUp(16)*/}
+        else if(getLevel() == 16 && XP >= 225000)   {/*levelUp(17)*/}
+        else if(getLevel() == 17 && XP >= 265000)   {/*levelUp(18)*/}
+        else if(getLevel() == 18 && XP >= 305000)   {/*levelUp(19)*/}
+        else if(getLevel() == 19 && XP >= 355000)   {/*levelUp(20)*/}
     }
 
     private String Personality = "";
