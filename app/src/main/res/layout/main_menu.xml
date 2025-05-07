@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dragon_background"
     tools:context=".MainMenu">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -116,6 +117,7 @@
             android:layout_height="100dp"
             android:scaleX=".7"
             android:src="@drawable/d20"
+
             app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
             app:layout_constraintEnd_toEndOf="@id/main_menu_dice_roller"
             app:layout_constraintTop_toTopOf="@id/main_menu_dice_roller"
