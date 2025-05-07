@@ -18,6 +18,7 @@
             android:layout_height="170dp"
             android:layout_marginTop="60dp"
             android:backgroundTint="#D34141"
+            android:contentDescription="view characters "
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -53,6 +54,7 @@
             android:layout_height="170dp"
             android:layout_marginTop="40dp"
             android:backgroundTint="#3B812C"
+            android:contentDescription="Information page  "
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,6 +90,7 @@
             android:layout_height="170dp"
             android:layout_marginTop="40dp"
             android:backgroundTint="#DB8B2B"
+            android:contentDescription="Dice Rollers "
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias=".5"
@@ -136,6 +139,7 @@
             android:layout_marginTop="4dp"
             android:scaleType="centerCrop"
             android:src="@drawable/cog"
+            android:contentDescription="setting page "
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -145,6 +149,7 @@
             android:layout_height="80dp"
             android:scaleType="centerCrop"
             android:src="@drawable/skillcheck"
+            android:contentDescription="Help page "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/Title" />
 
