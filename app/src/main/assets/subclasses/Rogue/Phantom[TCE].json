@@ -1,0 +1,152 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you finish a short or long rest, you can choose one skill or tool proficiency that you lack and gain it, as a ghostly presence shares its knowledge with you. You lose this proficiency when you use this feature to choose a different proficiency that you lack",
+                        "level": 3
+                    }
+                ],
+                "id": "Customf74b7502-5758-49c8-819f-f4f77a6a8741",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Whispers of the Dead",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Immediately after you deal your Sneak Attack damage to a creature on your turn, you can target a second creature that you can see within 30 feet of the first creature. Roll half the number of Sneak Attack dice for your level (round up), and the second creature takes necrotic damage equal to the roll's total, as wails of the dead sound around them for a moment.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom8a8c6942-c2c6-4341-9056-862ef513863a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Wails from the Grave",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a reaction when a creature you can see dies within 30 feet of you, you can open your free hand and cause a Tiny trinket to appear there, a soul trinket. The DM determines the trinket's form or has you roll on the Trinkets table to generate it. You can have a maximum number of soul trinkets equal to your proficiency bonus, and you can't create one while at your maximum.\n\nYou can use soul trinkets in the following ways:\n\n- While a soul trinket is on your person, you have advantage on death saving throws and Constitution saving throws, for your vitality is enhanced by the life essence within the object.\n\n- When you deal Sneak Attack damage on your turn, you can destroy one of your soul trinkets that's on your person and then immediately use Wails from the Grave, without expending a use of that feature.\n\n- As an action, you can destroy one of your soul trinkets, no matter where it's located. When you do so, you can ask the spirit associated with the trinket one question. The spirit appears to you and answers in a language it knew in life. It's under no obligation to be truthful, and it answers as concisely as possible, eager to be free. The spirit knows only what it knew in life, as determined by the DM",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom0851ec25-275f-4a49-94b9-43075afb0539",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Tokens of the Departed",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you assume a spectral form. While in this form, you have a flying speed of 10 feet, you can hover, and attack rolls have disadvantage against you. You can also move through creatures and objects as if they were difficult terrain, but you take 1d10 force damage if you end your turn inside a creature or an object.\n\nYou stay in this form for 10 minutes or until you end it as a bonus action. To use this feature again, you must finish a long rest or destroy one of your soul trinkets as part of the bonus action you use to activate Ghost Walk",
+                        "level": 13
+                    }
+                ],
+                "id": "Custom2055c8c3-721b-436e-a04a-e2964856f840",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ghost Walk",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following benefits:\n\n- When you use your Wails from the Grave, you can deal the necrotic damage to both the first and the second creature.\n\n- At the end of a long rest, a soul trinket appears in your hand if you don't have any soul trinkets, as the spirits of the dead are drawn to you",
+                        "level": 17
+                    }
+                ],
+                "id": "Custom4c990c37-ac5b-4a14-ad97-357caa80e9c3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Death's Friend",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_phantom_[tce]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Phantom [TCE]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [
+                {
+                    "calculators": [
+                        {
+                            "operands": [
+                                {
+                                    "multiplierConstant": 1,
+                                    "operator": "PLUS",
+                                    "stat": "PB"
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 3,
+                    "topLevelConnector": "MAX"
+                }
+            ],
+            "amountsPerLevel": [],
+            "associatedValueName": "",
+            "id": "75160516-8be7-4167-8e43-80bb84f24218",
+            "name": "Wails from the Grave Uses",
+            "type": "ADVANCED",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

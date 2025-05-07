@@ -1,12 +1,15 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
-import android.content.res.Resources;
+import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnFocusChangeListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -14,15 +17,22 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.Race;
+import com.example.dnd5emanager.DataClasses.Subclass;
+import com.example.dnd5emanager.DataClasses.Subrace;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
 
 public class CharacterCreatorPageOne extends Fragment {
 
@@ -45,7 +55,7 @@ public class CharacterCreatorPageOne extends Fragment {
     private Spinner Race;
     private Spinner Subrace;
     private Spinner Class;
-    private ArrayList<String> Selection = new ArrayList<>();
+    private Spinner Subclass;
     private TextView Strength;
     private TextView Dexterity;
     private TextView Constitution;
@@ -53,82 +63,110 @@ public class CharacterCreatorPageOne extends Fragment {
     private TextView Wisdom;
     private TextView Charisma;
 
-    private ArrayAdapter<String> Adapter;
+    ArrayList<Race> RaceAL;
+    String[] RaceNames;
+
+    ArrayList<Subrace> SubraceAL;
+    String[] SubraceNames;
+
+    ArrayList<CharacterClass> ClassAL;
+    String[] ClassNames;
+
+    ArrayList<Subclass> SubclassAL;
+    String[] SubclassNames;
+
     TextView RacialStrengthBonus;
+    TextView RacialDexterityBonus;
+    TextView RacialConstitutionBonus;
+    TextView RacialIntelligenceBonus;
+    TextView RacialWisdomBonus;
+    TextView RacialCharismaBonus;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        OnFocusChangeListener textChanges = new OnFocusChangeListener() {
-
+        OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                update(v);
+            public void handleOnBackPressed() {
+                NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList);
             }
         };
+        requireActivity().getOnBackPressedDispatcher().addCallback(getViewLifecycleOwner(), callback);
 
-        RacialStrengthBonus = view.findViewById(R.id.character_creator_page_one_racial_strength);
-
-        Resources resources = getResources();
+        RacialStrengthBonus = view.findViewById(R.id.RACIAL_STRENGTH);
+        RacialDexterityBonus = view.findViewById(R.id.RACIAL_DEXTERITY);
+        RacialConstitutionBonus = view.findViewById(R.id.RACIAL_CONSTITUTION);
+        RacialIntelligenceBonus = view.findViewById(R.id.RACIAL_INTELLIGENCE);
+        RacialWisdomBonus = view.findViewById(R.id.RACIAL_WISDOM);
+        RacialCharismaBonus = view.findViewById(R.id.RACIAL_CHARISMA);
 
         Name = view.findViewById(R.id.character_creator_page_one_edit_name);
-        Name.setOnFocusChangeListener(textChanges);
+//        Name.setOnFocusChangeListener(textChanges);
         Level = view.findViewById(R.id.character_creator_page_one_edit_level);
-        Level.setOnFocusChangeListener(textChanges);
+//        Level.setOnFocusChangeListener(textChanges);
         Race = view.findViewById(R.id.character_creator_page_one_edit_race);
-        Race.setOnFocusChangeListener(textChanges);
+//        Race.setOnFocusChangeListener(textChanges);
         Subrace = view.findViewById(R.id.character_creator_page_one_edit_subrace);
-        Subrace.setOnFocusChangeListener(textChanges);
+//        Subrace.setOnFocusChangeListener(textChanges);
         Class = view.findViewById(R.id.character_creator_page_one_edit_class);
-        Class.setOnFocusChangeListener(textChanges);
-        Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
-        Strength.setOnFocusChangeListener(textChanges);
-        Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
-        Dexterity.setOnFocusChangeListener(textChanges);
-        Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
-        Constitution.setOnFocusChangeListener(textChanges);
-        Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
-        Intelligence.setOnFocusChangeListener(textChanges);
-        Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
-        Wisdom.setOnFocusChangeListener(textChanges);
-        Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
-        Charisma.setOnFocusChangeListener(textChanges);
+//        Class.setOnFocusChangeListener(textChanges);
+        Subclass = view.findViewById(R.id.character_creator_page_one_edit_subclass);
+//        Subclass.setOnFocusChangeListener(textChanges);
+        Strength = view.findViewById(R.id.EDIT_STRENGTH);
+//        Strength.setOnFocusChangeListener(textChanges);
+        Dexterity = view.findViewById(R.id.EDIT_DEXTERITY);
+//        Dexterity.setOnFocusChangeListener(textChanges);
+        Constitution = view.findViewById(R.id.EDIT_CONSTITUTION);
+//        Constitution.setOnFocusChangeListener(textChanges);
+        Intelligence = view.findViewById(R.id.EDIT_INTELLIGENCE);
+//        Intelligence.setOnFocusChangeListener(textChanges);
+        Wisdom = view.findViewById(R.id.EDIT_WISDOM);
+//        Wisdom.setOnFocusChangeListener(textChanges);
+        Charisma = view.findViewById(R.id.EDIT_CHARISMA);
+//        Charisma.setOnFocusChangeListener(textChanges);
 
-        String[] RaceArray = new String[RealRaces.size()];
-        for(int i = 0; i < RealRaces.size(); i++){
-            RaceArray[i] = RealRaces.get(i).getName();
-        }
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, RaceArray);
-        Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Race.setAdapter(Adapter);
-
-        Adapter = new ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_item, Selection);
+        loadRaces();
+        loadSubraces();
+        loadClasses();
+        loadSubclasses();
 
         super.onViewCreated(view, savedInstanceState);
         binding.characterCreatorPageOneEditRace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                updateRace();
                 if (Race != null) {
-                    Adapter.clear();
                     Subrace.setEnabled(true);
                     Subrace.setClickable(true);
                     Subrace.setVisibility(View.VISIBLE);
-                    Subrace.setAdapter(Adapter);
-                    for (int i = 0; i < RealRaces.size(); i++) {
-//                        Log.d("Race Length:", i + " out of " + RealRaces.size());
-                        if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
-                            if (!RealRaces.get(i).getHasSubraces()) {
-                                Subrace.setEnabled(false);
-                                Subrace.setClickable(false);
-                                Subrace.setVisibility(View.INVISIBLE);
-                            } else {
-                                for (int j = 0; j < Subraces.size(); j++) {
-                                    if (Subraces.get(j).getParentRace().getName().equals(Race.getSelectedItem().toString())) {
-                                        Adapter.add(Subraces.get(j).getName());
-                                    }
-                                }
-                            }
-                        }
+                    loadSubraces();
+                    if (!Objects.requireNonNull(Races.get(Race.getSelectedItem().toString())).hasSubraces()) {
+                        Subrace.setEnabled(false);
+                        Subrace.setClickable(false);
+                        Subrace.setVisibility(View.INVISIBLE);
                     }
-                    updateRace(view);
+                }
+                updateStats();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+        binding.characterCreatorPageOneEditClass.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                updateClass();
+                if (Class != null) {
+                    Subclass.setEnabled(true);
+                    Subclass.setClickable(true);
+                    Subclass.setVisibility(View.VISIBLE);
+                    loadSubclasses();
+                    if (!Objects.requireNonNull(Classes.get(Class.getSelectedItem().toString())).HasSubclasses()) {
+                        Subclass.setEnabled(false);
+                        Subclass.setClickable(false);
+                        Subclass.setVisibility(View.INVISIBLE);
+                    }
                 }
             }
 
@@ -145,29 +183,41 @@ public class CharacterCreatorPageOne extends Fragment {
         });
 
         binding.characterCreatorPageOneMaximumHealth.setOnClickListener(v ->{
-            updateClass();
             NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().getHitDie());
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
         binding.characterCreatorPageOneRollHealth.setOnClickListener(v -> {
-            updateClass();
-            NewCharacter.setMaxHealth(NewCharacter.getPrimaryClass().rollInitialHealth());
+            NewCharacter.setMaxHealth((int) (Math.random() * NewCharacter.getPrimaryClass().getHitDie()) + 1);
             TextView Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Health.setText(String.valueOf(NewCharacter.getMaxHealth()));
         });
 
-        binding.characterCreatorPageOneViewCharacter.setOnClickListener(v -> {
+        binding.characterCreatorPageOneNextPage.setOnClickListener(v -> {
             Name = view.findViewById(R.id.character_creator_page_one_edit_name);
             Health = view.findViewById(R.id.character_creator_page_one_edit_health);
             Level = view.findViewById(R.id.character_creator_page_one_edit_level);
-            Strength = view.findViewById(R.id.character_creator_page_one_edit_strength);
-            Dexterity = view.findViewById(R.id.character_creator_page_one_edit_dexterity);
-            Constitution = view.findViewById(R.id.character_creator_page_one_edit_constitution);
-            Intelligence = view.findViewById(R.id.character_creator_page_one_edit_intelligence);
-            Wisdom = view.findViewById(R.id.character_creator_page_one_edit_wisdom);
-            Charisma = view.findViewById(R.id.character_creator_page_one_edit_charisma);
+            Strength = view.findViewById(R.id.EDIT_STRENGTH);
+            Dexterity = view.findViewById(R.id.EDIT_DEXTERITY);
+            Constitution = view.findViewById(R.id.EDIT_CONSTITUTION);
+            Intelligence = view.findViewById(R.id.EDIT_INTELLIGENCE);
+            Wisdom = view.findViewById(R.id.EDIT_WISDOM);
+            Charisma = view.findViewById(R.id.EDIT_CHARISMA);
+
+            NewCharacter.setBaseStrength(Integer.parseInt(Strength.getText().toString()));
+            NewCharacter.setBaseDexterity(Integer.parseInt(Dexterity.getText().toString()));
+            NewCharacter.setBaseConstitution(Integer.parseInt(Constitution.getText().toString()));
+            NewCharacter.setBaseIntelligence(Integer.parseInt(Intelligence.getText().toString()));
+            NewCharacter.setBaseWisdom(Integer.parseInt(Wisdom.getText().toString()));
+            NewCharacter.setBaseCharisma(Integer.parseInt(Charisma.getText().toString()));
+
+            NewCharacter.setStrength();
+            NewCharacter.setDexterity();
+            NewCharacter.setConstitution();
+            NewCharacter.setIntelligence();
+            NewCharacter.setWisdom();
+            NewCharacter.setCharisma();
 
             Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
             ArrayList<String> MissingData = new ArrayList<>();
@@ -175,28 +225,39 @@ public class CharacterCreatorPageOne extends Fragment {
             if(Name.getText().toString().isEmpty()){
                 MissingData.add("Name");
             }
+
             if(Level.getText().toString().isEmpty()){
                 updateClass();
                 NewCharacter.setLevel(NewCharacter.getPrimaryClass(), 1);
             }
+            else{
+                NewCharacter.setLevel(NewCharacter.getPrimaryClass(), Integer.parseInt(Level.getText().toString()));
+            }
+
             if(Health.getText().toString().isEmpty()){
                 MissingData.add("Health");
             }
+
             if(Strength.getText().toString().isEmpty()){
                 MissingData.add("Strength");
             }
+
             if(Dexterity.getText().toString().isEmpty()){
                 MissingData.add("Dexterity");
             }
+
             if(Constitution.getText().toString().isEmpty()){
                 MissingData.add("Constitution");
             }
+
             if(Intelligence.getText().toString().isEmpty()){
                 MissingData.add("Intelligence");
             }
+
             if(Wisdom.getText().toString().isEmpty()){
                 MissingData.add("Wisdom");
             }
+
             if(Charisma.getText().toString().isEmpty()){
                 MissingData.add("Charisma");
             }
@@ -216,34 +277,37 @@ public class CharacterCreatorPageOne extends Fragment {
                 snackbar.show();
             }
             else{
-                update(v);
-                CurrentCharacter = NewCharacter;
+                update();
+                if(Race.getSelectedItem() == null){
+                    NewCharacter.setRace(Races.get("Aarakocra"));
+                }
+                if(Class.getSelectedItem() == null){
+                    NewCharacter.setPrimaryClass(Classes.get("Artificer"));
+                }
                 NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterCreatorPageTwo);
             }
         });
 
-        binding.characterCreatorPageOneBackButton.setOnClickListener(v -> {
-            NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList);
-        });
+        binding.characterCreatorPageOneBackButton.setOnClickListener(v -> NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList));
 
         binding.characterCreatorPageOneRollStats.setOnClickListener(v -> {
-            NewCharacter.setStrength(setStat());
-            Strength.setText(String.valueOf(NewCharacter.getStrength()));
+            NewCharacter.setBaseStrength(setStat());
+            Strength.setText(String.valueOf(NewCharacter.getBaseStrength()));
 
-            NewCharacter.setDexterity(setStat());
-            Dexterity.setText(String.valueOf(NewCharacter.getDexterity()));
+            NewCharacter.setBaseDexterity(setStat());
+            Dexterity.setText(String.valueOf(NewCharacter.getBaseDexterity()));
 
-            NewCharacter.setConstitution(setStat());
-            Constitution.setText(String.valueOf(NewCharacter.getConstitution()));
+            NewCharacter.setBaseConstitution(setStat());
+            Constitution.setText(String.valueOf(NewCharacter.getBaseConstitution()));
 
-            NewCharacter.setIntelligence(setStat());
-            Intelligence.setText(String.valueOf(NewCharacter.getIntelligence()));
+            NewCharacter.setBaseIntelligence(setStat());
+            Intelligence.setText(String.valueOf(NewCharacter.getBaseIntelligence()));
 
-            NewCharacter.setWisdom(setStat());
-            Wisdom.setText(String.valueOf(NewCharacter.getWisdom()));
+            NewCharacter.setBaseWisdom(setStat());
+            Wisdom.setText(String.valueOf(NewCharacter.getBaseWisdom()));
 
-            NewCharacter.setCharisma(setStat());
-            Charisma.setText(String.valueOf(NewCharacter.getCharisma()));
+            NewCharacter.setBaseCharisma(setStat());
+            Charisma.setText(String.valueOf(NewCharacter.getBaseCharisma()));
         });
 
     }
@@ -267,79 +331,225 @@ public class CharacterCreatorPageOne extends Fragment {
         }
         dice[lowestValIndex] = 0;
         int total = 0;
-        for (int i = 0; i < dice.length; i++) {
-            total += dice[i];
+        for (int die : dice) {
+            total += die;
         }
         return total;
     }
 
-
-    public void update(View view){
-        updateRace(view);
+    public void update(){
+        updateRace();
+        updateSubrace();
         updateClass();
-        updateAbilities(view);
+        updateSubclass();
+        updateStats();
+        updateInfo();
+    }
+    public void updateInfo() {
         NewCharacter.setName(Name.getText().toString());
-        TextView Level = view.findViewById(R.id.character_creator_page_one_edit_level);
+        NewCharacter.setLevel(NewCharacter.getPrimaryClass(), 1);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM) {
+            if(Level.getText() != null && !Level.getText().isEmpty()){
+                NewCharacter.setLevel(NewCharacter.getPrimaryClass(), Integer.parseInt(Level.getText().toString()));
+            }
+        }
         NewCharacter.setCurrentHealth(NewCharacter.getMaxHealth());
     }
 
-    public void updateAbilities(View view){
-        if(Strength != null && !Strength.getText().toString().isEmpty()){
-            NewCharacter.setStrength(Integer.parseInt(Strength.getText().toString()));
+    public void updateStats(){
+        if(!Strength.getText().toString().isEmpty()){
+            NewCharacter.setBaseStrength(Integer.parseInt(Strength.getText().toString()));
         }
-        else{NewCharacter.setStrength(0);}
+        else{NewCharacter.setBaseStrength(0);}
 
-        if(Dexterity != null && !Dexterity.getText().toString().isEmpty()){
-            NewCharacter.setDexterity(Integer.parseInt(Dexterity.getText().toString()));
+        if(!Dexterity.getText().toString().isEmpty()){
+            NewCharacter.setBaseDexterity(Integer.parseInt(Dexterity.getText().toString()));
         }
-        else{NewCharacter.setDexterity(0);}
+        else{NewCharacter.setBaseDexterity(0);}
 
-        if(Constitution != null && !Constitution.getText().toString().isEmpty()){
-            NewCharacter.setConstitution(Integer.parseInt(Constitution.getText().toString()));
+        if(!Constitution.getText().toString().isEmpty()){
+            NewCharacter.setBaseConstitution(Integer.parseInt(Constitution.getText().toString()));
         }
-        else{NewCharacter.setConstitution(0);}
+        else{NewCharacter.setBaseConstitution(0);}
 
-        if(Intelligence != null && !Intelligence.getText().toString().isEmpty()){
-            NewCharacter.setIntelligence(Integer.parseInt(Intelligence.getText().toString()));
+        if(!Intelligence.getText().toString().isEmpty()){
+            NewCharacter.setBaseIntelligence(Integer.parseInt(Intelligence.getText().toString()));
         }
-        else{NewCharacter.setIntelligence(0);}
+        else{NewCharacter.setBaseIntelligence(0);}
 
-        if(Wisdom != null && !Wisdom.getText().toString().isEmpty()){
-            NewCharacter.setWisdom(Integer.parseInt(Wisdom.getText().toString()));
+        if(!Wisdom.getText().toString().isEmpty()){
+            NewCharacter.setBaseWisdom(Integer.parseInt(Wisdom.getText().toString()));
         }
-        else{NewCharacter.setWisdom(0);}
+        else{NewCharacter.setBaseWisdom(0);}
 
-        if(Charisma != null && !Charisma.getText().toString().isEmpty()){
-            NewCharacter.setCharisma(Integer.parseInt(Charisma.getText().toString()));
+        if(!Charisma.getText().toString().isEmpty()){
+            NewCharacter.setBaseCharisma(Integer.parseInt(Charisma.getText().toString()));
         }
-        else{NewCharacter.setCharisma(0);}
+        else{NewCharacter.setBaseCharisma(0);}
+
+        NewCharacter.setStrengthBonus();
+        NewCharacter.setDexterityBonus();
+        NewCharacter.setConstitutionBonus();
+        NewCharacter.setIntelligenceBonus();
+        NewCharacter.setWisdomBonus();
+        NewCharacter.setCharismaBonus();
+
+
+        if(NewCharacter.getRace().getStrengthBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getStrengthBonus();
+            RacialStrengthBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getStrengthBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getStrengthBonus();
+            RacialStrengthBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getStrengthBonus();
+            RacialStrengthBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getDexterityBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getDexterityBonus();
+            RacialDexterityBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getDexterityBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getDexterityBonus();
+            RacialDexterityBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getDexterityBonus();
+            RacialDexterityBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getConstitutionBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getConstitutionBonus();
+            RacialConstitutionBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getConstitutionBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getConstitutionBonus();
+            RacialConstitutionBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getConstitutionBonus();
+            RacialConstitutionBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getIntelligenceBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getIntelligenceBonus();
+            RacialIntelligenceBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getIntelligenceBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getIntelligenceBonus();
+            RacialIntelligenceBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getIntelligenceBonus();
+            RacialIntelligenceBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getWisdomBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getWisdomBonus();
+            RacialWisdomBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getWisdomBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getWisdomBonus();
+            RacialWisdomBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getWisdomBonus();
+            RacialWisdomBonus.setText(s);
+        }
+
+        if(NewCharacter.getRace().getCharismaBonus() > 0){
+            String s = "+" + NewCharacter.getRace().getCharismaBonus();
+            RacialCharismaBonus.setText(s);
+        }
+        else if(NewCharacter.getRace().getCharismaBonus() < 0){
+            String s = "-" + NewCharacter.getRace().getCharismaBonus();
+            RacialCharismaBonus.setText(s);
+        }
+        else{
+            String s = "" + NewCharacter.getRace().getCharismaBonus();
+            RacialCharismaBonus.setText(s);
+        }
+
     }
 
-    public void updateRace(View view){
-        for (int i = 0; i < RealRaces.size(); i++) {
-            if (Race.getSelectedItem().toString().equals(RealRaces.get(i).getName())) {
-                NewCharacter.setRace(RealRaces.get(i));
-//                Log.d("Race", "Found");
-            }
+    public void loadRaces(){
+        RaceAL = new ArrayList<>(Arrays.asList(Races.values().toArray(new Race[0])));
+        RaceNames = new String[RaceAL.size()];
+        for(int i = 0; i < RaceNames.length; i++){
+            RaceNames[i] = RaceAL.get(i).getName();
         }
-        if (NewCharacter.getRace().getHasSubraces()) {
-            for (int i = 0; i < Subraces.size(); i++) {
-                if (Subrace.getSelectedItem().toString().equals(Subraces.get(i).getName())) {
-                    NewCharacter.setSubrace(Subraces.get(i));
+        Arrays.sort(RaceNames);
+        ArrayAdapter<String> raceAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, RaceNames);
+        raceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Race.setAdapter(raceAdapter);
+    }
+
+    public void loadSubraces(){
+        SubraceAL = new ArrayList<>(Arrays.asList(Subraces.values().toArray(new Subrace[0])));
+        SubraceNames = new String[SubraceAL.size()];
+        ArrayList<String> ValidSubraceNames = new ArrayList<>();
+        for(int i = 0; i < SubraceNames.length; i++) {
+            if(NewCharacter.getRace() != null){
+                if (SubraceAL.get(i).getParentRace().equals(NewCharacter.getRace().getName())) {
+                    ValidSubraceNames.add(SubraceAL.get(i).getName());
                 }
             }
         }
-        RacialStrengthBonus.setText(String.valueOf(NewCharacter.getRace().getStrengthBonus()));
+        SubraceNames = ValidSubraceNames.toArray(new String[0]);
+        Arrays.sort(SubraceNames);
+        ArrayAdapter<String> subraceAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, SubraceNames);
+        subraceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subrace.setAdapter(subraceAdapter);
+    }
 
+    public void loadClasses(){
+        ClassAL = new ArrayList<>(Arrays.asList(Classes.values().toArray(new CharacterClass[0])));
+        ClassNames = new String[ClassAL.size()];
+        for(int i = 0; i < ClassNames.length; i++){
+            ClassNames[i] = ClassAL.get(i).getName();
+        }
+        Arrays.sort(ClassNames);
+        ArrayAdapter<String> classAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, ClassNames);
+        classAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Class.setAdapter(classAdapter);
+    }
+
+    public void loadSubclasses(){
+        SubclassAL = new ArrayList<>(Arrays.asList(Subclasses.values().toArray(new Subclass[0])));
+        SubclassNames = new String[SubclassAL.size()];
+        ArrayList<String> ValidSubclassNames = new ArrayList<>();
+        for(int i = 0; i < SubclassNames.length; i++){
+            if(SubclassAL.get(i).getParentClass().equals(NewCharacter.getPrimaryClass().getName())){
+                ValidSubclassNames.add(SubclassAL.get(i).getName());
+            }
+        }
+        SubclassNames = ValidSubclassNames.toArray(new String[0]);
+        Arrays.sort(SubclassNames);
+        ArrayAdapter<String> subclassAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, SubclassNames);
+        subclassAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        Subclass.setAdapter(subclassAdapter);
+    }
+
+    public void updateRace(){
+        NewCharacter.setRace(Races.get(Race.getSelectedItem().toString()));
+        Log.d("Updated Race", NewCharacter.getRace().getName());
+    }
+
+    public void updateSubrace(){
+        if(NewCharacter.getRace().hasSubraces()){
+            NewCharacter.setSubrace(Subraces.get(Subrace.getSelectedItem().toString()));
+            Log.d("Updated Subrace", NewCharacter.getSubrace().getName());
+        }
     }
 
     public void updateClass(){
-        NewCharacter.clearClasses();
-        for(int i = 0; i < CharacterClasses.size(); i++){
-            if(Class.getSelectedItem().toString().equals(CharacterClasses.get(i).getName())){
-                NewCharacter.setPrimaryClass(CharacterClasses.get(i));
-                break;
-            }
-        }
+        NewCharacter.setPrimaryClass(Classes.get(Class.getSelectedItem().toString()));
+    }
+
+    public void updateSubclass(){
+        NewCharacter.getPrimaryClass().setSubclass(Subclasses.get(Subclass.getSelectedItem().toString()));
     }
 }

@@ -39,12 +39,27 @@ public class Race {
     private int ArmorClass;
         public int getArmorClass(){return ArmorClass;}
     private ArrayList<String> RacialTraits;
-    private boolean hasSubraces;
-        public boolean getHasSubraces(){return hasSubraces;}
+
+    private ArrayList<Subrace> Subraces = new ArrayList<>();
+        public void addSubrace(Subrace Subrace){
+            Subraces.add(Subrace);
+        }
+        public ArrayList<Subrace> getSubraces(){
+            return Subraces;
+        }
+
+    public boolean hasSubraces(){
+        if(Subraces.size() > 1){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
     public Race(String Name, int ArmorClass, int GroundSpeed, int AirSpeed, int ClimbSpeed,
         int SwimSpeed, int BurrowSpeed, int StrengthBonus, int DexterityBonus, int ConstitutionBonus,
-        int IntelligenceBonus, int WisdomBonus, int CharismaBonus, boolean hasSubraces
+        int IntelligenceBonus, int WisdomBonus, int CharismaBonus
         /*ArrayList<String> SkillProficiencies, ArrayList<String> WeaponProficiencies,
         ArrayList<String> ToolProficiencies, ArrayList<String> RacialTraits*/){
             this.Name = Name;
@@ -60,7 +75,6 @@ public class Race {
             this.ClimbSpeed = ClimbSpeed;
             this.SwimSpeed = SwimSpeed;
             this.BurrowSpeed = BurrowSpeed;
-            this.hasSubraces = hasSubraces;
 //            this.SkillProficiencies = SkillProficiencies;
 //            this.WeaponProficiencies = WeaponProficiencies;
 //            this.ToolProficiencies = ToolProficiencies;

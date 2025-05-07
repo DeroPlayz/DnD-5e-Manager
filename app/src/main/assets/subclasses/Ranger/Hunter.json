@@ -1,0 +1,363 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "HALF",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 3rd level, you gain one of the following features of your choice.\n\n- Colossus Slayer: When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it\u00e2\u20ac\u2122s below its hit point maximum. You can deal this extra damage only once per turn.\n\n- Giant Killer: When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.\n\n- Horde Breaker: Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon",
+                        "level": 3
+                    }
+                ],
+                "id": "Customa8f164c7-cf40-45d5-96d1-3a33d929a609",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hunter's Prey",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 7th level, you gain one of the following features of your choice.\n\n- Escape the Horde: Opportunity attacks against you are made with disadvantage.\n\n- Multiattack Defense: When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.\n\n- Steel Will: You have advantage on saving throws against being frightened",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom979e24b3-296b-4c6a-b059-e63fe871ec8c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Defensive Tactics",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 11th level, you gain one of the following features of your choice.\n\n- Volley: You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.\n\n- Whirlwind Attack: You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target",
+                        "level": 11
+                    }
+                ],
+                "id": "Customcd7a44fe-401e-4a6f-a020-07edf777b3ff",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Multi-attack",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At 15th level, you gain one of the following features of your choice.\n\n- Evasion: When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.\n\n- Stand Against the Tide: When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.\n\n- Uncanny Dodge: When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you",
+                        "level": 15
+                    }
+                ],
+                "id": "Custom8ff082d0-6bf0-44d2-9b21-87c1d5c9bef9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Superior Hunter's Defense",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "ranger_hunter",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Hunter",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it\u00e2\u20ac\u2122s below its hit point maximum. You can deal this extra damage only once per turn",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customb7c774de-9bf7-431b-8d27-c8600f32838c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Colossus Slayer",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Customcd1581cb-89de-4505-88ae-a0e4f8b676da",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Giant Killer",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom5385c7e4-29ad-4a8b-a3a2-33a023e6387d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Horde Breaker",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": false,
+            "id": "b19dbffe-8f29-4c1a-ba9b-f1a6cdabc3e7",
+            "name": "Hunter's Prey",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 7
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Opportunity attacks against you are made with disadvantage",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom425647ad-64c8-4a12-81b0-eb11c1833a31",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Escape the Horde",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom0ddafb25-1f02-45df-a96b-644f2677b942",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Multiattack Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have advantage on saving throws against being frightened",
+                                "level": 7
+                            }
+                        ],
+                        "id": "Custom0a9a8b20-d225-4647-9e04-a319405269c4",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Steel Will",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 7
+                }
+            ],
+            "canReselect": false,
+            "id": "88c54aca-32ad-48b8-9dea-18f20fdb1bad",
+            "name": "Defensive Tactics",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 11
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target",
+                                "level": 11
+                            }
+                        ],
+                        "id": "Customa322fc31-db1b-44f6-bfef-095eb70580bb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Volley",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 11
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can use your action to make a melee attack against any number of creatures within 5 feet of you. Use a separate attack roll for each target",
+                                "level": 11
+                            }
+                        ],
+                        "id": "Custome472836e-c4be-43f2-84b6-10a206151498",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Whirlwind Attack",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 11
+                }
+            ],
+            "canReselect": false,
+            "id": "04e90ad6-b214-4af9-86d6-1b33fd8f04cb",
+            "name": "Multi-attack",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 15
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Custom5c721030-f7fc-48ed-ad1f-138f2efa46c6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Evasion",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Custom9c16e375-c73f-4817-a948-edd94d82d4fb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Stand Against the Tide",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you",
+                                "level": 15
+                            }
+                        ],
+                        "id": "Customf31cf190-36a9-4d82-ba66-3b051f347a79",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Uncanny Dodge",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 15
+                }
+            ],
+            "canReselect": false,
+            "id": "a6350e18-7bbc-4dc6-83ef-ec462a0bd549",
+            "name": "Superior Hunter's Defense",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

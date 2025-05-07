@@ -1,0 +1,262 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Rapier",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 1
+                }
+            ],
+            "id": "de9ad30b-0f76-4df7-984b-579564c43876"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Shortbow and Quiver of 20 arrows",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 1
+                }
+            ],
+            "id": "22910bce-99b3-4ac8-882e-a9cd44df45ae"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Burglar's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "b89b29e8-5753-4765-9857-ebf9c0d22e22"
+        },
+        {
+            "amountOfChoice": 3,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Dagger",
+                    "number": 2
+                },
+                {
+                    "description": "",
+                    "name": "Thieves' tools",
+                    "number": 1
+                }
+            ],
+            "id": "d0c666bc-913a-427e-aa62-ca4000269520"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 4,
+            "id": "8b55e44f-8ece-42d0-a97a-462193286583",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Acrobatics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Deception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Intimidation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Performance",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Persuasion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Stealth",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "rogue",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": true,
+    "multiclassWeapons": false,
+    "name": "Rogue",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": true,
+        "intelligence": true,
+        "str": false,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custome9308584-6684-4421-b09d-d1eb5f461121",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Steady Aim",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": false,
+            "id": "4e8e9d2f-07ee-42d0-9870-34bc5c141f41",
+            "name": "Rogue Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Thieves' tools"
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Crossbow, hand"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Longsword"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Rapier"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortsword"
+        }
+    ]
+}

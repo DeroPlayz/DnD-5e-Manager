@@ -1,9 +1,12 @@
 package com.example.dnd5emanager;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
+import androidx.annotation.OptIn;
 import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.media3.common.util.UnstableApi;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -11,20 +14,18 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.dnd5emanager.databinding.ActivityMainBinding;
 
-import android.view.Menu;
-import android.view.MenuItem;
-
 public class ActivityMain extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
+    @OptIn(markerClass = UnstableApi.class)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+//        setContentView(R.layout.activity_main);
 
         setSupportActionBar(binding.toolbar);
 

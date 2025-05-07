@@ -37,7 +37,7 @@ public class Settings extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.SettingsBack.setOnClickListener(v ->
-                NavHostFragment.findNavController(Settings.this).navigate(R.id.action_Settings_to_MainMenu));
+                NavHostFragment.findNavController(Settings.this).navigate(R.id.goToMainMenu));
 
     }
 

@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can use your Bonus Action to take the Dash, Disengage, or Hide action",
+            "level": 2
+        }
+    ],
+    "id": "Custom9365d4ac-4ab1-4b17-acff-296beeabe860",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Cunning Action",
+    "notes": "",
+    "type": "Feat"
+}

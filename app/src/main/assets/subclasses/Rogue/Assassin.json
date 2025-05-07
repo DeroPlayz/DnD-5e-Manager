@@ -1,0 +1,137 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with a disguise kit and the poisoner's kit",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom691e7af9-485a-45d2-8ac2-1271da895719",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Proficiencies",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit",
+                        "level": 3
+                    }
+                ],
+                "id": "Customb2a5fc65-4706-489c-9bf2-821fe1cfe719",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Assassinate",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certificates to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.\n\nThereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom5a371680-e8c0-46d9-bd71-5ad43940a0af",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Infiltration Expertise",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 9
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.\n\nYour ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection",
+                        "level": 13
+                    }
+                ],
+                "id": "Custom34e69af3-50a5-4463-9e73-379b410907c4",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Impostor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 13
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature",
+                        "level": 17
+                    }
+                ],
+                "id": "Custombad9b947-0ddc-414d-9f30-90ffd48a8b92",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Death Strike",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "rogue_assassin",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": false,
+    "multiclassSkills": false,
+    "multiclassTools": true,
+    "multiclassWeapons": false,
+    "name": "Assassin",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Disguise Kit"
+        },
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Poisoner's Kit"
+        }
+    ],
+    "weaponProficiencies": []
+}

@@ -1,0 +1,161 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The following spells are added to the warlock spell list for you.\n\n1st\t--> Shield, Wrathful Smite\n2nd --> Blur, Branding Smite\n3rd\t--> Blink, Elemental Weapon\n4th\t--> Phantasmal Killer, Staggering Smite\n5th\t--> Banishing Smite, Cone of Cold",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom59e790b9-c707-44d4-a285-87a3f169ef9e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hexblade Expanded Spell List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency with medium armor, shields, and martial weapons.\n\nAdditionally, whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom4a15533e-a393-46cb-836d-dbebd9a55194",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hex Warrior",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, choose one creature you can see within 30 feet of you. The curse ends early if the target dies, you die, or you are incapacitated. The target is cursed for 1 minute. Until the curse ends, you gain the following benefits:\n\n- You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.\n- Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.\n- If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier.\n\nYou can't use this feature again until you finish a short or long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom3fe9440d-ca04-4c43-a193-1982de154fa5",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hexblade's Curse",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0). The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife. Once you bind a specter with this feature, you can't use the feature again until you finish a long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Customf12bea17-ec18-4492-83a9-5610241f9632",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Accursed Specter",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll",
+                        "level": 10
+                    }
+                ],
+                "id": "Customda9ac364-4359-4c9b-ae48-ccd5f0d5ec05",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Armor of Hexes",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't incapacitated. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom506f6b50-f2ef-45e3-8489-42d03ee1dc88",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Master of Hexes",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "warlock_the_hexblade",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "The Hexblade",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

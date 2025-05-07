@@ -30,6 +30,109 @@
     <string name="EditCharacterNameDefaultText">Character Name</string>
     <string name="EditCharacterLevelDefaultText">1</string>
 
+    <string-array name="alignment">
+        <item> Lawful Good</item>
+        <item> Neutral Good</item>
+        <item> Chaotic Good</item>
+        <item> Lawful Neutral</item>
+        <item> True Neutral</item>
+        <item> Chaotic Neutral</item>
+        <item> Lawful Evil</item>
+        <item> Neutral Evil</item>
+        <item> Chaotic Evil</item>
+    </string-array>
+
+    <string-array name="backgrounds">
+        <item>Acolyte</item>
+        <item>Anthropologist</item>
+        <item>Athlete [MOT]</item>
+        <item>Augen Trust (spy) [MOT}</item>
+        <item>Azorius Functionary [GGR]</item>
+        <item>Black Fist Double Agents</item>
+        <item>Boros Legionnaire [GGR}</item>
+        <item>Caravan Specialist</item>
+        <item>Charlatan</item>
+        <item>City Watch</item>
+        <item>Clan Crafter</item>
+        <item>Cloistered Scholars</item>
+        <item>Cormanthor Refugee</item>
+        <item>Courtier</item>
+        <item>Criminal</item>
+        <item>Dimir Operative [GGR}</item>
+        <item>Dissenter</item>
+        <item>Dragon Casualty</item>
+        <item>Earthspur Miner</item>
+        <item>Entertainer</item>
+        <item>Faceless</item>
+        <item>Facion Agent</item>
+        <item>Far Traveler</item>
+        <item>Feylost [WBTW]</item>
+        <item>Fisher</item>
+        <item>Folk Hero</item>
+        <item>Gate Urchin</item>
+        <item>Gate Warden [SatO]</item>
+        <item>Giant Foundling [BGG]</item>
+        <item>Gladiator</item>
+        <item>Golgari Agent [GGR]</item>
+        <item>Grinner [EGW]</item>
+        <item>Gruul Anarch [GGR]</item>
+        <item>Guild Artisan</item>
+        <item>Harborfolk</item>
+        <item>Haunted One</item>
+        <item>Haunted One [VRGR]</item>
+        <item>Hermit</item>
+        <item>Hillsfar Merchant</item>
+        <item>Hillsfar Smuggler</item>
+        <item>House Agent</item>
+        <item>inheritor</item>
+        <item>Inquisitor</item>
+        <item>Investigator</item>
+        <item>Investigator [VRGR]</item>
+        <item>Iron Route Bandit</item>
+        <item>izzet Engineer [GRR]</item>
+        <item>Knight</item>
+        <item>Knight of Solamnia [DSDQ]</item>
+        <item>Marine</item>
+        <item>Mercenary Veteran </item>
+        <item>Merchant</item>
+        <item>Mulmaster Aristocat</item>
+        <item>Noble</item>
+        <item>Orzhov Representstive [GGR]</item>
+        <item>Outlander</item>
+        <item>Phlan Refugee</item>
+        <item>Pirate</item>
+        <item>Planar Philosopher [SatO]</item>
+        <item>Prismari Student</item>
+        <item>Quandrix Student [SCC]</item>
+        <item>Rakdos Cultist</item>
+        <item>Rewarded [BWT]</item>
+        <item>Ruined [BMT]</item>
+        <item>Rune Carver [BGG]</item>
+        <item>Sage</item>
+        <item>Sailor</item>
+        <item>Secret Identity </item>
+        <item>Selesnya Initiate [GGR]</item>
+        <item>Shade Fanatic</item>
+        <item>Shipwright</item>
+        <item>Silverquill Student [SCC]</item>
+        <item>Simic Scientist [GGR]</item>
+        <item>Smuggler</item>
+        <item>Soldier</item>
+        <item>Spy</item>
+        <item>Stojanow Prisoner</item>
+        <item>Ticklebelly Nomad</item>
+        <item> Trade Sheriff</item>
+        <item>Urban Bounty Hunter </item>
+        <item>Urchin</item>
+        <item>Uthgardt Tribe Member</item>
+        <item>Vizier</item>
+        <item>Volstrucker Agent [EGW]</item>
+        <item>Waterhavian Noble</item>
+        <item>Witchlight Hand [WBtW]</item>
+        <item>Witherbloom Student [SCC]</item>
+    </string-array>
+
+<!--    To be sorted at a later date. -->
     <string-array name="Races">
         <item>Aarakocra</item>
         <item>Aasimar</item>
@@ -84,164 +187,164 @@
         <item>Yuan-Ti Pureblood</item>
     </string-array>
 
-        <string-array name="AasimarSubraces">
-            <item>Protector Aasimar</item>
-            <item>Scourge Aasimar</item>
-            <item>Fallen Aasimar</item>
-        </string-array>
+    <string-array name="AasimarSubraces">
+        <item>Protector Aasimar</item>
+        <item>Scourge Aasimar</item>
+        <item>Fallen Aasimar</item>
+    </string-array>
 
-        <string-array name="CatfolkSubraces">
-            <item>Ordinary-Breed Catfolk</item>
-            <item>Large-Breed Catfolk</item>
-            <item>Mystic-Breed Catfolk</item>
-        </string-array>
+    <string-array name="CatfolkSubraces">
+        <item>Ordinary-Breed Catfolk</item>
+        <item>Large-Breed Catfolk</item>
+        <item>Mystic-Breed Catfolk</item>
+    </string-array>
 
-        <string-array name="DragonbornSubraces">
-            <item>Black</item>
-            <item>Blue</item>
-            <item>Brass</item>
-            <item>Bronze</item>
-            <item>Copper</item>
-            <item>Gold</item>
-            <item>Green</item>
-            <item>Red</item>
-            <item>Silver</item>
-            <item>White</item>
-        </string-array>
+    <string-array name="DragonbornSubraces">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brass</item>
+        <item>Bronze</item>
+        <item>Copper</item>
+        <item>Gold</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Silver</item>
+        <item>White</item>
+    </string-array>
 
-        <string-array name="DwarfSubraces">
-            <item>Hill Dwarf</item>
-            <item>Mountain Dwarf</item>
-            <item>House Kundarak</item>
-            <item>Duergar</item>
-            <item>Mark of Warding Dwarf</item>
-        </string-array>
+    <string-array name="DwarfSubraces">
+        <item>Hill Dwarf</item>
+        <item>Mountain Dwarf</item>
+        <item>House Kundarak</item>
+        <item>Duergar</item>
+        <item>Mark of Warding Dwarf</item>
+    </string-array>
 
-        <string-array name="ElfSubraces">
-            <item>High Elf</item>
-            <item>Wood Elf</item>
-            <item>Eladrin (Variant)</item>
-            <item>Sea Elf</item>
-            <item>Shadar-Kai</item>
-            <item>The House of Shadows</item>
-            <item>Aerenal High Elf</item>
-            <item>Aerenal Wood Elf</item>
-            <item>Valenar High Elf</item>
-            <item>Valenar Wood Elf</item>
-            <item>Dark Elf (Drow)</item>
-            <item>Palid Elf</item>
-        </string-array>
+    <string-array name="ElfSubraces">
+        <item>High Elf</item>
+        <item>Wood Elf</item>
+        <item>Eladrin (Variant)</item>
+        <item>Sea Elf</item>
+        <item>Shadar-Kai</item>
+        <item>The House of Shadows</item>
+        <item>Aerenal High Elf</item>
+        <item>Aerenal Wood Elf</item>
+        <item>Valenar High Elf</item>
+        <item>Valenar Wood Elf</item>
+        <item>Dark Elf (Drow)</item>
+        <item>Palid Elf</item>
+    </string-array>
 
-        <string-array name="GenasiSubraces">
-            <item>Air Genasi</item>
-            <item>Earth Genasi</item>
-            <item>Fire Genasi</item>
-            <item>Water Genasi</item>
-        </string-array>
+    <string-array name="GenasiSubraces">
+        <item>Air Genasi</item>
+        <item>Earth Genasi</item>
+        <item>Fire Genasi</item>
+        <item>Water Genasi</item>
+    </string-array>
 
-        <string-array name="GithSubraces">
-            <item>Githyanki</item>
-            <item>Githzerai</item>
-        </string-array>
+    <string-array name="GithSubraces">
+        <item>Githyanki</item>
+        <item>Githzerai</item>
+    </string-array>
 
-        <string-array name="GnomeSubraces">
-            <item>Forest Gnome</item>
-            <item>Rock Gnome</item>
-            <item>Deep Gnome (Svirfneblin)</item>
-            <item>Mark of Scribing Gnome</item>
-        </string-array>
+    <string-array name="GnomeSubraces">
+        <item>Forest Gnome</item>
+        <item>Rock Gnome</item>
+        <item>Deep Gnome (Svirfneblin)</item>
+        <item>Mark of Scribing Gnome</item>
+    </string-array>
 
-        <string-array name="GoliathSubraces">
-            <item>Common</item>
-            <item>Grotag</item>
-            <item>Ixalan</item>
-            <item>Lavastep</item>
-            <item>TukTuk</item>
-            <item>Greenskin</item>
-            <item>Boggart</item>
-            <item>Gremlin</item>
-        </string-array>
+    <string-array name="GoliathSubraces">
+        <item>Common</item>
+        <item>Grotag</item>
+        <item>Ixalan</item>
+        <item>Lavastep</item>
+        <item>TukTuk</item>
+        <item>Greenskin</item>
+        <item>Boggart</item>
+        <item>Gremlin</item>
+    </string-array>
 
-        <string-array name="HalfHagSubraces">
-            <item>Green Hag</item>
-            <item>Night Hag</item>
-            <item>Sea Hag</item>
-        </string-array>
+    <string-array name="HalfHagSubraces">
+        <item>Green Hag</item>
+        <item>Night Hag</item>
+        <item>Sea Hag</item>
+    </string-array>
 
-        <string-array name="HalflingSubraces">
-            <item>Ghostwise Halfling</item>
-            <item>Lightfoot Halfling</item>
-            <item>Stout Halfling</item>
-            <item>Mark of Healing Halfling</item>
-            <item>Mark of Hospitality Halfling</item>
-            <item>Lotusden Halfling</item>
-        </string-array>
+    <string-array name="HalflingSubraces">
+        <item>Ghostwise Halfling</item>
+        <item>Lightfoot Halfling</item>
+        <item>Stout Halfling</item>
+        <item>Mark of Healing Halfling</item>
+        <item>Mark of Hospitality Halfling</item>
+        <item>Lotusden Halfling</item>
+    </string-array>
 
-        <string-array name="LoxodonSubraces">
-            <item>Ravnica Loxodon</item>
-            <item>Mirrodin Loxodon</item>
-            <item>Tarkir Loxodon</item>
-            <item>Sea Elf</item>
-            <item>Shadar-Kai</item>
-            <item>The House of Shadows</item>
-            <item>Aerenal High Elf</item>
-            <item>Aerenal Wood Elf</item>
-            <item>Valenar High Elf</item>
-            <item>Valenar Wood Elf</item>
-            <item>Dark Elf (Drow)</item>
-            <item>Palid Elf</item>
-        </string-array>
+    <string-array name="LoxodonSubraces">
+        <item>Ravnica Loxodon</item>
+        <item>Mirrodin Loxodon</item>
+        <item>Tarkir Loxodon</item>
+        <item>Sea Elf</item>
+        <item>Shadar-Kai</item>
+        <item>The House of Shadows</item>
+        <item>Aerenal High Elf</item>
+        <item>Aerenal Wood Elf</item>
+        <item>Valenar High Elf</item>
+        <item>Valenar Wood Elf</item>
+        <item>Dark Elf (Drow)</item>
+        <item>Palid Elf</item>
+    </string-array>
 
-        <string-array name="OrcSubraces">
-            <item>Normal Orc</item>
-            <item>Common Orc</item>
-            <item>Mountain Orc</item>
-            <item>Orog</item>
-            <item>Water Orc</item>
-        </string-array>
+    <string-array name="OrcSubraces">
+        <item>Normal Orc</item>
+        <item>Common Orc</item>
+        <item>Mountain Orc</item>
+        <item>Orog</item>
+        <item>Water Orc</item>
+    </string-array>
 
-        <string-array name="ShifterSubraces">
-            <item>Beasthide</item>
-            <item>Longtooth</item>
-            <item>Swiftstride</item>
-            <item>Wildhunt</item>
-        </string-array>
+    <string-array name="ShifterSubraces">
+        <item>Beasthide</item>
+        <item>Longtooth</item>
+        <item>Swiftstride</item>
+        <item>Wildhunt</item>
+    </string-array>
 
-        <string-array name="TieflingSubraces">
-            <item>Infernal</item>
-            <item>Abyssal</item>
-            <item>Baalzebul</item>
-            <item>Dispater</item>
-            <item>Fierna</item>
-            <item>Glasya</item>
-            <item>Levistus</item>
-            <item>Mammon</item>
-            <item>Mephistopheles</item>
-            <item>Zariel</item>
-        </string-array>
+    <string-array name="TieflingSubraces">
+        <item>Infernal</item>
+        <item>Abyssal</item>
+        <item>Baalzebul</item>
+        <item>Dispater</item>
+        <item>Fierna</item>
+        <item>Glasya</item>
+        <item>Levistus</item>
+        <item>Mammon</item>
+        <item>Mephistopheles</item>
+        <item>Zariel</item>
+    </string-array>
 
-        <string-array name="TortleSubraces">
-            <item>True Tortle</item>
-            <item>Razorback Tortle</item>
-            <item>Softshell Tortle</item>
-            <item>Desert Tortle</item>
-        </string-array>
+    <string-array name="TortleSubraces">
+        <item>True Tortle</item>
+        <item>Razorback Tortle</item>
+        <item>Softshell Tortle</item>
+        <item>Desert Tortle</item>
+    </string-array>
 
-        <string-array name="VampireSubraces">
-            <item>Zendikar</item>
-            <item>Ixalan</item>
-        </string-array>
+    <string-array name="VampireSubraces">
+        <item>Zendikar</item>
+        <item>Ixalan</item>
+    </string-array>
 
-        <string-array name="VedalkenSubraces">
-            <item>Kaladesh Vedalken</item>
-            <item>Ravnica Vedalken</item>
-        </string-array>
+    <string-array name="VedalkenSubraces">
+        <item>Kaladesh Vedalken</item>
+        <item>Ravnica Vedalken</item>
+    </string-array>
 
-        <string-array name="WarforgedSubraces">
-            <item>Envoy</item>
-            <item>Juggernaut</item>
-            <item>Skirmisher</item>
-        </string-array>
+    <string-array name="WarforgedSubraces">
+        <item>Envoy</item>
+        <item>Juggernaut</item>
+        <item>Skirmisher</item>
+    </string-array>
 
     <string-array name="Classes">
         <item>Artificer</item>

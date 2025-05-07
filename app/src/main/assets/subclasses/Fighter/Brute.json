@@ -1,0 +1,315 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you hit with a weapon that you're proficient with and deal damage, the weapon's damage increases by 1d4",
+                        "level": 3
+                    },
+                    {
+                        "description": "Whenever you hit with a weapon that you're proficient with and deal damage, the weapon's damage increases by 1d6",
+                        "level": 10
+                    },
+                    {
+                        "description": "Whenever you hit with a weapon that you're proficient with and deal damage, the weapon's damage increases by 1d8",
+                        "level": 16
+                    },
+                    {
+                        "description": "Whenever you hit with a weapon that you're proficient with and deal damage, the weapon's damage increases by 1d10",
+                        "level": 20
+                    }
+                ],
+                "id": "Custom611f73a9-fcfc-4d49-93dd-2bb0b8df06d7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Brute Force",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Whenever you make a saving throw, roll 1d6 and add the die to your saving throw total. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom405c0fbf-7753-4329-8f4d-7b33d6c8c418",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Brutish Durability",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You can choose a second option from the Fighting Style feature",
+                        "level": 10
+                    }
+                ],
+                "id": "Custom169321af-f553-4757-b089-7fdbb20cd111",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Additional Fighting Style",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you score a critical hit with a weapon attack, you gain a bonus to that weapon's damage roll equal to your level in this class",
+                        "level": 15
+                    }
+                ],
+                "id": "Custome2e4df2b-9026-44e3-99d7-fee56519b56a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Devastating Critical",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "At the start of each of your turns in combat, you regain hit points equal to 5 + your Constitution modifier (minimum of 1 hit point). You don't gain this benefit if you have 0 hit points or if you have more than half of your hit points left",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom7a334770-5983-4e86-8b1b-9900bc851927",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Survivor",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "fighter_brute",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Brute",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 10
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom8808a93c-1e6d-4a02-ba20-8f8a9f1383bc",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "While you are wearing armor, you gain a +1 bonus to AC",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customfa2a0977-2fb7-42a1-b554-9a55bb1388eb",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom8875d140-b0f2-46ba-8fe2-897603efadae",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dueling",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom19281b6d-3aeb-4657-97dc-dd36d2f2b00e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Great Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom1f90cee0-37f0-4781-9a64-0c762deeb71e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Protection",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom9cefba79-f725-462c-ac16-c2321adedab9",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Two-Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customee6dabd5-46da-4c2b-ac66-e21e8971ec36",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Mariner",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are trained in making ranged attack at close quarters. When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom26611c38-020b-44eb-8ff9-03de56b6073a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Close Quarters Shooter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You excel at defending narrow passages, doorways, and other tight spaces. As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom69d3f2a0-3b58-4eb6-abad-ea8b1a2a6264",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Tunnel Fighter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "482d1370-a61f-4273-a892-bb532af44c60",
+            "name": "Additional Fighting Style",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Intelligence",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

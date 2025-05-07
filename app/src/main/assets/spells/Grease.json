@@ -1,0 +1,5 @@
+{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","fighter","rogue","wizard"],
+"components": {"material": true,"materials_needed": ["a bit of pork rind or butter"],
+"raw": "V, S, M (a bit of pork rind or butter)","somatic": true,"verbal": true},
+"description": "Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.\n\nWhen the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.","duration": "1 minute","level": "1","name": "Grease","range": "60 feet","ritual": false,"school": "conjuration","tags": ["artificer__eb_","artificer__revised_","fighter","rogue","wizard","level1"],
+"type": "1st-level conjuration"}

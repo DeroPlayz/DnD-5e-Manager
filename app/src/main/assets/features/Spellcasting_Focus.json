@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can use a musical instrument as a spellcasting focus for your Bard Spells",
+            "level": 1
+        }
+    ],
+    "id": "Custome3157456-6aca-4471-8fed-18ee4a748ebd",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Spellcasting Focus",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You delve into the advanced techniques of The Bard college of your choice: the College of Lore, of Valor, of Glamour, of Swords or of Whispers",
+            "level": 3
+        }
+    ],
+    "id": "Custom14db36d0-2346-4c4f-8447-a442f8309234",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Bard College",
+    "notes": "",
+    "type": "Feat"
+}

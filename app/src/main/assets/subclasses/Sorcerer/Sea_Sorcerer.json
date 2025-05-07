@@ -1,0 +1,126 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the ability to to breathe underwater, and you have a swim speed equal to your walking speed",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom8058f213-5d18-445d-932e-c2f33d76f69a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Soul of the Sea",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you hit a creature with a cantrip's attack or when a creature fails a saving throw against your cantrip, you can curse the target until the end of your next turn or until you curse a different creature.\n\nOnce per turn when you cast a spell, you can trigger the curse if that spell deals cold or lightning damage to the cursed target or forces it to move. Doing so subjects the target to the appropriate additional effect below, and then the curse ends if the spell isn't a cantrip (you choose the effect to use if more than one effect applies):\n\n- Cold Damage: If the affected target takes cold damage from your spell, the target's speed is also reduced by 15 feet until the end of your next turn. If the spell already reduces the target's speed, use whichever reduction is greater.\n\n- Lightning Damage: If the affected target takes lightning damage from your spell, the target takes additional lightning damage equal to your Charisma modifier.\n\n- Forced Movement: If the target is moved by your spell, increase the distance it is moved by 15 feet",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom1215776b-2301-4b36-a58a-b04dc0c94d7c",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Curse of the Sea",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain resistance to fire damage. You also gain the ability to defend yourself by momentarily assuming a watery form. When you are hit by an attack that causes you to take bludgeoning, piercing, or slashing damage, you can use your reaction to reduce that damage by an amount equal to your sorcerer level plus your Charisma score, and then you can move up to 30 feet without provoking opportunity attacks. Once you use this special feature, you can't use it again until you finish a short or long rest",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom7eeb22f9-a45c-46a0-b348-8b4622aec589",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Watery Defense",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you move on your turn, you take only half damage from opportunity attacks, and you can move through any enemy's space but can't willingly end your move there.\n\nOn your turn, you can move through any space that is at least 3 inches in diameter and do so without squeezing. When you stop moving, the regular squeezing rules apply if you're in a space one size smaller than you. You can't willingly stop in a space smaller than that, and if you're forced to do so, you immediately flow to the nearest space that can fit you, back along the path of your movement",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom114b6a5f-5691-4469-a009-2731d8c4aaf7",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Shifting Form",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain the following benefits:\n\n- You no longer need to eat, drink, or sleep.\n- A critical hit against you becomes a normal hit.\n- You have resistance to bludgeoning, piercing, and slashing damage",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom8db853ff-aa4b-4478-9c6f-4f4cbfdd962a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Water Soul",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "sorcerer_sea_sorcerer",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Sea Sorcerer",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

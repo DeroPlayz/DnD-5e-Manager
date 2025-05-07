@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You choose an archetype that you strive to emulate in your combat styles and techniques. It grants you a feature a 3rd level, and again at 7th, 10th, 15th, and 18th level",
+            "level": 3
+        }
+    ],
+    "id": "Customa566f2ed-c54b-4a00-8d5f-f352f4dc8b3b",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Martial Archetype",
+    "notes": "",
+    "type": "Feat"
+}

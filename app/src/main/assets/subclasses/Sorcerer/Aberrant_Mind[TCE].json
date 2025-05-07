@@ -1,0 +1,381 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer Level --> Spells\n1st --> arms of Hadar, dissonant whispers",
+                        "level": 1
+                    },
+                    {
+                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer Level --> Spells\n1st --> arms of Hadar, dissonant whispers\n3rd --> calm emotions, detect thoughts",
+                        "level": 3
+                    },
+                    {
+                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer Level --> Spells\n1st --> arms of Hadar, dissonant whispers\n3rd --> calm emotions, detect thoughts\n5th --> hunger of Hadar, sending",
+                        "level": 5
+                    },
+                    {
+                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer Level --> Spells\n1st --> arms of Hadar, dissonant whispers\n3rd --> calm emotions, detect thoughts\n5th --> hunger of Hadar, sending\n7th --> Evard's black tentacles, summon aberration",
+                        "level": 7
+                    },
+                    {
+                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a divination or an enchantment spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer Level --> Spells\n1st --> arms of Hadar, dissonant whispers\n3rd --> calm emotions, detect thoughts\n5th --> hunger of Hadar, sending\n7th --> Evard's black tentacles, summon aberration\n9th --> Rary's telepathic bond, telekinesis",
+                        "level": 9
+                    }
+                ],
+                "id": "Custom1dacd9a7-ac20-4e42-849b-c887b0adc6ca",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, choose one creature you can see within 30 feet of you. You and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must speak mentally in a language the other knows.\n\nThe telepathic connection lasts for a number of minutes equal to your sorcerer level. It ends early if you are incapacitated or die or if you use this ability to form a connection with a different creature",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom282267aa-2df7-40c6-9717-cf913724fa0d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Telepathic Speech",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast any spell of 1st level or higher from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell's level.\n\nIf you cast the spell using sorcery points, it requires no verbal or somatic components, and it requires no material components, unless they are consumed by the spell",
+                        "level": 6
+                    }
+                ],
+                "id": "Custom4d9edd87-2434-483c-945c-d8efc21f3482",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psionic Sorcery",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain resistance to psychic damage, and you have advantage on saving throws against being charmed or frightened",
+                        "level": 6
+                    }
+                ],
+                "id": "Customfbde6e17-b782-4e27-9ef8-79b524ce8b03",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Psychic Defenses",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 10 minutes. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends:\n\n- You can see any invisible creature within 60 feet of you, provided it isn't behind total cover. Your eyes also turn black or become writhing sensory tendrils.\n\n- You gain a flying speed equal to your walking speed, and you can hover. As you fly, your skin glistens with mucus or shines with an otherworldly light.\n\n- You gain a swimming speed equal to twice your walking speed, and you can breathe underwater. Moreover, gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow writhing cilia that extend through your clothing.\n\n- Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled",
+                        "level": 14
+                    }
+                ],
+                "id": "Customfb65d5bb-a09a-47d9-be6f-7eaefad1d2a0",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Revelations in Flesh",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As an action, you can teleport to an unoccupied space you can see within 120 feet of you. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw. On a failed save, a creature takes 3d10 force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage and isn't pulled.\n\nOnce you use this feature, you can't do so again until you finish a long rest, unless you spend 5 sorcery points to use it again",
+                        "level": 18
+                    }
+                ],
+                "id": "Custom25c8f053-7a97-4aff-a767-e7193cb2e6ea",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Warping Implosion",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 18
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "sorcerer_aberrant_mind_[tce]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Aberrant Mind [TCE]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "warlock, blood_hunter",
+                "components": "V, S",
+                "description": "Tendrils batter all creatures within 10 feet of you. They must make a Strength save. On a fail, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a success, it takes half damage and suffers no other effects",
+                "duration": "Instantaneous",
+                "higherLevels": "The damage increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Arms of Hadar",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Self (10 feet radius)",
+                "school": "conjuration",
+                "type": "1st-level conjuration"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard",
+                "components": "V",
+                "description": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
+                "duration": "Instantaneous",
+                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 1,
+                "name": "Dissonant Whispers",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "enchantment",
+                "type": "1st-level enchantment"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric",
+                "components": "V, S",
+                "description": "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\nAlternatively, you can make a target indifferent about creatures o f your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Calm Emotions",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "Enchantment",
+                "type": "2nd-level Enchantment"
+            }
+        },
+        {
+            "level": 3,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, sorcerer, fighter, rogue, wizard",
+                "components": "V, S, M (a copper piece)",
+                "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 2,
+                "name": "Detect Thoughts",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "self",
+                "school": "divination",
+                "type": "2nd-Level divination"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "warlock, blood_hunter",
+                "components": "V S M (Pickled octopus tentacle)",
+                "description": "A 20-foot-radius void appears. It's filled with whispers and slurping that can be heard up to 30 feet away. No light can illuminate the area, and creatures fully in it are blinded. The void's area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn there must pass a Dexterity save or take 2d6 acid damage.",
+                "duration": "Concentration. Up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Hunger of Hadar",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "150 feet",
+                "school": "conjuration",
+                "type": "3rd-level conjuration"
+            }
+        },
+        {
+            "level": 5,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "bard, cleric, fighter, rogue, wizard",
+                "components": "V, S, M (a short piece of fine copper wire)",
+                "description": "You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.\n\nYou can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn\u2019t arrive.",
+                "duration": "1 round",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 3,
+                "name": "Sending",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Unlimited",
+                "school": "evocation",
+                "type": "3rd-level evocation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (Tentacle of giant octopus/squid)",
+                "description": "For the duration, tentacles fill a 20-foot square on the ground that you can see and turn it into difficult terrain.\n\nWhen a creature enters the area for the first time or starts its turn there, it must pass a Dexterity save or take 3d6 bludgeoning damage and be restrained until the spell ends. If it's already restrained by the tentacles, it takes 3d6 bludgeoning damage.\n\nThe restrained creature can use its action to make a Strength or Dexterity check of its choice. On a success, it's freed.",
+                "duration": "Concentration, up to 1 minute",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Evard's Black Tentacles",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "conjuration",
+                "type": "4th-level conjuration"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "fighter, rogue, wizard",
+                "components": "V, S, M (pieces of eggshell from two different kinds of creatures)",
+                "description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren\u2019t affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can\u2019t extend to other planes of existence",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": true,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Rary's Telepathic Bond",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "30 feet",
+                "school": "divination",
+                "type": "5th-level divination (ritual)"
+            }
+        },
+        {
+            "level": 9,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "sorcerer, fighter, rogue, wizard",
+                "components": "V, S",
+                "description": "You gain the ability to move or manipulate Creatures or Objects by thought. When you cast the spell, and as your Action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate Effect below. You can affect the same target round after round, or choose a new one at any time. If you switch Targets, the prior target is no longer affected by the spell.\n\nCreature: You can try to move a Huge or smaller creature. Make an ability check with your Spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your Telekinetic grip. A creature lifted upward is suspended in mid-air.\n\nOn subsequent rounds, you can use your Action to attempt to maintain your Telekinetic grip on the creature by repeating the contest.\n\nObject: You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.\n\nIf the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.\n\nYou can exert fine control on Objects with your Telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the Contents from a vial",
+                "duration": "Concentration, up to 10 minutes",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 5,
+                "name": "Telekinesis",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "transmutation",
+                "type": "5th-level transmutation"
+            }
+        },
+        {
+            "level": 7,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "warlock, sorcerer, wizard, blood_hunter__egw_, blood_hunter",
+                "components": "V, S, M (a pickled tentacle and an eyeball in a platinum-inlaid vial worth at least 400 gp)",
+                "description": "You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Aberrant Spirit stat block. When you cast the spell, choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
+                "duration": "Concentration, up to 1 hour",
+                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 4,
+                "name": "Summon Aberration",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "90 feet",
+                "school": "conjuration",
+                "type": "4th-level conjuration"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

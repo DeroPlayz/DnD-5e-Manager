@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest",
+            "level": 5
+        }
+    ],
+    "id": "Customb0a2b50f-dfe1-4148-98cd-0197332c8abb",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Font of Inspiration",
+    "notes": "",
+    "type": "Feat"
+}

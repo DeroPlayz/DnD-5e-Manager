@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can take the dash action as a bonus action. ",
+            "level": 8
+        }
+    ],
+    "id": "Customfcdcc870-9c66-4681-ba17-7d2c863773c6",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Fleet of Foot",
+    "notes": "",
+    "type": "Feat"
+}

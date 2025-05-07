@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can attune to up to six magic items at once.",
+            "level": 18
+        }
+    ],
+    "id": "Custom5e6f3d63-674a-4044-9c41-5e4c53abaac0",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Magic Item Master",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,0 +1,367 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [],
+    "attacksByLevel": [
+        {
+            "amount": 2,
+            "level": 5
+        },
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any simple weapon",
+                    "number": 1
+                }
+            ],
+            "id": "47579d30-0c90-4563-8017-747dfa8bfb19"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "9c9b9951-2ea2-4a5c-b193-64a95a36c528"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "ammunitionTypeName": "Bolt",
+                    "description": "",
+                    "name": "Dart",
+                    "number": 10
+                }
+            ],
+            "id": "14ea1135-7d40-429e-9a34-c6df4b9ef185"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "6b99243f-6510-40d8-89fe-4b3916fa91c3",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Acrobatics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Stealth",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "ZERO",
+    "features": [],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "monk",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Monk",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": true,
+        "intelligence": false,
+        "str": true,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 2
+                },
+                {
+                    "amount": 2,
+                    "level": 3
+                },
+                {
+                    "amount": 3,
+                    "level": 4
+                },
+                {
+                    "amount": 4,
+                    "level": 5
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.\n\nThe chosen weapon must meet these criteria:\n\n- The weapon must be a simple or martial weapon.\n- You must be proficient with it.\n- It must lack the heavy and special properties",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom47d5d976-e7ef-46f9-a793-acee8d6e1cf6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dedicated Weapon",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom4a06c8e2-9037-44d1-9857-a290a393768f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Ki-Fueled Attack",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custom186d177f-0aaf-48fe-b7c0-fa0a24c6302e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Quickened Healing",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these ki points you spend, potentially turning the miss into a hit",
+                                "level": 5
+                            }
+                        ],
+                        "id": "Custom0e448467-cff9-4030-8b48-ab3521dadbf1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Focused Aim",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 5
+                }
+            ],
+            "canReselect": false,
+            "id": "655974bf-fce0-4e4f-9f8c-7934fd377a32",
+            "name": "Monk Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 2
+                },
+                {
+                    "amount": 3,
+                    "level": 3
+                },
+                {
+                    "amount": 4,
+                    "level": 4
+                },
+                {
+                    "amount": 5,
+                    "level": 5
+                },
+                {
+                    "amount": 6,
+                    "level": 6
+                },
+                {
+                    "amount": 7,
+                    "level": 7
+                },
+                {
+                    "amount": 8,
+                    "level": 8
+                },
+                {
+                    "amount": 9,
+                    "level": 9
+                },
+                {
+                    "amount": 10,
+                    "level": 10
+                },
+                {
+                    "amount": 11,
+                    "level": 11
+                },
+                {
+                    "amount": 12,
+                    "level": 12
+                },
+                {
+                    "amount": 13,
+                    "level": 13
+                },
+                {
+                    "amount": 14,
+                    "level": 14
+                },
+                {
+                    "amount": 15,
+                    "level": 15
+                },
+                {
+                    "amount": 16,
+                    "level": 16
+                },
+                {
+                    "amount": 17,
+                    "level": 17
+                },
+                {
+                    "amount": 18,
+                    "level": 18
+                },
+                {
+                    "amount": 19,
+                    "level": 19
+                },
+                {
+                    "amount": 20,
+                    "level": 20
+                }
+            ],
+            "associatedValueName": "",
+            "id": "193e5024-1aaa-4bb5-8c45-88417bb322a8",
+            "name": "Ki Points",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [
+        {
+            "level": 18,
+            "spellModel": {
+                "castingTime": "1 hour",
+                "classes": "cleric, warlock, blood_hunter, fighter, rogue, wizard",
+                "components": "V, S, M (for each creature you affect with this spell you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100gp, all of which the spell consumes)",
+                "description": "You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation; it doesn't need food or air and doesn't age.\n\nYour astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut--something that can happen only when an effect specifically states that it does--your soul and body are separated, killing you instantly.\n\nYour astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.\n\nThe spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.\n\nThe spell might also end early for you or one of your companions. A successful _dispel magic_ spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.\n\nIf you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.",
+                "duration": "Special",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 9,
+                "name": "Astral Projection",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "10 feet",
+                "school": "necromancy",
+                "type": "9th-level necromancy"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1 Artisan's or Musical"
+        }
+    ],
+    "unarmoredDefense": "Wisdom",
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shortsword"
+        }
+    ]
+}

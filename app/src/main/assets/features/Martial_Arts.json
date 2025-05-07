@@ -1,0 +1,27 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n- You can use Dexterity instead of Strength for the attacks and damage rolls of your unarmed strikes and monk weapons.\n\n- You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon\n\n- When you use the Attack action with an unarmed strike or a monk weapon, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\nMonk weapons are shortswords and simple melee weapons that don't have the heavy or two-handed property",
+            "level": 1
+        },
+        {
+            "description": "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n- You can use Dexterity instead of Strength for the attacks and damage rolls of your unarmed strikes and monk weapons.\n\n- You can roll a d6 in place of the normal damage of your unarmed strike or monk weapon\n\n- When you use the Attack action with an unarmed strike or a monk weapon, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\nMonk weapons are shortswords and simple melee weapons that don't have the heavy or two-handed property",
+            "level": 5
+        },
+        {
+            "description": "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n- You can use Dexterity instead of Strength for the attacks and damage rolls of your unarmed strikes and monk weapons.\n\n- You can roll a d8 in place of the normal damage of your unarmed strike or monk weapon\n\n- When you use the Attack action with an unarmed strike or a monk weapon, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\nMonk weapons are shortswords and simple melee weapons that don't have the heavy or two-handed property",
+            "level": 11
+        },
+        {
+            "description": "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n- You can use Dexterity instead of Strength for the attacks and damage rolls of your unarmed strikes and monk weapons.\n\n- You can roll a d10 in place of the normal damage of your unarmed strike or monk weapon\n\n- When you use the Attack action with an unarmed strike or a monk weapon, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\nMonk weapons are shortswords and simple melee weapons that don't have the heavy or two-handed property",
+            "level": 17
+        }
+    ],
+    "id": "Custom8b18cb72-c2d7-4d50-aa09-107804c95caf",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Martial Arts",
+    "notes": "",
+    "type": "Feat"
+}

@@ -1,0 +1,141 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower. Add your proficiency bonus to the beast\u00e2\u20ac\u2122s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.\n\nThe beast obeys your commands as best as it can. It takes its turn on your initiative, though it doesn\u00e2\u20ac\u2122t take an action unless you command it to. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, Dodge, or Help action. Once you have the Extra Attack feature, you can make one attack yourself and you can command the beast to take an Attack action.\n\nWhile traveling through your favored terrain with only the beast, you can move stealthily at a normal pace. If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn\u00e2\u20ac\u2122t hostile to you, either the same type of beast as before or a different one.\n\nLike any creature, the beast can spend Hit Dice during a short rest. If you are incapacitated or absent, the beast acts on its own, focusing on protecting you and itself. It never requires your command to use its reaction, such as when making an opportunity attack. If you don't issue a command, the beast takes the Dodge action",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom459382b9-e26a-41ae-98c5-099ad2c3450d",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Ranger's Companion",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, or Help action on its turn. In addition, the beast's attacks are now considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage",
+                        "level": 7
+                    }
+                ],
+                "id": "Custom4b0b079c-28f2-4cd8-a50e-494422552721",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Exceptional Training",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 7
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multi-attack action if it has that action",
+                        "level": 11
+                    }
+                ],
+                "id": "Custome2813d4b-3653-4303-95c8-49f9f613eb6b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bestial Fury",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you",
+                        "level": 15
+                    }
+                ],
+                "id": "Customb944d109-9afd-4d2c-ac44-d1a95c5664f3",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Share Spells",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 15
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "ranger_beast_master",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Beast Master",
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 3
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Note: This feature replaces the Ranger's Companion feature.\n\nYou magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block -Beast of the Land, Beast of the Sea, or Beast of the Sky- which uses your proficiency bonus in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.\n\nIn combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.\n\nIf the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.\n\nWhen you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.",
+                                "level": 3
+                            }
+                        ],
+                        "id": "Custom278cc037-236e-4796-934e-6ca720d3f1b6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Primal Companion",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 3
+                }
+            ],
+            "canReselect": false,
+            "id": "489b5515-30a9-4502-878a-2a4d3ead0bea",
+            "name": "Beast Master Variant Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": true,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

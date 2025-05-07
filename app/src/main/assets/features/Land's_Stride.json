@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "Moving through non-magical difficult terrain costs you no extra movement. You can also pass through non-magical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement",
+            "level": 8
+        }
+    ],
+    "id": "Custom66cee100-3868-4d18-b98e-016a59b7c5db",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Land's Stride",
+    "notes": "",
+    "type": "Feat"
+}

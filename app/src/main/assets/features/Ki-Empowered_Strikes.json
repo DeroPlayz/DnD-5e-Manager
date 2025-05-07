@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage",
+            "level": 6
+        }
+    ],
+    "id": "Custom098565bc-0f70-49da-b1f5-ccd5fb08f2a2",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Ki-Empowered Strikes",
+    "notes": "",
+    "type": "Feat"
+}

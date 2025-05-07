@@ -1,0 +1,257 @@
+{
+    "acModifier": "Dexterity",
+    "archetypeSelectionLevel": 1,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Mace",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Warhammer",
+                    "number": 1
+                }
+            ],
+            "id": "0809c4d7-b7e5-4ac9-af42-33eacba5ebf3"
+        },
+        {
+            "amountOfChoice": 3,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scale Mail",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Chain Mail",
+                    "number": 1
+                }
+            ],
+            "id": "5222e2a3-241a-4c32-b094-106a32f0858a"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Light Crossbow and 20 bolts",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Any simple weapon",
+                    "number": 1
+                }
+            ],
+            "id": "a8508f83-62d1-47da-a260-6a15979d0a21"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Priest's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "e44031ec-9c23-42e1-bff7-6985287630d7"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Shield",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Holy Symbol",
+                    "number": 1
+                }
+            ],
+            "id": "215aab2a-b37e-4c37-bc6a-1c548c136ae3"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 2,
+            "id": "cc3aaab0-7ec1-40a3-8cdf-daefe8faa1ab",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "History",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Medicine",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Persuasion",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Religion",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "FULL",
+    "features": [],
+    "hitDie": "D8",
+    "hpModifier": "Constitution",
+    "id": "cleric",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": false,
+    "name": "Cleric",
+    "savingThrows": {
+        "cha": true,
+        "con": false,
+        "dex": false,
+        "intelligence": false,
+        "str": false,
+        "wis": true
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 2
+                },
+                {
+                    "amount": 2,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). You can use this feature once and regain all expended uses when you finish a long rest",
+                                "level": 2
+                            },
+                            {
+                                "description": "You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). You can use this feature twice and regain all expended uses when you finish a long rest",
+                                "level": 6
+                            },
+                            {
+                                "description": "You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). You can use this feature three times and regain all expended uses when you finish a long rest",
+                                "level": 18
+                            }
+                        ],
+                        "id": "Custom6033e41c-4e81-4d9f-a790-40c8421965d2",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Channel Divinity: Harness Divine Power\n",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "\nWhenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Custome54692dc-cbff-495c-83e4-8694f0f0ab4d",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Cantrip Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "fbf2afa2-9f8c-4e23-ba9a-f05cd4e31879",
+            "name": "Cleric Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        }
+    ]
+}

@@ -101,7 +101,7 @@
         android:layout_width="388dp"
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
-        android:text="email here "
+        android:text="tiredbadgerstudios@gmail.com "
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

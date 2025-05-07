@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You are a master of navigating the natural world, and you react with swift and decisive action when attacked. You gain the following benefits:\n\n- You ignore difficult terrain. \n- You have advantage on initiative rolls. \n-  On your first turn of combat, you have advantage on attack rolls against enemies who have not taken their turn yet. \n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
+            "level": 1
+        }
+    ],
+    "id": "Customa33dc3b5-273f-4a4f-a523-6a12c847be52",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Natural Explorer ",
+    "notes": "",
+    "type": "Feat"
+}

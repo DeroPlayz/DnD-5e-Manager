@@ -1,8 +1,9 @@
 package com.example.dnd5emanager.DataClasses;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class PlayerCharacter {
     private String Name;
@@ -28,6 +29,12 @@ public class PlayerCharacter {
             return MaxHealth;
         }
 
+    private int InitiativeBonus;
+        public void setInitiativeBonus() {
+            InitiativeBonus = getDexterityBonus();
+        }
+        public int getInitiativeBonus(){return InitiativeBonus;}
+
     private int ProficiencyBonus;
         public void setProficiencyBonus() {
             if (ProficiencyBonus % 4 == 0) {
@@ -41,9 +48,12 @@ public class PlayerCharacter {
         }
 
     //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
+    private int BaseStrength;
+        public void setBaseStrength(int BaseStrength){this.BaseStrength = BaseStrength;}
+        public int getBaseStrength(){return BaseStrength;}
     private int Strength;
-        public void setStrength(int Strength) {
-            this.Strength = Strength;
+        public void setStrength() {
+            Strength = BaseStrength + Race.getStrengthBonus();
         }
         public int getStrength() {
             return Strength;
@@ -55,18 +65,22 @@ public class PlayerCharacter {
                 StrengthBonus = StrengthBase / 2;
             } else {
                 StrengthBonus = (int) Math.nextDown((Strength - 10.0) / 2.0);
+                StrengthBonus += Race.getStrengthBonus();
             }
         }
         public int getStrengthBonus(){return StrengthBonus;}
-        public int getStrengthSave(){return StrengthBonus + (ProficiencyBonus * getPrimaryClass().getStrengthSaveProf());}
+        public int getStrengthSave(){return StrengthBonus;}
     private int Athletics;
         public void setAthletics(int Athletics){this.Athletics = Athletics;}
         public int getAthletics(){return Athletics;}
 
     //Dexterity is used for maneuvering or other more coordination-based actions.
+    private int BaseDexterity;
+        public void setBaseDexterity(int BaseDexterity){this.BaseDexterity = BaseDexterity;}
+        public int getBaseDexterity(){return BaseDexterity;}
     private int Dexterity;
-        public void setDexterity(int Dexterity) {
-            this.Dexterity= Dexterity;
+        public void setDexterity() {
+            Dexterity = BaseDexterity + Race.getDexterityBonus();
         }
         public int getDexterity(){return Dexterity;}
     private int DexterityBonus;
@@ -76,10 +90,11 @@ public class PlayerCharacter {
                 DexterityBonus = DexterityBase / 2;
             } else {
                 DexterityBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
+                DexterityBonus += Race.getDexterityBonus();
             }
         }
         public int getDexterityBonus(){return DexterityBonus;}
-        public int getDexteritySave(){return DexterityBonus + (ProficiencyBonus * Classes.get(0).getDexteritySaveProf());}
+        public int getDexteritySave(){return DexterityBonus;}
     private int Acrobatics;
         public void setAcrobatics(int Acrobatics){this.Acrobatics = Acrobatics;}
         public int getAcrobatics(){return Acrobatics;}
@@ -93,8 +108,11 @@ public class PlayerCharacter {
     //Constitution determines your ability to take a blow or deal with anything else without
     //faltering; playing an in-game drinking game and trying not to pass out?
     //Roll Constitution! Trying to maintain a spell's effect every turn? Roll Constitution!
+    private int BaseConstitution;
+        public void setBaseConstitution(int BaseConstitution){this.BaseConstitution = BaseConstitution;}
+        public int getBaseConstitution(){return BaseConstitution;}
     private int Constitution;
-        public void setConstitution(int Constitution){this.Constitution = Constitution;}
+        public void setConstitution(){Constitution = BaseConstitution + Race.getConstitutionBonus();}
         public int getConstitution(){return Constitution;}
     private int ConstitutionBonus;
         public void setConstitutionBonus() {
@@ -103,14 +121,18 @@ public class PlayerCharacter {
                 ConstitutionBonus = ConstitutionBase / 2;
             } else{
                 ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0) / 2.0);
+                ConstitutionBonus += Race.getConstitutionBonus();
             }
         }
         public int getConstitutionBonus(){return ConstitutionBonus;}
-        public int getConstitutionSave(){return ConstitutionBonus + (ProficiencyBonus * Classes.get(0).getConstitutionSaveProf());}
+        public int getConstitutionSave(){return ConstitutionBonus;}
 
     //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
+    private int BaseIntelligence;
+        public void setBaseIntelligence(int BaseIntelligence){this.BaseIntelligence = BaseIntelligence;}
+        public int getBaseIntelligence(){return BaseIntelligence;}
     private int Intelligence;
-        public void setIntelligence(int Intelligence){this.Intelligence = Intelligence;}
+        public void setIntelligence(){Intelligence = BaseIntelligence + Race.getIntelligenceBonus();}
         public int getIntelligence(){return Intelligence;}
     private int IntelligenceBonus;
         public void setIntelligenceBonus() {
@@ -119,10 +141,11 @@ public class PlayerCharacter {
                 IntelligenceBonus = IntelligenceBase / 2;
             } else {
                 IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0) / 2.0);
+                IntelligenceBonus += Race.getIntelligenceBonus();
             }
         }
         public int getIntelligenceBonus(){return IntelligenceBonus;}
-        public int getIntelligenceSave(){return IntelligenceBonus + (ProficiencyBonus * Classes.get(0).getIntelligenceSaveProf());}
+        public int getIntelligenceSave(){return IntelligenceBonus;}
     private int Arcana;
         public void setArcana(int Arcana){this.Arcana = Arcana;}
         public int getArcana(){return Arcana;}
@@ -142,8 +165,11 @@ public class PlayerCharacter {
         public int getReligion(){return Religion;}
 
     //Wisdom is common sense or instinct, or street smart plainly put.
+    private int BaseWisdom;
+        public void setBaseWisdom(int BaseWisdom){this.BaseWisdom = BaseWisdom;}
+        public int getBaseWisdom(){return BaseWisdom;}
     private int Wisdom;
-        public void setWisdom(int Wisdom){this.Wisdom = Wisdom;}
+        public void setWisdom(){Wisdom = BaseWisdom + Race.getWisdomBonus();}
         public int getWisdom(){return Wisdom;}
     private int WisdomBonus;
         public void setWisdomBonus() {
@@ -152,10 +178,11 @@ public class PlayerCharacter {
                 WisdomBonus = WisdomBase / 2;
             } else {
                 WisdomBonus = (int) Math.nextDown((Wisdom - 10.0) / 2.0);
+                WisdomBonus += Race.getWisdomBonus();
             }
         }
         public int getWisdomBonus(){return WisdomBonus;}
-        public int getWisdomSave(){return WisdomBonus + (ProficiencyBonus * Classes.get(0).getWisdomSaveProf());}
+        public int getWisdomSave(){return WisdomBonus;}
     private int AnimalHandling;
         public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}
         public int getAnimalHandling(){return AnimalHandling;}
@@ -175,8 +202,11 @@ public class PlayerCharacter {
     //Charisma is exactly what you think; how seriously people take your self-image;
     //how charming you are, how threatening you are,
     //how believable you are when you lie, etc.
+    private int BaseCharisma;
+        public void setBaseCharisma(int BaseCharisma){this.BaseCharisma = BaseCharisma;}
+        public int getBaseCharisma(){return BaseCharisma;}
     private int Charisma;
-        public void setCharisma(int Charisma){this.Charisma = Charisma;}
+        public void setCharisma(){Charisma = BaseCharisma + Race.getCharismaBonus();}
         public int getCharisma(){return Charisma;}
     private int CharismaBonus;
         public void setCharismaBonus() {
@@ -185,10 +215,11 @@ public class PlayerCharacter {
                 CharismaBonus = CharismaBase / 2;
             } else {
                 CharismaBonus = (int) Math.nextDown((Charisma - 10.0) / 2.0);
+                CharismaBonus += Race.getCharismaBonus();
             }
         }
         public int getCharismaBonus(){return CharismaBonus;}
-        public int getCharismaSave(){return CharismaBonus + (ProficiencyBonus * Classes.get(0).getCharismaSaveProf());}
+        public int getCharismaSave(){return CharismaBonus;}
     private int Deception;
         public void setDeception(int Deception){this.Deception = Deception;}
         public int getDeception(){return Deception;}
@@ -212,29 +243,35 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    private ArrayList<CharacterClass> Classes = new ArrayList<>(List.of(Constants.Bard));
-    public void clearClasses(){Classes = new ArrayList<>();}
-    public ArrayList<CharacterClass> getClasses(){return Classes;}
+    private ArrayList<CharacterClass> PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
+
+    public void clearClasses(){
+        PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
+    }
+
+    public ArrayList<CharacterClass> getPlayerClasses(){return PlayerClasses;}
     public void setLevel(CharacterClass Class, int Level) {
-        if(Classes.contains(Class)){
-            Classes.get(Classes.indexOf(Class)).setLevel(Level);
+        if(PlayerClasses.contains(Class)){
+            PlayerClasses.get(PlayerClasses.indexOf(Class)).setLevel(Level);
         }
     }
     public void setPrimaryClass(CharacterClass Class) {
-        if(Classes.size() > 1) {
-            Classes.set(0, Class);
-        } else {
-            Classes.add(Class);
+        if(PlayerClasses == null){
+            PlayerClasses = new ArrayList<>(1);
         }
+        PlayerClasses.set(0, Class);
     }
-    public CharacterClass getPrimaryClass(){return Classes.get(0);}
+
+    public CharacterClass getPrimaryClass(){
+        return PlayerClasses.get(0);
+    }
 
     public int getLevel(){
-        int lev = 0;
-        for (int i = 0; i < Classes.size(); i++){
-            lev += Classes.get(i).getLevel();
+        int Level = 0;
+        for (int i = 0; i < PlayerClasses.size(); i++){
+            Level += PlayerClasses.get(i).getLevel();
         }
-        return lev;
+        return Level;
     }
 
     int XP = 0;
@@ -261,8 +298,34 @@ public class PlayerCharacter {
         else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
         else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
         else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
-        }
+    }
 
+    private String Personality = "";
+    public void setPersonality(String Personality){this.Personality = Personality;}
+    public String getPersonality(){return Personality;}
+
+    private String Ideals = "";
+    public void setIdeals(String Ideals){this.Ideals = Ideals;}
+    public String getIdeals(){return Ideals;}
+
+    private String Bonds = "";
+    public void setBonds(String Bonds){this.Bonds = Bonds;}
+    public String getBonds(){return Bonds;}
+    private String Flaws = "";
+    public void setFlaws(String Flaws){this.Flaws = Flaws;}
+    public String getFlaws(){return Flaws;}
+
+    private String About = "";
+    public void setAbout(String About){this.About = About;}
+    public String getAbout(){return About;}
+
+    private String Background = "";
+    public void setBackground(String Background){this.Background = Background;}
+    public String getBackground(){return Background;}
+
+    private String Alignment = "";
+    public void setAlignment(String Alignment){this.Alignment = Alignment;}
+    public String getAlignment(){return Alignment;}
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.
@@ -298,7 +361,7 @@ public class PlayerCharacter {
         ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        MaxHealth = Classes.get(0).rollInitialHealth() + ConstitutionBonus;
+        MaxHealth = ConstitutionBonus;
 
         this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.

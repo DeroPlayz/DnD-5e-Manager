@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "Arcane blood magic suffuses your body, permanently reinforcing your resilience. Your speed increases by 5 feet, and whenever you make a Strength, Dexterity, or Constitution saving throw, you gain a bonus to the saving throw equal to your Intelligence modifier (minimum of +1)",
+            "level": 10
+        }
+    ],
+    "id": "Custom94e84a83-ce98-47fd-ab49-2047ecb1161d",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Dark Augmentation",
+    "notes": "",
+    "type": "Feat"
+}

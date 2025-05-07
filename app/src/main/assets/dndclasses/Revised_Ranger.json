@@ -1,0 +1,1028 @@
+{
+    "acModifier": "DEX",
+    "archetypeSelectionLevel": 3,
+    "armorProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Light Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Medium Armor"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Shields"
+        }
+    ],
+    "attacksByLevel": [
+        {
+            "amount": 1,
+            "level": 1
+        },
+        {
+            "amount": 2,
+            "level": 5
+        }
+    ],
+    "baseAc": 10,
+    "classEquipment": [
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Scalemail",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Leather Armor",
+                    "number": 1
+                }
+            ],
+            "id": "810c990c-4c20-4ae4-9ab4-66df0013e320"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Shortsword",
+                    "number": 2
+                },
+                {
+                    "description": "",
+                    "name": "Simple Melee Weapon",
+                    "number": 2
+                }
+            ],
+            "id": "f843fe9f-c160-4088-9a8d-1b58de83ce56"
+        },
+        {
+            "amountOfChoice": 1,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Dungeoneer's Pack",
+                    "number": 1
+                },
+                {
+                    "description": "",
+                    "name": "Explorer's Pack",
+                    "number": 1
+                }
+            ],
+            "id": "381da991-0b6b-4f1b-b8cd-00d3d33eb318"
+        },
+        {
+            "amountOfChoice": 2,
+            "equipmentsModels": [
+                {
+                    "description": "",
+                    "name": "Longbow",
+                    "number": 1
+                },
+                {
+                    "ammunitionTypeName": "Arrow",
+                    "description": "",
+                    "name": "20 Arrows",
+                    "number": 1
+                }
+            ],
+            "id": "9913065a-71fe-4862-9f8b-c7a7653fe4fa"
+        }
+    ],
+    "classSkills": [
+        {
+            "amountOfChoice": 3,
+            "id": "beed4c21-760c-44e1-b030-0dc46c4b90d2",
+            "skills": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "skillsModels": [
+                {
+                    "name": "Animal Handling",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Athletics",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Insight",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Investigation",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Nature",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Perception",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Stealth",
+                    "typeName": "SKILL"
+                },
+                {
+                    "name": "Survival",
+                    "typeName": "SKILL"
+                }
+            ]
+        }
+    ],
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "HALF",
+    "features": [],
+    "hitDie": "D10",
+    "hpModifier": "CON",
+    "id": "revised_ranger",
+    "jsonType": "class",
+    "languages": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "Choose 1 (Favored Enemy Related)"
+        },
+        {
+            "hint": "",
+            "level": 6,
+            "proficiency": "Choose 1 (Favored Enemy Related)"
+        }
+    ],
+    "modelType": "Class",
+    "multiclassArmor": true,
+    "multiclassSkills": false,
+    "multiclassTools": false,
+    "multiclassWeapons": true,
+    "name": "Revised Ranger",
+    "savingThrows": {
+        "cha": false,
+        "con": false,
+        "dex": true,
+        "intelligence": false,
+        "str": true,
+        "wis": false
+    },
+    "selectableFeatures": [
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 1
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom549c1f18-31aa-4e69-baf0-1b0d2f196f67",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Beasts",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Custom0d6f9cc3-eb2c-4be3-8426-28877a142da6",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fey",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customecbb3d01-24fe-4f4b-a84e-5185ec749be1",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Monstrosities",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customde7eed8e-5f68-4af1-b2e9-4a0a8a737b6a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Undead",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 1
+                            }
+                        ],
+                        "id": "Customb41eab24-b8db-45b5-a18c-bf6fb5a3b527",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Humanoids ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 1
+                }
+            ],
+            "canReselect": false,
+            "id": "6a15ff88-6c89-4fb1-a8d2-7166529d8d35",
+            "name": "Favored Enemy ",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 6
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom90ed1cf1-b2d3-4557-b669-ae6a29b03f82",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Constructs ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom1d070502-2500-4aa7-b418-abd5f0dc9974",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Aberrations ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom535344f6-59a8-44cc-8404-189eca749804",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Celestials ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom9f2adcc4-6af2-4303-a460-a918eb21de7f",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fiends ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom7ecc44b9-74e5-4904-8ee2-51ed59a3fb98",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Dragons ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Customca42b119-aee8-4a8e-90a6-5a9283b73c5c",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Elementals ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                },
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain the 'Favored Enemy' feature effects for this type of enemy",
+                                "level": 6
+                            }
+                        ],
+                        "id": "Custom48e1386f-884b-4b31-a74a-b1a9434260ba",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Giants ",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 6
+                }
+            ],
+            "canReselect": false,
+            "id": "b3928ffe-be5e-4615-b34f-c0e894efa627",
+            "name": "Greater Favoured Enemy ",
+            "selectedFeatures": []
+        },
+        {
+            "amountsPerLevel": [
+                {
+                    "amount": 1,
+                    "level": 4
+                }
+            ],
+            "availableFeatures": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice",
+                                "level": 4
+                            }
+                        ],
+                        "id": "Customa744d2f7-3ea6-4100-b1df-f7e8014110dd",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Martial Versatility",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 4
+                }
+            ],
+            "canReselect": false,
+            "id": "cb31e6a4-4bd2-4ab2-8998-447367eb9e37",
+            "name": "Revised Ranger Optional Features",
+            "selectedFeatures": []
+        }
+    ],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "WIS",
+    "spells": [],
+    "subtypeSelectionLevel": 2,
+    "subtypes": [
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customb6f79067-f2b3-452f-a14b-8d2a2e865470",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Archery",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_archery",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Archery",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "While you are wearing armor, you gain a +1 bonus to AC",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom8bd87157-5951-4ee4-a666-33cb5a630040",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Defense",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_defense",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Defense",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom938c0cac-6382-4f94-8da9-658903bba6ef",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Dueling",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_dueling",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Dueling",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom471ac7fb-e504-47ea-93fc-a0154348bf9a",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Two-Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_two-weapon_fighting",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Two-Weapon Fighting",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You are trained in making ranged attack at close quarters. When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customf4048930-e298-48db-8fb2-cebf721fa3c3",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Close Quarters Shooter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_close_quarters_shooter",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Close Quarters Shooter",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You excel at defending narrow passages, doorways, and other tight spaces. As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custome623216b-1aea-4546-a4bc-04bddc80241e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Tunnel Fighter",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_tunnel_fighter",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Tunnel Fighter",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom24cfe7e4-4d9e-4add-9c70-52d843c46f09",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Mariner",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_mariner",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Mariner",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom475fbdb6-80e4-4414-b615-1ee5e413129e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Blind Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_blind_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Blind Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Customfc6b4dcc-b75a-43d4-b1a3-98b112f5e969",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Druidic Warrior",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_druidic_warrior_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Druidic Warrior [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        },
+        {
+            "acModifier": "DEX",
+            "armorProficiencies": [],
+            "attacksByLevel": [],
+            "baseAc": 10,
+            "classWeapon": {
+                "abilityName": "Strength",
+                "damageType": "Bludgeoning",
+                "diceAmount": 1,
+                "diceTypeName": "D4",
+                "name": ""
+            },
+            "effectiveCasterLevel": "PARENT",
+            "features": [
+                {
+                    "feat": {
+                        "descriptionModels": [
+                            {
+                                "description": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon.\n\nIn addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll",
+                                "level": 2
+                            }
+                        ],
+                        "id": "Custom23b15032-c9b6-4f8f-95ec-c20802ef331e",
+                        "isFeature": true,
+                        "jsonType": "feat",
+                        "level": 1,
+                        "name": "Fighting Style: Thrown Weapon Fighting",
+                        "notes": "",
+                        "type": "Feat"
+                    },
+                    "level": 2
+                }
+            ],
+            "hpModifier": "CON",
+            "id": "revised_ranger_thrown_weapon_fighting_[tce]",
+            "jsonType": "class",
+            "languages": [],
+            "modelType": "Subtype",
+            "multiclassArmor": true,
+            "multiclassSkills": true,
+            "multiclassTools": true,
+            "multiclassWeapons": true,
+            "name": "Thrown Weapon Fighting [TCE]",
+            "selectableFeatures": [],
+            "shouldShowCompanion": false,
+            "skillProficiencies": [],
+            "specialAbilities": [],
+            "spellSlots": [],
+            "spellcastingAbility": "WIS",
+            "spells": [],
+            "subtypes": [],
+            "toolProficiencies": [],
+            "weaponProficiencies": []
+        }
+    ],
+    "toolProficiencies": [],
+    "weaponProficiencies": [
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_simple"
+        },
+        {
+            "hint": "",
+            "level": 1,
+            "proficiency": "all_martial"
+        }
+    ]
+}

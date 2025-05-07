@@ -1,0 +1,280 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "The following spells are added to the warlock spell list for you.\n\n1st\t--> Guiding Bolt, Cure Wounds\n2nd --> Flaming Sphere, Lesser Restoration\n3rd\t--> Daylight, Revivify\n4th\t--> Guardian of Faith, Wall of Fire\n5th\t--> Flame Strike, Greater Restoration",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom0da44e83-4039-424f-b69a-cad7c81ef784",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Celestial Expanded Spell List",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You learn the Sacred Flame and Light cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known",
+                        "level": 1
+                    }
+                ],
+                "id": "Customf17bd543-b1df-44c6-923a-abc2d1e1e80e",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Bonus Cantrips",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have a pool of d6s that you can spend to heal others. The number of dice in the pool equals 1 + your warlock level.\n\nAs a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.\n\nYour pool regains all expended dice when you finish a long rest",
+                        "level": 1
+                    }
+                ],
+                "id": "Custom1406f063-7ad5-42c7-a40a-15f1a89e7a59",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Healing Light",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 1
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you can add your Charisma modifier to one radiant or fire damage roll of that spell against one of its targets",
+                        "level": 6
+                    }
+                ],
+                "id": "Customc23f025e-7f6c-4aa7-b0ee-e84e1c059d59",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Radiant Soul",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier",
+                        "level": 10
+                    }
+                ],
+                "id": "Custombdbffdbe-5b37-46e3-847b-709e3b3ee81b",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Celestial Resilience",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 10
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+                        "level": 14
+                    }
+                ],
+                "id": "Custom1b4a262b-54bc-40cf-8ae4-02edb09fd2ae",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Searing Vengeance",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 14
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "warlock_the_celestial",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "The Celestial",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [
+        {
+            "abilityCalculators": [],
+            "amountsPerLevel": [
+                {
+                    "amount": 2,
+                    "level": 1
+                },
+                {
+                    "amount": 3,
+                    "level": 2
+                },
+                {
+                    "amount": 4,
+                    "level": 3
+                },
+                {
+                    "amount": 5,
+                    "level": 4
+                },
+                {
+                    "amount": 6,
+                    "level": 5
+                },
+                {
+                    "amount": 7,
+                    "level": 6
+                },
+                {
+                    "amount": 8,
+                    "level": 7
+                },
+                {
+                    "amount": 9,
+                    "level": 8
+                },
+                {
+                    "amount": 10,
+                    "level": 9
+                },
+                {
+                    "amount": 11,
+                    "level": 10
+                },
+                {
+                    "amount": 12,
+                    "level": 11
+                },
+                {
+                    "amount": 13,
+                    "level": 12
+                },
+                {
+                    "amount": 14,
+                    "level": 13
+                },
+                {
+                    "amount": 15,
+                    "level": 14
+                },
+                {
+                    "amount": 16,
+                    "level": 15
+                },
+                {
+                    "amount": 17,
+                    "level": 16
+                },
+                {
+                    "amount": 18,
+                    "level": 17
+                },
+                {
+                    "amount": 19,
+                    "level": 18
+                },
+                {
+                    "amount": 20,
+                    "level": 19
+                },
+                {
+                    "amount": 21,
+                    "level": 20
+                }
+            ],
+            "associatedValueName": "",
+            "id": "f360252c-0bb5-4179-90e6-b44e7d70f7ff",
+            "name": "Healing Light Dice",
+            "type": "BASIC",
+            "usesLeft": 0
+        }
+    ],
+    "spellSlots": [],
+    "spellcastingAbility": "Charisma",
+    "spells": [
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "cleric",
+                "components": "V, S",
+                "description": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.\n\nThe spell\u00e2\u20ac\u2122s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+                "duration": "Instantaneous",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Sacred Flame",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "60 feet",
+                "school": "Evocation",
+                "type": "Evocation cantrip"
+            }
+        },
+        {
+            "level": 1,
+            "spellModel": {
+                "castingTime": "1 action",
+                "classes": "artificer__eb_, artificer__revised_, bard, cleric, sorcerer, fighter, rogue, wizard",
+                "components": "V, M (a firefly or phosphorescent moss)",
+                "description": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\n\nIf you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.",
+                "duration": "1 hour",
+                "higherLevels": "",
+                "isCustom": false,
+                "isRitual": false,
+                "jsonType": "spell",
+                "level": 0,
+                "name": "Light",
+                "notes": "",
+                "pinned": false,
+                "prepared": false,
+                "range": "Touch",
+                "school": "Evocation",
+                "type": "Evocation cantrip"
+            }
+        }
+    ],
+    "subtypes": [],
+    "toolProficiencies": [],
+    "weaponProficiencies": []
+}

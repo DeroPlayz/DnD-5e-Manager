@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "If your Strength check is less than your Strength Score, you can use your Strength Score instead",
+            "level": 18
+        }
+    ],
+    "id": "Custom532c7845-edbe-4e57-af8f-081ee0ba6aab",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Indominable Might",
+    "notes": "",
+    "type": "Feat"
+}

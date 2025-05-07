@@ -1,0 +1,19 @@
+{
+    "armor": 15,
+    "category": "Medium Armor",
+    "cost": "750 gp",
+    "description": "",
+    "equipped": false,
+    "id": "7",
+    "isAttuned": false,
+    "isCustom": false,
+    "isProficient": false,
+    "jsonType": "armor",
+    "maxModifierBonus": 2,
+    "modifierFormatted": "Dexterity",
+    "name": "Half plate",
+    "pinned": false,
+    "stealthDisadvantage": true,
+    "typeName": "Half plate",
+    "weight": "40 lb."
+}

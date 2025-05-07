@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "Your proficiency bonus is doubled for\rany ability check you make that uses any of the tool\rproficiencies you gain from this class",
+            "level": 2
+        }
+    ],
+    "id": "Custom0217f550-164c-4958-b9c7-fb084afb7247",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Tool Expertise",
+    "notes": "",
+    "type": "Feat"
+}

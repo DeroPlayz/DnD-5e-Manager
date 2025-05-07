@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You gain an uncanny sense of when things nearby aren\u2019t as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can\u2019t be blinded, deafened, or incapacitated.",
+            "level": 2
+        }
+    ],
+    "id": "Customd3a30962-17a3-4484-9af1-d2fa4b400a50",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Danger Sense",
+    "notes": "",
+    "type": "Feat"
+}

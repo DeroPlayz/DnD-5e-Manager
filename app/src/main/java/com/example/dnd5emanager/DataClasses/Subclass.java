@@ -3,30 +3,34 @@ package com.example.dnd5emanager.DataClasses;
 import java.util.ArrayList;
 
 public class Subclass{
+    String Name;
 
-    private CharacterClass Parent;
-        public CharacterClass getParent(){return Parent;}
+    public void setName(String Name){this.Name = Name;}
+        public String getName(){return Name;}
+    String ParentClass;
+        public void setParentClass(String ParentClass){this.ParentClass = ParentClass;}
+        public String getParentClass(){return ParentClass;}
+    private Armor[] ArmorProficiencies;
+    private int AttacksByLevel;
+    private int BaseAC;
+    private int Level = 1;
+    public void setLevel(int Level){this.Level = Level;}
+    public int getLevel(){return Level;}
 
-    private String Name = "";
-        public String getName() {
-            if (Name == null){
-                return Name;
-            }
-            return Parent.getName();
-        }
-
-    private ArrayList<Feature> SubclassFeatures = null;
-        public ArrayList<Feature> getFeatures(){return SubclassFeatures;}
-
-    public Subclass(String Name, CharacterClass Parent){
+    public Subclass(String Name, Armor[] ArmorProficiencies, int AttacksByLevel, int BaseAC, String ParentClass){
         this.Name = Name;
-        this.Parent = Parent;
+        this.ArmorProficiencies = ArmorProficiencies;
+        this.AttacksByLevel = AttacksByLevel;
+        this.BaseAC = BaseAC;
+        this.ParentClass = ParentClass;
     }
 
-    public Subclass(String Name, CharacterClass Parent, ArrayList<Feature> SubclassFeatures){
-        this.Name = Name;
-        this.Parent = Parent;
-        this.SubclassFeatures = SubclassFeatures;
+    public Subclass() {
+        this.Name = "";
+        this.ArmorProficiencies = new Armor[0];
+        this.AttacksByLevel = 0;
+        this.BaseAC = 0;
+        this.ParentClass = "";
     }
-    public Subclass(){}
+
 }

@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You gain the ability to channel your\rartificer spells into objects for later use. When you cast an\rartificer spell with a casting time of 1 action, you can increase\rits casting time to 1 minute. If you do so and hold a\rnonmagical item throughout the casting, you expend a spell\rslot, but none of the spell\u00e2\u20ac\u2122s effects occur. Instead, the spell\rtransfers into that item for later use if the item doesn\u00e2\u20ac\u2122t\ralready contain a spell from this feature.\r\n\nAny creature holding the item thereafter can use an action\rto activate the spell if the creature has an Intelligence score\rof at least 6. The spell is cast using your spellcasting ability,\rtargeting the creature that activates the item. If the spell\rtargets more than one creature, the creature that activates\rthe item selects the additional targets. If the spell has an area\rof effect, it is centered on the item. If the spell\u00e2\u20ac\u2122s range is self,\rit targets the creature that activates the item. If the spell\rrequires concentration, the creature that activates the item\rmaintains the concentration as if they had cast the spell.\r\n\nWhen you infuse a spell in this way, it must be used within\r8 hours. After that time, its magic fades and is wasted.\rYou can have a limited number of infused spells at the\rsame time. The number equals your Intelligence modifier",
+            "level": 4
+        }
+    ],
+    "id": "Custom32b1eb60-7772-42a8-8056-f8ced331fe70",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Infuse Magic",
+    "notes": "",
+    "type": "Feat"
+}

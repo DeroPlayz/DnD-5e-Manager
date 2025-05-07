@@ -1,0 +1,18 @@
+{
+    "armor": 2,
+    "category": "Shields",
+    "cost": "10 gp",
+    "description": "",
+    "equipped": false,
+    "id": "12",
+    "isAttuned": false,
+    "isCustom": false,
+    "isProficient": false,
+    "jsonType": "armor",
+    "modifierFormatted": "",
+    "name": "Shield",
+    "pinned": false,
+    "stealthDisadvantage": false,
+    "typeName": "Shield",
+    "weight": "6 lb."
+}

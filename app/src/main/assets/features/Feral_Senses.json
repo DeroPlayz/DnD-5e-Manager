@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.\n\nYou are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened",
+            "level": 18
+        }
+    ],
+    "id": "Custome178b9ce-cf92-4840-8152-5d82d7c767a2",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Feral Senses",
+    "notes": "",
+    "type": "Feat"
+}

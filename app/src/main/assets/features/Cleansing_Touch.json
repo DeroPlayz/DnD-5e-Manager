@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest",
+            "level": 14
+        }
+    ],
+    "id": "Custom9819785b-cecd-40a6-a8f7-e71b3971b2e4",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Cleansing Touch",
+    "notes": "",
+    "type": "Feat"
+}

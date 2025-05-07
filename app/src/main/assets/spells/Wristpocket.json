@@ -1,0 +1,4 @@
+{"casting_time": "1 action","classes": ["wizard"],
+"components": {"material": false,"raw": "S","somatic": true,"verbal": false},
+"description": "You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.\n\nUntil the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet.","duration": "1 hour","level": "2","name": "Wristpocket","range": "Self","ritual": true,"school": "conjuration","tags": ["wizard","level2"],
+"type": "2nd-level conjuration"}

@@ -1,0 +1,156 @@
+{
+    "acModifier": "Dexterity",
+    "armorProficiencies": [],
+    "attacksByLevel": [],
+    "baseAc": 10,
+    "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+    },
+    "effectiveCasterLevel": "PARENT",
+    "features": [
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You gain proficiency in the Insight or Medicine skill (your choice), and you gain proficiency with the herbalism kit and the poisoner's kit",
+                        "level": 3
+                    }
+                ],
+                "id": "Custombcb6f525-75c8-4657-bacc-60a4684d9620",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Implements of Mercy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier\n\nWhen you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending its ki cost",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom7d09c812-c972-4eb9-a37e-f58f37748a37",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hands of Healing",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die. If the creature is incapacitated or poisoned, the creature instead takes necrotic damage equal to three rolls of your Martial Arts die instead. You can use this feature only once on each of your turns",
+                        "level": 3
+                    }
+                ],
+                "id": "Custom7eec6661-a6fb-4878-9ff0-5c02958b3d6a",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hands of Harm",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 3
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "As a bonus action, you spend 1 ki point to turn your ki into an aura of toxic miasma. The aura extends 5 feet from you in every direction, but not through total cover. It lasts for 1 minute, until you're incapacitated, or you dismiss it (no action required).\n\nWhile your aura is active, ranged attacks have disadvantage against you. Any other creature that starts its turn in the aura must succeed on a Constitution saving throw or become poisoned until the end of your next turn and take poison damage equal to your Wisdom modifier (minimum of 0 damage)",
+                        "level": 6
+                    }
+                ],
+                "id": "Custome4285462-acc7-490b-b185-17c057208061",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Noxious Aura",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 6
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your skill in manipulating your ki to heal increases. When you restore hit points to a creature using your Hands of Healing, you can also end one disease or a condition from the following list affecting the target: blinded, deafened, paralyzed, or poisoned",
+                        "level": 11
+                    }
+                ],
+                "id": "Custom068b62ea-bfcc-47fe-8e2a-bd4b5488440f",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Healing Technique",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 11
+        },
+        {
+            "feat": {
+                "descriptionModels": [
+                    {
+                        "description": "Your mastery of life energy opens the door to the ultimate respite technique. As an action, you can touch a creature, expend 4 ki points, and force the creature to make a Constitution saving throw (a creature can willingly fail this save). Unless the save succeeds, the creature enters a state of suspended animation for a number of days equal to your monk level or until you end the effect early (no action required). During this time, the creature is paralyzed, has immunity to all damage, and any curse, disease, or poison affecting it is suspended. The creature appears dead to all outward inspection and to spells used to determine the creature's status.\n\nYou can have only one creature under the effect of this feature at a time.",
+                        "level": 17
+                    }
+                ],
+                "id": "Customc117d87b-f432-44cb-b63c-a1eac12219c9",
+                "isFeature": true,
+                "jsonType": "feat",
+                "level": 1,
+                "name": "Hand of Mercy",
+                "notes": "",
+                "type": "Feat"
+            },
+            "level": 17
+        }
+    ],
+    "hpModifier": "Constitution",
+    "id": "monk_way_of_mercy_[ua]",
+    "jsonType": "class",
+    "languages": [],
+    "modelType": "Archetype",
+    "multiclassArmor": true,
+    "multiclassSkills": true,
+    "multiclassTools": true,
+    "multiclassWeapons": true,
+    "name": "Way of Mercy [UA]",
+    "selectableFeatures": [],
+    "shouldShowCompanion": false,
+    "skillProficiencies": [],
+    "specialAbilities": [],
+    "spellSlots": [],
+    "spellcastingAbility": "Wisdom",
+    "spells": [],
+    "subtypes": [],
+    "toolProficiencies": [
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Herbalism kit"
+        },
+        {
+            "hint": "",
+            "level": 3,
+            "proficiency": "Poisoner's kit"
+        }
+    ],
+    "unarmoredDefense": "Wisdom",
+    "weaponProficiencies": []
+}

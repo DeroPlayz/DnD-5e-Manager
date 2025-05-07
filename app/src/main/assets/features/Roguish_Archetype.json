@@ -1,0 +1,15 @@
+{
+    "descriptionModels": [
+        {
+            "description": "You choose an archetype that you emulate in the exercise of your rogue abilities. Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level",
+            "level": 3
+        }
+    ],
+    "id": "Customd17db8bd-4114-468e-b3b3-3817e7df6d80",
+    "isFeature": true,
+    "jsonType": "feat",
+    "level": 1,
+    "name": "Roguish Archetype",
+    "notes": "",
+    "type": "Feat"
+}
