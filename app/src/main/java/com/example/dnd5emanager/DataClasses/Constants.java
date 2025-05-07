@@ -1,9 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Constants {
@@ -26,6 +23,8 @@ public class Constants {
     public static Map<String, Item> Items = new HashMap<>();
     //    public static Map<String, Weapon> Weapons = new HashMap<>();
     public static Map<String, Armor> Armor = new HashMap<>();
+
+    //Abilities
 
     //Elements
     public static final String Piercing = "Piercing";
@@ -60,6 +59,7 @@ public class Constants {
     public static final String Wisdom = "Wisdom";
     public static final String Charisma = "Charisma";
     public static final String None = " ";
+
     //Skills
     //Strength
     public static final String Athletics = "Athletics";
@@ -104,4 +104,29 @@ public class Constants {
     //Ranged-Specific
     public static final String WeaponAmmo = "Ammunition";
     public static final String LoadingWeapon = "Loading";
+
+    public static final Map<String, String> Skills = new HashMap<String, String>() {{
+        put(Athletics, Strength);
+
+        put(Acrobatics, Dexterity);
+        put(SleightOfHand, Dexterity);
+        put(Stealth, Dexterity);
+
+        put(Arcana, Intelligence);
+        put(History, Intelligence);
+        put(Investigation, Intelligence);
+        put(Nature, Intelligence);
+        put(Religion, Intelligence);
+
+        put(AnimalHandling, Wisdom);
+        put(Insight, Wisdom);
+        put(Medicine, Wisdom);
+        put(Perception, Wisdom);
+        put(Survival, Wisdom);
+
+        put(Deception, Charisma);
+        put(Intimidation, Charisma);
+        put(Performance, Charisma);
+        put(Persuasion, Charisma);
+    }};
 }

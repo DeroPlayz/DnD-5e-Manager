@@ -3,14 +3,20 @@ package com.example.dnd5emanager.DataClasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Armor;
 import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
 import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
 import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
 import static com.example.dnd5emanager.DataClasses.Constants.Feats;
 import static com.example.dnd5emanager.DataClasses.Constants.Features;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
 import static com.example.dnd5emanager.DataClasses.Constants.Items;
 import static com.example.dnd5emanager.DataClasses.Constants.Races;
 import static com.example.dnd5emanager.DataClasses.Constants.Spells;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
 import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -209,23 +215,23 @@ public class Methods {
             jsonObject.put("class_count", character.getPlayerClasses().size());
             Log.d("Saved Player Class Count", String.valueOf(character.getPlayerClasses().size()));
 
-            jsonObject.put("strength", character.getBaseStrength());
-            Log.d("Saved Strength", String.valueOf(character.getBaseStrength()));
+            jsonObject.put("strength", character.getBaseAbilityScores().get(Strength));
+            Log.d("Saved Strength", String.valueOf(character.getBaseAbilityScores().get(Strength)));
 
-            jsonObject.put("dexterity", character.getBaseDexterity());
-            Log.d("Saved Dexterity", String.valueOf(character.getBaseDexterity()));
+            jsonObject.put("dexterity", character.getBaseAbilityScores().get(Dexterity));
+            Log.d("Saved Dexterity", String.valueOf(character.getBaseAbilityScores().get(Dexterity)));
 
-            jsonObject.put("constitution", character.getBaseConstitution());
-            Log.d("Saved Constitution", String.valueOf(character.getBaseConstitution()));
+            jsonObject.put("constitution", character.getBaseAbilityScores().get(Constitution));
+            Log.d("Saved Constitution", String.valueOf(character.getBaseAbilityScores().get(Constitution)));
 
-            jsonObject.put("intelligence", character.getBaseIntelligence());
-            Log.d("Saved Intelligence", String.valueOf(character.getBaseIntelligence()));
+            jsonObject.put("intelligence", character.getBaseAbilityScores().get(Intelligence));
+            Log.d("Saved Intelligence", String.valueOf(character.getBaseAbilityScores().get(Intelligence)));
 
-            jsonObject.put("wisdom", character.getBaseWisdom());
-            Log.d("Saved Wisdom", String.valueOf(character.getBaseWisdom()));
+            jsonObject.put("wisdom", character.getBaseAbilityScores().get(Wisdom));
+            Log.d("Saved Wisdom", String.valueOf(character.getBaseAbilityScores().get(Wisdom)));
 
-            jsonObject.put("charisma", character.getBaseCharisma());
-            Log.d("Saved Charisma", String.valueOf(character.getBaseCharisma()));
+            jsonObject.put("charisma", character.getBaseAbilityScores().get(Charisma));
+            Log.d("Saved Charisma", String.valueOf(character.getBaseAbilityScores().get(Charisma)));
 
             jsonObject.put("alignment", character.getAlignment());
             Log.d("Saved Alignment", String.valueOf(character.getAlignment()));
@@ -309,22 +315,22 @@ public class Methods {
                 }
             }
 
-            character.setBaseStrength(jsonObject.optInt("strength", 0));
+            character.getBaseAbilityScores().put(Strength, jsonObject.optInt("strength", 0));
             Log.d("Loaded Strength", String.valueOf((jsonObject.optInt("strength", 0))));
 
-            character.setBaseDexterity(jsonObject.optInt("dexterity", 0));
+            character.getBaseAbilityScores().put(Dexterity, jsonObject.optInt("dexterity", 0));
             Log.d("Loaded Dexterity", String.valueOf((jsonObject.optInt("dexterity", 0))));
 
-            character.setBaseConstitution(jsonObject.optInt("constitution", 0));
+            character.getBaseAbilityScores().put(Constitution, jsonObject.optInt("constitution", 0));
             Log.d("Loaded Constitution", String.valueOf((jsonObject.optInt("constitution", 0))));
 
-            character.setBaseIntelligence(jsonObject.optInt("intelligence", 0));
+            character.getBaseAbilityScores().put(Intelligence, jsonObject.optInt("intelligence", 0));
             Log.d("Loaded Intelligence", String.valueOf((jsonObject.optInt("intelligence", 0))));
 
-            character.setBaseWisdom(jsonObject.optInt("wisdom", 0));
+            character.getBaseAbilityScores().put(Wisdom, jsonObject.optInt("wisdom", 0));
             Log.d("Loaded Wisdom", String.valueOf((jsonObject.optInt("wisdom", 0))));
 
-            character.setBaseCharisma(jsonObject.optInt("charisma", 0));
+            character.getBaseAbilityScores().put(Charisma, jsonObject.optInt("charisma", 0));
             Log.d("Loaded Charisma", String.valueOf((jsonObject.optInt("charisma", 0))));
 
             character.setAlignment(jsonObject.optString("alignment", ""));

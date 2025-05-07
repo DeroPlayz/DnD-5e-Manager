@@ -8,12 +8,6 @@
     android:background="#8193B4"
     tools:context=".CharacterView">
 
-    <androidx.constraintlayout.widget.Barrier
-        android:id="@+id/barrier"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:barrierDirection="top" />
-
     <TextView
         android:id="@+id/characterName"
         android:layout_width="wrap_content"
@@ -103,8 +97,9 @@
     <ScrollView
         style="@android:style/Widget.Material.ScrollView"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="0dp"
         android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/characterLevel">
@@ -205,10 +200,10 @@
                         android:id="@+id/strength_card"
                         android:layout_width="70dp"
                         android:layout_height="60dp"
-                        android:layout_marginStart="80dp"
                         android:layout_marginTop="30dp"
+                        android:layout_marginEnd="20dp"
                         app:cardBackgroundColor="#5E92FF"
-                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/dexterity_card"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
@@ -273,7 +268,9 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="170dp"
                         android:layout_marginTop="30dp"
+                        android:layout_marginEnd="170dp"
                         app:cardBackgroundColor="#5E92FF"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
 
@@ -336,10 +333,10 @@
                         android:id="@+id/constitution_card"
                         android:layout_width="70dp"
                         android:layout_height="60dp"
-                        android:layout_marginStart="260dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
                         app:cardBackgroundColor="#5E92FF"
-                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dexterity_card"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
@@ -401,10 +398,10 @@
                         android:id="@+id/intelligence_card"
                         android:layout_width="70dp"
                         android:layout_height="60dp"
-                        android:layout_marginStart="80dp"
                         android:layout_marginTop="110dp"
+                        android:layout_marginEnd="20dp"
                         app:cardBackgroundColor="#5E92FF"
-                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/wisdom_card"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
@@ -468,7 +465,9 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="170dp"
                         android:layout_marginTop="110dp"
+                        android:layout_marginEnd="170dp"
                         app:cardBackgroundColor="#5E92FF"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
 
@@ -532,10 +531,10 @@
                         android:id="@+id/charisma_card"
                         android:layout_width="70dp"
                         android:layout_height="60dp"
-                        android:layout_marginStart="260dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="110dp"
                         app:cardBackgroundColor="#5E92FF"
-                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/wisdom_card"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
@@ -595,20 +594,6 @@
 
                     </androidx.cardview.widget.CardView>
 
-                    <Space
-                        android:id="@+id/character_view_spacer1"
-                        android:layout_width="75dp"
-                        android:layout_height="match_parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <Space
-                        android:id="@+id/character_view_spacer2"
-                        android:layout_width="75dp"
-                        android:layout_height="match_parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -622,7 +607,16 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/skills_layout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+
+                    <Space
+                        android:id="@+id/spacer"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/skills_text"
@@ -640,189 +634,361 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Acrobatics"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/skills_text" />
+
+                    <ImageView
+                        android:id="@+id/acrobatics_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/acrobatics"
+                        app:layout_constraintBottom_toBottomOf="@id/acrobatics"
+                        app:layout_constraintEnd_toStartOf="@id/acrobatics"
+                        app:layout_constraintTop_toTopOf="@id/acrobatics" />
 
                     <TextView
                         android:id="@+id/animal_handling"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Animal Handling"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/acrobatics" />
+
+                    <ImageView
+                        android:id="@+id/animal_handling_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/animal_handling"
+                        app:layout_constraintBottom_toBottomOf="@id/animal_handling"
+                        app:layout_constraintEnd_toStartOf="@id/animal_handling"
+                        app:layout_constraintTop_toTopOf="@id/animal_handling" />
 
                     <TextView
                         android:id="@+id/arcana"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Arcana"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/animal_handling" />
+
+                    <ImageView
+                        android:id="@+id/arcana_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/arcana"
+                        app:layout_constraintBottom_toBottomOf="@id/arcana"
+                        app:layout_constraintEnd_toStartOf="@id/arcana"
+                        app:layout_constraintTop_toTopOf="@id/arcana" />
 
                     <TextView
                         android:id="@+id/athletics"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Athletics"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@+id/arcana" />
+
+                    <ImageView
+                        android:id="@+id/athletics_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/athletics"
+                        app:layout_constraintBottom_toBottomOf="@id/athletics"
+                        app:layout_constraintEnd_toStartOf="@id/athletics"
+                        app:layout_constraintTop_toTopOf="@id/athletics" />
 
                     <TextView
                         android:id="@+id/deception"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Deception"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@+id/athletics" />
+
+                    <ImageView
+                        android:id="@+id/deception_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/deception"
+                        app:layout_constraintBottom_toBottomOf="@id/deception"
+                        app:layout_constraintEnd_toStartOf="@id/deception"
+                        app:layout_constraintTop_toTopOf="@id/deception" />
 
                     <TextView
                         android:id="@+id/history"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="History"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/deception" />
+
+                    <ImageView
+                        android:id="@+id/history_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/history"
+                        app:layout_constraintBottom_toBottomOf="@id/history"
+                        app:layout_constraintEnd_toStartOf="@id/history"
+                        app:layout_constraintTop_toTopOf="@id/history" />
 
                     <TextView
                         android:id="@+id/insight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Insight"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/history" />
+
+                    <ImageView
+                        android:id="@+id/insight_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/insight"
+                        app:layout_constraintBottom_toBottomOf="@id/insight"
+                        app:layout_constraintEnd_toStartOf="@id/insight"
+                        app:layout_constraintTop_toTopOf="@id/insight" />
 
                     <TextView
                         android:id="@+id/intimidation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Intimidation"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/insight" />
+
+                    <ImageView
+                        android:id="@+id/intimidation_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/intimidation"
+                        app:layout_constraintBottom_toBottomOf="@id/intimidation"
+                        app:layout_constraintEnd_toStartOf="@id/intimidation"
+                        app:layout_constraintTop_toTopOf="@id/intimidation" />
 
                     <TextView
                         android:id="@+id/investigation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
                         android:text="Investigation"
                         android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="@id/skills_text"
+                        app:layout_constraintEnd_toStartOf="@id/spacer"
                         app:layout_constraintTop_toBottomOf="@id/intimidation" />
+
+                    <ImageView
+                        android:id="@+id/investigation_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/insight"
+                        app:layout_constraintBottom_toBottomOf="@id/investigation"
+                        app:layout_constraintEnd_toStartOf="@id/investigation"
+                        app:layout_constraintTop_toTopOf="@id/investigation" />
 
                     <TextView
                         android:id="@+id/medicine"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Medicine"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/medicine_icon"
                         app:layout_constraintTop_toBottomOf="@id/skills_text" />
+
+                    <ImageView
+                        android:id="@+id/medicine_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/medicine"
+                        app:layout_constraintBottom_toBottomOf="@id/medicine"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/medicine" />
 
                     <TextView
                         android:id="@+id/nature"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Nature"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/nature_icon"
                         app:layout_constraintTop_toBottomOf="@id/medicine" />
+
+                    <ImageView
+                        android:id="@+id/nature_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/nature"
+                        app:layout_constraintBottom_toBottomOf="@id/nature"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/nature" />
 
                     <TextView
                         android:id="@+id/perception"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Perception"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/perception_icon"
                         app:layout_constraintTop_toBottomOf="@id/nature" />
+
+                    <ImageView
+                        android:id="@+id/perception_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/perception"
+                        app:layout_constraintBottom_toBottomOf="@id/perception"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/perception" />
 
                     <TextView
                         android:id="@+id/performance"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Performance"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/performance_icon"
                         app:layout_constraintTop_toBottomOf="@id/perception" />
+
+                    <ImageView
+                        android:id="@+id/performance_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/performance"
+                        app:layout_constraintBottom_toBottomOf="@id/performance"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/performance" />
 
                     <TextView
                         android:id="@+id/persuasion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Persuasion"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/persuasion_icon"
                         app:layout_constraintTop_toBottomOf="@id/performance" />
+
+                    <ImageView
+                        android:id="@+id/persuasion_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/persuasion"
+                        app:layout_constraintBottom_toBottomOf="@id/persuasion"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/persuasion" />
 
                     <TextView
                         android:id="@+id/religion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Religion"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/religion_icon"
                         app:layout_constraintTop_toBottomOf="@id/persuasion" />
+
+                    <ImageView
+                        android:id="@+id/religion_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/religion"
+                        app:layout_constraintBottom_toBottomOf="@id/religion"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/religion" />
 
                     <TextView
                         android:id="@+id/sleight_of_hand"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Sleight of Hand"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/sleight_of_hand_icon"
                         app:layout_constraintTop_toBottomOf="@id/religion" />
+
+                    <ImageView
+                        android:id="@+id/sleight_of_hand_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/sleight_of_hand"
+                        app:layout_constraintBottom_toBottomOf="@id/sleight_of_hand"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/sleight_of_hand" />
 
                     <TextView
                         android:id="@+id/stealth"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Stealth"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/stealth_icon"
                         app:layout_constraintTop_toBottomOf="@id/sleight_of_hand" />
+
+                    <ImageView
+                        android:id="@+id/stealth_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/stealth"
+                        app:layout_constraintBottom_toBottomOf="@id/stealth"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/stealth" />
 
                     <TextView
                         android:id="@+id/survival"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Survival"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/survival_icon"
                         app:layout_constraintTop_toBottomOf="@id/stealth" />
+
+                    <ImageView
+                        android:id="@+id/survival_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/survival"
+                        app:layout_constraintBottom_toBottomOf="@id/survival"
+                        app:layout_constraintStart_toEndOf="@id/spacer"
+                        app:layout_constraintTop_toTopOf="@id/survival" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 

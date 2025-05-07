@@ -23,6 +23,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.dnd5emanager.DataClasses.CharacterClass;
+import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.DataClasses.Race;
 import com.example.dnd5emanager.DataClasses.Subclass;
@@ -205,19 +206,24 @@ public class CharacterCreatorPageOne extends Fragment {
             Wisdom = view.findViewById(R.id.EDIT_WISDOM);
             Charisma = view.findViewById(R.id.EDIT_CHARISMA);
 
-            NewCharacter.setBaseStrength(Integer.parseInt(Strength.getText().toString()));
-            NewCharacter.setBaseDexterity(Integer.parseInt(Dexterity.getText().toString()));
-            NewCharacter.setBaseConstitution(Integer.parseInt(Constitution.getText().toString()));
-            NewCharacter.setBaseIntelligence(Integer.parseInt(Intelligence.getText().toString()));
-            NewCharacter.setBaseWisdom(Integer.parseInt(Wisdom.getText().toString()));
-            NewCharacter.setBaseCharisma(Integer.parseInt(Charisma.getText().toString()));
-
-            NewCharacter.setStrength();
-            NewCharacter.setDexterity();
-            NewCharacter.setConstitution();
-            NewCharacter.setIntelligence();
-            NewCharacter.setWisdom();
-            NewCharacter.setCharisma();
+//            if(!Strength.getText().toString().isEmpty()){
+//                NewCharacter.getBaseAbilityScores().put(Constants.Strength, (Integer.parseInt(Strength.getText().toString())));
+//            }
+//            if(!Dexterity.getText().toString().isEmpty()){
+//                NewCharacter.getBaseAbilityScores().put(Constants.Dexterity, (Integer.parseInt(Dexterity.getText().toString())));
+//            }
+//            if(!Constitution.getText().toString().isEmpty()){
+//                NewCharacter.getBaseAbilityScores().put(Constants.Constitution, (Integer.parseInt(Constitution.getText().toString())));
+//            }
+//            if(!Intelligence.getText().toString().isEmpty()){
+//                NewCharacter.getBaseAbilityScores().put(Constants.Intelligence, (Integer.parseInt(Intelligence.getText().toString())));
+//            }
+//            if(!Wisdom.getText().toString().isEmpty()){
+//                NewCharacter.getBaseAbilityScores().put(Constants.Wisdom, (Integer.parseInt(Wisdom.getText().toString())));
+//            }
+//            if(!Charisma.getText().toString().isEmpty()){
+//                NewCharacter.getBaseAbilityScores().put(Constants.Charisma, (Integer.parseInt(Charisma.getText().toString())));
+//            }
 
             Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
             ArrayList<String> MissingData = new ArrayList<>();
@@ -291,23 +297,23 @@ public class CharacterCreatorPageOne extends Fragment {
         binding.characterCreatorPageOneBackButton.setOnClickListener(v -> NavHostFragment.findNavController(CharacterCreatorPageOne.this).navigate(R.id.goToCharacterList));
 
         binding.characterCreatorPageOneRollStats.setOnClickListener(v -> {
-            NewCharacter.setBaseStrength(setStat());
-            Strength.setText(String.valueOf(NewCharacter.getBaseStrength()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Strength, setStat());
+            Strength.setText(String.valueOf(NewCharacter.getBaseAbilityScores().get(Constants.Strength)));
 
-            NewCharacter.setBaseDexterity(setStat());
-            Dexterity.setText(String.valueOf(NewCharacter.getBaseDexterity()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Dexterity, setStat());
+            Dexterity.setText(String.valueOf(NewCharacter.getBaseAbilityScores().get(Constants.Dexterity)));
 
-            NewCharacter.setBaseConstitution(setStat());
-            Constitution.setText(String.valueOf(NewCharacter.getBaseConstitution()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Constitution, setStat());
+            Constitution.setText(String.valueOf(NewCharacter.getBaseAbilityScores().get(Constants.Constitution)));
 
-            NewCharacter.setBaseIntelligence(setStat());
-            Intelligence.setText(String.valueOf(NewCharacter.getBaseIntelligence()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Intelligence, setStat());
+            Intelligence.setText(String.valueOf(NewCharacter.getBaseAbilityScores().get(Constants.Intelligence)));
 
-            NewCharacter.setBaseWisdom(setStat());
-            Wisdom.setText(String.valueOf(NewCharacter.getBaseWisdom()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Wisdom, setStat());
+            Wisdom.setText(String.valueOf(NewCharacter.getBaseAbilityScores().get(Constants.Wisdom)));
 
-            NewCharacter.setBaseCharisma(setStat());
-            Charisma.setText(String.valueOf(NewCharacter.getBaseCharisma()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Charisma, setStat());
+            Charisma.setText(String.valueOf(NewCharacter.getBaseAbilityScores().get(Constants.Charisma)));
         });
 
     }
@@ -358,118 +364,111 @@ public class CharacterCreatorPageOne extends Fragment {
 
     public void updateStats(){
         if(!Strength.getText().toString().isEmpty()){
-            NewCharacter.setBaseStrength(Integer.parseInt(Strength.getText().toString()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Strength, Integer.parseInt(Strength.getText().toString()));
         }
-        else{NewCharacter.setBaseStrength(0);}
+        else{NewCharacter.getBaseAbilityScores().put(Constants.Strength, 0);}
 
         if(!Dexterity.getText().toString().isEmpty()){
-            NewCharacter.setBaseDexterity(Integer.parseInt(Dexterity.getText().toString()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Dexterity, Integer.parseInt(Dexterity.getText().toString()));
         }
-        else{NewCharacter.setBaseDexterity(0);}
+        else{NewCharacter.getBaseAbilityScores().put(Constants.Dexterity, 0);}
 
         if(!Constitution.getText().toString().isEmpty()){
-            NewCharacter.setBaseConstitution(Integer.parseInt(Constitution.getText().toString()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Constitution, Integer.parseInt(Constitution.getText().toString()));
         }
-        else{NewCharacter.setBaseConstitution(0);}
+        else{NewCharacter.getBaseAbilityScores().put(Constants.Constitution, 0);}
 
         if(!Intelligence.getText().toString().isEmpty()){
-            NewCharacter.setBaseIntelligence(Integer.parseInt(Intelligence.getText().toString()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Intelligence, Integer.parseInt(Intelligence.getText().toString()));
         }
-        else{NewCharacter.setBaseIntelligence(0);}
+        else{NewCharacter.getBaseAbilityScores().put(Constants.Intelligence, 0);}
 
         if(!Wisdom.getText().toString().isEmpty()){
-            NewCharacter.setBaseWisdom(Integer.parseInt(Wisdom.getText().toString()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Wisdom, Integer.parseInt(Wisdom.getText().toString()));
         }
-        else{NewCharacter.setBaseWisdom(0);}
+        else{NewCharacter.getBaseAbilityScores().put(Constants.Wisdom, 0);}
 
         if(!Charisma.getText().toString().isEmpty()){
-            NewCharacter.setBaseCharisma(Integer.parseInt(Charisma.getText().toString()));
+            NewCharacter.getBaseAbilityScores().put(Constants.Charisma, Integer.parseInt(Charisma.getText().toString()));
         }
-        else{NewCharacter.setBaseCharisma(0);}
-
-        NewCharacter.setStrengthBonus();
-        NewCharacter.setDexterityBonus();
-        NewCharacter.setConstitutionBonus();
-        NewCharacter.setIntelligenceBonus();
-        NewCharacter.setWisdomBonus();
-        NewCharacter.setCharismaBonus();
+        else{NewCharacter.getBaseAbilityScores().put(Constants.Charisma, 0);}
 
 
-        if(NewCharacter.getRace().getStrengthBonus() > 0){
-            String s = "+" + NewCharacter.getRace().getStrengthBonus();
+        if(NewCharacter.getRace().getAbilityBonus(Constants.Strength) > -1){
+            String s = "+" + NewCharacter.getRace().getAbilityBonus(Constants.Strength);
             RacialStrengthBonus.setText(s);
         }
-        else if(NewCharacter.getRace().getStrengthBonus() < 0){
-            String s = "-" + NewCharacter.getRace().getStrengthBonus();
+        else if(NewCharacter.getRace().getAbilityBonus(Constants.Strength) < 0){
+            String s = "-" + NewCharacter.getRace().getAbilityBonus(Constants.Strength);
             RacialStrengthBonus.setText(s);
         }
         else{
-            String s = "" + NewCharacter.getRace().getStrengthBonus();
+            String s = "" + NewCharacter.getRace().getAbilityBonus(Constants.Strength);
             RacialStrengthBonus.setText(s);
         }
 
-        if(NewCharacter.getRace().getDexterityBonus() > 0){
-            String s = "+" + NewCharacter.getRace().getDexterityBonus();
+        if(NewCharacter.getRace().getAbilityBonus(Constants.Dexterity) > 0){
+            String s = "+" + NewCharacter.getRace().getAbilityBonus(Constants.Dexterity);
             RacialDexterityBonus.setText(s);
         }
-        else if(NewCharacter.getRace().getDexterityBonus() < 0){
-            String s = "-" + NewCharacter.getRace().getDexterityBonus();
+        else if(NewCharacter.getRace().getAbilityBonus(Constants.Dexterity) < 0){
+            String s = "-" + NewCharacter.getRace().getAbilityBonus(Constants.Dexterity);
             RacialDexterityBonus.setText(s);
         }
         else{
-            String s = "" + NewCharacter.getRace().getDexterityBonus();
+            String s = "" + NewCharacter.getRace().getAbilityBonus(Constants.Dexterity);
             RacialDexterityBonus.setText(s);
         }
 
-        if(NewCharacter.getRace().getConstitutionBonus() > 0){
-            String s = "+" + NewCharacter.getRace().getConstitutionBonus();
+        if(NewCharacter.getRace().getAbilityBonus(Constants.Constitution) > 0){
+            String s = "+" + NewCharacter.getRace().getAbilityBonus(Constants.Constitution);
             RacialConstitutionBonus.setText(s);
         }
-        else if(NewCharacter.getRace().getConstitutionBonus() < 0){
-            String s = "-" + NewCharacter.getRace().getConstitutionBonus();
+        else if(NewCharacter.getRace().getAbilityBonus(Constants.Constitution) < 0){
+            String s = "-" + NewCharacter.getRace().getAbilityBonus(Constants.Constitution);
             RacialConstitutionBonus.setText(s);
         }
         else{
-            String s = "" + NewCharacter.getRace().getConstitutionBonus();
+            String s = "" + NewCharacter.getRace().getAbilityBonus(Constants.Constitution);
             RacialConstitutionBonus.setText(s);
         }
 
-        if(NewCharacter.getRace().getIntelligenceBonus() > 0){
-            String s = "+" + NewCharacter.getRace().getIntelligenceBonus();
+        if(NewCharacter.getRace().getAbilityBonus(Constants.Intelligence) > 0){
+            String s = "+" + NewCharacter.getRace().getAbilityBonus(Constants.Intelligence);
             RacialIntelligenceBonus.setText(s);
         }
-        else if(NewCharacter.getRace().getIntelligenceBonus() < 0){
-            String s = "-" + NewCharacter.getRace().getIntelligenceBonus();
+        else if(NewCharacter.getRace().getAbilityBonus(Constants.Intelligence) < 0){
+            String s = "-" + NewCharacter.getRace().getAbilityBonus(Constants.Intelligence);
             RacialIntelligenceBonus.setText(s);
         }
         else{
-            String s = "" + NewCharacter.getRace().getIntelligenceBonus();
+            String s = "" + NewCharacter.getRace().getAbilityBonus(Constants.Intelligence);
             RacialIntelligenceBonus.setText(s);
         }
 
-        if(NewCharacter.getRace().getWisdomBonus() > 0){
-            String s = "+" + NewCharacter.getRace().getWisdomBonus();
+        if(NewCharacter.getRace().getAbilityBonus(Constants.Wisdom) > 0){
+            String s = "+" + NewCharacter.getRace().getAbilityBonus(Constants.Wisdom);
             RacialWisdomBonus.setText(s);
         }
-        else if(NewCharacter.getRace().getWisdomBonus() < 0){
-            String s = "-" + NewCharacter.getRace().getWisdomBonus();
+        else if(NewCharacter.getRace().getAbilityBonus(Constants.Wisdom) < 0){
+            String s = "-" + NewCharacter.getRace().getAbilityBonus(Constants.Wisdom);
             RacialWisdomBonus.setText(s);
         }
         else{
-            String s = "" + NewCharacter.getRace().getWisdomBonus();
+            String s = "" + NewCharacter.getRace().getAbilityBonus(Constants.Wisdom);
             RacialWisdomBonus.setText(s);
         }
 
-        if(NewCharacter.getRace().getCharismaBonus() > 0){
-            String s = "+" + NewCharacter.getRace().getCharismaBonus();
+        if(NewCharacter.getRace().getAbilityBonus(Constants.Charisma) > 0){
+            String s = "+" + NewCharacter.getRace().getAbilityBonus(Constants.Charisma);
             RacialCharismaBonus.setText(s);
         }
-        else if(NewCharacter.getRace().getCharismaBonus() < 0){
-            String s = "-" + NewCharacter.getRace().getCharismaBonus();
+        else if(NewCharacter.getRace().getAbilityBonus(Constants.Charisma) < 0){
+            String s = "-" + NewCharacter.getRace().getAbilityBonus(Constants.Charisma);
             RacialCharismaBonus.setText(s);
         }
         else{
-            String s = "" + NewCharacter.getRace().getCharismaBonus();
+            String s = "" + NewCharacter.getRace().getAbilityBonus(Constants.Charisma);
             RacialCharismaBonus.setText(s);
         }
 

@@ -1,9 +1,34 @@
 package com.example.dnd5emanager.DataClasses;
 
-import android.util.Log;
+import static com.example.dnd5emanager.DataClasses.Constants.Acrobatics;
+import static com.example.dnd5emanager.DataClasses.Constants.AnimalHandling;
+import static com.example.dnd5emanager.DataClasses.Constants.Arcana;
+import static com.example.dnd5emanager.DataClasses.Constants.Athletics;
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Deception;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
+import static com.example.dnd5emanager.DataClasses.Constants.History;
+import static com.example.dnd5emanager.DataClasses.Constants.Insight;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
+import static com.example.dnd5emanager.DataClasses.Constants.Intimidation;
+import static com.example.dnd5emanager.DataClasses.Constants.Investigation;
+import static com.example.dnd5emanager.DataClasses.Constants.Medicine;
+import static com.example.dnd5emanager.DataClasses.Constants.Nature;
+import static com.example.dnd5emanager.DataClasses.Constants.Perception;
+import static com.example.dnd5emanager.DataClasses.Constants.Performance;
+import static com.example.dnd5emanager.DataClasses.Constants.Persuasion;
+import static com.example.dnd5emanager.DataClasses.Constants.Religion;
+import static com.example.dnd5emanager.DataClasses.Constants.SleightOfHand;
+import static com.example.dnd5emanager.DataClasses.Constants.Stealth;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
+import static com.example.dnd5emanager.DataClasses.Constants.Survival;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class PlayerCharacter {
     private String Name;
@@ -29,209 +54,64 @@ public class PlayerCharacter {
             return MaxHealth;
         }
 
-    private int InitiativeBonus;
-        public void setInitiativeBonus() {
-            InitiativeBonus = getDexterityBonus();
-        }
-        public int getInitiativeBonus(){return InitiativeBonus;}
+    private final Map<String, Integer> BaseAbilityScores = new HashMap<String, Integer>() {{
+        put(Strength, 0);
+        put(Dexterity, 0);
+        put(Constitution, 0);
+        put(Intelligence, 0);
+        put(Wisdom, 0);
+        put(Charisma, 0);
+    }};
+    public Map<String, Integer> getBaseAbilityScores(){return BaseAbilityScores;}
 
-    private int ProficiencyBonus;
-        public void setProficiencyBonus() {
-            if (ProficiencyBonus % 4 == 0) {
-                ProficiencyBonus = (ProficiencyBonus / 4) + 1;
-            } else{
-                ProficiencyBonus = (int) Math.nextUp((ProficiencyBonus / 4.0)) + 1;
-            }
-        }
-        public int getProficiencyBonus() {
-            return ProficiencyBonus;
-        }
+    /** @noinspection DataFlowIssue*/
+    public int getAbilityScore(String Ability){
+        return BaseAbilityScores.get(Ability) + Race.getAbilityBonus(Ability);
+    }
 
-    //Strength is obviously used for demonstrations of, ya know, strength, or other physical power.
-    private int BaseStrength;
-        public void setBaseStrength(int BaseStrength){this.BaseStrength = BaseStrength;}
-        public int getBaseStrength(){return BaseStrength;}
-    private int Strength;
-        public void setStrength() {
-            Strength = BaseStrength + Race.getStrengthBonus();
+    /** @noinspection DataFlowIssue*/
+    public int getAbilityMod(String Ability){
+        int Value = getAbilityScore(Ability);
+        if((Value - 10) % 2 == 0){
+            return (Value - 10) /2;
         }
-        public int getStrength() {
-            return Strength;
+        else{
+            double temp = (double) (Value - 10) / 2;
+            return (int) (temp - 0.5);
         }
-    private int StrengthBonus;
-        public void setStrengthBonus() {
-            int StrengthBase = Strength - 10;
-            if (StrengthBase % 2 == 0) {
-                StrengthBonus = StrengthBase / 2;
-            } else {
-                StrengthBonus = (int) Math.nextDown((Strength - 10.0) / 2.0);
-                StrengthBonus += Race.getStrengthBonus();
-            }
-        }
-        public int getStrengthBonus(){return StrengthBonus;}
-        public int getStrengthSave(){return StrengthBonus;}
-    private int Athletics;
-        public void setAthletics(int Athletics){this.Athletics = Athletics;}
-        public int getAthletics(){return Athletics;}
+    }
 
-    //Dexterity is used for maneuvering or other more coordination-based actions.
-    private int BaseDexterity;
-        public void setBaseDexterity(int BaseDexterity){this.BaseDexterity = BaseDexterity;}
-        public int getBaseDexterity(){return BaseDexterity;}
-    private int Dexterity;
-        public void setDexterity() {
-            Dexterity = BaseDexterity + Race.getDexterityBonus();
-        }
-        public int getDexterity(){return Dexterity;}
-    private int DexterityBonus;
-        public void setDexterityBonus() {
-            int DexterityBase = Dexterity - 10;
-            if (DexterityBase % 2 == 0) {
-                DexterityBonus = DexterityBase / 2;
-            } else {
-                DexterityBonus = (int) Math.nextDown((Dexterity - 10.0) / 2.0);
-                DexterityBonus += Race.getDexterityBonus();
-            }
-        }
-        public int getDexterityBonus(){return DexterityBonus;}
-        public int getDexteritySave(){return DexterityBonus;}
-    private int Acrobatics;
-        public void setAcrobatics(int Acrobatics){this.Acrobatics = Acrobatics;}
-        public int getAcrobatics(){return Acrobatics;}
-    private int SleightOfHand;
-        public void setSleightOfHand(int SleightOfHand){this.SleightOfHand = SleightOfHand;}
-        public int getSleightOfHand(){return SleightOfHand;}
-    private int Stealth;
-        public void setStealth(int Stealth){this.Stealth = Stealth;}
-        public int getStealth(){return Stealth;}
+    Map<String, Integer> Proficiencies = new HashMap<String, Integer>() {{
+        put(Strength, 0);
+        put(Athletics, 0);
 
-    //Constitution determines your ability to take a blow or deal with anything else without
-    //faltering; playing an in-game drinking game and trying not to pass out?
-    //Roll Constitution! Trying to maintain a spell's effect every turn? Roll Constitution!
-    private int BaseConstitution;
-        public void setBaseConstitution(int BaseConstitution){this.BaseConstitution = BaseConstitution;}
-        public int getBaseConstitution(){return BaseConstitution;}
-    private int Constitution;
-        public void setConstitution(){Constitution = BaseConstitution + Race.getConstitutionBonus();}
-        public int getConstitution(){return Constitution;}
-    private int ConstitutionBonus;
-        public void setConstitutionBonus() {
-            int ConstitutionBase = Constitution - 10;
-            if (ConstitutionBase % 2 == 0) {
-                ConstitutionBonus = ConstitutionBase / 2;
-            } else{
-                ConstitutionBonus = (int) Math.nextDown((Constitution - 10.0) / 2.0);
-                ConstitutionBonus += Race.getConstitutionBonus();
-            }
-        }
-        public int getConstitutionBonus(){return ConstitutionBonus;}
-        public int getConstitutionSave(){return ConstitutionBonus;}
+        put(Dexterity, 0);
+        put(Acrobatics, 0);
+        put(SleightOfHand, 0);
+        put(Stealth, 0);
 
-    //Intelligence is exactly what you think it is; academic or academic-adjacent knowledge.
-    private int BaseIntelligence;
-        public void setBaseIntelligence(int BaseIntelligence){this.BaseIntelligence = BaseIntelligence;}
-        public int getBaseIntelligence(){return BaseIntelligence;}
-    private int Intelligence;
-        public void setIntelligence(){Intelligence = BaseIntelligence + Race.getIntelligenceBonus();}
-        public int getIntelligence(){return Intelligence;}
-    private int IntelligenceBonus;
-        public void setIntelligenceBonus() {
-            int IntelligenceBase = Intelligence - 10;
-            if (IntelligenceBase % 2 == 0) {
-                IntelligenceBonus = IntelligenceBase / 2;
-            } else {
-                IntelligenceBonus = (int) Math.nextDown((Intelligence - 10.0) / 2.0);
-                IntelligenceBonus += Race.getIntelligenceBonus();
-            }
-        }
-        public int getIntelligenceBonus(){return IntelligenceBonus;}
-        public int getIntelligenceSave(){return IntelligenceBonus;}
-    private int Arcana;
-        public void setArcana(int Arcana){this.Arcana = Arcana;}
-        public int getArcana(){return Arcana;}
-    private int History;
-        public void setHistory(int History){this.History = History;}
-        public int getHistory(){return History;}
-    private int Investigation;
-        public void setInvestigation(int Investigation){this.Investigation = Investigation;}
-        public int getInvestigation(){return Investigation;}
-    private int Nature;
-        public void setNature(int Nature){this.Nature = Nature;}
+        put(Constitution, 0);
 
-        public int getNature(){return Nature;}
+        put(Intelligence, 0);
+        put(Arcana, 0);
+        put(History, 0);
+        put(Investigation, 0);
+        put(Nature, 0);
+        put(Religion, 0);
 
-    private int Religion;
-        public void setReligion(int Religion){this.Religion = Religion;}
-        public int getReligion(){return Religion;}
+        put(Wisdom, 0);
+        put(AnimalHandling, 0);
+        put(Insight, 0);
+        put(Medicine, 0);
+        put(Perception, 0);
+        put(Survival, 0);
 
-    //Wisdom is common sense or instinct, or street smart plainly put.
-    private int BaseWisdom;
-        public void setBaseWisdom(int BaseWisdom){this.BaseWisdom = BaseWisdom;}
-        public int getBaseWisdom(){return BaseWisdom;}
-    private int Wisdom;
-        public void setWisdom(){Wisdom = BaseWisdom + Race.getWisdomBonus();}
-        public int getWisdom(){return Wisdom;}
-    private int WisdomBonus;
-        public void setWisdomBonus() {
-            int WisdomBase = Wisdom - 10;
-            if (WisdomBase % 2 == 0) {
-                WisdomBonus = WisdomBase / 2;
-            } else {
-                WisdomBonus = (int) Math.nextDown((Wisdom - 10.0) / 2.0);
-                WisdomBonus += Race.getWisdomBonus();
-            }
-        }
-        public int getWisdomBonus(){return WisdomBonus;}
-        public int getWisdomSave(){return WisdomBonus;}
-    private int AnimalHandling;
-        public void setAnimalHandling(int AnimalHandling){this.AnimalHandling = AnimalHandling;}
-        public int getAnimalHandling(){return AnimalHandling;}
-    private int Insight;
-        public void setInsight(int Insight){this.Insight = Insight;}
-        public int getInsight(){return Insight;}
-    private int Medicine;
-        public void setMedicine(int Medicine){this.Medicine = Medicine;}
-        public int getMedicine(){return Medicine;}
-    private int Perception;
-        public void setPerception(int Perception){this.Perception = Perception;}
-        public int getPerception(){return Perception;}
-    private int Survival;
-        public void setSurvival(int Survival){this.Survival = Survival;}
-        public int getSurvival(){return Survival;}
-
-    //Charisma is exactly what you think; how seriously people take your self-image;
-    //how charming you are, how threatening you are,
-    //how believable you are when you lie, etc.
-    private int BaseCharisma;
-        public void setBaseCharisma(int BaseCharisma){this.BaseCharisma = BaseCharisma;}
-        public int getBaseCharisma(){return BaseCharisma;}
-    private int Charisma;
-        public void setCharisma(){Charisma = BaseCharisma + Race.getCharismaBonus();}
-        public int getCharisma(){return Charisma;}
-    private int CharismaBonus;
-        public void setCharismaBonus() {
-            int CharismaBase = Charisma - 10;
-            if (CharismaBase % 2 == 0) {
-                CharismaBonus = CharismaBase / 2;
-            } else {
-                CharismaBonus = (int) Math.nextDown((Charisma - 10.0) / 2.0);
-                CharismaBonus += Race.getCharismaBonus();
-            }
-        }
-        public int getCharismaBonus(){return CharismaBonus;}
-        public int getCharismaSave(){return CharismaBonus;}
-    private int Deception;
-        public void setDeception(int Deception){this.Deception = Deception;}
-        public int getDeception(){return Deception;}
-    private int Intimidation;
-        public void setIntimidation(int Intimidation){this.Intimidation = Intimidation;}
-        public int getIntimidation(){return Intimidation;}
-    private int Performance;
-        public void setPerformance(int Performance){this.Performance = Performance;}
-        public int getPerformance(){return Performance;}
-    private int Persuasion;
-        public void setPersuasion(int Persuasion){this.Persuasion = Persuasion;}
-        public int getPersuasion(){return Persuasion;}
+        put(Charisma, 0);
+        put(Deception, 0);
+        put(Intimidation, 0);
+        put(Performance, 0);
+        put(Persuasion, 0);
+    }};
 
     private ArrayList<Feature> PlayerFeatures;
 
@@ -276,28 +156,27 @@ public class PlayerCharacter {
 
     int XP = 0;
     public void addXP(int XP){this.XP += XP; levelUpCheck();}
-    public void setXP(int XP){this.XP = XP; levelUpCheck();}
 
     public void levelUpCheck(){
-        if(getLevel() == 1 && XP >= 300)            {/*levelUp();*/}
-        else if(getLevel() == 2 && XP >= 900)       {/*levelUp();*/}
-        else if(getLevel() == 3 && XP >= 2700)      {/*levelUp();*/}
-        else if(getLevel() == 4 && XP >= 6500)      {/*levelUp();*/}
-        else if(getLevel() == 5 && XP >= 14000)     {/*levelUp();*/}
-        else if(getLevel() == 6 && XP >= 23000)     {/*levelUp();*/}
-        else if(getLevel() == 7 && XP >= 34000)     {/*levelUp();*/}
-        else if(getLevel() == 8 && XP >= 48000)     {/*levelUp();*/}
-        else if(getLevel() == 9 && XP >= 64000)     {/*levelUp();*/}
-        else if(getLevel() == 10 && XP >= 85000)    {/*levelUp();*/}
-        else if(getLevel() == 11 && XP >= 100000)   {/*levelUp();*/}
-        else if(getLevel() == 12 && XP >= 120000)   {/*levelUp();*/}
-        else if(getLevel() == 13 && XP >= 140000)   {/*levelUp();*/}
-        else if(getLevel() == 14 && XP >= 165000)   {/*levelUp();*/}
-        else if(getLevel() == 15 && XP >= 195000)   {/*levelUp();*/}
-        else if(getLevel() == 16 && XP >= 225000)   {/*levelUp();*/}
-        else if(getLevel() == 17 && XP >= 265000)   {/*levelUp();*/}
-        else if(getLevel() == 18 && XP >= 305000)   {/*levelUp();*/}
-        else if(getLevel() == 19 && XP >= 355000)   {/*levelUp();*/}
+        if(getLevel() == 1 && XP >= 300)            {/*levelUp(2)*/}
+        else if(getLevel() == 2 && XP >= 900)       {/*levelUp(3)*/}
+        else if(getLevel() == 3 && XP >= 2700)      {/*levelUp(4)*/}
+        else if(getLevel() == 4 && XP >= 6500)      {/*levelUp(5)*/}
+        else if(getLevel() == 5 && XP >= 14000)     {/*levelUp(6)*/}
+        else if(getLevel() == 6 && XP >= 23000)     {/*levelUp(7)*/}
+        else if(getLevel() == 7 && XP >= 34000)     {/*levelUp(8)*/}
+        else if(getLevel() == 8 && XP >= 48000)     {/*levelUp(9)*/}
+        else if(getLevel() == 9 && XP >= 64000)     {/*levelUp(10)*/}
+        else if(getLevel() == 10 && XP >= 85000)    {/*levelUp(11)*/}
+        else if(getLevel() == 11 && XP >= 100000)   {/*levelUp(12)*/}
+        else if(getLevel() == 12 && XP >= 120000)   {/*levelUp(13)*/}
+        else if(getLevel() == 13 && XP >= 140000)   {/*levelUp(14)*/}
+        else if(getLevel() == 14 && XP >= 165000)   {/*levelUp(15)*/}
+        else if(getLevel() == 15 && XP >= 195000)   {/*levelUp(16)*/}
+        else if(getLevel() == 16 && XP >= 225000)   {/*levelUp(17)*/}
+        else if(getLevel() == 17 && XP >= 265000)   {/*levelUp(18)*/}
+        else if(getLevel() == 18 && XP >= 305000)   {/*levelUp(19)*/}
+        else if(getLevel() == 19 && XP >= 355000)   {/*levelUp(20)*/}
     }
 
     private String Personality = "";
@@ -334,55 +213,39 @@ public class PlayerCharacter {
     //Builds the character (duh).
     public PlayerCharacter(){
         Name = "";
-        Strength = StrengthBonus = Athletics =
-        Dexterity = DexterityBonus = Acrobatics = SleightOfHand = Stealth =
-        Constitution = ConstitutionBonus = MaxHealth = CurrentHealth =
-        Intelligence = IntelligenceBonus = Arcana = History = Investigation = Nature = Religion =
-        Wisdom = WisdomBonus = AnimalHandling = Insight = Medicine = Perception = Survival =
-        Charisma = CharismaBonus = Deception = Intimidation = Performance = Persuasion = XP = 0;
+        XP = 0;
+        BaseAbilityScores.put(Strength, 0);
+        BaseAbilityScores.put(Dexterity, 0);
+        BaseAbilityScores.put(Constitution, 0);
+        BaseAbilityScores.put(Intelligence, 0);
+        BaseAbilityScores.put(Wisdom, 0);
+        BaseAbilityScores.put(Charisma, 0);
     }
 
     public PlayerCharacter(String Name, int Strength, int Dexterity, int Constitution, int Intelligence, int Wisdom, int Charisma, Race Race, CharacterClass Class, int Level){
         this.Name = Name;
         this.Race = Race;
 
-        this.Strength = Strength;
+        BaseAbilityScores.put(Constants.Strength, Strength);
         //Every ability has a numerical score, and every character has a score for each ability, and that dictates the bonus you get when you roll this stat.
         //As an example, say you have a Strength score of 10. After this equation, you end up with a bonus of 0, meaning you don't add or subtract anything from your roll.
-        StrengthBonus = (int) Math.nextDown(((float) (Strength - 10) /2));
 
         //Say you have a Dexterity score of 15. 15-10 = 5, 5/2 = 2.5, and 2.5 rounded down is 2. Therefore, any time you roll your Dexterity stat, you add 2.
         //So if you rolled an 8, the actual value would be 10.
-        this.Dexterity = Dexterity;
-        DexterityBonus = (int) Math.nextDown(((float) (Dexterity - 10) /2));
+        BaseAbilityScores.put(Constants.Dexterity, Dexterity);
 
-        //The same applies to values below 10. If you have a Constitution score of 8, 8-10 is -2, -2 divided by 2 is -1. So for any Constitution roll you make
-        this.Constitution = Constitution;
-        ConstitutionBonus = (int) Math.nextDown(((float) (Constitution - 10) /2));
+        //The same applies to values below 10. If you have a Constitution score of 8, 8-10 is -2, -2 divided by 2 is -1. So for any Constitution roll you make.
         //Your level 1 Health Points are determined by adding your Constitution bonus to a predetermined number based on your class. Since as you level up, you can have multiple classes,
         //the equation below gets the initial number from your first class, then adds your Constitution bonus.
-        MaxHealth = ConstitutionBonus;
+        BaseAbilityScores.put(Constants.Constitution, Constitution);
 
-        this.Intelligence = Intelligence;
         //These ability bonuses also apply to "skills"; those are the variables declared indented from the abilities.
         //Any skill under that ability gets that bonus applied. So if your Intelligence bonus is 3,
         //then any time you roll a Arcana, History, Investigation, Nature, or Religion check, you get that +3 added to your roll.
-        IntelligenceBonus = (int) Math.nextDown(((float) (Intelligence - 10) /2));
+        BaseAbilityScores.put(Constants.Intelligence, Intelligence);
 
-        this.Wisdom = Wisdom;
-        WisdomBonus = (int) Math.nextDown(((float) (Wisdom - 10) /2));
+        BaseAbilityScores.put(Constants.Wisdom, Wisdom);
 
-        this.Charisma = Charisma;
-        CharismaBonus = (int) Math.nextDown(((float) (Charisma - 10) /2));
-    }
-
-    public void calibrate(){
-        setStrengthBonus();
-        setDexterityBonus();
-        setConstitutionBonus();
-        setIntelligenceBonus();
-        setWisdomBonus();
-        setCharismaBonus();
-        setProficiencyBonus();
+        BaseAbilityScores.put(Constants.Charisma, Charisma);
     }
 }
