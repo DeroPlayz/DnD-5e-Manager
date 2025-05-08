@@ -1,18 +1,104 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Fine Clothes","number": 1}],
-"id": "8fdea051-127d-4429-ac6f-e76727777fdc"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set of artisan's tools","number": 1},
-{"description": "","name": "Musical instrument","number": 1}],
-"id": "ba274098-588f-4494-bfb1-6db64efce939"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Purse","number": 1}],
-"id": "67adc0d0-12d3-4a26-8422-5a68947b93da"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Mulmaster is run by and for its aristocracy. Every other class of citizen in the city defers to you, and even the priesthood, Soldiery, Hawks, and Cloaks treat you with deference. Other aristocrats and nobles accept you in their circles and likely know you or of you. Your connections can get you the ear of a Zor or Zora under the right circumstances.\u00a0","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Highborn","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"jsonType": "background","languages": [],
-"name": "Mulmaster Aristocrat","skills": [{"amountOfChoice": 1,"id": "9a51eaaf-125a-4f21-8454-6b7e582ca054","skills": [{}],
-"skillsModels": [{"name": "Deception","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "5bf9f06f-308b-464d-a739-bac720e2f2a7","skills": [{}],
-"skillsModels": [{"name": "Performance","typeName": "SKILL"}]}],
-"tools": [{"description": "One type of artistic artisan's tools","shouldSelect": true},
-{"description": "One musical instrument","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Fine Clothes",
+          "number": 1
+        }
+      ],
+      "id": "8fdea051-127d-4429-ac6f-e76727777fdc"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set of artisan's tools",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Musical instrument",
+          "number": 1
+        }
+      ],
+      "id": "ba274098-588f-4494-bfb1-6db64efce939"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Purse",
+          "number": 1
+        }
+      ],
+      "id": "67adc0d0-12d3-4a26-8422-5a68947b93da"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Mulmaster is run by and for its aristocracy. Every other class of citizen in the city defers to you, and even the priesthood, Soldiery, Hawks, and Cloaks treat you with deference. Other aristocrats and nobles accept you in their circles and likely know you or of you. Your connections can get you the ear of a Zor or Zora under the right circumstances.\u00a0",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Highborn",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "jsonType": "background",
+  "languages": [],
+  "name": "Mulmaster Aristocrat",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "9a51eaaf-125a-4f21-8454-6b7e582ca054",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "5bf9f06f-308b-464d-a739-bac720e2f2a7",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Performance",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "One type of artistic artisan's tools",
+      "shouldSelect": true
+    },
+    {
+      "description": "One musical instrument",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

@@ -1,7 +1,79 @@
-{"ac":18,"actions":[{"description":"The crab makes two Claw attacks and one Stinger attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"10 to hit, reach 15 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it has the grappled condition (escape DC 16). The crab has four claws, each of which can grapple one target.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"10 to hit, reach 10 ft., one creature. Hit: 22 (3d10 + 6) piercing damage, and the target must succeed on a DC 17 Constitution saving throw or have the poisoned and paralyzed conditions for 1 minute. The affected creature can repeat the saving throw at the end of each of its turns, ending both the poisoned and paralyzed conditions on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Stinger","type":"MELEE"},
-{"description":"The crab exhales water in a 150-foot line that is 10 feet wide. Each creature in that area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 27 (6d8) bludgeoning damage, is pushed up to 30 feet from the crab, and has the prone condition. On a successful save, a creature takes half as much damage only.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Water Jet (Recharge 5-6)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":9,"climbSpeed":0,"con":21,"conditionImmunities":null,"cr":"11","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":50,"diceAmount":10,"diceType":"D20"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"understands Giant but can't speak","name":"Storm Crab [BGG]","resistances":"cold, fire, lightning","savingThrows":"Str +10, Con +9","senses":"blindsight 60 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"The crab can breathe air and water.","id":-1,"monsterId":-1,"name":"Amphibious"}],
-"speed":40,"str":23,"swimSpeed":60,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":14,"xp":7200}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The crab makes two Claw attacks and one Stinger attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "10 to hit, reach 15 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it has the grappled condition (escape DC 16). The crab has four claws, each of which can grapple one target.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "10 to hit, reach 10 ft., one creature. Hit: 22 (3d10 + 6) piercing damage, and the target must succeed on a DC 17 Constitution saving throw or have the poisoned and paralyzed conditions for 1 minute. The affected creature can repeat the saving throw at the end of each of its turns, ending both the poisoned and paralyzed conditions on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Stinger",
+      "type": "MELEE"
+    },
+    {
+      "description": "The crab exhales water in a 150-foot line that is 10 feet wide. Each creature in that area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 27 (6d8) bludgeoning damage, is pushed up to 30 feet from the crab, and has the prone condition. On a successful save, a creature takes half as much damage only.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Water Jet (Recharge 5-6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 9,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": null,
+  "cr": "11",
+  "damageImmunities": null,
+  "dex": 10,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 50,
+    "diceAmount": 10,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands Giant but can't speak",
+  "name": "Storm Crab [BGG]",
+  "resistances": "cold, fire, lightning",
+  "savingThrows": "Str +10, Con +9",
+  "senses": "blindsight 60 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The crab can breathe air and water.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amphibious"
+    }
+  ],
+  "speed": 40,
+  "str": 23,
+  "swimSpeed": 60,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 7200
+}

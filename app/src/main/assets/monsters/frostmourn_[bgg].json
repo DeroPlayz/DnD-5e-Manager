@@ -1,7 +1,72 @@
-{"ac":13,"actions":[{"description":"The frostmourn makes one Freezing Touch attack and one Icy Axe attack. It can replace one of these attacks with a Polar Ray attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"10 to hit, reach 5 ft., one creature. Hit: 18 (4d8) cold damage plus 18 (4d8) necrotic damage. If this damage would reduce the target to 0 hit points, the target drops to 1 hit point instead and has the petrified condition, turning into a frozen statue.\n\nIf the statue takes bludgeoning damage, it shatters, killing the frozen creature. If the statue would take fire damage, it instead takes no damage and thaws, ending the petrification.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Freezing Touch","type":"MELEE"},
-{"description":"10 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) slashing damage plus 7 (2d6) cold damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Icy Axe","type":"MELEE"},
-{"description":"8 to hit, range 120 ft., one target. Hit: 31 (5d10 + 4) cold damage, and the target's speed is reduced by 10 feet until the end of its next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Polar Ray","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":18,"climbSpeed":0,"con":21,"conditionImmunities":"charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained","cr":"10","damageImmunities":"cold, poison","dex":9,"flySpeed":0,"hp":{"constant":85,"diceAmount":17,"diceType":"D12"},
-"id":-1,"int":9,"isLocked":true,"jsonType":"monster","languages":"Giant","name":"Frostmourn [BGG]","resistances":null,"savingThrows":"Con +9, Wis +4","senses":null,"size":"Huge","skills":null,"specialTraits":[],
-"speed":40,"str":23,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":"fire","wis":11,"xp":5900}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "The frostmourn makes one Freezing Touch attack and one Icy Axe attack. It can replace one of these attacks with a Polar Ray attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "10 to hit, reach 5 ft., one creature. Hit: 18 (4d8) cold damage plus 18 (4d8) necrotic damage. If this damage would reduce the target to 0 hit points, the target drops to 1 hit point instead and has the petrified condition, turning into a frozen statue.\n\nIf the statue takes bludgeoning damage, it shatters, killing the frozen creature. If the statue would take fire damage, it instead takes no damage and thaws, ending the petrification.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Freezing Touch",
+      "type": "MELEE"
+    },
+    {
+      "description": "10 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) slashing damage plus 7 (2d6) cold damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Icy Axe",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, range 120 ft., one target. Hit: 31 (5d10 + 4) cold damage, and the target's speed is reduced by 10 feet until the end of its next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Polar Ray",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 18,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "cr": "10",
+  "damageImmunities": "cold, poison",
+  "dex": 9,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 85,
+    "diceAmount": 17,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 9,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant",
+  "name": "Frostmourn [BGG]",
+  "resistances": null,
+  "savingThrows": "Con +9, Wis +4",
+  "senses": null,
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 40,
+  "str": 23,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": "fire",
+  "wis": 11,
+  "xp": 5900
+}

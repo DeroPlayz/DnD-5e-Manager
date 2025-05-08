@@ -1,23 +1,23 @@
 {
-    "descriptionModels": [
-        {
-            "description": "At 2nd level, you start with two abilities: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.\n\nWhen you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
-            "level": 2
-        },
-        {
-            "description": "At 2nd level, you start with two abilities: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.\n\nWhen you use your Channel Divinity, you choose which effect to create. You may use it twice and then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
-            "level": 6
-        },
-        {
-            "description": "At 2nd level, you start with two abilities: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.\n\nWhen you use your Channel Divinity, you choose which effect to create. You may use it three times and then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
-            "level": 18
-        }
-    ],
-    "id": "Custom3d879862-8158-4a02-89b1-ccc6d314bf98",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Channel Divinity",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "At 2nd level, you start with two abilities: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.\n\nWhen you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
+      "level": 2
+    },
+    {
+      "description": "At 2nd level, you start with two abilities: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.\n\nWhen you use your Channel Divinity, you choose which effect to create. You may use it twice and then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
+      "level": 6
+    },
+    {
+      "description": "At 2nd level, you start with two abilities: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.\n\nWhen you use your Channel Divinity, you choose which effect to create. You may use it three times and then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
+      "level": 18
+    }
+  ],
+  "id": "Custom3d879862-8158-4a02-89b1-ccc6d314bf98",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Channel Divinity",
+  "notes": "",
+  "type": "Feat"
 }

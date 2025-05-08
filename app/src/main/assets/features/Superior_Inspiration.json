@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "When you roll Initiative and have no uses of Bardic Inspiration left, you regain 1 use",
-            "level": 20
-        }
-    ],
-    "id": "Customd34f0767-81ee-4122-947d-6607bd49b581",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Superior Inspiration",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "When you roll Initiative and have no uses of Bardic Inspiration left, you regain 1 use",
+      "level": 20
+    }
+  ],
+  "id": "Customd34f0767-81ee-4122-947d-6607bd49b581",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Superior Inspiration",
+  "notes": "",
+  "type": "Feat"
 }

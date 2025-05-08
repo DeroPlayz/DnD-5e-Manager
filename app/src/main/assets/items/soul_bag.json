@@ -1,2 +1,23 @@
-{"changesNameOnAttunement": false,"description": "When an evil humanoid dies as a result of a night hag's Nightmare Haunting, the hag catches the soul in this black sack made of stitched flesh. A soul bag can hold only one evil soul at a time, and only the night hag who crafted the bag can catch a soul with it. Crafting a soul bag takes 7 days and a humanoid sacrifice (whose flesh is used to make the bag).","effects": [],
-"id": "item_Soul_Bag","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Soul Bag","rarity": "VERY_RARE","requiresAttunement": false,"type": "OTHER","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "When an evil humanoid dies as a result of a night hag's Nightmare Haunting, the hag catches the soul in this black sack made of stitched flesh. A soul bag can hold only one evil soul at a time, and only the night hag who crafted the bag can catch a soul with it. Crafting a soul bag takes 7 days and a humanoid sacrifice (whose flesh is used to make the bag).",
+  "effects": [],
+  "id": "item_Soul_Bag",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Soul Bag",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": false,
+  "type": "OTHER",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

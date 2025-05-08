@@ -1,6 +1,67 @@
-{"ac":15,"actions":[{"description":" 2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Head Butt","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":0,"con":13,"conditionImmunities":"blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned","cr":"1/8","damageImmunities":"poison, psychic","dex":10,"flySpeed":40,"hp":{"constant":4,"diceAmount":4,"diceType":"D8"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Flying Rocking Horse","resistances":null,"savingThrows":null,"senses":"blindsight 60 ft. (blind beyond this radius)","size":"Medium","skills":null,"specialTraits":[{"description":"If the rocking horse is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the rocking horse move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the rocking horse is animate.","id":-1,"monsterId":-1,"name":"False Appearance"},
-{"description":"The rocking horse can serve as a mount for a Medium or smaller creature and can fly only while mounted.","id":-1,"monsterId":-1,"name":"Flying Mount"},
-{"description":"The rocking horse doesn't require air, food, drink, or sleep, and it regains no hit points or Hit Dice at the end of a long rest.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":0,"str":10,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":3,"xp":25}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": " 2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Head Butt",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 1,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "cr": "1/8",
+  "damageImmunities": "poison, psychic",
+  "dex": 10,
+  "flySpeed": 40,
+  "hp": {
+    "constant": 4,
+    "diceAmount": 4,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Flying Rocking Horse",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the rocking horse is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the rocking horse move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the rocking horse is animate.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "False Appearance"
+    },
+    {
+      "description": "The rocking horse can serve as a mount for a Medium or smaller creature and can fly only while mounted.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Flying Mount"
+    },
+    {
+      "description": "The rocking horse doesn't require air, food, drink, or sleep, and it regains no hit points or Hit Dice at the end of a long rest.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 0,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 3,
+  "xp": 25
+}

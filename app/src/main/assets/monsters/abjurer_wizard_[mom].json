@@ -1,7 +1,72 @@
-{"ac":12,"actions":[{"description":"The abjurer makes three Arcane Burst attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10 + 4) force damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Arcane Burst","type":"NONE"},
-{"description":"Each creature in a 20-foot cube originating from the abjurer must make a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Force Blast","type":"NONE"},
-{"description":"The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 16):\nAt will: dancing lights, mage hand, message, prestidigitation\n\n2/day each: dispel magic, lightning bolt, mage armor\n\n1/day each: arcane lock, banishment, globe of invulnerability, invisibility, wall of force","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":14,"conditionImmunities":null,"cr":"9","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":32,"diceAmount":16,"diceType":"D8"},
-"id":-1,"int":18,"isLocked":true,"jsonType":"monster","languages":"any four languages","name":"Abjurer Wizard [MoM]","resistances":null,"savingThrows":"Int +8, Wis +5","senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":9,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":12,"xp":5000}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The abjurer makes three Arcane Burst attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 5 ft. or range 120 ft., one target. Hit: 20 (3d10 + 4) force damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Arcane Burst",
+      "type": "NONE"
+    },
+    {
+      "description": "Each creature in a 20-foot cube originating from the abjurer must make a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Force Blast",
+      "type": "NONE"
+    },
+    {
+      "description": "The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 16):\nAt will: dancing lights, mage hand, message, prestidigitation\n\n2/day each: dispel magic, lightning bolt, mage armor\n\n1/day each: arcane lock, banishment, globe of invulnerability, invisibility, wall of force",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 11,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": null,
+  "cr": "9",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 32,
+    "diceAmount": 16,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 18,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "any four languages",
+  "name": "Abjurer Wizard [MoM]",
+  "resistances": null,
+  "savingThrows": "Int +8, Wis +5",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 9,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 5000
+}

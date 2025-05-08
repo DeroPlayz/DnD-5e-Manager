@@ -1,55 +1,55 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 4 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 1
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 6 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 2
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 14 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 3
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 17 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 4
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 27 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 5
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 32 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 6
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 38 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 7
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 44 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 8
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 57 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 9
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 64 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 10
-        },
-        {
-            "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 71 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
-            "level": 18
-        }
-    ],
-    "id": "Custom119f62ac-fd8a-4330-8577-f94d2ebace61",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Psi Points",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 4 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 1
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 6 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 2
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 14 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 3
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 17 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 4
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 27 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 5
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 32 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 6
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 38 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 7
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 44 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 8
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 57 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 9
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 64 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 10
+    },
+    {
+      "description": "You have an internal reservoir of energy that is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points. You have a maximum of 71 psi points. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum",
+      "level": 18
+    }
+  ],
+  "id": "Custom119f62ac-fd8a-4330-8577-f94d2ebace61",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Psi Points",
+  "notes": "",
+  "type": "Feat"
 }

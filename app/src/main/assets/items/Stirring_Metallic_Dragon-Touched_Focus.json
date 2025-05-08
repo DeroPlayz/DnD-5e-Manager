@@ -1,6 +1,44 @@
-{"changesNameOnAttunement": false,"description": "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.\n\nYou have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells.\n\nThe focus gains an additional property determined by the family of the dragon in whose hoard it became Stirring:\n\nWhen a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw","effects": [{"actualEffect": {"stat": "INITIATIVE","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
-"id": "d2420bd3-8e5e-42f9-b79a-79f90ddc7f5b","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "Custom4acc1c76-3f09-4858-9713-db87c8f0c9f2","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": true,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Stirring Metallic Dragon-Touched Focus","rarity": "RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.\n\nYou have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells.\n\nThe focus gains an additional property determined by the family of the dragon in whose hoard it became Stirring:\n\nWhen a creature you can see within 30 feet of you makes a saving throw, you can use your reaction to give that creature advantage on the saving throw",
+  "effects": [
+    {
+      "actualEffect": {
+        "stat": "INITIATIVE",
+        "type": "SET_ADVANTAGE",
+        "typeStr": "SET_ADVANTAGE"
+      },
+      "id": "d2420bd3-8e5e-42f9-b79a-79f90ddc7f5b",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "Custom4acc1c76-3f09-4858-9713-db87c8f0c9f2",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": true,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Stirring Metallic Dragon-Touched Focus",
+  "rarity": "RARE",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

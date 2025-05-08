@@ -1,5 +1,46 @@
-{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["an eyelash encased in gum arabic"],
-"raw": "V, S, M (an eyelash encased in gum arabic)","somatic": true,"verbal": true},
-"description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.","duration": "Concentration, up to 1 hour","higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.","level": "2","name": "Invisibility","range": "Touch","ritual": false,"school": "illusion","tags": ["artificer","artificer__eb_","artificer__revised_","bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level2"],
-"type": "2nd-level illusion"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "bard",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "an eyelash encased in gum arabic"
+    ],
+    "raw": "V, S, M (an eyelash encased in gum arabic)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
+  "duration": "Concentration, up to 1 hour",
+  "higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+  "level": "2",
+  "name": "Invisibility",
+  "range": "Touch",
+  "ritual": false,
+  "school": "illusion",
+  "tags": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "bard",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level2"
+  ],
+  "type": "2nd-level illusion"
+}

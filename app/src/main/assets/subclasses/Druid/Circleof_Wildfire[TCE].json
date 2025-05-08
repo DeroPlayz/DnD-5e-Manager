@@ -1,355 +1,355 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.\n\nThe spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take 2d6 fire damage.\n\nThe spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the Wildfire Spirit stat block, which uses your proficiency bonus (PB) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.\n\nIn combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.\n\nThe spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die",
-                        "level": 2
-                    }
-                ],
-                "id": "Customaea38d30-02ca-458b-b6f8-0b6a3d26e142",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Summon Wildfire Spirit",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.\n\nThe spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take 2d6 fire damage.\n\nThe spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the Wildfire Spirit stat block, which uses your proficiency bonus (PB) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.\n\nIn combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.\n\nThe spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.\n\nIn addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom4c8f0303-8856-408b-aa88-9342e16faca9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Enhanced Bond",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customaea38d30-02ca-458b-b6f8-0b6a3d26e142",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Summon Wildfire Spirit",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.\n\nIn addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals 2d10 + your Wisdom modifier.\n\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom42b4185c-21f1-4eab-9604-22c8ac5a5135",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Cauterizing Flames",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom4c8f0303-8856-408b-aa88-9342e16faca9",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Enhanced Bond",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals 2d10 + your Wisdom modifier.\n\nYou can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall unconscious, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom67ff2d05-9140-4ded-8382-a688fb31ad0f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Blazing Revival",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom42b4185c-21f1-4eab-9604-22c8ac5a5135",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Cauterizing Flames",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall unconscious, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "druid_circle_of_wildfire_[tce]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Circle of Wildfire [TCE]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Custom67ff2d05-9140-4ded-8382-a688fb31ad0f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Blazing Revival",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "druid_circle_of_wildfire_[tce]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Circle of Wildfire [TCE]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 10,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "4d8f7d43-8a60-4606-88d0-6cb1d1e4368e",
-            "name": "Cauterizing Flames Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            }
+          ],
+          "level": 10,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [
-        {
-            "level": 2,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u00e2\u20ac\u2122t being worn or carried.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Burning Hands",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (15-foot cone)",
-                "school": "evocation",
-                "type": "1st-level evocation"
-            }
-        },
-        {
-            "level": 2,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Cure Wounds",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "evocation",
-                "type": "1st-level evocation"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid, fighter, rogue, wizard",
-                "components": "V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)",
-                "description": "A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.\n\nAs a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.\n\nWhen you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Flaming Sphere",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "conjuration",
-                "type": "2nd-level conjuration"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Scorching Ray",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "evocation",
-                "type": "2nd-level evocation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action or 8 hours",
-                "classes": "bard, druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.\n\nIf you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.\n\nYou can exclude one or more areas of any size within the spell\u00e2\u20ac\u2122s area from being affected.\n\nIf you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Plant Growth",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "150 feet",
-                "school": "transmutation",
-                "type": "3rd-level transmutation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, paladin",
-                "components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
-                "description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can\u00e2\u20ac\u2122t return to life a creature that has died of old age, nor can it restore any missing body parts.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Revivify",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "conjuration",
-                "type": "3rd-level conjuration"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Aura of Life",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (a bit of phosphorous or a firefly)",
-                "description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.",
-                "duration": "10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Fire Shield",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "evocation",
-                "type": "4th-level evocation"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric",
-                "components": "V, S, M (pinch of sulfur)",
-                "description": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) inceases by 1d6 for each slot level above 5th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Flame Strike",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "evocation",
-                "type": "5th-level evocation"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid",
-                "components": "V, S",
-                "description": "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Mass Cure Wounds",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "conjuration",
-                "type": "5th-level conjuration"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "4d8f7d43-8a60-4606-88d0-6cb1d1e4368e",
+      "name": "Cauterizing Flames Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [
+    {
+      "level": 2,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u00e2\u20ac\u2122t being worn or carried.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Burning Hands",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (15-foot cone)",
+        "school": "evocation",
+        "type": "1st-level evocation"
+      }
+    },
+    {
+      "level": 2,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Cure Wounds",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "evocation",
+        "type": "1st-level evocation"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, fighter, rogue, wizard",
+        "components": "V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)",
+        "description": "A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.\n\nAs a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.\n\nWhen you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Flaming Sphere",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "conjuration",
+        "type": "2nd-level conjuration"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Scorching Ray",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "evocation",
+        "type": "2nd-level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action or 8 hours",
+        "classes": "bard, druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.\n\nIf you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.\n\nYou can exclude one or more areas of any size within the spell\u00e2\u20ac\u2122s area from being affected.\n\nIf you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Plant Growth",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "150 feet",
+        "school": "transmutation",
+        "type": "3rd-level transmutation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, cleric, paladin",
+        "components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
+        "description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can\u00e2\u20ac\u2122t return to life a creature that has died of old age, nor can it restore any missing body parts.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Revivify",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "conjuration",
+        "type": "3rd-level conjuration"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Aura of Life",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (a bit of phosphorous or a firefly)",
+        "description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.",
+        "duration": "10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Fire Shield",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "evocation",
+        "type": "4th-level evocation"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric",
+        "components": "V, S, M (pinch of sulfur)",
+        "description": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) inceases by 1d6 for each slot level above 5th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Flame Strike",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "evocation",
+        "type": "5th-level evocation"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid",
+        "components": "V, S",
+        "description": "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Mass Cure Wounds",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "conjuration",
+        "type": "5th-level conjuration"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

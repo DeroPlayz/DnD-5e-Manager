@@ -1,7 +1,77 @@
-{"ac":14,"actions":[{"description":"The redcap makes three Wicked Sickle attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Wicked Sickle","type":"MELEE"},
-{"description":"The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10 + 4) bludgeoning damage and be knocked prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Ironbound Pursuit","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":9,"climbSpeed":0,"con":18,"conditionImmunities":null,"cr":"3","damageImmunities":null,"dex":13,"flySpeed":0,"hp":{"constant":24,"diceAmount":6,"diceType":"D6"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common, Sylvan","name":"Redcap [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Small","skills":null,"specialTraits":[{"description":"The redcap has disadvantage on Dexterity (Stealth) checks.","id":-1,"monsterId":-1,"name":"Iron Boots"},
-{"description":"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls.","id":-1,"monsterId":-1,"name":"Outsize Strength"}],
-"speed":25,"str":18,"swimSpeed":0,"tag":null,"type":"Fey","vulnerabilities":null,"wis":12,"xp":700}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The redcap makes three Wicked Sickle attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Wicked Sickle",
+      "type": "MELEE"
+    },
+    {
+      "description": "The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10 + 4) bludgeoning damage and be knocked prone.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Ironbound Pursuit",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 9,
+  "climbSpeed": 0,
+  "con": 18,
+  "conditionImmunities": null,
+  "cr": "3",
+  "damageImmunities": null,
+  "dex": 13,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 24,
+    "diceAmount": 6,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Sylvan",
+  "name": "Redcap [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The redcap has disadvantage on Dexterity (Stealth) checks.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Iron Boots"
+    },
+    {
+      "description": "While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Outsize Strength"
+    }
+  ],
+  "speed": 25,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Fey",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 700
+}

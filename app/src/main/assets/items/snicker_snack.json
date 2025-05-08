@@ -1,12 +1,72 @@
-{"changesNameOnAttunement": false,"description": "You gain a +3 bonus to attack and damage rolls made with this magic vorpal sword. In addition, the weapon ignores resistance to slashing damage.\n\nWhen you use this weapon to attack a creature that has at least one head and roll a 20 on the attack roll, you cut off one of the creature\u00e2\u20ac\u2122s heads. The creature dies if it can\u00e2\u20ac\u2122t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, it doesn\u00e2\u20ac\u2122t have or need a head, it has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.\n\nWhile attuned to Snicker-Snack, you have proficiency with greatswords, and you can use your Charisma modifier instead of your Strength modifier for attack and damage rolls made with the weapon.\n\nSentience: Snicker-Snack is a sentient, chaotic good greatsword with an Intelligence of 9, a Wisdom of 14, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet. It can speak, read, and understand Common, and its voice sounds silvery and melodic. Snicker-Snack craves the destruction of evil Dragons and urges you to seek out these creatures and slay them.\n\nSnicker-Snack has a fickle personality. It ends its attunement to you if you miss on attack rolls with the weapon three times in a row. Each time you finish a long rest after that happens, you can attempt to regain the sword\u00e2\u20ac\u2122s trust by making a contested Charisma check against Snicker-Snack. If you win the contest, your attunement to the weapon is instantly restored. Your attunement to the weapon can\u00e2\u20ac\u2122t be restored in any other way.","effects": [{"actualEffect": {"bonus": 3,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "8c91d999-91d7-4d59-adff-8a240360ecb0","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Slashing","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "5704e7c9-e172-4146-bfa5-fab0abc66230","name": "+3 Dmg, ignore slashing res.","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Snicker-Snack","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": true,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Snicker-Snack","rarity": "LEGENDARY","requiresAttunement": true,"type": "WEAPON","value": 0.0,"valueCoin": "GOLD","weight": 12.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You gain a +3 bonus to attack and damage rolls made with this magic vorpal sword. In addition, the weapon ignores resistance to slashing damage.\n\nWhen you use this weapon to attack a creature that has at least one head and roll a 20 on the attack roll, you cut off one of the creature\u00e2\u20ac\u2122s heads. The creature dies if it can\u00e2\u20ac\u2122t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, it doesn\u00e2\u20ac\u2122t have or need a head, it has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.\n\nWhile attuned to Snicker-Snack, you have proficiency with greatswords, and you can use your Charisma modifier instead of your Strength modifier for attack and damage rolls made with the weapon.\n\nSentience: Snicker-Snack is a sentient, chaotic good greatsword with an Intelligence of 9, a Wisdom of 14, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet. It can speak, read, and understand Common, and its voice sounds silvery and melodic. Snicker-Snack craves the destruction of evil Dragons and urges you to seek out these creatures and slay them.\n\nSnicker-Snack has a fickle personality. It ends its attunement to you if you miss on attack rolls with the weapon three times in a row. Each time you finish a long rest after that happens, you can attempt to regain the sword\u00e2\u20ac\u2122s trust by making a contested Charisma check against Snicker-Snack. If you win the contest, your attunement to the weapon is instantly restored. Your attunement to the weapon can\u00e2\u20ac\u2122t be restored in any other way.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 3,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "8c91d999-91d7-4d59-adff-8a240360ecb0",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Slashing",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "5704e7c9-e172-4146-bfa5-fab0abc66230",
+      "name": "+3 Dmg, ignore slashing res.",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Snicker-Snack",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": true,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Snicker-Snack",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "WEAPON",
+  "value": 0.0,
+  "valueCoin": "GOLD",
+  "weight": 12.0,
+  "weightUnit": "POUNDS"
+}

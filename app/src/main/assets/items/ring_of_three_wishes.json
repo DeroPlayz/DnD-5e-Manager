@@ -1,7 +1,54 @@
-{"changesNameOnAttunement": false,"description": "While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.","effects": [{"actualEffect": {"spellId": "198","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 3,"id": "e0d85870-33e8-428d-b80b-6e8e08ab7942","name": "Wish","rechargeMoment": "LONG_REST","rechargeRate": {"constant": 0,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Ring_of_Three_Wishes","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Ring of Three Wishes","rarity": "LEGENDARY","requiresAttunement": false,"type": "RING","value": null,"weight": null,"valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "198",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 3,
+      "id": "e0d85870-33e8-428d-b80b-6e8e08ab7942",
+      "name": "Wish",
+      "rechargeMoment": "LONG_REST",
+      "rechargeRate": {
+        "constant": 0,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Ring_of_Three_Wishes",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Ring of Three Wishes",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": false,
+  "type": "RING",
+  "value": null,
+  "weight": null,
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

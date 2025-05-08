@@ -1,148 +1,148 @@
 {
-    "acModifier": "DEX",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "DEX",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn the esoteric rite Rite of the Dawn (detailed below).\n\nRite of the Dawn: Your rite damage is radiant damage. While the rite is active, you gain the following benefits:\n\n- Your weapon sheds bright light out to a radius of 20 feet.\n- You have resistance to necrotic damage.\n- Your weapon deals one additional hemocraft die of rite damage when you hit an undead",
+            "level": 3
+          }
+        ],
+        "id": "Customd1273f3d-1798-41b5-bc54-3c4eee4204fd",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Rite of the Dawn",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn the esoteric rite Rite of the Dawn (detailed below).\n\nRite of the Dawn: Your rite damage is radiant damage. While the rite is active, you gain the following benefits:\n\n- Your weapon sheds bright light out to a radius of 20 feet.\n- You have resistance to necrotic damage.\n- Your weapon deals one additional hemocraft die of rite damage when you hit an undead",
-                        "level": 3
-                    }
-                ],
-                "id": "Customd1273f3d-1798-41b5-bc54-3c4eee4204fd",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Rite of the Dawn",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "At the start of your turn, if you aren\u2019t incapacitated, you can choose to magically step into the veil between the planes.\n\nYou can move through other creatures and objects as if they were difficult terrain, as well as see and affect creatures and objects on the Ethereal Plane. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when this feature ends, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. This feature lasts for a number of rounds equal to your Intelligence modifier (minimum of 1 round).\n\nYou can use this feature once. You regain all expended uses when you finish a short or long rest",
-                        "level": 7
-                    },
-                    {
-                        "description": "At the start of your turn, if you aren\u2019t incapacitated, you can choose to magically step into the veil between the planes.\n\nYou can move through other creatures and objects as if they were difficult terrain, as well as see and affect creatures and objects on the Ethereal Plane. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when this feature ends, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. This feature lasts for a number of rounds equal to your Intelligence modifier (minimum of 1 round).\n\nYou can use this feature twice. You regain all expended uses when you finish a short or long rest",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom385205b8-40b4-4fbc-9309-19f302815543",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Ethereal Surge",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "At the start of your turn, if you aren\u2019t incapacitated, you can choose to magically step into the veil between the planes.\n\nYou can move through other creatures and objects as if they were difficult terrain, as well as see and affect creatures and objects on the Ethereal Plane. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when this feature ends, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. This feature lasts for a number of rounds equal to your Intelligence modifier (minimum of 1 round).\n\nYou can use this feature once. You regain all expended uses when you finish a short or long rest",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your Brand of Castigation now exposes a fragment of your foe\u2019s essence, leaving them vulnerable to your Crimson Rite. Whenever you damage a branded creature with your Crimson Rite, your weapon deals one additional hemocraft die of rite damage. In addition, the branded creature can\u2019t move through creatures or objects",
-                        "level": 11
-                    }
-                ],
-                "id": "Custom76eefe61-3d6e-4d8b-840a-da508f82dfa4",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Brand of Sundering",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 11
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You\u2019ve honed your hemocraft to tear wicked influence from your allies, punishing those who would infiltrate their body and mind. You gain the Blood Curse of the Exorcist for your Blood Maledict feature. This doesn\u2019t count against your number of blood curses known.\n\nBlood Curse of the Exorcist:\n\nAs a bonus action, you can choose one creature you can see within 30 feet of you that is charmed, frightened, or possessed. The target creature is no longer charmed, frightened, or possessed.\n\nAmplify: The creature that charmed, frightened, or possessed the target of your curse suffers 3d6 psychic damage and must make a Wisdom saving throw or be stunned until the end of your next turn",
-                        "level": 15
-                    }
-                ],
-                "id": "Customd8af3583-27b6-4e68-b100-ae0df61cb45a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Blood Course of the Exorcist",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "At the start of your turn, if you aren\u2019t incapacitated, you can choose to magically step into the veil between the planes.\n\nYou can move through other creatures and objects as if they were difficult terrain, as well as see and affect creatures and objects on the Ethereal Plane. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when this feature ends, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. This feature lasts for a number of rounds equal to your Intelligence modifier (minimum of 1 round).\n\nYou can use this feature twice. You regain all expended uses when you finish a short or long rest",
             "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn to protect your fading life by absorbing your blood rite. When you are reduced to 0 hit points while you have an active Crimson Rite, but don\u2019t die outright, the rite ends and you drop to 1 hit point instead. If you have rites active on multiple weapons, you choose which one ends",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom00d46ace-e774-4c66-8f05-ba14a644ff6a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Rite Revival",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom385205b8-40b4-4fbc-9309-19f302815543",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ethereal Surge",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your Brand of Castigation now exposes a fragment of your foe\u2019s essence, leaving them vulnerable to your Crimson Rite. Whenever you damage a branded creature with your Crimson Rite, your weapon deals one additional hemocraft die of rite damage. In addition, the branded creature can\u2019t move through creatures or objects",
+            "level": 11
+          }
+        ],
+        "id": "Custom76eefe61-3d6e-4d8b-840a-da508f82dfa4",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Brand of Sundering",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 11
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You\u2019ve honed your hemocraft to tear wicked influence from your allies, punishing those who would infiltrate their body and mind. You gain the Blood Curse of the Exorcist for your Blood Maledict feature. This doesn\u2019t count against your number of blood curses known.\n\nBlood Curse of the Exorcist:\n\nAs a bonus action, you can choose one creature you can see within 30 feet of you that is charmed, frightened, or possessed. The target creature is no longer charmed, frightened, or possessed.\n\nAmplify: The creature that charmed, frightened, or possessed the target of your curse suffers 3d6 psychic damage and must make a Wisdom saving throw or be stunned until the end of your next turn",
+            "level": 15
+          }
+        ],
+        "id": "Customd8af3583-27b6-4e68-b100-ae0df61cb45a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Blood Course of the Exorcist",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn to protect your fading life by absorbing your blood rite. When you are reduced to 0 hit points while you have an active Crimson Rite, but don\u2019t die outright, the rite ends and you drop to 1 hit point instead. If you have rites active on multiple weapons, you choose which one ends",
             "level": 18
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your ancient order teaches advanced mastery over blood curses. You gain an additional use of your Blood Maledict feature. In addition, your blood curses can target any creature, whether it has blood or not",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom6baaecf2-66bd-4080-b6f2-29998857b42b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Curse Specialist",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom00d46ace-e774-4c66-8f05-ba14a644ff6a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Rite Revival",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 18
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your ancient order teaches advanced mastery over blood curses. You gain an additional use of your Blood Maledict feature. In addition, your blood curses can target any creature, whether it has blood or not",
             "level": 3
-        }
-    ],
-    "hpModifier": "CON",
-    "id": "blood_hunter__egw__order_of_the_ghostslayer",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Order of the Ghostslayer",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "WIS",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom6baaecf2-66bd-4080-b6f2-29998857b42b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Curse Specialist",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    }
+  ],
+  "hpModifier": "CON",
+  "id": "blood_hunter__egw__order_of_the_ghostslayer",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Order of the Ghostslayer",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "WIS",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

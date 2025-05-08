@@ -1,4 +1,47 @@
-{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","bard","cleric","druid","paladin","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u2019s level. On a successful check, the spell ends.","duration": "Instantaneous","higher_levels": "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell\u2019s level is equal to or less than the level of the spell slot you used.","level": "3","name": "Dispel Magic","range": "120 feet","ritual": false,"school": "abjuration","tags": ["artificer__eb_","artificer__revised_","bard","cleric","druid","paladin","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level3"],
-"type": "3rd-level abjuration"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u2019s level. On a successful check, the spell ends.",
+  "duration": "Instantaneous",
+  "higher_levels": "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell\u2019s level is equal to or less than the level of the spell slot you used.",
+  "level": "3",
+  "name": "Dispel Magic",
+  "range": "120 feet",
+  "ritual": false,
+  "school": "abjuration",
+  "tags": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level3"
+  ],
+  "type": "3rd-level abjuration"
+}

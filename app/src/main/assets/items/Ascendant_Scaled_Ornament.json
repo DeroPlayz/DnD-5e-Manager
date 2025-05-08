@@ -1,12 +1,73 @@
-{"changesNameOnAttunement": false,"description": "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.\n\nYou gain a +1 bonus to AC, and you can't be charmed or frightened. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being charmed or frightened or to end those conditions on itself.\n\nWhen you would take damage of the type dealt by the breath of the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead, and you regain hit points equal to the damage you would have taken. Once this property is used, it can't be used again until the next dawn.\n\nWhile you are wearing the ornament, you gain a flying speed equal to your walking speed and can hover. While you are flying using this speed, spectral dragon wings appear on your back.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "39de2abc-d9ec-433c-a75b-924f08095ee9","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"charges": 1,"id": "d3ccc4ce-3a05-484a-8d97-8a4298609d8b","name": "Absorb Breath Damage Uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Ascendant_Scaled_Ornament","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Ascendant Scaled Ornament","rarity": "LEGENDARY","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.\n\nYou gain a +1 bonus to AC, and you can't be charmed or frightened. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being charmed or frightened or to end those conditions on itself.\n\nWhen you would take damage of the type dealt by the breath of the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead, and you regain hit points equal to the damage you would have taken. Once this property is used, it can't be used again until the next dawn.\n\nWhile you are wearing the ornament, you gain a flying speed equal to your walking speed and can hover. While you are flying using this speed, spectral dragon wings appear on your back.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "AC",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "39de2abc-d9ec-433c-a75b-924f08095ee9",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "charges": 1,
+      "id": "d3ccc4ce-3a05-484a-8d97-8a4298609d8b",
+      "name": "Absorb Breath Damage Uses",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Ascendant_Scaled_Ornament",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Ascendant Scaled Ornament",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

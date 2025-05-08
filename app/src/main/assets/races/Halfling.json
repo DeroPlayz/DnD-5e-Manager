@@ -1,19 +1,102 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 2,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "halfling","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Halfling"}],
-"name": "Halfling","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll","level": 1}],
-"id": "Custom8629c7ce-2dc5-4bd2-a38a-c8d7c3649ed1","isFeature": true,"jsonType": "feat","level": 1,"name": "Lucky","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against being frightened","level": 1}],
-"id": "Custome93dce37-9592-4d70-8e5d-60bb146aced2","isFeature": true,"jsonType": "feat","level": 1,"name": "Brave","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can move through the space of any creature that is of a size larger than yours","level": 1}],
-"id": "Custom3f515e60-f4a4-4437-927a-ce81f781d750","isFeature": true,"jsonType": "feat","level": 1,"name": "Hafling Nimbleness","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 2,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "halfling",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Halfling"
+    }
+  ],
+  "name": "Halfling",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 0,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 25,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll",
+            "level": 1
+          }
+        ],
+        "id": "Custom8629c7ce-2dc5-4bd2-a38a-c8d7c3649ed1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Lucky",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage on saving throws against being frightened",
+            "level": 1
+          }
+        ],
+        "id": "Custome93dce37-9592-4d70-8e5d-60bb146aced2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Brave",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can move through the space of any creature that is of a size larger than yours",
+            "level": 1
+          }
+        ],
+        "id": "Custom3f515e60-f4a4-4437-927a-ce81f781d750",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hafling Nimbleness",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

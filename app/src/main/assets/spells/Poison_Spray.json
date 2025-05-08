@@ -1,4 +1,40 @@
-{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.\n\nThis spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).","duration": "Instantaneous","level": "cantrip","name": "Poison Spray","range": "10 feet","ritual": false,"school": "Conjuration","tags": ["artificer__eb_","artificer__revised_","druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","cantrip"],
-"type": "Conjuration cantrip"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "druid",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.\n\nThis spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).",
+  "duration": "Instantaneous",
+  "level": "cantrip",
+  "name": "Poison Spray",
+  "range": "10 feet",
+  "ritual": false,
+  "school": "Conjuration",
+  "tags": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "druid",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "cantrip"
+  ],
+  "type": "Conjuration cantrip"
+}

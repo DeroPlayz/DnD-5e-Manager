@@ -1,31 +1,31 @@
 {
-    "descriptionModels": [
-        {
-            "description": "When an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
-            "level": 5
-        },
-        {
-            "description": "When an undead of CR 1 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
-            "level": 8
-        },
-        {
-            "description": "When an undead of CR 2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
-            "level": 11
-        },
-        {
-            "description": "When an undead of CR 3 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
-            "level": 14
-        },
-        {
-            "description": "When an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
-            "level": 17
-        }
-    ],
-    "id": "Custom9766c207-9ba2-472c-9bfe-7187f9cecf72",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Destroy Undead",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "When an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
+      "level": 5
+    },
+    {
+      "description": "When an undead of CR 1 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
+      "level": 8
+    },
+    {
+      "description": "When an undead of CR 2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
+      "level": 11
+    },
+    {
+      "description": "When an undead of CR 3 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
+      "level": 14
+    },
+    {
+      "description": "When an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed",
+      "level": 17
+    }
+  ],
+  "id": "Custom9766c207-9ba2-472c-9bfe-7187f9cecf72",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Destroy Undead",
+  "notes": "",
+  "type": "Feat"
 }

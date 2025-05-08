@@ -1,9 +1,88 @@
-{"ac":12,"actions":[{"description":"The fiend makes a number of attacks equal to half this spell\u0027s level (rounded down)","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"Your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell\u0027s level necrotic damage","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite (Demon only)","type":"MELEE"},
-{"description":"Your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 3 + the spell\u0027s level slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claws (Yugoloth only)","type":"MELEE"},
-{"description":"Your spell attack modifier to hit, range 150 ft., one target. Hit: 2d6 + 3 + the spell\u0027s level fire damage. If the target is a flammable object that isn\u0027t being worn or carried, it also catches fire","id":-1,"isLegendary":false,"monsterId":-1,"name":"Hurl Flame (Devil only)","type":"RANGED"}],
-"alignment":"Unaligned","burrowSpeed":0,"cha":16,"climbSpeed":40,"con":15,"conditionImmunities":"poisoned","cr":"0","damageImmunities":"poison","dex":16,"flySpeed":60,"hp":{"constant":50,"diceAmount":0,"diceType":"D4"},
-"id":-1,"int":10,"isLocked":false,"jsonType":"monster","languages":"Abyssal, Infernal, telepathy 60 ft.","name":"Fiendish Spirit","resistances":"fire","senses":"darkvision 60 ft., passive Perception 10","size":"Large","specialTraits":[{"description":"The fiend has advantage on saving throws against spells and other magical effects","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + this spell\u0027s level fire damage on a failed save, or half as much damage on a successful one","id":-1,"monsterId":-1,"name":"Death Throes (Demon only)"},
-{"description":"Magical darkness doesn\u0027t impede the fiend\u0027s darkvision","id":-1,"monsterId":-1,"name":"Devil\u0027s Sight (Devil only)"}],
-"speed":40,"str":13,"swimSpeed":0,"tag":"","type":"Fiend","wis":10,"xp":10}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The fiend makes a number of attacks equal to half this spell's level (rounded down)",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "Your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the spell's level necrotic damage",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite (Demon only)",
+      "type": "MELEE"
+    },
+    {
+      "description": "Your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 3 + the spell's level slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claws (Yugoloth only)",
+      "type": "MELEE"
+    },
+    {
+      "description": "Your spell attack modifier to hit, range 150 ft., one target. Hit: 2d6 + 3 + the spell's level fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Hurl Flame (Devil only)",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "Unaligned",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 40,
+  "con": 15,
+  "conditionImmunities": "poisoned",
+  "cr": "0",
+  "damageImmunities": "poison",
+  "dex": 16,
+  "flySpeed": 60,
+  "hp": {
+    "constant": 50,
+    "diceAmount": 0,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": false,
+  "jsonType": "monster",
+  "languages": "Abyssal, Infernal, telepathy 60 ft.",
+  "name": "Fiendish Spirit",
+  "resistances": "fire",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "size": "Large",
+  "specialTraits": [
+    {
+      "description": "The fiend has advantage on saving throws against spells and other magical effects",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes 2d10 + this spell's level fire damage on a failed save, or half as much damage on a successful one",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Death Throes (Demon only)"
+    },
+    {
+      "description": "Magical darkness doesn't impede the fiend's darkvision",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Devil's Sight (Devil only)"
+    }
+  ],
+  "speed": 40,
+  "str": 13,
+  "swimSpeed": 0,
+  "tag": "",
+  "type": "Fiend",
+  "wis": 10,
+  "xp": 10
+}

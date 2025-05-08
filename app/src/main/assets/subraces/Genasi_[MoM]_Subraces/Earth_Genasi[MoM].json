@@ -1,17 +1,122 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom2c411a33-f872-4b5f-8280-27d279a2525b","jsonType": "race","languages": [],
-"name": "Earth Genasi [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard","components": "V, S","description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.","duration": "1 Round","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 0,"name": "Blade Ward","notes": "","pinned": false,"prepared": false,"range": "Self","school": "Abjuration","type": "Abjuration cantrip"}},
-{"level": 5,"spellModel": {"castingTime": "1 action","classes": "druid, ranger__revised__, revised_ranger, ranger","components": "V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)","description": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can\u00e2\u20ac\u2122t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.","duration": "Concentration, up to 1 hour","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Pass Without Trace","notes": "","pinned": false,"prepared": false,"range": "Self","school": "abjuration","type": "2nd-level abjuration"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor","level": 1}],
-"id": "Customf455c908-088e-4ec0-a317-788b8c21bfc6","isFeature": true,"jsonType": "feat","level": 1,"name": "Earth Walk","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the blade ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 1},
-{"description": "You know the blade ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.\n\nStarting at 5th level, you can cast the pass without trace spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 5}],
-"id": "Custom9ffcdf7f-e34f-4b0d-8bd7-63be828ad173","isFeature": true,"jsonType": "feat","level": 1,"name": "Merge with Stone","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom2c411a33-f872-4b5f-8280-27d279a2525b",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Earth Genasi [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
+        "duration": "1 Round",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Blade Ward",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "Abjuration",
+        "type": "Abjuration cantrip"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)",
+        "description": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can\u00e2\u20ac\u2122t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Pass Without Trace",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "abjuration",
+        "type": "2nd-level abjuration"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can move across difficult terrain without expending extra movement if you are using your walking speed on the ground or a floor",
+            "level": 1
+          }
+        ],
+        "id": "Customf455c908-088e-4ec0-a317-788b8c21bfc6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Earth Walk",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know the blade ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 1
+          },
+          {
+            "description": "You know the blade ward cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.\n\nStarting at 5th level, you can cast the pass without trace spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 5
+          }
+        ],
+        "id": "Custom9ffcdf7f-e34f-4b0d-8bd7-63be828ad173",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Merge with Stone",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

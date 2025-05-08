@@ -1,26 +1,195 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom2f9ca25a-8d1a-4df0-9dd2-5d0f8f69aff1","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Githyanki [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard","components": "V, S","description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u00e2\u20ac\u2122t attack, activate magic items, or carry more than 10 pounds.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 0,"name": "Mage Hand","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "Conjuration","type": "Conjuration cantrip"}},
-{"level": 3,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard","components": "V, S, M (a grasshopper's hind leg)","description": "You touch a creature. The creature's jump distance is tripled until the spell ends.","duration": "1 minute","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 1,"name": "Jump","notes": "","pinned": false,"prepared": false,"range": "Touch","school": "transmutation","type": "1st-level transmutation"}},
-{"level": 5,"spellModel": {"castingTime": "1 bonus action","classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard","components": "V","description": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.","duration": "Instantaneous","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Misty Step","notes": "","pinned": false,"prepared": false,"range": "Self","school": "conjuration","type": "2nd-level conjuration"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom9feeaa09-bea3-4bd0-aa7d-6ad990a8ecc5","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest","level": 1}],
-"id": "Customa7a84f8e-582f-463d-a8f6-a23fb6c61939","isFeature": true,"jsonType": "feat","level": 1,"name": "Astral Knowledge","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait","level": 1},
-{"description": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nStarting at 3rd level, you can cast the jump spell with this trait. Once you cast jump with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait","level": 3},
-{"description": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nStarting at 3rd level, you can cast the jump spell with this trait. Starting at 5th level, you can also cast misty step with it. Once you cast jump or misty step with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait","level": 5}],
-"id": "Custome02ab0f9-9bb5-4b84-b56c-5f807164e73b","isFeature": true,"jsonType": "feat","level": 1,"name": "Githyanki Psionics","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have resistance to psychic damage","level": 1}],
-"id": "Custom5f8c6dc4-a2f8-4f2d-9290-2694ca4f6555","isFeature": true,"jsonType": "feat","level": 1,"name": "Psychic Resilience","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom2f9ca25a-8d1a-4df0-9dd2-5d0f8f69aff1",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Githyanki [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u00e2\u20ac\u2122t attack, activate magic items, or carry more than 10 pounds.",
+        "duration": "1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Mage Hand",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "Conjuration",
+        "type": "Conjuration cantrip"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a grasshopper's hind leg)",
+        "description": "You touch a creature. The creature's jump distance is tripled until the spell ends.",
+        "duration": "1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Jump",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "transmutation",
+        "type": "1st-level transmutation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V",
+        "description": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Misty Step",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "conjuration",
+        "type": "2nd-level conjuration"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom9feeaa09-bea3-4bd0-aa7d-6ad990a8ecc5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest",
+            "level": 1
+          }
+        ],
+        "id": "Customa7a84f8e-582f-463d-a8f6-a23fb6c61939",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Astral Knowledge",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait",
+            "level": 1
+          },
+          {
+            "description": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nStarting at 3rd level, you can cast the jump spell with this trait. Once you cast jump with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait",
+            "level": 3
+          },
+          {
+            "description": "You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nStarting at 3rd level, you can cast the jump spell with this trait. Starting at 5th level, you can also cast misty step with it. Once you cast jump or misty step with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait",
+            "level": 5
+          }
+        ],
+        "id": "Custome02ab0f9-9bb5-4b84-b56c-5f807164e73b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Githyanki Psionics",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to psychic damage",
+            "level": 1
+          }
+        ],
+        "id": "Custom5f8c6dc4-a2f8-4f2d-9290-2694ca4f6555",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Psychic Resilience",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

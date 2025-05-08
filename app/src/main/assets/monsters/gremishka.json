@@ -1,4 +1,48 @@
-{"ac":12,"actions":[{"description":" 4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage plus 3 (1d6) force damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":4,"climbSpeed":0,"con":10,"conditionImmunities":null,"cr":"1/8","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":null,"diceAmount":4,"diceType":"D4"},
-"id":-1,"int":12,"isLocked":true,"jsonType":"monster","languages":"understands Common but can't speak","name":"Gremishka","resistances":null,"savingThrows":null,"senses":"darkvision 30 ft.","size":"Tiny","skills":null,"specialTraits":[],
-"speed":30,"str":6,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":11,"xp":25}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": " 4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage plus 3 (1d6) force damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 4,
+  "climbSpeed": 0,
+  "con": 10,
+  "conditionImmunities": null,
+  "cr": "1/8",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 4,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 12,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands Common but can't speak",
+  "name": "Gremishka",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 30 ft.",
+  "size": "Tiny",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 6,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 11,
+  "xp": 25
+}

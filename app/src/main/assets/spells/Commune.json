@@ -1,5 +1,27 @@
-{"casting_time": "1 minute","classes": ["cleric"],
-"components": {"material": true,"materials_needed": ["incense and a vial of holy or unholy water"],
-"raw": "V, S, M (incense and a vial of holy or unholy water)","somatic": true,"verbal": true},
-"description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.","duration": "1 minute","level": "5","name": "Commune","range": "Self","ritual": true,"school": "divination","tags": ["cleric","level5"],
-"type": "5th-level divination (ritual)"}
+{
+  "casting_time": "1 minute",
+  "classes": [
+    "cleric"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "incense and a vial of holy or unholy water"
+    ],
+    "raw": "V, S, M (incense and a vial of holy or unholy water)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.",
+  "duration": "1 minute",
+  "level": "5",
+  "name": "Commune",
+  "range": "Self",
+  "ritual": true,
+  "school": "divination",
+  "tags": [
+    "cleric",
+    "level5"
+  ],
+  "type": "5th-level divination (ritual)"
+}

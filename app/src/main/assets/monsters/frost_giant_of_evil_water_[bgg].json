@@ -1,6 +1,71 @@
-{"ac":16,"actions":[{"description":"The giant makes two Battleaxe attacks and one Harpoon attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"10 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) slashing damage, or 22 (3d10 + 6) slashing damage if used with two hands, plus 7 (2d6) cold damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Battleaxe","type":"MELEE"},
-{"description":"7 to hit, range 50/200 ft., one creature. Hit: 14 (2d10 + 3) piercing damage, and the target has the grappled condition (escape DC 16). While the target is grappled this way, its speed isn't reduced, but it can't move farther from the giant. The target takes 5 (1d10) slashing damage if it escapes from the grapple or if it tries and fails. The giant can grapple only one target at a time with its harpoon.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Harpoon","type":"RANGED"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":12,"climbSpeed":0,"con":21,"conditionImmunities":null,"cr":"11","damageImmunities":"cold","dex":16,"flySpeed":0,"hp":{"constant":75,"diceAmount":15,"diceType":"D12"},
-"id":-1,"int":9,"isLocked":true,"jsonType":"monster","languages":"Aquan, Common, Giant","name":"Frost Giant of Evil Water [BGG]","resistances":null,"savingThrows":"Dex +7, Con +9, Wis +6","senses":null,"size":"Huge","skills":null,"specialTraits":[{"description":"The giant can breathe air and water.","id":-1,"monsterId":-1,"name":"Amphibious"}],
-"speed":40,"str":23,"swimSpeed":40,"tag":null,"type":"Giant","vulnerabilities":null,"wis":14,"xp":7200}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The giant makes two Battleaxe attacks and one Harpoon attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "10 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) slashing damage, or 22 (3d10 + 6) slashing damage if used with two hands, plus 7 (2d6) cold damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Battleaxe",
+      "type": "MELEE"
+    },
+    {
+      "description": "7 to hit, range 50/200 ft., one creature. Hit: 14 (2d10 + 3) piercing damage, and the target has the grappled condition (escape DC 16). While the target is grappled this way, its speed isn't reduced, but it can't move farther from the giant. The target takes 5 (1d10) slashing damage if it escapes from the grapple or if it tries and fails. The giant can grapple only one target at a time with its harpoon.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Harpoon",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 12,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": null,
+  "cr": "11",
+  "damageImmunities": "cold",
+  "dex": 16,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 75,
+    "diceAmount": 15,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 9,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Aquan, Common, Giant",
+  "name": "Frost Giant of Evil Water [BGG]",
+  "resistances": null,
+  "savingThrows": "Dex +7, Con +9, Wis +6",
+  "senses": null,
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The giant can breathe air and water.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amphibious"
+    }
+  ],
+  "speed": 40,
+  "str": 23,
+  "swimSpeed": 40,
+  "tag": null,
+  "type": "Giant",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 7200
+}

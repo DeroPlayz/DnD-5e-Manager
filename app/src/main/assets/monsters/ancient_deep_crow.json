@@ -1,11 +1,109 @@
-{"ac":18,"actions":[{"description":"The ancient deep crow makes three attacks: one with its mandibles and two with its claws.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mandibles","type":"MELEE"},
-{"description":" 11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a DC 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shadow Caw","type":"NONE"},
-{"description":"The deep crow makes a Wisdom (Perception) check.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Detect","type":"NONE"},
-{"description":"The ancient deep crow uses Shadow Caw.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Shadow Caw (Costs 2 Actions)","type":"NONE"},
-{"description":"The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Wing Attack (Costs 2 Actions)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":19,"climbSpeed":0,"con":23,"conditionImmunities":null,"cr":"15","damageImmunities":null,"dex":16,"flySpeed":80,"hp":{"constant":90,"diceAmount":15,"diceType":"D12"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Deep Crow","name":"Ancient Deep Crow","resistances":"bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Con +11, Wis +7","senses":"blindsight 60 ft., darkvision 120 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"The ancient deep crow has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"While in dim light or darkness, the ancient deep crow can take the Hide action as a bonus action.","id":-1,"monsterId":-1,"name":"Shadow Stealth"}],
-"speed":20,"str":23,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":15,"xp":13000}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The ancient deep crow makes three attacks: one with its mandibles and two with its claws.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Mandibles",
+      "type": "MELEE"
+    },
+    {
+      "description": " 11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a DC 17 Constitution saving throw. On a failure, a creature takes 10 (3d6) psychic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Shadow Caw",
+      "type": "NONE"
+    },
+    {
+      "description": "The deep crow makes a Wisdom (Perception) check.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Detect",
+      "type": "NONE"
+    },
+    {
+      "description": "The ancient deep crow uses Shadow Caw.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Shadow Caw (Costs 2 Actions)",
+      "type": "NONE"
+    },
+    {
+      "description": "The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The ancient deep crow can then fly up to half its flying speed.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Wing Attack (Costs 2 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 19,
+  "climbSpeed": 0,
+  "con": 23,
+  "conditionImmunities": null,
+  "cr": "15",
+  "damageImmunities": null,
+  "dex": 16,
+  "flySpeed": 80,
+  "hp": {
+    "constant": 90,
+    "diceAmount": 15,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Deep Crow",
+  "name": "Ancient Deep Crow",
+  "resistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Con +11, Wis +7",
+  "senses": "blindsight 60 ft., darkvision 120 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The ancient deep crow has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "While in dim light or darkness, the ancient deep crow can take the Hide action as a bonus action.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Shadow Stealth"
+    }
+  ],
+  "speed": 20,
+  "str": 23,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 13000
+}

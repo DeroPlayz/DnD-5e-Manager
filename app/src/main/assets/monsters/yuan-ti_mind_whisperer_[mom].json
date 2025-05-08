@@ -1,10 +1,99 @@
-{"ac":14,"actions":[{"description":"The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes two Spectral Fangs attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Scimitar (Yuan-ti Form Only)","type":"MELEE"},
-{"description":"5 to hit, range 120 ft., one target. Hit: 16 (3d8 + 3) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spectral Fangs","type":"NONE"},
-{"description":"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 13):\nAt will: animal friendship (snakes only), message, minor illusion, prestidigitation\n\n3/day each: suggestion\n\n2/day each: detect thoughts, hypnotic pattern","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting (Yuan-ti Form Only)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":13,"conditionImmunities":"poisoned","cr":"4","damageImmunities":"poison","dex":14,"flySpeed":0,"hp":{"constant":13,"diceAmount":13,"diceType":"D8"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":"Abyssal, Common, Draconic","name":"Yuan-ti Mind Whisperer [MoM]","resistances":null,"savingThrows":"Wis +4, Cha +5","senses":"darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"Magical darkness doesn't impede the yuan-ti's darkvision.","id":-1,"monsterId":-1,"name":"Devil's Sight"},
-{"description":"The yuan-ti has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains 9 temporary hit points.","id":-1,"monsterId":-1,"name":"Sseth's Blessing"}],
-"speed":30,"str":16,"swimSpeed":0,"tag":"warlock","type":"Monstrosity","vulnerabilities":null,"wis":14,"xp":1100}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes two Spectral Fangs attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Scimitar (Yuan-ti Form Only)",
+      "type": "MELEE"
+    },
+    {
+      "description": "5 to hit, range 120 ft., one target. Hit: 16 (3d8 + 3) psychic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spectral Fangs",
+      "type": "NONE"
+    },
+    {
+      "description": "The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 13):\nAt will: animal friendship (snakes only), message, minor illusion, prestidigitation\n\n3/day each: suggestion\n\n2/day each: detect thoughts, hypnotic pattern",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting (Yuan-ti Form Only)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": "poisoned",
+  "cr": "4",
+  "damageImmunities": "poison",
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 13,
+    "diceAmount": 13,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Abyssal, Common, Draconic",
+  "name": "Yuan-ti Mind Whisperer [MoM]",
+  "resistances": null,
+  "savingThrows": "Wis +4, Cha +5",
+  "senses": "darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "Magical darkness doesn't impede the yuan-ti's darkvision.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Devil's Sight"
+    },
+    {
+      "description": "The yuan-ti has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains 9 temporary hit points.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Sseth's Blessing"
+    }
+  ],
+  "speed": 30,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": "warlock",
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 1100
+}

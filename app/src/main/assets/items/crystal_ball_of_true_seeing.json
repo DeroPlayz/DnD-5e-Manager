@@ -1,6 +1,46 @@
-{"changesNameOnAttunement": false,"description": "This crystal ball is about 6 inches in diameter. While touching it, you can cast the scrying spell (save DC 17) with it.\n\nWhile scrying with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.","effects": [{"actualEffect": {"spellId": "317","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "0f95ad9b-16ff-4655-a354-584ded1bc429","name": "Cast Scrying","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Crystal_Ball_of_True_Seeing","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Crystal Ball of True Seeing","rarity": "LEGENDARY","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weight": 3.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This crystal ball is about 6 inches in diameter. While touching it, you can cast the scrying spell (save DC 17) with it.\n\nWhile scrying with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "317",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "0f95ad9b-16ff-4655-a354-584ded1bc429",
+      "name": "Cast Scrying",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Crystal_Ball_of_True_Seeing",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Crystal Ball of True Seeing",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weight": 3.0,
+  "weightUnit": "OUNCES"
+}

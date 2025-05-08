@@ -1,21 +1,111 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom64244b2a-9ab1-46cc-98f7-6b1c066fc662","jsonType": "race","languages": [],
-"name": "Sea Hag","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,intimidation"}],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can breathe both air and water","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Amphibious","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As an action, target one creature you can see within 30 feet. If the target can see you, it must succeed on a Wisdom saving throw against this magic or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if you are within line of sight, ending the effect on itself on a success. You regain use of this trait once you complete a short or long rest","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Death Glare","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You are proficient in the Intimidation skill","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Horrific Appearance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your creature type is both humanoid and fey","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Sea Hag Blood","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom64244b2a-9ab1-46cc-98f7-6b1c066fc662",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Sea Hag",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,intimidation"
+    }
+  ],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "CHA",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can breathe both air and water",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Amphibious",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, target one creature you can see within 30 feet. If the target can see you, it must succeed on a Wisdom saving throw against this magic or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if you are within line of sight, ending the effect on itself on a success. You regain use of this trait once you complete a short or long rest",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Death Glare",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You are proficient in the Intimidation skill",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Horrific Appearance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your creature type is both humanoid and fey",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Sea Hag Blood",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

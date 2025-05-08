@@ -1,7 +1,51 @@
-{"changesNameOnAttunement": false,"description": "While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of 1d8.\n\nCurse\nOnce you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "248d9f57-11c3-49ac-a015-f8d62b61babc","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Demon_Armor","isAmmunition": false,"isCursed": true,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Demon Armor","rarity": "VERY_RARE","requiresAttunement": true,"type": "ARMOR","valueCoin": "GOLD","weight": 65.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of 1d8.\n\nCurse\nOnce you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "AC",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "248d9f57-11c3-49ac-a015-f8d62b61babc",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Demon_Armor",
+  "isAmmunition": false,
+  "isCursed": true,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Demon Armor",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "ARMOR",
+  "valueCoin": "GOLD",
+  "weight": 65.0,
+  "weightUnit": "POUNDS"
+}

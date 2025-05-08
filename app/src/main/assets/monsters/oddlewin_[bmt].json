@@ -1,7 +1,77 @@
-{"ac":13,"actions":[{"description":"4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Fool's Scepter","type":"MELEE"},
-{"description":"Oddlewin conjures magical cards that slash at the air in a 5-foot cube within 60 feet of Oddlewin until the start of Oddlewin's next turn. A creature that starts its turn in the cube or that enters that area for the first time on a turn takes 10 (4d4) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Cloud of Cards","type":"NONE"},
-{"description":"Oddlewin casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 12):\nAt will: Mage Hand, Tasha's Hideous Laughter","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"Chaotic Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":10,"conditionImmunities":"charmed","cr":"2","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":null,"diceAmount":6,"diceType":"D6"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common, Goblin, Sylvan","name":"Oddlewin [BMT]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Small","skills":null,"specialTraits":[{"description":"Oddlewin can cast the Augury spell as a ritual, using cards as the material component.","id":-1,"monsterId":-1,"name":"Fortune Teller"},
-{"description":"Any creature that attempts to damage Oddlewin must first succeed on a DC 12 Charisma saving throw or have the charmed condition until the end of the creature's next turn. The creature must use its action praising Oddlewin.\n\nOddlewin can't regain hit points, including through magical healing, except through his Reversal of Fortune reaction.","id":-1,"monsterId":-1,"name":"Nilbogism"}],
-"speed":30,"str":8,"swimSpeed":0,"tag":"goblinoid","type":"Fey","vulnerabilities":null,"wis":16,"xp":450}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Fool's Scepter",
+      "type": "MELEE"
+    },
+    {
+      "description": "Oddlewin conjures magical cards that slash at the air in a 5-foot cube within 60 feet of Oddlewin until the start of Oddlewin's next turn. A creature that starts its turn in the cube or that enters that area for the first time on a turn takes 10 (4d4) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Cloud of Cards",
+      "type": "NONE"
+    },
+    {
+      "description": "Oddlewin casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 12):\nAt will: Mage Hand, Tasha's Hideous Laughter",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Neutral",
+  "burrowSpeed": 0,
+  "cha": 15,
+  "climbSpeed": 0,
+  "con": 10,
+  "conditionImmunities": "charmed",
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 6,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Goblin, Sylvan",
+  "name": "Oddlewin [BMT]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "Oddlewin can cast the Augury spell as a ritual, using cards as the material component.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Fortune Teller"
+    },
+    {
+      "description": "Any creature that attempts to damage Oddlewin must first succeed on a DC 12 Charisma saving throw or have the charmed condition until the end of the creature's next turn. The creature must use its action praising Oddlewin.\n\nOddlewin can't regain hit points, including through magical healing, except through his Reversal of Fortune reaction.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Nilbogism"
+    }
+  ],
+  "speed": 30,
+  "str": 8,
+  "swimSpeed": 0,
+  "tag": "goblinoid",
+  "type": "Fey",
+  "vulnerabilities": null,
+  "wis": 16,
+  "xp": 450
+}

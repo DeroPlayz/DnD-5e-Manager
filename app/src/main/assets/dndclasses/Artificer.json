@@ -1,255 +1,255 @@
 {
-    "acModifier": "DEX",
-    "archetypeSelectionLevel": 1,
-    "armorProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Medium Armor"
-        }
-    ],
-    "attacksByLevel": [
-        {
-            "amount": 1,
-            "level": 1
-        }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Handaxe and Light Hammer",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Simple weapon",
-                    "number": 2
-                }
-            ],
-            "id": "93bd8750-049a-4f43-8e58-2e1deceacd4b"
-        },
-        {
-            "amountOfChoice": 2,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Light Crossbow",
-                    "number": 1
-                },
-                {
-                    "ammunitionTypeName": "Bolt",
-                    "description": "",
-                    "name": "Bolt",
-                    "number": 20
-                }
-            ],
-            "id": "4fb141a4-90cd-4ce4-a907-51ef4657044b"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Scale Mail",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Studded Leather Armor",
-                    "number": 1
-                }
-            ],
-            "id": "a2a4d410-d26b-4f0b-bf72-ac02cf82f041"
-        },
-        {
-            "amountOfChoice": 2,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Thieves' Tools",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Dungeoneer's Pack",
-                    "number": 1
-                }
-            ],
-            "id": "f29f808e-9f6a-4942-a6da-2575e83b8cf0"
-        }
-    ],
-    "classSkills": [
-        {
-            "amountOfChoice": 3,
-            "id": "cbeb0932-de3b-49bd-b824-06a2fcb83906",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Arcana",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Deception",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "History",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Investigation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Medicine",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Nature",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Religion",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Sleight of Hand",
-                    "typeName": "SKILL"
-                }
-            ]
-        }
-    ],
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "DEX",
+  "archetypeSelectionLevel": 1,
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Light Armor"
     },
-    "effectiveCasterLevel": "HALF",
-    "features": [],
-    "hitDie": "D8",
-    "hpModifier": "CON",
-    "id": "artificer",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Class",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Artificer",
-    "savingThrows": {
-        "cha": false,
-        "con": true,
-        "dex": false,
-        "intelligence": true,
-        "str": false,
-        "wis": false
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Medium Armor"
+    }
+  ],
+  "attacksByLevel": [
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Handaxe and Light Hammer",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Simple weapon",
+          "number": 2
+        }
+      ],
+      "id": "93bd8750-049a-4f43-8e58-2e1deceacd4b"
     },
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "INT",
-    "spells": [
+    {
+      "amountOfChoice": 2,
+      "equipmentsModels": [
         {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "Artificer__revised_, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
-                "components": "V, S",
-                "description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Detect Magic",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "1st-level divination (Ritual)"
-            }
+          "description": "",
+          "name": "Light Crossbow",
+          "number": 1
         },
         {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "Artificer__revised_, Bard, Wizard",
-                "components": "V, S, M (a pearl worth at least 100 gp and an owl feather)",
-                "description": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\n\nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Identify",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "divination",
-                "type": "1st-level divination (Ritual)"
-            }
+          "ammunitionTypeName": "Bolt",
+          "description": "",
+          "name": "Bolt",
+          "number": 20
         }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [
+      ],
+      "id": "4fb141a4-90cd-4ce4-a907-51ef4657044b"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Thieves' Tools"
+          "description": "",
+          "name": "Scale Mail",
+          "number": 1
         },
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1"
+          "description": "",
+          "name": "Studded Leather Armor",
+          "number": 1
         }
-    ],
-    "weaponProficiencies": [
+      ],
+      "id": "a2a4d410-d26b-4f0b-bf72-ac02cf82f041"
+    },
+    {
+      "amountOfChoice": 2,
+      "equipmentsModels": [
         {
-            "hint": "",
-            "level": 2,
-            "proficiency": "all_simple"
+          "description": "",
+          "name": "Thieves' Tools",
+          "number": 1
         },
         {
-            "hint": "",
-            "level": 2,
-            "proficiency": "Crossbow, hand"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Crossbow, heavy"
+          "description": "",
+          "name": "Dungeoneer's Pack",
+          "number": 1
         }
-    ]
+      ],
+      "id": "f29f808e-9f6a-4942-a6da-2575e83b8cf0"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 3,
+      "id": "cbeb0932-de3b-49bd-b824-06a2fcb83906",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "History",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Investigation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Medicine",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Nature",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Sleight of Hand",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "HALF",
+  "features": [],
+  "hitDie": "D8",
+  "hpModifier": "CON",
+  "id": "artificer",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Class",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Artificer",
+  "savingThrows": {
+    "cha": false,
+    "con": true,
+    "dex": false,
+    "intelligence": true,
+    "str": false,
+    "wis": false
+  },
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "INT",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Artificer__revised_, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+        "components": "V, S",
+        "description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Detect Magic",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "1st-level divination (Ritual)"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "Artificer__revised_, Bard, Wizard",
+        "components": "V, S, M (a pearl worth at least 100 gp and an owl feather)",
+        "description": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\n\nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Identify",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "divination",
+        "type": "1st-level divination (Ritual)"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Thieves' Tools"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 2,
+      "proficiency": "all_simple"
+    },
+    {
+      "hint": "",
+      "level": 2,
+      "proficiency": "Crossbow, hand"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Crossbow, heavy"
+    }
+  ]
 }

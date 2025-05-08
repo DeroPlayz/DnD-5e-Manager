@@ -1,7 +1,69 @@
-{"ac":11,"actions":[{"description":"The beast makes a number of attacks equal to half this spell\u0027s level (rounded down)","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"Your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell\u0027s level piercing damage","id":-1,"isLegendary":false,"monsterId":-1,"name":"Maul","type":"MELEE"}],
-"alignment":"Unaligned","burrowSpeed":0,"cha":5,"climbSpeed":30,"con":16,"cr":"0","dex":11,"flySpeed":60,"hp":{"constant":30,"diceAmount":0,"diceType":"D4"},
-"id":-1,"int":4,"isLocked":false,"jsonType":"monster","languages":"understands the languages its summoner speaks","name":"Bestial Spirit","senses":"darkvision 60 ft., passive Perception 12","size":"Small","specialTraits":[{"description":"The beast doesn\u0027t provoke opportunity attacks when it flies out of an enemy\u0027s reach","id":-1,"monsterId":-1,"name":"Flyby (Air only)"},
-{"description":"The beast has advantage on an attack roll against a creature if at least one of the beast\u0027s allies is within 5 feet of the creature and the ally isn\u0027t incapacitated","id":-1,"monsterId":-1,"name":"Pack Tactics (Land and Water only)"},
-{"description":"The beast can breathe only underwater","id":-1,"monsterId":-1,"name":"Water Breathing (Water only)"}],
-"speed":30,"str":18,"swimSpeed":30,"tag":"","type":"Beast","wis":14,"xp":10}
+{
+  "ac": 11,
+  "actions": [
+    {
+      "description": "The beast makes a number of attacks equal to half this spell's level (rounded down)",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "Your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the spell's level piercing damage",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Maul",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Unaligned",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 30,
+  "con": 16,
+  "cr": "0",
+  "dex": 11,
+  "flySpeed": 60,
+  "hp": {
+    "constant": 30,
+    "diceAmount": 0,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 4,
+  "isLocked": false,
+  "jsonType": "monster",
+  "languages": "understands the languages its summoner speaks",
+  "name": "Bestial Spirit",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "size": "Small",
+  "specialTraits": [
+    {
+      "description": "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Flyby (Air only)"
+    },
+    {
+      "description": "The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't incapacitated",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Pack Tactics (Land and Water only)"
+    },
+    {
+      "description": "The beast can breathe only underwater",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Water Breathing (Water only)"
+    }
+  ],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 30,
+  "tag": "",
+  "type": "Beast",
+  "wis": 14,
+  "xp": 10
+}

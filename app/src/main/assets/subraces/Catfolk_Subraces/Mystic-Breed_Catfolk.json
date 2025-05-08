@@ -1,18 +1,100 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 2,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customa8767b13-3f14-4cb1-8138-b7231dec7f24","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Choose 1 Extra"}],
-"name": "Mystic-Breed Catfolk","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,arcana"}],
-"speed": {"burrow": 0,"climb": 20,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You know one cantrip of your choice from the wizard spell list, and can cast it at will. Intelligence is your spellcasting ability for this cantrip","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Cat's Mysticism","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You are proficient in the Arcana skill","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Student of Magic","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can speak, read, and write one language of your choice","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Extra Language","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 2,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Customa8767b13-3f14-4cb1-8138-b7231dec7f24",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1 Extra"
+    }
+  ],
+  "name": "Mystic-Breed Catfolk",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,arcana"
+    }
+  ],
+  "speed": {
+    "burrow": 0,
+    "climb": 20,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know one cantrip of your choice from the wizard spell list, and can cast it at will. Intelligence is your spellcasting ability for this cantrip",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Cat's Mysticism",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You are proficient in the Arcana skill",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Student of Magic",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can speak, read, and write one language of your choice",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Extra Language",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

@@ -1,11 +1,47 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 2,"str": 0,"wis": 1},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom72804bcb-865f-4ab1-b4dc-c685929ea1c6","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Vedalken"}],
-"name": "Vedalken","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 2,
+    "str": 0,
+    "wis": 1
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom72804bcb-865f-4ab1-b4dc-c685929ea1c6",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Vedalken"
+    }
+  ],
+  "name": "Vedalken",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 0,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [],
+  "weaponProficiencies": []
+}

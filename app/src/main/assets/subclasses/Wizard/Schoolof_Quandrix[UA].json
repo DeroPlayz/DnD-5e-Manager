@@ -1,414 +1,414 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class",
+            "level": 1
+          },
+          {
+            "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth",
+            "level": 3
+          },
+          {
+            "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth\n5th -> aura of vitality, haste",
+            "level": 5
+          },
+          {
+            "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth\n5th -> aura of vitality, haste\n7th -> control water, freedom of movement",
+            "level": 7
+          },
+          {
+            "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth\n5th -> aura of vitality, haste\n7th -> control water, freedom of movement\n9th -> circle of power, passwall",
+            "level": 9
+          }
+        ],
+        "id": "Custom963f7d9a-9b4f-4293-a88e-4056524a0300",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Quandrix Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class",
-                        "level": 1
-                    },
-                    {
-                        "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth",
-                        "level": 3
-                    },
-                    {
-                        "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth\n5th -> aura of vitality, haste",
-                        "level": 5
-                    },
-                    {
-                        "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth\n5th -> aura of vitality, haste\n7th -> control water, freedom of movement",
-                        "level": 7
-                    },
-                    {
-                        "description": "You learn the cantrip guidance and the 1st-level spell guiding bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn't count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nClass Level -> Spells\n3rd -> enlarge/reduce, spike growth\n5th -> aura of vitality, haste\n7th -> control water, freedom of movement\n9th -> circle of power, passwall",
-                        "level": 9
-                    }
-                ],
-                "id": "Custom963f7d9a-9b4f-4293-a88e-4056524a0300",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Quandrix Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "By iterating on the mathematical patterns of reality, you can nudge chance to tilt around a creature. When you cast a spell using a spell slot that targets at least one creature, you can choose that creature or another creature within 30 feet of it (including yourself) and add one of the following effects:\n\n- Diminishing Function: The chosen creature must succeed on a Wisdom saving throw against your spell save DC, or the creature must roll a d6 and subtract the number rolled from the next attack roll it makes before the start of your next turn.\n\n- Supplemental Function: Once before the start of your next turn, the chosen creature can roll a d6 and add the number rolled to an attack roll or a saving throw of its choice. The creature can roll the d6 after rolling the d20 but must decide before any effects of the roll occur",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "By iterating on the mathematical patterns of reality, you can nudge chance to tilt around a creature. When you cast a spell using a spell slot that targets at least one creature, you can choose that creature or another creature within 30 feet of it (including yourself) and add one of the following effects:\n\n- Diminishing Function: The chosen creature must succeed on a Wisdom saving throw against your spell save DC, or the creature must roll a d6 and subtract the number rolled from the next attack roll it makes before the start of your next turn.\n\n- Supplemental Function: Once before the start of your next turn, the chosen creature can roll a d6 and add the number rolled to an attack roll or a saving throw of its choice. The creature can roll the d6 after rolling the d20 but must decide before any effects of the roll occur",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom6417fced-41c1-4bc8-8994-0f18b5c95a3c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Functions of Probability",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves to a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you.\n\nYou can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Customaca0248a-2f50-40e2-a7cf-6aa13a46b082",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Velocity Shift",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom6417fced-41c1-4bc8-8994-0f18b5c95a3c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Functions of Probability",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves to a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you.\n\nYou can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Through careful calculations, you beset your enemies with abstract equations that reduce their might. Once per turn, immediately after dealing damage to a creature, you can force the creature to make a Constitution saving throw against your spell save DC. On a failure, the creature has disadvantage on Strength and Dexterity saving throws, and its weapon attacks deal only half damage. These effects last until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom61af357b-e5f6-46b0-98fc-1bae39737a89",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Null Equation",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customaca0248a-2f50-40e2-a7cf-6aa13a46b082",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Velocity Shift",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Through careful calculations, you beset your enemies with abstract equations that reduce their might. Once per turn, immediately after dealing damage to a creature, you can force the creature to make a Constitution saving throw against your spell save DC. On a failure, the creature has disadvantage on Strength and Dexterity saving throws, and its weapon attacks deal only half damage. These effects last until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your mathematical expertise extends to altering the foundational equations of your very being. You gain resistance to bludgeoning, piercing, and slashing damage.\n\nAdditionally, you can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage for every 5 feet you move while inside another creature or object. If you end your turn inside a creature or an object, you are shunted into the nearest unoccupied space you last occupied",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom57cfda2e-ffef-4120-ab74-4db2a5e8c8e4",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Quantum Tunneling",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom61af357b-e5f6-46b0-98fc-1bae39737a89",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Null Equation",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your mathematical expertise extends to altering the foundational equations of your very being. You gain resistance to bludgeoning, piercing, and slashing damage.\n\nAdditionally, you can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage for every 5 feet you move while inside another creature or object. If you end your turn inside a creature or an object, you are shunted into the nearest unoccupied space you last occupied",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "wizard_school_of_quandrix_[ua]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "School of Quandrix [UA]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Custom57cfda2e-ffef-4120-ab74-4db2a5e8c8e4",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Quantum Tunneling",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "wizard_school_of_quandrix_[ua]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "School of Quandrix [UA]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 6,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "0faad8a7-3422-409b-83c1-d741eae66d0d",
-            "name": "Velocity Shift Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
-        },
+              ]
+            }
+          ],
+          "level": 6,
+          "topLevelConnector": "MAX"
+        }
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "0faad8a7-3422-409b-83c1-d741eae66d0d",
+      "name": "Velocity Shift Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    },
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 10,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "f6235b9c-7aed-4543-8bfc-11e63fd2f9fa",
-            "name": "Null Equation Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            }
+          ],
+          "level": 10,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, cleric, druid",
-                "components": "V, S",
-                "description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "Guidance",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "Divination",
-                "type": "Divination cantrip"
-            }
-        },
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric",
-                "components": "V, S",
-                "description": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.",
-                "duration": "1 round",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Guiding Bolt",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "evocation",
-                "type": "1st-level evocation"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of powdered iron)",
-                "description": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\n\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\n\n- Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's Attack with them deal 1d4 extra damage.\n\n- Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Enlarge/Reduce",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "transmutation",
-                "type": "2nd-level transmutation"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)",
-                "description": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.\n\nThe transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Spike Growth",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "150 feet",
-                "school": "transmutation",
-                "type": "2nd-level transmutation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Aura Of Vitality",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "evocation",
-                "type": "3rd-level evocation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a shaving of licorice root)",
-                "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u2019s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u2019t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Haste",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "transmutation",
-                "type": "3rd-level transmutation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, druid, fighter, rogue, wizard",
-                "components": "V, S, M (a drop of water and a pinch of dust)",
-                "description": "Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.\n\nIf you choose an area in a large body of water, you can instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing.\n\nThe water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.\n\nWhen a creature enters the vortex for the first time on a turn, or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try and swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.\n\nThe first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Control Water",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "300 feet",
-                "school": "transmutation",
-                "type": "4th-level transmutation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
-                "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Freedom of Movement",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Circle of Power",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "abjuration",
-                "type": "5th-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of sesame seeds)",
-                "description": "A Passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the Duration. You choose the opening's dimensions - up to 5 feet wide, 8 feet tall, and 20 feet deep. The Passage creates no instability in a structure surrounding it.\n\nWhen the opening disappears, any creatures or Objects still in the Passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Passwall",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "transmutation",
-                "type": "5th-level transmutation"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "f6235b9c-7aed-4543-8bfc-11e63fd2f9fa",
+      "name": "Null Equation Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, cleric, druid",
+        "components": "V, S",
+        "description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Guidance",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "Divination",
+        "type": "Divination cantrip"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric",
+        "components": "V, S",
+        "description": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.",
+        "duration": "1 round",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Guiding Bolt",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "evocation",
+        "type": "1st-level evocation"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of powdered iron)",
+        "description": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\n\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\n\n- Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's Attack with them deal 1d4 extra damage.\n\n- Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Enlarge/Reduce",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "transmutation",
+        "type": "2nd-level transmutation"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)",
+        "description": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.\n\nThe transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Spike Growth",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "150 feet",
+        "school": "transmutation",
+        "type": "2nd-level transmutation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Aura Of Vitality",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "evocation",
+        "type": "3rd-level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a shaving of licorice root)",
+        "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u2019s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u2019t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Haste",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "transmutation",
+        "type": "3rd-level transmutation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, druid, fighter, rogue, wizard",
+        "components": "V, S, M (a drop of water and a pinch of dust)",
+        "description": "Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.\n\nIf you choose an area in a large body of water, you can instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing.\n\nThe water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.\n\nWhen a creature enters the vortex for the first time on a turn, or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try and swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so.\n\nThe first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Control Water",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "300 feet",
+        "school": "transmutation",
+        "type": "4th-level transmutation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
+        "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Freedom of Movement",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Circle of Power",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "abjuration",
+        "type": "5th-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of sesame seeds)",
+        "description": "A Passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the Duration. You choose the opening's dimensions - up to 5 feet wide, 8 feet tall, and 20 feet deep. The Passage creates no instability in a structure surrounding it.\n\nWhen the opening disappears, any creatures or Objects still in the Passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Passwall",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "transmutation",
+        "type": "5th-level transmutation"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

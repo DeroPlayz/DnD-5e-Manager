@@ -1,6 +1,67 @@
-{"ac":13,"actions":[{"description":" 4 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Ravenous Bites","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":30,"cha":1,"climbSpeed":30,"con":13,"conditionImmunities":"charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned","cr":"3","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":5,"diceAmount":5,"diceType":"D8"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Swarm of Scarabs","resistances":"bludgeoning, piercing, slashing","savingThrows":null,"senses":"tremorsense 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny scarab. The swarm can't regain hit points or gain temporary hit points.","id":-1,"monsterId":-1,"name":"Swarm"},
-{"description":"If the swarm starts its turn in the same space as a dead creature that is Large or smaller, the corpse is destroyed, leaving behind only equipment and bones (or exoskeleton).","id":-1,"monsterId":-1,"name":"Skeletonize"},
-{"description":"The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"}],
-"speed":30,"str":3,"swimSpeed":0,"tag":null,"type":"Beast","vulnerabilities":null,"wis":12,"xp":700}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": " 4 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Ravenous Bites",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 30,
+  "cha": 1,
+  "climbSpeed": 30,
+  "con": 13,
+  "conditionImmunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "cr": "3",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 5,
+    "diceAmount": 5,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Swarm of Scarabs",
+  "resistances": "bludgeoning, piercing, slashing",
+  "savingThrows": null,
+  "senses": "tremorsense 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny scarab. The swarm can't regain hit points or gain temporary hit points.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Swarm"
+    },
+    {
+      "description": "If the swarm starts its turn in the same space as a dead creature that is Large or smaller, the corpse is destroyed, leaving behind only equipment and bones (or exoskeleton).",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Skeletonize"
+    },
+    {
+      "description": "The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    }
+  ],
+  "speed": 30,
+  "str": 3,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Beast",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 700
+}

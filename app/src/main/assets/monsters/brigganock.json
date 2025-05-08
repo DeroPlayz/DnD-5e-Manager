@@ -1,8 +1,83 @@
-{"ac":12,"actions":[{"description":" 4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Pickaxe","type":"MELEE"},
-{"description":"The brigganock accelerates the passage of time around itself, enabling it to accomplish up to 1 hour of work in a matter of seconds. This work can't affect any creature other than the brigganock, or any object being worn or carried by another creature, and the activity must take place within a 10-foot cube. For example, the brigganock could use this action to rapidly carve a pumpkin, cook and eat dinner, move a pile of stones, or tie a dozen knots in a length of rope.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Time Lapse (Recharges after a Short or Long Rest)","type":"NONE"},
-{"description":"The brigganock casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 11):\nAt will: minor illusion, spare the dying\n\n1/day each: animal friendship, faerie fire, meld into stone, silence","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":13,"climbSpeed":0,"con":14,"conditionImmunities":"exhaustion","cr":"1/8","damageImmunities":null,"dex":15,"flySpeed":0,"hp":{"constant":4,"diceAmount":2,"diceType":"D4"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common, Sylvan","name":"Brigganock","resistances":null,"savingThrows":"Dex +4, Con +4","senses":null,"size":"Tiny","skills":null,"specialTraits":[{"description":"The brigganock has advantage on saving throws against being charmed, and magic can't put it to sleep.","id":-1,"monsterId":-1,"name":"Fey Ancestry"},
-{"description":"The brigganock is accompanied by an insubstantial, invulnerable ball of light that contains its soul. The brigganock can't turn off the light or control its brightness. The soul light sheds bright light in a 10-foot radius and dim light for an additional 10 feet. If the brigganock dies, its soul light fades away.","id":-1,"monsterId":-1,"name":"Soul Light"},
-{"description":"Using a pickaxe or similar tool, a brigganock can burrow through solid rock at a speed of 5 feet, leaving a 6-inch-diameter tunnel in its wake.","id":-1,"monsterId":-1,"name":"Tunneler"}],
-"speed":15,"str":4,"swimSpeed":0,"tag":null,"type":"Fey","vulnerabilities":null,"wis":11,"xp":25}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": " 4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Pickaxe",
+      "type": "MELEE"
+    },
+    {
+      "description": "The brigganock accelerates the passage of time around itself, enabling it to accomplish up to 1 hour of work in a matter of seconds. This work can't affect any creature other than the brigganock, or any object being worn or carried by another creature, and the activity must take place within a 10-foot cube. For example, the brigganock could use this action to rapidly carve a pumpkin, cook and eat dinner, move a pile of stones, or tie a dozen knots in a length of rope.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Time Lapse (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    },
+    {
+      "description": "The brigganock casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 11):\nAt will: minor illusion, spare the dying\n\n1/day each: animal friendship, faerie fire, meld into stone, silence",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 13,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": "exhaustion",
+  "cr": "1/8",
+  "damageImmunities": null,
+  "dex": 15,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 4,
+    "diceAmount": 2,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Sylvan",
+  "name": "Brigganock",
+  "resistances": null,
+  "savingThrows": "Dex +4, Con +4",
+  "senses": null,
+  "size": "Tiny",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The brigganock has advantage on saving throws against being charmed, and magic can't put it to sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Fey Ancestry"
+    },
+    {
+      "description": "The brigganock is accompanied by an insubstantial, invulnerable ball of light that contains its soul. The brigganock can't turn off the light or control its brightness. The soul light sheds bright light in a 10-foot radius and dim light for an additional 10 feet. If the brigganock dies, its soul light fades away.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Soul Light"
+    },
+    {
+      "description": "Using a pickaxe or similar tool, a brigganock can burrow through solid rock at a speed of 5 feet, leaving a 6-inch-diameter tunnel in its wake.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Tunneler"
+    }
+  ],
+  "speed": 15,
+  "str": 4,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Fey",
+  "vulnerabilities": null,
+  "wis": 11,
+  "xp": 25
+}

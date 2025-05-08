@@ -1,6 +1,71 @@
-{"ac":11,"actions":[{"description":" 3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) fire damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Joyful Flare","type":"MELEE"},
-{"description":" 3 to hit, range 30 ft., one target. Hit: 6 (2d4 + 1) cold damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Melancholic Bolt","type":"RANGED"},
-{"description":"The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Captivating Artistry (1/Day)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":12,"conditionImmunities":"poisoned","cr":"1/4","damageImmunities":"poison","dex":13,"flySpeed":0,"hp":{"constant":4,"diceAmount":4,"diceType":"D6"},
-"id":-1,"int":8,"isLocked":true,"jsonType":"monster","languages":"understands the languages of its creator but can't speak","name":"Art Elemental Mascot","resistances":"cold, fire","savingThrows":null,"senses":null,"size":"Small","skills":null,"specialTraits":[{"description":"When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a DC 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.","id":-1,"monsterId":-1,"name":"Death Burst"}],
-"speed":30,"str":6,"swimSpeed":0,"tag":null,"type":"Elemental","vulnerabilities":null,"wis":11,"xp":50}
+{
+  "ac": 11,
+  "actions": [
+    {
+      "description": " 3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) fire damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Joyful Flare",
+      "type": "MELEE"
+    },
+    {
+      "description": " 3 to hit, range 30 ft., one target. Hit: 6 (2d4 + 1) cold damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Melancholic Bolt",
+      "type": "RANGED"
+    },
+    {
+      "description": "The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Captivating Artistry (1/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 15,
+  "climbSpeed": 0,
+  "con": 12,
+  "conditionImmunities": "poisoned",
+  "cr": "1/4",
+  "damageImmunities": "poison",
+  "dex": 13,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 4,
+    "diceAmount": 4,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 8,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands the languages of its creator but can't speak",
+  "name": "Art Elemental Mascot",
+  "resistances": "cold, fire",
+  "savingThrows": null,
+  "senses": null,
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a DC 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Death Burst"
+    }
+  ],
+  "speed": 30,
+  "str": 6,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Elemental",
+  "vulnerabilities": null,
+  "wis": 11,
+  "xp": 50
+}

@@ -1,22 +1,126 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Insignia Of Your Rank","number": 1}],
-"id": "4d6da6c3-29cd-475e-8be0-5b53a99091bd"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner),","number": 1}],
-"id": "301d4300-24c5-480b-9bd2-46e5202092e1"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set\u00a0of Bone Dice","number": 1},
-{"description": "","name": "Deck Of Cards","number": 1}],
-"id": "f9b2e271-d2f6-4049-b6a7-49f6e21d53b5"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Common Clothes","number": 1}],
-"id": "362d799c-c489-48eb-a286-f15eed488baa"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "77c8b3e3-244c-4323-a77d-56476794b370"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Military Rank","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"jsonType": "background","languages": [],
-"name": "Soldier","skills": [{"amountOfChoice": 1,"id": "5109fa3c-9137-4afd-a717-a9418ed97c29","skills": [{}],
-"skillsModels": [{"name": "Athletics","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "b91ea84a-8f47-40d6-b7d8-241ad06368e8","skills": [{}],
-"skillsModels": [{"name": "Intimidation","typeName": "SKILL"}]}],
-"tools": [{"description": "One type of Gaming Set ","shouldSelect": true},
-{"description": "Land vehicles","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Insignia Of Your Rank",
+          "number": 1
+        }
+      ],
+      "id": "4d6da6c3-29cd-475e-8be0-5b53a99091bd"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner),",
+          "number": 1
+        }
+      ],
+      "id": "301d4300-24c5-480b-9bd2-46e5202092e1"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set\u00a0of Bone Dice",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Deck Of Cards",
+          "number": 1
+        }
+      ],
+      "id": "f9b2e271-d2f6-4049-b6a7-49f6e21d53b5"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "362d799c-c489-48eb-a286-f15eed488baa"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "77c8b3e3-244c-4323-a77d-56476794b370"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Military Rank",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "jsonType": "background",
+  "languages": [],
+  "name": "Soldier",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "5109fa3c-9137-4afd-a717-a9418ed97c29",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "b91ea84a-8f47-40d6-b7d8-241ad06368e8",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "One type of Gaming Set ",
+      "shouldSelect": true
+    },
+    {
+      "description": "Land vehicles",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

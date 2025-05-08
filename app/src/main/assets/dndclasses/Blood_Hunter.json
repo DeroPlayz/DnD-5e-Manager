@@ -1,621 +1,621 @@
 {
-    "acModifier": "DEX",
-    "archetypeSelectionLevel": 3,
-    "armorProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Medium Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Shields"
-        }
-    ],
-    "attacksByLevel": [
-        {
-            "amount": 2,
-            "level": 5
-        },
-        {
-            "amount": 1,
-            "level": 1
-        }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "A Martial Weapon",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Simple Weapon",
-                    "number": 2
-                }
-            ],
-            "id": "567d03f9-6968-4b9e-acd0-a03fd986acb1"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Light Crossbow and 20 Bolts",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Hand Crossbow and 20 Bolts",
-                    "number": 1
-                }
-            ],
-            "id": "71d94c10-dc82-4a1e-86ae-1641310f63a6"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Studded Leather Armor",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Scale Mail Armor",
-                    "number": 1
-                }
-            ],
-            "id": "23f3f00f-3ade-4f01-8f2d-1d5bb7166c3f"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Explorer's Pack",
-                    "number": 1
-                }
-            ],
-            "id": "3af97b9d-a739-4757-a854-3fc3e5a0dda6"
-        }
-    ],
-    "classSkills": [
-        {
-            "amountOfChoice": 2,
-            "id": "d3c295ea-bbae-45b8-9e8d-76908da29d0f",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Athletics",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Acrobatics",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Arcana",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Insight",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Investigation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Survival",
-                    "typeName": "SKILL"
-                }
-            ]
-        }
-    ],
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "DEX",
+  "archetypeSelectionLevel": 3,
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Light Armor"
     },
-    "effectiveCasterLevel": "ZERO",
-    "features": [],
-    "hitDie": "D10",
-    "hpModifier": "CON",
-    "id": "blood_hunter",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Class",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Blood Hunter",
-    "savingThrows": {
-        "cha": false,
-        "con": false,
-        "dex": false,
-        "intelligence": false,
-        "str": true,
-        "wis": true
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Medium Armor"
     },
-    "selectableFeatures": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Shields"
+    }
+  ],
+  "attacksByLevel": [
+    {
+      "amount": 2,
+      "level": 5
+    },
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 1
-                },
-                {
-                    "amount": 2,
-                    "level": 6
-                },
-                {
-                    "amount": 3,
-                    "level": 11
-                },
-                {
-                    "amount": 4,
-                    "level": 14
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Esoteric Rite. Your rite damage is necrotic type",
-                                "level": 14
-                            }
-                        ],
-                        "id": "Custom8e8cfa65-20f3-493c-bc06-3d81d059fa31",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rite of the Dead",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 14
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your rite damage is fire type",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom84715862-a798-4832-8d3b-b86e8eb3f05d",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rite of the Flame",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your rite damage is cold type",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom019ca20c-2095-4d0c-86c0-3438e7eef147",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rite of the Frozen",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Esoteric Rite. Your rite damage is psychic type",
-                                "level": 14
-                            }
-                        ],
-                        "id": "Custom4592b9db-dccd-4c84-a21d-a2aa67503405",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rite of the Oracle",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 14
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Esoteric Rite. Your rite damage is thunder type",
-                                "level": 14
-                            }
-                        ],
-                        "id": "Customcc5a0fad-1547-404e-8d0d-3324c23b8422",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rite of the Roar",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 14
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your rite damage is lightning type",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom8d0dbacc-2712-4f17-9579-3c4780618262",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rite of the Storm",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                }
-            ],
-            "canReselect": false,
-            "id": "603f54f7-b34c-4ce5-895d-0c04ea0fbc3b",
-            "name": "Primal Rite",
-            "selectedFeatures": []
+          "description": "",
+          "name": "A Martial Weapon",
+          "number": 1
         },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 2
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom6a7d7d8c-091d-47c1-b918-410dbd4278b3",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Archery",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customb0c50c97-a12d-4d8c-832c-734e8667c855",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Dueling",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom52e3c67e-3eef-44d7-9a82-cdc15ab7362b",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Great Weapon Fighting",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customfb5d7c7c-6cab-4bd5-a5ab-a710dac8bb7f",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Two-Weapon Fighting",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                }
-            ],
-            "canReselect": false,
-            "id": "56c6f20b-a442-497b-919c-f9ebc773d812",
-            "name": "Fighting Style",
-            "selectedFeatures": []
+          "description": "",
+          "name": "Simple Weapon",
+          "number": 2
+        }
+      ],
+      "id": "567d03f9-6968-4b9e-acd0-a03fd986acb1"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Light Crossbow and 20 Bolts",
+          "number": 1
         },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 2
-                },
-                {
-                    "amount": 2,
-                    "level": 5
-                },
-                {
-                    "amount": 3,
-                    "level": 9
-                },
-                {
-                    "amount": 4,
-                    "level": 13
-                },
-                {
-                    "amount": 5,
-                    "level": 16
-                },
-                {
-                    "amount": 6,
-                    "level": 20
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.\n\nAmplify: This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required)",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom73dbe818-bd6b-4910-adcc-36d635e54b21",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of Binding",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.\n\nAmplify: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom04359925-d597-4180-a563-7c658c78f12d",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of Mutual Suffering",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.\n\nAmplify: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customc7609378-33d4-46a2-859d-2ffbe736fab5",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of Purgation",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.\n\nAmplify: You make a Wisdom ability check. The DC equals 10 + the spell\u2019s level. On a success, the creature\u2019s spell misses you automatically",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom78ee9cd0-b101-4374-a003-7b699e4cafff",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of Spell Sunder",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.\n\nAmplify: Following the triggering attack, the affected enemy has disadvantage on the next attack roll they make",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom1c350a2d-f2e7-4e5f-a25d-a67728f49cc3",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of the Eyeless",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.\n\nAmplify: You grant a bonus to the attack roll and damage roll of the cursed creature\u2019s attack equal to your Wisdom modifier (minimum of 1)",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom092f73a0-1fd7-4b7b-be99-68323f1fe4b7",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of the Fallen Puppet",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equal to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.\n\nAmplify: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom168ceb8f-0082-4c1b-87d2-110daf3d7811",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of the Fending Rite",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.\n\nAmplify: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customa37274e1-6c35-4a5d-b5ba-1cef23010be3",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Blood Curse of the Marked",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                }
-            ],
-            "canReselect": true,
-            "id": "4e7582f9-b1b4-462a-86cb-4929deab320e",
-            "name": "Known Blood Curses",
-            "selectedFeatures": []
+          "description": "",
+          "name": "Hand Crossbow and 20 Bolts",
+          "number": 1
         }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+      ],
+      "id": "71d94c10-dc82-4a1e-86ae-1641310f63a6"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "associatedValue": "1d4",
-                    "level": 2
-                },
-                {
-                    "amount": 1,
-                    "associatedValue": "1d6",
-                    "level": 5
-                },
-                {
-                    "amount": 2,
-                    "associatedValue": "1d6",
-                    "level": 6
-                },
-                {
-                    "amount": 3,
-                    "associatedValue": "1d8",
-                    "level": 11
-                },
-                {
-                    "amount": 4,
-                    "associatedValue": "1d10",
-                    "level": 17
-                }
-            ],
-            "associatedValueName": "Crimson Rite Dice",
-            "id": "2bd82b1e-1b29-48b5-9cd2-734cb3a22903",
-            "name": "Blood Maledict Uses",
-            "usesLeft": 0
-        }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "WIS",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Alchemist's supplies"
-        }
-    ],
-    "weaponProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "all_simple"
+          "description": "",
+          "name": "Studded Leather Armor",
+          "number": 1
         },
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "all_martial"
+          "description": "",
+          "name": "Scale Mail Armor",
+          "number": 1
         }
-    ]
+      ],
+      "id": "23f3f00f-3ade-4f01-8f2d-1d5bb7166c3f"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Explorer's Pack",
+          "number": 1
+        }
+      ],
+      "id": "3af97b9d-a739-4757-a854-3fc3e5a0dda6"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 2,
+      "id": "d3c295ea-bbae-45b8-9e8d-76908da29d0f",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Acrobatics",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Investigation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "ZERO",
+  "features": [],
+  "hitDie": "D10",
+  "hpModifier": "CON",
+  "id": "blood_hunter",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Class",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Blood Hunter",
+  "savingThrows": {
+    "cha": false,
+    "con": false,
+    "dex": false,
+    "intelligence": false,
+    "str": true,
+    "wis": true
+  },
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 1
+        },
+        {
+          "amount": 2,
+          "level": 6
+        },
+        {
+          "amount": 3,
+          "level": 11
+        },
+        {
+          "amount": 4,
+          "level": 14
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Esoteric Rite. Your rite damage is necrotic type",
+                "level": 14
+              }
+            ],
+            "id": "Custom8e8cfa65-20f3-493c-bc06-3d81d059fa31",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rite of the Dead",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 14
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your rite damage is fire type",
+                "level": 1
+              }
+            ],
+            "id": "Custom84715862-a798-4832-8d3b-b86e8eb3f05d",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rite of the Flame",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your rite damage is cold type",
+                "level": 1
+              }
+            ],
+            "id": "Custom019ca20c-2095-4d0c-86c0-3438e7eef147",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rite of the Frozen",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Esoteric Rite. Your rite damage is psychic type",
+                "level": 14
+              }
+            ],
+            "id": "Custom4592b9db-dccd-4c84-a21d-a2aa67503405",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rite of the Oracle",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 14
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Esoteric Rite. Your rite damage is thunder type",
+                "level": 14
+              }
+            ],
+            "id": "Customcc5a0fad-1547-404e-8d0d-3324c23b8422",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rite of the Roar",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 14
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your rite damage is lightning type",
+                "level": 1
+              }
+            ],
+            "id": "Custom8d0dbacc-2712-4f17-9579-3c4780618262",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rite of the Storm",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        }
+      ],
+      "canReselect": false,
+      "id": "603f54f7-b34c-4ce5-895d-0c04ea0fbc3b",
+      "name": "Primal Rite",
+      "selectedFeatures": []
+    },
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 2
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain a +2 bonus to attack rolls you make with ranged weapons",
+                "level": 1
+              }
+            ],
+            "id": "Custom6a7d7d8c-091d-47c1-b918-410dbd4278b3",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Archery",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                "level": 1
+              }
+            ],
+            "id": "Customb0c50c97-a12d-4d8c-832c-734e8667c855",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Dueling",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit",
+                "level": 1
+              }
+            ],
+            "id": "Custom52e3c67e-3eef-44d7-9a82-cdc15ab7362b",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Great Weapon Fighting",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack",
+                "level": 1
+              }
+            ],
+            "id": "Customfb5d7c7c-6cab-4bd5-a5ab-a710dac8bb7f",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Two-Weapon Fighting",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        }
+      ],
+      "canReselect": false,
+      "id": "56c6f20b-a442-497b-919c-f9ebc773d812",
+      "name": "Fighting Style",
+      "selectedFeatures": []
+    },
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 2
+        },
+        {
+          "amount": 2,
+          "level": 5
+        },
+        {
+          "amount": 3,
+          "level": 9
+        },
+        {
+          "amount": 4,
+          "level": 13
+        },
+        {
+          "amount": 5,
+          "level": 16
+        },
+        {
+          "amount": 6,
+          "level": 20
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.\n\nAmplify: This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required)",
+                "level": 1
+              }
+            ],
+            "id": "Custom73dbe818-bd6b-4910-adcc-36d635e54b21",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of Binding",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.\n\nAmplify: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance",
+                "level": 1
+              }
+            ],
+            "id": "Custom04359925-d597-4180-a563-7c658c78f12d",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of Mutual Suffering",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.\n\nAmplify: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed",
+                "level": 1
+              }
+            ],
+            "id": "Customc7609378-33d4-46a2-859d-2ffbe736fab5",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of Purgation",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.\n\nAmplify: You make a Wisdom ability check. The DC equals 10 + the spell\u2019s level. On a success, the creature\u2019s spell misses you automatically",
+                "level": 1
+              }
+            ],
+            "id": "Custom78ee9cd0-b101-4374-a003-7b699e4cafff",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of Spell Sunder",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.\n\nAmplify: Following the triggering attack, the affected enemy has disadvantage on the next attack roll they make",
+                "level": 1
+              }
+            ],
+            "id": "Custom1c350a2d-f2e7-4e5f-a25d-a67728f49cc3",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of the Eyeless",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.\n\nAmplify: You grant a bonus to the attack roll and damage roll of the cursed creature\u2019s attack equal to your Wisdom modifier (minimum of 1)",
+                "level": 1
+              }
+            ],
+            "id": "Custom092f73a0-1fd7-4b7b-be99-68323f1fe4b7",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of the Fallen Puppet",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equal to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.\n\nAmplify: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well",
+                "level": 1
+              }
+            ],
+            "id": "Custom168ceb8f-0082-4c1b-87d2-110daf3d7811",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of the Fending Rite",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.\n\nAmplify: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn",
+                "level": 1
+              }
+            ],
+            "id": "Customa37274e1-6c35-4a5d-b5ba-1cef23010be3",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Blood Curse of the Marked",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        }
+      ],
+      "canReselect": true,
+      "id": "4e7582f9-b1b4-462a-86cb-4929deab320e",
+      "name": "Known Blood Curses",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "associatedValue": "1d4",
+          "level": 2
+        },
+        {
+          "amount": 1,
+          "associatedValue": "1d6",
+          "level": 5
+        },
+        {
+          "amount": 2,
+          "associatedValue": "1d6",
+          "level": 6
+        },
+        {
+          "amount": 3,
+          "associatedValue": "1d8",
+          "level": 11
+        },
+        {
+          "amount": 4,
+          "associatedValue": "1d10",
+          "level": 17
+        }
+      ],
+      "associatedValueName": "Crimson Rite Dice",
+      "id": "2bd82b1e-1b29-48b5-9cd2-734cb3a22903",
+      "name": "Blood Maledict Uses",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "WIS",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Alchemist's supplies"
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "all_simple"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "all_martial"
+    }
+  ]
 }

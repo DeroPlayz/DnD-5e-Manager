@@ -1,11 +1,109 @@
-{"ac":20,"actions":[{"description":"Graz'zt makes two Wave of Sorrow attacks. He can replace one attack with a use of Spellcasting.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"13 to hit, reach 10 ft., one target. Hit: 20 (4d6 + 6) force damage plus 14 (4d6) acid damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Wave of Sorrow (Greatsword)","type":"MELEE"},
-{"description":"Graz'zt teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Teleport","type":"NONE"},
-{"description":"Graz'zt casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 23):\nAt will: charm person, detect magic, dispel magic\n\n3/day each: darkness, dominate person, telekinesis, teleport\n\n1/day each: dominate monster, greater invisibility","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"},
-{"description":"Graz'zt uses Spellcasting or Teleport.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Abyssal Magic","type":"NONE"},
-{"description":"Graz'zt makes one Wave of Sorrow attack.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Attack","type":"NONE"},
-{"description":"One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Dance, My Puppet!","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":26,"climbSpeed":0,"con":21,"conditionImmunities":"charmed, exhaustion, frightened, poisoned","cr":"24","damageImmunities":"poison; bludgeoning, piercing, slashing that is nonmagical","dex":15,"flySpeed":0,"hp":{"constant":165,"diceAmount":33,"diceType":"D10"},
-"id":-1,"int":23,"isLocked":true,"jsonType":"monster","languages":"all, telepathy 120 ft.","name":"Graz'zt [MoM]","resistances":"cold, fire, lightning","savingThrows":"Dex +9, Con +12, Wis +12","senses":"truesight 120 ft.","size":"Large","skills":null,"specialTraits":[{"description":"If Graz'zt fails a saving throw, he can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"},
-{"description":"Graz'zt has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"}],
-"speed":40,"str":22,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":21,"xp":62000}
+{
+  "ac": 20,
+  "actions": [
+    {
+      "description": "Graz'zt makes two Wave of Sorrow attacks. He can replace one attack with a use of Spellcasting.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "13 to hit, reach 10 ft., one target. Hit: 20 (4d6 + 6) force damage plus 14 (4d6) acid damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Wave of Sorrow (Greatsword)",
+      "type": "MELEE"
+    },
+    {
+      "description": "Graz'zt teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Teleport",
+      "type": "NONE"
+    },
+    {
+      "description": "Graz'zt casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 23):\nAt will: charm person, detect magic, dispel magic\n\n3/day each: darkness, dominate person, telekinesis, teleport\n\n1/day each: dominate monster, greater invisibility",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    },
+    {
+      "description": "Graz'zt uses Spellcasting or Teleport.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Abyssal Magic",
+      "type": "NONE"
+    },
+    {
+      "description": "Graz'zt makes one Wave of Sorrow attack.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Attack",
+      "type": "NONE"
+    },
+    {
+      "description": "One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Dance, My Puppet!",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 26,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
+  "cr": "24",
+  "damageImmunities": "poison; bludgeoning, piercing, slashing that is nonmagical",
+  "dex": 15,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 165,
+    "diceAmount": 33,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 23,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "all, telepathy 120 ft.",
+  "name": "Graz'zt [MoM]",
+  "resistances": "cold, fire, lightning",
+  "savingThrows": "Dex +9, Con +12, Wis +12",
+  "senses": "truesight 120 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If Graz'zt fails a saving throw, he can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    },
+    {
+      "description": "Graz'zt has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    }
+  ],
+  "speed": 40,
+  "str": 22,
+  "swimSpeed": 0,
+  "tag": "demon",
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 21,
+  "xp": 62000
+}

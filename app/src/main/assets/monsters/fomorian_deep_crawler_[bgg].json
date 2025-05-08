@@ -1,8 +1,83 @@
-{"ac":14,"actions":[{"description":"The fomorian makes two Slam attacks and uses Crawling Hex if it is available.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":"The fomorian targets one creature it can see within 60 feet of itself. The target must succeed on a DC 15 Wisdom saving throw or take 31 (7d8) psychic damage, have the prone condition, and become cursed for 1 hour. While cursed this way, the target can't stand up and end the prone condition on itself.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Crawling Hex (Recharge 4-6)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":6,"climbSpeed":30,"con":20,"conditionImmunities":null,"cr":"10","damageImmunities":null,"dex":15,"flySpeed":0,"hp":{"constant":80,"diceAmount":16,"diceType":"D12"},
-"id":-1,"int":9,"isLocked":true,"jsonType":"monster","languages":"Giant, Undercommon","name":"Fomorian Deep Crawler [BGG]","resistances":null,"savingThrows":null,"senses":"darkvision 120 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"The fomorian can enter a space large enough for a Large creature without squeezing.","id":-1,"monsterId":-1,"name":"Contortionist"},
-{"description":"While the fomorian has the prone condition, crawling does not cost it extra movement. In addition, the prone condition does not grant advantage on attack rolls against the fomorian.","id":-1,"monsterId":-1,"name":"Crawling Stance"},
-{"description":"The fomorian can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"}],
-"speed":30,"str":23,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":17,"xp":5900}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The fomorian makes two Slam attacks and uses Crawling Hex if it is available.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": "The fomorian targets one creature it can see within 60 feet of itself. The target must succeed on a DC 15 Wisdom saving throw or take 31 (7d8) psychic damage, have the prone condition, and become cursed for 1 hour. While cursed this way, the target can't stand up and end the prone condition on itself.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Crawling Hex (Recharge 4-6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 6,
+  "climbSpeed": 30,
+  "con": 20,
+  "conditionImmunities": null,
+  "cr": "10",
+  "damageImmunities": null,
+  "dex": 15,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 80,
+    "diceAmount": 16,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 9,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant, Undercommon",
+  "name": "Fomorian Deep Crawler [BGG]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The fomorian can enter a space large enough for a Large creature without squeezing.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Contortionist"
+    },
+    {
+      "description": "While the fomorian has the prone condition, crawling does not cost it extra movement. In addition, the prone condition does not grant advantage on attack rolls against the fomorian.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Crawling Stance"
+    },
+    {
+      "description": "The fomorian can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    }
+  ],
+  "speed": 30,
+  "str": 23,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Giant",
+  "vulnerabilities": null,
+  "wis": 17,
+  "xp": 5900
+}

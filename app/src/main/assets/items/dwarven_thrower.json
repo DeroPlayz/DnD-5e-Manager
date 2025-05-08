@@ -1,12 +1,70 @@
-{"changesNameOnAttunement": false,"description": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 damage or, if the target is a giant, 2d8 damage. Immediately after the attack, the weapon flies back to your hand.","effects": [{"actualEffect": {"bonus": 3,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "7377e8cc-13e7-4a55-8ef3-7fae192cc179","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "13db4d7a-fc6e-4070-a80d-7fc5b243bd24","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Dwarven_Thrower","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Dwarven Thrower","rarity": "VERY_RARE","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weight": 2.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 damage or, if the target is a giant, 2d8 damage. Immediately after the attack, the weapon flies back to your hand.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 3,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "7377e8cc-13e7-4a55-8ef3-7fae192cc179",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Magic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "13db4d7a-fc6e-4070-a80d-7fc5b243bd24",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Dwarven_Thrower",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Dwarven Thrower",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "WEAPON",
+  "valueCoin": "GOLD",
+  "weight": 2.0,
+  "weightUnit": "OUNCES"
+}

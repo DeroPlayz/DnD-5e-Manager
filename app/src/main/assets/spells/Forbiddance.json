@@ -1,5 +1,27 @@
-{"casting_time": "10 minutes","classes": ["cleric"],
-"components": {"material": true,"materials_needed": ["a sprinkling of holy water, rare incense, and powdered ruby worth at least 1000 gp"],
-"raw": "V, S, M (a sprinkling of holy water, rare incense, and powdered ruby worth at least 1000 gp)","somatic": true,"verbal": true},
-"description": "You create a ward against magical Travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the Duration, creatures can't Teleport into the area or use Portals, such as those created by the gate spell, to enter the area. The spell proofs the area against Planar Travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the Plane Shift spell.\n\nIn addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following - Celestials, Elementals, fey, Fiends, and Undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).\n\nWhen you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.\n\nThe spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same Location, the spell lasts until it is dispelled, and the Material Components are consumed on the last casting.","duration": "1 day","level": "6","name": "Forbiddance","range": "Touch","ritual": true,"school": "abjuration","tags": ["cleric","level6"],
-"type": "6th-level abjuration (ritual)"}
+{
+  "casting_time": "10 minutes",
+  "classes": [
+    "cleric"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a sprinkling of holy water, rare incense, and powdered ruby worth at least 1000 gp"
+    ],
+    "raw": "V, S, M (a sprinkling of holy water, rare incense, and powdered ruby worth at least 1000 gp)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You create a ward against magical Travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the Duration, creatures can't Teleport into the area or use Portals, such as those created by the gate spell, to enter the area. The spell proofs the area against Planar Travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the Plane Shift spell.\n\nIn addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following - Celestials, Elementals, fey, Fiends, and Undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).\n\nWhen you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.\n\nThe spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same Location, the spell lasts until it is dispelled, and the Material Components are consumed on the last casting.",
+  "duration": "1 day",
+  "level": "6",
+  "name": "Forbiddance",
+  "range": "Touch",
+  "ritual": true,
+  "school": "abjuration",
+  "tags": [
+    "cleric",
+    "level6"
+  ],
+  "type": "6th-level abjuration (ritual)"
+}

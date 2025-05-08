@@ -1,322 +1,322 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the On/Off cantrip in addition to your chosen cantrips",
+            "level": 1
+          }
+        ],
+        "id": "Customcb4cc3a3-2b2e-4486-9dec-8788c904bd57",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bonus Cantrip",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the On/Off cantrip in addition to your chosen cantrips",
-                        "level": 1
-                    }
-                ],
-                "id": "Customcb4cc3a3-2b2e-4486-9dec-8788c904bd57",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bonus Cantrip",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency with sidearms and proficiency with vehicles (land)",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with sidearms and proficiency with vehicles (land)",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom753a88a6-f1f6-4005-8656-df734d4ddea1",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bonus Proficiencies",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom753a88a6-f1f6-4005-8656-df734d4ddea1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bonus Proficiencies",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "While you are within any city, you can gain advantage on a single Charisma (Deception, Intimidation, or Persuasion) check, and you are considered proficient in the appropriate skill. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While you are within any city, you can gain advantage on a single Charisma (Deception, Intimidation, or Persuasion) check, and you are considered proficient in the appropriate skill. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom15a5d1b4-35c3-4c63-958f-7b88154b5d14",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Heart of the City",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you present your holy symbol, and any city utility within 30 feet of you either works perfectly or shuts down entirely for 1 minute (your choice).\n\nAdditionally, each hostile creature within 30 feet of you must make a Charisma saving throw. On a failed save, the creature is knocked prone or restrained (your choice) by hazards such as entangling wires, high-pressure water erupting from fire hydrants, pavement collapsing to unseen potholes, and so on. A restrained creature can escape by making a successful Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. This effect is entirely local and affects only utilities within 30 feet of you. Determination of what utilities are available within range and how the physical effects of those utilities manifest are left to the DM",
-                        "level": 2
-                    }
-                ],
-                "id": "Customc63d13ad-ecf9-4c0c-9d48-84c877bdfa28",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity: Spirits of the City",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom15a5d1b4-35c3-4c63-958f-7b88154b5d14",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Heart of the City",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you present your holy symbol, and any city utility within 30 feet of you either works perfectly or shuts down entirely for 1 minute (your choice).\n\nAdditionally, each hostile creature within 30 feet of you must make a Charisma saving throw. On a failed save, the creature is knocked prone or restrained (your choice) by hazards such as entangling wires, high-pressure water erupting from fire hydrants, pavement collapsing to unseen potholes, and so on. A restrained creature can escape by making a successful Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. This effect is entirely local and affects only utilities within 30 feet of you. Determination of what utilities are available within range and how the physical effects of those utilities manifest are left to the DM",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While in an urban environment, you are considered proficient in the Insight and Perception skills, and you add double your proficiency bonus to Wisdom (Insight) and Wisdom (Perception) checks, instead of your normal proficiency bonus",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom747d2207-4faa-4d97-a040-a3f680c91182",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Block Watch",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customc63d13ad-ecf9-4c0c-9d48-84c877bdfa28",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity: Spirits of the City",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "While in an urban environment, you are considered proficient in the Insight and Perception skills, and you add double your proficiency bonus to Wisdom (Insight) and Wisdom (Perception) checks, instead of your normal proficiency bonus",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target",
-                        "level": 8
-                    },
-                    {
-                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 psychic damage to the target",
-                        "level": 14
-                    }
-                ],
-                "id": "Customc2343d61-3712-4517-91e3-005f4f5bce68",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Divine Strike",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom747d2207-4faa-4d97-a040-a3f680c91182",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Block Watch",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target",
             "level": 8
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a teleport spell whose destination is a permanent teleportation circle you know. Once you use this feature, you must finish a short or long rest before using it again",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom0b150538-3430-4ec1-9cdc-5ff8a93961cf",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Express Transit",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 psychic damage to the target",
+            "level": 14
+          }
+        ],
+        "id": "Customc2343d61-3712-4517-91e3-005f4f5bce68",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Divine Strike",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 8
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a teleport spell whose destination is a permanent teleportation circle you know. Once you use this feature, you must finish a short or long rest before using it again",
             "level": 17
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "cleric_city_domain",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "City Domain",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Custom0b150538-3430-4ec1-9cdc-5ff8a93961cf",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Express Transit",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 17
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "cleric_city_domain",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "City Domain",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "WIS"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 1,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "WIS"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "80cc6939-0c01-480b-845c-110b10856963",
-            "name": "Heart of the City Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 1,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of soot and salt)",
-                "description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u00e2\u20ac\u2122t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u00e2\u20ac\u2122t part of a written language.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Comprehend Languages",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "1st-level divination (Ritual)"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, druid, bard",
-                "components": "V, S, M (a piece of iron and a flame)",
-                "description": "Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.\n\nIf a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn\u00e2\u20ac\u2122t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Heat Metal",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "transmutation",
-                "type": "2nd-level transmutation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
-                "description": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.\n\nThe lightning ignites flammable objects in the area that aren't being worn or carried.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Lightning Bolt",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (1OO-foot line)",
-                "school": "evocation",
-                "type": "3rd-level evocation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
-                "components": "V, S, M (a bit of fur from a bloodhound)",
-                "description": "Describe or name a creature that is familiar to you. You sense the direction to the creature's Location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its Movement.\n\nThe spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as being under the Effects of a Polymorph spell, this spell doesn't locate the creature.\n\nThis spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Locate Creature",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "4th-level divination"
-            }
-        },
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You can turn on or off any electronic device as long as it has a clearly defined on or off function easily accessed from its outside. Any device that requires a software based sequence is unaffected by this cantrip.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "On/Off",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "transmutation",
-                "type": "Transmutation cantrip"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Sidearms"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Vehicles (Land)"
-        }
-    ],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "80cc6939-0c01-480b-845c-110b10856963",
+      "name": "Heart of the City Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of soot and salt)",
+        "description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u00e2\u20ac\u2122t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u00e2\u20ac\u2122t part of a written language.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Comprehend Languages",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "1st-level divination (Ritual)"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, druid, bard",
+        "components": "V, S, M (a piece of iron and a flame)",
+        "description": "Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.\n\nIf a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn\u00e2\u20ac\u2122t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Heat Metal",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "transmutation",
+        "type": "2nd-level transmutation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
+        "description": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.\n\nThe lightning ignites flammable objects in the area that aren't being worn or carried.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Lightning Bolt",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (1OO-foot line)",
+        "school": "evocation",
+        "type": "3rd-level evocation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+        "components": "V, S, M (a bit of fur from a bloodhound)",
+        "description": "Describe or name a creature that is familiar to you. You sense the direction to the creature's Location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its Movement.\n\nThe spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as being under the Effects of a Polymorph spell, this spell doesn't locate the creature.\n\nThis spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Locate Creature",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "4th-level divination"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You can turn on or off any electronic device as long as it has a clearly defined on or off function easily accessed from its outside. Any device that requires a software based sequence is unaffected by this cantrip.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "On/Off",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "transmutation",
+        "type": "Transmutation cantrip"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Sidearms"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Vehicles (Land)"
+    }
+  ],
+  "weaponProficiencies": []
 }

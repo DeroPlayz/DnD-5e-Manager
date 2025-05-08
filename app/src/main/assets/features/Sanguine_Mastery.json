@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Your ability to harness your pain, and the pain of your foes, is perfected. When you are below one fourth of your current maximum hit points, all of your crimson rite damage dice are maximized.\n\nIn addition, when you critically hit with a weapon attack that bears your crimson rite, you regain a use of your Blood Maledict feature",
-            "level": 20
-        }
-    ],
-    "id": "Custom82e9a89c-fd6d-4cc7-8d12-d6c774464311",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Sanguine Mastery",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Your ability to harness your pain, and the pain of your foes, is perfected. When you are below one fourth of your current maximum hit points, all of your crimson rite damage dice are maximized.\n\nIn addition, when you critically hit with a weapon attack that bears your crimson rite, you regain a use of your Blood Maledict feature",
+      "level": 20
+    }
+  ],
+  "id": "Custom82e9a89c-fd6d-4cc7-8d12-d6c774464311",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Sanguine Mastery",
+  "notes": "",
+  "type": "Feat"
 }

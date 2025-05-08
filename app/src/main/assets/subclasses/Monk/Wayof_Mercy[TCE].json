@@ -1,162 +1,162 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency in the Insight and Medicine skills, and you gain proficiency with the herbalism kit\n\nYou also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.\n\nd6 --> Mask Appearance\n1 --> Raven\n2 --> Blank and white\n3 --> Crying visage\n4 --> Laughing visage\n5 --> Skull\n6 --> Butterfly",
+            "level": 3
+          }
+        ],
+        "id": "Customf14e1a10-deff-42d3-9290-e90216fadfd1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Implements of Mercy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency in the Insight and Medicine skills, and you gain proficiency with the herbalism kit\n\nYou also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.\n\nd6 --> Mask Appearance\n1 --> Raven\n2 --> Blank and white\n3 --> Crying visage\n4 --> Laughing visage\n5 --> Skull\n6 --> Butterfly",
-                        "level": 3
-                    }
-                ],
-                "id": "Customf14e1a10-deff-42d3-9290-e90216fadfd1",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Implements of Mercy",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier.\n\nWhen you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending a ki point for the healing",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier.\n\nWhen you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending a ki point for the healing",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom372fca19-6997-4cfa-b28a-c428834f0d38",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hand of Healing",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom372fca19-6997-4cfa-b28a-c428834f0d38",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hand of Healing",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature only once per turn",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature only once per turn",
-                        "level": 3
-                    }
-                ],
-                "id": "Custombc851026-e24a-4592-a009-a24f652a1e16",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hand of Harm",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can administer even greater cures with a touch, and if you feel it's necessary, you can use your knowledge to cause harm.\n\nWhen you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: blinded, deafened, paralyzed, poisoned, or stunned.\n\nWhen you use Hand of Harm on a creature, you can subject that creature to the poisoned condition until the end of your next turn",
-                        "level": 6
-                    }
-                ],
-                "id": "Customc6baa232-baa1-4b13-9f95-e7b6f192afc2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Physician's Touch",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custombc851026-e24a-4592-a009-a24f652a1e16",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hand of Harm",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can administer even greater cures with a touch, and if you feel it's necessary, you can use your knowledge to cause harm.\n\nWhen you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: blinded, deafened, paralyzed, poisoned, or stunned.\n\nWhen you use Hand of Harm on a creature, you can subject that creature to the poisoned condition until the end of your next turn",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can now mete out a flurry of comfort and hurt. When you use Flurry of Blows, you can now replace each of the unarmed strikes with a use of your Hand of Healing, without spending ki points for the healing.\n\nIn addition, when you make an unarmed strike with Flurry of Blows, you can use Hand of Harm with that strike without spending the ki point for Hand of Harm. You can still use Hand of Harm only once per turn",
-                        "level": 11
-                    }
-                ],
-                "id": "Custom85090e87-827e-4fa9-8f7e-cf01b027777f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Flurry of Healing and Harm",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customc6baa232-baa1-4b13-9f95-e7b6f192afc2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Physician's Touch",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can now mete out a flurry of comfort and hurt. When you use Flurry of Blows, you can now replace each of the unarmed strikes with a use of your Hand of Healing, without spending ki points for the healing.\n\nIn addition, when you make an unarmed strike with Flurry of Blows, you can use Hand of Harm with that strike without spending the ki point for Hand of Harm. You can still use Hand of Harm only once per turn",
             "level": 11
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom80630f36-61be-46e6-ad88-6ff367c22884",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hand of Ultimate Mercy",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom85090e87-827e-4fa9-8f7e-cf01b027777f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Flurry of Healing and Harm",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 11
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
             "level": 17
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "monk_way_of_mercy_[tce]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Way of Mercy [TCE]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [
-        {
-            "hint": "",
-            "level": 3,
-            "proficiency": "full,insight"
-        },
-        {
-            "hint": "",
-            "level": 3,
-            "proficiency": "full,medicine"
-        }
-    ],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 3,
-            "proficiency": "Herbalism kit"
-        }
-    ],
-    "unarmoredDefense": "Wisdom",
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom80630f36-61be-46e6-ad88-6ff367c22884",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hand of Ultimate Mercy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 17
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "monk_way_of_mercy_[tce]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Way of Mercy [TCE]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 3,
+      "proficiency": "full,insight"
+    },
+    {
+      "hint": "",
+      "level": 3,
+      "proficiency": "full,medicine"
+    }
+  ],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 3,
+      "proficiency": "Herbalism kit"
+    }
+  ],
+  "unarmoredDefense": "Wisdom",
+  "weaponProficiencies": []
 }

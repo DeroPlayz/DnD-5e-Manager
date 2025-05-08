@@ -1,6 +1,48 @@
-{"changesNameOnAttunement": false,"description": "This crystalline blue shield is fashioned from a sapphire dragon's scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6 thunder damage to that creature.\n\nAs an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can't be used again until the next dawn.","effects": [{"charges": 1,"id": "a57fb107-5ae6-4d1b-b0f2-3fe6929f6f89","name": "Locate Aberration Uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Sapphire_Buckler","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Sapphire Buckler","rarity": "VERY_RARE","requiresAttunement": true,"type": "ARMOR","valueCoin": "GOLD","weight": 6.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This crystalline blue shield is fashioned from a sapphire dragon's scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6 thunder damage to that creature.\n\nAs an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can't be used again until the next dawn.",
+  "effects": [
+    {
+      "charges": 1,
+      "id": "a57fb107-5ae6-4d1b-b0f2-3fe6929f6f89",
+      "name": "Locate Aberration Uses",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Sapphire_Buckler",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Sapphire Buckler",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "ARMOR",
+  "valueCoin": "GOLD",
+  "weight": 6.0,
+  "weightUnit": "OUNCES"
+}

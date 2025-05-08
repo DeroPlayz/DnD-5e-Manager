@@ -1,597 +1,597 @@
 {
-    "acModifier": "DEX",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
-                        "level": 3
-                    },
-                    {
-                        "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
-                        "level": 7
-                    },
-                    {
-                        "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level and 11th level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
-                        "level": 11
-                    },
-                    {
-                        "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level, 11th level and 15th level level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
-                        "level": 15
-                    },
-                    {
-                        "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level, 11th level, 15th level, and 18th level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom0c75b36f-b5af-4e4c-83ef-d3d6311a0cba",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Formulas",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "DEX",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can concoct a single mutagen when you finish a short or long rest.\n\nAs a bonus action you can consume a single mutagen, and the effects and side effects last until you finish a short or long rest, unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush the toxins from your system, ending the effects and side effects of all mutagens.\n\nMutagens are designed for your biology and have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest",
-                        "level": 3
-                    },
-                    {
-                        "description": "You can concoct two mutagens when you finish a short or long rest.\n\nAs a bonus action you can consume a single mutagen, and the effects and side effects last until you finish a short or long rest, unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush the toxins from your system, ending the effects and side effects of all mutagens.\n\nMutagens are designed for your biology and have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest",
-                        "level": 7
-                    },
-                    {
-                        "description": "You can concoct three mutagens when you finish a short or long rest.\n\nAs a bonus action you can consume a single mutagen, and the effects and side effects last until you finish a short or long rest, unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush the toxins from your system, ending the effects and side effects of all mutagens.\n\nMutagens are designed for your biology and have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom3c887992-39f8-4139-b7cc-98b80c706339",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mutagencraft",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your body has begun to adapt to toxins and venoms, ignoring their corroding effects. You gain immunity to poison damage and the poisoned condition.\n\nIn addition, you can instill a burst of adrenaline to temporarily resist the negative effects of a mutagen. As a bonus action, you can choose to ignore the side effect of a mutagen affecting you for 1 minute.\n\nOnce you use this feature to resist side effects, you can\u2019t do so again until you finish a long rest",
-                        "level": 11
-                    }
-                ],
-                "id": "Custom5f350d4b-d430-42e1-a911-b2bcc9130368",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Strange Metabolism",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your blood curse can wrack a creature\u2019s body with terrible toxins. You gain the Blood Curse of Corrosion for your Blood Maledict feature. This does not count against your number of blood curses known.\n\nBlood Curse of Corrosion:\n\nAs a bonus action, a creature within 30 feet of you becomes poisoned. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the curse ends.\n\nAmplify: The cursed creature suffers 4d6 necrotic damage, and suffers this damage again every time it fails its Constitution saving throw to end this curse at the end of its turn",
-                        "level": 15
-                    }
-                ],
-                "id": "Customf045a9b6-912b-4fa2-97cb-693f981ef34f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Blood Curse of Corrosion",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Some mutagens require a number of levels in blood hunter before you can gain the formula. You can learn a mutagen at the same time you meet its prerequisites.\n\nAether:\nPrerequisite: 11th level\n\nYou gain a flying speed of 20 feet.\n\nSide effect: You have disadvantage on all Strength and Dexterity ability checks.\n\nCelerity:\nYour Dexterity score increases by an amount equal to your mutation score, as does your Dexterity maximum.\n\nSide effect: Your Wisdom score decreases by amount equal to your mutation score.\n\nConversant:\nYou gain advantage on Intelligence ability checks.\n\nSide effect: You have disadvantage on Charisma ability checks.\n\nCruelty:\nPrerequisite: 11th level\n\nYou can make a single weapon attack as a bonus action on each of your turns.\n\nSide effect: You have disadvantage on all Intelligence, Wisdom, and Charisma saving throws.\n\nImpermeable:\nYou gain resistance to piercing damage.\n\nSide effect: You gain vulnerability to slashing damage.\n\nMobility:\nYou gain immunity to the grappled and restrained conditions. At 11th level, you also are immune to the paralyzed condition.  \n\nSide effect: You gain a penalty to initiative equal to 2 times your mutation score.\n\nNighteye:\nYou gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet.\n\nSide effect: You gain sunlight sensitivity:\n\nYou have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.\n\nPotency:\nYour Strength score increases by an amount equal to your mutation score, as does your Strength maximum.\n\nSide effect: You have disadvantage on all Dexterity saving throws.\n\nPrecision:\nPrerequisite: 11th level\n\nYour weapon attacks score a critical hit on a roll of 19-20.\n\nSide effect: All healing you receive is halved.\n\nRapidity:\nYour speed increases by 15 feet. At 15th level, your speed increases by 20 feet instead.\n\nSide effect:  You have disadvantage on Dexterity ability checks.\n\nReconstruction:\nPrerequisite: 7th level\n\nWhile conscious and in combat, you regenerate hit points equal to 2 times your mutation score at the start of your turn as long as you are above 0 hit points.\n\nSide effect: Your speed decreases by 10 ft.\n\nSagacity:\nYour Wisdom score increases by an amount equal to your mutation score, as does your Wisdom maximum.\n\nSide effect: Your armor class is reduced by an amount equal to your mutation score.\n\nShielded:\nYou gain resistance to slashing damage.\n\nSide effect: You gain vulnerability to bludgeoning damage.\n\nUnbreakable:\nYou gain resistance to bludgeoning damage.\n\nSide effect: You gain vulnerability to piercing damage.\n\nWariness:\nYou gain a bonus to initiative equal to 2 times your mutation score.\n\nSide effect: You have disadvantage on Wisdom (Perception) checks",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom5a2b0eb8-7323-4721-a232-3ebcc5fe96c5",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mutagen List",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your hemocraft has altered your Brand of Castigation to enforce a foe\u2019s true nature. Any illusions disguising or making a creature invisible when you brand them end, and they can\u2019t benefit from such illusions while branded. If a creature branded by you is polymorphed or has changed shape, they must succeed on a Wisdom saving throw or revert to their true form and be stunned until the end of your next turn. Whenever a branded creature attempts to polymorph or change shape, they must succeed on a Wisdom saving throw or the attempt fails, and they are stunned until the end of your next turn",
-                        "level": 11
-                    }
-                ],
-                "id": "Customf945f82e-f13e-43d2-aaf6-1e8350091264",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Brand of Axiom",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level and 11th level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
             "level": 11
+          },
+          {
+            "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level, 11th level and 15th level level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
+            "level": 15
+          },
+          {
+            "description": "You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.\n\nBeginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th level, 11th level, 15th level, and 18th level.\n\nAdditionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula",
+            "level": 18
+          }
+        ],
+        "id": "Custom0c75b36f-b5af-4e4c-83ef-d3d6311a0cba",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Formulas",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can concoct a single mutagen when you finish a short or long rest.\n\nAs a bonus action you can consume a single mutagen, and the effects and side effects last until you finish a short or long rest, unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush the toxins from your system, ending the effects and side effects of all mutagens.\n\nMutagens are designed for your biology and have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest",
+            "level": 3
+          },
+          {
+            "description": "You can concoct two mutagens when you finish a short or long rest.\n\nAs a bonus action you can consume a single mutagen, and the effects and side effects last until you finish a short or long rest, unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush the toxins from your system, ending the effects and side effects of all mutagens.\n\nMutagens are designed for your biology and have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest",
+            "level": 7
+          },
+          {
+            "description": "You can concoct three mutagens when you finish a short or long rest.\n\nAs a bonus action you can consume a single mutagen, and the effects and side effects last until you finish a short or long rest, unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush the toxins from your system, ending the effects and side effects of all mutagens.\n\nMutagens are designed for your biology and have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest",
+            "level": 15
+          }
+        ],
+        "id": "Custom3c887992-39f8-4139-b7cc-98b80c706339",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mutagencraft",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your body has begun to adapt to toxins and venoms, ignoring their corroding effects. You gain immunity to poison damage and the poisoned condition.\n\nIn addition, you can instill a burst of adrenaline to temporarily resist the negative effects of a mutagen. As a bonus action, you can choose to ignore the side effect of a mutagen affecting you for 1 minute.\n\nOnce you use this feature to resist side effects, you can\u2019t do so again until you finish a long rest",
+            "level": 11
+          }
+        ],
+        "id": "Custom5f350d4b-d430-42e1-a911-b2bcc9130368",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Strange Metabolism",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your blood curse can wrack a creature\u2019s body with terrible toxins. You gain the Blood Curse of Corrosion for your Blood Maledict feature. This does not count against your number of blood curses known.\n\nBlood Curse of Corrosion:\n\nAs a bonus action, a creature within 30 feet of you becomes poisoned. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the curse ends.\n\nAmplify: The cursed creature suffers 4d6 necrotic damage, and suffers this damage again every time it fails its Constitution saving throw to end this curse at the end of its turn",
+            "level": 15
+          }
+        ],
+        "id": "Customf045a9b6-912b-4fa2-97cb-693f981ef34f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Blood Curse of Corrosion",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Some mutagens require a number of levels in blood hunter before you can gain the formula. You can learn a mutagen at the same time you meet its prerequisites.\n\nAether:\nPrerequisite: 11th level\n\nYou gain a flying speed of 20 feet.\n\nSide effect: You have disadvantage on all Strength and Dexterity ability checks.\n\nCelerity:\nYour Dexterity score increases by an amount equal to your mutation score, as does your Dexterity maximum.\n\nSide effect: Your Wisdom score decreases by amount equal to your mutation score.\n\nConversant:\nYou gain advantage on Intelligence ability checks.\n\nSide effect: You have disadvantage on Charisma ability checks.\n\nCruelty:\nPrerequisite: 11th level\n\nYou can make a single weapon attack as a bonus action on each of your turns.\n\nSide effect: You have disadvantage on all Intelligence, Wisdom, and Charisma saving throws.\n\nImpermeable:\nYou gain resistance to piercing damage.\n\nSide effect: You gain vulnerability to slashing damage.\n\nMobility:\nYou gain immunity to the grappled and restrained conditions. At 11th level, you also are immune to the paralyzed condition.  \n\nSide effect: You gain a penalty to initiative equal to 2 times your mutation score.\n\nNighteye:\nYou gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet.\n\nSide effect: You gain sunlight sensitivity:\n\nYou have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.\n\nPotency:\nYour Strength score increases by an amount equal to your mutation score, as does your Strength maximum.\n\nSide effect: You have disadvantage on all Dexterity saving throws.\n\nPrecision:\nPrerequisite: 11th level\n\nYour weapon attacks score a critical hit on a roll of 19-20.\n\nSide effect: All healing you receive is halved.\n\nRapidity:\nYour speed increases by 15 feet. At 15th level, your speed increases by 20 feet instead.\n\nSide effect:  You have disadvantage on Dexterity ability checks.\n\nReconstruction:\nPrerequisite: 7th level\n\nWhile conscious and in combat, you regenerate hit points equal to 2 times your mutation score at the start of your turn as long as you are above 0 hit points.\n\nSide effect: Your speed decreases by 10 ft.\n\nSagacity:\nYour Wisdom score increases by an amount equal to your mutation score, as does your Wisdom maximum.\n\nSide effect: Your armor class is reduced by an amount equal to your mutation score.\n\nShielded:\nYou gain resistance to slashing damage.\n\nSide effect: You gain vulnerability to bludgeoning damage.\n\nUnbreakable:\nYou gain resistance to bludgeoning damage.\n\nSide effect: You gain vulnerability to piercing damage.\n\nWariness:\nYou gain a bonus to initiative equal to 2 times your mutation score.\n\nSide effect: You have disadvantage on Wisdom (Perception) checks",
+            "level": 3
+          }
+        ],
+        "id": "Custom5a2b0eb8-7323-4721-a232-3ebcc5fe96c5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mutagen List",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your hemocraft has altered your Brand of Castigation to enforce a foe\u2019s true nature. Any illusions disguising or making a creature invisible when you brand them end, and they can\u2019t benefit from such illusions while branded. If a creature branded by you is polymorphed or has changed shape, they must succeed on a Wisdom saving throw or revert to their true form and be stunned until the end of your next turn. Whenever a branded creature attempts to polymorph or change shape, they must succeed on a Wisdom saving throw or the attempt fails, and they are stunned until the end of your next turn",
+            "level": 11
+          }
+        ],
+        "id": "Customf945f82e-f13e-43d2-aaf6-1e8350091264",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Brand of Axiom",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 11
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your body has adapted to produce your toxins naturally in a moment of need. As a bonus action, you can choose one mutagen currently affecting you to flush from your system and end, then immediately have a mutagen you know the formula for take effect in its place.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all uses of this feature after you finish a long rest",
+            "level": 18
+          }
+        ],
+        "id": "Customa35a80ef-e850-455e-b225-52b1139cc95b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Exalted Mutation",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 18
+    }
+  ],
+  "hpModifier": "CON",
+  "id": "blood_hunter__egw__order_of_the_mutant",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Order of the Mutant",
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 4,
+          "level": 3
         },
         {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your body has adapted to produce your toxins naturally in a moment of need. As a bonus action, you can choose one mutagen currently affecting you to flush from your system and end, then immediately have a mutagen you know the formula for take effect in its place.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all uses of this feature after you finish a long rest",
-                        "level": 18
-                    }
-                ],
-                "id": "Customa35a80ef-e850-455e-b225-52b1139cc95b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Exalted Mutation",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 18
-        }
-    ],
-    "hpModifier": "CON",
-    "id": "blood_hunter__egw__order_of_the_mutant",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Order of the Mutant",
-    "selectableFeatures": [
+          "amount": 5,
+          "level": 7
+        },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 4,
-                    "level": 3
-                },
-                {
-                    "amount": 5,
-                    "level": 7
-                },
-                {
-                    "amount": 6,
-                    "level": 11
-                },
-                {
-                    "amount": 7,
-                    "level": 15
-                },
-                {
-                    "amount": 8,
-                    "level": 18
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Prerequisite: 11th level.\n\nYou gain a flying speed of 20 feet for 1 hour.\n\nSide effect: You have disadvantage on Strength and Dexterity ability checks for 1 hour",
-                                "level": 11
-                            }
-                        ],
-                        "id": "Custom9f6e2d33-352e-4b8d-a498-b8707c319680",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Aether",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 11
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your Dexterity score increases by 3, as does your Dexterity maximum. This bonus increases by 1 at 11th and 18th level.\n\nSide effect: You have disadvantage on Wisdom saving throws",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customae3056cc-0a62-4f00-a8c2-a7f9e20694df",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Celerity",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain advantage on Intelligence ability checks.\n\nSide effect: You have disadvantage on Wisdom ability checks.",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custome5c07b13-7843-4152-bd91-537eb2230796",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Conversant",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Prerequisite: 11th level.\n\nWhen you use the Attack action, you can make an additional weapon attack as a bonus action.\n\nSide effect: You have disadvantage on Intelligence, Wisdom, and Charisma saving throws",
-                                "level": 11
-                            }
-                        ],
-                        "id": "Custom6a512600-abdc-43a1-835f-1950a2d018ec",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Cruelty",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 11
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to piercing damage.\n\nSide effect: You gain vulnerability to slashing damage",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom65c63344-7379-46a8-ac96-fa2fe9a98bf6",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Impermeable",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain immunity to the grappled and restrained conditions.\n\nSide effect: You have disadvantage on Strength ability checks",
-                                "level": 1
-                            },
-                            {
-                                "description": "You gain immunity to the grappled, restrained and paralyzed conditions.\n\nSide effect: You have disadvantage on Strength ability checks",
-                                "level": 11
-                            }
-                        ],
-                        "id": "Custom425aba54-2f35-4995-8026-f5aa89f241a9",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Mobility",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet.\n\nSide effect: You gain sunlight sensitivity",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom5a618626-5729-4712-81a7-e8593e5d173a",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Nighteye",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your Strength score increases by 3, as does your Strength maximum.\n\nSide effect: You have disadvantage on Dexterity saving throws",
-                                "level": 1
-                            },
-                            {
-                                "description": "Your Strength score increases by 4, as does your Strength maximum.\n\nSide effect: You have disadvantage on Dexterity saving throws",
-                                "level": 11
-                            },
-                            {
-                                "description": "Your Strength score increases by 5, as does your Strength maximum.\n\nSide effect: You have disadvantage on Dexterity saving throws",
-                                "level": 18
-                            }
-                        ],
-                        "id": "Custom7fa0f721-cf6a-411e-90f1-d8db6b91952e",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Potency",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Prerequisite: 11th level\n\nYour weapon attacks score a critical hit on a roll of 19-20.\n\nSide effect: You have disadvantage on Strength saving throws",
-                                "level": 11
-                            }
-                        ],
-                        "id": "Custom9eba3fec-e63b-4de0-a7c0-fbad3995671f",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Precision",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 11
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your speed increases by 10 feet. At 15th level, your speed increases by 15 feet instead.\n\nSide effect: You have disadvantage on Intelligence ability checks",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customec2dc7a6-3e73-48ae-a0db-e316af276595",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rapidity",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Prerequisite: 7th level\n\nFor 1 hour, at the start of each of your turns, you regain hit points equal to your proficiency bonus if you have at least 1 hit point, but no more than half of your hit points.\n\nSide effect: Your speed decreases by 10 ft for 1 hour",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Custom6c4b7ef0-d80a-4528-a9f6-e503be0d76a0",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Reconstruction",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your Intelligence score increases by 3, as does your Intelligence maximum.\n\nSide effect: You have disadvantage on Charisma saving throws",
-                                "level": 1
-                            },
-                            {
-                                "description": "Your Intelligence score increases by 4, as does your Intelligence maximum.\n\nSide effect: You have disadvantage on Charisma saving throws",
-                                "level": 11
-                            },
-                            {
-                                "description": "Your Intelligence score increases by 5, as does your Intelligence maximum.\n\nSide effect: You have disadvantage on Charisma saving throws",
-                                "level": 18
-                            }
-                        ],
-                        "id": "Custom305edf83-0faa-43b8-ad19-ea39bb35e6c1",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Sagacity",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to slashing damage.\n\nSide effect: You gain vulnerability to bludgeoning damage",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom044f7db3-3771-4273-8385-abbe17c21b70",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Shielded",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to bludgeoning damage.\n\nSide effect: You gain vulnerability to piercing damage",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custome34c973b-40a6-4fc3-835f-5c114b97e639",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Unbreakable",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain an additional use of your Blood Maledict feature.\n\nSide effect: You have disadvantage on death saving throws",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custombb4928c3-7120-43d1-84f7-5676af67eea0",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Vermillion",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your skin and voice become malleable, allowing you to slightly enhance your appearance and presence. You have advantage on Charisma ability checks.\n\nSide effect: You have disadvantage on initiative rolls.",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom46385c5c-45a0-4023-9eed-83db4996e05c",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Alluring",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain advantage on Dexterity ability checks.\n\nSide effect: You have disadvantage on Wisdom ability checks",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom166d379b-1706-4d9b-b325-07bb4625b456",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Deftness",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to fire damage.\n\nSide effect: You gain vulnerability to cold damage",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom7088bbef-5275-42bc-b3de-88feec1e02e4",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Embers",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to cold damage.\n\nSide effect: You gain vulnerability to fire damage",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom09ee594e-e7d3-4e61-9375-331ec98e81dc",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Gelid",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain advantage on Wisdom ability checks.\n\nSide effect: You have disadvantage on Charisma ability checks",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customf586fd20-6ff9-4e13-bc5d-7d6659f55de3",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Percipient",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                }
-            ],
-            "canReselect": true,
-            "id": "0c63392d-ef0c-402c-ad33-97a151614394",
-            "name": "Known Mutagen Formulas",
-            "selectedFeatures": []
+          "amount": 6,
+          "level": 11
+        },
+        {
+          "amount": 7,
+          "level": 15
+        },
+        {
+          "amount": 8,
+          "level": 18
         }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "WIS",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Prerequisite: 11th level.\n\nYou gain a flying speed of 20 feet for 1 hour.\n\nSide effect: You have disadvantage on Strength and Dexterity ability checks for 1 hour",
+                "level": 11
+              }
+            ],
+            "id": "Custom9f6e2d33-352e-4b8d-a498-b8707c319680",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Aether",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 11
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your Dexterity score increases by 3, as does your Dexterity maximum. This bonus increases by 1 at 11th and 18th level.\n\nSide effect: You have disadvantage on Wisdom saving throws",
+                "level": 1
+              }
+            ],
+            "id": "Customae3056cc-0a62-4f00-a8c2-a7f9e20694df",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Celerity",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain advantage on Intelligence ability checks.\n\nSide effect: You have disadvantage on Wisdom ability checks.",
+                "level": 1
+              }
+            ],
+            "id": "Custome5c07b13-7843-4152-bd91-537eb2230796",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Conversant",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Prerequisite: 11th level.\n\nWhen you use the Attack action, you can make an additional weapon attack as a bonus action.\n\nSide effect: You have disadvantage on Intelligence, Wisdom, and Charisma saving throws",
+                "level": 11
+              }
+            ],
+            "id": "Custom6a512600-abdc-43a1-835f-1950a2d018ec",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Cruelty",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 11
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to piercing damage.\n\nSide effect: You gain vulnerability to slashing damage",
+                "level": 1
+              }
+            ],
+            "id": "Custom65c63344-7379-46a8-ac96-fa2fe9a98bf6",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Impermeable",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain immunity to the grappled and restrained conditions.\n\nSide effect: You have disadvantage on Strength ability checks",
+                "level": 1
+              },
+              {
+                "description": "You gain immunity to the grappled, restrained and paralyzed conditions.\n\nSide effect: You have disadvantage on Strength ability checks",
+                "level": 11
+              }
+            ],
+            "id": "Custom425aba54-2f35-4995-8026-f5aa89f241a9",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Mobility",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet.\n\nSide effect: You gain sunlight sensitivity",
+                "level": 1
+              }
+            ],
+            "id": "Custom5a618626-5729-4712-81a7-e8593e5d173a",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Nighteye",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your Strength score increases by 3, as does your Strength maximum.\n\nSide effect: You have disadvantage on Dexterity saving throws",
+                "level": 1
+              },
+              {
+                "description": "Your Strength score increases by 4, as does your Strength maximum.\n\nSide effect: You have disadvantage on Dexterity saving throws",
+                "level": 11
+              },
+              {
+                "description": "Your Strength score increases by 5, as does your Strength maximum.\n\nSide effect: You have disadvantage on Dexterity saving throws",
+                "level": 18
+              }
+            ],
+            "id": "Custom7fa0f721-cf6a-411e-90f1-d8db6b91952e",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Potency",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Prerequisite: 11th level\n\nYour weapon attacks score a critical hit on a roll of 19-20.\n\nSide effect: You have disadvantage on Strength saving throws",
+                "level": 11
+              }
+            ],
+            "id": "Custom9eba3fec-e63b-4de0-a7c0-fbad3995671f",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Precision",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 11
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your speed increases by 10 feet. At 15th level, your speed increases by 15 feet instead.\n\nSide effect: You have disadvantage on Intelligence ability checks",
+                "level": 1
+              }
+            ],
+            "id": "Customec2dc7a6-3e73-48ae-a0db-e316af276595",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rapidity",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Prerequisite: 7th level\n\nFor 1 hour, at the start of each of your turns, you regain hit points equal to your proficiency bonus if you have at least 1 hit point, but no more than half of your hit points.\n\nSide effect: Your speed decreases by 10 ft for 1 hour",
+                "level": 7
+              }
+            ],
+            "id": "Custom6c4b7ef0-d80a-4528-a9f6-e503be0d76a0",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Reconstruction",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your Intelligence score increases by 3, as does your Intelligence maximum.\n\nSide effect: You have disadvantage on Charisma saving throws",
+                "level": 1
+              },
+              {
+                "description": "Your Intelligence score increases by 4, as does your Intelligence maximum.\n\nSide effect: You have disadvantage on Charisma saving throws",
+                "level": 11
+              },
+              {
+                "description": "Your Intelligence score increases by 5, as does your Intelligence maximum.\n\nSide effect: You have disadvantage on Charisma saving throws",
+                "level": 18
+              }
+            ],
+            "id": "Custom305edf83-0faa-43b8-ad19-ea39bb35e6c1",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Sagacity",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to slashing damage.\n\nSide effect: You gain vulnerability to bludgeoning damage",
+                "level": 1
+              }
+            ],
+            "id": "Custom044f7db3-3771-4273-8385-abbe17c21b70",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Shielded",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to bludgeoning damage.\n\nSide effect: You gain vulnerability to piercing damage",
+                "level": 1
+              }
+            ],
+            "id": "Custome34c973b-40a6-4fc3-835f-5c114b97e639",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Unbreakable",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain an additional use of your Blood Maledict feature.\n\nSide effect: You have disadvantage on death saving throws",
+                "level": 1
+              }
+            ],
+            "id": "Custombb4928c3-7120-43d1-84f7-5676af67eea0",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Vermillion",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your skin and voice become malleable, allowing you to slightly enhance your appearance and presence. You have advantage on Charisma ability checks.\n\nSide effect: You have disadvantage on initiative rolls.",
+                "level": 1
+              }
+            ],
+            "id": "Custom46385c5c-45a0-4023-9eed-83db4996e05c",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Alluring",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain advantage on Dexterity ability checks.\n\nSide effect: You have disadvantage on Wisdom ability checks",
+                "level": 1
+              }
+            ],
+            "id": "Custom166d379b-1706-4d9b-b325-07bb4625b456",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Deftness",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to fire damage.\n\nSide effect: You gain vulnerability to cold damage",
+                "level": 1
+              }
+            ],
+            "id": "Custom7088bbef-5275-42bc-b3de-88feec1e02e4",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Embers",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to cold damage.\n\nSide effect: You gain vulnerability to fire damage",
+                "level": 1
+              }
+            ],
+            "id": "Custom09ee594e-e7d3-4e61-9375-331ec98e81dc",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Gelid",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain advantage on Wisdom ability checks.\n\nSide effect: You have disadvantage on Charisma ability checks",
+                "level": 1
+              }
+            ],
+            "id": "Customf586fd20-6ff9-4e13-bc5d-7d6659f55de3",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Percipient",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        }
+      ],
+      "canReselect": true,
+      "id": "0c63392d-ef0c-402c-ad33-97a151614394",
+      "name": "Known Mutagen Formulas",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "WIS",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

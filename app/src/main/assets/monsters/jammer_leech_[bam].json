@@ -1,5 +1,61 @@
-{"ac":12,"actions":[{"description":"2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spiked Tentacle","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":0,"con":16,"conditionImmunities":"charmed, frightened, prone","cr":"1","damageImmunities":null,"dex":1,"flySpeed":0,"hp":{"constant":15,"diceAmount":5,"diceType":"D4"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Jammer Leech [BAM]","resistances":null,"savingThrows":null,"senses":"darkvision 30 ft.","size":"Tiny","skills":null,"specialTraits":[{"description":"If the leech is reduced to 0 hit points while attached to a ship that has a spelljamming helm, the creature attuned to that helm must make a DC 13 Constitution saving throw. On a failed save, the creature takes 10 (4d4) psychic damage and is incapacitated for 1 minute. On a successful save, the creature takes half as much damage and is incapacitated until the end of its next turn.","id":-1,"monsterId":-1,"name":"Spelljammer Overload"},
-{"description":"The leech doesn't require air or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":10,"str":11,"swimSpeed":0,"tag":null,"type":"Plant","vulnerabilities":null,"wis":10,"xp":200}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spiked Tentacle",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 1,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "charmed, frightened, prone",
+  "cr": "1",
+  "damageImmunities": null,
+  "dex": 1,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 15,
+    "diceAmount": 5,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Jammer Leech [BAM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 30 ft.",
+  "size": "Tiny",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the leech is reduced to 0 hit points while attached to a ship that has a spelljamming helm, the creature attuned to that helm must make a DC 13 Constitution saving throw. On a failed save, the creature takes 10 (4d4) psychic damage and is incapacitated for 1 minute. On a successful save, the creature takes half as much damage and is incapacitated until the end of its next turn.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spelljammer Overload"
+    },
+    {
+      "description": "The leech doesn't require air or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 10,
+  "str": 11,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Plant",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 200
+}

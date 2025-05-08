@@ -1,126 +1,126 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you are hit by an attack or you fail a saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.\n\nWhen you use this feature, you can't cast spells other than cantrips until the end of your next turn",
+            "level": 2
+          }
+        ],
+        "id": "Custom30f09aec-caa7-4fdf-ad67-5d58210c1820",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Arcane Deflection",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you are hit by an attack or you fail a saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.\n\nWhen you use this feature, you can't cast spells other than cantrips until the end of your next turn",
-                        "level": 2
-                    }
-                ],
-                "id": "Custom30f09aec-caa7-4fdf-ad67-5d58210c1820",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Arcane Deflection",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier",
-                        "level": 2
-                    }
-                ],
-                "id": "Custom6088ac2a-0f4e-4b52-aba5-14bc3c34b96c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tactical Wit",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can store magical energy within yourself to later empower your damaging spells.\n\nYou can store a maximum number of power surges equal to your Intelligence modifier (minimum of one). Whenever you finish a long rest, your number of power surges resets to one. Whenever you successfully end a spell with Dispel Magic or Counterspell, you gain one power surge, as you steal magic from the spell you foiled. If you end a short rest with no power surges, you gain one power surge.\n\nOnce per turn when you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra force damage to that target. The extra damage equals half your wizard level",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom01d3a2bf-35d7-41db-9524-2426ecbd8653",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Power Surge",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom6088ac2a-0f4e-4b52-aba5-14bc3c34b96c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tactical Wit",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can store magical energy within yourself to later empower your damaging spells.\n\nYou can store a maximum number of power surges equal to your Intelligence modifier (minimum of one). Whenever you finish a long rest, your number of power surges resets to one. Whenever you successfully end a spell with Dispel Magic or Counterspell, you gain one power surge, as you steal magic from the spell you foiled. If you end a short rest with no power surges, you gain one power surge.\n\nOnce per turn when you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra force damage to that target. The extra damage equals half your wizard level",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom570df04f-8592-41cf-87bb-bb098411949a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Durable Magic",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom01d3a2bf-35d7-41db-9524-2426ecbd8653",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Power Surge",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you use your Arcane Deflection feature, you can cause magical energy to arc from you. Up to three creatures of your choice that you can see within 60 feet of you each take force damage equal to half your wizard level",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom3aa67a84-1d81-4f8b-b7db-89ee7cf753fb",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Deflecting Shroud",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom570df04f-8592-41cf-87bb-bb098411949a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Durable Magic",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you use your Arcane Deflection feature, you can cause magical energy to arc from you. Up to three creatures of your choice that you can see within 60 feet of you each take force damage equal to half your wizard level",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "wizard_war_magic",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "War Magic",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom3aa67a84-1d81-4f8b-b7db-89ee7cf753fb",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Deflecting Shroud",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "wizard_war_magic",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "War Magic",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

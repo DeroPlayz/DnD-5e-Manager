@@ -1,6 +1,47 @@
-{"changesNameOnAttunement": false,"description": "Originally crafted for ground-bound giant brawlers to fight against dragons and other enormous predators of the sky, these studded gauntlets are engraved with the dragon rune.\n\nWhile you are wearing these gauntlets, your unarmed strike deals an additional 1d6 force damage on a hit. Additionally, whenever you finish a long rest, choose one of the following damage types: acid, cold, fire, lightning, or poison. You have resistance to the chosen damage type until you finish another long rest.\n\nInvoking the Runes\nAs a bonus action, you can invoke the gauntlets' runes and summon two enormous spectral fists that envelop the gauntlets and mimic your hand motions. The fists can also launch themselves to strike distant opponents, returning immediately to your space after they hit or miss.\n\nThe fists last for 1 minute or until you are incapacitated. While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or have the prone condition.\n\nOnce the runes have been invoked, they can't be invoked again until the next dawn.","effects": [{"charges": 1,"id": "346083e2-f23e-4295-9814-0f748f9faed4","name": "Invoke Runes","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Wyrmreaver_Gauntlets","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Wyrmreaver Gauntlets","rarity": "VERY_RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "Originally crafted for ground-bound giant brawlers to fight against dragons and other enormous predators of the sky, these studded gauntlets are engraved with the dragon rune.\n\nWhile you are wearing these gauntlets, your unarmed strike deals an additional 1d6 force damage on a hit. Additionally, whenever you finish a long rest, choose one of the following damage types: acid, cold, fire, lightning, or poison. You have resistance to the chosen damage type until you finish another long rest.\n\nInvoking the Runes\nAs a bonus action, you can invoke the gauntlets' runes and summon two enormous spectral fists that envelop the gauntlets and mimic your hand motions. The fists can also launch themselves to strike distant opponents, returning immediately to your space after they hit or miss.\n\nThe fists last for 1 minute or until you are incapacitated. While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or have the prone condition.\n\nOnce the runes have been invoked, they can't be invoked again until the next dawn.",
+  "effects": [
+    {
+      "charges": 1,
+      "id": "346083e2-f23e-4295-9814-0f748f9faed4",
+      "name": "Invoke Runes",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Wyrmreaver_Gauntlets",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": true,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Wyrmreaver Gauntlets",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

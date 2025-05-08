@@ -1,7 +1,77 @@
-{"ac":16,"actions":[{"description":" 5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) thunder damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw. On a failed save, the creature takes 22 (4d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Debilitating Breath (Recharge 5-6)","type":"NONE"},
-{"description":"The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:\n1/day each: alarm, Tenser's floating disk","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting (Psionics)","type":"NONE"}],
-"alignment":"Lawful Neutral","burrowSpeed":15,"cha":14,"climbSpeed":30,"con":16,"conditionImmunities":"frightened","cr":"3","damageImmunities":null,"dex":14,"flySpeed":60,"hp":{"constant":18,"diceAmount":6,"diceType":"D8"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":"Draconic, telepathy 120 ft.","name":"Sapphire Dragon Wyrmling","resistances":"lightning, thunder","savingThrows":"Dex +4, Con +5, Wis +3, Cha +4","senses":"blindsight 30 ft., darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"},
-{"description":"The dragon can burrow through solid rock at half its burrowing speed and can leave a 5-foot-diameter tunnel in its wake.","id":-1,"monsterId":-1,"name":"Tunneler"}],
-"speed":30,"str":17,"swimSpeed":0,"tag":"gem","type":"Dragon","vulnerabilities":null,"wis":13,"xp":700}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": " 5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) thunder damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw. On a failed save, the creature takes 22 (4d10) thunder damage and is incapacitated until the end of its next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Debilitating Breath (Recharge 5-6)",
+      "type": "NONE"
+    },
+    {
+      "description": "The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:\n1/day each: alarm, Tenser's floating disk",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting (Psionics)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Lawful Neutral",
+  "burrowSpeed": 15,
+  "cha": 14,
+  "climbSpeed": 30,
+  "con": 16,
+  "conditionImmunities": "frightened",
+  "cr": "3",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 60,
+  "hp": {
+    "constant": 18,
+    "diceAmount": 6,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Draconic, telepathy 120 ft.",
+  "name": "Sapphire Dragon Wyrmling",
+  "resistances": "lightning, thunder",
+  "savingThrows": "Dex +4, Con +5, Wis +3, Cha +4",
+  "senses": "blindsight 30 ft., darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    },
+    {
+      "description": "The dragon can burrow through solid rock at half its burrowing speed and can leave a 5-foot-diameter tunnel in its wake.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Tunneler"
+    }
+  ],
+  "speed": 30,
+  "str": 17,
+  "swimSpeed": 0,
+  "tag": "gem",
+  "type": "Dragon",
+  "vulnerabilities": null,
+  "wis": 13,
+  "xp": 700
+}

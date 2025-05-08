@@ -1,4 +1,40 @@
-{"casting_time": "1 bonus action","classes": ["artificer","artificer__eb_","artificer__revised_","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.","duration": "Concentration, up to 10 minutes","level": "1","name": "Expeditious Retreat","range": "Self","ritual": false,"school": "transmutation","tags": ["artificer","artificer__eb_","artificer__revised_","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level1"],
-"type": "1st-level transmutation"}
+{
+  "casting_time": "1 bonus action",
+  "classes": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.",
+  "duration": "Concentration, up to 10 minutes",
+  "level": "1",
+  "name": "Expeditious Retreat",
+  "range": "Self",
+  "ritual": false,
+  "school": "transmutation",
+  "tags": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level1"
+  ],
+  "type": "1st-level transmutation"
+}

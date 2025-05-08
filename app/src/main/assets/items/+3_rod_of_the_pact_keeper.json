@@ -1,18 +1,100 @@
-{"changesNameOnAttunement": false,"description": "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.\n\nIn addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.","effects": [{"actualEffect": {"modifier": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "SPELL_ATTACK_BONUS","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "f77fa664-3bb9-45a2-b3ed-f3d1d8fd7c67","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "SPELL_SAVE_DC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "b926435f-4691-420e-8362-b464d9874b73","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"charges": 1,"id": "b807eb11-d8e1-42a2-8f36-5717fba5f705","name": "Recover Warlock Spell Slots","rechargeMoment": "LONG_REST","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_+3_Rod_of_the_Pact_Keeper","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "+3 Rod of the Pact Keeper","rarity": "VERY_RARE","requiresAttunement": true,"type": "ROD","valueCoin": "GOLD","weight": 2.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.\n\nIn addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "SPELL_ATTACK_BONUS",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "f77fa664-3bb9-45a2-b3ed-f3d1d8fd7c67",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "SPELL_SAVE_DC",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "b926435f-4691-420e-8362-b464d9874b73",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "charges": 1,
+      "id": "b807eb11-d8e1-42a2-8f36-5717fba5f705",
+      "name": "Recover Warlock Spell Slots",
+      "rechargeMoment": "LONG_REST",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_+3_Rod_of_the_Pact_Keeper",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "+3 Rod of the Pact Keeper",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "ROD",
+  "valueCoin": "GOLD",
+  "weight": 2.0,
+  "weightUnit": "OUNCES"
+}

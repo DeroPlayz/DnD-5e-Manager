@@ -1,6 +1,44 @@
-{"changesNameOnAttunement": false,"description": "While you wear these boots, you can use an action to cast the levitate spell on yourself at will.","effects": [{"actualEffect": {"spellId": "287","type": "ADD_SPELL","typeStr": "ADD_SPELL"},
-"id": "73803140-6a5e-4abf-a29b-13d444678c00","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Boots_of_Levitation","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Boots of Levitation","rarity": "RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While you wear these boots, you can use an action to cast the levitate spell on yourself at will.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "287",
+        "type": "ADD_SPELL",
+        "typeStr": "ADD_SPELL"
+      },
+      "id": "73803140-6a5e-4abf-a29b-13d444678c00",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Boots_of_Levitation",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Boots of Levitation",
+  "rarity": "RARE",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

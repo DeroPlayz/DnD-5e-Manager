@@ -1,11 +1,111 @@
-{"ac":21,"actions":[{"description":"Velomachus makes one Bite attack and two Claw attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 18 to hit, reach 15 ft., one target. Hit: 15 (1d10 + 10) piercing damage plus 6 (1d12) thunder damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":" 18 to hit, reach 10 ft., one target. Hit: 13 (1d6 + 10) slashing damage. If the target is a Huge or smaller creature, it is knocked prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"Velomachus exhales thunderous sound in a 90-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failure, a creature takes 45 (7d12) force damage and 45 (7d12) thunder damage and is pushed up to 20 feet in a horizontal direction of Velomachus' choice. On a success, the creature takes half as much damage and isn't pushed. Objects that aren't being worn or carried take the damage and are pushed as if they were creatures that failed the saving throw.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Battle Tide Breath (Recharge 5-6)","type":"NONE"},
-{"description":"Velomachus casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:\n1/day each: contact other plane (as an action, contacting a long-dead spirit), divination, move earth, wall of force","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"},
-{"description":"Velomachus makes one Claw attack.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Claw","type":"NONE"},
-{"description":"Velomachus moves up to half her flying speed. If a creature hits or misses her with an opportunity attack during this move, the attacker takes 19 (3d12) thunder damage.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Chaotic Flow (Costs 2 Actions)","type":"NONE"},
-{"description":"Velomachus magically summons 1d4 spirit statue mascot|SCC|statue mascots in unoccupied spaces she can see within 60 feet of herself. The spirit statues obey her commands and take their turns immediately after hers. Any creature, other than a spirit statue or Velomachus, is restrained if it starts its turn within 5 feet of one or more of these spirit statues. This restrained condition lasts until the end of the creature's turn. These spirit statues disappear after 10 minutes, when Velomachus dies, or when she uses this action again.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Repeating History (Costs 3 Actions)","type":"NONE"}],
-"alignment":"Lawful Neutral","burrowSpeed":0,"cha":18,"climbSpeed":40,"con":29,"conditionImmunities":null,"cr":"25","damageImmunities":"thunder","dex":14,"flySpeed":80,"hp":{"constant":225,"diceAmount":25,"diceType":"D20"},
-"id":-1,"int":30,"isLocked":true,"jsonType":"monster","languages":"all","name":"Velomachus Lorehold","resistances":null,"savingThrows":"Dex +10, Con +17, Wis +13, Cha +12","senses":"blindsight 120 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"If Velomachus fails a saving throw, she can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"}],
-"speed":40,"str":30,"swimSpeed":0,"tag":"wizard","type":"Dragon","vulnerabilities":null,"wis":20,"xp":75000}
+{
+  "ac": 21,
+  "actions": [
+    {
+      "description": "Velomachus makes one Bite attack and two Claw attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 18 to hit, reach 15 ft., one target. Hit: 15 (1d10 + 10) piercing damage plus 6 (1d12) thunder damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": " 18 to hit, reach 10 ft., one target. Hit: 13 (1d6 + 10) slashing damage. If the target is a Huge or smaller creature, it is knocked prone.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "Velomachus exhales thunderous sound in a 90-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failure, a creature takes 45 (7d12) force damage and 45 (7d12) thunder damage and is pushed up to 20 feet in a horizontal direction of Velomachus' choice. On a success, the creature takes half as much damage and isn't pushed. Objects that aren't being worn or carried take the damage and are pushed as if they were creatures that failed the saving throw.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Battle Tide Breath (Recharge 5-6)",
+      "type": "NONE"
+    },
+    {
+      "description": "Velomachus casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:\n1/day each: contact other plane (as an action, contacting a long-dead spirit), divination, move earth, wall of force",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    },
+    {
+      "description": "Velomachus makes one Claw attack.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "NONE"
+    },
+    {
+      "description": "Velomachus moves up to half her flying speed. If a creature hits or misses her with an opportunity attack during this move, the attacker takes 19 (3d12) thunder damage.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Chaotic Flow (Costs 2 Actions)",
+      "type": "NONE"
+    },
+    {
+      "description": "Velomachus magically summons 1d4 spirit statue mascot|SCC|statue mascots in unoccupied spaces she can see within 60 feet of herself. The spirit statues obey her commands and take their turns immediately after hers. Any creature, other than a spirit statue or Velomachus, is restrained if it starts its turn within 5 feet of one or more of these spirit statues. This restrained condition lasts until the end of the creature's turn. These spirit statues disappear after 10 minutes, when Velomachus dies, or when she uses this action again.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Repeating History (Costs 3 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Lawful Neutral",
+  "burrowSpeed": 0,
+  "cha": 18,
+  "climbSpeed": 40,
+  "con": 29,
+  "conditionImmunities": null,
+  "cr": "25",
+  "damageImmunities": "thunder",
+  "dex": 14,
+  "flySpeed": 80,
+  "hp": {
+    "constant": 225,
+    "diceAmount": 25,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 30,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "all",
+  "name": "Velomachus Lorehold",
+  "resistances": null,
+  "savingThrows": "Dex +10, Con +17, Wis +13, Cha +12",
+  "senses": "blindsight 120 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If Velomachus fails a saving throw, she can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    }
+  ],
+  "speed": 40,
+  "str": 30,
+  "swimSpeed": 0,
+  "tag": "wizard",
+  "type": "Dragon",
+  "vulnerabilities": null,
+  "wis": 20,
+  "xp": 75000
+}

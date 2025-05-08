@@ -1,6 +1,65 @@
-{  "ac": 13,  "actions": [{  "description": "+4 to hit, range 30 ft., one target you can see.  Hit: 1d6 +2 acid damage",  "id": 2258,  "isLegendary": false,  "monsterId": 762,  "name": "Acidic Spittle",  "type": "RANGED"},
-{  "description": "The homunculus produces a salve and touches one creature you designate. The target receives one of the following magical benefits of your choice: \\n\\n- Buoyancy: The target gains a flying speed of 10 feet for 10 minutes. \\n\\n- Inspiration: The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1). \\n\\n- Resilience: The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier",  "id": 2259,  "isLegendary": false,  "monsterId": 762,  "name": "Alchemical Salve (3/Day)",  "type": "NONE"}  ],
-  "alignment": "True Neutral",  "burrowSpeed": 0,  "cha": 7,  "climbSpeed": 0,  "con": 11,  "conditionImmunities": "Charmed, Exhaustion, Poisoned",  "cr": "0",  "damageImmunities": "Acid, Poison",  "dex": 15,  "flySpeed": 30,  "hp": {"constant": 0,"diceAmount": 0,"diceType": "D4"  },
-  "id": 762,  "int": 10,  "isLocked": false,  "languages": "Understands the languages its creator speaks",  "name": "Homunculus (Artificer)",  "senses": "Darkvision (60 ft.), Passive Perception 10",  "size": "Tiny",  "skills": "Perception +4, Stealth +4",  "specialTraits": [{  "description": "The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus’s skill bonuses and the bonuses to hit and damage of its Acidic Spittle.",  "id": 1678,  "monsterId": 762,  "name": "Might of the Master"},
-{  "description": " All actions require your bonus action",  "id": 1679,  "monsterId": 762,  "name": "Obedient"}  ],
-  "speed": 20,  "str": 4,  "swimSpeed": 0,  "tag": "",  "type": "Construct",  "wis": 10,  "xp": 10}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "+4 to hit, range 30 ft., one target you can see.  Hit: 1d6 +2 acid damage",
+      "id": 2258,
+      "isLegendary": false,
+      "monsterId": 762,
+      "name": "Acidic Spittle",
+      "type": "RANGED"
+    },
+    {
+      "description": "The homunculus produces a salve and touches one creature you designate. The target receives one of the following magical benefits of your choice: \\n\\n- Buoyancy: The target gains a flying speed of 10 feet for 10 minutes. \\n\\n- Inspiration: The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1). \\n\\n- Resilience: The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier",
+      "id": 2259,
+      "isLegendary": false,
+      "monsterId": 762,
+      "name": "Alchemical Salve (3/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 7,
+  "climbSpeed": 0,
+  "con": 11,
+  "conditionImmunities": "Charmed, Exhaustion, Poisoned",
+  "cr": "0",
+  "damageImmunities": "Acid, Poison",
+  "dex": 15,
+  "flySpeed": 30,
+  "hp": {
+    "constant": 0,
+    "diceAmount": 0,
+    "diceType": "D4"
+  },
+  "id": 762,
+  "int": 10,
+  "isLocked": false,
+  "languages": "Understands the languages its creator speaks",
+  "name": "Homunculus (Artificer)",
+  "senses": "Darkvision (60 ft.), Passive Perception 10",
+  "size": "Tiny",
+  "skills": "Perception +4, Stealth +4",
+  "specialTraits": [
+    {
+      "description": "The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus\u00e2\u20ac\u2122s skill bonuses and the bonuses to hit and damage of its Acidic Spittle.",
+      "id": 1678,
+      "monsterId": 762,
+      "name": "Might of the Master"
+    },
+    {
+      "description": " All actions require your bonus action",
+      "id": 1679,
+      "monsterId": 762,
+      "name": "Obedient"
+    }
+  ],
+  "speed": 20,
+  "str": 4,
+  "swimSpeed": 0,
+  "tag": "",
+  "type": "Construct",
+  "wis": 10,
+  "xp": 10
+}

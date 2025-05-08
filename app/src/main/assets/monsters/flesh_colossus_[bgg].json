@@ -1,9 +1,89 @@
-{"ac":14,"actions":[{"description":"The colossus makes two Fist attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"13 to hit (with advantage if the colossus is berserk), reach 20 ft., one target. Hit: 17 (3d6 + 7) bludgeoning damage. If the target is a Large or smaller creature, it is pulled up to 15 feet toward the colossus, it has the grappled condition (escape DC 17), and it has the restrained condition until this grapple ends. The colossus can have up to two creatures grappled this way at a time.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Fist","type":"MELEE"},
-{"description":"The colossus exhales a cloud swirling with elemental energy in a 90-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw. On a failed save, a creature takes 40 (9d8) damage of a type of the colossus's choosing: acid, cold, fire, or lightning. On a successful save, a creature takes half as much damage.\n\nAt the same time as the colossus releases this exhalation, creatures inside the colossus's chest cavity take 40 (9d8) force damage from churning elemental energy.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Elemental Breath (Recharge 5-6)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":24,"conditionImmunities":"charmed, exhaustion, frightened, paralyzed, petrified, poisoned","cr":"20","damageImmunities":"lightning, poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks","dex":9,"flySpeed":0,"hp":{"constant":112,"diceAmount":16,"diceType":"D20"},
-"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":"understands Giant but can't speak","name":"Flesh Colossus [BGG]","resistances":null,"savingThrows":null,"senses":"darkvision 120 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"If the core inside the colossus is destroyed, the colossus goes berserk. On each of its turns while berserk, the colossus attacks the nearest creature it can see. If no creature is near enough to move to and attack, the colossus attacks an object. Once the colossus goes berserk, it remains berserk until it is destroyed.","id":-1,"monsterId":-1,"name":"Berserk"},
-{"description":"The colossus is immune to any spell or effect that would alter its form.","id":-1,"monsterId":-1,"name":"Immutable Form"},
-{"description":"The colossus has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"The colossus deals double damage to objects and structures.","id":-1,"monsterId":-1,"name":"Siege Monster"}],
-"speed":60,"str":24,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":10,"xp":25000}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The colossus makes two Fist attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "13 to hit (with advantage if the colossus is berserk), reach 20 ft., one target. Hit: 17 (3d6 + 7) bludgeoning damage. If the target is a Large or smaller creature, it is pulled up to 15 feet toward the colossus, it has the grappled condition (escape DC 17), and it has the restrained condition until this grapple ends. The colossus can have up to two creatures grappled this way at a time.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Fist",
+      "type": "MELEE"
+    },
+    {
+      "description": "The colossus exhales a cloud swirling with elemental energy in a 90-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw. On a failed save, a creature takes 40 (9d8) damage of a type of the colossus's choosing: acid, cold, fire, or lightning. On a successful save, a creature takes half as much damage.\n\nAt the same time as the colossus releases this exhalation, creatures inside the colossus's chest cavity take 40 (9d8) force damage from churning elemental energy.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Elemental Breath (Recharge 5-6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 24,
+  "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "cr": "20",
+  "damageImmunities": "lightning, poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "dex": 9,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 112,
+    "diceAmount": 16,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 6,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands Giant but can't speak",
+  "name": "Flesh Colossus [BGG]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the core inside the colossus is destroyed, the colossus goes berserk. On each of its turns while berserk, the colossus attacks the nearest creature it can see. If no creature is near enough to move to and attack, the colossus attacks an object. Once the colossus goes berserk, it remains berserk until it is destroyed.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Berserk"
+    },
+    {
+      "description": "The colossus is immune to any spell or effect that would alter its form.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Immutable Form"
+    },
+    {
+      "description": "The colossus has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "The colossus deals double damage to objects and structures.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Siege Monster"
+    }
+  ],
+  "speed": 60,
+  "str": 24,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 25000
+}

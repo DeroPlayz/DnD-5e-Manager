@@ -1,21 +1,105 @@
-{"abilityScores": {"cha": 0,"con": 2,"dex": 0,"intelligence": 0,"str": 1,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom51641dd5-2053-45fb-9420-93a3c1d34777","jsonType": "race","languages": [],
-"name": "Tarkir Loxodon","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You count as being one size larger when it comes to the derminating carrying capacity.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Powerful Build","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your heavy wool grants you advantage on saving throws from extreme cold weather","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Artic Wool","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You are perfectly acclimated to the cold region of the world, you are considered proficient in the Wisdom (Survival) skill in a snowy or artic climate. If you are already proficient you may add double your proficiency bonus to the check, instead of your normal proficiency bonus","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Artic Scout","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you use Barge Aside on a space occupied by an enemy the same size or smaller than you, you may elect to trample them. If you move through an opponent's space, they must make an Athletics or Acrobatics check with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, you may trample an enemy, dealing 1d6 bludgeoning damage and knocking them prone. An enemy takes no damage and is not knocked prone on a successful save. You may continue your movement after a trample, but you may not trample another enemy. Once you use this trait, you can not use it again until you finish a short or long rest","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Stampede","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 2,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 1,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom51641dd5-2053-45fb-9420-93a3c1d34777",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Tarkir Loxodon",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 25,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You count as being one size larger when it comes to the derminating carrying capacity.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Powerful Build",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your heavy wool grants you advantage on saving throws from extreme cold weather",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Artic Wool",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You are perfectly acclimated to the cold region of the world, you are considered proficient in the Wisdom (Survival) skill in a snowy or artic climate. If you are already proficient you may add double your proficiency bonus to the check, instead of your normal proficiency bonus",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Artic Scout",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you use Barge Aside on a space occupied by an enemy the same size or smaller than you, you may elect to trample them. If you move through an opponent's space, they must make an Athletics or Acrobatics check with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, you may trample an enemy, dealing 1d6 bludgeoning damage and knocking them prone. An enemy takes no damage and is not knocked prone on a successful save. You may continue your movement after a trample, but you may not trample another enemy. Once you use this trait, you can not use it again until you finish a short or long rest",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Stampede",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

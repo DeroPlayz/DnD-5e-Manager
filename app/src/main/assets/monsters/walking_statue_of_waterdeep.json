@@ -1,9 +1,89 @@
-{"ac":17,"actions":[{"description":"The statue makes two melee attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 16 to hit, reach 5 ft., one target. Hit: 29 (3d12 + 10) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":" 16 to hit, range 200/800 ft., one target. Hit: 43 (6d10 + 10) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Hurled Stone","type":"RANGED"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":0,"con":27,"conditionImmunities":"charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned","cr":"18","damageImmunities":"cold, fire, poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks not made with adamantine weapons","dex":8,"flySpeed":0,"hp":{"constant":136,"diceAmount":17,"diceType":"D20"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Walking Statue of Waterdeep","resistances":null,"savingThrows":"Con +14","senses":"truesight 120 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"When the statue drops to 0 hit points, it crumbles and is destroyed. Any creature on the ground within 30 feet of the crumbling statue must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one.","id":-1,"monsterId":-1,"name":"Crumbling Colossus"},
-{"description":"The statue is immune to any spell or effect that would alter its form.","id":-1,"monsterId":-1,"name":"Immutable Form"},
-{"description":"The statue has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"The statue deals double damage to objects and structures.","id":-1,"monsterId":-1,"name":"Siege Monster"}],
-"speed":60,"str":30,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":10,"xp":20000}
+{
+  "ac": 17,
+  "actions": [
+    {
+      "description": "The statue makes two melee attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 16 to hit, reach 5 ft., one target. Hit: 29 (3d12 + 10) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": " 16 to hit, range 200/800 ft., one target. Hit: 43 (6d10 + 10) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Hurled Stone",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 1,
+  "climbSpeed": 0,
+  "con": 27,
+  "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
+  "cr": "18",
+  "damageImmunities": "cold, fire, poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks not made with adamantine weapons",
+  "dex": 8,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 136,
+    "diceAmount": 17,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Walking Statue of Waterdeep",
+  "resistances": null,
+  "savingThrows": "Con +14",
+  "senses": "truesight 120 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When the statue drops to 0 hit points, it crumbles and is destroyed. Any creature on the ground within 30 feet of the crumbling statue must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Crumbling Colossus"
+    },
+    {
+      "description": "The statue is immune to any spell or effect that would alter its form.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Immutable Form"
+    },
+    {
+      "description": "The statue has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "The statue deals double damage to objects and structures.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Siege Monster"
+    }
+  ],
+  "speed": 60,
+  "str": 30,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 20000
+}

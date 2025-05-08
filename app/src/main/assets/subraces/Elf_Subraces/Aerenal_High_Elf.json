@@ -1,18 +1,91 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "aerenal_high_elf","jsonType": "race","languages": [],
-"name": "Aerenal High Elf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency","level": 1}],
-"id": "Custombe9ac936-a537-457f-835b-4af36fe3789e","isFeature": true,"jsonType": "feat","level": 1,"name": "Aereni Elf","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it","level": 1}],
-"id": "Custom490a9cfe-6d66-4164-b9a0-04d0b8c32d87","isFeature": true,"jsonType": "feat","level": 1,"name": "Cantrip","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can speak, read, and write one extra language of your choice","level": 1}],
-"id": "Custom17794ef7-12ea-4559-bf66-3dc915c47694","isFeature": true,"jsonType": "feat","level": 1,"name": "Extra Language","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 1,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "aerenal_high_elf",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Aerenal High Elf",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency",
+            "level": 1
+          }
+        ],
+        "id": "Custombe9ac936-a537-457f-835b-4af36fe3789e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Aereni Elf",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it",
+            "level": 1
+          }
+        ],
+        "id": "Custom490a9cfe-6d66-4164-b9a0-04d0b8c32d87",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Cantrip",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can speak, read, and write one extra language of your choice",
+            "level": 1
+          }
+        ],
+        "id": "Custom17794ef7-12ea-4559-bf66-3dc915c47694",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Extra Language",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

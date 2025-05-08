@@ -1,6 +1,67 @@
-{"ac":14,"actions":[{"description":"The dragon uses its Breath Weapon, and it makes a number of Bite and Claw attacks equal to half the spell’s level (rounded down)","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"Your (the summoner\u0027s) spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell’s level piercing damage","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite and Claw","type":"MELEE"},
-{"description":"The dragon exhales a stream of multicolored energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw, taking 2d6 damage of your choice of a damage type this dragon has resistance to on a failed save, or half as much damage on a successful one","id":-1,"isLegendary":false,"monsterId":-1,"name":"Breath Weapon","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":14,"climbSpeed":0,"con":17,"conditionImmunities":"charmed, frightened, poisoned","cr":"0","dex":14,"flySpeed":80,"hp":{"constant":50,"diceAmount":0,"diceType":"D4"},
-"id":-1,"int":10,"isLocked":false,"jsonType":"monster","languages":"Draconic, understands the languages its summoner speaks","name":"Draconic Spirit","resistances":"\n(Chromatic \u0026 Metallic only) acid, cold, fire, lightning, poison\n(Gem only) force, necrotic, psychic, radiant, thunder","senses":"blindsight 30 ft., darkvision 60 ft., Passive Perception 12","size":"Large","specialTraits":[{"description":"When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends","id":-1,"monsterId":-1,"name":"Shared Resistances"}],
-"speed":30,"str":19,"swimSpeed":30,"tag":"","type":"Dragon","wis":14,"xp":1}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The dragon uses its Breath Weapon, and it makes a number of Bite and Claw attacks equal to half the spell\u00e2\u20ac\u2122s level (rounded down)",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "Your (the summoner's) spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell\u00e2\u20ac\u2122s level piercing damage",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite and Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "The dragon exhales a stream of multicolored energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw, taking 2d6 damage of your choice of a damage type this dragon has resistance to on a failed save, or half as much damage on a successful one",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Breath Weapon",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 14,
+  "climbSpeed": 0,
+  "con": 17,
+  "conditionImmunities": "charmed, frightened, poisoned",
+  "cr": "0",
+  "dex": 14,
+  "flySpeed": 80,
+  "hp": {
+    "constant": 50,
+    "diceAmount": 0,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": false,
+  "jsonType": "monster",
+  "languages": "Draconic, understands the languages its summoner speaks",
+  "name": "Draconic Spirit",
+  "resistances": "\n(Chromatic & Metallic only) acid, cold, fire, lightning, poison\n(Gem only) force, necrotic, psychic, radiant, thunder",
+  "senses": "blindsight 30 ft., darkvision 60 ft., Passive Perception 12",
+  "size": "Large",
+  "specialTraits": [
+    {
+      "description": "When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Shared Resistances"
+    }
+  ],
+  "speed": 30,
+  "str": 19,
+  "swimSpeed": 30,
+  "tag": "",
+  "type": "Dragon",
+  "wis": 14,
+  "xp": 1
+}

@@ -1,18 +1,88 @@
-{"abilityScores": {"cha": 1,"con": 0,"dex": 1,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custome0ae55e2-0038-4bf7-af77-013340b69c18","jsonType": "race","languages": [],
-"name": "Swiftstride","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 35,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have proficiency with the Acrobatics skill","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Graceful","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your walking speed increases by 5 feet","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Swift Stride","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "While shifted, your walking speed increases by an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn\u2019t provoke opportunity attacks","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Shifting Feature","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 1,
+    "con": 0,
+    "dex": 1,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custome0ae55e2-0038-4bf7-af77-013340b69c18",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Swiftstride",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 35,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have proficiency with the Acrobatics skill",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Graceful",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your walking speed increases by 5 feet",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Swift Stride",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "While shifted, your walking speed increases by an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn\u2019t provoke opportunity attacks",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Shifting Feature",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

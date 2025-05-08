@@ -1,19 +1,19 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You and friendly creatures within 10 feet of you can't be frightened while you are conscious",
-            "level": 10
-        },
-        {
-            "description": "You and friendly creatures within 30 feet of you can't be frightened while you are conscious",
-            "level": 18
-        }
-    ],
-    "id": "Customc294c8b3-3475-4aab-bb57-3ab0b6e45928",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Aura of Courage",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You and friendly creatures within 10 feet of you can't be frightened while you are conscious",
+      "level": 10
+    },
+    {
+      "description": "You and friendly creatures within 30 feet of you can't be frightened while you are conscious",
+      "level": 18
+    }
+  ],
+  "id": "Customc294c8b3-3475-4aab-bb57-3ab0b6e45928",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Aura of Courage",
+  "notes": "",
+  "type": "Feat"
 }

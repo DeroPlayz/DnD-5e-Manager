@@ -1,23 +1,131 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom863bf0f5-2774-435c-a07e-86257b3c4a43","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Tabaxi [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Slashing","diceAmount": 1,"diceTypeName": "d6","name": "Claws"},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,perception"},
-{"hint": "","level": 1,"proficiency": "full,stealth"}],
-"speed": {"burrow": 0,"climb": 30,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom5b5344c7-1e28-48b9-9745-83b25f295696","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have a climbing speed equal to your walking speed","level": 1}],
-"id": "Custom4e776c80-a3b2-406e-8199-632de00f9953","isFeature": true,"jsonType": "feat","level": 1,"name": "Climber","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray","level": 1}],
-"id": "Custom7e11eab5-f712-4d78-9c7f-bf8e4f14009d","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns","level": 1}],
-"id": "Custom2b79170e-0f16-4765-9117-e5526ac5b081","isFeature": true,"jsonType": "feat","level": 1,"name": "Feline Agility","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom863bf0f5-2774-435c-a07e-86257b3c4a43",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Tabaxi [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Slashing",
+    "diceAmount": 1,
+    "diceTypeName": "d6",
+    "name": "Claws"
+  },
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,perception"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,stealth"
+    }
+  ],
+  "speed": {
+    "burrow": 0,
+    "climb": 30,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom5b5344c7-1e28-48b9-9745-83b25f295696",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a climbing speed equal to your walking speed",
+            "level": 1
+          }
+        ],
+        "id": "Custom4e776c80-a3b2-406e-8199-632de00f9953",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Climber",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray",
+            "level": 1
+          }
+        ],
+        "id": "Custom7e11eab5-f712-4d78-9c7f-bf8e4f14009d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Darkvision",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns",
+            "level": 1
+          }
+        ],
+        "id": "Custom2b79170e-0f16-4765-9117-e5526ac5b081",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Feline Agility",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

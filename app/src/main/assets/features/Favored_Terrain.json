@@ -1,23 +1,23 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Choose one type of favored terrain from the following: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
-            "level": 1
-        },
-        {
-            "description": "Choose two types of favored terrain from the following: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
-            "level": 6
-        },
-        {
-            "description": "Choose three types of favored terrain from the following: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
-            "level": 10
-        }
-    ],
-    "id": "Custom7ee81a6a-ab3b-461c-b40b-fa62b7a0f12f",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Favored Terrain",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Choose one type of favored terrain from the following: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
+      "level": 1
+    },
+    {
+      "description": "Choose two types of favored terrain from the following: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
+      "level": 6
+    },
+    {
+      "description": "Choose three types of favored terrain from the following: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u00e2\u20ac\u2122re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n- Difficult terrain doesn\u00e2\u20ac\u2122t slow your group\u00e2\u20ac\u2122s travel.\n- Your group can\u00e2\u20ac\u2122t become lost except by magical means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area",
+      "level": 10
+    }
+  ],
+  "id": "Custom7ee81a6a-ab3b-461c-b40b-fa62b7a0f12f",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Favored Terrain",
+  "notes": "",
+  "type": "Feat"
 }

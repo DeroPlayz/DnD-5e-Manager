@@ -1,4 +1,33 @@
-{"casting_time": "1 action","classes": ["bard","cleric","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become Cursed for the Duration of the spell. When you cast this spell, choose the Nature of the curse from the following options.\n\n- Choose one ability score. While Cursed, the target has disadvantage on Ability Checks and Saving Throws made with that ability score.\n\n- While Cursed, the target has disadvantage on Attack Rolls against you.\n\n- While Cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n- While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target.\n\nA Remove Curse spell ends this Effect. At the GM's option, you may choose an alternative curse Effect, but it should be no more powerful than those described above. The GM has final say on such a curse's Effect.","duration": "Concentration, up to 1 minute","higher_levels": "If you cast this spell using a spell slot of 4th Level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th Level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th Level or higher grants a Duration that doesn't require Concentration","level": "3","name": "Bestow Curse","range": "Touch","ritual": false,"school": "necromancy","tags": ["bard","cleric","fighter","rogue","wizard","level3"],
-"type": "3rd-level necromancy"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "cleric",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become Cursed for the Duration of the spell. When you cast this spell, choose the Nature of the curse from the following options.\n\n- Choose one ability score. While Cursed, the target has disadvantage on Ability Checks and Saving Throws made with that ability score.\n\n- While Cursed, the target has disadvantage on Attack Rolls against you.\n\n- While Cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n- While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target.\n\nA Remove Curse spell ends this Effect. At the GM's option, you may choose an alternative curse Effect, but it should be no more powerful than those described above. The GM has final say on such a curse's Effect.",
+  "duration": "Concentration, up to 1 minute",
+  "higher_levels": "If you cast this spell using a spell slot of 4th Level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th Level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th Level or higher grants a Duration that doesn't require Concentration",
+  "level": "3",
+  "name": "Bestow Curse",
+  "range": "Touch",
+  "ritual": false,
+  "school": "necromancy",
+  "tags": [
+    "bard",
+    "cleric",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level3"
+  ],
+  "type": "3rd-level necromancy"
+}

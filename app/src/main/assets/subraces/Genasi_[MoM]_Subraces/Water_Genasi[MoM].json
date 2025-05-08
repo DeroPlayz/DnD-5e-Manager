@@ -1,25 +1,184 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customa961c8b6-25d5-4462-9f90-2df0ec1b2f58","jsonType": "race","languages": [],
-"name": "Water Genasi [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 30},
-"spellcastingAbility": "Intelligence","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard","components": "V, S","description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.\n\nThis spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).","duration": "Instantaneous","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 0,"name": "Acid Splash","notes": "","pinned": false,"prepared": false,"range": "60 feet","school": "Conjuration","type": "Conjuration cantrip"}},
-{"level": 3,"spellModel": {"castingTime": "1 action","classes": "cleric, druid","components": "V, S, M (a drop of water if creating water, or a few grains of sand if destroying it)","description": "You either create or destroy water.\n- Create Water. You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.\n- Destroy Water. You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.","duration": "Instantaneous","higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.","isCustom": false,"isRitual": false,"jsonType": "spell","level": 1,"name": "Create or Destroy Water","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "transmutation","type": "1st-level transmutation"}},
-{"level": 5,"spellModel": {"castingTime": "1 action","classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer","components": "V, S, M (a piece of cork)","description": "This spell grants the ability to move across any liquid surface--such as water, acid, mud, snow, quicksand, or lava--as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heal). Up to ten willing creatures you can see within range gain this abilily for the duration.\n\nlf you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.","duration": "1 hours","higherLevels": "","isCustom": false,"isRitual": true,"jsonType": "spell","level": 3,"name": "Water Walk","notes": "","pinned": false,"prepared": false,"range": "30 feet","school": "transmutation","type": "3rd-level transmutation (ritual)"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have a swimming speed equal to your walking speed","level": 1}],
-"id": "Custom42f90e8e-a8c5-40de-b73e-96cf51e08eb0","isFeature": true,"jsonType": "feat","level": 1,"name": "Swim","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have resistance to acid damage","level": 1}],
-"id": "Customb2e57d36-ca0e-4f01-bef0-b9ecd87917b1","isFeature": true,"jsonType": "feat","level": 1,"name": "Acid Resistance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You breathe air and water","level": 1}],
-"id": "Custom3bb8e82c-cecc-4c46-a4c9-bec5268a5132","isFeature": true,"jsonType": "feat","level": 1,"name": "Amphibious","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the acid splash cantrip.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 1},
-{"description": "You know the acid splash cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait. Once you cast create or destroy water with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 3},
-{"description": "You know the acid splash cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait. Starting at 5th level, you can also cast the water walk spell with this trait, without requiring a material component. Once you cast create or destroy water or water walk with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 5}],
-"id": "Custom8f7810cb-f4de-458e-8962-6afc68feb679","isFeature": true,"jsonType": "feat","level": 1,"name": "Call to the Wave","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Customa961c8b6-25d5-4462-9f90-2df0ec1b2f58",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Water Genasi [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 30
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.\n\nThis spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Acid Splash",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "Conjuration",
+        "type": "Conjuration cantrip"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, druid",
+        "components": "V, S, M (a drop of water if creating water, or a few grains of sand if destroying it)",
+        "description": "You either create or destroy water.\n- Create Water. You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.\n- Destroy Water. You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Create or Destroy Water",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "transmutation",
+        "type": "1st-level transmutation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer",
+        "components": "V, S, M (a piece of cork)",
+        "description": "This spell grants the ability to move across any liquid surface--such as water, acid, mud, snow, quicksand, or lava--as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heal). Up to ten willing creatures you can see within range gain this abilily for the duration.\n\nlf you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.",
+        "duration": "1 hours",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Water Walk",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "transmutation",
+        "type": "3rd-level transmutation (ritual)"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a swimming speed equal to your walking speed",
+            "level": 1
+          }
+        ],
+        "id": "Custom42f90e8e-a8c5-40de-b73e-96cf51e08eb0",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Swim",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to acid damage",
+            "level": 1
+          }
+        ],
+        "id": "Customb2e57d36-ca0e-4f01-bef0-b9ecd87917b1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Acid Resistance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You breathe air and water",
+            "level": 1
+          }
+        ],
+        "id": "Custom3bb8e82c-cecc-4c46-a4c9-bec5268a5132",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Amphibious",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know the acid splash cantrip.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 1
+          },
+          {
+            "description": "You know the acid splash cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait. Once you cast create or destroy water with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 3
+          },
+          {
+            "description": "You know the acid splash cantrip. Starting at 3rd level, you can cast the create or destroy water spell with this trait. Starting at 5th level, you can also cast the water walk spell with this trait, without requiring a material component. Once you cast create or destroy water or water walk with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 5
+          }
+        ],
+        "id": "Custom8f7810cb-f4de-458e-8962-6afc68feb679",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Call to the Wave",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

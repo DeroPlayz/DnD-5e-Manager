@@ -1,31 +1,154 @@
-{"changesNameOnAttunement": false,"description": "While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Water and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.\n\nThe ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.\n\nYou can expend 2 of the ring's charges to cast dominate monster on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.\n\nIf you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:\n\n- You can breathe underwater and have a swimming speed equal to your walking speed.\n- You can cast the following spells from the ring, expending the necessary number of charges: create or destroy water (1 charge), control water (3 charges), ice storm (2 charges), or wall of ice (3 charges).","effects": [{"charges": 5,"id": "5439d0ec-588a-4f0a-89b2-756d1e79827c","name": "Charges","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 1,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "172","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "b5b6bf1f-ed1a-4b64-93f3-be1a0ed8dbc3","name": "Cast Dominate Monster (2 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "15","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "d575b380-b11a-4dff-a610-661a773ccdcd","name": "Cast Create or Destroy Water (1 Charge)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "152","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "ac7ff077-0895-4ea2-9b18-35d766ef0757","name": "Cast Control Water (3 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "283","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "49771bdd-5fbc-48fc-8d6c-33aaba6c7b9a","name": "Cast Ice Storm (2 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "335","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "b24378af-11b2-46f1-a154-84a81d78e099","name": "Cast Wall of Ice (3 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Ring_of_Water_Elemental_Command","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Ring of Water Elemental Command","rarity": "LEGENDARY","requiresAttunement": true,"type": "RING","value": null,"weight": null,"valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Water and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.\n\nThe ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.\n\nYou can expend 2 of the ring's charges to cast dominate monster on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.\n\nIf you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:\n\n- You can breathe underwater and have a swimming speed equal to your walking speed.\n- You can cast the following spells from the ring, expending the necessary number of charges: create or destroy water (1 charge), control water (3 charges), ice storm (2 charges), or wall of ice (3 charges).",
+  "effects": [
+    {
+      "charges": 5,
+      "id": "5439d0ec-588a-4f0a-89b2-756d1e79827c",
+      "name": "Charges",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 1,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "172",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "b5b6bf1f-ed1a-4b64-93f3-be1a0ed8dbc3",
+      "name": "Cast Dominate Monster (2 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "15",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "d575b380-b11a-4dff-a610-661a773ccdcd",
+      "name": "Cast Create or Destroy Water (1 Charge)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "152",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "ac7ff077-0895-4ea2-9b18-35d766ef0757",
+      "name": "Cast Control Water (3 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "283",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "49771bdd-5fbc-48fc-8d6c-33aaba6c7b9a",
+      "name": "Cast Ice Storm (2 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "335",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "b24378af-11b2-46f1-a154-84a81d78e099",
+      "name": "Cast Wall of Ice (3 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Ring_of_Water_Elemental_Command",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Ring of Water Elemental Command",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "RING",
+  "value": null,
+  "weight": null,
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

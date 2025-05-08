@@ -1,6 +1,45 @@
-{"changesNameOnAttunement": false,"description": "These gloves are invisible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and Dexterity checks made to pick locks.","effects": [{"actualEffect": {"stat": "SLEIGHT_OF_HAND","type": "SET_ADVANTAGE","typeStr": "SET_ADVANTAGE"},
-"id": "ed9b0eee-e20e-4dbb-a3db-71cfca78bc8e","name": "Add Adv.","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Gloves_of_Thievery","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Gloves of Thievery","rarity": "UNCOMMON","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "These gloves are invisible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and Dexterity checks made to pick locks.",
+  "effects": [
+    {
+      "actualEffect": {
+        "stat": "SLEIGHT_OF_HAND",
+        "type": "SET_ADVANTAGE",
+        "typeStr": "SET_ADVANTAGE"
+      },
+      "id": "ed9b0eee-e20e-4dbb-a3db-71cfca78bc8e",
+      "name": "Add Adv.",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Gloves_of_Thievery",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Gloves of Thievery",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": false,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

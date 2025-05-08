@@ -1,18 +1,111 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Forgery Kit","number": 1}],
-"id": "7f180a33-f379-4bac-929e-9bca2b6026ea"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Signet Ring","number": 1}],
-"id": "47022ee6-7588-4f24-9af0-59082d625ab6"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Transparent cylinder of shadow that has no opening","number": 1}],
-"id": "b67e9a00-8146-4391-8746-96d152aa9a31"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Fine Clothes","number": 1}],
-"id": "b6fa3dfe-b5bf-4871-960a-b750283db55a"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory.\u00a0","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Secret Society","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"jsonType": "background","languages": [{"description": "Netherese or choose 1","shouldSelect": true}],
-"name": "Shade Fanatic","skills": [{"amountOfChoice": 1,"id": "c9e131b9-137e-4a35-bca9-09714a09f735","skills": [{}],
-"skillsModels": [{"name": "Deception","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "ffb66d56-892d-485e-ad90-ea24497e111d","skills": [{}],
-"skillsModels": [{"name": "Intimidation","typeName": "SKILL"}]}],
-"tools": [{"description": "Forgery kit","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Forgery Kit",
+          "number": 1
+        }
+      ],
+      "id": "7f180a33-f379-4bac-929e-9bca2b6026ea"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Signet Ring",
+          "number": 1
+        }
+      ],
+      "id": "47022ee6-7588-4f24-9af0-59082d625ab6"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Transparent cylinder of shadow that has no opening",
+          "number": 1
+        }
+      ],
+      "id": "b67e9a00-8146-4391-8746-96d152aa9a31"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Fine Clothes",
+          "number": 1
+        }
+      ],
+      "id": "b6fa3dfe-b5bf-4871-960a-b750283db55a"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory.\u00a0",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Secret Society",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Netherese or choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Shade Fanatic",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "c9e131b9-137e-4a35-bca9-09714a09f735",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "ffb66d56-892d-485e-ad90-ea24497e111d",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Forgery kit",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

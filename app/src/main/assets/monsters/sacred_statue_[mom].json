@@ -1,9 +1,89 @@
-{"ac":19,"actions":[{"description":"The statue makes two Slam or Rock attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 10 ft., one target. Hit: 43 (6d12 + 4) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":"8 to hit, range 60 ft./240 ft., one target. Hit: 37 (6d10 + 4) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Rock","type":"RANGED"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":19,"conditionImmunities":"charmed, exhaustion, frightened, paralyzed, petrified, poisoned","cr":"0","damageImmunities":"cold, necrotic, poison","dex":8,"flySpeed":0,"hp":{"constant":40,"diceAmount":10,"diceType":"D10"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":"the languages the {@creature eidolon|MPMM} knew in life","name":"Sacred Statue [MoM]","resistances":"acid, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Wis +8","senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"If the statue is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the statue move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the statue isn't an object.","id":-1,"monsterId":-1,"name":"False Appearance"},
-{"description":"The eidolon|MPMM that enters the statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the dispel evil and good spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue.","id":-1,"monsterId":-1,"name":"Ghostly Inhabitant"},
-{"description":"Without an eidolon|MPMM inside, the statue is an object.","id":-1,"monsterId":-1,"name":"Inert"},
-{"description":"The statue doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":25,"str":19,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":19,"xp":10}
+{
+  "ac": 19,
+  "actions": [
+    {
+      "description": "The statue makes two Slam or Rock attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 10 ft., one target. Hit: 43 (6d12 + 4) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, range 60 ft./240 ft., one target. Hit: 37 (6d10 + 4) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Rock",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 19,
+  "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "cr": "0",
+  "damageImmunities": "cold, necrotic, poison",
+  "dex": 8,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 40,
+    "diceAmount": 10,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "the languages the {@creature eidolon|MPMM} knew in life",
+  "name": "Sacred Statue [MoM]",
+  "resistances": "acid, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Wis +8",
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the statue is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the statue move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the statue isn't an object.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "False Appearance"
+    },
+    {
+      "description": "The eidolon|MPMM that enters the statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the dispel evil and good spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Ghostly Inhabitant"
+    },
+    {
+      "description": "Without an eidolon|MPMM inside, the statue is an object.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Inert"
+    },
+    {
+      "description": "The statue doesn't require air, food, drink, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 25,
+  "str": 19,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 19,
+  "xp": 10
+}

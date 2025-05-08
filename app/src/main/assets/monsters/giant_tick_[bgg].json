@@ -1,5 +1,56 @@
-{"ac":14,"actions":[{"description":"5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage, and the tick attaches to the target. While attached, the tick can't make Proboscis attacks. The tick can detach itself by spending 5 feet of its movement. As an action, a creature within reach of the tick can try to detach the tick, doing so with a successful DC 13 Strength check.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Proboscis","type":"MELEE"},
-{"description":"The tick deals 10 (2d6 + 3) necrotic damage to one creature it is physically attached to, provided that creature isn't a Construct or an Undead, or 17 (4d6 + 3) necrotic damage if the creature is a Giant. The tick regains hit points equal to the damage dealt.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Blood Drain","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":2,"climbSpeed":0,"con":16,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":21,"diceAmount":7,"diceType":"D8"},
-"id":-1,"int":2,"isLocked":true,"jsonType":"monster","languages":null,"name":"Giant Tick [BGG]","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":16,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":10,"xp":450}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage, and the tick attaches to the target. While attached, the tick can't make Proboscis attacks. The tick can detach itself by spending 5 feet of its movement. As an action, a creature within reach of the tick can try to detach the tick, doing so with a successful DC 13 Strength check.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Proboscis",
+      "type": "MELEE"
+    },
+    {
+      "description": "The tick deals 10 (2d6 + 3) necrotic damage to one creature it is physically attached to, provided that creature isn't a Construct or an Undead, or 17 (4d6 + 3) necrotic damage if the creature is a Giant. The tick regains hit points equal to the damage dealt.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Blood Drain",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 2,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 10,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 21,
+    "diceAmount": 7,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 2,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Giant Tick [BGG]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 450
+}

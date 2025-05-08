@@ -1,127 +1,127 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can channel divine fury into your weapon strikes. While you're raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your Barbarian level. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature.",
+            "level": 3
+          }
+        ],
+        "id": "Custom60275a65-0c9e-4a26-99b3-59ee7cfd82f5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Divine Fury",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can channel divine fury into your weapon strikes. While you're raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your Barbarian level. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature.",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom60275a65-0c9e-4a26-99b3-59ee7cfd82f5",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Divine Fury",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your soul is marked for endless battle. If a spell, such as Raise Dead, has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components to cast the spell on you.",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your soul is marked for endless battle. If a spell, such as Raise Dead, has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components to cast the spell on you.",
-                        "level": 3
-                    }
-                ],
-                "id": "Custombd950947-1614-49e7-a073-cc709e5df609",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Warrior of the Gods",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The divine power that fuels your rage can protect you. If you fail a saving throw while raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage.\n\n",
-                        "level": 6
-                    }
-                ],
-                "id": "Customf7a321cd-9a68-48a1-9f74-dc450f880cfa",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fanatical Focus",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custombd950947-1614-49e7-a073-cc709e5df609",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Warrior of the Gods",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The divine power that fuels your rage can protect you. If you fail a saving throw while raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage.\n\n",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn to channel divine power to inspire zealotry in others. As a bonus action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn. Once you use this feature, you can\u2019t use it again until you finish a long rest.",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom911795c1-8b8e-4d0f-819c-2f448c7b2214",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Zealous Presence",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customf7a321cd-9a68-48a1-9f74-dc450f880cfa",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fanatical Focus",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn to channel divine power to inspire zealotry in others. As a bonus action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn. Once you use this feature, you can\u2019t use it again until you finish a long rest.",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While you're raging, having 0 hit points doesn\u2019t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don\u2019t die until your rage ends, and you die then only if you still have 0 hit points.",
-                        "level": 14
-                    }
-                ],
-                "id": "Customa9272438-038f-4f88-bf8c-f8f4c6fad562",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Rage Beyond Death",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom911795c1-8b8e-4d0f-819c-2f448c7b2214",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Zealous Presence",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "While you're raging, having 0 hit points doesn\u2019t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don\u2019t die until your rage ends, and you die then only if you still have 0 hit points.",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "barbarian_path_of_the_zealot",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Path of the Zealot",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "unarmoredDefense": "Constitution",
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Customa9272438-038f-4f88-bf8c-f8f4c6fad562",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Rage Beyond Death",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "barbarian_path_of_the_zealot",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Path of the Zealot",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "unarmoredDefense": "Constitution",
+  "weaponProficiencies": []
 }

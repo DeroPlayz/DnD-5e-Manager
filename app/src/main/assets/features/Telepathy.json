@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself",
-            "level": 2
-        }
-    ],
-    "id": "Customfa2e9d44-f0f7-4927-9bb2-8bf909c6b3cd",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Telepathy",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself",
+      "level": 2
+    }
+  ],
+  "id": "Customfa2e9d44-f0f7-4927-9bb2-8bf909c6b3cd",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Telepathy",
+  "notes": "",
+  "type": "Feat"
 }

@@ -1,5 +1,36 @@
-{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","cleric","paladin"],
-"components": {"material": true,"materials_needed": ["a tiny strip of white cloth"],
-"raw": "V, S, M (a tiny strip of white cloth)","somatic": true,"verbal": true},
-"description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target\u2019s hit point maximum and current hit points increase by 5 for the duration.","duration": "8 hours","higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, a target\u2019s hit points increase by an additional 5 for each slot level above 2nd.","level": "2","name": "Aid","range": "30 feet","ritual": false,"school": "abjuration","tags": ["artificer","artificer__eb_","artificer__revised_","cleric","paladin","level2"],
-"type": "2nd-level abjuration"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "cleric",
+    "paladin"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a tiny strip of white cloth"
+    ],
+    "raw": "V, S, M (a tiny strip of white cloth)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target\u2019s hit point maximum and current hit points increase by 5 for the duration.",
+  "duration": "8 hours",
+  "higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, a target\u2019s hit points increase by an additional 5 for each slot level above 2nd.",
+  "level": "2",
+  "name": "Aid",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "abjuration",
+  "tags": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "cleric",
+    "paladin",
+    "level2"
+  ],
+  "type": "2nd-level abjuration"
+}

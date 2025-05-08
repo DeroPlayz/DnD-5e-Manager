@@ -1,4 +1,34 @@
-{"casting_time": "1 bonus action","classes": ["sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
-"description": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.","duration": "Instantaneous","level": "2","name": "Misty Step","range": "Self","ritual": false,"school": "conjuration","tags": ["sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level2"],
-"type": "2nd-level conjuration"}
+{
+  "casting_time": "1 bonus action",
+  "classes": [
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V",
+    "somatic": false,
+    "verbal": true
+  },
+  "description": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
+  "duration": "Instantaneous",
+  "level": "2",
+  "name": "Misty Step",
+  "range": "Self",
+  "ritual": false,
+  "school": "conjuration",
+  "tags": [
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level2"
+  ],
+  "type": "2nd-level conjuration"
+}

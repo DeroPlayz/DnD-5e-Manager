@@ -1,12 +1,55 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom5595c939-0a95-40dd-8a2a-b811c479c04e","jsonType": "race","languages": [],
-"name": "Gold Ancestry","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your Metallic Ancestry damage type is Fire","level": 1}],
-"id": "Custom1255a2ba-bc4a-49a5-b740-5a2edd909b70","isFeature": true,"jsonType": "feat","level": 1,"name": "Gold Metallic Ancestry","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom5595c939-0a95-40dd-8a2a-b811c479c04e",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Gold Ancestry",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your Metallic Ancestry damage type is Fire",
+            "level": 1
+          }
+        ],
+        "id": "Custom1255a2ba-bc4a-49a5-b740-5a2edd909b70",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Gold Metallic Ancestry",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

@@ -1,12 +1,54 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 2,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom35526cea-4ae4-40bf-b35e-679fd1e63dba","jsonType": "race","languages": [],
-"name": "Ixalan","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 25,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have a climbing speed of 25 ft. You can't use your climbing speed while you wear medium or heavy armor","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Agile Climber","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 2,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom35526cea-4ae4-40bf-b35e-679fd1e63dba",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Ixalan",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 25,
+    "fly": 0,
+    "normal": 25,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a climbing speed of 25 ft. You can't use your climbing speed while you wear medium or heavy armor",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Agile Climber",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Your experience in creating your own wondrous invention makes you more adept at crafting a magic item than\ra normal spellcaster",
-            "level": 3
-        }
-    ],
-    "id": "Custom85519fd4-e184-48ec-b56b-74277ffc4eee",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Improved Magical Crafting",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Your experience in creating your own wondrous invention makes you more adept at crafting a magic item than\ra normal spellcaster",
+      "level": 3
+    }
+  ],
+  "id": "Custom85519fd4-e184-48ec-b56b-74277ffc4eee",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Improved Magical Crafting",
+  "notes": "",
+  "type": "Feat"
 }

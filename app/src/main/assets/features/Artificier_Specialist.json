@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You choose the type of Artificer Specialist you\r\nare: Alchemist, Mechanist, or Gunsmith, all of which are\rdetailed at the end of the class description. Your choice\rgrants you features at 1st level and again at 3rd, 9th, 14th,\rand 17th level",
-            "level": 1
-        }
-    ],
-    "id": "Custom7d319aed-3294-4459-ac96-1c436d9205fd",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Artificier Specialist",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You choose the type of Artificer Specialist you\r\nare: Alchemist, Mechanist, or Gunsmith, all of which are\rdetailed at the end of the class description. Your choice\rgrants you features at 1st level and again at 3rd, 9th, 14th,\rand 17th level",
+      "level": 1
+    }
+  ],
+  "id": "Custom7d319aed-3294-4459-ac96-1c436d9205fd",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Artificier Specialist",
+  "notes": "",
+  "type": "Feat"
 }

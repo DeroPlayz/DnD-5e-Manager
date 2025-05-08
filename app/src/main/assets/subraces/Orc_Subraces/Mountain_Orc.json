@@ -1,25 +1,138 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 1},
-"ac": 10,"armorProficiencies": [],
-"id": "mountain_orc","jsonType": "race","languages": [],
-"name": "Mountain Orc","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to cold damage","level": 1}],
-"id": "Custom59a791b6-1ad7-453a-8c9a-9ee6bd6bafad","isFeature": true,"jsonType": "feat","level": 1,"name": "Cold Adapted","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You gain proficiency with the handaxe, and spear","level": 1}],
-"id": "Custom655cfc1d-7d29-485f-aa12-a80711440cfc","isFeature": true,"jsonType": "feat","level": 1,"name": "Natural Hunter","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage to Wisdom (Survival) checks to track creatures in mountainous terrain","level": 1}],
-"id": "Custom426bb8be-b499-4e9d-91ff-71c33c782bcc","isFeature": true,"jsonType": "feat","level": 1,"name": "Mountain Tracker","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You\u00e2\u20ac\u2122re acclimated to high altitude, including elevations above 20,000 feet. You\u00e2\u20ac\u2122re also naturally adapted to cold climates","level": 1}],
-"id": "Custom8cb766ab-58d0-4ba1-b2a9-2a24d73f1f1d","isFeature": true,"jsonType": "feat","level": 1,"name": "Mountain Born","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Due to the way these orcs have lived over the many generations they have become accustomed to the sun and have overcome their sunlight sensitivity","level": 1}],
-"id": "Customd33fbdf8-6d93-4162-a9f0-c7fcd11f789f","isFeature": true,"jsonType": "feat","level": 1,"name": "Sun Adapted","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Handaxe"},
-{"hint": "","level": 1,"proficiency": "Spear"}]}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 1
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "mountain_orc",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Mountain Orc",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to cold damage",
+            "level": 1
+          }
+        ],
+        "id": "Custom59a791b6-1ad7-453a-8c9a-9ee6bd6bafad",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Cold Adapted",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency with the handaxe, and spear",
+            "level": 1
+          }
+        ],
+        "id": "Custom655cfc1d-7d29-485f-aa12-a80711440cfc",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Natural Hunter",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage to Wisdom (Survival) checks to track creatures in mountainous terrain",
+            "level": 1
+          }
+        ],
+        "id": "Custom426bb8be-b499-4e9d-91ff-71c33c782bcc",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mountain Tracker",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You\u00e2\u20ac\u2122re acclimated to high altitude, including elevations above 20,000 feet. You\u00e2\u20ac\u2122re also naturally adapted to cold climates",
+            "level": 1
+          }
+        ],
+        "id": "Custom8cb766ab-58d0-4ba1-b2a9-2a24d73f1f1d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mountain Born",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Due to the way these orcs have lived over the many generations they have become accustomed to the sun and have overcome their sunlight sensitivity",
+            "level": 1
+          }
+        ],
+        "id": "Customd33fbdf8-6d93-4162-a9f0-c7fcd11f789f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Sun Adapted",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Handaxe"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Spear"
+    }
+  ]
+}

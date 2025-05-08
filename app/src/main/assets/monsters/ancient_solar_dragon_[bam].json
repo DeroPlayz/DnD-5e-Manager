@@ -1,13 +1,119 @@
-{"ac":18,"actions":[{"description":"The dragon makes one Bite attack and one Tail attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"16 to hit, reach 20 ft., one target. Hit: 19 (3d6 + 9) piercing damage plus 10 (3d6) radiant damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"16 to hit, reach 20 ft., one target. Hit: 13 (1d8 + 9) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tail","type":"MELEE"},
-{"description":"The dragon exhales a flashing mote of radiant energy that travels to a point the dragon can see within 240 feet of itself, then blossoms into a 40-foot-radius sphere centered on that point. Each creature in the sphere must make a DC 23 Constitution saving throw, taking 66 (12d10) radiant damage on a failed save, or half as much damage on a successful one.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Photonic Breath (Recharge 5-6)","type":"NONE"},
-{"description":"The dragon makes one Tail attack.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Tail Attack","type":"NONE"},
-{"description":"The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a DC 23 Wisdom saving throw or be blinded until the end of its next turn.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Blinding Brilliance (Costs 2 Actions)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":26,"conditionImmunities":"blinded","cr":"21","damageImmunities":"radiant","dex":15,"flySpeed":120,"hp":{"constant":184,"diceAmount":23,"diceType":"D20"},
-"id":-1,"int":17,"isLocked":true,"jsonType":"monster","languages":"Draconic","name":"Ancient Solar Dragon [BAM]","resistances":null,"savingThrows":"Dex +9, Con +15, Wis +11, Cha +10","senses":"darkvision 240 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"The dragon doesn't provoke opportunity attacks when it flies out of an enemy's reach.","id":-1,"monsterId":-1,"name":"Flyby"},
-{"description":"If the dragon fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"},
-{"description":"Magical attempts to read the dragon's mind or glean its thoughts fail automatically.","id":-1,"monsterId":-1,"name":"Nebulous Thoughts"},
-{"description":"The dragon deals double damage to objects and structures.","id":-1,"monsterId":-1,"name":"Siege Monster"},
-{"description":"The dragon doesn't require air.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":30,"str":28,"swimSpeed":0,"tag":null,"type":"Dragon","vulnerabilities":null,"wis":18,"xp":33000}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The dragon makes one Bite attack and one Tail attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "16 to hit, reach 20 ft., one target. Hit: 19 (3d6 + 9) piercing damage plus 10 (3d6) radiant damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "16 to hit, reach 20 ft., one target. Hit: 13 (1d8 + 9) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Tail",
+      "type": "MELEE"
+    },
+    {
+      "description": "The dragon exhales a flashing mote of radiant energy that travels to a point the dragon can see within 240 feet of itself, then blossoms into a 40-foot-radius sphere centered on that point. Each creature in the sphere must make a DC 23 Constitution saving throw, taking 66 (12d10) radiant damage on a failed save, or half as much damage on a successful one.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Photonic Breath (Recharge 5-6)",
+      "type": "NONE"
+    },
+    {
+      "description": "The dragon makes one Tail attack.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Tail Attack",
+      "type": "NONE"
+    },
+    {
+      "description": "The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a DC 23 Wisdom saving throw or be blinded until the end of its next turn.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Blinding Brilliance (Costs 2 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 26,
+  "conditionImmunities": "blinded",
+  "cr": "21",
+  "damageImmunities": "radiant",
+  "dex": 15,
+  "flySpeed": 120,
+  "hp": {
+    "constant": 184,
+    "diceAmount": 23,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 17,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Draconic",
+  "name": "Ancient Solar Dragon [BAM]",
+  "resistances": null,
+  "savingThrows": "Dex +9, Con +15, Wis +11, Cha +10",
+  "senses": "darkvision 240 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The dragon doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Flyby"
+    },
+    {
+      "description": "If the dragon fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    },
+    {
+      "description": "Magical attempts to read the dragon's mind or glean its thoughts fail automatically.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Nebulous Thoughts"
+    },
+    {
+      "description": "The dragon deals double damage to objects and structures.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Siege Monster"
+    },
+    {
+      "description": "The dragon doesn't require air.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 30,
+  "str": 28,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Dragon",
+  "vulnerabilities": null,
+  "wis": 18,
+  "xp": 33000
+}

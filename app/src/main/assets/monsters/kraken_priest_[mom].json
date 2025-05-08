@@ -1,8 +1,87 @@
-{"ac":15,"actions":[{"description":"The priest makes two Thunderous Touch or Thunderbolt attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one target. Hit: 27 (5d10) thunder damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Thunderous Touch","type":"NONE"},
-{"description":"5 to hit, range 60 ft., one target. Hit: 11 (2d10) lightning damage plus 11 (2d10) thunder damage, and the target is knocked prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Thunderbolt","type":"NONE"},
-{"description":"A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Wisdom saving throw or be frightened of the priest for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Voice of the Kraken (Recharges after a Short or Long Rest)","type":"NONE"},
-{"description":"The priest casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 13):\nAt will: command, create or destroy water\n\n1/day each: Evard's black tentacles\n\n3/day each: control water, darkness, water breathing, water walk","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":14,"climbSpeed":0,"con":16,"conditionImmunities":null,"cr":"5","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":30,"diceAmount":10,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"any two languages","name":"Kraken Priest [MoM]","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The priest can breathe air and water.","id":-1,"monsterId":-1,"name":"Amphibious"}],
-"speed":30,"str":12,"swimSpeed":30,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":15,"xp":1800}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The priest makes two Thunderous Touch or Thunderbolt attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 27 (5d10) thunder damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Thunderous Touch",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, range 60 ft., one target. Hit: 11 (2d10) lightning damage plus 11 (2d10) thunder damage, and the target is knocked prone.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Thunderbolt",
+      "type": "NONE"
+    },
+    {
+      "description": "A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Wisdom saving throw or be frightened of the priest for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Voice of the Kraken (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    },
+    {
+      "description": "The priest casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 13):\nAt will: command, create or destroy water\n\n1/day each: Evard's black tentacles\n\n3/day each: control water, darkness, water breathing, water walk",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 14,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": null,
+  "cr": "5",
+  "damageImmunities": null,
+  "dex": 10,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 30,
+    "diceAmount": 10,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "any two languages",
+  "name": "Kraken Priest [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The priest can breathe air and water.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amphibious"
+    }
+  ],
+  "speed": 30,
+  "str": 12,
+  "swimSpeed": 30,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 1800
+}

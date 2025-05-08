@@ -1,4 +1,34 @@
-{"casting_time": "1 bonus action","classes": ["artificer","artificer__revised_","artificer__eb_","bard","wizard","sorcerer"],
-"components": {"material": false,"raw": "S","somatic": true,"verbal": false},
-"description": "You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration.\n\n- Your walking speed increases by 10 feet.\n\n- You don't provoke opportunity attacks.\n\n- You can move through the space of another creature, and it doesn't count as difficult terrain. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage.","duration": "Concentration, up to 1 minute","level": "2","name": "Kinetic Jaunt","range": "Self","ritual": false,"school": "transmutation","tags": ["artificer","artificer__revised_","artificer__eb_","bard","wizard","sorcerer","level2"],
-"type": "2nd-level transmutation"}
+{
+  "casting_time": "1 bonus action",
+  "classes": [
+    "artificer",
+    "artificer__revised_",
+    "artificer__eb_",
+    "bard",
+    "wizard",
+    "sorcerer"
+  ],
+  "components": {
+    "material": false,
+    "raw": "S",
+    "somatic": true,
+    "verbal": false
+  },
+  "description": "You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration.\n\n- Your walking speed increases by 10 feet.\n\n- You don't provoke opportunity attacks.\n\n- You can move through the space of another creature, and it doesn't count as difficult terrain. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage.",
+  "duration": "Concentration, up to 1 minute",
+  "level": "2",
+  "name": "Kinetic Jaunt",
+  "range": "Self",
+  "ritual": false,
+  "school": "transmutation",
+  "tags": [
+    "artificer",
+    "artificer__revised_",
+    "artificer__eb_",
+    "bard",
+    "wizard",
+    "sorcerer",
+    "level2"
+  ],
+  "type": "2nd-level transmutation"
+}

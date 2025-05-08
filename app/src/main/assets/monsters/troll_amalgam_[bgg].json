@@ -1,7 +1,75 @@
-{"ac":15,"actions":[{"description":"The amalgam makes three Rend attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"13 to hit, reach 15 ft., one target. Hit: 25 (4d8 + 7) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Rend","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":5,"climbSpeed":60,"con":21,"conditionImmunities":"charmed, frightened, poisoned","cr":"17","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":70,"diceAmount":14,"diceType":"D20"},
-"id":-1,"int":9,"isLocked":true,"jsonType":"monster","languages":"Giant, Undercommon","name":"Troll Amalgam [BGG]","resistances":"poison; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Con +11, Wis +9","senses":"darkvision 120 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"If the amalgam fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"},
-{"description":"The amalgam has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"The amalgam regains 15 hit points at the start of its turn. If the amalgam takes acid or fire damage, it regains only 5 hit points at the start of its next turn. The amalgam dies only if it takes 20 or more acid or fire damage while it has 0 hit points.","id":-1,"monsterId":-1,"name":"Regeneration"}],
-"speed":60,"str":25,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":16,"xp":18000}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The amalgam makes three Rend attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "13 to hit, reach 15 ft., one target. Hit: 25 (4d8 + 7) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Rend",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 60,
+  "con": 21,
+  "conditionImmunities": "charmed, frightened, poisoned",
+  "cr": "17",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 70,
+    "diceAmount": 14,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 9,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant, Undercommon",
+  "name": "Troll Amalgam [BGG]",
+  "resistances": "poison; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Con +11, Wis +9",
+  "senses": "darkvision 120 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the amalgam fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    },
+    {
+      "description": "The amalgam has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "The amalgam regains 15 hit points at the start of its turn. If the amalgam takes acid or fire damage, it regains only 5 hit points at the start of its next turn. The amalgam dies only if it takes 20 or more acid or fire damage while it has 0 hit points.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Regeneration"
+    }
+  ],
+  "speed": 60,
+  "str": 25,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Giant",
+  "vulnerabilities": null,
+  "wis": 16,
+  "xp": 18000
+}

@@ -1,8 +1,87 @@
-{"ac":15,"actions":[{"description":"The hobgoblin makes four attacks, each of which can be an Unarmed Strike or a Dart attack. It can also use\n\nShadow Jaunt once, either before or after one of the attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Unarmed Strike","type":"MELEE"},
-{"description":"5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Dart","type":"RANGED"},
-{"description":"The hobgoblin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it leaves and its destination must be in dim light or darkness.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shadow Jaunt","type":"NONE"},
-{"description":"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 12):\nAt will: minor illusion, prestidigitation\n\n1/day each: charm person, disguise self, silent image","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"Lawful Neutral","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":15,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":16,"flySpeed":0,"hp":{"constant":10,"diceAmount":5,"diceType":"D8"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":"Common, Goblin","name":"Hobgoblin Iron Shadow [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.","id":-1,"monsterId":-1,"name":"Unarmored Defense"}],
-"speed":40,"str":14,"swimSpeed":0,"tag":"goblinoid","type":"Fey","vulnerabilities":null,"wis":15,"xp":450}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The hobgoblin makes four attacks, each of which can be an Unarmed Strike or a Dart attack. It can also use\n\nShadow Jaunt once, either before or after one of the attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Unarmed Strike",
+      "type": "MELEE"
+    },
+    {
+      "description": "5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Dart",
+      "type": "RANGED"
+    },
+    {
+      "description": "The hobgoblin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it leaves and its destination must be in dim light or darkness.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Shadow Jaunt",
+      "type": "NONE"
+    },
+    {
+      "description": "The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 12):\nAt will: minor illusion, prestidigitation\n\n1/day each: charm person, disguise self, silent image",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Lawful Neutral",
+  "burrowSpeed": 0,
+  "cha": 11,
+  "climbSpeed": 0,
+  "con": 15,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 16,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 10,
+    "diceAmount": 5,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Goblin",
+  "name": "Hobgoblin Iron Shadow [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unarmored Defense"
+    }
+  ],
+  "speed": 40,
+  "str": 14,
+  "swimSpeed": 0,
+  "tag": "goblinoid",
+  "type": "Fey",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 450
+}

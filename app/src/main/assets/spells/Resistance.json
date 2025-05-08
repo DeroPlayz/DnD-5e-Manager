@@ -1,5 +1,33 @@
-{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","cleric","druid"],
-"components": {"material": true,"materials_needed": ["a miniature cloak"],
-"raw": "V, S, M (a miniature cloak)","somatic": true,"verbal": true},
-"description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.","duration": "Concentration, up to 1 minute","level": "cantrip","name": "Resistance","range": "Touch","ritual": false,"school": "Abjuration","tags": ["artificer__eb_","artificer__revised_","cleric","druid","cantrip"],
-"type": "Abjuration cantrip"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "cleric",
+    "druid"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a miniature cloak"
+    ],
+    "raw": "V, S, M (a miniature cloak)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.",
+  "duration": "Concentration, up to 1 minute",
+  "level": "cantrip",
+  "name": "Resistance",
+  "range": "Touch",
+  "ritual": false,
+  "school": "Abjuration",
+  "tags": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "cleric",
+    "druid",
+    "cantrip"
+  ],
+  "type": "Abjuration cantrip"
+}

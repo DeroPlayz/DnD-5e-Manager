@@ -1,5 +1,61 @@
-{"ac":15,"actions":[{"description":"5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage plus 3 (1d6) necrotic damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or have the prone condition.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":13,"climbSpeed":0,"con":16,"conditionImmunities":"exhaustion, poisoned","cr":"3","damageImmunities":"poison","dex":19,"flySpeed":0,"hp":{"constant":18,"diceAmount":6,"diceType":"D8"},
-"id":-1,"int":8,"isLocked":true,"jsonType":"monster","languages":"Blink Dog, understands Sylvan but can't speak it","name":"Harrow Hound [BMT]","resistances":"necrotic, psychic; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The hound has advantage on attack rolls against a creature if at least one of the hound's allies is within 5 feet of the target and the ally doesn't have the incapacitated condition.","id":-1,"monsterId":-1,"name":"Pack Tactics"},
-{"description":"The hound knows the distance to and direction of any creature that has come within 30 feet of it, even if that creature is on a different plane of existence. If the creature being tracked by the hound dies, the hound knows.","id":-1,"monsterId":-1,"name":"Supernatural Tracker"}],
-"speed":40,"str":16,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":15,"xp":700}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage plus 3 (1d6) necrotic damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or have the prone condition.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 13,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "3",
+  "damageImmunities": "poison",
+  "dex": 19,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 18,
+    "diceAmount": 6,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 8,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Blink Dog, understands Sylvan but can't speak it",
+  "name": "Harrow Hound [BMT]",
+  "resistances": "necrotic, psychic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The hound has advantage on attack rolls against a creature if at least one of the hound's allies is within 5 feet of the target and the ally doesn't have the incapacitated condition.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Pack Tactics"
+    },
+    {
+      "description": "The hound knows the distance to and direction of any creature that has come within 30 feet of it, even if that creature is on a different plane of existence. If the creature being tracked by the hound dies, the hound knows.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Supernatural Tracker"
+    }
+  ],
+  "speed": 40,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 700
+}

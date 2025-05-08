@@ -1,26 +1,132 @@
-{"changesNameOnAttunement": false,"description": "You have resistance to cold damage while you hold this staff.\n\nThe staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cone of cold (5 charges), fog cloud (1 charge), ice storm (4 charges), or wall of ice (4 charges).\n\nThe staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1. the staff turns to water and is destroyed.","effects": [{"charges": 10,"id": "50d4aff6-fd3c-42c8-972d-b3605081c63a","name": "Charges","rechargeMoment": "DAWN","rechargeRate": {"constant": 4,"diceAmount": 1,"diceType": "D6"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "233","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "2bb3e5a7-841b-4d34-8540-67e29b3c75c5","name": "Cast Cone of Cold (5 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "34","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "96410643-a646-4018-b2c9-357fca2d131b","name": "Cast Fog Cloud (1 Charge)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "283","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "1f2cc1b9-dd09-46a9-897f-cb53c9f120e8","name": "Cast Ice Storm (4 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "335","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "cdf9aebd-32fd-4d5b-bafd-584ffa4fd78d","name": "Cast Wall of Ice (4 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Staff_of_Frost","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Staff of Frost","rarity": "VERY_RARE","requiresAttunement": true,"type": "STAFF","valueCoin": "GOLD","weight": 4.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You have resistance to cold damage while you hold this staff.\n\nThe staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cone of cold (5 charges), fog cloud (1 charge), ice storm (4 charges), or wall of ice (4 charges).\n\nThe staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1. the staff turns to water and is destroyed.",
+  "effects": [
+    {
+      "charges": 10,
+      "id": "50d4aff6-fd3c-42c8-972d-b3605081c63a",
+      "name": "Charges",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 4,
+        "diceAmount": 1,
+        "diceType": "D6"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "233",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "2bb3e5a7-841b-4d34-8540-67e29b3c75c5",
+      "name": "Cast Cone of Cold (5 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "34",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "96410643-a646-4018-b2c9-357fca2d131b",
+      "name": "Cast Fog Cloud (1 Charge)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "283",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "1f2cc1b9-dd09-46a9-897f-cb53c9f120e8",
+      "name": "Cast Ice Storm (4 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "335",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "cdf9aebd-32fd-4d5b-bafd-584ffa4fd78d",
+      "name": "Cast Wall of Ice (4 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Staff_of_Frost",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Staff of Frost",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "STAFF",
+  "valueCoin": "GOLD",
+  "weight": 4.0,
+  "weightUnit": "OUNCES"
+}

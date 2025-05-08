@@ -1,7 +1,75 @@
-{"ac":15,"actions":[{"description":"The animated breath makes two Slam attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 11 (2d10) damage of a type determined by the animated breath's form: acid, cold, fire, lightning, or poison.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":18,"conditionImmunities":"exhaustion, paralyzed, petrified, poisoned, restrained, unconscious","cr":"6","damageImmunities":null,"dex":11,"flySpeed":30,"hp":{"constant":40,"diceAmount":10,"diceType":"D10"},
-"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":"understands Draconic but can't speak","name":"Animated Breath","resistances":"damage of the type matching the animated breath's form (acid, cold, fire, lightning, or poison)","savingThrows":null,"senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"When created, the animated breath takes one of five forms, matching its creator's breath weapon: Acid, Cold, Fire, Lightning, or Poison. This form determines the creature's AC, damage resistance, traits, and attacks.","id":-1,"monsterId":-1,"name":"Chromatic Form"},
-{"description":"At the start of each of the animated breath's turns, each creature within 5 feet of it takes 3 (1d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the animated breath or hits it with a melee attack takes 3 (1d6) fire damage.","id":-1,"monsterId":-1,"name":"Fire Aura (Fire Form Only)"},
-{"description":"A creature that starts its turn within 5 feet of the animated breath must succeed on a DC 15 Constitution saving throw or be poisoned until the start of its next turn. A creature that touches the animated breath or hits it with a melee attack takes 3 (1d6) acid damage.","id":-1,"monsterId":-1,"name":"Putrid Aura (Acid and Poison Forms Only)"}],
-"speed":30,"str":19,"swimSpeed":0,"tag":null,"type":"Elemental","vulnerabilities":null,"wis":10,"xp":2300}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The animated breath makes two Slam attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 11 (2d10) damage of a type determined by the animated breath's form: acid, cold, fire, lightning, or poison.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 18,
+  "conditionImmunities": "exhaustion, paralyzed, petrified, poisoned, restrained, unconscious",
+  "cr": "6",
+  "damageImmunities": null,
+  "dex": 11,
+  "flySpeed": 30,
+  "hp": {
+    "constant": 40,
+    "diceAmount": 10,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 6,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands Draconic but can't speak",
+  "name": "Animated Breath",
+  "resistances": "damage of the type matching the animated breath's form (acid, cold, fire, lightning, or poison)",
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When created, the animated breath takes one of five forms, matching its creator's breath weapon: Acid, Cold, Fire, Lightning, or Poison. This form determines the creature's AC, damage resistance, traits, and attacks.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Chromatic Form"
+    },
+    {
+      "description": "At the start of each of the animated breath's turns, each creature within 5 feet of it takes 3 (1d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the animated breath or hits it with a melee attack takes 3 (1d6) fire damage.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Fire Aura (Fire Form Only)"
+    },
+    {
+      "description": "A creature that starts its turn within 5 feet of the animated breath must succeed on a DC 15 Constitution saving throw or be poisoned until the start of its next turn. A creature that touches the animated breath or hits it with a melee attack takes 3 (1d6) acid damage.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Putrid Aura (Acid and Poison Forms Only)"
+    }
+  ],
+  "speed": 30,
+  "str": 19,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Elemental",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 2300
+}

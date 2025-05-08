@@ -1,8 +1,83 @@
-{"ac":17,"actions":[{"description":"The guide makes two Slam attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":"Each creature of the guide's choice that is within 30 feet of the guide must succeed on a DC 11 Wisdom saving throw or be magically charmed by the guide for 1 hour.\n\nA charmed target must move on its turn toward the guide, trying to get within 5 feet of the guide. The target doesn't move into obviously dangerous ground, such as a fire or a pit. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.\n\nA target that successfully saves is immune to any guide's Smile and Wave ability for the next 24 hours.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Smile and Wave","type":"NONE"}],
-"alignment":"Lawful Good","burrowSpeed":0,"cha":12,"climbSpeed":0,"con":13,"conditionImmunities":"blinded, deafened, exhaustion, paralyzed, petrified, poisoned","cr":"1","damageImmunities":"poison","dex":14,"flySpeed":0,"hp":{"constant":7,"diceAmount":7,"diceType":"D6"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common plus any three languages","name":"Strixhaven Campus Guide","resistances":null,"savingThrows":"Dex +4","senses":"blindsight 60 ft.","size":"Small","skills":null,"specialTraits":[{"description":"While at Strixhaven, the guide can't become lost by magical or nonmagical means. The guide also has advantage on ability checks made to locate creatures or objects at Strixhaven.","id":-1,"monsterId":-1,"name":"Campus Knowledge"},
-{"description":"When the guide speaks, any creature that knows at least one language and can hear the guide understands what it says.","id":-1,"monsterId":-1,"name":"Univocal Speech"},
-{"description":"The guide doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":30,"str":15,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":12,"xp":200}
+{
+  "ac": 17,
+  "actions": [
+    {
+      "description": "The guide makes two Slam attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": "Each creature of the guide's choice that is within 30 feet of the guide must succeed on a DC 11 Wisdom saving throw or be magically charmed by the guide for 1 hour.\n\nA charmed target must move on its turn toward the guide, trying to get within 5 feet of the guide. The target doesn't move into obviously dangerous ground, such as a fire or a pit. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.\n\nA target that successfully saves is immune to any guide's Smile and Wave ability for the next 24 hours.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Smile and Wave",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Lawful Good",
+  "burrowSpeed": 0,
+  "cha": 12,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": "blinded, deafened, exhaustion, paralyzed, petrified, poisoned",
+  "cr": "1",
+  "damageImmunities": "poison",
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 7,
+    "diceAmount": 7,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common plus any three languages",
+  "name": "Strixhaven Campus Guide",
+  "resistances": null,
+  "savingThrows": "Dex +4",
+  "senses": "blindsight 60 ft.",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "While at Strixhaven, the guide can't become lost by magical or nonmagical means. The guide also has advantage on ability checks made to locate creatures or objects at Strixhaven.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Campus Knowledge"
+    },
+    {
+      "description": "When the guide speaks, any creature that knows at least one language and can hear the guide understands what it says.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Univocal Speech"
+    },
+    {
+      "description": "The guide doesn't require air, food, drink, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 30,
+  "str": 15,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 200
+}

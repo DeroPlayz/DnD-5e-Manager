@@ -1,6 +1,49 @@
-{"changesNameOnAttunement": false,"description": "This adamantine rod is tipped with a glowing crystalline eye. The rod has 3 charges and regains all its expended charges daily at dawn.\n\nWhen a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod\u00e2\u20ac\u2122s charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes 2d10 lightning damage on a failed save, or half as much damage on a successful one.","effects": [{"charges": 3,"id": "172cca5c-66a0-4b37-863c-95f163b74547","name": "Lightning Retaliation Uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Rod_of_Retribution","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Rod of Retribution","rarity": "UNCOMMON","requiresAttunement": true,"type": "ROD","value": 250.0,"valueCoin": "GOLD","weight": 2.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This adamantine rod is tipped with a glowing crystalline eye. The rod has 3 charges and regains all its expended charges daily at dawn.\n\nWhen a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod\u00e2\u20ac\u2122s charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes 2d10 lightning damage on a failed save, or half as much damage on a successful one.",
+  "effects": [
+    {
+      "charges": 3,
+      "id": "172cca5c-66a0-4b37-863c-95f163b74547",
+      "name": "Lightning Retaliation Uses",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 3,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Rod_of_Retribution",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Rod of Retribution",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": true,
+  "type": "ROD",
+  "value": 250.0,
+  "valueCoin": "GOLD",
+  "weight": 2.0,
+  "weightUnit": "POUNDS"
+}

@@ -1,399 +1,399 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the ability to use a bonus action to magically create a telepathic link with one creature you can see within 30 feet of you. Until the link ends, you can telepathically speak to the target through the link, and if it understands at least one language, it can speak telepathically to you. The link lasts for 10 minutes, and it ends early if you are incapacitated or die, or if you use another bonus action to break the link or to establish this link with a different creature",
+            "level": 1
+          }
+        ],
+        "id": "Customae46caea-4d0b-4a7d-bfcc-61129defb7b5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Invasive Thoughts",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the ability to use a bonus action to magically create a telepathic link with one creature you can see within 30 feet of you. Until the link ends, you can telepathically speak to the target through the link, and if it understands at least one language, it can speak telepathically to you. The link lasts for 10 minutes, and it ends early if you are incapacitated or die, or if you use another bonus action to break the link or to establish this link with a different creature",
-                        "level": 1
-                    }
-                ],
-                "id": "Customae46caea-4d0b-4a7d-bfcc-61129defb7b5",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Invasive Thoughts",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers",
-                        "level": 1
-                    },
-                    {
-                        "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts",
-                        "level": 3
-                    },
-                    {
-                        "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts\n5 --> Hunger of Hadar, Sending",
-                        "level": 5
-                    },
-                    {
-                        "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts\n5 --> Hunger of Hadar, Sending\n7 --> Compulsion, Evard's black tentacles",
-                        "level": 7
-                    },
-                    {
-                        "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts\n5 --> Hunger of Hadar, Sending\n7 --> Compulsion, Evard's black tentacles\n9 --> Modify memory, Rary's telepathic bond",
-                        "level": 9
-                    }
-                ],
-                "id": "Custom489b070e-7986-44a4-9793-9b01dfcbdb93",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Psionic Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts",
+            "level": 3
+          },
+          {
+            "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts\n5 --> Hunger of Hadar, Sending",
+            "level": 5
+          },
+          {
+            "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts\n5 --> Hunger of Hadar, Sending\n7 --> Compulsion, Evard's black tentacles",
+            "level": 7
+          },
+          {
+            "description": "Your aberrant nature changes your mind in subtle but profound ways. You learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. The spell counts as a sorcerer spell for you, but it doesn\u2019t count against the number of sorcerer spells you know. These spells can\u2019t be replaced when you gain a level in this class.\n\nLevel --> Spells\n1 --> Arms of Hadar, Dissonant whispers\n3 --> Calm emotions, Detect thoughts\n5 --> Hunger of Hadar, Sending\n7 --> Compulsion, Evard's black tentacles\n9 --> Modify memory, Rary's telepathic bond",
+            "level": 9
+          }
+        ],
+        "id": "Custom489b070e-7986-44a4-9793-9b01dfcbdb93",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Psionic Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Starting at 1st level, your aberrant origin protects you from harm. Your body might have a coating of viscous slime, tough hide, scales, or an invisible psionic barrier (choose the form of protection when you gain this feature). \n\nWhatever form the protection takes, your AC equals 13 + your Dexterity modifier while you aren\u2019t wearing armor",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Starting at 1st level, your aberrant origin protects you from harm. Your body might have a coating of viscous slime, tough hide, scales, or an invisible psionic barrier (choose the form of protection when you gain this feature). \n\nWhatever form the protection takes, your AC equals 13 + your Dexterity modifier while you aren\u2019t wearing armor",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom939f8fb8-7b5f-432f-b1ee-662ecb4291f8",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Warped Being",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you cast any of the spells gained from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell\u2019s level. If you cast the spell using sorcery points, it requires no components",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom2528c2c8-7ba2-418c-bd56-e305c3c92ad1",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Psionic Sorcery",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom939f8fb8-7b5f-432f-b1ee-662ecb4291f8",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Warped Being",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you cast any of the spells gained from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell\u2019s level. If you cast the spell using sorcery points, it requires no components",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain resistance to psychic damage, and you have advantage on saving throws against being charmed or frightened",
-                        "level": 6
-                    }
-                ],
-                "id": "Customc8fb2577-9854-480c-a33a-e4669fa09b87",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Psychic Defenses",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom2528c2c8-7ba2-418c-bd56-e305c3c92ad1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Psionic Sorcery",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain resistance to psychic damage, and you have advantage on saving throws against being charmed or frightened",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can unleash the aberrant truth hidden within your flesh. As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 1 minute. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends: \r\n\n- You gain a swimming speed equal to your walking speed and the ability to breathe water. Gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow lashing cilia that extend through your clothing. \r\n\n- You gain a flying speed equal to your walking speed and can hover. As you fly, your skin glistens with mucus.\r\n\n- Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.\n\n- Your eyes turn black or become writhing sensory tendrils. You are aware of the location of any hidden or invisible creature within 60 feet of you",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom04d09106-5fa1-45d0-91ca-8aa3a54374ca",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Revelation in Flesh",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customc8fb2577-9854-480c-a33a-e4669fa09b87",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Psychic Defenses",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can unleash the aberrant truth hidden within your flesh. As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 1 minute. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends: \r\n\n- You gain a swimming speed equal to your walking speed and the ability to breathe water. Gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow lashing cilia that extend through your clothing. \r\n\n- You gain a flying speed equal to your walking speed and can hover. As you fly, your skin glistens with mucus.\r\n\n- Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.\n\n- Your eyes turn black or become writhing sensory tendrils. You are aware of the location of any hidden or invisible creature within 60 feet of you",
             "level": 14
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You become the focal point of a reality-warping anomaly. As an action, you can magically radiate a transparent, 20-foot-radius aura for 1 minute. This might take the form of a sphere of rippling psychic energy, a fluctuating amoebic gel, an extrusion of ephemeral parasites, or some other manifestation. Other creatures treat the aura as difficult terrain, and when they start their turn in it, they take 2d10 psychic damage. When you activate this feature, you can choose any number of creatures you can see to be unaffected by the aura. \n\nAs a bonus action, you can end the aura early. If you do so, you and any number of creatures you choose within the aura are teleported to a location you can see within 1 mile of you. Each creature must appear within 20 feet of you and in an unoccupied space. An unwilling creature that succeeds on a Charisma saving throw against your spell save DC is not teleported.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest",
-                        "level": 18
-                    }
-                ],
-                "id": "Customcdff5e8a-a1e2-4bcc-a388-0affe7e8f09b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Warp Reality",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom04d09106-5fa1-45d0-91ca-8aa3a54374ca",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Revelation in Flesh",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You become the focal point of a reality-warping anomaly. As an action, you can magically radiate a transparent, 20-foot-radius aura for 1 minute. This might take the form of a sphere of rippling psychic energy, a fluctuating amoebic gel, an extrusion of ephemeral parasites, or some other manifestation. Other creatures treat the aura as difficult terrain, and when they start their turn in it, they take 2d10 psychic damage. When you activate this feature, you can choose any number of creatures you can see to be unaffected by the aura. \n\nAs a bonus action, you can end the aura early. If you do so, you and any number of creatures you choose within the aura are teleported to a location you can see within 1 mile of you. Each creature must appear within 20 feet of you and in an unoccupied space. An unwilling creature that succeeds on a Charisma saving throw against your spell save DC is not teleported.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest",
             "level": 18
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "sorcerer_aberrant_mind",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Aberrant Mind",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "warlock, blood_hunter",
-                "components": "V, S",
-                "description": "Tendrils batter all creatures within 10 feet of you. They must make a Strength save. On a fail, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a success, it takes half damage and suffers no other effects",
-                "duration": "Instantaneous",
-                "higherLevels": "The damage increases by 1d6 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Arms of Hadar",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (10 feet radius)",
-                "school": "conjuration",
-                "type": "1st-level conjuration"
-            }
-        },
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard",
-                "components": "V",
-                "description": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Dissonant Whispers",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric",
-                "components": "V, S",
-                "description": "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\nAlternatively, you can make a target indifferent about creatures o f your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Calm Emotions",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "Enchantment",
-                "type": "2nd-level Enchantment"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a copper piece)",
-                "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Detect Thoughts",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "self",
-                "school": "divination",
-                "type": "2nd-Level divination"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "warlock, blood_hunter",
-                "components": "V S M (Pickled octopus tentacle)",
-                "description": "A 20-foot-radius void appears. It's filled with whispers and slurping that can be heard up to 30 feet away. No light can illuminate the area, and creatures fully in it are blinded. The void's area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn there must pass a Dexterity save or take 2d6 acid damage.",
-                "duration": "Concentration. Up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Hunger of Hadar",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "150 feet",
-                "school": "conjuration",
-                "type": "3rd-level conjuration"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, fighter, rogue, wizard",
-                "components": "V, S, M (a short piece of fine copper wire)",
-                "description": "You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.\n\nYou can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn\u2019t arrive.",
-                "duration": "1 round",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Sending",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Unlimited",
-                "school": "evocation",
-                "type": "3rd-level evocation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard",
-                "components": "V, S",
-                "description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take any action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect.\n\nA target isn't compelled to move into an obviously deadly hazard, such as a fire or a pit, but it will provoke opportunity attacks to move in the designated direction.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Compulsion",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "4th-level enchantment"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (Tentacle of giant octopus/squid)",
-                "description": "For the duration, tentacles fill a 20-foot square on the ground that you can see and turn it into difficult terrain.\n\nWhen a creature enters the area for the first time or starts its turn there, it must pass a Dexterity save or take 3d6 bludgeoning damage and be restrained until the spell ends. If it's already restrained by the tentacles, it takes 3d6 bludgeoning damage.\n\nThe restrained creature can use its action to make a Strength or Dexterity check of its choice. On a success, it's freed.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Evard's Black Tentacles",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "90 feet",
-                "school": "conjuration",
-                "type": "4th-level conjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are Fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The Charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.\n\nWhile this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.\n\nYou must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.\n\nA modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature in a significant manner.\n\nA Remove Curse or Greater Restoration spell cast on the target restores the creature's true memory",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Modify Memory",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (pieces of eggshell from two different kinds of creatures)",
-                "description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren\u2019t affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can\u2019t extend to other planes of existence",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Rary's Telepathic Bond",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "divination",
-                "type": "5th-level divination (ritual)"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Customcdff5e8a-a1e2-4bcc-a388-0affe7e8f09b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Warp Reality",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 18
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "sorcerer_aberrant_mind",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Aberrant Mind",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "warlock, blood_hunter",
+        "components": "V, S",
+        "description": "Tendrils batter all creatures within 10 feet of you. They must make a Strength save. On a fail, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a success, it takes half damage and suffers no other effects",
+        "duration": "Instantaneous",
+        "higherLevels": "The damage increases by 1d6 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Arms of Hadar",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (10 feet radius)",
+        "school": "conjuration",
+        "type": "1st-level conjuration"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard",
+        "components": "V",
+        "description": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Dissonant Whispers",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric",
+        "components": "V, S",
+        "description": "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\nAlternatively, you can make a target indifferent about creatures o f your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Calm Emotions",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "Enchantment",
+        "type": "2nd-level Enchantment"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a copper piece)",
+        "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Detect Thoughts",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "self",
+        "school": "divination",
+        "type": "2nd-Level divination"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "warlock, blood_hunter",
+        "components": "V S M (Pickled octopus tentacle)",
+        "description": "A 20-foot-radius void appears. It's filled with whispers and slurping that can be heard up to 30 feet away. No light can illuminate the area, and creatures fully in it are blinded. The void's area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn there must pass a Dexterity save or take 2d6 acid damage.",
+        "duration": "Concentration. Up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Hunger of Hadar",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "150 feet",
+        "school": "conjuration",
+        "type": "3rd-level conjuration"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, fighter, rogue, wizard",
+        "components": "V, S, M (a short piece of fine copper wire)",
+        "description": "You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.\n\nYou can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn\u2019t arrive.",
+        "duration": "1 round",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Sending",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Unlimited",
+        "school": "evocation",
+        "type": "3rd-level evocation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard",
+        "components": "V, S",
+        "description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take any action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect.\n\nA target isn't compelled to move into an obviously deadly hazard, such as a fire or a pit, but it will provoke opportunity attacks to move in the designated direction.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Compulsion",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "4th-level enchantment"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (Tentacle of giant octopus/squid)",
+        "description": "For the duration, tentacles fill a 20-foot square on the ground that you can see and turn it into difficult terrain.\n\nWhen a creature enters the area for the first time or starts its turn there, it must pass a Dexterity save or take 3d6 bludgeoning damage and be restrained until the spell ends. If it's already restrained by the tentacles, it takes 3d6 bludgeoning damage.\n\nThe restrained creature can use its action to make a Strength or Dexterity check of its choice. On a success, it's freed.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Evard's Black Tentacles",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "90 feet",
+        "school": "conjuration",
+        "type": "4th-level conjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are Fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The Charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.\n\nWhile this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.\n\nYou must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.\n\nA modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature in a significant manner.\n\nA Remove Curse or Greater Restoration spell cast on the target restores the creature's true memory",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Modify Memory",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (pieces of eggshell from two different kinds of creatures)",
+        "description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren\u2019t affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can\u2019t extend to other planes of existence",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Rary's Telepathic Bond",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "divination",
+        "type": "5th-level divination (ritual)"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

@@ -1,19 +1,110 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Dark Common Clothes","number": 1}],
-"id": "47921b09-3455-4833-b7b7-25609feabc71"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Pack Saddle","number": 1}],
-"id": "159453e2-e810-42ae-aa42-f40a2a431512"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Burglar's Pack","number": 1}],
-"id": "3fae6179-cc37-4f74-bdf3-15e7a800b7a1"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "d97b23db-2cd3-410a-9d0d-1950703f6b90"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You know how to find people who are always looking for stolen animals & vehicles, whether to provide for animal pit fights, or to supply some desperate rogues the means to get away faster on mounts during an illegal job. This contact not only provides you with information of what such animals & vehicles are in high demand in the area, but also offer to give you favors and information (DM choice) if you bring such animals & vehicles to them","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Black-Market Breeder","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [],
-"name": "Iron Route Bandit","skills": [{"amountOfChoice": 1,"id": "50979976-0451-4444-880d-57630245adbf","skills": [{}],
-"skillsModels": [{"name": "Stealth","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "5e4362a4-eebf-4cc3-b463-5c90377e8b37","skills": [{}],
-"skillsModels": [{"name": "Animal Handling","typeName": "SKILL"}]}],
-"tools": [{"description": "Choose 1 Gaming Set","shouldSelect": true},
-{"description": "Land vehicles","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Dark Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "47921b09-3455-4833-b7b7-25609feabc71"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Pack Saddle",
+          "number": 1
+        }
+      ],
+      "id": "159453e2-e810-42ae-aa42-f40a2a431512"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Burglar's Pack",
+          "number": 1
+        }
+      ],
+      "id": "3fae6179-cc37-4f74-bdf3-15e7a800b7a1"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "d97b23db-2cd3-410a-9d0d-1950703f6b90"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know how to find people who are always looking for stolen animals & vehicles, whether to provide for animal pit fights, or to supply some desperate rogues the means to get away faster on mounts during an illegal job. This contact not only provides you with information of what such animals & vehicles are in high demand in the area, but also offer to give you favors and information (DM choice) if you bring such animals & vehicles to them",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Black-Market Breeder",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [],
+  "name": "Iron Route Bandit",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "50979976-0451-4444-880d-57630245adbf",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Stealth",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "5e4362a4-eebf-4cc3-b463-5c90377e8b37",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Animal Handling",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Choose 1 Gaming Set",
+      "shouldSelect": true
+    },
+    {
+      "description": "Land vehicles",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

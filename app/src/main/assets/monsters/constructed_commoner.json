@@ -1,4 +1,55 @@
-{"ac":15,"actions":[{"description":" 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Club","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":15,"conditionImmunities":"exhaustion, poisoned","cr":"0","damageImmunities":"poison","dex":10,"flySpeed":0,"hp":{"constant":2,"diceAmount":1,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Constructed Commoner","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The commoner doesn't require air, food, drink, or sleep, and it gains no benefit from finishing a short or long rest. When it drops to 0 hit points, it becomes a lifeless object.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":25,"str":10,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":10,"xp":10}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": " 2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Club",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 0,
+  "con": 15,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "0",
+  "damageImmunities": "poison",
+  "dex": 10,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 2,
+    "diceAmount": 1,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common",
+  "name": "Constructed Commoner",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The commoner doesn't require air, food, drink, or sleep, and it gains no benefit from finishing a short or long rest. When it drops to 0 hit points, it becomes a lifeless object.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 25,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 10
+}

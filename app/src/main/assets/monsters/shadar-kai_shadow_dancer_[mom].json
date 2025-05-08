@@ -1,5 +1,63 @@
-{"ac":15,"actions":[{"description":"The shadar-kai makes three Spiked Chain attacks.\n\nIt can use Shadow Jump after one of these attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity saving throw or suffer one of the following effects (choose one or roll a d6):\n\n- 1–2: Decay: The target takes 22 (4d10) necrotic damage.\n- 3–4: Grapple: The target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and the shadar-kai can't grapple another target.\n- 5–6: Topple: The target is knocked prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spiked Chain","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":12,"climbSpeed":0,"con":13,"conditionImmunities":"charmed, exhaustion","cr":"7","damageImmunities":null,"dex":16,"flySpeed":0,"hp":{"constant":13,"diceAmount":13,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Common, Elvish","name":"Shadar-kai Shadow Dancer [MoM]","resistances":"necrotic","savingThrows":"Dex +6, Cha +4","senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The shadar-kai has advantage on saving throws against being charmed, and magic can't put it to sleep.","id":-1,"monsterId":-1,"name":"Fey Ancestry"}],
-"speed":30,"str":12,"swimSpeed":0,"tag":"elf","type":"Humanoid","vulnerabilities":null,"wis":12,"xp":2900}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The shadar-kai makes three Spiked Chain attacks.\n\nIt can use Shadow Jump after one of these attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage. The target must succeed on a DC 14 Dexterity saving throw or suffer one of the following effects (choose one or roll a d6):\n\n- 1\u00e2\u20ac\u201c2: Decay: The target takes 22 (4d10) necrotic damage.\n- 3\u00e2\u20ac\u201c4: Grapple: The target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and the shadar-kai can't grapple another target.\n- 5\u00e2\u20ac\u201c6: Topple: The target is knocked prone.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spiked Chain",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 12,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": "charmed, exhaustion",
+  "cr": "7",
+  "damageImmunities": null,
+  "dex": 16,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 13,
+    "diceAmount": 13,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Elvish",
+  "name": "Shadar-kai Shadow Dancer [MoM]",
+  "resistances": "necrotic",
+  "savingThrows": "Dex +6, Cha +4",
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The shadar-kai has advantage on saving throws against being charmed, and magic can't put it to sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Fey Ancestry"
+    }
+  ],
+  "speed": 30,
+  "str": 12,
+  "swimSpeed": 0,
+  "tag": "elf",
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 2900
+}

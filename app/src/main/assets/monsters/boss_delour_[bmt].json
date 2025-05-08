@@ -1,9 +1,91 @@
-{"ac":14,"actions":[{"description":"Delour makes any combination of three Bite, Shortsword, or Hand Crossbow attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 5 ft., one target. Hit: 26 (5d8 + 4) piercing damage. If the target is a Humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A Remove Curse spell or similar magic ends this curse.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite (Rat or Hybrid Form Only)","type":"MELEE"},
-{"description":"8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (3d6) poison damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shortsword (Humanoid or Hybrid Form Only)","type":"MELEE"},
-{"description":"8 to hit, range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (3d6) poison damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Hand Crossbow (Humanoid or Hybrid Form Only)","type":"RANGED"}],
-"alignment":"Lawful Evil","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":15,"conditionImmunities":null,"cr":"9","damageImmunities":null,"dex":18,"flySpeed":0,"hp":{"constant":40,"diceAmount":20,"diceType":"D6"},
-"id":-1,"int":17,"isLocked":true,"jsonType":"monster","languages":"Common, Thieves' cant (can't speak in rat form)","name":"Boss Delour [BMT]","resistances":null,"savingThrows":"Dex +8, Int +7","senses":"darkvision 60 ft.","size":"Small","skills":null,"specialTraits":[{"description":"If Delour is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw and only half damage if he fails, provided he doesn't have the incapacitated condition.","id":-1,"monsterId":-1,"name":"Evasion"},
-{"description":"Delour can move through the space of a Medium or larger creature.","id":-1,"monsterId":-1,"name":"Nimbleness"},
-{"description":"Delour regains 10 hit points at the start of his turn. If he takes damage from a silver weapon, this trait doesn't function at the start of his next turn. Delour dies only if he starts his turn with 0 hit points and doesn't regenerate.","id":-1,"monsterId":-1,"name":"Regeneration"}],
-"speed":30,"str":12,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":14,"xp":5000}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "Delour makes any combination of three Bite, Shortsword, or Hand Crossbow attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 5 ft., one target. Hit: 26 (5d8 + 4) piercing damage. If the target is a Humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A Remove Curse spell or similar magic ends this curse.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite (Rat or Hybrid Form Only)",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (3d6) poison damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Shortsword (Humanoid or Hybrid Form Only)",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (3d6) poison damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "Lawful Evil",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 15,
+  "conditionImmunities": null,
+  "cr": "9",
+  "damageImmunities": null,
+  "dex": 18,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 40,
+    "diceAmount": 20,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 17,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Thieves' cant (can't speak in rat form)",
+  "name": "Boss Delour [BMT]",
+  "resistances": null,
+  "savingThrows": "Dex +8, Int +7",
+  "senses": "darkvision 60 ft.",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If Delour is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw and only half damage if he fails, provided he doesn't have the incapacitated condition.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Evasion"
+    },
+    {
+      "description": "Delour can move through the space of a Medium or larger creature.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Nimbleness"
+    },
+    {
+      "description": "Delour regains 10 hit points at the start of his turn. If he takes damage from a silver weapon, this trait doesn't function at the start of his next turn. Delour dies only if he starts his turn with 0 hit points and doesn't regenerate.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Regeneration"
+    }
+  ],
+  "speed": 30,
+  "str": 12,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 5000
+}

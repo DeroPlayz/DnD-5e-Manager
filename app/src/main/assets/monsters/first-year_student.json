@@ -1,5 +1,63 @@
-{"ac":11,"actions":[{"description":"{@atk ms,rs} 3 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d12 + 1) force damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Magic Flare","type":"NONE"},
-{"description":"The student casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 11):\nAt will: mage hand, prestidigitation\n\n1/day each: detect magic","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":13,"conditionImmunities":null,"cr":"1/2","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":6,"diceAmount":6,"diceType":"D8"},
-"id":-1,"int":12,"isLocked":true,"jsonType":"monster","languages":"Common plus any two languages","name":"First-Year Student","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The student has advantage on initiative rolls.","id":-1,"monsterId":-1,"name":"Excited to Be Here"}],
-"speed":30,"str":8,"swimSpeed":0,"tag":"wizard","type":"Humanoid","vulnerabilities":null,"wis":10,"xp":100}
+{
+  "ac": 11,
+  "actions": [
+    {
+      "description": "{@atk ms,rs} 3 to hit, reach 5 ft. or range 60 ft., one target. Hit: 7 (1d12 + 1) force damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Magic Flare",
+      "type": "NONE"
+    },
+    {
+      "description": "The student casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 11):\nAt will: mage hand, prestidigitation\n\n1/day each: detect magic",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 11,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": null,
+  "cr": "1/2",
+  "damageImmunities": null,
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 6,
+    "diceAmount": 6,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 12,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common plus any two languages",
+  "name": "First-Year Student",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The student has advantage on initiative rolls.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Excited to Be Here"
+    }
+  ],
+  "speed": 30,
+  "str": 8,
+  "swimSpeed": 0,
+  "tag": "wizard",
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 100
+}

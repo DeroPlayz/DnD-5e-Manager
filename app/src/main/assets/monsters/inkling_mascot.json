@@ -1,5 +1,63 @@
-{"ac":13,"actions":[{"description":" 5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Blot","type":"MELEE"},
-{"description":"The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling's next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Ink Spray (1/Day)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":14,"conditionImmunities":"blinded, charmed, deafened, exhaustion, prone","cr":"1/4","damageImmunities":"psychic","dex":16,"flySpeed":30,"hp":{"constant":8,"diceAmount":4,"diceType":"D4"},
-"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":"understands the languages of its creator but can't speak","name":"Inkling Mascot","resistances":null,"savingThrows":null,"senses":"blindsight 60 ft.","size":"Tiny","skills":null,"specialTraits":[{"description":"The inkling can move through a space as narrow as 1 inch wide without squeezing.","id":-1,"monsterId":-1,"name":"Amorphous"}],
-"speed":10,"str":10,"swimSpeed":0,"tag":null,"type":"Ooze","vulnerabilities":null,"wis":7,"xp":50}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": " 5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) psychic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Blot",
+      "type": "MELEE"
+    },
+    {
+      "description": "The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling's next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Ink Spray (1/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 11,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, prone",
+  "cr": "1/4",
+  "damageImmunities": "psychic",
+  "dex": 16,
+  "flySpeed": 30,
+  "hp": {
+    "constant": 8,
+    "diceAmount": 4,
+    "diceType": "D4"
+  },
+  "id": -1,
+  "int": 6,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands the languages of its creator but can't speak",
+  "name": "Inkling Mascot",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "blindsight 60 ft.",
+  "size": "Tiny",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The inkling can move through a space as narrow as 1 inch wide without squeezing.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amorphous"
+    }
+  ],
+  "speed": 10,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Ooze",
+  "vulnerabilities": null,
+  "wis": 7,
+  "xp": 50
+}

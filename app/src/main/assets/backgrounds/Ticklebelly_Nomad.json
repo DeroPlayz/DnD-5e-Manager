@@ -1,20 +1,122 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Herbalism Kit","number": 1}],
-"id": "508db904-9a73-4ff3-849d-79522171deb8"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Small article of jewelry that is distinct to your tribe","number": 1}],
-"id": "92cfbd1a-64f1-4f76-97f3-10934925778c"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Hunting Trap","number": 1}],
-"id": "823314c9-70f4-4fa1-9965-cc4a67b52b21"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Common Clothes","number": 1}],
-"id": "5ad18bb7-763c-4af5-abaa-323e7b2ce1d2"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "9c7e2ca0-14a4-4dfb-9433-a1f128ae7b85"}],
-"features": [{"feat": {"descriptionModels": [{"description": "The wilderness is your home and you are comfortable dwelling in it. You can find a place to hide, rest, or recuperate when out in the wild. This place of rest is secure enough to conceal you from most natural threats. Threats that are supernatural, magical, or are actively seeking you out might do so with difficulty depending on the nature of the threat (as determined by the DM). However, this feature doesn\u2019t shield or conceal you from scrying, mental probing, nor from threats that don\u2019t necessarily require the five senses to find you.\u00a0","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "At Home In The Wild","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [{"description": "Giant","shouldSelect": false}],
-"name": "Ticklebelly Nomad","skills": [{"amountOfChoice": 1,"id": "7142b09f-4e13-479d-b723-8fb7aaef99dd","skills": [{}],
-"skillsModels": [{"name": "Nature","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "5ce75f7a-1a10-4b6d-9588-815676a76d34","skills": [{}],
-"skillsModels": [{"name": "Animal Handling","typeName": "SKILL"}]}],
-"tools": [{"description": "Herbalism kit","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Herbalism Kit",
+          "number": 1
+        }
+      ],
+      "id": "508db904-9a73-4ff3-849d-79522171deb8"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Small article of jewelry that is distinct to your tribe",
+          "number": 1
+        }
+      ],
+      "id": "92cfbd1a-64f1-4f76-97f3-10934925778c"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Hunting Trap",
+          "number": 1
+        }
+      ],
+      "id": "823314c9-70f4-4fa1-9965-cc4a67b52b21"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "5ad18bb7-763c-4af5-abaa-323e7b2ce1d2"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "9c7e2ca0-14a4-4dfb-9433-a1f128ae7b85"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The wilderness is your home and you are comfortable dwelling in it. You can find a place to hide, rest, or recuperate when out in the wild. This place of rest is secure enough to conceal you from most natural threats. Threats that are supernatural, magical, or are actively seeking you out might do so with difficulty depending on the nature of the threat (as determined by the DM). However, this feature doesn\u2019t shield or conceal you from scrying, mental probing, nor from threats that don\u2019t necessarily require the five senses to find you.\u00a0",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "At Home In The Wild",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Giant",
+      "shouldSelect": false
+    }
+  ],
+  "name": "Ticklebelly Nomad",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "7142b09f-4e13-479d-b723-8fb7aaef99dd",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Nature",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "5ce75f7a-1a10-4b6d-9588-815676a76d34",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Animal Handling",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Herbalism kit",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

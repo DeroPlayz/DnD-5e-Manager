@@ -1,6 +1,71 @@
-{"ac":13,"actions":[{"description":"The robot makes two Cargo Tentacle attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it has the grappled condition (escape DC 15). The robot has two cargo tentacles, each of which can grapple one target.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Cargo Tentacle","type":"MELEE"},
-{"description":"The robot casts Telekinesis, targeting only creatures with the incapacitated condition or objects. It requires no spell components and uses Wisdom as the spellcasting ability.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tractor Beam","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":30,"con":16,"conditionImmunities":"exhaustion, poisoned","cr":"3","damageImmunities":"cold, poison","dex":9,"flySpeed":0,"hp":{"constant":30,"diceAmount":10,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common plus the languages spoken by its creator","name":"Worker Robot [QftIS]","resistances":"acid, fire","savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"When the robot takes lightning damage, it must succeed on a DC 10 Constitution saving throw or have the stunned condition until the start of its next turn.","id":-1,"monsterId":-1,"name":"Lightning Overload"}],
-"speed":30,"str":20,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":12,"xp":700}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "The robot makes two Cargo Tentacle attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it has the grappled condition (escape DC 15). The robot has two cargo tentacles, each of which can grapple one target.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Cargo Tentacle",
+      "type": "MELEE"
+    },
+    {
+      "description": "The robot casts Telekinesis, targeting only creatures with the incapacitated condition or objects. It requires no spell components and uses Wisdom as the spellcasting ability.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Tractor Beam",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 30,
+  "con": 16,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "3",
+  "damageImmunities": "cold, poison",
+  "dex": 9,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 30,
+    "diceAmount": 10,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common plus the languages spoken by its creator",
+  "name": "Worker Robot [QftIS]",
+  "resistances": "acid, fire",
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When the robot takes lightning damage, it must succeed on a DC 10 Constitution saving throw or have the stunned condition until the start of its next turn.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Lightning Overload"
+    }
+  ],
+  "speed": 30,
+  "str": 20,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 700
+}

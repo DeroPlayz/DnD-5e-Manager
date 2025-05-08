@@ -1,29 +1,149 @@
-{"changesNameOnAttunement": false,"description": "Whelm is a powerful warhammer forged by dwarves and lost in the dungeon of White Plume Mountain.\n\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon. At dawn the day after you first make an attack roll with Whelm, you develop a fear of being outdoors that persists as long as you remain attuned to the weapon. This causes you to have disadvantage on attack rolls, saving throws, and ability checks while you can see the daytime sky.\n\nThrown Weapon\nWhelm has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged weapon attack using it, the target takes an extra 1d8 bludgeoning damage, or an extra 2d8 bludgeoning damage if the target is a giant. Each time you throw the weapon, it flies back to your hand after the attack. If you don't have a hand free, the weapon lands at your feet.\n\nShock Wave\nYou can use an action to strike the ground with Whelm and send a shock wave out from the point of impact. Each creature of your choice on the ground within 60 feet of that point must succeed on a DC 15 Constitution saving throw or become stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.\n\nSupernatural Awareness\nWhile you are holding the weapon, it alerts you to the location of any secret or concealed doors within 30 feet of you. In addition, you can use an action to cast detect evil and good or locate object from the weapon. Once you cast either spell, you can't cast it from the weapon again until the next dawn.\n\nSentience\nWhelm is a sentient lawful neutral weapon with an Intelligence of 15, a Wisdom of 12, and a Charisma of 15. It has hearing and darkvision out to a range of 120 feet.\n\nThe weapon communicates telepathically with its wielder and can speak, read, and understand Dwarvish, Giant, and Goblin. It shouts battle cries in Dwarvish when used in combat.","effects": [{"actualEffect": {"bonus": 3,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "f054f616-ce73-4215-84e6-660a0d60e061","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "395dc397-52da-4da0-b070-1fc8af3d2a2f","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"charges": 1,"id": "d55dccbf-05ac-4300-83ae-fdd7e0b8f206","name": "Shock Wave Uses","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "18","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "9b135c6a-c3cd-4ff5-ba73-a5118cbc1d37","name": "Cast Detect Evil and Good","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "291","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "b5081ffc-30fd-45f8-b926-69cd1eb540a3","name": "Cast Locate Object","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Whelm","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": true,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Whelm","rarity": "LEGENDARY","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weight": 2.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "Whelm is a powerful warhammer forged by dwarves and lost in the dungeon of White Plume Mountain.\n\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon. At dawn the day after you first make an attack roll with Whelm, you develop a fear of being outdoors that persists as long as you remain attuned to the weapon. This causes you to have disadvantage on attack rolls, saving throws, and ability checks while you can see the daytime sky.\n\nThrown Weapon\nWhelm has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged weapon attack using it, the target takes an extra 1d8 bludgeoning damage, or an extra 2d8 bludgeoning damage if the target is a giant. Each time you throw the weapon, it flies back to your hand after the attack. If you don't have a hand free, the weapon lands at your feet.\n\nShock Wave\nYou can use an action to strike the ground with Whelm and send a shock wave out from the point of impact. Each creature of your choice on the ground within 60 feet of that point must succeed on a DC 15 Constitution saving throw or become stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.\n\nSupernatural Awareness\nWhile you are holding the weapon, it alerts you to the location of any secret or concealed doors within 30 feet of you. In addition, you can use an action to cast detect evil and good or locate object from the weapon. Once you cast either spell, you can't cast it from the weapon again until the next dawn.\n\nSentience\nWhelm is a sentient lawful neutral weapon with an Intelligence of 15, a Wisdom of 12, and a Charisma of 15. It has hearing and darkvision out to a range of 120 feet.\n\nThe weapon communicates telepathically with its wielder and can speak, read, and understand Dwarvish, Giant, and Goblin. It shouts battle cries in Dwarvish when used in combat.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 3,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "f054f616-ce73-4215-84e6-660a0d60e061",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Magic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "395dc397-52da-4da0-b070-1fc8af3d2a2f",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "charges": 1,
+      "id": "d55dccbf-05ac-4300-83ae-fdd7e0b8f206",
+      "name": "Shock Wave Uses",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "18",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "9b135c6a-c3cd-4ff5-ba73-a5118cbc1d37",
+      "name": "Cast Detect Evil and Good",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "291",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "b5081ffc-30fd-45f8-b926-69cd1eb540a3",
+      "name": "Cast Locate Object",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Whelm",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": true,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Whelm",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "WEAPON",
+  "valueCoin": "GOLD",
+  "weight": 2.0,
+  "weightUnit": "OUNCES"
+}

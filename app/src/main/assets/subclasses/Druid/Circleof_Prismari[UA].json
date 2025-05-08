@@ -1,215 +1,215 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency in two of the following skills of your choice: Acrobatics, Athletics, Nature, or Performance",
+            "level": 2
+          }
+        ],
+        "id": "Customfd4313fe-cbe0-49d3-8f82-3a572e0dcd60",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Creative Skills",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency in two of the following skills of your choice: Acrobatics, Athletics, Nature, or Performance",
-                        "level": 2
-                    }
-                ],
-                "id": "Customfd4313fe-cbe0-49d3-8f82-3a572e0dcd60",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Creative Skills",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can Dash as a bonus action. When you take this bonus action, choose one of the following additional effects:\n\n- Boreal Sweep: Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is knocked prone. A creature can be affected by the water only once each turn.\n\n- Scorching Whirl: Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to 1d4 + your spellcasting modifier.\n\n- Thunderlight Jaunt: You take on a nimble lightning form. Until the end of your turn, you can move through the space of other creatures, and you do not provoke opportunity attacks. If you end your turn inside a creature's space, you are pushed into the nearest unoccupied space.\n\nYou can use a bonus action in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can Dash as a bonus action. When you take this bonus action, choose one of the following additional effects:\n\n- Boreal Sweep: Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is knocked prone. A creature can be affected by the water only once each turn.\n\n- Scorching Whirl: Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to 1d4 + your spellcasting modifier.\n\n- Thunderlight Jaunt: You take on a nimble lightning form. Until the end of your turn, you can move through the space of other creatures, and you do not provoke opportunity attacks. If you end your turn inside a creature's space, you are pushed into the nearest unoccupied space.\n\nYou can use a bonus action in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 2
-                    }
-                ],
-                "id": "Custome9d6b8a5-6716-4256-9d2c-5864d1ea7f5f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Kinetic Artistry",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type.\n\nAdditionally, when you cast a spell using a spell slot that deals the chosen damage type, you emit a spectacular aura of artistry, which extends 5 feet from you in every direction (but not through total cover) and lasts until the end of your next turn. While the aura is active, each creature of your choice has resistance to your chosen damage type while within the aura, as you shape your favored elemental medium around them.\n\nYou can change your choice of damage type whenever you finish a long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Customedce7ba5-30d2-429d-a8df-69f162799cdc",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Favored Medium",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custome9d6b8a5-6716-4256-9d2c-5864d1ea7f5f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Kinetic Artistry",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type.\n\nAdditionally, when you cast a spell using a spell slot that deals the chosen damage type, you emit a spectacular aura of artistry, which extends 5 feet from you in every direction (but not through total cover) and lasts until the end of your next turn. While the aura is active, each creature of your choice has resistance to your chosen damage type while within the aura, as you shape your favored elemental medium around them.\n\nYou can change your choice of damage type whenever you finish a long rest",
             "level": 6
+          }
+        ],
+        "id": "Customedce7ba5-30d2-429d-a8df-69f162799cdc",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Favored Medium",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your relentless dedication and training have instilled an outstanding sense of precision and grace in your art. You gain proficiency in Dexterity saving throws if you do not already have it. Additionally, when you make a Dexterity saving throw, you can treat a d20 roll of a 9 or lower as a 10",
+            "level": 14
+          }
+        ],
+        "id": "Customf026e59e-1e81-4ad9-8192-d5379d177715",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Impeccable Physicality",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "druid_circle_of_prismari_[ua]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Circle of Prismari [UA]",
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 6
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to cold damage",
+                "level": 6
+              },
+              {
+                "description": "You gain resistance to cold damage.\n\nOnce per turn when you deal damage to at least one target, one of the targets of your choice takes an additional 1d6 cold damage and must make a Constitution saving throw against your spell save DC. On a failed save, the target's speed is reduced by 10 feet until the end of its next turn, as ice mires it. A target can be affected by the ice only once per round",
+                "level": 10
+              }
+            ],
+            "id": "Custome6f6b18f-20b3-4651-b8a2-5ba40df0feb9",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Favored Medium: Cold",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
         },
         {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your relentless dedication and training have instilled an outstanding sense of precision and grace in your art. You gain proficiency in Dexterity saving throws if you do not already have it. Additionally, when you make a Dexterity saving throw, you can treat a d20 roll of a 9 or lower as a 10",
-                        "level": 14
-                    }
-                ],
-                "id": "Customf026e59e-1e81-4ad9-8192-d5379d177715",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Impeccable Physicality",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "druid_circle_of_prismari_[ua]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Circle of Prismari [UA]",
-    "selectableFeatures": [
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to fire damage",
+                "level": 6
+              },
+              {
+                "description": "You gain resistance to fire damage.\n\nOnce per turn when you deal damage to at least one target, one of the targets of your choice takes an additional 1d6 fire damage. Fortifying flames then dance around one creature of your choice within 30 feet of you. The chosen creature gains 1d6 temporary hit points",
+                "level": 10
+              }
+            ],
+            "id": "Custom97bafb48-0733-417d-a2c4-b5440959c666",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Favored Medium: Fire",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 6
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You gain resistance to lightning damage",
+                "level": 6
+              },
+              {
+                "description": "You gain resistance to lightning damage.\n\nOnce per turn when you deal damage to at least one target, one of the targets of your choice takes an additional 1d6 lightning damage and must make a Dexterity saving throw against your spell save DC. On a failed save, the target is unable to take reactions until the end of its next turn, as residual lightning shocks its form",
+                "level": 10
+              }
             ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to cold damage",
-                                "level": 6
-                            },
-                            {
-                                "description": "You gain resistance to cold damage.\n\nOnce per turn when you deal damage to at least one target, one of the targets of your choice takes an additional 1d6 cold damage and must make a Constitution saving throw against your spell save DC. On a failed save, the target's speed is reduced by 10 feet until the end of its next turn, as ice mires it. A target can be affected by the ice only once per round",
-                                "level": 10
-                            }
-                        ],
-                        "id": "Custome6f6b18f-20b3-4651-b8a2-5ba40df0feb9",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Favored Medium: Cold",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to fire damage",
-                                "level": 6
-                            },
-                            {
-                                "description": "You gain resistance to fire damage.\n\nOnce per turn when you deal damage to at least one target, one of the targets of your choice takes an additional 1d6 fire damage. Fortifying flames then dance around one creature of your choice within 30 feet of you. The chosen creature gains 1d6 temporary hit points",
-                                "level": 10
-                            }
-                        ],
-                        "id": "Custom97bafb48-0733-417d-a2c4-b5440959c666",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Favored Medium: Fire",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You gain resistance to lightning damage",
-                                "level": 6
-                            },
-                            {
-                                "description": "You gain resistance to lightning damage.\n\nOnce per turn when you deal damage to at least one target, one of the targets of your choice takes an additional 1d6 lightning damage and must make a Dexterity saving throw against your spell save DC. On a failed save, the target is unable to take reactions until the end of its next turn, as residual lightning shocks its form",
-                                "level": 10
-                            }
-                        ],
-                        "id": "Custom2094f9e2-317e-436d-88b8-dabcb6b4b3d1",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Favored Medium: Lightning",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                }
-            ],
-            "canReselect": false,
-            "id": "87ef0bf2-45f5-4e25-8107-f6f30d659f42",
-            "name": "Favored Medium",
-            "selectedFeatures": []
+            "id": "Custom2094f9e2-317e-436d-88b8-dabcb6b4b3d1",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Favored Medium: Lightning",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
         }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+      ],
+      "canReselect": false,
+      "id": "87ef0bf2-45f5-4e25-8107-f6f30d659f42",
+      "name": "Favored Medium",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 2,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "866fd3aa-2b79-4e82-84c1-f7d79ab2cefb",
-            "name": "Kinetic Artistry Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            }
+          ],
+          "level": 2,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "866fd3aa-2b79-4e82-84c1-f7d79ab2cefb",
+      "name": "Kinetic Artistry Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

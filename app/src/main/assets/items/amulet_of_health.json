@@ -1,6 +1,51 @@
-{"changesNameOnAttunement": false,"description": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher without it.","effects": [{"actualEffect": {"shouldPickMax": true,"stat": "CON","type": "SET_STAT","typeStr": "SET_STAT","value": {"constant": 19,"diceAmount": 0,"diceType": "D4"}},
-"id": "1d6f1fc0-3bfc-4068-9723-0cfd3d109ca4","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Amulet_of_Health","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Amulet of Health","rarity": "RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher without it.",
+  "effects": [
+    {
+      "actualEffect": {
+        "shouldPickMax": true,
+        "stat": "CON",
+        "type": "SET_STAT",
+        "typeStr": "SET_STAT",
+        "value": {
+          "constant": 19,
+          "diceAmount": 0,
+          "diceType": "D4"
+        }
+      },
+      "id": "1d6f1fc0-3bfc-4068-9723-0cfd3d109ca4",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Amulet_of_Health",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Amulet of Health",
+  "rarity": "RARE",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weight": 1.0,
+  "weightUnit": "OUNCES"
+}

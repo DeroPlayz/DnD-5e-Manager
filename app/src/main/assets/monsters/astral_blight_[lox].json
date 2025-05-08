@@ -1,6 +1,69 @@
-{"ac":12,"actions":[{"description":"The blight makes two Heat-Draining Vine attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) radiant damage, and if the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target takes 3 (1d6) cold damage at the start of each of its turns. The blight has two vines, each of which can grapple one creature.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Heat-Draining Vine","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":3,"climbSpeed":0,"con":14,"conditionImmunities":null,"cr":"1","damageImmunities":null,"dex":8,"flySpeed":0,"hp":{"constant":8,"diceAmount":4,"diceType":"D8"},
-"id":-1,"int":6,"isLocked":true,"jsonType":"monster","languages":null,"name":"Astral Blight [LoX]","resistances":"cold, radiant","savingThrows":null,"senses":"blindsight 60 ft. (blind beyond this radius)","size":"Medium","skills":null,"specialTraits":[{"description":"While it has at least 1 hit point, the astral blight sheds dim light in a 10-foot radius.","id":-1,"monsterId":-1,"name":"Illumination"},
-{"description":"The blight doesn't require air or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":10,"str":16,"swimSpeed":0,"tag":null,"type":"Plant","vulnerabilities":null,"wis":10,"xp":200}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The blight makes two Heat-Draining Vine attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) radiant damage, and if the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target takes 3 (1d6) cold damage at the start of each of its turns. The blight has two vines, each of which can grapple one creature.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Heat-Draining Vine",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 3,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": null,
+  "cr": "1",
+  "damageImmunities": null,
+  "dex": 8,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 8,
+    "diceAmount": 4,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 6,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Astral Blight [LoX]",
+  "resistances": "cold, radiant",
+  "savingThrows": null,
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "While it has at least 1 hit point, the astral blight sheds dim light in a 10-foot radius.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Illumination"
+    },
+    {
+      "description": "The blight doesn't require air or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 10,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Plant",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 200
+}

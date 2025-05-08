@@ -1,18 +1,98 @@
-{"changesNameOnAttunement": false,"description": "Hidden in the dungeon of White Plume Mountain, Blackrazor shines like a piece of night sky filled with stars. Its black scabbard is decorated with pieces of cut obsidian.\n\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.\n\nDevour Soul\nWhenever you use it to reduce a creature to 0 hit points, the sword slays the creature and devours its soul, unless it is a construct or an undead. A creature whose soul has been devoured by Blackrazor can be restored to life only by a wish spell.\n\nWhen it devours a soul, Blackrazor grants you temporary hit points equal to the slain creature's hit point maximum. These hit points fade after 24 hours. As long as these temporary hit points last and you keep Blackrazor in hand, you have advantage on attack rolls, saving throws, and ability checks.\n\nIf you hit an undead with this weapon, you take 1d10 necrotic damage and the target regains 1d10 hit points. If this necrotic damage reduces you to 0 hit points, Blackrazor devours your soul.\n\nSoul Hunter\nWhile you hold the weapon. you are aware of the presence of Tiny or larger creatures within 60 feet of you that aren't constructs or undead. You also can't be charmed or frightened.\n\nBlackrazor can cast the haste spell on you once per day. It decides when to cast the spell and maintains concentration on it so that you don't have to.\n\nSentience\nBlackrazor is a sentient chaotic neutral weapon with an Intelligence of 17, a Wisdom of 10, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.\n\nThe weapon can speak, read, and understand Common, and can communicate with its wielder telepathically. Its voice is deep and echoing. While you are attuned to it, Blackrazor also understands every language you know.\n\nBlackrazor's hunger for souls must be regularly fed. If the sword goes three days or more without consuming a soul, a conflict between it and its wielder occurs at the next sunset.","effects": [{"actualEffect": {"bonus": 3,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "b4d72a0b-8a86-4dfc-a546-e0dafdaca6b1","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "73b24cf2-d4df-4c6a-ba49-8d3d96465055","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "127","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "5e098a95-cded-4294-aa3c-ef34d2448d2c","name": "Cast Haste","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Blackrazor","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": true,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Blackrazor","rarity": "LEGENDARY","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weight": 6.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "Hidden in the dungeon of White Plume Mountain, Blackrazor shines like a piece of night sky filled with stars. Its black scabbard is decorated with pieces of cut obsidian.\n\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.\n\nDevour Soul\nWhenever you use it to reduce a creature to 0 hit points, the sword slays the creature and devours its soul, unless it is a construct or an undead. A creature whose soul has been devoured by Blackrazor can be restored to life only by a wish spell.\n\nWhen it devours a soul, Blackrazor grants you temporary hit points equal to the slain creature's hit point maximum. These hit points fade after 24 hours. As long as these temporary hit points last and you keep Blackrazor in hand, you have advantage on attack rolls, saving throws, and ability checks.\n\nIf you hit an undead with this weapon, you take 1d10 necrotic damage and the target regains 1d10 hit points. If this necrotic damage reduces you to 0 hit points, Blackrazor devours your soul.\n\nSoul Hunter\nWhile you hold the weapon. you are aware of the presence of Tiny or larger creatures within 60 feet of you that aren't constructs or undead. You also can't be charmed or frightened.\n\nBlackrazor can cast the haste spell on you once per day. It decides when to cast the spell and maintains concentration on it so that you don't have to.\n\nSentience\nBlackrazor is a sentient chaotic neutral weapon with an Intelligence of 17, a Wisdom of 10, and a Charisma of 19. It has hearing and darkvision out to a range of 120 feet.\n\nThe weapon can speak, read, and understand Common, and can communicate with its wielder telepathically. Its voice is deep and echoing. While you are attuned to it, Blackrazor also understands every language you know.\n\nBlackrazor's hunger for souls must be regularly fed. If the sword goes three days or more without consuming a soul, a conflict between it and its wielder occurs at the next sunset.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 3,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "b4d72a0b-8a86-4dfc-a546-e0dafdaca6b1",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Magic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "73b24cf2-d4df-4c6a-ba49-8d3d96465055",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "127",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "5e098a95-cded-4294-aa3c-ef34d2448d2c",
+      "name": "Cast Haste",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Blackrazor",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": true,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Blackrazor",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "WEAPON",
+  "valueCoin": "GOLD",
+  "weight": 6.0,
+  "weightUnit": "OUNCES"
+}

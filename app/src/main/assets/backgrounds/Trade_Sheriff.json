@@ -1,16 +1,100 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Thieves' Tools","number": 1}],
-"id": "31641a24-3724-49f5-bf18-da390b14f1a7"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Insignia/Badge","number": 1}],
-"id": "6878b751-635b-44ef-8bcf-3d92471851fe"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Fine Clothes","number": 1}],
-"id": "3f8b66b2-90f1-4b71-ab1e-979253621991"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You are part of a small force outside of Hillsfar You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.\u00a0","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Investigative Service","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 17,"jsonType": "background","languages": [{"description": "Elvish","shouldSelect": false}],
-"name": "Trade Sheriff","skills": [{"amountOfChoice": 1,"id": "6fc37b97-f2d8-452e-bd39-4db60410baab","skills": [{}],
-"skillsModels": [{"name": "Investigation","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "2d04782a-afe8-4f46-ba92-61a4b5930c38","skills": [{}],
-"skillsModels": [{"name": "Persuasion","typeName": "SKILL"}]}],
-"tools": [{"description": "Thieves' tools","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Thieves' Tools",
+          "number": 1
+        }
+      ],
+      "id": "31641a24-3724-49f5-bf18-da390b14f1a7"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Insignia/Badge",
+          "number": 1
+        }
+      ],
+      "id": "6878b751-635b-44ef-8bcf-3d92471851fe"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Fine Clothes",
+          "number": 1
+        }
+      ],
+      "id": "3f8b66b2-90f1-4b71-ab1e-979253621991"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You are part of a small force outside of Hillsfar You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.\u00a0",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Investigative Service",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 17,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Elvish",
+      "shouldSelect": false
+    }
+  ],
+  "name": "Trade Sheriff",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "6fc37b97-f2d8-452e-bd39-4db60410baab",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Investigation",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "2d04782a-afe8-4f46-ba92-61a4b5930c38",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Thieves' tools",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

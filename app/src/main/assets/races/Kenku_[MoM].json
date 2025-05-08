@@ -1,22 +1,120 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom7ea51aed-5c91-4bbd-a584-6731bd7013e6","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Kenku [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom3d4cb6a8-771b-43ae-a934-0d223ff5133b","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you copy writing or craftwork produced by yourself or someone else, you have advantage on any ability checks you make to produce an exact duplicate","level": 1}],
-"id": "Customc0ce7fa2-7061-4a36-b190-cc718dff4ac5","isFeature": true,"jsonType": "feat","level": 1,"name": "Expert Duplication","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency in two skills of your choice.\nMoreover, when you make an ability check using any skill in which you have proficiency, you can give yourself advantage on the check before rolling the d20. You can give yourself advantage in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1}],
-"id": "Custom293aa6f8-cfce-4dfb-aaff-d7b18e9ea56b","isFeature": true,"jsonType": "feat","level": 1,"name": "Kenku Recall","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier","level": 1}],
-"id": "Custome6b20a1e-a068-4340-8ce7-f6c4a8571370","isFeature": true,"jsonType": "feat","level": 1,"name": "Mimicry","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom7ea51aed-5c91-4bbd-a584-6731bd7013e6",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Kenku [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom3d4cb6a8-771b-43ae-a934-0d223ff5133b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you copy writing or craftwork produced by yourself or someone else, you have advantage on any ability checks you make to produce an exact duplicate",
+            "level": 1
+          }
+        ],
+        "id": "Customc0ce7fa2-7061-4a36-b190-cc718dff4ac5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Expert Duplication",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have proficiency in two skills of your choice.\nMoreover, when you make an ability check using any skill in which you have proficiency, you can give yourself advantage on the check before rolling the d20. You can give yourself advantage in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+            "level": 1
+          }
+        ],
+        "id": "Custom293aa6f8-cfce-4dfb-aaff-d7b18e9ea56b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Kenku Recall",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier",
+            "level": 1
+          }
+        ],
+        "id": "Custome6b20a1e-a068-4340-8ce7-f6c4a8571370",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mimicry",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

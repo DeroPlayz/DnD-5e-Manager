@@ -1,22 +1,120 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom8213bd5b-6888-4010-97f0-f779fa0a8e91","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Kobold [UA]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray","level": 1}],
-"id": "Custom86e6ff0d-741b-46b6-9e21-4640f62144ce","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Choose one of the following legacy options when you select this race:\n\n- You have advantage on saving throws to avoid or end the frightened condition on yourself.\n\n- You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).\n\n- You can make unarmed strikes with your tail. When you hit with it, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike","level": 1}],
-"id": "Custome5b44797-40b9-4084-af51-9dad9435a4b3","isFeature": true,"jsonType": "feat","level": 1,"name": "Draconic Legacy","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "As a bonus action, you let out a draconic roar at your enemies within 10 feet of you. Until the end of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear the roar. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 1}],
-"id": "Custom8508fee6-6a05-4741-989f-114716830d71","isFeature": true,"jsonType": "feat","level": 1,"name": "Draconic Roar","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom1c84cc57-8402-425d-bbc1-d7acf6614761","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom8213bd5b-6888-4010-97f0-f779fa0a8e91",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Kobold [UA]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray",
+            "level": 1
+          }
+        ],
+        "id": "Custom86e6ff0d-741b-46b6-9e21-4640f62144ce",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Darkvision",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose one of the following legacy options when you select this race:\n\n- You have advantage on saving throws to avoid or end the frightened condition on yourself.\n\n- You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).\n\n- You can make unarmed strikes with your tail. When you hit with it, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike",
+            "level": 1
+          }
+        ],
+        "id": "Custome5b44797-40b9-4084-af51-9dad9435a4b3",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Draconic Legacy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As a bonus action, you let out a draconic roar at your enemies within 10 feet of you. Until the end of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear the roar. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+            "level": 1
+          }
+        ],
+        "id": "Custom8508fee6-6a05-4741-989f-114716830d71",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Draconic Roar",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom1c84cc57-8402-425d-bbc1-d7acf6614761",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

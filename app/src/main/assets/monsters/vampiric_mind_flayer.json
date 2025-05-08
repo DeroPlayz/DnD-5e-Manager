@@ -1,9 +1,91 @@
-{"ac":15,"actions":[{"description":"The mind flayer makes two Claw attacks or one Claw attack and one Tentacles attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":" 7 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and if the target is a creature, it is grappled (escape DC 15).","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tentacles","type":"MELEE"},
-{"description":"The mind flayer targets one creature it is grappling. The target must succeed on a DC 15 Wisdom saving throw or take 14 (4d6) psychic damage and gain 1 level of exhaustion. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Drink Sapience","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":18,"climbSpeed":30,"con":18,"conditionImmunities":"charmed, exhaustion, frightened","cr":"5","damageImmunities":null,"dex":18,"flySpeed":0,"hp":{"constant":40,"diceAmount":10,"diceType":"D8"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"telepathy 120 ft. but can only project emotions","name":"Vampiric Mind Flayer","resistances":"necrotic, psychic","savingThrows":"Dex +7, Int +0, Wis +5, Cha +7","senses":"darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The mind flayer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"},
-{"description":"While in sunlight, the mind flayer has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.","id":-1,"monsterId":-1,"name":"Sunlight Sensitivity"},
-{"description":"The mind flayer doesn't require air, food, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":30,"str":18,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":15,"xp":1800}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The mind flayer makes two Claw attacks or one Claw attack and one Tentacles attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": " 7 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and if the target is a creature, it is grappled (escape DC 15).",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Tentacles",
+      "type": "MELEE"
+    },
+    {
+      "description": "The mind flayer targets one creature it is grappling. The target must succeed on a DC 15 Wisdom saving throw or take 14 (4d6) psychic damage and gain 1 level of exhaustion. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Drink Sapience",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 18,
+  "climbSpeed": 30,
+  "con": 18,
+  "conditionImmunities": "charmed, exhaustion, frightened",
+  "cr": "5",
+  "damageImmunities": null,
+  "dex": 18,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 40,
+    "diceAmount": 10,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "telepathy 120 ft. but can only project emotions",
+  "name": "Vampiric Mind Flayer",
+  "resistances": "necrotic, psychic",
+  "savingThrows": "Dex +7, Int +0, Wis +5, Cha +7",
+  "senses": "darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The mind flayer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    },
+    {
+      "description": "While in sunlight, the mind flayer has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Sunlight Sensitivity"
+    },
+    {
+      "description": "The mind flayer doesn't require air, food, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 1800
+}

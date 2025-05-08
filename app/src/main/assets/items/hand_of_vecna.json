@@ -1,37 +1,182 @@
-{"changesNameOnAttunement": false,"description": "The Eye of Vecna and the Hand of Vecna might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a mummified and shriveled left extremity.\n\nTo attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.\n\nTo attune to the hand, you must lop off your left hand at the wrist and the press the artifact against the stump. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die.\n\nRandom Properties\nThe Eye of Vecna and the Hand of Vecna each have the following random properties:\n\n- 1 minor beneficial property\n- 1 major beneficial property\n- 1 minor detrimental property\n\nProperties of the Hand\nYour alignment changes to neutral evil, and you gain the following benefits:\n\n- Your Strength score becomes 20, unless it is already 20 or higher.\n- Any melee spell attack you make with the hand, and any melee weapon attack made with a weapon held by it, deals an extra 2d8 cold damage on a hit.\n- The hand has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: finger of death (5 charges), sleep (1 charge), slow (2 charges), or teleport (3 charges). The hand regains 1d4 + 4 expended charges daily at dawn. Each time you cast a spell from the hand, it casts the suggestion spell on you (save DC 18), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.\n\nProperties of the Eye and Hand\nIf you are attuned to both the hand and eye, you gain the following additional benefits:\n\n- You are immune to disease and poison.\n- Using the eye's X-ray vision never causes you to suffer exhaustion.\n- You experience premonitions of danger and, unless you are incapacitated, can't be surprised.\n- If you start your turn with at least 1 hit point, you regain 1d10 hit points.\n- If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the Hand of Vecna. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. On a hit, the target must succeed on a DC 18 Constitution saving throw or drop to 0 hit points.\n- You can use an action to cast wish. This property can't be used again until 30 days have passed.\n\nDestroying the Eye and Hand\nIf the Eye of Vecna and the Hand of Vecna are both attached to the same creature, and that creature is slain by the Sword of Kas, both the eye and the hand burst into flame, turn to ash, and are destroyed forever. Any other attempt to destroy the eye or hand seems to work, but the artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.","effects": [{"actualEffect": {"shouldPickMax": true,"stat": "STR","type": "SET_STAT","typeStr": "SET_STAT","value": {"constant": 20,"diceAmount": 0,"diceType": "D4"}},
-"id": "a4d701b0-fda0-4e5a-b6a6-be033d5e6a18","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"bonus": {"constant": 0,"diceAmount": 2,"diceType": "D8"},
-"damageType": "Cold","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "ad5341dd-6998-4ed7-b119-e4137d49af52","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"charges": 8,"id": "4c9bb106-8b0b-4a0a-986b-c8502b8cd747","name": "Charges","rechargeMoment": "DAWN","rechargeRate": {"constant": 4,"diceAmount": 1,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "204","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "b8108871-b6f2-46c1-aeb2-42c1c4de2137","name": "Cast Finger of Death (5 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "76","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "db07ab38-33b5-4eaa-b939-60b0561ecf57","name": "Cast Sleep (1 Charge)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "145","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "817c2a65-dafa-4286-b8a7-19b0d4c7b209","name": "Cast Slow (2 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "217","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "4e039224-8938-4e48-9c8e-d06823273429","name": "Cast Teleport (3 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Hand_of_Vecna","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Hand of Vecna","rarity": "ARTIFACT","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "The Eye of Vecna and the Hand of Vecna might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a mummified and shriveled left extremity.\n\nTo attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.\n\nTo attune to the hand, you must lop off your left hand at the wrist and the press the artifact against the stump. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die.\n\nRandom Properties\nThe Eye of Vecna and the Hand of Vecna each have the following random properties:\n\n- 1 minor beneficial property\n- 1 major beneficial property\n- 1 minor detrimental property\n\nProperties of the Hand\nYour alignment changes to neutral evil, and you gain the following benefits:\n\n- Your Strength score becomes 20, unless it is already 20 or higher.\n- Any melee spell attack you make with the hand, and any melee weapon attack made with a weapon held by it, deals an extra 2d8 cold damage on a hit.\n- The hand has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: finger of death (5 charges), sleep (1 charge), slow (2 charges), or teleport (3 charges). The hand regains 1d4 + 4 expended charges daily at dawn. Each time you cast a spell from the hand, it casts the suggestion spell on you (save DC 18), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.\n\nProperties of the Eye and Hand\nIf you are attuned to both the hand and eye, you gain the following additional benefits:\n\n- You are immune to disease and poison.\n- Using the eye's X-ray vision never causes you to suffer exhaustion.\n- You experience premonitions of danger and, unless you are incapacitated, can't be surprised.\n- If you start your turn with at least 1 hit point, you regain 1d10 hit points.\n- If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the Hand of Vecna. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. On a hit, the target must succeed on a DC 18 Constitution saving throw or drop to 0 hit points.\n- You can use an action to cast wish. This property can't be used again until 30 days have passed.\n\nDestroying the Eye and Hand\nIf the Eye of Vecna and the Hand of Vecna are both attached to the same creature, and that creature is slain by the Sword of Kas, both the eye and the hand burst into flame, turn to ash, and are destroyed forever. Any other attempt to destroy the eye or hand seems to work, but the artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.",
+  "effects": [
+    {
+      "actualEffect": {
+        "shouldPickMax": true,
+        "stat": "STR",
+        "type": "SET_STAT",
+        "typeStr": "SET_STAT",
+        "value": {
+          "constant": 20,
+          "diceAmount": 0,
+          "diceType": "D4"
+        }
+      },
+      "id": "a4d701b0-fda0-4e5a-b6a6-be033d5e6a18",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 0,
+          "diceAmount": 2,
+          "diceType": "D8"
+        },
+        "damageType": "Cold",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "ad5341dd-6998-4ed7-b119-e4137d49af52",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "charges": 8,
+      "id": "4c9bb106-8b0b-4a0a-986b-c8502b8cd747",
+      "name": "Charges",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 4,
+        "diceAmount": 1,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "204",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "b8108871-b6f2-46c1-aeb2-42c1c4de2137",
+      "name": "Cast Finger of Death (5 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "76",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "db07ab38-33b5-4eaa-b939-60b0561ecf57",
+      "name": "Cast Sleep (1 Charge)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "145",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "817c2a65-dafa-4286-b8a7-19b0d4c7b209",
+      "name": "Cast Slow (2 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "217",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "4e039224-8938-4e48-9c8e-d06823273429",
+      "name": "Cast Teleport (3 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Hand_of_Vecna",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Hand of Vecna",
+  "rarity": "ARTIFACT",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

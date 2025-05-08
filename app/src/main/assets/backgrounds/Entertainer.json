@@ -1,19 +1,110 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Musical Instrument Of Your Choice","number": 1}],
-"id": "396251e4-9904-4903-92c0-b8e88ad0bc52"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "The favor of an admirer (love letter, lock of hair, or\u00a0trinket)","number": 1}],
-"id": "15b474f8-e4aa-4a7b-8d5d-e7619d0b6276"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Costume","number": 1}],
-"id": "47a54517-a57e-42ce-bc48-eba0ccce1c64"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "9f45b260-ef53-4027-a425-2e6a9935fc6f"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble\u2019s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "By Popular Demand","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"jsonType": "background","languages": [],
-"name": "Entertainer","skills": [{"amountOfChoice": 1,"id": "42df8c0f-e503-464a-b477-8974f1b13d73","skills": [{}],
-"skillsModels": [{"name": "Acrobatics","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "5678ce78-43be-4a23-8d2b-a35f1ea052ee","skills": [{}],
-"skillsModels": [{"name": "Performance","typeName": "SKILL"}]}],
-"tools": [{"description": "Disguise kit","shouldSelect": false},
-{"description": "1 Type of musical instrument","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Musical Instrument Of Your Choice",
+          "number": 1
+        }
+      ],
+      "id": "396251e4-9904-4903-92c0-b8e88ad0bc52"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "The favor of an admirer (love letter, lock of hair, or\u00a0trinket)",
+          "number": 1
+        }
+      ],
+      "id": "15b474f8-e4aa-4a7b-8d5d-e7619d0b6276"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Costume",
+          "number": 1
+        }
+      ],
+      "id": "47a54517-a57e-42ce-bc48-eba0ccce1c64"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "9f45b260-ef53-4027-a425-2e6a9935fc6f"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble\u2019s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "By Popular Demand",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "jsonType": "background",
+  "languages": [],
+  "name": "Entertainer",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "42df8c0f-e503-464a-b477-8974f1b13d73",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Acrobatics",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "5678ce78-43be-4a23-8d2b-a35f1ea052ee",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Performance",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Disguise kit",
+      "shouldSelect": false
+    },
+    {
+      "description": "1 Type of musical instrument",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

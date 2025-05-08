@@ -1,2 +1,26 @@
-{"ammunitionType": "NEEDLE","changesNameOnAttunement": false,"description": "","effects": [],
-"id": "Custom0ac7ad2a-21f7-4152-b0b2-a30374af35df","isAmmunition": true,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Blowgun Needle","rarity": "COMMON","requiresAttunement": false,"type": "AMMUNITION","value": 2.0,"valueCoin": "COPPER","weight": 0.32,"weightUnit": "OUNCES"}
+{
+  "ammunitionType": "NEEDLE",
+  "changesNameOnAttunement": false,
+  "description": "",
+  "effects": [],
+  "id": "Custom0ac7ad2a-21f7-4152-b0b2-a30374af35df",
+  "isAmmunition": true,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Blowgun Needle",
+  "rarity": "COMMON",
+  "requiresAttunement": false,
+  "type": "AMMUNITION",
+  "value": 2.0,
+  "valueCoin": "COPPER",
+  "weight": 0.32,
+  "weightUnit": "OUNCES"
+}

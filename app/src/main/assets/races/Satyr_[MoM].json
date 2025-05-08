@@ -1,23 +1,137 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom8b38b81c-4b76-40bb-8c58-1ddc3a6e8f7d","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Satyr [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d6","name": "Ram"},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,performance"},
-{"hint": "","level": 1,"proficiency": "full,persuasion"}],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 35,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [{"hint": "","level": 1,"proficiency": "Choose 1 musical instrument"}],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom667e48f2-270c-4b4a-9b2a-461ef1f169ac","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You're a Fey","level": 1}],
-"id": "Custom61c33ae0-7490-420d-b4cd-3fd90251fb72","isFeature": true,"jsonType": "feat","level": 1,"name": "Creature Type","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against spells","level": 1}],
-"id": "Custom109447dc-17b0-40db-92fc-74cf1d6250ea","isFeature": true,"jsonType": "feat","level": 1,"name": "Magic Resistance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as usual","level": 1}],
-"id": "Custom54446586-3e59-456b-933d-b4d5df742483","isFeature": true,"jsonType": "feat","level": 1,"name": "Mirthful Leaps","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom8b38b81c-4b76-40bb-8c58-1ddc3a6e8f7d",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Satyr [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "d6",
+    "name": "Ram"
+  },
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,performance"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,persuasion"
+    }
+  ],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 35,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1 musical instrument"
+    }
+  ],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom667e48f2-270c-4b4a-9b2a-461ef1f169ac",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You're a Fey",
+            "level": 1
+          }
+        ],
+        "id": "Custom61c33ae0-7490-420d-b4cd-3fd90251fb72",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Creature Type",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage on saving throws against spells",
+            "level": 1
+          }
+        ],
+        "id": "Custom109447dc-17b0-40db-92fc-74cf1d6250ea",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Magic Resistance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as usual",
+            "level": 1
+          }
+        ],
+        "id": "Custom54446586-3e59-456b-933d-b4d5df742483",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mirthful Leaps",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

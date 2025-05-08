@@ -1,5 +1,31 @@
-{"casting_time": "1 action","classes": ["fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a pinch of sesame seeds"],
-"raw": "V, S, M (a pinch of sesame seeds)","somatic": true,"verbal": true},
-"description": "A Passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the Duration. You choose the opening's dimensions - up to 5 feet wide, 8 feet tall, and 20 feet deep. The Passage creates no instability in a structure surrounding it.\n\nWhen the opening disappears, any creatures or Objects still in the Passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell","duration": "1 hour","level": "5","name": "Passwall","range": "30 feet","ritual": false,"school": "transmutation","tags": ["fighter","rogue","wizard","level5"],
-"type": "5th-level transmutation"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a pinch of sesame seeds"
+    ],
+    "raw": "V, S, M (a pinch of sesame seeds)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "A Passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the Duration. You choose the opening's dimensions - up to 5 feet wide, 8 feet tall, and 20 feet deep. The Passage creates no instability in a structure surrounding it.\n\nWhen the opening disappears, any creatures or Objects still in the Passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell",
+  "duration": "1 hour",
+  "level": "5",
+  "name": "Passwall",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "transmutation",
+  "tags": [
+    "fighter",
+    "rogue",
+    "wizard",
+    "level5"
+  ],
+  "type": "5th-level transmutation"
+}

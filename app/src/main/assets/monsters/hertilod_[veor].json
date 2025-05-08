@@ -1,11 +1,105 @@
-{"ac":14,"actions":[{"description":"The hertilod makes one Bite attack and two Claw attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"12 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 13 (2d12) poison damage. If the target is a Large or smaller creature, it must succeed on a DC 20 Strength saving throw or be swallowed by the hertilod. A swallowed creature has the blinded and restrained conditions, and it has total cover against attacks and other effects outside the hertilod. At the start of each of the hertilod's turns, each swallowed creature takes 13 (2d12) poison damage from the poisonous secretion in the hertilod's gullet.\n\nThe hertilod's gullet can hold up to two creatures at a time. If the hertilod takes 40 damage or more on a single turn from a swallowed creature, the hertilod must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the prone condition. If the hertilod dies, a swallowed creature is no longer restrained and can escape from the corpse by using 10 feet of movement, exiting with the prone condition.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"The hertilod moves up to its speed. This movement doesn't provoke opportunity attacks.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Sprint","type":"NONE"},
-{"description":"The hertilod drains life from the creatures in its gullet to bolster itself. Each creature in the hertilod's gullet takes 10 (3d6) necrotic damage, and the hertilod regains a number of hit points equal to the damage.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Feed (Costs 2 Actions)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":50,"con":20,"conditionImmunities":"poisoned","cr":"17","damageImmunities":"poison","dex":18,"flySpeed":0,"hp":{"constant":105,"diceAmount":21,"diceType":"D12"},
-"id":-1,"int":3,"isLocked":true,"jsonType":"monster","languages":null,"name":"Hertilod [VEoR]","resistances":"necrotic; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Str +12, Dex +10","senses":"blindsight 30 ft., tremorsense 60 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"If the hertilod fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistances (3/Day)"},
-{"description":"The hertilod has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"If the hertilod takes lightning damage, its speed is halved until the end of its next turn, and it must succeed on a DC 15 Constitution saving throw or immediately regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the prone condition.","id":-1,"monsterId":-1,"name":"Shock Susceptibility"},
-{"description":"The hertilod can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"}],
-"speed":50,"str":23,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":15,"xp":18000}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The hertilod makes one Bite attack and two Claw attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "12 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 13 (2d12) poison damage. If the target is a Large or smaller creature, it must succeed on a DC 20 Strength saving throw or be swallowed by the hertilod. A swallowed creature has the blinded and restrained conditions, and it has total cover against attacks and other effects outside the hertilod. At the start of each of the hertilod's turns, each swallowed creature takes 13 (2d12) poison damage from the poisonous secretion in the hertilod's gullet.\n\nThe hertilod's gullet can hold up to two creatures at a time. If the hertilod takes 40 damage or more on a single turn from a swallowed creature, the hertilod must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the prone condition. If the hertilod dies, a swallowed creature is no longer restrained and can escape from the corpse by using 10 feet of movement, exiting with the prone condition.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "The hertilod moves up to its speed. This movement doesn't provoke opportunity attacks.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Sprint",
+      "type": "NONE"
+    },
+    {
+      "description": "The hertilod drains life from the creatures in its gullet to bolster itself. Each creature in the hertilod's gullet takes 10 (3d6) necrotic damage, and the hertilod regains a number of hit points equal to the damage.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Feed (Costs 2 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 50,
+  "con": 20,
+  "conditionImmunities": "poisoned",
+  "cr": "17",
+  "damageImmunities": "poison",
+  "dex": 18,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 105,
+    "diceAmount": 21,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 3,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Hertilod [VEoR]",
+  "resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Str +12, Dex +10",
+  "senses": "blindsight 30 ft., tremorsense 60 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the hertilod fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistances (3/Day)"
+    },
+    {
+      "description": "The hertilod has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "If the hertilod takes lightning damage, its speed is halved until the end of its next turn, and it must succeed on a DC 15 Constitution saving throw or immediately regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the prone condition.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Shock Susceptibility"
+    },
+    {
+      "description": "The hertilod can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    }
+  ],
+  "speed": 50,
+  "str": 23,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 18000
+}

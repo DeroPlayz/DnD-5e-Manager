@@ -1,20 +1,122 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Traveler's Clothes","number": 1}],
-"id": "bb72f95f-8984-44dd-a650-146b868684fc"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Musical instrument or gaming set you are proficient with","number": 1}],
-"id": "0f8f3456-c383-4ba0-9a79-c0257c9e0618"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Poorly wrought maps from your homeland that depict where you are in Faerun","number": 1}],
-"id": "4d95aa82-2b35-47a5-82bb-cb1dedd16396"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Small Piece Of Jewelry Worth 10 GP","number": 1}],
-"id": "7446e827-6478-4b3d-9386-dafa7905bb2e"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "One Pouch With 5 GP","number": 1}],
-"id": "0360011f-b63f-4482-bcea-7603d128bff5"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Your accent, mannerisms, figures of speech, and perhaps even your appearance all mark you as foreign. Curious glances are directed your way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued by far-off lands, to say nothing of everyday folk who are eager to hear stories of your homeland. You can parley this attention into access to people and places you might not otherwise have, for you and your traveling companions. Noble lords, scholars, and merchant princes, to name a few, might be interested in hearing about your distant homeland and people.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "All Eyes On You","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Far Traveler","skills": [{"amountOfChoice": 1,"id": "71feada8-2644-4105-920b-bc7f6ce1a042","skills": [{}],
-"skillsModels": [{"name": "Insight","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "90ef0bed-9a46-449f-ad3f-cf0e20c1a625","skills": [{}],
-"skillsModels": [{"name": "Perception","typeName": "SKILL"}]}],
-"tools": [{"description": "Any one musical instrument or gaming set of your choice","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Traveler's Clothes",
+          "number": 1
+        }
+      ],
+      "id": "bb72f95f-8984-44dd-a650-146b868684fc"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Musical instrument or gaming set you are proficient with",
+          "number": 1
+        }
+      ],
+      "id": "0f8f3456-c383-4ba0-9a79-c0257c9e0618"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Poorly wrought maps from your homeland that depict where you are in Faerun",
+          "number": 1
+        }
+      ],
+      "id": "4d95aa82-2b35-47a5-82bb-cb1dedd16396"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Small Piece Of Jewelry Worth 10 GP",
+          "number": 1
+        }
+      ],
+      "id": "7446e827-6478-4b3d-9386-dafa7905bb2e"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "One Pouch With 5 GP",
+          "number": 1
+        }
+      ],
+      "id": "0360011f-b63f-4482-bcea-7603d128bff5"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your accent, mannerisms, figures of speech, and perhaps even your appearance all mark you as foreign. Curious glances are directed your way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued by far-off lands, to say nothing of everyday folk who are eager to hear stories of your homeland. You can parley this attention into access to people and places you might not otherwise have, for you and your traveling companions. Noble lords, scholars, and merchant princes, to name a few, might be interested in hearing about your distant homeland and people.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "All Eyes On You",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Far Traveler",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "71feada8-2644-4105-920b-bc7f6ce1a042",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "90ef0bed-9a46-449f-ad3f-cf0e20c1a625",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Perception",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Any one musical instrument or gaming set of your choice",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

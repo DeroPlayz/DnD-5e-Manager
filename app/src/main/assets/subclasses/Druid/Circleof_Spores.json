@@ -1,371 +1,371 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you",
+            "level": 2
+          },
+          {
+            "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose",
+            "level": 3
+          },
+          {
+            "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose\n5th\t--> Animate Dead, Gaseous Form",
+            "level": 5
+          },
+          {
+            "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose\n5th\t--> Animate Dead, Gaseous Form\n7th\t--> Blight, Confusion",
+            "level": 7
+          },
+          {
+            "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose\n5th\t--> Animate Dead, Gaseous Form\n7th\t--> Blight, Confusion\n9th\t--> Cloudkill, Contagion",
+            "level": 9
+          }
+        ],
+        "id": "Custome720bda3-e186-4b98-8c12-308a82ab0724",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Circle of Spores Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you",
-                        "level": 2
-                    },
-                    {
-                        "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose",
-                        "level": 3
-                    },
-                    {
-                        "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose\n5th\t--> Animate Dead, Gaseous Form",
-                        "level": 5
-                    },
-                    {
-                        "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose\n5th\t--> Animate Dead, Gaseous Form\n7th\t--> Blight, Confusion",
-                        "level": 7
-                    },
-                    {
-                        "description": "At 2nd level, you learn the Chill Touch cantrip. You'll keep gaining access to specific spells on certain levels up until level 9.\n\nOnce you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n3rd\t--> Blindness/Deafness, Gentle Repose\n5th\t--> Animate Dead, Gaseous Form\n7th\t--> Blight, Confusion\n9th\t--> Cloudkill, Contagion",
-                        "level": 9
-                    }
-                ],
-                "id": "Custome720bda3-e186-4b98-8c12-308a82ab0724",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Circle of Spores Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
-                        "level": 2
-                    },
-                    {
-                        "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d6 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
-                        "level": 6
-                    },
-                    {
-                        "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d8 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
-                        "level": 10
-                    },
-                    {
-                        "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d10 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom452c9730-ad5b-4963-8435-12e7e90ee428",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Halo of Spores",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you use your Wild Shape feature, you can awaken your spores, rather than transforming. When you do so, you gain 4 temporary hit points per level you have in this class, the damage of your Halo of Spores feature doubles, and your melee weapon attacks deal an extra 1d6 poison damage to any target they hit. These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom4dfcd7b5-2e32-46b9-bde4-d7372deff51e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Symbiotic Entity",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d6 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the zombie stat block. It remains animate for 1 hour, after which time it collapses and dies.\n\nIn combat, the zombie\u00e2\u20ac\u2122s turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom26f33b84-4857-4e8a-8ff2-1d91ceda04f2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fungal Infestation",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As a bonus action, you hurl fungal spores up to 30 feet away, where they swirl around in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active. While the cube of spores persists, you can't use your Halo of Spores feature, but any creature that starts its turn in the cube takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom7aa56eb8-6669-4724-bd5e-3196caf4b10e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Spreading Spores",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d8 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can't be blinded, deafened, frightened, or poisoned, and if an attack is a critical hit against you, it doesn't deal its extra damage to you, unless you are incapacitated",
-                        "level": 14
-                    }
-                ],
-                "id": "Customca5e03d3-6e5a-47dc-9288-3e4bd92cf2d3",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fungal Body",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You can launch toxic spores at other creatures. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d10 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "druid_circle_of_spores",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Circle of Spores",
-    "selectableFeatures": [],
-    "shouldShowCompanion": true,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [
-        {
-            "level": 2,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.\n\nIf you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.\n\nThis spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
-                "duration": "1 round",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "Chill Touch",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "Necromancy",
-                "type": "Necromancy cantrip"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, sorcerer, fighter, rogue, wizard",
-                "components": "V",
-                "description": "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
-                "duration": "1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Blindness/Deafness",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "Necromancy",
-                "type": "2nd-level Necromancy"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration)",
-                "description": "You touch a corpse or other remains. For the Duration, the target is protected from decay and can't become Undead.\n\nThe spell also effectively extends the time limit on raising the target from the dead, since days spent under the Influence of this spell don't count against the time limit of Spells such as Raise Dead",
-                "duration": "10 days",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Gentle Repose",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "necromancy",
-                "type": "2nd-level necromancy (ritual)"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "cleric, fighter, rogue, wizard",
-                "components": "V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)",
-                "description": "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature\u00e2\u20ac\u2122s game statistics).\n\nOn each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n\nThe creature is under your control for 24 hours, after which it stops obeying any command you\u00e2\u20ac\u2122ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Animate Dead",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "10 feet",
-                "school": "necromancy",
-                "type": "3rd-level necromancy"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__revised_, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a bit of gauze and a wisp of smoke)",
-                "description": "You transform a willing creature you touch, along with everything it\u00e2\u20ac\u2122s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn\u00e2\u20ac\u2122t affected.\n\nWhile in this form, the target\u00e2\u20ac\u2122s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.\n\nWhile in the form of a misty cloud, the target can\u00e2\u20ac\u2122t talk or manipulate objects, and any objects it w as carrying or holding can\u00e2\u20ac\u2122t be dropped, used, or otherwise interacted with. The target can\u00e2\u20ac\u2122t attack or cast spells.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Gaseous Form",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "transmutation",
-                "type": "3rd-level transmutation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.\n\nIf you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.\n\nIf you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Blight",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "necromancy",
-                "type": "4th-level necromancy"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, druid, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (three nut shells)",
-                "description": "This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled Actions. Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.\n\nAn affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n\n1: The creature uses all its Movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn.\n\n2-6: The creature doesn't move or take Actions this turn.\n\n7-8: The creature uses its action to make a melee Attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.\n\n9-10: The creature can act and move normally.\n\nAt the end of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each spell slot above 4th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Confusion",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "90 feet",
-                "school": "enchantment",
-                "type": "4th-level enchantment"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.\n\nThe fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Cloudkill",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "conjuration",
-                "type": "5th-level conjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, druid",
-                "components": "V, S",
-                "description": "Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.\n\nAt the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.\n\nSince this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.",
-                "duration": "7 days",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Contagion",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "necromancy",
-                "type": "5th-level necromancy"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom452c9730-ad5b-4963-8435-12e7e90ee428",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Halo of Spores",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you use your Wild Shape feature, you can awaken your spores, rather than transforming. When you do so, you gain 4 temporary hit points per level you have in this class, the damage of your Halo of Spores feature doubles, and your melee weapon attacks deal an extra 1d6 poison damage to any target they hit. These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again",
+            "level": 6
+          }
+        ],
+        "id": "Custom4dfcd7b5-2e32-46b9-bde4-d7372deff51e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Symbiotic Entity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the zombie stat block. It remains animate for 1 hour, after which time it collapses and dies.\n\nIn combat, the zombie\u00e2\u20ac\u2122s turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
+            "level": 6
+          }
+        ],
+        "id": "Custom26f33b84-4857-4e8a-8ff2-1d91ceda04f2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fungal Infestation",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As a bonus action, you hurl fungal spores up to 30 feet away, where they swirl around in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active. While the cube of spores persists, you can't use your Halo of Spores feature, but any creature that starts its turn in the cube takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn",
+            "level": 10
+          }
+        ],
+        "id": "Custom7aa56eb8-6669-4724-bd5e-3196caf4b10e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Spreading Spores",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can't be blinded, deafened, frightened, or poisoned, and if an attack is a critical hit against you, it doesn't deal its extra damage to you, unless you are incapacitated",
+            "level": 14
+          }
+        ],
+        "id": "Customca5e03d3-6e5a-47dc-9288-3e4bd92cf2d3",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fungal Body",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "druid_circle_of_spores",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Circle of Spores",
+  "selectableFeatures": [],
+  "shouldShowCompanion": true,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [
+    {
+      "level": 2,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.\n\nIf you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.\n\nThis spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+        "duration": "1 round",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Chill Touch",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "Necromancy",
+        "type": "Necromancy cantrip"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, sorcerer, fighter, rogue, wizard",
+        "components": "V",
+        "description": "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
+        "duration": "1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Blindness/Deafness",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "Necromancy",
+        "type": "2nd-level Necromancy"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration)",
+        "description": "You touch a corpse or other remains. For the Duration, the target is protected from decay and can't become Undead.\n\nThe spell also effectively extends the time limit on raising the target from the dead, since days spent under the Influence of this spell don't count against the time limit of Spells such as Raise Dead",
+        "duration": "10 days",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Gentle Repose",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "necromancy",
+        "type": "2nd-level necromancy (ritual)"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "cleric, fighter, rogue, wizard",
+        "components": "V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)",
+        "description": "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature\u00e2\u20ac\u2122s game statistics).\n\nOn each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n\nThe creature is under your control for 24 hours, after which it stops obeying any command you\u00e2\u20ac\u2122ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Animate Dead",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "10 feet",
+        "school": "necromancy",
+        "type": "3rd-level necromancy"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__revised_, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a bit of gauze and a wisp of smoke)",
+        "description": "You transform a willing creature you touch, along with everything it\u00e2\u20ac\u2122s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn\u00e2\u20ac\u2122t affected.\n\nWhile in this form, the target\u00e2\u20ac\u2122s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.\n\nWhile in the form of a misty cloud, the target can\u00e2\u20ac\u2122t talk or manipulate objects, and any objects it w as carrying or holding can\u00e2\u20ac\u2122t be dropped, used, or otherwise interacted with. The target can\u00e2\u20ac\u2122t attack or cast spells.",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Gaseous Form",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "transmutation",
+        "type": "3rd-level transmutation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.\n\nIf you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.\n\nIf you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Blight",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "necromancy",
+        "type": "4th-level necromancy"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, druid, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (three nut shells)",
+        "description": "This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled Actions. Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.\n\nAn affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n\n1: The creature uses all its Movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn.\n\n2-6: The creature doesn't move or take Actions this turn.\n\n7-8: The creature uses its action to make a melee Attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.\n\n9-10: The creature can act and move normally.\n\nAt the end of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each spell slot above 4th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Confusion",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "90 feet",
+        "school": "enchantment",
+        "type": "4th-level enchantment"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.\n\nThe fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Cloudkill",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "conjuration",
+        "type": "5th-level conjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, druid",
+        "components": "V, S",
+        "description": "Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.\n\nAt the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.\n\nSince this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.",
+        "duration": "7 days",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Contagion",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "necromancy",
+        "type": "5th-level necromancy"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

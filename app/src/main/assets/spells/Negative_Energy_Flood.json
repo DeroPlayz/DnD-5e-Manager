@@ -1,4 +1,32 @@
-{"casting_time": "1 action","classes": ["blood_hunter","warlock","fighter","rogue","wizard"],
-"components": {"material": true,"raw": "V, M (a broken bone and a square of black silk)","somatic": false,"verbal": true},
-"description": "You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Bestiary. If you target an undead with this spell, the target doesn\u2019t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points","duration": "Instantaneous","level": "5","name": "Negative Energy Flood","range": "60 feet","ritual": false,"school": "necromancy","tags": ["blood_hunter","warlock","fighter","rogue","wizard","level5"],
-"type": "5th-level necromancy"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "blood_hunter",
+    "warlock",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "raw": "V, M (a broken bone and a square of black silk)",
+    "somatic": false,
+    "verbal": true
+  },
+  "description": "You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Bestiary. If you target an undead with this spell, the target doesn\u2019t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points",
+  "duration": "Instantaneous",
+  "level": "5",
+  "name": "Negative Energy Flood",
+  "range": "60 feet",
+  "ritual": false,
+  "school": "necromancy",
+  "tags": [
+    "blood_hunter",
+    "warlock",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level5"
+  ],
+  "type": "5th-level necromancy"
+}

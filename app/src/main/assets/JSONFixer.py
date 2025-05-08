@@ -29,8 +29,8 @@ def reformat_json_in_place(filepath):
 
 def reformat_directory_inplace(directory_path):
     """
-    Loops through all files in the specified directory and reformats any JSON files,
-    overwriting the original files (with a backup).
+    Recursively loops through all subdirectories and files in the specified directory
+    and reformats any JSON files, overwriting the original files (with a backup).
 
     Args:
         directory_path (str): The path to the directory containing JSON files.
@@ -39,17 +39,18 @@ def reformat_directory_inplace(directory_path):
         print(f"Error: Directory not found at '{directory_path}'")
         return
 
-    for filename in os.listdir(directory_path):
-        if filename.endswith(".json"):
-            filepath = os.path.join(directory_path, filename)
-            backup_filepath = filepath + ".bak"
-            try:
-                os.rename(filepath, backup_filepath)
-                reformat_json_in_place(backup_filepath)
-                os.rename(backup_filepath, filepath)
-                print(f"Reformatted '{filepath}' (original saved as '{backup_filepath}')")
-            except Exception as e:
-                print(f"Error processing '{filepath}': {e}")
+    for root, _, files in os.walk(directory_path):
+        for filename in files:
+            if filename.endswith(".json"):
+                filepath = os.path.join(root, filename)
+                backup_filepath = filepath + ".bak"
+                try:
+                    os.rename(filepath, backup_filepath)
+                    reformat_json_in_place(backup_filepath)
+                    os.rename(backup_filepath, filepath)
+                    print(f"Reformatted '{filepath}' (original saved as '{backup_filepath}')")
+                except Exception as e:
+                    print(f"Error processing '{filepath}': {e}")
 
 if __name__ == "__main__":
     target_path = "C:/Users/matthew.ahwal/Documents/capstoneproject-e5-studios/app/src/main/assets"

@@ -1,31 +1,31 @@
 {
-    "descriptionModels": [
-        {
-            "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 2",
-            "level": 1
-        },
-        {
-            "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 3",
-            "level": 3
-        },
-        {
-            "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 5",
-            "level": 5
-        },
-        {
-            "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 6",
-            "level": 7
-        },
-        {
-            "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 7",
-            "level": 9
-        }
-    ],
-    "id": "Custom639ecf36-951d-4b61-8dbd-c2b88d0916ce",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Psi Limit",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 2",
+      "level": 1
+    },
+    {
+      "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 3",
+      "level": 3
+    },
+    {
+      "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 5",
+      "level": 5
+    },
+    {
+      "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 6",
+      "level": 7
+    },
+    {
+      "description": "There is a limit on the number of psi points you can spend to activate a psionic discipline. Your current limit is 7",
+      "level": 9
+    }
+  ],
+  "id": "Custom639ecf36-951d-4b61-8dbd-c2b88d0916ce",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Psi Limit",
+  "notes": "",
+  "type": "Feat"
 }

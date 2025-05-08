@@ -1,18 +1,111 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Costume","number": 1}],
-"id": "159a600d-e5a9-43f1-afdf-24951201e69e"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Common Clothes","number": 1}],
-"id": "24a91bf0-8df0-4d6b-a361-df2b1c1f9f83"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Disguise Kit","number": 1}],
-"id": "2c9bf91d-71d9-4319-b400-15a6d8e89afb"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "c5675af5-354e-4520-a002-b61ab527b7ea"}],
-"features": [{"feat": {"descriptionModels": [{"description": "When in a town, you can find a venue in which to fight for money and reputation","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Contacts","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Gladiator","skills": [{"amountOfChoice": 1,"id": "232ed648-aac1-48d4-b92d-f3820b1eb9b5","skills": [{}],
-"skillsModels": [{"name": "Athletics","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "ad58082f-0c3a-48ae-bc43-49f5a2bad15d","skills": [{}],
-"skillsModels": [{"name": "Intimidation","typeName": "SKILL"}]}],
-"tools": [{"description": "Disguise kit","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Costume",
+          "number": 1
+        }
+      ],
+      "id": "159a600d-e5a9-43f1-afdf-24951201e69e"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "24a91bf0-8df0-4d6b-a361-df2b1c1f9f83"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Disguise Kit",
+          "number": 1
+        }
+      ],
+      "id": "2c9bf91d-71d9-4319-b400-15a6d8e89afb"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "c5675af5-354e-4520-a002-b61ab527b7ea"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When in a town, you can find a venue in which to fight for money and reputation",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Contacts",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Gladiator",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "232ed648-aac1-48d4-b92d-f3820b1eb9b5",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "ad58082f-0c3a-48ae-bc43-49f5a2bad15d",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Disguise kit",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

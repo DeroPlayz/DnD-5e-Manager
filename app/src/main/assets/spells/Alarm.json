@@ -1,5 +1,43 @@
-{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","ranger__revised__","revised_ranger","ranger","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a tiny bell and a piece of fine silver wire"],
-"raw": "V, S, M (a tiny bell and a piece of fine silver wire)","somatic": true,"verbal": true},
-"description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.","duration": "8 hours","level": "1","name": "Alarm","range": "30 feet","ritual": true,"school": "abjuration","tags": ["artificer","artificer__eb_","artificer__revised_","ranger__revised__","revised_ranger","ranger","fighter","rogue","wizard","level1"],
-"type": "1st-level abjuration (ritual)"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a tiny bell and a piece of fine silver wire"
+    ],
+    "raw": "V, S, M (a tiny bell and a piece of fine silver wire)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+  "duration": "8 hours",
+  "level": "1",
+  "name": "Alarm",
+  "range": "30 feet",
+  "ritual": true,
+  "school": "abjuration",
+  "tags": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level1"
+  ],
+  "type": "1st-level abjuration (ritual)"
+}

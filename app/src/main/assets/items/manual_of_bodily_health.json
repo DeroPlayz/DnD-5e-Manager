@@ -1,7 +1,51 @@
-{"changesNameOnAttunement": false,"description": "This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.","effects": [{"actualEffect": {"modifier": {"constant": 2,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "CON","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "97e22685-99a3-4280-9119-fbb1d93efc0b","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Manual_of_Bodily_Health","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Manual of Bodily Health","rarity": "VERY_RARE","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weight": 5.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 2,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "CON",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "97e22685-99a3-4280-9119-fbb1d93efc0b",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Manual_of_Bodily_Health",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Manual of Bodily Health",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": false,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weight": 5.0,
+  "weightUnit": "OUNCES"
+}

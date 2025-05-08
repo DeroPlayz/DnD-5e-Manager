@@ -1,7 +1,72 @@
-{"ac":16,"actions":[{"description":"The gaj makes one Mandibles attack and uses Mind-Probing Antennae or Paralyze (if available).","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) slashing damage, and the target is grappled (escape DC 11). Until the grapple ends, the target takes 10 (2d6 + 3) slashing damage at the start of each of the gaj's turns. While it is grappling a creature, the gaj can't use its mandibles to attack other creatures.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mandibles","type":"MELEE"},
-{"description":"The gaj targets one creature grappled by it. The target must make a DC 12 Wisdom saving throw. On a failed save, the target takes 16 (3d10) psychic damage, and the gaj magically pulls one piece of information from the target's mind that the gaj wants to know. On a successful save, the target takes half as much damage, and the gaj learns nothing.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mind-Probing Antennae","type":"NONE"},
-{"description":"The gaj magically targets one creature it can see within 60 feet of itself. The target must succeed on a DC 12 Wisdom saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Paralyze (Recharge 6)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":7,"climbSpeed":30,"con":15,"conditionImmunities":null,"cr":"4","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":20,"diceAmount":10,"diceType":"D10"},
-"id":-1,"int":12,"isLocked":true,"jsonType":"monster","languages":"understands all languages but can't speak","name":"Gaj [BAM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[],
-"speed":30,"str":16,"swimSpeed":0,"tag":null,"type":"Aberration","vulnerabilities":null,"wis":15,"xp":1100}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The gaj makes one Mandibles attack and uses Mind-Probing Antennae or Paralyze (if available).",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) slashing damage, and the target is grappled (escape DC 11). Until the grapple ends, the target takes 10 (2d6 + 3) slashing damage at the start of each of the gaj's turns. While it is grappling a creature, the gaj can't use its mandibles to attack other creatures.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Mandibles",
+      "type": "MELEE"
+    },
+    {
+      "description": "The gaj targets one creature grappled by it. The target must make a DC 12 Wisdom saving throw. On a failed save, the target takes 16 (3d10) psychic damage, and the gaj magically pulls one piece of information from the target's mind that the gaj wants to know. On a successful save, the target takes half as much damage, and the gaj learns nothing.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Mind-Probing Antennae",
+      "type": "NONE"
+    },
+    {
+      "description": "The gaj magically targets one creature it can see within 60 feet of itself. The target must succeed on a DC 12 Wisdom saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Paralyze (Recharge 6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 7,
+  "climbSpeed": 30,
+  "con": 15,
+  "conditionImmunities": null,
+  "cr": "4",
+  "damageImmunities": null,
+  "dex": 10,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 20,
+    "diceAmount": 10,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 12,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands all languages but can't speak",
+  "name": "Gaj [BAM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Aberration",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 1100
+}

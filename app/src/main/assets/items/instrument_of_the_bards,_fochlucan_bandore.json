@@ -1,49 +1,241 @@
-{"changesNameOnAttunement": false,"description": "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nAll instruments of the bards can be used to cast the following spells: fly, invisibility, levitate, and protection from evil and good.\n\nIn addition, the Fochlucan bandore can be used to cast entangle, faerie fire, shillelagh, and speak with animals.","effects": [{"actualEffect": {"spellId": "125","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "267c2f68-b107-4f32-9282-b2ede7ca133c","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "219","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "6539874d-e60b-4685-a0fc-e2a51b8ac4ef","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "287","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "b1db231a-fa1f-4fb5-a84e-82bccf6a59f6","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "62","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "4165ada9-023e-4b42-af15-98f3e7e1ad45","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "27","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "079faf71-eb0f-460a-bb50-b7efd5185574","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "28","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "6279adba-e310-4c0c-bbea-5c17c008a210","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "73","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "4e5612ae-7fc8-40c9-9562-7625c4948dc8","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "78","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "f547b57c-8de3-484c-8c6b-a4c11a683d24","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Instrument_of_the_Bards,_Fochlucan_Bandore","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Instrument of the Bards, Fochlucan Bandore","rarity": "UNCOMMON","requiresAttunement": true,"type": "INSTRUMENT","valueCoin": "GOLD","weight": 2.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n\nYou can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\nYou can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n\nAll instruments of the bards can be used to cast the following spells: fly, invisibility, levitate, and protection from evil and good.\n\nIn addition, the Fochlucan bandore can be used to cast entangle, faerie fire, shillelagh, and speak with animals.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "125",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "267c2f68-b107-4f32-9282-b2ede7ca133c",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "219",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "6539874d-e60b-4685-a0fc-e2a51b8ac4ef",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "287",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "b1db231a-fa1f-4fb5-a84e-82bccf6a59f6",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "62",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "4165ada9-023e-4b42-af15-98f3e7e1ad45",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "27",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "079faf71-eb0f-460a-bb50-b7efd5185574",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "28",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "6279adba-e310-4c0c-bbea-5c17c008a210",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "73",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "4e5612ae-7fc8-40c9-9562-7625c4948dc8",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "78",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "f547b57c-8de3-484c-8c6b-a4c11a683d24",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Instrument_of_the_Bards,_Fochlucan_Bandore",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Instrument of the Bards, Fochlucan Bandore",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": true,
+  "type": "INSTRUMENT",
+  "valueCoin": "GOLD",
+  "weight": 2.0,
+  "weightUnit": "OUNCES"
+}

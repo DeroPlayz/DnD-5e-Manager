@@ -1,7 +1,51 @@
-{"changesNameOnAttunement": false,"description": "You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "d9d06404-d05c-4b91-9738-76183a9cacf1","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Elven_Chain","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Elven Chain","rarity": "RARE","requiresAttunement": false,"type": "ARMOR","valueCoin": "GOLD","weight": 20.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "AC",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "d9d06404-d05c-4b91-9738-76183a9cacf1",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Elven_Chain",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Elven Chain",
+  "rarity": "RARE",
+  "requiresAttunement": false,
+  "type": "ARMOR",
+  "valueCoin": "GOLD",
+  "weight": 20.0,
+  "weightUnit": "POUNDS"
+}

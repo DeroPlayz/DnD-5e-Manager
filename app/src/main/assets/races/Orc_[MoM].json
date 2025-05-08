@@ -1,25 +1,138 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom8d5826be-61cd-4414-a897-2a147a7a3340","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Orc [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom4213a2f5-b55b-4cb9-802c-c1d87f2aa7f1","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nWhenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus","level": 1}],
-"id": "Custom5aa3187e-5361-4547-8c03-975414ad704b","isFeature": true,"jsonType": "feat","level": 1,"name": "Adrenaline Rush","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray","level": 1}],
-"id": "Customa0b2302b-42fb-4846-b50a-5959f3e8b1d5","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift","level": 1}],
-"id": "Custom34a27da1-053b-48ae-a392-56a7be57a70b","isFeature": true,"jsonType": "feat","level": 1,"name": "Powerful Build","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest","level": 1}],
-"id": "Custom0b942715-beaf-4dc4-a5dd-4586629d9dae","isFeature": true,"jsonType": "feat","level": 1,"name": "Relentless Endurance","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom8d5826be-61cd-4414-a897-2a147a7a3340",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Orc [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom4213a2f5-b55b-4cb9-802c-c1d87f2aa7f1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nWhenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus",
+            "level": 1
+          }
+        ],
+        "id": "Custom5aa3187e-5361-4547-8c03-975414ad704b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Adrenaline Rush",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray",
+            "level": 1
+          }
+        ],
+        "id": "Customa0b2302b-42fb-4846-b50a-5959f3e8b1d5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Darkvision",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
+            "level": 1
+          }
+        ],
+        "id": "Custom34a27da1-053b-48ae-a392-56a7be57a70b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Powerful Build",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest",
+            "level": 1
+          }
+        ],
+        "id": "Custom0b942715-beaf-4dc4-a5dd-4586629d9dae",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Relentless Endurance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

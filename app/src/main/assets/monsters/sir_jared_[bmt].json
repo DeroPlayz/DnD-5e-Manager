@@ -1,5 +1,56 @@
-{"ac":20,"actions":[{"description":"Jared makes three Longsword attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 4 (1d8) radiant damage. On a roll of 19 or 20, Jared scores a critical hit.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Longsword","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":17,"climbSpeed":0,"con":17,"conditionImmunities":"blinded, charmed, frightened","cr":"5","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":36,"diceAmount":12,"diceType":"D8"},
-"id":-1,"int":13,"isLocked":true,"jsonType":"monster","languages":"Common, Halfling","name":"Sir Jared [BMT]","resistances":null,"savingThrows":"Str +7, Con +6","senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":18,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":14,"xp":1800}
+{
+  "ac": 20,
+  "actions": [
+    {
+      "description": "Jared makes three Longsword attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 4 (1d8) radiant damage. On a roll of 19 or 20, Jared scores a critical hit.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Longsword",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 17,
+  "climbSpeed": 0,
+  "con": 17,
+  "conditionImmunities": "blinded, charmed, frightened",
+  "cr": "5",
+  "damageImmunities": null,
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 36,
+    "diceAmount": 12,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 13,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Halfling",
+  "name": "Sir Jared [BMT]",
+  "resistances": null,
+  "savingThrows": "Str +7, Con +6",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 1800
+}

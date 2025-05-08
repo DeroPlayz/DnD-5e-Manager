@@ -1,21 +1,118 @@
-{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customca3eae5d-410b-489d-9255-258ac58bdfad","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Aquan"}],
-"name": "Sea Elf [W]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 30},
-"spellcastingAbility": "WIS","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have proficiency with the spear, trident, light crossbow and net","level": 1}],
-"id": "Customa50b7968-50bd-478e-90f1-028238f5c82e","isFeature": true,"jsonType": "feat","level": 1,"name": "Sea Elf Training","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have a swimming speed of 30 feet, and you can breathe air and water","level": 1}],
-"id": "Custom8ebf39a8-c3c4-43c5-be70-ecb99dcd46fb","isFeature": true,"jsonType": "feat","level": 1,"name": "Child of the Sea","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Using gestures and sound, you can communicate with simple ideas with any beast that has an innate swimming speed","level": 1}],
-"id": "Customa83d1af2-690c-494e-aa77-5071a21f2c46","isFeature": true,"jsonType": "feat","level": 1,"name": "Friend of the Sea","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Spear"},
-{"hint": "","level": 1,"proficiency": "Trident"},
-{"hint": "","level": 1,"proficiency": "Crossbow, light"},
-{"hint": "","level": 1,"proficiency": "Net"}]}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 1,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Customca3eae5d-410b-489d-9255-258ac58bdfad",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Aquan"
+    }
+  ],
+  "name": "Sea Elf [W]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 30
+  },
+  "spellcastingAbility": "WIS",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have proficiency with the spear, trident, light crossbow and net",
+            "level": 1
+          }
+        ],
+        "id": "Customa50b7968-50bd-478e-90f1-028238f5c82e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Sea Elf Training",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a swimming speed of 30 feet, and you can breathe air and water",
+            "level": 1
+          }
+        ],
+        "id": "Custom8ebf39a8-c3c4-43c5-be70-ecb99dcd46fb",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Child of the Sea",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Using gestures and sound, you can communicate with simple ideas with any beast that has an innate swimming speed",
+            "level": 1
+          }
+        ],
+        "id": "Customa83d1af2-690c-494e-aa77-5071a21f2c46",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Friend of the Sea",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Spear"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Trident"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Crossbow, light"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Net"
+    }
+  ]
+}

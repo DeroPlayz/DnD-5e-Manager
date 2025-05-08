@@ -1,6 +1,71 @@
-{"ac":13,"actions":[{"description":"4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Fool's Scepter","type":"MELEE"},
-{"description":"The nilbog targets one creature it can see within 60 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take 5 (2d4) psychic damage and have disadvantage on its next attack roll before the end of its next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mocking Word","type":"NONE"},
-{"description":"The nilbog casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 12):\nAt will: mage hand, Tasha's hideous laughter","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"Chaotic Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":10,"conditionImmunities":null,"cr":"1","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":null,"diceAmount":2,"diceType":"D6"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common, Goblin","name":"Nilbog [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Small","skills":null,"specialTraits":[{"description":"Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature's next turn. A creature charmed in this way must use its action praising the nilbog.\n\nThe nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction.","id":-1,"monsterId":-1,"name":"Nilbogism"}],
-"speed":30,"str":8,"swimSpeed":0,"tag":"goblinoid","type":"Fey","vulnerabilities":null,"wis":8,"xp":200}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Fool's Scepter",
+      "type": "MELEE"
+    },
+    {
+      "description": "The nilbog targets one creature it can see within 60 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take 5 (2d4) psychic damage and have disadvantage on its next attack roll before the end of its next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Mocking Word",
+      "type": "NONE"
+    },
+    {
+      "description": "The nilbog casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 12):\nAt will: mage hand, Tasha's hideous laughter",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Neutral",
+  "burrowSpeed": 0,
+  "cha": 15,
+  "climbSpeed": 0,
+  "con": 10,
+  "conditionImmunities": null,
+  "cr": "1",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 2,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Goblin",
+  "name": "Nilbog [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature's next turn. A creature charmed in this way must use its action praising the nilbog.\n\nThe nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Nilbogism"
+    }
+  ],
+  "speed": 30,
+  "str": 8,
+  "swimSpeed": 0,
+  "tag": "goblinoid",
+  "type": "Fey",
+  "vulnerabilities": null,
+  "wis": 8,
+  "xp": 200
+}

@@ -1,18 +1,111 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Choose a set of artisan\u2019s Tools","number": 1}],
-"id": "c70ace56-c041-40b6-80b9-26b3071d92d8"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Letter of introduction from your guild","number": 1}],
-"id": "9098503e-3e87-4589-82ec-cd20bfa9d110"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set of Traveler's Clothes","number": 1}],
-"id": "0d2e2b2d-691d-40a2-ab1d-5d432fdb5d4e"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "9a49f024-0c48-4106-83d7-f6810a5d955b"}],
-"features": [{"feat": {"descriptionModels": [{"description": "As an established and respected member of a guild, you can rely on certain benefits that membership provides.\nYour fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings. Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild\u2019s coffers. You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild\u2019s good graces.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Guild Membership","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Guild Artisan","skills": [{"amountOfChoice": 1,"id": "3683cd6e-474f-482a-9e07-01f7f18c8583","skills": [{}],
-"skillsModels": [{"name": "Insight","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "1d7a7050-da3d-4bbf-ae86-c85c4bdd8faf","skills": [{}],
-"skillsModels": [{"name": "Persuasion","typeName": "SKILL"}]}],
-"tools": [{"description": "Choose 1 Artisan Tool","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Choose a set of artisan\u2019s Tools",
+          "number": 1
+        }
+      ],
+      "id": "c70ace56-c041-40b6-80b9-26b3071d92d8"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Letter of introduction from your guild",
+          "number": 1
+        }
+      ],
+      "id": "9098503e-3e87-4589-82ec-cd20bfa9d110"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set of Traveler's Clothes",
+          "number": 1
+        }
+      ],
+      "id": "0d2e2b2d-691d-40a2-ab1d-5d432fdb5d4e"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "9a49f024-0c48-4106-83d7-f6810a5d955b"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an established and respected member of a guild, you can rely on certain benefits that membership provides.\nYour fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings. Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild\u2019s coffers. You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild\u2019s good graces.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Guild Membership",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Guild Artisan",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "3683cd6e-474f-482a-9e07-01f7f18c8583",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "1d7a7050-da3d-4bbf-ae86-c85c4bdd8faf",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Choose 1 Artisan Tool",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

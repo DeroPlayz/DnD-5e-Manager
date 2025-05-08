@@ -1,18 +1,111 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Scroll case stuffed full of notes from your studies or prayers","number": 1}],
-"id": "a2a09f90-31e8-4e97-bd97-b04f67ccb8a0"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Winter Blanket","number": 1}],
-"id": "9e3323eb-3efe-4029-9e36-66ba9881f39d"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Common Clothes","number": 1}],
-"id": "4c5b242d-6a72-4b88-9f41-92ec3221d5bd"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Herbalism Kit","number": 1}],
-"id": "131749be-5b3d-410b-8d14-5ce3e384a682"}],
-"features": [{"feat": {"descriptionModels": [{"description": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who consigned you to exile, and hence the reason for your return to society. Work with your DM to determine the details of your discovery and its impact on the campaign.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Discovery","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Hermit","skills": [{"amountOfChoice": 1,"id": "f03ef341-944f-4cbb-a6bf-e6533e193a30","skills": [{}],
-"skillsModels": [{"name": "Medicine","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "2889fd20-974c-4784-8408-43c2ed9b9fe4","skills": [{}],
-"skillsModels": [{"name": "Religion","typeName": "SKILL"}]}],
-"tools": [{"description": "Herbalism kit","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Scroll case stuffed full of notes from your studies or prayers",
+          "number": 1
+        }
+      ],
+      "id": "a2a09f90-31e8-4e97-bd97-b04f67ccb8a0"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Winter Blanket",
+          "number": 1
+        }
+      ],
+      "id": "9e3323eb-3efe-4029-9e36-66ba9881f39d"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "4c5b242d-6a72-4b88-9f41-92ec3221d5bd"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Herbalism Kit",
+          "number": 1
+        }
+      ],
+      "id": "131749be-5b3d-410b-8d14-5ce3e384a682"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who consigned you to exile, and hence the reason for your return to society. Work with your DM to determine the details of your discovery and its impact on the campaign.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Discovery",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Hermit",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "f03ef341-944f-4cbb-a6bf-e6533e193a30",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Medicine",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "2889fd20-974c-4784-8408-43c2ed9b9fe4",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Herbalism kit",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

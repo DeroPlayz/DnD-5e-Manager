@@ -1,7 +1,77 @@
-{"ac":14,"actions":[{"description":"The ooze makes two Pseudopod attacks. The ooze can replace one Pseudopod attack with its Slime Breath, if available.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage at the start of each of its turns.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Pseudopod","type":"MELEE"},
-{"description":"The ooze expels a spray of its gelatinous mass in a 30-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw. On a failed save, the creature takes 22 (4d10) acid damage and is pulled up to 30 feet straight toward the ooze. On a successful save, the creature takes half as much damage and isn't pulled.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slime Breath (Recharge 6)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":20,"con":17,"conditionImmunities":"blinded, charmed, deafened, exhaustion, frightened, grappled, prone, restrained","cr":"5","damageImmunities":null,"dex":6,"flySpeed":0,"hp":{"constant":24,"diceAmount":8,"diceType":"D10"},
-"id":-1,"int":2,"isLocked":true,"jsonType":"monster","languages":"understands Draconic and the languages of its creator but can't speak","name":"Dragonblood Ooze","resistances":"acid, cold, fire, lightning, poison","savingThrows":null,"senses":"blindsight 120 ft. (blind beyond this radius)","size":"Large","skills":null,"specialTraits":[{"description":"The ooze can move through a space as narrow as 1 inch wide without squeezing.","id":-1,"monsterId":-1,"name":"Amorphous"},
-{"description":"The ooze can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"}],
-"speed":20,"str":18,"swimSpeed":0,"tag":null,"type":"Ooze","vulnerabilities":null,"wis":12,"xp":1800}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The ooze makes two Pseudopod attacks. The ooze can replace one Pseudopod attack with its Slime Breath, if available.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage at the start of each of its turns.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Pseudopod",
+      "type": "MELEE"
+    },
+    {
+      "description": "The ooze expels a spray of its gelatinous mass in a 30-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw. On a failed save, the creature takes 22 (4d10) acid damage and is pulled up to 30 feet straight toward the ooze. On a successful save, the creature takes half as much damage and isn't pulled.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slime Breath (Recharge 6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 20,
+  "con": 17,
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, prone, restrained",
+  "cr": "5",
+  "damageImmunities": null,
+  "dex": 6,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 24,
+    "diceAmount": 8,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 2,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands Draconic and the languages of its creator but can't speak",
+  "name": "Dragonblood Ooze",
+  "resistances": "acid, cold, fire, lightning, poison",
+  "savingThrows": null,
+  "senses": "blindsight 120 ft. (blind beyond this radius)",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The ooze can move through a space as narrow as 1 inch wide without squeezing.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amorphous"
+    },
+    {
+      "description": "The ooze can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    }
+  ],
+  "speed": 20,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Ooze",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 1800
+}

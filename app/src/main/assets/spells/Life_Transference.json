@@ -1,4 +1,27 @@
-{"casting_time": "1 action","classes": ["cleric","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "You sacrifice some of your health to mend another creature\u2019s injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take","duration": "Instantaneous","higher_levels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd","level": "3","name": "Life Transference","range": "30 feet","ritual": false,"school": "necromancy","tags": ["cleric","wizard","level3"],
-"type": "3rd-level necromancy"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "cleric",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You sacrifice some of your health to mend another creature\u2019s injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take",
+  "duration": "Instantaneous",
+  "higher_levels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd",
+  "level": "3",
+  "name": "Life Transference",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "necromancy",
+  "tags": [
+    "cleric",
+    "wizard",
+    "level3"
+  ],
+  "type": "3rd-level necromancy"
+}

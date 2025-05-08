@@ -1,8 +1,80 @@
-{"ac":18,"actions":[{"description":"The blackguard makes three attacks, using Glaive, Shortbow, or both.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage plus 9 (2d8) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Glaive","type":"MELEE"},
-{"description":"3 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shortbow","type":"RANGED"},
-{"description":"Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened of the blackguard for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Dreadful Aspect (Recharges after a Short or Long Rest)","type":"NONE"},
-{"description":"The blackguard casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 13):\n2/day each: command, dispel magic, find steed","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":18,"conditionImmunities":null,"cr":"8","damageImmunities":null,"dex":11,"flySpeed":0,"hp":{"constant":56,"diceAmount":14,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"any one language (usually Common)","name":"Blackguard [MoM]","resistances":null,"savingThrows":"Wis +5, Cha +5","senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":18,"swimSpeed":0,"tag":"paladin","type":"Humanoid","vulnerabilities":null,"wis":14,"xp":3900}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The blackguard makes three attacks, using Glaive, Shortbow, or both.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage plus 9 (2d8) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Glaive",
+      "type": "MELEE"
+    },
+    {
+      "description": "3 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Shortbow",
+      "type": "RANGED"
+    },
+    {
+      "description": "Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened of the blackguard for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    },
+    {
+      "description": "The blackguard casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 13):\n2/day each: command, dispel magic, find steed",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 15,
+  "climbSpeed": 0,
+  "con": 18,
+  "conditionImmunities": null,
+  "cr": "8",
+  "damageImmunities": null,
+  "dex": 11,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 56,
+    "diceAmount": 14,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "any one language (usually Common)",
+  "name": "Blackguard [MoM]",
+  "resistances": null,
+  "savingThrows": "Wis +5, Cha +5",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": "paladin",
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 3900
+}

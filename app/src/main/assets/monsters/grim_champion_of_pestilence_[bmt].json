@@ -1,11 +1,109 @@
-{"ac":14,"actions":[{"description":"The champion makes two Blight Staff attacks, two Plague Bolt attacks, or one of each.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 21 (6d6) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Blight Staff","type":"MELEE"},
-{"description":"10 to hit, range 120 ft., one target. Hit: 23 (4d8 + 5) poison damage, and the target has the poisoned condition until the start of the champion's next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Plague Bolt","type":"NONE"},
-{"description":"The champion casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 18):\nAt will: Detect Magic, Mage Armor (self only)\n\n2/day each: Blight, Blindness/Deafness\n\n1/day each: Cloudkill, Contagion","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"},
-{"description":"The champion makes one Blight Staff or Plague Bolt attack.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Attack","type":"NONE"},
-{"description":"The champion moves up to its speed or commands its mount to move up to its speed. This movement doesn't provoke opportunity attacks.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Furious Pursuit","type":"NONE"},
-{"description":"The champion uses Spellcasting.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Cast a Spell (Costs 2 Actions)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":21,"climbSpeed":0,"con":16,"conditionImmunities":"blinded, charmed, deafened, exhaustion, frightened, poisoned, stunned, unconscious","cr":"15","damageImmunities":"poison","dex":18,"flySpeed":0,"hp":{"constant":48,"diceAmount":16,"diceType":"D8"},
-"id":-1,"int":17,"isLocked":true,"jsonType":"monster","languages":"Common, Infernal","name":"Grim Champion of Pestilence [BMT]","resistances":"cold, necrotic; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Dex +9, Cha +10","senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The champion is surrounded by an aura of deadly magic that takes the form of a host of glowing white insects. Each creature that starts its turn within 10 feet of the champion must succeed on a DC 18 Constitution saving throw or have the incapacitated condition until the start of its next turn, as the insects ravage its body.","id":-1,"monsterId":-1,"name":"Halo of Pestilence"},
-{"description":"If the champion fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"}],
-"speed":40,"str":10,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":15,"xp":13000}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The champion makes two Blight Staff attacks, two Plague Bolt attacks, or one of each.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 21 (6d6) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Blight Staff",
+      "type": "MELEE"
+    },
+    {
+      "description": "10 to hit, range 120 ft., one target. Hit: 23 (4d8 + 5) poison damage, and the target has the poisoned condition until the start of the champion's next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Plague Bolt",
+      "type": "NONE"
+    },
+    {
+      "description": "The champion casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 18):\nAt will: Detect Magic, Mage Armor (self only)\n\n2/day each: Blight, Blindness/Deafness\n\n1/day each: Cloudkill, Contagion",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    },
+    {
+      "description": "The champion makes one Blight Staff or Plague Bolt attack.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Attack",
+      "type": "NONE"
+    },
+    {
+      "description": "The champion moves up to its speed or commands its mount to move up to its speed. This movement doesn't provoke opportunity attacks.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Furious Pursuit",
+      "type": "NONE"
+    },
+    {
+      "description": "The champion uses Spellcasting.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 21,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned, stunned, unconscious",
+  "cr": "15",
+  "damageImmunities": "poison",
+  "dex": 18,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 48,
+    "diceAmount": 16,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 17,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Infernal",
+  "name": "Grim Champion of Pestilence [BMT]",
+  "resistances": "cold, necrotic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Dex +9, Cha +10",
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The champion is surrounded by an aura of deadly magic that takes the form of a host of glowing white insects. Each creature that starts its turn within 10 feet of the champion must succeed on a DC 18 Constitution saving throw or have the incapacitated condition until the start of its next turn, as the insects ravage its body.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Halo of Pestilence"
+    },
+    {
+      "description": "If the champion fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    }
+  ],
+  "speed": 40,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 13000
+}

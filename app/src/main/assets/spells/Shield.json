@@ -1,4 +1,30 @@
-{"casting_time": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell","classes": ["sorcerer","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.","duration": "1 round","level": "1","name": "Shield","range": "Self","ritual": false,"school": "abjuration","tags": ["sorcerer","fighter","rogue","wizard","level1"],
-"type": "1st-level abjuration"}
+{
+  "casting_time": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+  "classes": [
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+  "duration": "1 round",
+  "level": "1",
+  "name": "Shield",
+  "range": "Self",
+  "ritual": false,
+  "school": "abjuration",
+  "tags": [
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level1"
+  ],
+  "type": "1st-level abjuration"
+}

@@ -1,27 +1,27 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Choose one 6th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
-            "level": 11
-        },
-        {
-            "description": "Choose one 6th-level and one 7th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
-            "level": 13
-        },
-        {
-            "description": "Choose one 6th-level, one 7th-level and one 8th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
-            "level": 15
-        },
-        {
-            "description": "Choose one 6th-level, one 7th-level, one 8th-level and one 9th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
-            "level": 17
-        }
-    ],
-    "id": "Customdc9738b6-22cb-4693-beea-1f96f695473e",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Mystic Arcanum",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Choose one 6th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
+      "level": 11
+    },
+    {
+      "description": "Choose one 6th-level and one 7th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
+      "level": 13
+    },
+    {
+      "description": "Choose one 6th-level, one 7th-level and one 8th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
+      "level": 15
+    },
+    {
+      "description": "Choose one 6th-level, one 7th-level, one 8th-level and one 9th-level spell from the warlock spell list as an arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. You regain all uses of your Mystic Arcanum when you finish a long rest",
+      "level": 17
+    }
+  ],
+  "id": "Customdc9738b6-22cb-4693-beea-1f96f695473e",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Mystic Arcanum",
+  "notes": "",
+  "type": "Feat"
 }

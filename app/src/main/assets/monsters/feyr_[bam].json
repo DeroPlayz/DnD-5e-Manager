@@ -1,8 +1,87 @@
-{"ac":16,"actions":[{"description":"The feyr makes one Frightful Bite attack and one Tentacle attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage, and each creature within 10 feet of the feyr that can see it must succeed on a DC 13 Wisdom saving throw or be frightened of the feyr until the end of the feyr's next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Frightful Bite","type":"MELEE"},
-{"description":"6 to hit, reach 10 ft., one creature. Hit: 17 (4d6 + 3) psychic damage, and the target is grappled (escape DC 13). Until this grapple ends, the feyr can't use this tentacle against other targets. The feyr has two tentacles, each of which can grapple one creature.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tentacle","type":"MELEE"},
-{"description":"The feyr becomes invisible until it attacks, uses Nightmare Fuel, or uses a bonus action to become visible.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Invisibility","type":"NONE"},
-{"description":"The feyr targets one unconscious creature it can see within 10 feet of itself. The target must succeed on a DC 13 Wisdom saving throw or take 27 (5d10) psychic damage, and the feyr gains temporary hit points equal to the damage dealt.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Nightmare Fuel (1/Day)","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":11,"conditionImmunities":"frightened","cr":"5","damageImmunities":null,"dex":16,"flySpeed":50,"hp":{"constant":null,"diceAmount":16,"diceType":"D10"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":null,"name":"Feyr [BAM]","resistances":null,"savingThrows":"Int +5, Wis +5","senses":"darkvision 120 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The feyr doesn't require air.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":0,"str":16,"swimSpeed":0,"tag":null,"type":"Aberration","vulnerabilities":null,"wis":14,"xp":1800}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The feyr makes one Frightful Bite attack and one Tentacle attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage, and each creature within 10 feet of the feyr that can see it must succeed on a DC 13 Wisdom saving throw or be frightened of the feyr until the end of the feyr's next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Frightful Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "6 to hit, reach 10 ft., one creature. Hit: 17 (4d6 + 3) psychic damage, and the target is grappled (escape DC 13). Until this grapple ends, the feyr can't use this tentacle against other targets. The feyr has two tentacles, each of which can grapple one creature.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Tentacle",
+      "type": "MELEE"
+    },
+    {
+      "description": "The feyr becomes invisible until it attacks, uses Nightmare Fuel, or uses a bonus action to become visible.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Invisibility",
+      "type": "NONE"
+    },
+    {
+      "description": "The feyr targets one unconscious creature it can see within 10 feet of itself. The target must succeed on a DC 13 Wisdom saving throw or take 27 (5d10) psychic damage, and the feyr gains temporary hit points equal to the damage dealt.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Nightmare Fuel (1/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 11,
+  "climbSpeed": 0,
+  "con": 11,
+  "conditionImmunities": "frightened",
+  "cr": "5",
+  "damageImmunities": null,
+  "dex": 16,
+  "flySpeed": 50,
+  "hp": {
+    "constant": null,
+    "diceAmount": 16,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Feyr [BAM]",
+  "resistances": null,
+  "savingThrows": "Int +5, Wis +5",
+  "senses": "darkvision 120 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The feyr doesn't require air.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 0,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Aberration",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 1800
+}

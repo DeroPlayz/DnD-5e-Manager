@@ -1,6 +1,64 @@
-{"ac":12,"actions":[{"description":"The professor makes two Spatial Blade attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"{@atk ms,rs} 7 to hit (the target can't benefit from cover less than total cover), reach 5 ft. or range 120 ft., one target. Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the professor is Large or larger, and the professor can push the target horizontally up to 10 feet away.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spatial Blade","type":"NONE"},
-{"description":"The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15):\nAt will: guidance, mage hand, mending (as an action)\n\n1/day each: creation (as an action), dimension door, mage armor, plant growth, polymorph","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":13,"climbSpeed":0,"con":14,"conditionImmunities":null,"cr":"7","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":32,"diceAmount":16,"diceType":"D8"},
-"id":-1,"int":19,"isLocked":true,"jsonType":"monster","languages":"Common plus any four languages","name":"Quandrix Professor of Substance","resistances":"force","savingThrows":"Con +5, Int +7, Wis +5, Cha +4","senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":11,"swimSpeed":0,"tag":"wizard","type":"Humanoid","vulnerabilities":null,"wis":14,"xp":2900}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The professor makes two Spatial Blade attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "{@atk ms,rs} 7 to hit (the target can't benefit from cover less than total cover), reach 5 ft. or range 120 ft., one target. Hit: 13 (2d8 + 4) force damage, or 22 (4d8 + 4) force damage if the professor is Large or larger, and the professor can push the target horizontally up to 10 feet away.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spatial Blade",
+      "type": "NONE"
+    },
+    {
+      "description": "The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15):\nAt will: guidance, mage hand, mending (as an action)\n\n1/day each: creation (as an action), dimension door, mage armor, plant growth, polymorph",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 13,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": null,
+  "cr": "7",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 32,
+    "diceAmount": 16,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 19,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common plus any four languages",
+  "name": "Quandrix Professor of Substance",
+  "resistances": "force",
+  "savingThrows": "Con +5, Int +7, Wis +5, Cha +4",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 11,
+  "swimSpeed": 0,
+  "tag": "wizard",
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 2900
+}

@@ -1,7 +1,52 @@
-{"changesNameOnAttunement": false,"description": "You have a +1 bonus to AC while wearing this armor, which shimmers softly.\n\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "AC","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "93bb4994-e0d8-479b-aaad-b439fc0c17a0","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Last_Stand_Armor","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Last Stand Armor","rarity": "VERY_RARE","requiresAttunement": false,"type": "ARMOR","value": 50000.0,"valueCoin": "GOLD","weight": 0.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You have a +1 bonus to AC while wearing this armor, which shimmers softly.\n\nIf you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "AC",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "93bb4994-e0d8-479b-aaad-b439fc0c17a0",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Last_Stand_Armor",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Last Stand Armor",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": false,
+  "type": "ARMOR",
+  "value": 50000.0,
+  "valueCoin": "GOLD",
+  "weight": 0.0,
+  "weightUnit": "POUNDS"
+}

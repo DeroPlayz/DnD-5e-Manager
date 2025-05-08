@@ -1,13 +1,123 @@
-{"ac":19,"actions":[{"description":"The sibriex makes three Chain attacks, and it uses Squirt Bile.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"13 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) force damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Chain","type":"MELEE"},
-{"description":"The sibriex targets one creature it can see within 120 feet of it. The target must succeed on a DC 20 Dexterity saving throw or take 31 (9d6) acid damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Squirt Bile","type":"NONE"},
-{"description":"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a DC 20 Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is poisoned, which causes it to also gain 1 level of exhaustion. While poisoned in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of exhaustion caused by it. Each failed save causes the target to gain another level of exhaustion. Once the target reaches 6 levels of exhaustion, it dies and instantly transforms into a living manes under the sibriex's control. The transformation of the body can be undone only by a wish spell.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Warp Creature","type":"NONE"},
-{"description":"The sibriex casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 21):\nAt will: command, dispel magic, hold monster\n\n1/day each: feeblemind","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"},
-{"description":"The sibriex uses Spellcasting.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Cast a Spell","type":"NONE"},
-{"description":"The sibriex uses Squirt Bile.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Spray Bile","type":"NONE"},
-{"description":"The sibriex uses Warp Creature.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Warp (Costs 2 Actions)","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":25,"climbSpeed":0,"con":23,"conditionImmunities":"poisoned","cr":"18","damageImmunities":"poison","dex":3,"flySpeed":20,"hp":{"constant":72,"diceAmount":12,"diceType":"D12"},
-"id":-1,"int":25,"isLocked":true,"jsonType":"monster","languages":"all, telepathy 120 ft.","name":"Sibriex [MoM]","resistances":"cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Int +13, Cha +13","senses":"truesight 120 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"The sibriex emits an aura of corruption 30 feet in every direction. Vegetation withers in the aura, and the ground in the aura is difficult terrain for other creatures. Any creature that starts its turn in the aura must succeed on a DC 20 Constitution saving throw or take 14 (4d6) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours.","id":-1,"monsterId":-1,"name":"Contamination"},
-{"description":"If the sibriex fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"},
-{"description":"The sibriex has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"}],
-"speed":0,"str":10,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":24,"xp":20000}
+{
+  "ac": 19,
+  "actions": [
+    {
+      "description": "The sibriex makes three Chain attacks, and it uses Squirt Bile.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "13 to hit, reach 15 ft., one target. Hit: 20 (2d12 + 7) force damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Chain",
+      "type": "MELEE"
+    },
+    {
+      "description": "The sibriex targets one creature it can see within 120 feet of it. The target must succeed on a DC 20 Dexterity saving throw or take 31 (9d6) acid damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Squirt Bile",
+      "type": "NONE"
+    },
+    {
+      "description": "The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a DC 20 Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is poisoned, which causes it to also gain 1 level of exhaustion. While poisoned in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of exhaustion caused by it. Each failed save causes the target to gain another level of exhaustion. Once the target reaches 6 levels of exhaustion, it dies and instantly transforms into a living manes under the sibriex's control. The transformation of the body can be undone only by a wish spell.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Warp Creature",
+      "type": "NONE"
+    },
+    {
+      "description": "The sibriex casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 21):\nAt will: command, dispel magic, hold monster\n\n1/day each: feeblemind",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    },
+    {
+      "description": "The sibriex uses Spellcasting.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Cast a Spell",
+      "type": "NONE"
+    },
+    {
+      "description": "The sibriex uses Squirt Bile.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Spray Bile",
+      "type": "NONE"
+    },
+    {
+      "description": "The sibriex uses Warp Creature.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Warp (Costs 2 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 25,
+  "climbSpeed": 0,
+  "con": 23,
+  "conditionImmunities": "poisoned",
+  "cr": "18",
+  "damageImmunities": "poison",
+  "dex": 3,
+  "flySpeed": 20,
+  "hp": {
+    "constant": 72,
+    "diceAmount": 12,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 25,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "all, telepathy 120 ft.",
+  "name": "Sibriex [MoM]",
+  "resistances": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Int +13, Cha +13",
+  "senses": "truesight 120 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The sibriex emits an aura of corruption 30 feet in every direction. Vegetation withers in the aura, and the ground in the aura is difficult terrain for other creatures. Any creature that starts its turn in the aura must succeed on a DC 20 Constitution saving throw or take 14 (4d6) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Contamination"
+    },
+    {
+      "description": "If the sibriex fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    },
+    {
+      "description": "The sibriex has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    }
+  ],
+  "speed": 0,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": "demon",
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 24,
+  "xp": 20000
+}

@@ -1,31 +1,180 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customfd2d6aae-89d6-4641-890a-3f55dc325dc3","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Choose 1"}],
-"name": "Sea Elf [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,perception"}],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 30},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 3 (ALL)","level": 1}],
-"id": "Custom3dc5e72d-0457-40a5-aba2-f601dadc8712","isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have a swimming speed equal to your walking speed","level": 1}],
-"id": "Custom0d229904-101d-4fb7-9dd2-c2bfe46daf34","isFeature": true,"jsonType": "feat","level": 1,"name": "Swim","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can breathe air and water, and you have a resistance to cold damage","level": 1}],
-"id": "Customf83c33a0-0785-469c-954d-66bd75ff4362","isFeature": true,"jsonType": "feat","level": 1,"name": "Child of the Sea","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray","level": 1}],
-"id": "Customfe5b7b47-f8fe-47fc-911b-edd01a91fff3","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself","level": 1}],
-"id": "Custom2faf9dfb-fb4f-4613-bd07-f254fc3258a6","isFeature": true,"jsonType": "feat","level": 1,"name": "Fey Ancestry","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return","level": 1}],
-"id": "Custom1f3af651-bab1-4717-bea9-d673268ef027","isFeature": true,"jsonType": "feat","level": 1,"name": "Friend of the Sea","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.\n\nWhenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest","level": 1}],
-"id": "Custom0665fe68-16f2-4c7a-8739-c6e164ca1342","isFeature": true,"jsonType": "feat","level": 1,"name": "Trance","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Customfd2d6aae-89d6-4641-890a-3f55dc325dc3",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "name": "Sea Elf [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,perception"
+    }
+  ],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 30
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 3 (ALL)",
+            "level": 1
+          }
+        ],
+        "id": "Custom3dc5e72d-0457-40a5-aba2-f601dadc8712",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a swimming speed equal to your walking speed",
+            "level": 1
+          }
+        ],
+        "id": "Custom0d229904-101d-4fb7-9dd2-c2bfe46daf34",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Swim",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can breathe air and water, and you have a resistance to cold damage",
+            "level": 1
+          }
+        ],
+        "id": "Customf83c33a0-0785-469c-954d-66bd75ff4362",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Child of the Sea",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray",
+            "level": 1
+          }
+        ],
+        "id": "Customfe5b7b47-f8fe-47fc-911b-edd01a91fff3",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Darkvision",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself",
+            "level": 1
+          }
+        ],
+        "id": "Custom2faf9dfb-fb4f-4613-bd07-f254fc3258a6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fey Ancestry",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return",
+            "level": 1
+          }
+        ],
+        "id": "Custom1f3af651-bab1-4717-bea9-d673268ef027",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Friend of the Sea",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.\n\nWhenever you finish this trance, you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest",
+            "level": 1
+          }
+        ],
+        "id": "Custom0665fe68-16f2-4c7a-8739-c6e164ca1342",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Trance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

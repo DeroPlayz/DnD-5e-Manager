@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn, but one of the attacks must be made with a magic weapon, the magic of which you use to propel the attack",
-            "level": 5
-        }
-    ],
-    "id": "Customfdd62c6c-54a6-44e9-b331-1ea2ed54b06f",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Arcane Armament",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn, but one of the attacks must be made with a magic weapon, the magic of which you use to propel the attack",
+      "level": 5
+    }
+  ],
+  "id": "Customfdd62c6c-54a6-44e9-b331-1ea2ed54b06f",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Arcane Armament",
+  "notes": "",
+  "type": "Feat"
 }

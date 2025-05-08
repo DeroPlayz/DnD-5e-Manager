@@ -1,19 +1,148 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customb88ab483-24b7-4da5-b29f-672dc560e106","jsonType": "race","languages": [],
-"name": "Fire Genasi [MoM]","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "druid","components": "V, S","description": "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.\n\nYou can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.\n\nThis spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).","duration": "10 minutes","higherLevels": "","isCustom": false,"isRitual": false,"jsonType": "spell","level": 0,"name": "Produce Flame","notes": "","pinned": false,"prepared": false,"range": "Self","school": "Conjuration","type": "Conjuration cantrip"}},
-{"level": 3,"spellModel": {"castingTime": "1 action","classes": "sorcerer, fighter, rogue, wizard","components": "V, S","description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u00e2\u20ac\u2122t being worn or carried.","duration": "Instantaneous","higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.","isCustom": false,"isRitual": false,"jsonType": "spell","level": 1,"name": "Burning Hands","notes": "","pinned": false,"prepared": false,"range": "Self (15-foot cone)","school": "evocation","type": "1st-level evocation"}},
-{"level": 5,"spellModel": {"castingTime": "1 bonus action","classes": "druid","components": "V, S, M (leaf of sumac)","description": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.\n\nYou can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.\n\nThe flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.","duration": "Concentration, up to 10 minutes","higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.","isCustom": false,"isRitual": false,"jsonType": "spell","level": 2,"name": "Flame Blade","notes": "","pinned": false,"prepared": false,"range": "Self","school": "evocation","type": "2nd-level evocation"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
-"id": "Customd48ff143-85b8-4f6b-87f0-0e390214cef0","isFeature": true,"jsonType": "feat","level": 1,"name": "Fire Resistance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the produce flame cantrip.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 1},
-{"description": "You know the produce flame cantrip. Starting at 3rd level, you can cast the burning hands spell with this trait. Once you cast burning hands with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 3},
-{"description": "You know the produce flame cantrip. Starting at 3rd level, you can cast the burning hands spell with this trait. Starting at 5th level, you can also cast the flame blade spell with this trait, without a material component. Once you cast burning hands or flame blade with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)","level": 5}],
-"id": "Custom2459679c-15ec-491e-af67-e7fc52d0aa44","isFeature": true,"jsonType": "feat","level": 1,"name": "Reach to the Blaze","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Customb88ab483-24b7-4da5-b29f-672dc560e106",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Fire Genasi [MoM]",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid",
+        "components": "V, S",
+        "description": "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.\n\nYou can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.\n\nThis spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+        "duration": "10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Produce Flame",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "Conjuration",
+        "type": "Conjuration cantrip"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren\u00e2\u20ac\u2122t being worn or carried.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Burning Hands",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (15-foot cone)",
+        "school": "evocation",
+        "type": "1st-level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "druid",
+        "components": "V, S, M (leaf of sumac)",
+        "description": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.\n\nYou can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.\n\nThe flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Flame Blade",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "evocation",
+        "type": "2nd-level evocation"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to fire damage",
+            "level": 1
+          }
+        ],
+        "id": "Customd48ff143-85b8-4f6b-87f0-0e390214cef0",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fire Resistance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know the produce flame cantrip.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 1
+          },
+          {
+            "description": "You know the produce flame cantrip. Starting at 3rd level, you can cast the burning hands spell with this trait. Once you cast burning hands with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 3
+          },
+          {
+            "description": "You know the produce flame cantrip. Starting at 3rd level, you can cast the burning hands spell with this trait. Starting at 5th level, you can also cast the flame blade spell with this trait, without a material component. Once you cast burning hands or flame blade with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)",
+            "level": 5
+          }
+        ],
+        "id": "Custom2459679c-15ec-491e-af67-e7fc52d0aa44",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Reach to the Blaze",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

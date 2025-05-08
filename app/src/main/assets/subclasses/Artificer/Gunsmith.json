@@ -1,261 +1,261 @@
 {
-    "acModifier": "DEX",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Piercing",
-        "diceAmount": 2,
-        "diceTypeName": "D6",
-        "name": "Thunder Cannon"
+  "acModifier": "DEX",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Piercing",
+    "diceAmount": 2,
+    "diceTypeName": "D6",
+    "name": "Thunder Cannon"
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you choose this specialization at 1st level, you gain\rproficiency with smith\u00e2\u20ac\u2122s tools, and you learn the mending\rcantrip",
+            "level": 1
+          }
+        ],
+        "id": "Customb73ab2d7-9196-4ac8-b6aa-a28a845593f2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Master Smith",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you choose this specialization at 1st level, you gain\rproficiency with smith\u00e2\u20ac\u2122s tools, and you learn the mending\rcantrip",
-                        "level": 1
-                    }
-                ],
-                "id": "Customb73ab2d7-9196-4ac8-b6aa-a28a845593f2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Master Smith",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You forge a deadly firearm. This firearm is called a Thunder Cannon.\r\n\nYou are proficient with the Thunder Cannon. The firearm\ris a two-handed ranged weapon that deals 2d6 piercing\rdamage, which counts as magical for the purposes of\rovercoming resistances and immunity from non-magical\rattacks and damage. Its normal range is 150 feet, and its\rmaximum range is 500 feet. Firing the thunder cannon while\rprone does not incur disadvantage. Once fired, it must be\rreloaded as a bonus action. \n\nIf you lose your Thunder Cannon,\ryou can create a new one over the course of three days of\rwork (eight hours each day) by expending 100 gp worth of\rmetal and other raw materials",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You forge a deadly firearm. This firearm is called a Thunder Cannon.\r\n\nYou are proficient with the Thunder Cannon. The firearm\ris a two-handed ranged weapon that deals 2d6 piercing\rdamage, which counts as magical for the purposes of\rovercoming resistances and immunity from non-magical\rattacks and damage. Its normal range is 150 feet, and its\rmaximum range is 500 feet. Firing the thunder cannon while\rprone does not incur disadvantage. Once fired, it must be\rreloaded as a bonus action. \n\nIf you lose your Thunder Cannon,\ryou can create a new one over the course of three days of\rwork (eight hours each day) by expending 100 gp worth of\rmetal and other raw materials",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom80d231d4-44a4-4464-8954-6e875551acc3",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Thunder Cannon",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom80d231d4-44a4-4464-8954-6e875551acc3",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Thunder Cannon",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You craft a leather bag used to carry your tools\rand ammunition for your Thunder Cannon. Your Arcane\rMagazine includes the powders, lead shot, and other\rmaterials needed to keep that weapon functioning.\r\n\nYou can use the Arcane Magazine to produce ammunition\rfor your gun. At the end of each long rest, you can magically\rproduce 40 rounds of ammunition with this magazine. After\reach short rest, you can produce 10 rounds.\r\n\nIf you lose your Arcane Magazine, you can create a new\rone as part of a long rest, using 25 gp of leather and other\rraw materials",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You craft a leather bag used to carry your tools\rand ammunition for your Thunder Cannon. Your Arcane\rMagazine includes the powders, lead shot, and other\rmaterials needed to keep that weapon functioning.\r\n\nYou can use the Arcane Magazine to produce ammunition\rfor your gun. At the end of each long rest, you can magically\rproduce 40 rounds of ammunition with this magazine. After\reach short rest, you can produce 10 rounds.\r\n\nIf you lose your Arcane Magazine, you can create a new\rone as part of a long rest, using 25 gp of leather and other\rraw materials",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom643942e9-6b06-403a-9b03-fb0df3c0b57d",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Arcane Magazine",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 1d6 Thunder damage on a hit",
-                        "level": 3
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 2d6 Thunder damage on a hit",
-                        "level": 5
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 3d6 Thunder damage on a hit",
-                        "level": 7
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 4d6 Thunder damage on a hit",
-                        "level": 9
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 5d6 Thunder damage on a hit",
-                        "level": 11
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 6d6 Thunder damage on a hit",
-                        "level": 13
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 7d6 Thunder damage on a hit",
-                        "level": 15
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 8d6 Thunder damage on a hit",
-                        "level": 17
-                    },
-                    {
-                        "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 9d6 Thunder damage on a hit",
-                        "level": 19
-                    }
-                ],
-                "id": "Custom4067d35d-70ec-4cd0-956e-89139b550d90",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Thunder Monger",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom643942e9-6b06-403a-9b03-fb0df3c0b57d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Arcane Magazine",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 1d6 Thunder damage on a hit",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You modify your Thunder Cannon by upgrading\r\nits capabilities. Choose 1 of the following upgrades to\rapply to the weapon.\r\n\n- Farsight Scope: The maximum weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Extended Barrel: The normal weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Integrated Magazine: Your Thunder Cannon holds 2\rrounds at a time, allowing you to attack twice before a bonus\raction reload is required.\n\r\n- Extended Magazine (Requires Integrated Magazine): your\rThunder Cannon holds 4 rounds at a time, allowing you to\rattack 4 times before a bonus action reload is required.\n\r\n- Extendable Stand: On your turn, by spending no\r\nmovement, and firing while prone, you have advantage on\rattacks with your Thunder Cannon",
-                        "level": 6
-                    },
-                    {
-                        "description": "You modify your Thunder Cannon by upgrading\r\nits capabilities. Choose 2 of the following upgrades to\rapply to the weapon.\r\n\n- Farsight Scope: The maximum weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Extended Barrel: The normal weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Integrated Magazine: Your Thunder Cannon holds 2\rrounds at a time, allowing you to attack twice before a bonus\raction reload is required.\n\r\n- Extended Magazine (Requires Integrated Magazine): your\rThunder Cannon holds 4 rounds at a time, allowing you to\rattack 4 times before a bonus action reload is required.\n\r\n- Extendable Stand: On your turn, by spending no\r\nmovement, and firing while prone, you have advantage on\rattacks with your Thunder Cannon",
-                        "level": 9
-                    },
-                    {
-                        "description": "You modify your Thunder Cannon by upgrading\r\nits capabilities. Choose 3 of the following upgrades to\rapply to the weapon.\r\n\n- Farsight Scope: The maximum weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Extended Barrel: The normal weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Integrated Magazine: Your Thunder Cannon holds 2\rrounds at a time, allowing you to attack twice before a bonus\raction reload is required.\n\r\n- Extended Magazine (Requires Integrated Magazine): your\rThunder Cannon holds 4 rounds at a time, allowing you to\rattack 4 times before a bonus action reload is required.\n\r\n- Extendable Stand: On your turn, by spending no\r\nmovement, and firing while prone, you have advantage on\rattacks with your Thunder Cannon",
-                        "level": 14
-                    }
-                ],
-                "id": "Customc1503ad8-f02c-419a-bc1e-7d54469b7897",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Weapon Tinkering",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can channel force energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. \nEach creature in that\rarea must make a Strength saving throw with a DC of 8 +\ryour proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 2d6 force damage and is\rpushed 10 feet away from you",
-                        "level": 9
-                    },
-                    {
-                        "description": "You can channel force energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. \nEach creature in that\rarea must make a Strength saving throw with a DC of 8 +\ryour proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 3d6 force damage and is\rpushed 10 feet away from you",
-                        "level": 13
-                    },
-                    {
-                        "description": "You can channel force energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. \nEach creature in that\rarea must make a Strength saving throw with a DC of 8 +\ryour proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 4d6 force damage and is\rpushed 10 feet away from you",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom78694a30-59e6-49ad-9fad-9b611d4b7705",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Blast Wave",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 2d6 Thunder damage on a hit",
+            "level": 5
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 3d6 Thunder damage on a hit",
+            "level": 7
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 4d6 Thunder damage on a hit",
             "level": 9
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can shoot lightning energy through\ryour Thunder Cannon. As an action, you can make a pecial\rattack with it. Rather than making an attack roll, you cause\rthe gun to unleash a bolt of lightning, 5-feet wide and 30-feet\rlong. Each creature in that area must make Dexterity saving\rthrows with a DC of 8 + your proficiency bonus + your\rIntelligence modifier. On a failed saving throw, a target takes\r4d6 lightning damage",
-                        "level": 14
-                    },
-                    {
-                        "description": "You can shoot lightning energy through\ryour Thunder Cannon. As an action, you can make a pecial\rattack with it. Rather than making an attack roll, you cause\rthe gun to unleash a bolt of lightning, 5-feet wide and 30-feet\rlong. Each creature in that area must make Dexterity saving\rthrows with a DC of 8 + your proficiency bonus + your\rIntelligence modifier. On a failed saving throw, a target takes\r6d6 lightning damage",
-                        "level": 19
-                    }
-                ],
-                "id": "Custom25d29888-54fb-43f1-8b67-59a6d6d12139",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Piercing Round",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 14
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can channel fiery energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you launch an\rexplosive round from the gun. The round detonates in a 30-\rfoot radius sphere at a point within range. Each creature in\rthat area must make a Dexterity saving throw with a DC of 8\r+ your proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 4d8 fire damage",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom47591ee6-d814-4930-8e86-c9f925df7b87",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Explosive Round",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 5d6 Thunder damage on a hit",
+            "level": 11
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 6d6 Thunder damage on a hit",
+            "level": 13
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 7d6 Thunder damage on a hit",
+            "level": 15
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 8d6 Thunder damage on a hit",
             "level": 17
-        }
-    ],
-    "hpModifier": "CON",
-    "id": "artificer_gunsmith",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Gunsmith",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "INT",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "Artificer__revised_, Bard, Cleric, Druid, Sorcerer, Wizard",
-                "components": "V, S, M (two lodestones)",
-                "description": "This spell repairs a single break or tear in an object you touch, such as a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no longer than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\n\nThis spell can physically repair a magic item or construct, but the spell can\u00e2\u20ac\u2122t restore magic to such an object.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "Mending",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "Transmutation",
-                "type": "Transmutation cantrip"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Smith's Tools"
-        }
-    ],
-    "weaponProficiencies": []
+          },
+          {
+            "description": "As an action, you can make a special attack\rwith your Thunder Cannon that deals an extra 9d6 Thunder damage on a hit",
+            "level": 19
+          }
+        ],
+        "id": "Custom4067d35d-70ec-4cd0-956e-89139b550d90",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Thunder Monger",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You modify your Thunder Cannon by upgrading\r\nits capabilities. Choose 1 of the following upgrades to\rapply to the weapon.\r\n\n- Farsight Scope: The maximum weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Extended Barrel: The normal weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Integrated Magazine: Your Thunder Cannon holds 2\rrounds at a time, allowing you to attack twice before a bonus\raction reload is required.\n\r\n- Extended Magazine (Requires Integrated Magazine): your\rThunder Cannon holds 4 rounds at a time, allowing you to\rattack 4 times before a bonus action reload is required.\n\r\n- Extendable Stand: On your turn, by spending no\r\nmovement, and firing while prone, you have advantage on\rattacks with your Thunder Cannon",
+            "level": 6
+          },
+          {
+            "description": "You modify your Thunder Cannon by upgrading\r\nits capabilities. Choose 2 of the following upgrades to\rapply to the weapon.\r\n\n- Farsight Scope: The maximum weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Extended Barrel: The normal weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Integrated Magazine: Your Thunder Cannon holds 2\rrounds at a time, allowing you to attack twice before a bonus\raction reload is required.\n\r\n- Extended Magazine (Requires Integrated Magazine): your\rThunder Cannon holds 4 rounds at a time, allowing you to\rattack 4 times before a bonus action reload is required.\n\r\n- Extendable Stand: On your turn, by spending no\r\nmovement, and firing while prone, you have advantage on\rattacks with your Thunder Cannon",
+            "level": 9
+          },
+          {
+            "description": "You modify your Thunder Cannon by upgrading\r\nits capabilities. Choose 3 of the following upgrades to\rapply to the weapon.\r\n\n- Farsight Scope: The maximum weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Extended Barrel: The normal weapon range of your\rThunder Cannon increases by 100 feet.\n\r\n- Integrated Magazine: Your Thunder Cannon holds 2\rrounds at a time, allowing you to attack twice before a bonus\raction reload is required.\n\r\n- Extended Magazine (Requires Integrated Magazine): your\rThunder Cannon holds 4 rounds at a time, allowing you to\rattack 4 times before a bonus action reload is required.\n\r\n- Extendable Stand: On your turn, by spending no\r\nmovement, and firing while prone, you have advantage on\rattacks with your Thunder Cannon",
+            "level": 14
+          }
+        ],
+        "id": "Customc1503ad8-f02c-419a-bc1e-7d54469b7897",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Weapon Tinkering",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can channel force energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. \nEach creature in that\rarea must make a Strength saving throw with a DC of 8 +\ryour proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 2d6 force damage and is\rpushed 10 feet away from you",
+            "level": 9
+          },
+          {
+            "description": "You can channel force energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. \nEach creature in that\rarea must make a Strength saving throw with a DC of 8 +\ryour proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 3d6 force damage and is\rpushed 10 feet away from you",
+            "level": 13
+          },
+          {
+            "description": "You can channel force energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. \nEach creature in that\rarea must make a Strength saving throw with a DC of 8 +\ryour proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 4d6 force damage and is\rpushed 10 feet away from you",
+            "level": 17
+          }
+        ],
+        "id": "Custom78694a30-59e6-49ad-9fad-9b611d4b7705",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Blast Wave",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 9
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can shoot lightning energy through\ryour Thunder Cannon. As an action, you can make a pecial\rattack with it. Rather than making an attack roll, you cause\rthe gun to unleash a bolt of lightning, 5-feet wide and 30-feet\rlong. Each creature in that area must make Dexterity saving\rthrows with a DC of 8 + your proficiency bonus + your\rIntelligence modifier. On a failed saving throw, a target takes\r4d6 lightning damage",
+            "level": 14
+          },
+          {
+            "description": "You can shoot lightning energy through\ryour Thunder Cannon. As an action, you can make a pecial\rattack with it. Rather than making an attack roll, you cause\rthe gun to unleash a bolt of lightning, 5-feet wide and 30-feet\rlong. Each creature in that area must make Dexterity saving\rthrows with a DC of 8 + your proficiency bonus + your\rIntelligence modifier. On a failed saving throw, a target takes\r6d6 lightning damage",
+            "level": 19
+          }
+        ],
+        "id": "Custom25d29888-54fb-43f1-8b67-59a6d6d12139",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Piercing Round",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can channel fiery energy into your\rThunder Cannon. As an action, you can make a special attack\rwith it. Rather than making an attack roll, you launch an\rexplosive round from the gun. The round detonates in a 30-\rfoot radius sphere at a point within range. Each creature in\rthat area must make a Dexterity saving throw with a DC of 8\r+ your proficiency bonus + your Intelligence modifier. On a\rfailed saving throw, a target takes 4d8 fire damage",
+            "level": 17
+          }
+        ],
+        "id": "Custom47591ee6-d814-4930-8e86-c9f925df7b87",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Explosive Round",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 17
+    }
+  ],
+  "hpModifier": "CON",
+  "id": "artificer_gunsmith",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Gunsmith",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "INT",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "Artificer__revised_, Bard, Cleric, Druid, Sorcerer, Wizard",
+        "components": "V, S, M (two lodestones)",
+        "description": "This spell repairs a single break or tear in an object you touch, such as a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no longer than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\n\nThis spell can physically repair a magic item or construct, but the spell can\u00e2\u20ac\u2122t restore magic to such an object.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Mending",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "Transmutation",
+        "type": "Transmutation cantrip"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Smith's Tools"
+    }
+  ],
+  "weaponProficiencies": []
 }

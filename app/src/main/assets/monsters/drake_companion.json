@@ -1,5 +1,59 @@
-{"ac":14,"actions":[{"description":"+3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 piercing damage plus PB damage of a type determined by the drake’s Draconic Essence","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence","id":-1,"isLegendary":false,"monsterId":-1,"name":"Infused Strikes (Reaction)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":8,"climbSpeed":0,"con":15,"cr":"1","damageImmunities":"determined by the drake\u0027s Draconic Essence trait","dex":12,"flySpeed":0,"hp":{"constant":0,"diceAmount":5,"diceType":"D10"},
-"id":-1,"int":8,"isLocked":false,"jsonType":"monster","languages":"Draconic","name":"Drake Companion","savingThrows":"Dex +1 plus PB, Wis +2 plus PB","senses":"darkvision 60 ft., Passive Perception 12","size":"Small","specialTraits":[{"description":"When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake’s damage immunity, the damage of its bite, and the damage of its Infused Strikes trait","id":-1,"monsterId":-1,"name":"Draconic Essence"}],
-"speed":40,"str":16,"swimSpeed":0,"tag":"","type":"Dragon","wis":14,"xp":0}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "+3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 piercing damage plus PB damage of a type determined by the drake\u00e2\u20ac\u2122s Draconic Essence",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Infused Strikes (Reaction)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 8,
+  "climbSpeed": 0,
+  "con": 15,
+  "cr": "1",
+  "damageImmunities": "determined by the drake's Draconic Essence trait",
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 0,
+    "diceAmount": 5,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 8,
+  "isLocked": false,
+  "jsonType": "monster",
+  "languages": "Draconic",
+  "name": "Drake Companion",
+  "savingThrows": "Dex +1 plus PB, Wis +2 plus PB",
+  "senses": "darkvision 60 ft., Passive Perception 12",
+  "size": "Small",
+  "specialTraits": [
+    {
+      "description": "When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake\u00e2\u20ac\u2122s damage immunity, the damage of its bite, and the damage of its Infused Strikes trait",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Draconic Essence"
+    }
+  ],
+  "speed": 40,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": "",
+  "type": "Dragon",
+  "wis": 14,
+  "xp": 0
+}

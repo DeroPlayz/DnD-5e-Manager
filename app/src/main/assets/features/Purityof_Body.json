@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You are immune to disease and poison",
-            "level": 10
-        }
-    ],
-    "id": "Custom4b8f4798-c58c-444f-84b0-7a0b82d5baba",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Purity of Body",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You are immune to disease and poison",
+      "level": 10
+    }
+  ],
+  "id": "Custom4b8f4798-c58c-444f-84b0-7a0b82d5baba",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Purity of Body",
+  "notes": "",
+  "type": "Feat"
 }

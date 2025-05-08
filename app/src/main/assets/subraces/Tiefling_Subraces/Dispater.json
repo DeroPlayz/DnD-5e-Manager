@@ -1,19 +1,140 @@
-{"abilityScores": {"cha": 2,"con": 0,"dex": 1,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom11c8361e-0bbd-4b95-87ca-9ffa038f3498","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Infernal"}],
-"name": "Dispater","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Cleric","components": "V","description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.","duration": "Up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Thaumaturgy","range": "30 feet","school": "Transmutation","type": "Transmutation cantrip"}},
-{"level": 3,"spellModel": {"castingTime": "1 action","classes": "Artificier, Bard, Cleric, Sorcerer, Wizard","components": "V, S","description": "You make yourself -- including your clothing, armor, weapons, and other belongings on your person -- look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n\nTo discern that you are disguised, a creature can use its action to inspect your apperance and must succeed on an Intelligence (Investigation) check against your spell save DC.","duration": "1 hour","higherLevels": "","isCustom": false,"isRitual": false,"level": 1,"name": "Disguise Self","range": "Self","school": "illusion","type": "1st-level illusion"}},
-{"level": 5,"spellModel": {"castingTime": "1 action","classes": "Bard, Sorcerer, Wizard","components": "V, S, M (a copper piece)","description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.","duration": "Concentration, up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 2,"name": "Detect Thoughts","range": "self","school": "divination","type": "2nd-Level divination"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Hellish Resistance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the Thaumaturgy cantrip. Charisma is your spellcasting ability for this spell","level": 1},
-{"description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 3},
-{"description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 5}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Legacy of Dis","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 2,
+    "con": 0,
+    "dex": 1,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom11c8361e-0bbd-4b95-87ca-9ffa038f3498",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Infernal"
+    }
+  ],
+  "name": "Dispater",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "CHA",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Cleric",
+        "components": "V",
+        "description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+        "duration": "Up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "level": 0,
+        "name": "Thaumaturgy",
+        "range": "30 feet",
+        "school": "Transmutation",
+        "type": "Transmutation cantrip"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Artificier, Bard, Cleric, Sorcerer, Wizard",
+        "components": "V, S",
+        "description": "You make yourself -- including your clothing, armor, weapons, and other belongings on your person -- look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n\nTo discern that you are disguised, a creature can use its action to inspect your apperance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "level": 1,
+        "name": "Disguise Self",
+        "range": "Self",
+        "school": "illusion",
+        "type": "1st-level illusion"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Bard, Sorcerer, Wizard",
+        "components": "V, S, M (a copper piece)",
+        "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "level": 2,
+        "name": "Detect Thoughts",
+        "range": "self",
+        "school": "divination",
+        "type": "2nd-Level divination"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to fire damage",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hellish Resistance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know the Thaumaturgy cantrip. Charisma is your spellcasting ability for this spell",
+            "level": 1
+          },
+          {
+            "description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
+            "level": 3
+          },
+          {
+            "description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Disguise Self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
+            "level": 5
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Legacy of Dis",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

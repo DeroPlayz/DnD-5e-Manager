@@ -1,10 +1,99 @@
-{"ac":19,"actions":[{"description":"The reigar makes two Trident attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) force damage if the reigar is wearing its talarith.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Trident","type":"MELEE_OR_RANGED"},
-{"description":"10 to hit, range 90 ft., one target. Hit: 22 (5d8) damage of a type chosen by the reigar from the following list: cold, fire, lightning, or radiant.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Chromatic Bolt","type":"NONE"},
-{"description":"Using its talarith, the reigar summons a golem-like duplicate of itself. The duplicate obeys the reigar's commands and uses the reigar's statistics, except it is an unaligned Construct that doesn't have a talarith of its own. The duplicate takes its turn immediately after the reigar. It vanishes after 1 hour or when it is reduced to 0 hit points.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Summon Golem (Recharges after a Short or Long Rest)","type":"NONE"},
-{"description":"The reigar casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18):\nAt will: light, mage hand, prestidigitation\n\n2/day each: dimension door, phantasmal force\n\n1/day each: mass suggestion, sending","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting (Psionics)","type":"NONE"}],
-"alignment":"Chaotic Neutral","burrowSpeed":0,"cha":24,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"8","damageImmunities":null,"dex":15,"flySpeed":0,"hp":{"constant":15,"diceAmount":15,"diceType":"D8"},
-"id":-1,"int":19,"isLocked":true,"jsonType":"monster","languages":"Celestial, Common, Deep Speech, Draconic","name":"Reigar [BAM]","resistances":null,"savingThrows":"Dex +5, Con +4, Wis +6, Cha +10","senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The reigar's Armor Class includes its Charisma modifier.","id":-1,"monsterId":-1,"name":"Glory"},
-{"description":"The reigar can hold its breath for 1 hour.","id":-1,"monsterId":-1,"name":"Hold Breath"},
-{"description":"The reigar wears a talarith.","id":-1,"monsterId":-1,"name":"Special Equipment"}],
-"speed":30,"str":18,"swimSpeed":30,"tag":null,"type":"Celestial","vulnerabilities":null,"wis":16,"xp":3900}
+{
+  "ac": 19,
+  "actions": [
+    {
+      "description": "The reigar makes two Trident attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) force damage if the reigar is wearing its talarith.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Trident",
+      "type": "MELEE_OR_RANGED"
+    },
+    {
+      "description": "10 to hit, range 90 ft., one target. Hit: 22 (5d8) damage of a type chosen by the reigar from the following list: cold, fire, lightning, or radiant.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Chromatic Bolt",
+      "type": "NONE"
+    },
+    {
+      "description": "Using its talarith, the reigar summons a golem-like duplicate of itself. The duplicate obeys the reigar's commands and uses the reigar's statistics, except it is an unaligned Construct that doesn't have a talarith of its own. The duplicate takes its turn immediately after the reigar. It vanishes after 1 hour or when it is reduced to 0 hit points.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Summon Golem (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    },
+    {
+      "description": "The reigar casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18):\nAt will: light, mage hand, prestidigitation\n\n2/day each: dimension door, phantasmal force\n\n1/day each: mass suggestion, sending",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting (Psionics)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Neutral",
+  "burrowSpeed": 0,
+  "cha": 24,
+  "climbSpeed": 0,
+  "con": 12,
+  "conditionImmunities": null,
+  "cr": "8",
+  "damageImmunities": null,
+  "dex": 15,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 15,
+    "diceAmount": 15,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 19,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Celestial, Common, Deep Speech, Draconic",
+  "name": "Reigar [BAM]",
+  "resistances": null,
+  "savingThrows": "Dex +5, Con +4, Wis +6, Cha +10",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The reigar's Armor Class includes its Charisma modifier.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Glory"
+    },
+    {
+      "description": "The reigar can hold its breath for 1 hour.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Hold Breath"
+    },
+    {
+      "description": "The reigar wears a talarith.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Special Equipment"
+    }
+  ],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 30,
+  "tag": null,
+  "type": "Celestial",
+  "vulnerabilities": null,
+  "wis": 16,
+  "xp": 3900
+}

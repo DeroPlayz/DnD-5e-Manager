@@ -1,52 +1,241 @@
-{"changesNameOnAttunement": false,"description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.\n\nThe staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.\n\nSpells\nYou can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: animal friendship (1 charge), awaken (5 charges), barkskin (2 charges), locate animals or plants (2 charges), speak with animals (1 charge), speak with plants (3 charges), or wall of thorns (6 charges).\n\nYou can also use an action to cast the pass without trace spell from the staff without using any charges.\n\nTree Form\nYou can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.","effects": [{"actualEffect": {"modifier": {"constant": 2,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "SPELL_ATTACK_BONUS","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "0ae3d374-072a-47a3-b0ca-c85a2267b134","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"charges": 10,"id": "80554a03-2ebc-47dd-b884-0d9840d8f735","name": "Charges","rechargeMoment": "DAWN","rechargeRate": {"constant": 4,"diceAmount": 1,"diceType": "D6"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "2","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "310a0a9f-de55-4a4d-8346-3f685bb0b25d","name": "Cast Animal Friendship (1 Charge)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "223","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "55230026-3ebd-4eeb-9db0-e87c9b8d666a","name": "Cast Awaken (5 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "135","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "0007963c-453b-40d9-8055-2703afa12bb1","name": "Cast Barkskin (2 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "288","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "6f342823-53e4-4d78-b862-65043f706fd8","name": "Cast Locate Animals or Plants (2 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "78","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "b972626e-a09a-402d-ab0e-4fd89b70637c","name": "Cast Speak with Animals (1 Charge)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "147","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "64946514-99ad-4e80-a36c-36381b9442f5","name": "Cast Speak with Plants (3 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "338","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "b288e959-8df3-42dc-8f50-37bcc44b989c","name": "Cast Wall of Thorns (6 Charges)","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "303","type": "ADD_SPELL","typeStr": "ADD_SPELL"},
-"id": "acfb4c97-9b85-465f-8492-8741bcee2f79","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Staff_of_the_Woodlands","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Staff of the Woodlands","rarity": "RARE","requiresAttunement": true,"type": "STAFF","valueCoin": "GOLD","weight": 4.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.\n\nThe staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.\n\nSpells\nYou can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: animal friendship (1 charge), awaken (5 charges), barkskin (2 charges), locate animals or plants (2 charges), speak with animals (1 charge), speak with plants (3 charges), or wall of thorns (6 charges).\n\nYou can also use an action to cast the pass without trace spell from the staff without using any charges.\n\nTree Form\nYou can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 2,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "SPELL_ATTACK_BONUS",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "0ae3d374-072a-47a3-b0ca-c85a2267b134",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "charges": 10,
+      "id": "80554a03-2ebc-47dd-b884-0d9840d8f735",
+      "name": "Charges",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 4,
+        "diceAmount": 1,
+        "diceType": "D6"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "2",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "310a0a9f-de55-4a4d-8346-3f685bb0b25d",
+      "name": "Cast Animal Friendship (1 Charge)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "223",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "55230026-3ebd-4eeb-9db0-e87c9b8d666a",
+      "name": "Cast Awaken (5 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "135",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "0007963c-453b-40d9-8055-2703afa12bb1",
+      "name": "Cast Barkskin (2 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "288",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "6f342823-53e4-4d78-b862-65043f706fd8",
+      "name": "Cast Locate Animals or Plants (2 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "78",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "b972626e-a09a-402d-ab0e-4fd89b70637c",
+      "name": "Cast Speak with Animals (1 Charge)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "147",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "64946514-99ad-4e80-a36c-36381b9442f5",
+      "name": "Cast Speak with Plants (3 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "338",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "b288e959-8df3-42dc-8f50-37bcc44b989c",
+      "name": "Cast Wall of Thorns (6 Charges)",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "303",
+        "type": "ADD_SPELL",
+        "typeStr": "ADD_SPELL"
+      },
+      "id": "acfb4c97-9b85-465f-8492-8741bcee2f79",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Staff_of_the_Woodlands",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Staff of the Woodlands",
+  "rarity": "RARE",
+  "requiresAttunement": true,
+  "type": "STAFF",
+  "valueCoin": "GOLD",
+  "weight": 4.0,
+  "weightUnit": "OUNCES"
+}

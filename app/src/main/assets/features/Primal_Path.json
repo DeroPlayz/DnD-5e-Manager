@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Choose a path that shapes the nature of your rage. Choose the Path of the Berserker, the Path of the Totem Warrior, the Path of the Ancestral Guardian, the Path of the Storm Herald or the Path of the Zealot. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.",
-            "level": 3
-        }
-    ],
-    "id": "Custombf712ada-ffd0-4b3e-99a9-f91fcf07f5d4",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Primal Path",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Choose a path that shapes the nature of your rage. Choose the Path of the Berserker, the Path of the Totem Warrior, the Path of the Ancestral Guardian, the Path of the Storm Herald or the Path of the Zealot. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.",
+      "level": 3
+    }
+  ],
+  "id": "Custombf712ada-ffd0-4b3e-99a9-f91fcf07f5d4",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Primal Path",
+  "notes": "",
+  "type": "Feat"
 }

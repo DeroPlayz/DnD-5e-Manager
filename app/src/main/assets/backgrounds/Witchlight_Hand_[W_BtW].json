@@ -1,19 +1,109 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Disguise Kit","number": 1},
-{"description": "","name": "Musical instrument of choice","number": 1}],
-"id": "8010ec3d-55d4-4564-a4fe-357919b1a777"},
-{"amountOfChoice": 2,"equipmentsModels": [{"description": "","name": "Deck of cards","number": 1},
-{"description": "","name": "Trinket","number": 1}],
-"id": "9817da11-2a2b-4ba4-9749-70e1172bfe6a"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Carnival uniform","number": 1},
-{"description": "","name": "Costume","number": 1}],
-"id": "49d619f4-5c60-452e-84b3-936bd4bd56cf"}],
-"features": [{"feat": {"descriptionModels": [{"description": "The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don't disrupt its shows or cause any other trouble","level": 1}],
-"id": "Custom0ef92ea3-4162-4c1a-aef6-b434aad43f46","isFeature": true,"jsonType": "feat","level": 1,"name": "Carnival Fixture","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 8,"id": "Custombe621bd1-bdd6-4a28-b992-2ff66f9bca8b","jsonType": "background","languages": [{"description": "One of choice","shouldSelect": true}],
-"name": "Witchlight Hand [WBtW]","skills": [{"amountOfChoice": 2,"id": "65790e89-47d6-4ecc-8de9-4063272b4fcf","skills": [{},
-{}],
-"skillsModels": [{"name": "Performance","typeName": "SKILL"},
-{"name": "Sleight of Hand","typeName": "SKILL"}]}],
-"tools": [{"description": "Disguise kit or one type of musical instrument","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Disguise Kit",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Musical instrument of choice",
+          "number": 1
+        }
+      ],
+      "id": "8010ec3d-55d4-4564-a4fe-357919b1a777"
+    },
+    {
+      "amountOfChoice": 2,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Deck of cards",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Trinket",
+          "number": 1
+        }
+      ],
+      "id": "9817da11-2a2b-4ba4-9749-70e1172bfe6a"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Carnival uniform",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Costume",
+          "number": 1
+        }
+      ],
+      "id": "49d619f4-5c60-452e-84b3-936bd4bd56cf"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don't disrupt its shows or cause any other trouble",
+            "level": 1
+          }
+        ],
+        "id": "Custom0ef92ea3-4162-4c1a-aef6-b434aad43f46",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Carnival Fixture",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 8,
+  "id": "Custombe621bd1-bdd6-4a28-b992-2ff66f9bca8b",
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "One of choice",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Witchlight Hand [WBtW]",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "65790e89-47d6-4ecc-8de9-4063272b4fcf",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Performance",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Sleight of Hand",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Disguise kit or one type of musical instrument",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}
