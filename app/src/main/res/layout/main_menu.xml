@@ -30,9 +30,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:text="Characters"
             android:textColor="#FFFFFF"
-            android:textSize="45sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_characters"
             app:layout_constraintEnd_toStartOf="@id/character_icon"
             app:layout_constraintStart_toStartOf="@id/main_menu_view_characters"
@@ -41,13 +42,14 @@
         <ImageView
             android:id="@+id/character_icon"
             android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleX=".7"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:scaleX="1"
             android:src="@drawable/character"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_characters"
             app:layout_constraintEnd_toEndOf="@id/main_menu_view_characters"
             app:layout_constraintTop_toTopOf="@id/main_menu_view_characters"
-            tools:scaleY=".7" />
+            tools:scaleY="1" />
 
         <Button
             android:id="@+id/main_menu_view_data"
@@ -67,9 +69,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:text="Information"
             android:textColor="#FFFFFF"
-            android:textSize="45sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_data"
             app:layout_constraintEnd_toStartOf="@id/info_icon"
             app:layout_constraintStart_toStartOf="@id/main_menu_view_data"
@@ -78,13 +81,14 @@
         <ImageView
             android:id="@+id/info_icon"
             android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleX=".7"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:scaleX="1"
             android:src="@drawable/book"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_data"
             app:layout_constraintEnd_toEndOf="@id/main_menu_view_data"
             app:layout_constraintTop_toTopOf="@id/main_menu_view_data"
-            tools:scaleY=".7" />
+            tools:scaleY="1" />
 
         <Button
             android:id="@+id/main_menu_dice_roller"
@@ -104,9 +108,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:text="Dice Roller"
             android:textColor="#FFFFFF"
-            android:textSize="45sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
             app:layout_constraintEnd_toStartOf="@id/dice_icon"
             app:layout_constraintStart_toStartOf="@id/main_menu_dice_roller"
@@ -115,14 +120,15 @@
         <ImageView
             android:id="@+id/dice_icon"
             android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleX=".7"
-            android:src="@drawable/d20"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
 
+            android:scaleX="1"
+            android:src="@drawable/d20"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
             app:layout_constraintEnd_toEndOf="@id/main_menu_dice_roller"
             app:layout_constraintTop_toTopOf="@id/main_menu_dice_roller"
-            tools:scaleY=".7" />
+            tools:scaleY="1" />
 
         <TextView
             android:id="@+id/Title"
@@ -153,9 +159,9 @@
             android:id="@+id/main_menu_help_page"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:contentDescription="Help page "
             android:scaleType="centerCrop"
             android:src="@drawable/skillcheck"
-            android:contentDescription="Help page "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/Title" />
 

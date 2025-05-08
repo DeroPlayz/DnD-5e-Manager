@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "You have trained to master the use of light armor, gaining the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- You gain proficiency with light armor","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Lightly Armored","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "You have trained to master the use of light armor, gaining the following benefits:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- You gain proficiency with light armor",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Lightly Armored",
+  "notes": "",
+  "type": "Feat"
+}

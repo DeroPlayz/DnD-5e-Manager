@@ -3,6 +3,7 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
 import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -230,6 +231,7 @@ public class CharacterMoreInfo extends Fragment {
                 BackgroundAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 EditBackground.setAdapter(BackgroundAdapter);
                 LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public void onDismiss(DialogInterface dialog) {
                         Background.setText("Background: " + EditBackground.getSelectedItem().toString());
@@ -251,6 +253,7 @@ public class CharacterMoreInfo extends Fragment {
                 AlignmentAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                 EditAlignment.setAdapter(AlignmentAdapter);
                 LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public void onDismiss(DialogInterface dialog) {
                         Alignment.setText("Alignment: " + EditAlignment.getSelectedItem().toString());

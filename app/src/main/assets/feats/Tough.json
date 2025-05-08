@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Tough","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Tough",
+  "notes": "",
+  "type": "Feat"
+}

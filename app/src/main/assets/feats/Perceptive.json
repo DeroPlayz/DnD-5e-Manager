@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "You hone your senses until they become razor sharp. You gain the following benefits:\n\n- Increase your Wisdom score by 1, to a maximum of 20.\n\n- You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n\n- Being in a lightly obscured area doesn't impose disadvantage on your Perception checks if you can both see and hear","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Perceptive","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "You hone your senses until they become razor sharp. You gain the following benefits:\n\n- Increase your Wisdom score by 1, to a maximum of 20.\n\n- You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n\n- Being in a lightly obscured area doesn't impose disadvantage on your Perception checks if you can both see and hear",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Perceptive",
+  "notes": "",
+  "type": "Feat"
+}

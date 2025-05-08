@@ -483,6 +483,8 @@ public class Methods {
                     ));
                     Log.d("Class #" + ClassNumber, jsonObject.getString("name"));
                     ClassNumber++;
+//                    Log.d("Selectable Features", String.valueOf(jsonObject.getJSONArray("selectableFeatures").length()));
+//                    Log.d("Class Features", jsonObject.getJSONArray("selectableFeatures").getJSONObject(0).getJSONArray("availableFeatures").getJSONObject(0).getJSONObject("feat").getString("name"));
                 }
             }
         }
@@ -600,6 +602,32 @@ public class Methods {
             throw new RuntimeException(e);
         }
     }
+
+//    public static void assignFeatures(Context context){
+//        Log.d("Jason", "He was just born in Assigning.");
+//        String dir = "dndclasses";
+//        AM = context.getAssets();
+//        try {
+//            String[] fileNames = AM.list(dir);
+//            if (fileNames != null) {
+//                int j = 0;
+//                for (String fileName : fileNames) {
+//                    String fullPath = dir + "/" + fileName;
+//                    InputStream inputStream = AM.open(fullPath);
+//                    int size = inputStream.available();
+//                    byte[] buffer = new byte[size];
+//                    inputStream.read(buffer);
+//                    inputStream.close();
+//                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+//                    JSONObject jsonObject = new JSONObject(jsonString);
+//                }
+//            }
+//        }
+//        catch (Exception e){
+//            Log.d("Jason?", "Shot dead in Assigning.");
+//            throw new RuntimeException(e);
+//        }
+//    }
 
     public static void parseFeatures(Context context, String dir) {
         Log.d("Jason", "He was just born in Feature.");

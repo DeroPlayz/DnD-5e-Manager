@@ -15,5 +15,6 @@
     "level": 1,
     "name": "Action Surge",
     "notes": "",
-    "type": "Feat"
+    "type": "Feat",
+    "classes": ["Bard", "Cleric"]
 }

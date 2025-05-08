@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "You gain proficiency in any combination of 3 skills or tools of your choice","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Skilled","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "You gain proficiency in any combination of 3 skills or tools of your choice",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Skilled",
+  "notes": "",
+  "type": "Feat"
+}

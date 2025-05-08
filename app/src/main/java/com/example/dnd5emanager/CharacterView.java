@@ -4,6 +4,7 @@ import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.Skills;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,8 +17,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.dnd5emanager.DataClasses.CharacterClass;
 import com.example.dnd5emanager.DataClasses.Constants;
 import com.example.dnd5emanager.DataClasses.Methods;
+import com.example.dnd5emanager.DataClasses.PlayerCharacter;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
 import java.io.File;
@@ -77,6 +80,17 @@ public class CharacterView extends Fragment {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToDiceRoller);
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+    }
+
+    public void levelUp(PlayerCharacter Character, CharacterClass Class, int Level){
+        Character.getPlayerClasses().get(Character.getPlayerClasses().indexOf(Class)).setLevel(Level);
+        int CurrentLevel = Character.getPlayerClasses().get(Character.getPlayerClasses().indexOf(Class)).getLevel();
+        if(CurrentLevel == 4 || CurrentLevel == 8 || CurrentLevel == 12 || CurrentLevel == 16 || CurrentLevel == 19){
+//            abilityScoreImprovement();
+        }
+        AlertDialog.Builder FeaturesDialog;
+        StringBuilder Features;
+
     }
 
     public void loadName(View view){

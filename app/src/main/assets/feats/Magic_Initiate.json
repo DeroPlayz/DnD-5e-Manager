@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice from that class's spell list.\n\nIn addition, choose one 1st-level spell from that same list. You learn that spell and, using this feat, can cast it at its lowest level. Once you cast it in this way, you must finish a long rest before you can cast it in this way again.\n\nYour spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Magic Initiate","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice from that class's spell list.\n\nIn addition, choose one 1st-level spell from that same list. You learn that spell and, using this feat, can cast it at its lowest level. Once you cast it in this way, you must finish a long rest before you can cast it in this way again.\n\nYour spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Magic Initiate",
+  "notes": "",
+  "type": "Feat"
+}

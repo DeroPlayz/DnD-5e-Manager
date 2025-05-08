@@ -8,6 +8,76 @@
     android:background="#8193B4"
     tools:context=".CharacterView">
 
+    <ImageView
+        android:id="@+id/about_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_about"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_about" />
+
+    <ImageView
+        android:id="@+id/personality_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_personality"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_personality" />
+
+    <ImageView
+        android:id="@+id/bonds_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_bonds"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_bonds" />
+
+    <ImageView
+        android:id="@+id/ideals_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_ideals"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_ideals" />
+
+    <ImageView
+        android:id="@+id/flaws_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_flaws"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_flaws" />
+
+    <ImageView
+        android:id="@+id/background_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_background" />
+
+    <ImageView
+        android:id="@+id/alignment_pencil"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/pencil"
+        app:layout_constraintBottom_toBottomOf="@id/character_more_info_alignment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/character_more_info_alignment" />
+
     <Button
         android:id="@+id/character_more_info_back_button"
         android:layout_width="50dp"
@@ -29,101 +99,93 @@
 
     <TextView
         android:id="@+id/character_more_info_about"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ About:"
+        android:text="About:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/character_more_info_flaws"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ Flaws:"
+        android:text="Flaws:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_ideals" />
 
     <TextView
         android:id="@+id/character_more_info_background"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ Background:"
+        android:text="Background:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_flaws" />
 
     <TextView
         android:id="@+id/character_more_info_alignment"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ Alignment:"
+        android:text="Alignment:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_background" />
 
     <TextView
         android:id="@+id/character_more_info_bonds"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ Bonds:"
+        android:text="Bonds:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_personality" />
 
     <TextView
         android:id="@+id/character_more_info_personality"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ Personality Traits:"
+        android:text="Personality Traits:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_about" />
 
     <TextView
         android:id="@+id/character_more_info_ideals"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:text="✏ Ideals:"
+        android:text="Ideals:"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/about_pencil"
         app:layout_constraintTop_toBottomOf="@id/character_more_info_bonds" />
 
     <TextView

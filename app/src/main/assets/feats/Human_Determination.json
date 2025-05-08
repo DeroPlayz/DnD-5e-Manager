@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Prerequisite: Human\n\nYou are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:\n\n- Increase one ability score of your choice by 1, to a maximum of 20.\n\n- When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can't use it again until you finish a short or long rest.","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Human Determination","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisite: Human\n\nYou are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:\n\n- Increase one ability score of your choice by 1, to a maximum of 20.\n\n- When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can't use it again until you finish a short or long rest.",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Human Determination",
+  "notes": "",
+  "type": "Feat"
+}

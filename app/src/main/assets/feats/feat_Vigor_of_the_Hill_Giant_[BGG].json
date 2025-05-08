@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Prerequisites: 4th level, strike of the giants (hill strike) feat\n\nYou've manifested the resilience emblematic of hill giants, granting you the following benefits:\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20.\n\nBulwark. When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren't moved and don't have the prone condition.\n\nIron Stomach. Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus","level": 4}],
-"id": "Custom90639136-ad48-4011-b74f-a5b8b1ff3ede","isFeature": false,"jsonType": "feat","level": 1,"name": "Vigor of the Hill Giant [BGG]","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisites: 4th level, strike of the giants (hill strike) feat\n\nYou've manifested the resilience emblematic of hill giants, granting you the following benefits:\nAbility Score Increase. Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20.\n\nBulwark. When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren't moved and don't have the prone condition.\n\nIron Stomach. Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus",
+      "level": 4
+    }
+  ],
+  "id": "Custom90639136-ad48-4011-b74f-a5b8b1ff3ede",
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Vigor of the Hill Giant [BGG]",
+  "notes": "",
+  "type": "Feat"
+}
