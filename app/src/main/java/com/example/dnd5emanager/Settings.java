@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.databinding.HelpBinding;
+
 import com.example.dnd5emanager.databinding.SettingsBinding;
 
 import java.util.ArrayList;

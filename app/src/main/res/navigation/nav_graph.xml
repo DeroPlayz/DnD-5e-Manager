@@ -152,15 +152,15 @@
         android:id="@+id/spellsInformation"
         android:name="com.example.dnd5emanager.spellsInformation"
         android:label="fragment_spells_information"
-        tools:layout="@layout/fragment_spells_information" />
+        tools:layout="@layout/spells_information" />
     <fragment
         android:id="@+id/weaponsInformation"
         android:name="com.example.dnd5emanager.weaponsInformation"
         android:label="fragment_weapons_information"
-        tools:layout="@layout/fragment_weapons_information" />
+        tools:layout="@layout/weapons_information" />
     <fragment
         android:id="@+id/armorInformation"
-        android:name="com.example.dnd5emanager.armorInformation"
+        android:name="com.example.dnd5emanager.ArmorInformation"
         android:label="fragment_armor_information"
-        tools:layout="@layout/fragment_armor_information" />
+        tools:layout="@layout/armor_information" />
 </navigation>

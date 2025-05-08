@@ -1,22 +1,16 @@
 package com.example.dnd5emanager;
-
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.dnd5emanager.databinding.SpellsInformationBinding;
+import com.example.dnd5emanager.databinding.ArmorInformationBinding;
 
-
-public class spellsInformation extends Fragment {
-
-    private SpellsInformationBinding binding;
-
+public class ArmorInformation extends Fragment {
+    private ArmorInformationBinding binding;
 
     @Override
     public View onCreateView(
@@ -24,7 +18,7 @@ public class spellsInformation extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = SpellsInformationBinding.inflate(inflater, container, false);
+        binding = ArmorInformationBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -33,7 +27,7 @@ public class spellsInformation extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.backtodataview.setOnClickListener(v ->
-                NavHostFragment.findNavController(spellsInformation.this).navigate(R.id.goToMainMenu));
+                NavHostFragment.findNavController(ArmorInformation.this).navigate(R.id.goToMainMenu));
     }
 
     @Override
