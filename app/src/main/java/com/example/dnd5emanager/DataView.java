@@ -39,7 +39,12 @@ public class DataView extends Fragment {
 
         binding.dataViewBack.setOnClickListener(v ->
                 NavHostFragment.findNavController(DataView.this).navigate(R.id.goToMainMenu));
-
+        binding.spellsinfo.setOnClickListener(v ->
+                NavHostFragment.findNavController(DataView.this).navigate(R.id.goTospellsInformation));
+        binding.weaponsinfo.setOnClickListener(v ->
+                NavHostFragment.findNavController(DataView.this).navigate(R.id.goToweaponsInfomration));
+        binding.armorinfo.setOnClickListener(v ->
+                NavHostFragment.findNavController(DataView.this).navigate(R.id.goToarmorInformation));
     }
 
     public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));

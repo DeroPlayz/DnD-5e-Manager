@@ -10,17 +10,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-
-import com.example.dnd5emanager.databinding.SettingsBinding;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.dnd5emanager.databinding.SpellsInformationBinding;
 
 
-public class Settings extends Fragment {
+public class spellsInformation extends Fragment {
 
-    private SettingsBinding binding;
+    private SpellsInformationBinding binding;
+
 
     @Override
     public View onCreateView(
@@ -28,7 +24,7 @@ public class Settings extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = SettingsBinding.inflate(inflater, container, false);
+        binding = SpellsInformationBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -36,12 +32,9 @@ public class Settings extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.SettingsBack.setOnClickListener(v ->
-                NavHostFragment.findNavController(Settings.this).navigate(R.id.goToMainMenu));
-
+        binding.backtodataview.setOnClickListener(v ->
+                NavHostFragment.findNavController(spellsInformation.this).navigate(R.id.goToMainMenu));
     }
-
-    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
 
     @Override
     public void onDestroyView() {

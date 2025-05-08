@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dragon_background"
     tools:context=".MainMenu">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -57,6 +58,7 @@
             android:contentDescription="Information page  "
             app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/main_menu_view_characters" />
 
@@ -116,6 +118,7 @@
             android:layout_height="100dp"
             android:scaleX=".7"
             android:src="@drawable/d20"
+
             app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
             app:layout_constraintEnd_toEndOf="@id/main_menu_dice_roller"
             app:layout_constraintTop_toTopOf="@id/main_menu_dice_roller"
@@ -123,12 +126,15 @@
 
         <TextView
             android:id="@+id/Title"
-            android:layout_width="123dp"
-            android:layout_height="72dp"
+            android:layout_width="148dp"
+            android:layout_height="70dp"
+            android:background="#CDCECE"
             android:text="5e Manager"
-            android:textSize="25dp"
+            android:textColor="#000"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

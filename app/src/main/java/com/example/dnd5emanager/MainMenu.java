@@ -38,10 +38,8 @@ public class MainMenu extends Fragment {
 //        binding.mainMenuViewDMMenu.setOnClickListener(v ->
 //                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToDMManager)
 //        );
-//        binding.mainMenuViewData.setOnClickListener(v ->
-//                NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)
-//        );`
-
+  binding.mainMenuViewData.setOnClickListener(v ->
+          NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToData)   );
         binding.mainMenuSettings.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToSettings)
         );
