@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.media3.exoplayer)
     implementation(libs.firebase.crashlytics.buildtools)
     implementation(libs.legacy.support.v4)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
