@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Prerequisites: 4th level, strike of the giants (frost strike) feat\n\nYou've manifested the icy might emblematic of frost giants, granting you the following benefits:\n\n- Ability Score Increase: Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20.\n\n- Born of Ice: You have resistance to cold damage.\n\n- Frigid Retaliation: Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 4}],
-"id": "Custom34c44496-389b-4f9d-9924-8027e0567ce4","isFeature": false,"jsonType": "feat","level": 1,"name": "Fury of the Frost Giant [BGG]","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisites: 4th level, strike of the giants (frost strike) feat\n\nYou've manifested the icy might emblematic of frost giants, granting you the following benefits:\n\n- Ability Score Increase: Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20.\n\n- Born of Ice: You have resistance to cold damage.\n\n- Frigid Retaliation: Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+      "level": 4
+    }
+  ],
+  "id": "Custom34c44496-389b-4f9d-9924-8027e0567ce4",
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Fury of the Frost Giant [BGG]",
+  "notes": "",
+  "type": "Feat"
+}

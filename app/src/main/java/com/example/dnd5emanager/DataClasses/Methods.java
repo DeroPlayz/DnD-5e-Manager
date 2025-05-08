@@ -483,6 +483,7 @@ public class Methods {
                     ));
                     Log.d("Class #" + ClassNumber, jsonObject.getString("name"));
                     ClassNumber++;
+                    Log.d("Class Features", jsonObject.getJSONObject("selectableFeatures").getJSONArray("availableFeatures").getJSONArray(0).getJSONObject(0).getJSONArray("descriptionModels").getJSONObject(0).getString("description"));
                 }
             }
         }

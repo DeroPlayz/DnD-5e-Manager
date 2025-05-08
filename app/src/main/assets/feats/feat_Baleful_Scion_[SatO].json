@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Prerequisites: 4th level, scion of the outer planes (evil outer plane) feat\n\nYou can channel cosmic forces of evil to gain these benefits:\n\n- Ability Score Increase: Increase one ability score of your choice by 1, to a maximum of 20.\n\n- Grasp of Avarice: Once per turn, when you damage a creature you can see within 60 feet of yourself, you can also deal necrotic damage to it. The necrotic damage equals 1d6 + your proficiency bonus, and you regain a number of hit points equal to this necrotic damage dealt. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest","level": 4}],
-"id": "Customa0a99848-cf96-458e-a9ff-b338c5a37eb3","isFeature": false,"jsonType": "feat","level": 1,"name": "Baleful Scion [SatO]","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisites: 4th level, scion of the outer planes (evil outer plane) feat\n\nYou can channel cosmic forces of evil to gain these benefits:\n\n- Ability Score Increase: Increase one ability score of your choice by 1, to a maximum of 20.\n\n- Grasp of Avarice: Once per turn, when you damage a creature you can see within 60 feet of yourself, you can also deal necrotic damage to it. The necrotic damage equals 1d6 + your proficiency bonus, and you regain a number of hit points equal to this necrotic damage dealt. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
+      "level": 4
+    }
+  ],
+  "id": "Customa0a99848-cf96-458e-a9ff-b338c5a37eb3",
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Baleful Scion [SatO]",
+  "notes": "",
+  "type": "Feat"
+}

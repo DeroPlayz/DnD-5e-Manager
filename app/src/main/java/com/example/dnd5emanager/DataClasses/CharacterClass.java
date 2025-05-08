@@ -52,7 +52,7 @@ public class CharacterClass {
             BaseAC = baseAC;
             SelectableClassSkills = selectableClassSkills;
             SelectableSkillCount = selectableSkillCount;
-            this.ClassFeatures = ClassFeatures;
+//            this.ClassFeatures = ClassFeatures;
     }
 
     public CharacterClass(){

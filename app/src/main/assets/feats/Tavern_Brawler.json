@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:\n\n- Increase your Strength or Constitution score by 1, to a maximum of 20.\n- You are proficient with improvised weapons and unarmed strikes.\n- Your unarmed strikes use a d4 for damage.\n- When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target. A grapple check is a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Tavern Brawler","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:\n\n- Increase your Strength or Constitution score by 1, to a maximum of 20.\n- You are proficient with improvised weapons and unarmed strikes.\n- Your unarmed strikes use a d4 for damage.\n- When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target. A grapple check is a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Tavern Brawler",
+  "notes": "",
+  "type": "Feat"
+}

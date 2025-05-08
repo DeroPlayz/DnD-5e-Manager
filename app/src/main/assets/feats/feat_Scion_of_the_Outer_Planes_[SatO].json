@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion table. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).\n\nPlane --> Damage Resistance --> Cantrip\nChaotic Outer Plane --> Poison --> Minor illusion\nEvil Outer Plane --> Necrotic --> Chill touch\nGood Outer Plane --> Radiant --> Sacred flame\nLawful Outer Plane --> Force --> Guidance\nThe Outlands --> Psychic --> Mage Hand","level": 1}],
-"id": "Customf811fc3e-c17b-4801-8c9e-e6721934c172","isFeature": false,"jsonType": "feat","level": 1,"name": "Scion of the Outer Planes [SatO]","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion table. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).\n\nPlane --> Damage Resistance --> Cantrip\nChaotic Outer Plane --> Poison --> Minor illusion\nEvil Outer Plane --> Necrotic --> Chill touch\nGood Outer Plane --> Radiant --> Sacred flame\nLawful Outer Plane --> Force --> Guidance\nThe Outlands --> Psychic --> Mage Hand",
+      "level": 1
+    }
+  ],
+  "id": "Customf811fc3e-c17b-4801-8c9e-e6721934c172",
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Scion of the Outer Planes [SatO]",
+  "notes": "",
+  "type": "Feat"
+}

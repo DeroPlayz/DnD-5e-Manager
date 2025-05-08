@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Your extensive study of nature rewards you with the following benefits:\n\n- Increase your Intelligence score by 1, to a maximum of 20.\n\n- You gain proficiency in the Nature skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n\n- You learn the Druidcraft and Detect Poison and Disease spells. You can cast Detect Poison and Disease once without expending a spell slot, and you regain the ability to do so when you finish a long rest","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Naturalist","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Your extensive study of nature rewards you with the following benefits:\n\n- Increase your Intelligence score by 1, to a maximum of 20.\n\n- You gain proficiency in the Nature skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n\n- You learn the Druidcraft and Detect Poison and Disease spells. You can cast Detect Poison and Disease once without expending a spell slot, and you regain the ability to do so when you finish a long rest",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Naturalist",
+  "notes": "",
+  "type": "Feat"
+}

@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Prerequisite: Proficiency with heavy armor\n\nYou can use your armor to deflect strikes that would kill others. You gain the following benefits:\n\n- Increase your Strength score by 1, to a maximum of 20.\n- While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from non-magical weapons is reduced by 3","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Heavy Armor Master","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisite: Proficiency with heavy armor\n\nYou can use your armor to deflect strikes that would kill others. You gain the following benefits:\n\n- Increase your Strength score by 1, to a maximum of 20.\n- While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from non-magical weapons is reduced by 3",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Heavy Armor Master",
+  "notes": "",
+  "type": "Feat"
+}

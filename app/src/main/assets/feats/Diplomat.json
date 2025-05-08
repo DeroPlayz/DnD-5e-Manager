@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "You master the arts of diplomacy, gaining the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n- You gain proficiency in the Persuasion skill. If you are already proficient in this skill, you add double your proficiency bonus to checks you make with it.\n- If you spend 1 minute talking to someone who can understand what you say, you can make a Persuasion check contested by the creature's Insight check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Diplomat","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "You master the arts of diplomacy, gaining the following benefits:\n\n- Increase your Charisma score by 1, to a maximum of 20.\n- You gain proficiency in the Persuasion skill. If you are already proficient in this skill, you add double your proficiency bonus to checks you make with it.\n- If you spend 1 minute talking to someone who can understand what you say, you can make a Persuasion check contested by the creature's Insight check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Diplomat",
+  "notes": "",
+  "type": "Feat"
+}

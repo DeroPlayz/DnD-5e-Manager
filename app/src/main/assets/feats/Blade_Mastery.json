@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "You master the shortsword, longsword, scimitar, rapier, and greatsword. You gain the following benefits when using any of them:\n\n- You gain a +1 bonus to attack rolls you make with the weapon.\n- On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants a +1 bonus to your AC until the start of your next turn or until you're not holding the weapon.\n- When you make an opportunity attack with the weapon, you have advantage on the attack roll","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Blade Mastery","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "You master the shortsword, longsword, scimitar, rapier, and greatsword. You gain the following benefits when using any of them:\n\n- You gain a +1 bonus to attack rolls you make with the weapon.\n- On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants a +1 bonus to your AC until the start of your next turn or until you're not holding the weapon.\n- When you make an opportunity attack with the weapon, you have advantage on the attack roll",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Blade Mastery",
+  "notes": "",
+  "type": "Feat"
+}

@@ -1,2 +1,15 @@
-{"descriptionModels": [{"description": "You have honed your proficiency with particular skills, granting you the following benefits:\n\n- Increase one ability score of your choice by 1, to a maximum of 20.\n\n- You gain proficiency in one skill of your choice.\n\n- Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus","level": 1}],
-"id": "Custom0f4e3d83-f358-41be-9b78-adc83c64ffa4","isFeature": false,"jsonType": "feat","level": 1,"name": "Skill Expert [TCE]","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "You have honed your proficiency with particular skills, granting you the following benefits:\n\n- Increase one ability score of your choice by 1, to a maximum of 20.\n\n- You gain proficiency in one skill of your choice.\n\n- Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus",
+      "level": 1
+    }
+  ],
+  "id": "Custom0f4e3d83-f358-41be-9b78-adc83c64ffa4",
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Skill Expert [TCE]",
+  "notes": "",
+  "type": "Feat"
+}

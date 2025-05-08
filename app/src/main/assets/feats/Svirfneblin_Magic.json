@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Prerequisite: Gnome (deep gnome)\n\nYou have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast Nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: \n\nBlindness/Deafness, Blur, and Disguise Self. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Svirfneblin Magic","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisite: Gnome (deep gnome)\n\nYou have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast Nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: \n\nBlindness/Deafness, Blur, and Disguise Self. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Svirfneblin Magic",
+  "notes": "",
+  "type": "Feat"
+}

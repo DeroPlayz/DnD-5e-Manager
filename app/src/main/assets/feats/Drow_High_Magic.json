@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Prerequisite: Elf (drow)\n\n- You learn more of the magic typical of dark elves. \n\n- You learn the Detect Magic spell and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once without expending a spell slot. \n\n- You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Drow High Magic","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisite: Elf (drow)\n\n- You learn more of the magic typical of dark elves. \n\n- You learn the Detect Magic spell and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once without expending a spell slot. \n\n- You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for these spells",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Drow High Magic",
+  "notes": "",
+  "type": "Feat"
+}

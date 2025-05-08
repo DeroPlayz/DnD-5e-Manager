@@ -1,2 +1,14 @@
-{"descriptionModels": [{"description": "Prerequisite: Proficiency with light armor\n\nYou have trained to master the use of medium armor and shields, gaining the following benefit:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- You gain proficiency with medium armor and shields","level": 1}],
-"isFeature": false,"jsonType": "feat","level": 1,"name": "Moderately Armored","notes": "","type": "Feat"}
+{
+  "descriptionModels": [
+    {
+      "description": "Prerequisite: Proficiency with light armor\n\nYou have trained to master the use of medium armor and shields, gaining the following benefit:\n\n- Increase your Strength or Dexterity score by 1, to a maximum of 20.\n- You gain proficiency with medium armor and shields",
+      "level": 1
+    }
+  ],
+  "isFeature": false,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Moderately Armored",
+  "notes": "",
+  "type": "Feat"
+}

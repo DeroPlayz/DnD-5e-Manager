@@ -206,25 +206,6 @@ public class CharacterCreatorPageOne extends Fragment {
             Wisdom = view.findViewById(R.id.EDIT_WISDOM);
             Charisma = view.findViewById(R.id.EDIT_CHARISMA);
 
-//            if(!Strength.getText().toString().isEmpty()){
-//                NewCharacter.getBaseAbilityScores().put(Constants.Strength, (Integer.parseInt(Strength.getText().toString())));
-//            }
-//            if(!Dexterity.getText().toString().isEmpty()){
-//                NewCharacter.getBaseAbilityScores().put(Constants.Dexterity, (Integer.parseInt(Dexterity.getText().toString())));
-//            }
-//            if(!Constitution.getText().toString().isEmpty()){
-//                NewCharacter.getBaseAbilityScores().put(Constants.Constitution, (Integer.parseInt(Constitution.getText().toString())));
-//            }
-//            if(!Intelligence.getText().toString().isEmpty()){
-//                NewCharacter.getBaseAbilityScores().put(Constants.Intelligence, (Integer.parseInt(Intelligence.getText().toString())));
-//            }
-//            if(!Wisdom.getText().toString().isEmpty()){
-//                NewCharacter.getBaseAbilityScores().put(Constants.Wisdom, (Integer.parseInt(Wisdom.getText().toString())));
-//            }
-//            if(!Charisma.getText().toString().isEmpty()){
-//                NewCharacter.getBaseAbilityScores().put(Constants.Charisma, (Integer.parseInt(Charisma.getText().toString())));
-//            }
-
             Snackbar snackbar = Snackbar.make(v, "", Snackbar.LENGTH_LONG);
             ArrayList<String> MissingData = new ArrayList<>();
 
