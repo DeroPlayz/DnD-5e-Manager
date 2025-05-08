@@ -33,7 +33,7 @@ public class spellsInformation extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.backtodataview.setOnClickListener(v ->
-                NavHostFragment.findNavController(spellsInformation.this).navigate(R.id.goToMainMenu));
+                NavHostFragment.findNavController(spellsInformation.this).navigate(R.id.goToData));
     }
 
     @Override
