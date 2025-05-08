@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout11"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/swordfight"
     tools:context=".weaponsInformation">
 
     <Button
