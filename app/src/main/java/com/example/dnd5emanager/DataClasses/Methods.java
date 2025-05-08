@@ -601,13 +601,30 @@ public class Methods {
         }
     }
 
-//    public static void assignFeatures(){
-//        ArrayList<CharacterClass> AllClasses = new ArrayList<>(Arrays.asList(Constants.Classes.values().toArray(new CharacterClass[0])));
-//        ArrayList<Feature> AllFeatures = new ArrayList<>(Arrays.asList(Constants.Features.values().toArray(new Feature[0])));
-//        for(int i = 0; i < AllClasses.size(); i++){
-//            if(AllFeatures.get(i).)
+//    public static void assignFeatures(Context context){
+//        Log.d("Jason", "He was just born in Assigning.");
+//        String dir = "dndclasses";
+//        AM = context.getAssets();
+//        try {
+//            String[] fileNames = AM.list(dir);
+//            if (fileNames != null) {
+//                int j = 0;
+//                for (String fileName : fileNames) {
+//                    String fullPath = dir + "/" + fileName;
+//                    InputStream inputStream = AM.open(fullPath);
+//                    int size = inputStream.available();
+//                    byte[] buffer = new byte[size];
+//                    inputStream.read(buffer);
+//                    inputStream.close();
+//                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+//                    JSONObject jsonObject = new JSONObject(jsonString);
+//                }
+//            }
 //        }
-//        Constants.Features.get()
+//        catch (Exception e){
+//            Log.d("Jason?", "Shot dead in Assigning.");
+//            throw new RuntimeException(e);
+//        }
 //    }
 
     public static void parseFeatures(Context context, String dir) {

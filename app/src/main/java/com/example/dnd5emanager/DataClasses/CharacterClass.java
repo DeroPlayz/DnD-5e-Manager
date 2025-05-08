@@ -44,7 +44,7 @@ public class CharacterClass {
 
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,
         int attacksByLevel, int baseAC, String[] selectableClassSkills,
-        int selectableSkillCount){
+        int selectableSkillCount/*, ArrayList<Feature> ClassFeatures*/){
             Name = name;
             HitDie = hitDie;
             ArmorProficiencies = armorProficiencies;
@@ -52,6 +52,7 @@ public class CharacterClass {
             BaseAC = baseAC;
             SelectableClassSkills = selectableClassSkills;
             SelectableSkillCount = selectableSkillCount;
+            this.ClassFeatures = ClassFeatures;
     }
 
     public CharacterClass(){

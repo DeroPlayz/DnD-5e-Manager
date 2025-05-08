@@ -4,6 +4,7 @@ import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
 import static com.example.dnd5emanager.DataClasses.Constants.Skills;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -87,8 +88,8 @@ public class CharacterView extends Fragment {
         if(CurrentLevel == 4 || CurrentLevel == 8 || CurrentLevel == 12 || CurrentLevel == 16 || CurrentLevel == 19){
 //            abilityScoreImprovement();
         }
-//        AlertDialog.Builder FeaturesDialog;
-//        StringBuilder Features;
+        AlertDialog.Builder FeaturesDialog;
+        StringBuilder Features;
 
     }
 
