@@ -483,7 +483,8 @@ public class Methods {
                     ));
                     Log.d("Class #" + ClassNumber, jsonObject.getString("name"));
                     ClassNumber++;
-                    Log.d("Class Features", jsonObject.getJSONObject("selectableFeatures").getJSONArray("availableFeatures").getJSONArray(0).getJSONObject(0).getJSONArray("descriptionModels").getJSONObject(0).getString("description"));
+//                    Log.d("Selectable Features", String.valueOf(jsonObject.getJSONArray("selectableFeatures").length()));
+//                    Log.d("Class Features", jsonObject.getJSONArray("selectableFeatures").getJSONObject(0).getJSONArray("availableFeatures").getJSONObject(0).getJSONObject("feat").getString("name"));
                 }
             }
         }
