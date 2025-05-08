@@ -127,11 +127,13 @@
             android:id="@+id/Title"
             android:layout_width="148dp"
             android:layout_height="70dp"
+            android:background="#CDCECE"
             android:text="5e Manager"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
