@@ -31,7 +31,7 @@ private WeaponsInformationBinding binding;
         super.onViewCreated(view, savedInstanceState);
 
         binding.backtodataview.setOnClickListener(v ->
-                NavHostFragment.findNavController(weaponsInformation.this).navigate(R.id.goToMainMenu));
+                NavHostFragment.findNavController(weaponsInformation.this).navigate(R.id.goToData));
     }
 
     @Override

@@ -27,7 +27,7 @@ public class ArmorInformation extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.backtodataview.setOnClickListener(v ->
-                NavHostFragment.findNavController(ArmorInformation.this).navigate(R.id.goToMainMenu));
+                NavHostFragment.findNavController(ArmorInformation.this).navigate(R.id.goToData));
     }
 
     @Override
