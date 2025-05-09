@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.418" />
 
     <TextView
-        android:id="@+id/SpellDescrition"
+        android:id="@+id/SpellDescription"
         android:layout_width="400dp"
         android:layout_height="100dp"
         android:background="#896F6F"
