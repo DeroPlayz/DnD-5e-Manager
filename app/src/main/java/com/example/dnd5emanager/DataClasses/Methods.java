@@ -1,6 +1,23 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*
+import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
+import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
+import static com.example.dnd5emanager.DataClasses.Constants.Feats;
+import static com.example.dnd5emanager.DataClasses.Constants.Features;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
+import static com.example.dnd5emanager.DataClasses.Constants.Items;
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Spells;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
+import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
+import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -84,6 +101,13 @@ public class Methods {
             @Override
             public void run(){
                 parseItems(c, "items");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseWeapons(c, "weapons");
             }
         });
 
@@ -762,6 +786,62 @@ public class Methods {
         }
         catch (IOException | JSONException e){
             Log.d("Jason?", "Shot dead in Item.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void parseWeapons(Context context, String dir) {
+        Log.d("Jason", "He was just born in Weapon.");
+        AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                int i = 0;
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    Weapons.put(jsonObject.getString("name"), new Weapon(
+                            jsonObject.getString("name"),
+                            jsonObject.getString("description"),
+                            jsonObject.getString("type"),
+                            jsonObject.getString("rarity"),
+                            jsonObject.getInt("extraAttackBonus"),
+                            jsonObject.getInt("damageDiceAmount"),
+                            jsonObject.getInt("diceCount"),
+                            jsonObject.getString("damageTypeName"),
+                            jsonObject.getBoolean("isSimple"),
+                            jsonObject.getBoolean("isFinesse"),
+                            jsonObject.getBoolean("isVersatile"),
+                            Integer.parseInt(jsonObject.getString("versatileDamageDie").replace("D", "")),
+                            jsonObject.getInt("versatileDamageDiceAmount"),
+                            jsonObject.getBoolean("isLight"),
+                            jsonObject.getBoolean("isHeavy"),
+                            jsonObject.getBoolean("isSilver"),
+                            jsonObject.getBoolean("twoHanded"),
+                            jsonObject.getBoolean("requiresAttunement"),
+                            jsonObject.getBoolean("isAttuned"),
+                            jsonObject.getBoolean("isSpecial"),
+                            jsonObject.getBoolean("isCustom"),
+                            jsonObject.getBoolean("isImprovised"),
+                            jsonObject.getBoolean("hasReach"),
+                            jsonObject.getBoolean("isRanged"),
+                            jsonObject.getBoolean("isThrown"),
+                            jsonObject.getBoolean("isLoading"),
+                            jsonObject.getString("ammunitionType")
+                    ));
+                    Log.d("Weapon #" + i, jsonObject.getString("name"));
+                    i++;
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Weapon.");
             throw new RuntimeException(e);
         }
     }
