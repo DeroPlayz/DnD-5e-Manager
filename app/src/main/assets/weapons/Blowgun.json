@@ -3,7 +3,7 @@
   "attackAbilityName": "Dexterity",
   "bonus": 0,
   "damageDiceAmount": 1,
-  "damageDiceName": "",
+  "damageDiceName": "1",
   "damageTypeName": "Piercing",
   "description": "",
   "extraAttackBonus": 0,

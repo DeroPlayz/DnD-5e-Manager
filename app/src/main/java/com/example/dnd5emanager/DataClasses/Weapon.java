@@ -49,6 +49,8 @@ public class Weapon {
     private final boolean isLoading;
     private final boolean isThrown;
     private final String AmmunitionType;
+    private final int normalRange;
+    private final int maxRange;
     
     public Weapon(String Name, String Description, String Type, String Rarity,
         int AttackBonus,
@@ -59,7 +61,8 @@ public class Weapon {
         boolean isSilver, boolean isTwoHanded,
         boolean requiresAttunement, boolean isAttuned,
         boolean isSpecial, boolean isCustom, boolean isImprovised,
-        boolean hasReach, boolean isRanged, boolean isLoading, boolean isThrown, String AmmunitionType
+        boolean hasReach, boolean isRanged, boolean isLoading, boolean isThrown, String AmmunitionType,
+        int normalRange, int maxRange
     ){
         this.Name = Name;
         this.Description = Description;
@@ -97,5 +100,8 @@ public class Weapon {
         this.isLoading = isLoading;
         this.isThrown = isThrown;
         this.AmmunitionType = AmmunitionType;
+
+        this.normalRange = normalRange;
+        this.maxRange = maxRange;
     }
 }

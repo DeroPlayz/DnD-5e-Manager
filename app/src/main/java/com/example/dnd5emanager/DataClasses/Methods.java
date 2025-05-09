@@ -51,7 +51,7 @@ public class Methods {
 
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(16); // Example: Thread pool with 2 threads
+        executorService = Executors.newFixedThreadPool(18); // Example: Thread pool with 2 threads
 
         executorService.execute(new Runnable() {
             @Override
@@ -806,20 +806,26 @@ public class Methods {
                     inputStream.close();
                     String jsonString = new String(buffer, StandardCharsets.UTF_8);
                     JSONObject jsonObject = new JSONObject(jsonString);
+                    int DamageDiceName = 0;
+                    Log.d("DDN #1", jsonObject.getString("damageDiceName"));
+                    Log.d("DDN #2", jsonObject.getString("damageDiceName").replace("d", ""));
+                    Log.d("DDN #3", String.valueOf(Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""))));
+                    DamageDiceName = Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""));
+                    Log.d("DDN #4", String.valueOf(DamageDiceName));
                     Weapons.put(jsonObject.getString("name"), new Weapon(
                             jsonObject.getString("name"),
                             jsonObject.getString("description"),
                             jsonObject.getString("type"),
                             jsonObject.getString("rarity"),
                             jsonObject.getInt("extraAttackBonus"),
+                            DamageDiceName,
                             jsonObject.getInt("damageDiceAmount"),
-                            jsonObject.getInt("diceCount"),
                             jsonObject.getString("damageTypeName"),
                             jsonObject.getBoolean("isSimple"),
                             jsonObject.getBoolean("isFinesse"),
                             jsonObject.getBoolean("isVersatile"),
-                            Integer.parseInt(jsonObject.getString("versatileDamageDie").replace("D", "")),
-                            jsonObject.getInt("versatileDamageDiceAmount"),
+                            Integer.parseInt(jsonObject.optString("versatileDamageDie", "0").replace("D", "")),
+                            jsonObject.optInt("versatileDamageDiceAmount", 0),
                             jsonObject.getBoolean("isLight"),
                             jsonObject.getBoolean("isHeavy"),
                             jsonObject.getBoolean("isSilver"),
@@ -833,7 +839,9 @@ public class Methods {
                             jsonObject.getBoolean("isRanged"),
                             jsonObject.getBoolean("isThrown"),
                             jsonObject.getBoolean("isLoading"),
-                            jsonObject.getString("ammunitionType")
+                            jsonObject.getString("ammunitionType"),
+                            jsonObject.optInt("normalRange", 0),
+                            jsonObject.optInt("maxRange", 0)
                     ));
                     Log.d("Weapon #" + i, jsonObject.getString("name"));
                     i++;
