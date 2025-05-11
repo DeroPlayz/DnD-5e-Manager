@@ -593,6 +593,7 @@ public class Methods {
                             jsonObject.getJSONObject("components").getBoolean("material"),
                             materialCost,
                             jsonObject.getString("description"),
+                            jsonObject.optString("higher_levels", null),
                             jsonObject.getString("duration"),
                             level,
                             jsonObject.getString("name"),

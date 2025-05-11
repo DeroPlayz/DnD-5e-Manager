@@ -58,6 +58,11 @@ public class Spell {
         return Description;
     }
 
+    private String HigherLevels;
+    public void setHigherLevels(String HigherLevels) {
+        this.HigherLevels = HigherLevels;
+    }
+
     private String Duration;
     public void setDuration(String Duration) {
         this.Duration = Duration;
@@ -107,7 +112,7 @@ public class Spell {
     }
 
     public Spell(String CastTime, String[] Classes, boolean Verbal, boolean Somatic, boolean Material,
-    String MaterialCost, String Description, String Duration, int Level, String Name, String Range,
+    String MaterialCost, String Description, String HigherLevels, String Duration, int Level, String Name, String Range,
     boolean Ritual, String School){
         this.CastTime = CastTime;
         this.Classes = Classes;
@@ -116,6 +121,9 @@ public class Spell {
         this.Material = Material;
         this.MaterialCost = MaterialCost;
         this.Description = Description;
+        if(HigherLevels != null){
+            this.Description += "\n\n" + HigherLevels;
+        }
         this.Duration = Duration;
         this.Level = Level;
         this.Name = Name;

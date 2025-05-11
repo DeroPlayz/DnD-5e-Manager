@@ -52,25 +52,55 @@ public class spellsInformation extends Fragment {
         TextView Description = view.findViewById(R.id.SpellDescription);
         TextView SupportedClasses = view.findViewById(R.id.supportedClasses);
         TextView Components = view.findViewById(R.id.spellComponents);
+        TextView SchoolAndStrength = view.findViewById(R.id.spellSchool);
 
         SpellSelected.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Spell SelectedSpell = Spells.get(SpellSelected.getSelectedItem().toString());
                 if (CastingTime != null) {
-                    CastingTime.setText(SelectedSpell.getCastTime());
+                    CastingTime.setText("Casting Time: " + SelectedSpell.getCastTime());
                 }
                 if (Range != null) {
-                    Range.setText(SelectedSpell.getRange());
+                    Range.setText("Range: " + SelectedSpell.getRange());
                 }
                 if (Description != null) {
                     Description.setText(SelectedSpell.getDescription());
                 }
                 if (SupportedClasses != null) {
-                    SupportedClasses.setText(Arrays.toString(SelectedSpell.getClasses()));
+                    SupportedClasses.setText("Supported Classes: " + Arrays.toString(SelectedSpell.getClasses()));
                 }
                 if (Components != null) {
-                    Components.setText(SelectedSpell.getMaterialCost());
+                    Components.setText("Components: " + SelectedSpell.getMaterialCost());
+                }
+                if(SchoolAndStrength != null){
+                    String School = SelectedSpell.getSchool();
+                    String Level = "";
+
+                    String FinalString = "";
+
+                    if(SelectedSpell.getLevel() == 0){
+                        Level = "Cantrip";
+                        FinalString = School + " Cantrip";
+                    }
+
+                    else{
+                        if(SelectedSpell.getLevel() == 1){
+                            Level = "1st Level";
+                        }
+                        else if(SelectedSpell.getLevel() == 2){
+                            Level = "2nd Level";
+                        }
+                        else if(SelectedSpell.getLevel() == 3){
+                            Level = "3rd Level";
+                        }
+                        else {
+                            Level = SelectedSpell.getLevel() + "th Level";
+                        }
+                        FinalString = Level + " " + School.substring(0,1).toUpperCase() + School.substring(1);
+                    }
+
+                    SchoolAndStrength.setText(FinalString);
                 }
             }
 

@@ -2,16 +2,96 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout9"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/magicduel"
     tools:context=".spellsInformation">
 
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spellSelector">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/spellSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="School of Magic:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/spellCastingTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="Cast Time"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/spellRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="Range"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/SpellDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="Description"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/supportedClasses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="Supported Classes"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/spellComponents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="Components"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
     <Spinner
         android:id="@+id/spellSelector"
-        android:layout_width="400dp"
+        android:layout_width="0dp"
         android:layout_height="80dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         android:background="#896F6F"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,83 +101,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.096" />
 
-    <TextView
-        android:id="@+id/spellCastingTime"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:background="#896F6F"
-        android:text="TextView"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.239" />
-
-    <TextView
-        android:id="@+id/spellRange"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:background="#896F6F"
-        android:text="TextView"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
-
-    <TextView
-        android:id="@+id/SpellDescription"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:background="#896F6F"
-        android:text="TextView"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.784" />
-
-    <TextView
-        android:id="@+id/supportedClasses"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:background="#896F6F"
-        android:text="TextView"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974" />
-
-    <TextView
-        android:id="@+id/spellComponents"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:background="#896F6F"
-        android:text="TextView"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599" />
-
     <Button
         android:id="@+id/backtodataview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#896F6F"
         android:text="Back"
         android:textColor="@color/black"
-        android:backgroundTint="#896F6F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.009"
