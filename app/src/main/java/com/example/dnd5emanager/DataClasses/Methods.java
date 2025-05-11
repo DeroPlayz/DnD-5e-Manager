@@ -873,6 +873,7 @@ public class Methods {
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Armor.put(jsonObject.getString("name"), new Armor(
                             jsonObject.getString("name"),
+                            jsonObject.getInt("armor"),
                             jsonObject.getString("category"),
                             jsonObject.getString("cost"),
                             jsonObject.getString("description"),
