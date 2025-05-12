@@ -1,34 +1,29 @@
 <resources>
     <string name="app_name">DnD 5e Manager</string>
     <string name="action_settings">Settings</string>
+    <string name="navigate_back">Back</string>
+    <string name="character_default_name">Name</string>
+    <string name="strength_text">Strength</string>
+    <string name="dexterity_text">Dexterity</string>
+    <string name="constitution_text">Constitution</string>
+    <string name="intelligence_text">Intelligence</string>
+    <string name="wisdom_text">Wisdom</string>
+    <string name="charisma_text">Charisma</string>
+    <string name="roll_stats">Roll Stats</string>
+    <string name="navigate_next">Next Page</string>
+    <string name="roll_health">Roll Health</string>
+    <string name="minimum_health">Minimum Health</string>
+    <string name="maximum_health">Maximum Health</string>
+    <string name="spells_text">Spells</string>
+    <string name="weapons_text" >Weapons</string>
+    <string name="armor_text">Armor</string>
+    <string name="dice_d6">6 Sided Die</string>
+    <string name="dice_d8">8 Sided Die</string>
+    <string name="dice_d10">10 Sided Die</string>
+    <string name="dice_d12">12 Sided Die</string>
+    <string name="help_search">🔍 Search for help</string>
+    <string name="text_help_center">Help Center</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Main Menu</string>
-    <string name="second_fragment_label">Character List</string>
-    <string name="third_fragment_label">Character Sheet</string>
-
-    <string name="Character">Character</string>
-    <string name="back">Back</string>
-
-    <string name="welcome_message">
-       Welcome to DND e5 manager!
-        This app is in early development and this text is a placeholder.
-
-    </string>
-    <string name="second_message">
-        this is the second view, this will be come the character section in the future.
-    </string>
-    <string name="third_message">
-        this is the third view, this will be come the character list/ selection in the future.
-    </string>
-
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <string name="fourth_message">Data</string>
-    <string name="fifth_message">DM Manager</string>
-    <string name="help_message">Help</string>
-
-    <string name="EditCharacterNameDefaultText">Character Name</string>
-    <string name="EditCharacterLevelDefaultText">1</string>
 
     <string-array name="alignment">
         <item> Lawful Good</item>

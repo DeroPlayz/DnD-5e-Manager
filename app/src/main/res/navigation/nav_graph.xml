@@ -57,21 +57,21 @@
     <fragment
         android:id="@+id/MainMenu"
         android:name="com.example.dnd5emanager.MainMenu"
-        android:label="@string/first_fragment_label"
+        android:label="@string/main_menu_label"
         tools:layout="@layout/main_menu">
     </fragment>
 
     <fragment
         android:id="@+id/CharacterList"
         android:name="com.example.dnd5emanager.CharacterList"
-        android:label="@string/second_fragment_label"
+        android:label="@string/character_list_label"
         tools:layout="@layout/character_list">
     </fragment>
 
     <fragment
         android:id="@+id/CharacterView"
         android:name="com.example.dnd5emanager.CharacterView"
-        android:label="@string/third_fragment_label"
+        android:label="@string/character_sheet_label"
         tools:layout="@layout/character_view" >
     </fragment>
 
