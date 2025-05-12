@@ -51,8 +51,7 @@ public class Methods {
 
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(18); // Example: Thread pool with 2 threads
-
+        executorService = Executors.newFixedThreadPool(18);
         executorService.execute(new Runnable() {
             @Override
             public void run() {

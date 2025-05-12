@@ -10,11 +10,11 @@
     <string name="intelligence_text">Inteligencia</string>
     <string name="wisdom_text">Sabiduría</string>
     <string name="charisma_text">Carisma</string>
-    <string name="roll_stats">Tira las estadísticas</string>
+    <string name="roll_stats">Tira las Estadísticas</string>
     <string name="navigate_next">La pagina próxima</string>
-    <string name="roll_health">Tira la salud</string>
-    <string name="minimum_health">Salud minima</string>
-    <string name="maximum_health">Salud máxima</string>
+    <string name="roll_health">Tira la Salud</string>
+    <string name="minimum_health">Salud Minima</string>
+    <string name="maximum_health">Salud Máxima</string>
     <string name="spells_text">Hechizos</string>
     <string name="weapons_text">Armas</string>
     <string name="armor_text">Armadura</string>
