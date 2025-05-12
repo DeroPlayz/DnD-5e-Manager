@@ -1,7 +1,79 @@
-{"ac":15,"actions":[{"description":"The dragon makes one Bite attack and two Claw attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"9 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 4 (1d8) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"9 to hit, reach 5 ft. one target. Hit: 8 (1d6 + 5) slashing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained. The dragon has two claws, each of which can grapple one target.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"The dragon exhales a wave of ghostly purple flames in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the breath reduces it to 0 hit points. Additionally, any Medium or smaller Humanoid killed by the breath's damage, as well as every corpse of such a creatures within the cone, becomes a zombie under the dragon's control. The zombie acts on the dragon's initiative but immediately after the dragon's turn. Absent any other command, the zombie tries to kill any non-Undead creature it encounters.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Cataclysmic Breath (Recharge 5-6)","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":18,"conditionImmunities":"exhaustion, poisoned","cr":"10","damageImmunities":"necrotic, poison","dex":10,"flySpeed":80,"hp":{"constant":84,"diceAmount":21,"diceType":"D10"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"understands Common and Draconic but can't speak","name":"Lesser Death Dragon [DSDQ]","resistances":"piercing","savingThrows":"Dex +4, Wis +4","senses":"blindsight 30 ft., darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The dragon doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":40,"str":20,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":10,"xp":5900}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The dragon makes one Bite attack and two Claw attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "9 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 4 (1d8) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "9 to hit, reach 5 ft. one target. Hit: 8 (1d6 + 5) slashing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained. The dragon has two claws, each of which can grapple one target.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "The dragon exhales a wave of ghostly purple flames in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the breath reduces it to 0 hit points. Additionally, any Medium or smaller Humanoid killed by the breath's damage, as well as every corpse of such a creatures within the cone, becomes a zombie under the dragon's control. The zombie acts on the dragon's initiative but immediately after the dragon's turn. Absent any other command, the zombie tries to kill any non-Undead creature it encounters.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Cataclysmic Breath (Recharge 5-6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 18,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "10",
+  "damageImmunities": "necrotic, poison",
+  "dex": 10,
+  "flySpeed": 80,
+  "hp": {
+    "constant": 84,
+    "diceAmount": 21,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands Common and Draconic but can't speak",
+  "name": "Lesser Death Dragon [DSDQ]",
+  "resistances": "piercing",
+  "savingThrows": "Dex +4, Wis +4",
+  "senses": "blindsight 30 ft., darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The dragon doesn't require air, food, drink, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 40,
+  "str": 20,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 5900
+}

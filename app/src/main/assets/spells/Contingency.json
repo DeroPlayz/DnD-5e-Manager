@@ -1,5 +1,31 @@
-{"casting_time": "10 minutes","classes": ["fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp"],
-"raw": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)","somatic": true,"verbal": true},
-"description": "Choose a spell of or lower that you can cast, that has a Casting Time of 1 action, and that can target you. You cast that spell, called the contingent spell, as part of casting contingency, expending Spell Slots for both, but the contingent spell doesn't come into Effect. Instead, it takes Effect when a certain circumstance occurs. You describe that circumstance when you cast the two Spells. For example, a contingency cast with Water Breathing might stipulate that Water Breathing comes into Effect when you are engulfed in water or a similar liquid.\n\nThe contingent spell takes Effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.\n\nThe contingent spell takes Effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the Effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person","duration": "10 days","level": "6","name": "Contingency","range": "Self","ritual": false,"school": "evocation","tags": ["fighter","rogue","wizard","level6"],
-"type": "6th-level evocation"}
+{
+  "casting_time": "10 minutes",
+  "classes": [
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp"
+    ],
+    "raw": "V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "Choose a spell of or lower that you can cast, that has a Casting Time of 1 action, and that can target you. You cast that spell, called the contingent spell, as part of casting contingency, expending Spell Slots for both, but the contingent spell doesn't come into Effect. Instead, it takes Effect when a certain circumstance occurs. You describe that circumstance when you cast the two Spells. For example, a contingency cast with Water Breathing might stipulate that Water Breathing comes into Effect when you are engulfed in water or a similar liquid.\n\nThe contingent spell takes Effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.\n\nThe contingent spell takes Effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the Effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person",
+  "duration": "10 days",
+  "level": "6",
+  "name": "Contingency",
+  "range": "Self",
+  "ritual": false,
+  "school": "evocation",
+  "tags": [
+    "fighter",
+    "rogue",
+    "wizard",
+    "level6"
+  ],
+  "type": "6th-level evocation"
+}

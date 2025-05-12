@@ -1,109 +1,492 @@
-{"changesNameOnAttunement": false,"description": "While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.","effects": [{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "ACROBATICS","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "9d3a28f0-201e-48dc-8330-cabf9e6a557f","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "ANIMAL_HANDLING","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "2ab03f72-4c3e-4f3f-a92a-a1ea3ab5bf59","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "ARCANA","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "3cce4d60-881a-49e9-871a-ca389cce1fa5","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "ATHLETICS","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "9e535215-3028-4a12-ab4d-71c4b0eb27e8","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "DECEPTION","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "7ff4d76e-914d-426d-9139-183daf18d7a9","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "HISTORY","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "3ee51b26-7d7b-48a2-9274-2d4d8341ca0a","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "INSIGHT","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "69ae6759-b2ef-4b39-a875-442b66f42e70","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "INTIMIDATION","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "6b5e6e4a-fe44-4a55-b223-72774c503572","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "INVESTIGATION","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "5ccb7d0a-d920-40c6-813c-eadff24d0584","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "MEDICINE","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "a41ade43-c2b7-4407-bd63-2940dd0aea25","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "NATURE","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "28ed3d00-e322-4d25-b5c9-b77e3158f2cc","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "PERCEPTION","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "f440132e-b461-4e1d-8df5-55ff23484d9d","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "PERFORMANCE","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "13bc916e-3872-4ac7-ae5a-99034c30cdd6","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "PERSUASION","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "120b0cf3-3402-4ca6-9be0-9742031c6a2c","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "RELIGION","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "c2f332ba-127c-4931-9eb9-36f8ca251d04","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "SLEIGHT_OF_HAND","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "a76d4cc2-71a6-4475-bb05-1151edbd8c73","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "STEALTH","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "0063c293-7797-41d1-a06d-97085204bfd0","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"modifier": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "SURVIVAL","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "ca523d9e-5841-4961-953b-23f55ccc6bab","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Stone_of_Good_Luck","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Stone of Good Luck","rarity": "UNCOMMON","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "ACROBATICS",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "9d3a28f0-201e-48dc-8330-cabf9e6a557f",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "ANIMAL_HANDLING",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "2ab03f72-4c3e-4f3f-a92a-a1ea3ab5bf59",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "ARCANA",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "3cce4d60-881a-49e9-871a-ca389cce1fa5",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "ATHLETICS",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "9e535215-3028-4a12-ab4d-71c4b0eb27e8",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "DECEPTION",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "7ff4d76e-914d-426d-9139-183daf18d7a9",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "HISTORY",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "3ee51b26-7d7b-48a2-9274-2d4d8341ca0a",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "INSIGHT",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "69ae6759-b2ef-4b39-a875-442b66f42e70",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "INTIMIDATION",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "6b5e6e4a-fe44-4a55-b223-72774c503572",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "INVESTIGATION",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "5ccb7d0a-d920-40c6-813c-eadff24d0584",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "MEDICINE",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "a41ade43-c2b7-4407-bd63-2940dd0aea25",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "NATURE",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "28ed3d00-e322-4d25-b5c9-b77e3158f2cc",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "PERCEPTION",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "f440132e-b461-4e1d-8df5-55ff23484d9d",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "PERFORMANCE",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "13bc916e-3872-4ac7-ae5a-99034c30cdd6",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "PERSUASION",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "120b0cf3-3402-4ca6-9be0-9742031c6a2c",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "RELIGION",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "c2f332ba-127c-4931-9eb9-36f8ca251d04",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "SLEIGHT_OF_HAND",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "a76d4cc2-71a6-4475-bb05-1151edbd8c73",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "STEALTH",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "0063c293-7797-41d1-a06d-97085204bfd0",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "SURVIVAL",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "ca523d9e-5841-4961-953b-23f55ccc6bab",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Stone_of_Good_Luck",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Stone of Good Luck",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

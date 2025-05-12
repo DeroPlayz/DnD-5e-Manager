@@ -1,7 +1,53 @@
-{"changesNameOnAttunement": false,"description": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.\n\nThe wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.","effects": [{"actualEffect": {"spellId": "55","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 7,"id": "4416ae55-3bbf-4d91-8619-7db093b3e0ae","name": "Cast Magic Missile","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 1,"diceType": "D6"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Wand_of_Magic_Missiles","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Wand of Magic Missiles","rarity": "UNCOMMON","requiresAttunement": false,"type": "WAND","valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.\n\nThe wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "55",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 7,
+      "id": "4416ae55-3bbf-4d91-8619-7db093b3e0ae",
+      "name": "Cast Magic Missile",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 1,
+        "diceType": "D6"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Wand_of_Magic_Missiles",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Wand of Magic Missiles",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": false,
+  "type": "WAND",
+  "valueCoin": "GOLD",
+  "weight": 1.0,
+  "weightUnit": "OUNCES"
+}

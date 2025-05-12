@@ -1,144 +1,144 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The Noble Genie lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSpell Level --> Spells\n1st --> fog cloud, sleep \n2nd --> enlarge/reduce, phantasmal force\n3rd --> create food and water, protection from energy\n4th --> polymorph, phantasmal killer\n5th --> Bigby's hand, creation",
+            "level": 1
+          }
+        ],
+        "id": "Customa3e8248e-c297-425a-8fff-4ce1dd4ee035",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Expanded Spell List",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The Noble Genie lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSpell Level --> Spells\n1st --> fog cloud, sleep \n2nd --> enlarge/reduce, phantasmal force\n3rd --> create food and water, protection from energy\n4th --> polymorph, phantasmal killer\n5th --> Bigby's hand, creation",
-                        "level": 1
-                    }
-                ],
-                "id": "Customa3e8248e-c297-425a-8fff-4ce1dd4ee035",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Expanded Spell List",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your patron gives you a magical vessel with which you can bind a creature to you and to your patron's menagerie. The vessel is a Tiny object, and it is a spellcasting focus for you. You decide what the object is, or you can determine what it is randomly by rolling on the Collector's Vessel table.\n\nd6 --> Vessel\n1 --> Oil lamp\n2 --> Urn\n3 --> Ring with a compartment \n4 --> Stoppered bottle \n5 --> Hollow statuette\n6 --> Ornate lantern\n\nIf you lose your vessel, you can perform a 1 hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous vessel. The vessel vanishes in a flare of elemental power when you die.\n\nAs an action while you are holding the vessel, you target a willing creature you can see within 100 feet of you and create a tether of wispy elemental material that links the target to you.\n\nThe tether lasts for 1 hour, until you use this feature to create another tether, until the bound target is reduced to 0 hit points, or until the target ends its turn more than 100 feet from you.\n\nWhile you are tethered to a creature, you gain the following benefits:\n\n- You gain a bonus to your Wisdom (Perception) checks equal to your Charisma modifier (minimum of +1).\n\n- When you can cast a spell, you can deliver the spell from your space or the bound creature's space.\n\nYou can create the tether a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your patron gives you a magical vessel with which you can bind a creature to you and to your patron's menagerie. The vessel is a Tiny object, and it is a spellcasting focus for you. You decide what the object is, or you can determine what it is randomly by rolling on the Collector's Vessel table.\n\nd6 --> Vessel\n1 --> Oil lamp\n2 --> Urn\n3 --> Ring with a compartment \n4 --> Stoppered bottle \n5 --> Hollow statuette\n6 --> Ornate lantern\n\nIf you lose your vessel, you can perform a 1 hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous vessel. The vessel vanishes in a flare of elemental power when you die.\n\nAs an action while you are holding the vessel, you target a willing creature you can see within 100 feet of you and create a tether of wispy elemental material that links the target to you.\n\nThe tether lasts for 1 hour, until you use this feature to create another tether, until the bound target is reduced to 0 hit points, or until the target ends its turn more than 100 feet from you.\n\nWhile you are tethered to a creature, you gain the following benefits:\n\n- You gain a bonus to your Wisdom (Perception) checks equal to your Charisma modifier (minimum of +1).\n\n- When you can cast a spell, you can deliver the spell from your space or the bound creature's space.\n\nYou can create the tether a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom8b304e23-e560-4a91-8621-e442d135186d",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Collector's Vessel",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your patron grants you protection from an element. Whenever you finish a long rest, you gain resistance to acid, cold, fire, or lightning damage (your choice) until the end of your next long rest.\n\nWhile the tether of your Collector's Vessel is active, the tethered creature gains resistance to the damage type you chose",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom7fa51c0e-f5ef-4209-b025-49ba8ac61310",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Elemental Resistance",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom8b304e23-e560-4a91-8621-e442d135186d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Collector's Vessel",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your patron grants you protection from an element. Whenever you finish a long rest, you gain resistance to acid, cold, fire, or lightning damage (your choice) until the end of your next long rest.\n\nWhile the tether of your Collector's Vessel is active, the tethered creature gains resistance to the damage type you chose",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You're now able to use your Collector's Vessel to wish for protection for yourself or your tethered creature. If you or the tethered creature is hit by an attack, you can use your reaction to teleport, swapping places with the creature and switching which one of you is hit by the attack",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom6f5dff70-148f-4ee2-8002-a2ef91210e3c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Protective Wish",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom7fa51c0e-f5ef-4209-b025-49ba8ac61310",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Elemental Resistance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You're now able to use your Collector's Vessel to wish for protection for yourself or your tethered creature. If you or the tethered creature is hit by an attack, you can use your reaction to teleport, swapping places with the creature and switching which one of you is hit by the attack",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you attempt to send a creature you can see within 90 feet to your patron's court. The target must succeed on a Charisma saving throw against your warlock spell save DC or be magically drawn into your vessel and teleported to your patron's court in the Elemental Planes.\n\nWhile there, the target is stunned and your patron marvels at the target with amusement but brings no harm to it. The target can repeat the saving throw at the end of each of its turns, reappearing in the space it left or in the nearest unoccupied space if that space is occupied on a success.\n\nOnce you use this feature, you can't use it again until you finish a long rest. If the target remains in your patron's court for 1 minute, the genie sends the target back at the end of its turn as if it successfully saved, and you regain the use of this feature",
-                        "level": 10
-                    }
-                ],
-                "id": "Customeffdd48f-0ce0-423a-96c3-b705734b5d20",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Genie's Entertainment",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom6f5dff70-148f-4ee2-8002-a2ef91210e3c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Protective Wish",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you attempt to send a creature you can see within 90 feet to your patron's court. The target must succeed on a Charisma saving throw against your warlock spell save DC or be magically drawn into your vessel and teleported to your patron's court in the Elemental Planes.\n\nWhile there, the target is stunned and your patron marvels at the target with amusement but brings no harm to it. The target can repeat the saving throw at the end of each of its turns, reappearing in the space it left or in the nearest unoccupied space if that space is occupied on a success.\n\nOnce you use this feature, you can't use it again until you finish a long rest. If the target remains in your patron's court for 1 minute, the genie sends the target back at the end of its turn as if it successfully saved, and you regain the use of this feature",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "In exchange for extending your patron's influence over the multiverse, you can call on more of their power. As an action, you can implore your patron for aid by making a Charisma (Persuasion check against your\n\nwarlock spell save DC. If the check succeeds, you can choose one of the following effects:\n\n- A creature you can see within 60 feet of you regains 8d6 hit points and ends one disease or condition afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.\n\n- A creature you can see within 60 feet of you has disadvantage on attack rolls and saving throws until the start of your next turn.\n\n- You cast the legend lore spell without material components.\n\nWhether the check succeeds or fails, you can't use this feature again until you finish a long rest.\n\nAlternatively, you can regain the use of this feature by sacrificing nonmagical treasure worth at least 500 gp to your patron. This sacrifice requires the treasure to be within 10 feet of you for at least 1 minute, at the end of which you use an action to teleport the treasure to your patron's realm, provided you have the vessel of your Collector's Vessel in hand",
-                        "level": 14
-                    }
-                ],
-                "id": "Customda8b04b9-3242-41fd-9e60-e6dc05b6f5b6",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Collector's Call",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customeffdd48f-0ce0-423a-96c3-b705734b5d20",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Genie's Entertainment",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "In exchange for extending your patron's influence over the multiverse, you can call on more of their power. As an action, you can implore your patron for aid by making a Charisma (Persuasion check against your\n\nwarlock spell save DC. If the check succeeds, you can choose one of the following effects:\n\n- A creature you can see within 60 feet of you regains 8d6 hit points and ends one disease or condition afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.\n\n- A creature you can see within 60 feet of you has disadvantage on attack rolls and saving throws until the start of your next turn.\n\n- You cast the legend lore spell without material components.\n\nWhether the check succeeds or fails, you can't use this feature again until you finish a long rest.\n\nAlternatively, you can regain the use of this feature by sacrificing nonmagical treasure worth at least 500 gp to your patron. This sacrifice requires the treasure to be within 10 feet of you for at least 1 minute, at the end of which you use an action to teleport the treasure to your patron's realm, provided you have the vessel of your Collector's Vessel in hand",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "warlock_the_noble_genie_[ua]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "The Noble Genie [UA]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Customda8b04b9-3242-41fd-9e60-e6dc05b6f5b6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Collector's Call",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "warlock_the_noble_genie_[ua]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "The Noble Genie [UA]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

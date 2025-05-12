@@ -1,7 +1,75 @@
-{"ac":12,"actions":[{"description":"The swarm makes two Gnashing Teeth attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d4 + 4) piercing damage, or 9 (2d4 + 4) piercing damage if the swarm has half of its hit points or fewer.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Gnashing Teeth","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":11,"conditionImmunities":"charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned","cr":"3","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":null,"diceAmount":7,"diceType":"D10"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"Gibberling","name":"Swarm of Gibberlings [QftIS]","resistances":"bludgeoning, piercing, slashing","savingThrows":null,"senses":"darkvision 120 ft.","size":"Large","skills":null,"specialTraits":[{"description":"If the swarm takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.","id":-1,"monsterId":-1,"name":"Aversion to Fire"},
-{"description":"Any non-gibberling that is within 60 feet of the swarm and doesn't have the deafened condition has disadvantage on Constitution saving throws to maintain {@status concentration} on spells and similar effects.","id":-1,"monsterId":-1,"name":"Incessant Gibberish"},
-{"description":"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough to accommodate a Small gibberling. The swarm can't regain hit points or gain temporary hit points.","id":-1,"monsterId":-1,"name":"Swarm"}],
-"speed":30,"str":18,"swimSpeed":0,"tag":null,"type":"Fiend","vulnerabilities":null,"wis":7,"xp":700}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The swarm makes two Gnashing Teeth attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d4 + 4) piercing damage, or 9 (2d4 + 4) piercing damage if the swarm has half of its hit points or fewer.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Gnashing Teeth",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 11,
+  "conditionImmunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "cr": "3",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 7,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Gibberling",
+  "name": "Swarm of Gibberlings [QftIS]",
+  "resistances": "bludgeoning, piercing, slashing",
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the swarm takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Aversion to Fire"
+    },
+    {
+      "description": "Any non-gibberling that is within 60 feet of the swarm and doesn't have the deafened condition has disadvantage on Constitution saving throws to maintain {@status concentration} on spells and similar effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Incessant Gibberish"
+    },
+    {
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough to accommodate a Small gibberling. The swarm can't regain hit points or gain temporary hit points.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Swarm"
+    }
+  ],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 7,
+  "xp": 700
+}

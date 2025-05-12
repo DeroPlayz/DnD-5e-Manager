@@ -1,7 +1,79 @@
-{"ac":15,"actions":[{"description":"The troll makes one Bite attack and four Claw attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"11 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) piercing damage plus 5 (1d10) poison damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"11 to hit, reach 10 ft., one target. Hit: 16 (3d6 + 6) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claws","type":"MELEE"},
-{"description":"Each creature within 10 feet of the troll must make a DC 19 Dexterity saving throw, taking 44 (8d10) slashing damage on a failed save, or half as much damage on a successful one.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Whirlwind of Claws (Recharge 5-6)","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":21,"conditionImmunities":"frightened, poisoned","cr":"13","damageImmunities":null,"dex":15,"flySpeed":0,"hp":{"constant":75,"diceAmount":15,"diceType":"D12"},
-"id":-1,"int":9,"isLocked":true,"jsonType":"monster","languages":"Giant","name":"Dire Troll [MoM]","resistances":"bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Wis +5, Cha +2","senses":"darkvision 60 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, it regains only 5 hit points at the start of its next turn. The troll dies only if it is hit by an attack that deals 10 or more acid or fire damage while the troll has 0 hit points.","id":-1,"monsterId":-1,"name":"Regeneration"}],
-"speed":40,"str":22,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":11,"xp":10000}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The troll makes one Bite attack and four Claw attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "11 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) piercing damage plus 5 (1d10) poison damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "11 to hit, reach 10 ft., one target. Hit: 16 (3d6 + 6) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claws",
+      "type": "MELEE"
+    },
+    {
+      "description": "Each creature within 10 feet of the troll must make a DC 19 Dexterity saving throw, taking 44 (8d10) slashing damage on a failed save, or half as much damage on a successful one.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Whirlwind of Claws (Recharge 5-6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": "frightened, poisoned",
+  "cr": "13",
+  "damageImmunities": null,
+  "dex": 15,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 75,
+    "diceAmount": 15,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 9,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant",
+  "name": "Dire Troll [MoM]",
+  "resistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Wis +5, Cha +2",
+  "senses": "darkvision 60 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, it regains only 5 hit points at the start of its next turn. The troll dies only if it is hit by an attack that deals 10 or more acid or fire damage while the troll has 0 hit points.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Regeneration"
+    }
+  ],
+  "speed": 40,
+  "str": 22,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Giant",
+  "vulnerabilities": null,
+  "wis": 11,
+  "xp": 10000
+}

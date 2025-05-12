@@ -1,7 +1,53 @@
-{"changesNameOnAttunement": false,"description": "This breastplate is made from marbled granite, though it feels no heavier than a typical metal breastplate. Its chest is emblazoned with the stone rune.\n\nWhile wearing this breastplate, you have resistance to bludgeoning, piercing, and slashing damage and are immune to being knocked prone.\n\nInvoking the Rune\nAs an action, you can invoke the breastplate's rune to cast the wall of stone spell (save DC 14) with it. When you cast the spell in this way, you have advantage on saving throws made to maintain concentration on the spell.\n\nOnce the rune has been invoked, it can't be invoked again until the next dawn.\n\nThis armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.","effects": [{"actualEffect": {"spellId": "337","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "92f4c429-1da2-4d14-a56d-e732a7f944f4","name": "Invoke Rune","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Stonebreaker's_Breastplate","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Stonebreaker's Breastplate","rarity": "LEGENDARY","requiresAttunement": true,"type": "ARMOR","valueCoin": "GOLD","weight": 20.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This breastplate is made from marbled granite, though it feels no heavier than a typical metal breastplate. Its chest is emblazoned with the stone rune.\n\nWhile wearing this breastplate, you have resistance to bludgeoning, piercing, and slashing damage and are immune to being knocked prone.\n\nInvoking the Rune\nAs an action, you can invoke the breastplate's rune to cast the wall of stone spell (save DC 14) with it. When you cast the spell in this way, you have advantage on saving throws made to maintain concentration on the spell.\n\nOnce the rune has been invoked, it can't be invoked again until the next dawn.\n\nThis armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "337",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "92f4c429-1da2-4d14-a56d-e732a7f944f4",
+      "name": "Invoke Rune",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Stonebreaker's_Breastplate",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": true,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Stonebreaker's Breastplate",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "ARMOR",
+  "valueCoin": "GOLD",
+  "weight": 20.0,
+  "weightUnit": "POUNDS"
+}

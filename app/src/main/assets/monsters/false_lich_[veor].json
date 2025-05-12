@@ -1,10 +1,101 @@
-{"ac":18,"actions":[{"description":"The false lich makes two Death Rend attacks and uses Bloodcurdling Lament if available.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"14 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Death Rend","type":"NONE"},
-{"description":"The false lich emits a hideous shriek charged with malignant energy. Each creature within 30 feet of the false lich must succeed on a DC 22 Wisdom saving throw or have the frightened condition for 1 minute. While frightened in this way, a creature also has the unconscious condition. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bloodcurdling Lament (Recharge 5-6)","type":"NONE"},
-{"description":"The false lich casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 22):\nAt will: Detect Magic, Fly, Mage Hand, Prestidigitation\n\n3/day each: Dispel Magic, Invisibility (self only)\n\n1/day each: Globe of Invulnerability, Hold Monster","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"},
-{"description":"The false lich, along with anything it is wearing or carrying, teleports to an unoccupied space it can see within 60 feet of itself. It then makes one Death Rend attack if possible.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Spiteful Teleport","type":"NONE"},
-{"description":"The false lich uses Spellcasting.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Cast a Spell (Costs 2 Actions)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":20,"conditionImmunities":"charmed, exhaustion, frightened, paralyzed, poisoned, stunned","cr":"21","damageImmunities":"necrotic, poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks","dex":16,"flySpeed":0,"hp":{"constant":105,"diceAmount":21,"diceType":"D8"},
-"id":-1,"int":25,"isLocked":true,"jsonType":"monster","languages":"Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon","name":"False Lich [VEoR]","resistances":null,"savingThrows":"Con +12, Int +14, Wis +11, Cha +9","senses":"truesight 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"If the false lich fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (3/Day)"},
-{"description":"The false lich has advantage on saving throws against spells and magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"}],
-"speed":30,"str":10,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":19,"xp":33000}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The false lich makes two Death Rend attacks and uses Bloodcurdling Lament if available.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "14 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Death Rend",
+      "type": "NONE"
+    },
+    {
+      "description": "The false lich emits a hideous shriek charged with malignant energy. Each creature within 30 feet of the false lich must succeed on a DC 22 Wisdom saving throw or have the frightened condition for 1 minute. While frightened in this way, a creature also has the unconscious condition. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bloodcurdling Lament (Recharge 5-6)",
+      "type": "NONE"
+    },
+    {
+      "description": "The false lich casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 22):\nAt will: Detect Magic, Fly, Mage Hand, Prestidigitation\n\n3/day each: Dispel Magic, Invisibility (self only)\n\n1/day each: Globe of Invulnerability, Hold Monster",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    },
+    {
+      "description": "The false lich, along with anything it is wearing or carrying, teleports to an unoccupied space it can see within 60 feet of itself. It then makes one Death Rend attack if possible.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Spiteful Teleport",
+      "type": "NONE"
+    },
+    {
+      "description": "The false lich uses Spellcasting.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 15,
+  "climbSpeed": 0,
+  "con": 20,
+  "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned, stunned",
+  "cr": "21",
+  "damageImmunities": "necrotic, poison, psychic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "dex": 16,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 105,
+    "diceAmount": 21,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 25,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon",
+  "name": "False Lich [VEoR]",
+  "resistances": null,
+  "savingThrows": "Con +12, Int +14, Wis +11, Cha +9",
+  "senses": "truesight 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the false lich fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (3/Day)"
+    },
+    {
+      "description": "The false lich has advantage on saving throws against spells and magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    }
+  ],
+  "speed": 30,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 19,
+  "xp": 33000
+}

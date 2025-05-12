@@ -1,7 +1,52 @@
-{"changesNameOnAttunement": false,"description": "You regain 10d4 + 20 hit points when you drink this potion. The potion's red liquid glimmers when agitated.","effects": [{"actualEffect": {"modifier": {"constant": 20,"diceAmount": 10,"diceType": "D4"},
-"shouldPickMax": true,"stat": "HP","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "093a61cd-ad95-46e9-bc71-3cbc224960c7","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Potion_of_Supreme_Healing","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Potion of Supreme Healing","rarity": "VERY_RARE","requiresAttunement": false,"type": "POTION","value": null,"weight": null,"valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You regain 10d4 + 20 hit points when you drink this potion. The potion's red liquid glimmers when agitated.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 20,
+          "diceAmount": 10,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "HP",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "093a61cd-ad95-46e9-bc71-3cbc224960c7",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Potion_of_Supreme_Healing",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Potion of Supreme Healing",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": false,
+  "type": "POTION",
+  "value": null,
+  "weight": null,
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

@@ -1,7 +1,79 @@
-{"ac":18,"actions":[{"description":"The scout makes three Armblade or Bolt Launcher attacks. It can replace one of the attacks with a use of Snare Trap.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Armblade","type":"MELEE"},
-{"description":"8 to hit, range 80/320 ft., one target. Hit: 9 (1d8 + 5) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bolt Launcher","type":"RANGED"},
-{"description":"The scout deploys a Tiny mechanical trap on a solid surface within 5 feet of itself. The trap is hidden, requiring a successful DC 17 Intelligence (Investigation) check to find. The trap lasts for 1 minute. Whenever an enemy enters a space within 10 feet of the trap or starts its turn there, it must succeed on a DC 16 Dexterity saving throw or take 21 (6d6) piercing damage and have the prone condition. A creature makes this saving throw only once per turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Snare Trap (1/Day)","type":"NONE"}],
-"alignment":"Lawful Evil","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":16,"conditionImmunities":"exhaustion, poisoned","cr":"7","damageImmunities":null,"dex":20,"flySpeed":0,"hp":{"constant":42,"diceAmount":14,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Blade Scout [VEoR]","resistances":"poison","savingThrows":"Dex +8, Wis +7","senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The scout has advantage on an attack roll against a creature if at least one of the scout's allies is within 5 feet of the creature and the ally doesn't have the incapacitated condition.","id":-1,"monsterId":-1,"name":"Pack Tactics"}],
-"speed":30,"str":14,"swimSpeed":0,"tag":"warforged","type":"Construct","vulnerabilities":null,"wis":19,"xp":2900}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The scout makes three Armblade or Bolt Launcher attacks. It can replace one of the attacks with a use of Snare Trap.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Armblade",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, range 80/320 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bolt Launcher",
+      "type": "RANGED"
+    },
+    {
+      "description": "The scout deploys a Tiny mechanical trap on a solid surface within 5 feet of itself. The trap is hidden, requiring a successful DC 17 Intelligence (Investigation) check to find. The trap lasts for 1 minute. Whenever an enemy enters a space within 10 feet of the trap or starts its turn there, it must succeed on a DC 16 Dexterity saving throw or take 21 (6d6) piercing damage and have the prone condition. A creature makes this saving throw only once per turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Snare Trap (1/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Lawful Evil",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "7",
+  "damageImmunities": null,
+  "dex": 20,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 42,
+    "diceAmount": 14,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common",
+  "name": "Blade Scout [VEoR]",
+  "resistances": "poison",
+  "savingThrows": "Dex +8, Wis +7",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The scout has advantage on an attack roll against a creature if at least one of the scout's allies is within 5 feet of the creature and the ally doesn't have the incapacitated condition.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Pack Tactics"
+    }
+  ],
+  "speed": 30,
+  "str": 14,
+  "swimSpeed": 0,
+  "tag": "warforged",
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 19,
+  "xp": 2900
+}

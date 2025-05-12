@@ -1,381 +1,381 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.\n\n- Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.\n\n- Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.\nCourage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?\n\n- Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations",
+            "level": 3
+          }
+        ],
+        "id": "Custom39a4780e-d541-4c14-9d6e-b196acd3f75c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tenets of the Crown",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.\n\n- Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.\n\n- Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.\nCourage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?\n\n- Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom39a4780e-d541-4c14-9d6e-b196acd3f75c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tenets of the Crown",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "3rd \t--> Command, Compelled Duel",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "3rd \t--> Command, Compelled Duel",
-                        "level": 3
-                    },
-                    {
-                        "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth",
-                        "level": 5
-                    },
-                    {
-                        "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth\n9th \t--> Aura of Vitality, Spirit Guardians",
-                        "level": 9
-                    },
-                    {
-                        "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth\n9th \t--> Aura of Vitality, Spirit Guardians\n13th\t--> Banishment, Guardian of Faith",
-                        "level": 13
-                    },
-                    {
-                        "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth\n9th \t--> Aura of Vitality, Spirit Guardians\n13th\t--> Banishment, Guardian of Faith\n17th\t--> Circle of Power, Geas",
-                        "level": 17
-                    }
-                ],
-                "id": "Custome4343b8a-8870-4809-8c8c-c172739dfe64",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Oath of the Crown Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth",
+            "level": 5
+          },
+          {
+            "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth\n9th \t--> Aura of Vitality, Spirit Guardians",
+            "level": 9
+          },
+          {
+            "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth\n9th \t--> Aura of Vitality, Spirit Guardians\n13th\t--> Banishment, Guardian of Faith",
+            "level": 13
+          },
+          {
+            "description": "3rd \t--> Command, Compelled Duel\n5th \t--> Warding Bond, Zone of Truth\n9th \t--> Aura of Vitality, Spirit Guardians\n13th\t--> Banishment, Guardian of Faith\n17th\t--> Circle of Power, Geas",
+            "level": 17
+          }
+        ],
+        "id": "Custome4343b8a-8870-4809-8c8c-c172739dfe64",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Oath of the Crown Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the following two Channel Divinity options.\n\n- Champion Challenge: You issue a challenge to each creature of your choice that you can see within 30ft of you, forcing them to make a Wisdom saving throw. On a failed save, it can't willingly move more than 30ft away from you. This effect ends if you are incapacitated or die or if it moved more than 30ft away from you.\n\n- Turn the Tide: As a bonus action, each creature of your choice that can hear you within 30ft of you regains hit points equal to 1d6 + your Charisma modifier (min 1) if it has no more than half of its hit points",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the following two Channel Divinity options.\n\n- Champion Challenge: You issue a challenge to each creature of your choice that you can see within 30ft of you, forcing them to make a Wisdom saving throw. On a failed save, it can't willingly move more than 30ft away from you. This effect ends if you are incapacitated or die or if it moved more than 30ft away from you.\n\n- Turn the Tide: As a bonus action, each creature of your choice that can hear you within 30ft of you regains hit points equal to 1d6 + your Charisma modifier (min 1) if it has no more than half of its hit points",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom145b8798-b362-4f8e-ba14-ca8a7d3a191b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When a creature within 5ft of you takes damage, you can use your reaction to take the damage instead of them. This damage cannot be reduced or prevented in any way",
-                        "level": 7
-                    }
-                ],
-                "id": "Custom31e59efc-0063-43b5-b0e9-41e2ab419e60",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Divine Allegiance",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom145b8798-b362-4f8e-ba14-ca8a7d3a191b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When a creature within 5ft of you takes damage, you can use your reaction to take the damage instead of them. This damage cannot be reduced or prevented in any way",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have advantage on saving throws to avoid becoming paralyzed or stunned",
-                        "level": 15
-                    }
-                ],
-                "id": "Customb4da7b85-25af-4e31-9884-59a379b20230",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Unyielding Spirit",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom31e59efc-0063-43b5-b0e9-41e2ab419e60",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Divine Allegiance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage on saving throws to avoid becoming paralyzed or stunned",
             "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can use your action to gain the following benefits for 1 hour:\n\nYou have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.\nYour allies have advantage on death saving throws while within 30ft of you.\nYou have advantage on Wisdom saving throws, as do your allies within 30ft of you. This effect ends early if you are incapacitated or die.\nOnce you use this feature you can't use it again until you finish a long rest",
-                        "level": 20
-                    }
-                ],
-                "id": "Custom7413fe7c-fba1-4689-8251-27b860d2cf06",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Exalted Champion",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customb4da7b85-25af-4e31-9884-59a379b20230",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Unyielding Spirit",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can use your action to gain the following benefits for 1 hour:\n\nYou have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.\nYour allies have advantage on death saving throws while within 30ft of you.\nYou have advantage on Wisdom saving throws, as do your allies within 30ft of you. This effect ends early if you are incapacitated or die.\nOnce you use this feature you can't use it again until you finish a long rest",
             "level": 20
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "paladin_oath_of_the_crown",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Oath of the Crown",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, paladin",
-                "components": "V",
-                "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.\n\nSome typical commands and their Effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.\n\n- Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n\n- Drop: The target drops whatever it is holding and then ends its turn.\n\n- Flee: The target spends its turn moving away from you by the fastest available means.\n\n- Grovel: The target falls prone and then ends its turn.\n\n- Halt: The target doesn't move and takes no Actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
-                "duration": "1 round",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Command",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move into a space that is more than 30 feet away from you; if it succeeds on this saving throw, the spell doesn't restrict the target's movement for that turn.\n\nThe spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Compelled Duel",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric",
-                "components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
-                "description": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 hit points or if you and the  target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Warding Bond",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "2nd-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Aura Of Vitality",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "evocation",
-                "type": "3rd-level evocation"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric",
-                "components": "V, S, M (a holy symbol)",
-                "description": "You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.\n\nWhen you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature\u00e2\u20ac\u2122s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Spirit Guardians",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (15-foot radius)",
-                "school": "conjuration",
-                "type": "3rd-level conjuration"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, paladin, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (an item distasteful to the target)",
-                "description": "You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma saving throw or be banished.\n\nIf the target is native to the plane of existance you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.\n\nIf the target is native to a different plane of existance than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Banishment",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, paladin",
-                "components": "V, S",
-                "description": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. you know whether each creature succeeds or fails on its saving throw.\n\nAn affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.",
-                "duration": "10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Zone of Truth",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "2nd-level enchantment"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric",
-                "components": "V",
-                "description": "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.\n\nAny creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
-                "duration": "8 hours",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Guardian of Faith",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "conjuration",
-                "type": "4th-level conjuration"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Circle of Power",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "abjuration",
-                "type": "5th-level abjuration"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "cleric, fighter, rogue, wizard, paladin, druid, bard",
-                "components": "V",
-                "description": "You place a command on a creature that you can see, forcing it to do or refrain from doing some action or activity you decide. The command can be anything except something that would obviously cause the target to die.\n\nIf the creature can't understand you, this spell has no effect. If it can understand you, it must succeed a Wisdom save or become charmed by you. While the creature is charmed, it takes 5d10 psychic damage each time it does something that directly counters to your instructions, but no more than once each day.\n\nYou can end the spell early by using an action to dismiss it. A Remove Curse, Greater Restoration, or Wish spell also ends it.",
-                "duration": "30 days",
-                "higherLevels": "When you cast this using a 7th or 8th level spell slot, the duration is 1 year. If you use a 9th level slot, the spell lasts until it is ended by one of the spells mentioned above.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Geas",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom7413fe7c-fba1-4689-8251-27b860d2cf06",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Exalted Champion",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 20
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "paladin_oath_of_the_crown",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Oath of the Crown",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, paladin",
+        "components": "V",
+        "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.\n\nSome typical commands and their Effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.\n\n- Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n\n- Drop: The target drops whatever it is holding and then ends its turn.\n\n- Flee: The target spends its turn moving away from you by the fastest available means.\n\n- Grovel: The target falls prone and then ends its turn.\n\n- Halt: The target doesn't move and takes no Actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
+        "duration": "1 round",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Command",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move into a space that is more than 30 feet away from you; if it succeeds on this saving throw, the spell doesn't restrict the target's movement for that turn.\n\nThe spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Compelled Duel",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric",
+        "components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
+        "description": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 hit points or if you and the  target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Warding Bond",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "2nd-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Aura Of Vitality",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "evocation",
+        "type": "3rd-level evocation"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric",
+        "components": "V, S, M (a holy symbol)",
+        "description": "You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.\n\nWhen you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature\u00e2\u20ac\u2122s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Spirit Guardians",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (15-foot radius)",
+        "school": "conjuration",
+        "type": "3rd-level conjuration"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, paladin, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (an item distasteful to the target)",
+        "description": "You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma saving throw or be banished.\n\nIf the target is native to the plane of existance you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.\n\nIf the target is native to a different plane of existance than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Banishment",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, paladin",
+        "components": "V, S",
+        "description": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. you know whether each creature succeeds or fails on its saving throw.\n\nAn affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.",
+        "duration": "10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Zone of Truth",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "2nd-level enchantment"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric",
+        "components": "V",
+        "description": "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.\n\nAny creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
+        "duration": "8 hours",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Guardian of Faith",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "conjuration",
+        "type": "4th-level conjuration"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Circle of Power",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "abjuration",
+        "type": "5th-level abjuration"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "cleric, fighter, rogue, wizard, paladin, druid, bard",
+        "components": "V",
+        "description": "You place a command on a creature that you can see, forcing it to do or refrain from doing some action or activity you decide. The command can be anything except something that would obviously cause the target to die.\n\nIf the creature can't understand you, this spell has no effect. If it can understand you, it must succeed a Wisdom save or become charmed by you. While the creature is charmed, it takes 5d10 psychic damage each time it does something that directly counters to your instructions, but no more than once each day.\n\nYou can end the spell early by using an action to dismiss it. A Remove Curse, Greater Restoration, or Wish spell also ends it.",
+        "duration": "30 days",
+        "higherLevels": "When you cast this using a 7th or 8th level spell slot, the duration is 1 year. If you use a 9th level slot, the spell lasts until it is ended by one of the spells mentioned above.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Geas",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

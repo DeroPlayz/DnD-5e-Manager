@@ -1,19 +1,19 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies",
-            "level": 1
-        },
-        {
-            "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit",
-            "level": 6
-        }
-    ],
-    "id": "Custom0bdecae9-e7d6-4069-baab-544f8d58e2ce",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Expertise",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies",
+      "level": 1
+    },
+    {
+      "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit",
+      "level": 6
+    }
+  ],
+  "id": "Custom0bdecae9-e7d6-4069-baab-544f8d58e2ce",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Expertise",
+  "notes": "",
+  "type": "Feat"
 }

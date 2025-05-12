@@ -1,8 +1,59 @@
-{"changesNameOnAttunement": false,"description": "As an action, you can throw this dust into the air, filling a 10-foot cube that extends out from you. Surfaces and objects made of nonmagical ferrous metal in the area instantly corrode and turn to dust, becoming useless and unsalvageable. Any creature in the area that is made wholly or partly out of ferrous metal must make a DC 13 Constitution saving throw, taking 4d8 necrotic damage on a failed save, or half as much damage on a successful one.\n\nFound in a small packet, this dust is made from finely ground rust monster antennae. There is enough dust in each packet for one use.","effects": [{"actualEffect": {"bonus": {"constant": 0,"diceAmount": 4,"diceType": "D8"},
-"damageType": "Necrotic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"charges": 1,"id": "79abb211-d70c-4ecf-b678-04afe79ed80b","name": "Dmg to Metal Creatures (DC13)","rechargeMoment": "LONG_REST","rechargeRate": {"constant": 0,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Dust_of_Corrosion","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Dust of Corrosion","rarity": "UNCOMMON","requiresAttunement": false,"type": "WONDROUS","value": 500.0,"valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "As an action, you can throw this dust into the air, filling a 10-foot cube that extends out from you. Surfaces and objects made of nonmagical ferrous metal in the area instantly corrode and turn to dust, becoming useless and unsalvageable. Any creature in the area that is made wholly or partly out of ferrous metal must make a DC 13 Constitution saving throw, taking 4d8 necrotic damage on a failed save, or half as much damage on a successful one.\n\nFound in a small packet, this dust is made from finely ground rust monster antennae. There is enough dust in each packet for one use.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 0,
+          "diceAmount": 4,
+          "diceType": "D8"
+        },
+        "damageType": "Necrotic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "charges": 1,
+      "id": "79abb211-d70c-4ecf-b678-04afe79ed80b",
+      "name": "Dmg to Metal Creatures (DC13)",
+      "rechargeMoment": "LONG_REST",
+      "rechargeRate": {
+        "constant": 0,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Dust_of_Corrosion",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Dust of Corrosion",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": false,
+  "type": "WONDROUS",
+  "value": 500.0,
+  "valueCoin": "GOLD",
+  "weight": 1.0,
+  "weightUnit": "OUNCES"
+}

@@ -1,6 +1,71 @@
-{"ac":15,"actions":[{"description":"The hadozee makes two Shortsword attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shortsword","type":"MELEE"},
-{"description":"5 to hit, range 40/120 ft., one target. Hit: 16 (2d12 + 3) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Musket","type":"RANGED"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":14,"climbSpeed":30,"con":13,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":17,"flySpeed":0,"hp":{"constant":9,"diceAmount":9,"diceType":"D8"},
-"id":-1,"int":13,"isLocked":true,"jsonType":"monster","languages":"Common, Hadozee","name":"Hadozee Explorer [BAM]","resistances":null,"savingThrows":"Con +3, Wis +5","senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"If it isn't incapacitated or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.","id":-1,"monsterId":-1,"name":"Glide"}],
-"speed":30,"str":11,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":17,"xp":450}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The hadozee makes two Shortsword attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Shortsword",
+      "type": "MELEE"
+    },
+    {
+      "description": "5 to hit, range 40/120 ft., one target. Hit: 16 (2d12 + 3) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Musket",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 14,
+  "climbSpeed": 30,
+  "con": 13,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 17,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 9,
+    "diceAmount": 9,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 13,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Hadozee",
+  "name": "Hadozee Explorer [BAM]",
+  "resistances": null,
+  "savingThrows": "Con +3, Wis +5",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If it isn't incapacitated or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Glide"
+    }
+  ],
+  "speed": 30,
+  "str": 11,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 17,
+  "xp": 450
+}

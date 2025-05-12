@@ -1,7 +1,52 @@
-{"changesNameOnAttunement": false,"description": "While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.","effects": [{"actualEffect": {"modifier": {"constant": 0,"diceAmount": 1,"diceType": "D6"},
-"shouldPickMax": true,"stat": "HP","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "b5dacce5-9310-49f6-9c3f-eeaea3098035","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Ring_of_Regeneration","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Ring of Regeneration","rarity": "VERY_RARE","requiresAttunement": true,"type": "RING","value": null,"weight": null,"valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 0,
+          "diceAmount": 1,
+          "diceType": "D6"
+        },
+        "shouldPickMax": true,
+        "stat": "HP",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "b5dacce5-9310-49f6-9c3f-eeaea3098035",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Ring_of_Regeneration",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Ring of Regeneration",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "RING",
+  "value": null,
+  "weight": null,
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

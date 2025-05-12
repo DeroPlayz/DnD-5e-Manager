@@ -1,381 +1,381 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom23d97629-d97c-45eb-85c3-fefb3b4e61a0",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Warding Flare",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.\n\nFor the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target",
-                        "level": 2
-                    }
-                ],
-                "id": "Customacfb612c-9fa4-4bec-9bc6-3ec868960ea7",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity: Invoke Duplicity",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom23d97629-d97c-45eb-85c3-fefb3b4e61a0",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Warding Flare",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.\n\nFor the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom5d5c547c-6b94-4a15-9ac6-7fea8938a068",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity: Cloak of Shadows",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customacfb612c-9fa4-4bec-9bc6-3ec868960ea7",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity: Invoke Duplicity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip",
-                        "level": 8
-                    }
-                ],
-                "id": "Customf4ca208a-b369-49c4-9939-c75c51c4a59f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Potent Spellcasting",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom5d5c547c-6b94-4a15-9ac6-7fea8938a068",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity: Cloak of Shadows",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip",
             "level": 8
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet",
-                        "level": 17
-                    }
-                ],
-                "id": "Customfaed1b5c-9dd8-4ded-aab4-abe3ae048af5",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Improved Duplicity",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customf4ca208a-b369-49c4-9939-c75c51c4a59f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Potent Spellcasting",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 8
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet",
             "level": 17
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "cleric_ambition_domain",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Ambition Domain",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Customfaed1b5c-9dd8-4ded-aab4-abe3ae048af5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Improved Duplicity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 17
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "cleric_ambition_domain",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Ambition Domain",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "WIS"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 1,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "WIS"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "5a8220a6-b580-4ef6-b7c0-7656130b704a",
-            "name": "Warding Flare Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 1,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric",
-                "components": "V, S, M (a drop of blood)",
-                "description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Bane",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You make yourself -- including your clothing, armor, weapons, and other belongings on your person -- look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n\nTo discern that you are disguised, a creature can use its action to inspect your apperance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Disguise Self",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "illusion",
-                "type": "1st-level illusion"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.\n\nEach time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\n\nlf you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\n\nA duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.\n\nA creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
-                "duration": "1 Minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Mirror Image",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "illusion",
-                "type": "2nd-level illusion"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.\n\nAt the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Ray of Enfeeblement",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "necromancy",
-                "type": "2nd-level necromancy"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become Cursed for the Duration of the spell. When you cast this spell, choose the Nature of the curse from the following options.\n\n- Choose one ability score. While Cursed, the target has disadvantage on Ability Checks and Saving Throws made with that ability score.\n\n- While Cursed, the target has disadvantage on Attack Rolls against you.\n\n- While Cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n- While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target.\n\nA Remove Curse spell ends this Effect. At the GM's option, you may choose an alternative curse Effect, but it should be no more powerful than those described above. The GM has final say on such a curse's Effect.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "If you cast this spell using a spell slot of 4th Level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th Level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th Level or higher grants a Duration that doesn't require Concentration",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Bestow Curse",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "necromancy",
-                "type": "3rd-level necromancy"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V,S",
-                "description": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Vampiric Touch",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "necromancy",
-                "type": "3rd-level necromancy"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, cleric, paladin",
-                "components": "V, S",
-                "description": "You touch a creature and grant it a measure of protection from death.\n\nThe first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.",
-                "duration": "8 hours",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Death Ward",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V",
-                "description": "You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualise, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"\n\nYou can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.\n\nIf you would arrive in a place already occupied by an object or a creature, you and any creature travelling with you each take 4d6 force damage, and the spell fails to teleport you.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Dimension Door",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "500 feet",
-                "school": "conjuration",
-                "type": "4th-level conjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Dominate Person",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are Fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The Charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.\n\nWhile this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.\n\nYou must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.\n\nA modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature in a significant manner.\n\nA Remove Curse or Greater Restoration spell cast on the target restores the creature's true memory",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Modify Memory",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "5a8220a6-b580-4ef6-b7c0-7656130b704a",
+      "name": "Warding Flare Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric",
+        "components": "V, S, M (a drop of blood)",
+        "description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Bane",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You make yourself -- including your clothing, armor, weapons, and other belongings on your person -- look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\n\nTo discern that you are disguised, a creature can use its action to inspect your apperance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Disguise Self",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "illusion",
+        "type": "1st-level illusion"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.\n\nEach time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\n\nlf you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\n\nA duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.\n\nA creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
+        "duration": "1 Minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Mirror Image",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "illusion",
+        "type": "2nd-level illusion"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.\n\nAt the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Ray of Enfeeblement",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "necromancy",
+        "type": "2nd-level necromancy"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become Cursed for the Duration of the spell. When you cast this spell, choose the Nature of the curse from the following options.\n\n- Choose one ability score. While Cursed, the target has disadvantage on Ability Checks and Saving Throws made with that ability score.\n\n- While Cursed, the target has disadvantage on Attack Rolls against you.\n\n- While Cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n- While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target.\n\nA Remove Curse spell ends this Effect. At the GM's option, you may choose an alternative curse Effect, but it should be no more powerful than those described above. The GM has final say on such a curse's Effect.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "If you cast this spell using a spell slot of 4th Level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th Level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th Level or higher grants a Duration that doesn't require Concentration",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Bestow Curse",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "necromancy",
+        "type": "3rd-level necromancy"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V,S",
+        "description": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Vampiric Touch",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "necromancy",
+        "type": "3rd-level necromancy"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, cleric, paladin",
+        "components": "V, S",
+        "description": "You touch a creature and grant it a measure of protection from death.\n\nThe first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.",
+        "duration": "8 hours",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Death Ward",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V",
+        "description": "You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualise, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"\n\nYou can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.\n\nIf you would arrive in a place already occupied by an object or a creature, you and any creature travelling with you each take 4d6 force damage, and the spell fails to teleport you.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Dimension Door",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "500 feet",
+        "school": "conjuration",
+        "type": "4th-level conjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Dominate Person",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are Fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The Charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.\n\nWhile this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.\n\nYou must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.\n\nA modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature in a significant manner.\n\nA Remove Curse or Greater Restoration spell cast on the target restores the creature's true memory",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Modify Memory",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

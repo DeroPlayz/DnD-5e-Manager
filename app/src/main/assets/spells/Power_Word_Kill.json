@@ -1,4 +1,36 @@
-{"casting_time": "1 action","classes": ["bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
-"description": "You utter a word of power that can compel one creature you can see within range to die instantly.  If the creature you choose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.","duration": "Instantaneous","level": "9","name": "Power Word Kill","range": "60 feet","ritual": false,"school": "enchantment","tags": ["bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level9"],
-"type": "9th-level enchantment"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V",
+    "somatic": false,
+    "verbal": true
+  },
+  "description": "You utter a word of power that can compel one creature you can see within range to die instantly.  If the creature you choose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.",
+  "duration": "Instantaneous",
+  "level": "9",
+  "name": "Power Word Kill",
+  "range": "60 feet",
+  "ritual": false,
+  "school": "enchantment",
+  "tags": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level9"
+  ],
+  "type": "9th-level enchantment"
+}

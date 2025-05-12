@@ -1,24 +1,137 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Fishing Tackle","number": 1}],
-"id": "22eb7500-9a6f-4d97-ab8b-732808b6d84d"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Dice Set","number": 1}],
-"id": "5dd342d0-5329-4b48-86f4-64f24804d686"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Playing Cards Set","number": 1},
-{"description": "","name": "Dragon Ante Set","number": 3}],
-"id": "f97341b2-eb95-4756-8268-5113ebb8e5b7"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Common Clothes","number": 1}],
-"id": "2f8234da-7e62-498e-b6fc-15370cea48e0"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Rowboat","number": 1}],
-"id": "5698f8cd-eff9-4d1f-8544-8788cdeec584"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "f972f244-7877-4ec1-8ddb-e28a739520b8"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You grew up on the docks and waters of Mulmaster Harbor. The harborfolk remember you and still treat you as one of them. They welcome you and your companions. While they might charge you for it, they'll always offer what food and shelter they have; they'll even hide you if the City Watch is after you (but not if the Hawks are)","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Harborfolk","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [],
-"name": "Harborfolk","skills": [{"amountOfChoice": 1,"id": "d229c1e1-598d-4f9d-b4f3-4342a00e2e25","skills": [{}],
-"skillsModels": [{"name": "Athletics","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "2cc0b4f2-d0c8-481b-bd54-0469cd5c11d7","skills": [{}],
-"skillsModels": [{"name": "Sleight of Hand","typeName": "SKILL"}]}],
-"tools": [{"description": "Choose 1 Gaming Set","shouldSelect": true},
-{"description": "Water vehicles","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Fishing Tackle",
+          "number": 1
+        }
+      ],
+      "id": "22eb7500-9a6f-4d97-ab8b-732808b6d84d"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Dice Set",
+          "number": 1
+        }
+      ],
+      "id": "5dd342d0-5329-4b48-86f4-64f24804d686"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Playing Cards Set",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Dragon Ante Set",
+          "number": 3
+        }
+      ],
+      "id": "f97341b2-eb95-4756-8268-5113ebb8e5b7"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "2f8234da-7e62-498e-b6fc-15370cea48e0"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Rowboat",
+          "number": 1
+        }
+      ],
+      "id": "5698f8cd-eff9-4d1f-8544-8788cdeec584"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "f972f244-7877-4ec1-8ddb-e28a739520b8"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You grew up on the docks and waters of Mulmaster Harbor. The harborfolk remember you and still treat you as one of them. They welcome you and your companions. While they might charge you for it, they'll always offer what food and shelter they have; they'll even hide you if the City Watch is after you (but not if the Hawks are)",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Harborfolk",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [],
+  "name": "Harborfolk",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "d229c1e1-598d-4f9d-b4f3-4342a00e2e25",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "2cc0b4f2-d0c8-481b-bd54-0469cd5c11d7",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Sleight of Hand",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Choose 1 Gaming Set",
+      "shouldSelect": true
+    },
+    {
+      "description": "Water vehicles",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

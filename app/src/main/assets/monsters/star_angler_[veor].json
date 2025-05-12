@@ -1,6 +1,69 @@
-{"ac":15,"actions":[{"description":"The star angler makes three Bite attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":6,"climbSpeed":0,"con":17,"conditionImmunities":null,"cr":"8","damageImmunities":null,"dex":15,"flySpeed":40,"hp":{"constant":42,"diceAmount":14,"diceType":"D10"},
-"id":-1,"int":3,"isLocked":true,"jsonType":"monster","languages":null,"name":"Star Angler [VEoR]","resistances":null,"savingThrows":null,"senses":"blindsight 120 ft. (can't see beyond this radius)","size":"Large","skills":null,"specialTraits":[{"description":"If the star angler is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails.","id":-1,"monsterId":-1,"name":"Avoidance"},
-{"description":"The star angler's lure sheds bright light in a 30- foot radius and dim light for an additional 30 feet.","id":-1,"monsterId":-1,"name":"Illumination"}],
-"speed":0,"str":21,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":14,"xp":3900}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The star angler makes three Bite attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 6,
+  "climbSpeed": 0,
+  "con": 17,
+  "conditionImmunities": null,
+  "cr": "8",
+  "damageImmunities": null,
+  "dex": 15,
+  "flySpeed": 40,
+  "hp": {
+    "constant": 42,
+    "diceAmount": 14,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 3,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Star Angler [VEoR]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "blindsight 120 ft. (can't see beyond this radius)",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the star angler is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Avoidance"
+    },
+    {
+      "description": "The star angler's lure sheds bright light in a 30- foot radius and dim light for an additional 30 feet.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Illumination"
+    }
+  ],
+  "speed": 0,
+  "str": 21,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 3900
+}

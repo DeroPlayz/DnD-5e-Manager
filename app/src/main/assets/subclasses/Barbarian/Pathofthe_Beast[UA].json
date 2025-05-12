@@ -1,109 +1,109 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:\n\n- Bite: Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 108 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).\n\n- Claws: Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.\n\n- Tail: You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom104fc5f8-541c-4d47-8396-a57c4efe3fe6",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Form of the Beast",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you enter your rage, you can transform, revealing the bestial power within you. Until your rage ends, you manifest a natural melee weapon, choosing one of the following options each time you rage:\n\n- Bite: Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals 108 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point).\n\n- Claws: Your hands transform into claws, which deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.\n\n- Tail: You grow a lashing, spiny tail, which deals 1d12 piercing damage on a hit and has the reach property.",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nYou can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:\n\n- You gain a swimming speed equal to your walking speed, and you can breathe underwater.\n\n- You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n\n- When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn.",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom797469b5-ce7b-45dc-b5c1-28fecf385357",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bestial Soul",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom104fc5f8-541c-4d47-8396-a57c4efe3fe6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Form of the Beast",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nYou can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:\n\n- You gain a swimming speed equal to your walking speed, and you can breathe underwater.\n\n- You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n\n- When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn.",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):\n\n- The target must use its reaction to make a melee attack against another creature of your choice that you can see.\n\n- Target takes 2d12 psychic damage.\n\nYou can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom3512e2ed-9637-4835-add0-7ce0b5ab6835",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Infectious Fury",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom797469b5-ce7b-45dc-b5c1-28fecf385357",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bestial Soul",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):\n\n- The target must use its reaction to make a melee attack against another creature of your choice that you can see.\n\n- Target takes 2d12 psychic damage.\n\nYou can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.\n\nYou can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom9453f7df-e130-4540-ab71-953e81485be4",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Call the Hunt",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom3512e2ed-9637-4835-add0-7ce0b5ab6835",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Infectious Fury",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.\n\nYou can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "barbarian_path_of_the_beast_[ua]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Path of the Beast [UA]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "unarmoredDefense": "Constitution",
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom9453f7df-e130-4540-ab71-953e81485be4",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Call the Hunt",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "barbarian_path_of_the_beast_[ua]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Path of the Beast [UA]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "unarmoredDefense": "Constitution",
+  "weaponProficiencies": []
 }

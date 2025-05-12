@@ -1,12 +1,55 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom95f94806-6c92-449e-a754-40863af1ee99","jsonType": "race","languages": [],
-"name": "Topaz Ancestry","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your Gem Ancestry damage type is Necrotic","level": 1}],
-"id": "Custom8f4a0abb-b2a1-4448-9424-ac4f8691b080","isFeature": true,"jsonType": "feat","level": 1,"name": "Topaz Gem Ancestry","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom95f94806-6c92-449e-a754-40863af1ee99",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Topaz Ancestry",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your Gem Ancestry damage type is Necrotic",
+            "level": 1
+          }
+        ],
+        "id": "Custom8f4a0abb-b2a1-4448-9424-ac4f8691b080",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Topaz Gem Ancestry",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

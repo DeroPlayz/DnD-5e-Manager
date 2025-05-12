@@ -1,22 +1,121 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Your Inheritance","number": 1}],
-"id": "cafca108-bf45-4593-8ccf-2a9d253d58af"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Traveler's Clothes","number": 1}],
-"id": "4f70955a-1fa3-48ed-b54b-ade21c940152"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Tool You Are Proficient With ","number": 1}],
-"id": "0fb64df8-5b23-48e2-975b-7cd5fe6bd26e"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Pouch","number": 1}],
-"id": "7884023d-6156-40da-bc60-572fcbf65fb2"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Choose or randomly determine your inheritance. Work with your Dungeon Master to come up with details: Why is your inheritance so important, and what is its full story? You might prefer for the DM to invent these details as part of the game, allowing you to learn more about your inheritance as your character does.\n\nThe Dungeon Master is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item's history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met.\n\nWhen you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you.\n\n","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Inheritance","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Inheritor","skills": [{"amountOfChoice": 1,"id": "c8fc2579-d7b6-4311-b978-b3aa2adb4c5d","skills": [{}],
-"skillsModels": [{"name": "Survival","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "39dc122e-4032-45a4-9222-571ddcaeb9b0","skills": [{},
-{},
-{}],
-"skillsModels": [{"name": "Arcana","typeName": "SKILL"},
-{"name": "History","typeName": "SKILL"},
-{"name": "Religion","typeName": "SKILL"}]}],
-"tools": [{"description": "1 type of Gaming Set or a Musical Instrument ","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Your Inheritance",
+          "number": 1
+        }
+      ],
+      "id": "cafca108-bf45-4593-8ccf-2a9d253d58af"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Traveler's Clothes",
+          "number": 1
+        }
+      ],
+      "id": "4f70955a-1fa3-48ed-b54b-ade21c940152"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Tool You Are Proficient With ",
+          "number": 1
+        }
+      ],
+      "id": "0fb64df8-5b23-48e2-975b-7cd5fe6bd26e"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Pouch",
+          "number": 1
+        }
+      ],
+      "id": "7884023d-6156-40da-bc60-572fcbf65fb2"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose or randomly determine your inheritance. Work with your Dungeon Master to come up with details: Why is your inheritance so important, and what is its full story? You might prefer for the DM to invent these details as part of the game, allowing you to learn more about your inheritance as your character does.\n\nThe Dungeon Master is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item's history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met.\n\nWhen you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you.\n\n",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Inheritance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Inheritor",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "c8fc2579-d7b6-4311-b978-b3aa2adb4c5d",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "39dc122e-4032-45a4-9222-571ddcaeb9b0",
+      "skills": [
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "History",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "1 type of Gaming Set or a Musical Instrument ",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

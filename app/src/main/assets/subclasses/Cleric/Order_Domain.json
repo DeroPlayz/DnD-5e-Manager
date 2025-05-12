@@ -1,409 +1,409 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Heavy Armor"
-        }
-    ],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Heavy Armor"
+    }
+  ],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice)",
+            "level": 1
+          }
+        ],
+        "id": "Customffd1db07-aa14-4c77-a471-51618cb900c8",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bonus Proficiencies",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice)",
-                        "level": 1
-                    }
-                ],
-                "id": "Customffd1db07-aa14-4c77-a471-51618cb900c8",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bonus Proficiencies",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.\n\nIf the spell targets more than one ally, you choose the ally who can make the attack",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.\n\nIf the spell targets more than one ally, you choose the ally who can make the attack",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom04946cb7-f09f-46a4-b661-e7149fab9b36",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Voice of Authority",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can use your Channel Divinity to exert an intimidating presence over others.\n\nAs an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw",
-                        "level": 2
-                    }
-                ],
-                "id": "Customb61f4499-5a19-4ab6-87a7-58c24ca14c3f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity: Order's Demand",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom04946cb7-f09f-46a4-b661-e7149fab9b36",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Voice of Authority",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can use your Channel Divinity to exert an intimidating presence over others.\n\nAs an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell\u00e2\u20ac\u2122s casting time to 1 bonus action for this casting, provided the spell\u00e2\u20ac\u2122s casting time is normally 1 action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom671c8727-5bfd-4b78-a84f-92e4d2ffb2c9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Embodiment of the Law",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customb61f4499-5a19-4ab6-87a7-58c24ca14c3f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity: Order's Demand",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell\u00e2\u20ac\u2122s casting time to 1 bonus action for this casting, provided the spell\u00e2\u20ac\u2122s casting time is normally 1 action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target",
-                        "level": 8
-                    },
-                    {
-                        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 psychic damage to the target",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom40db01e0-299f-4903-9598-637ff1b61e80",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Divine Strike",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom671c8727-5bfd-4b78-a84f-92e4d2ffb2c9",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Embodiment of the Law",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target",
             "level": 8
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn",
-                        "level": 17
-                    }
-                ],
-                "id": "Customf1032d21-c7dd-4b4c-be83-9086021787f7",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Order's Wrath",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 psychic damage to the target",
+            "level": 14
+          }
+        ],
+        "id": "Custom40db01e0-299f-4903-9598-637ff1b61e80",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Divine Strike",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 8
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn",
             "level": 17
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "cleric_order_domain",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Order Domain",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Customf1032d21-c7dd-4b4c-be83-9086021787f7",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Order's Wrath",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 17
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "cleric_order_domain",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Order Domain",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "WIS"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 6,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "WIS"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "e630a231-1ea2-4a33-a078-b075c6ebcb58",
-            "name": "Embodiment of the Law Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 6,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, paladin",
-                "components": "V",
-                "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.\n\nSome typical commands and their Effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.\n\n- Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n\n- Drop: The target drops whatever it is holding and then ends its turn.\n\n- Flee: The target spends its turn moving away from you by the fastest available means.\n\n- Grovel: The target falls prone and then ends its turn.\n\n- Halt: The target doesn't move and takes no Actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
-                "duration": "1 round",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Command",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, paladin",
-                "components": "V, S",
-                "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Heroism",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (a small, straight piece of iron)",
-                "description": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Hold Person",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "2nd-level enchantment"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, paladin",
-                "components": "V, S",
-                "description": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. you know whether each creature succeeds or fails on its saving throw.\n\nAn affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.",
-                "duration": "10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Zone of Truth",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "2nd-level enchantment"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "cleric",
-                "components": "V",
-                "description": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Mass Healing Word",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "evocation",
-                "type": "3rd-level evocation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a drop of molasses)",
-                "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u00e2\u20ac\u2122s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u00e2\u20ac\u2122t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u00e2\u20ac\u2122s abilities or magic items, it can\u00e2\u20ac\u2122t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u00e2\u20ac\u2122t take effect until the creature\u00e2\u20ac\u2122s next turn, and the creature must use its action on that turn to complete the spell. If it can\u00e2\u20ac\u2122t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Slow",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "transmutation",
-                "type": "3rd-level transmutation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard",
-                "components": "V, S",
-                "description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take any action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect.\n\nA target isn't compelled to move into an obviously deadly hazard, such as a fire or a pit, but it will provoke opportunity attacks to move in the designated direction.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Compulsion",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "4th-level enchantment"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
-                "components": "V, S, M (a bit of fur from a bloodhound)",
-                "description": "Describe or name a creature that is familiar to you. You sense the direction to the creature's Location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its Movement.\n\nThe spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as being under the Effects of a Polymorph spell, this spell doesn't locate the creature.\n\nThis spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Locate Creature",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "4th-level divination"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "cleric",
-                "components": "V, S, M (incense and a vial of holy or unholy water)",
-                "description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Commune",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "5th-level divination (ritual)"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Dominate Person",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "e630a231-1ea2-4a33-a078-b075c6ebcb58",
+      "name": "Embodiment of the Law Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, paladin",
+        "components": "V",
+        "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.\n\nSome typical commands and their Effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.\n\n- Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n\n- Drop: The target drops whatever it is holding and then ends its turn.\n\n- Flee: The target spends its turn moving away from you by the fastest available means.\n\n- Grovel: The target falls prone and then ends its turn.\n\n- Halt: The target doesn't move and takes no Actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
+        "duration": "1 round",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Command",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, paladin",
+        "components": "V, S",
+        "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Heroism",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (a small, straight piece of iron)",
+        "description": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Hold Person",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "2nd-level enchantment"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, paladin",
+        "components": "V, S",
+        "description": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. you know whether each creature succeeds or fails on its saving throw.\n\nAn affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.",
+        "duration": "10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Zone of Truth",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "2nd-level enchantment"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "cleric",
+        "components": "V",
+        "description": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Mass Healing Word",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "evocation",
+        "type": "3rd-level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a drop of molasses)",
+        "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u00e2\u20ac\u2122s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u00e2\u20ac\u2122t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u00e2\u20ac\u2122s abilities or magic items, it can\u00e2\u20ac\u2122t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u00e2\u20ac\u2122t take effect until the creature\u00e2\u20ac\u2122s next turn, and the creature must use its action on that turn to complete the spell. If it can\u00e2\u20ac\u2122t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Slow",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "transmutation",
+        "type": "3rd-level transmutation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard",
+        "components": "V, S",
+        "description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take any action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect.\n\nA target isn't compelled to move into an obviously deadly hazard, such as a fire or a pit, but it will provoke opportunity attacks to move in the designated direction.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Compulsion",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "4th-level enchantment"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+        "components": "V, S, M (a bit of fur from a bloodhound)",
+        "description": "Describe or name a creature that is familiar to you. You sense the direction to the creature's Location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its Movement.\n\nThe spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as being under the Effects of a Polymorph spell, this spell doesn't locate the creature.\n\nThis spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Locate Creature",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "4th-level divination"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "cleric",
+        "components": "V, S, M (incense and a vial of holy or unholy water)",
+        "description": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.",
+        "duration": "1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Commune",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "5th-level divination (ritual)"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Dominate Person",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

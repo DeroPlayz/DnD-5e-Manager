@@ -1,5 +1,45 @@
-{"casting_time": "1 action","classes": ["bard","cleric","druid","paladin","ranger__revised__","revised_ranger","ranger","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a forked twig"],
-"raw": "V, S, M (a forked twig)","somatic": true,"verbal": true},
-"description": "Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.\n\nThe spell can locate a specific object known to you, as long as you have seen it up close-\u2014within 30 feet-\u2014at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.\n\nThis spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.","duration": "Concentration, up to 10 minutes","level": "2","name": "Locate Object","range": "Self","ritual": false,"school": "divination","tags": ["bard","cleric","druid","paladin","ranger__revised__","revised_ranger","ranger","fighter","rogue","wizard","level2"],
-"type": "2nd-level divination"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a forked twig"
+    ],
+    "raw": "V, S, M (a forked twig)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.\n\nThe spell can locate a specific object known to you, as long as you have seen it up close-\u2014within 30 feet-\u2014at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.\n\nThis spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.",
+  "duration": "Concentration, up to 10 minutes",
+  "level": "2",
+  "name": "Locate Object",
+  "range": "Self",
+  "ritual": false,
+  "school": "divination",
+  "tags": [
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level2"
+  ],
+  "type": "2nd-level divination"
+}

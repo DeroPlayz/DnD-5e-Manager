@@ -1,9 +1,93 @@
-{"ac":16,"actions":[{"description":"The giff makes two Longsword, Musket, or Pistol attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Longsword","type":"MELEE"},
-{"description":"4 to hit, range 40/120 ft., one target. Hit: 8 (1d12 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Musket","type":"RANGED"},
-{"description":"4 to hit, range 30/90 ft., one target. Hit: 7 (1d10 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Pistol","type":"RANGED"},
-{"description":"The giff throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a DC 15 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Fragmentation Grenade (1/Day)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":12,"climbSpeed":0,"con":17,"conditionImmunities":null,"cr":"3","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":24,"diceAmount":8,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Giff [MoM]","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The giff's mastery of its weapons enables it to ignore the loading property of muskets and pistols.","id":-1,"monsterId":-1,"name":"Firearms Knowledge"},
-{"description":"The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line and ends within 5 feet of a Large or smaller creature, that creature must succeed on a DC 14 Strength saving throw or take 7 (2d6) bludgeoning damage and be knocked prone.","id":-1,"monsterId":-1,"name":"Headfirst Charge"}],
-"speed":30,"str":18,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":12,"xp":700}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The giff makes two Longsword, Musket, or Pistol attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Longsword",
+      "type": "MELEE"
+    },
+    {
+      "description": "4 to hit, range 40/120 ft., one target. Hit: 8 (1d12 + 2) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Musket",
+      "type": "RANGED"
+    },
+    {
+      "description": "4 to hit, range 30/90 ft., one target. Hit: 7 (1d10 + 2) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Pistol",
+      "type": "RANGED"
+    },
+    {
+      "description": "The giff throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a DC 15 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Fragmentation Grenade (1/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 12,
+  "climbSpeed": 0,
+  "con": 17,
+  "conditionImmunities": null,
+  "cr": "3",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 24,
+    "diceAmount": 8,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common",
+  "name": "Giff [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The giff's mastery of its weapons enables it to ignore the loading property of muskets and pistols.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Firearms Knowledge"
+    },
+    {
+      "description": "The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line and ends within 5 feet of a Large or smaller creature, that creature must succeed on a DC 14 Strength saving throw or take 7 (2d6) bludgeoning damage and be knocked prone.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Headfirst Charge"
+    }
+  ],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 700
+}

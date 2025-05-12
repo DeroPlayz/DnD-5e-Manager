@@ -1,449 +1,449 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.",
+            "level": 3
+          }
+        ],
+        "id": "Custom43c6e40f-e84a-488f-ba1f-0b1d864e78f8",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tool Proficiency",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom43c6e40f-e84a-488f-ba1f-0b1d864e78f8",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tool Proficiency",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield",
-                        "level": 3
-                    },
-                    {
-                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond",
-                        "level": 5
-                    },
-                    {
-                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond\n9th --> aura of vitality, conjure barrage",
-                        "level": 9
-                    },
-                    {
-                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond\n9th --> aura of vitality, conjure barrage\n13th --> aura of purity, fire shield",
-                        "level": 13
-                    },
-                    {
-                        "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond\n9th --> aura of vitality, conjure barrage\n13th --> aura of purity, fire shield\n17th --> banishing smite, mass cure wounds",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom82d597e0-82f2-4073-ab37-54427572de91",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Battle Smith Spells",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your combat training and your experiments with magic have paid off in two ways:\n\n- You gain proficiency with martial weapons.\n- When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls.",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom839fbc19-a03e-4b87-8c52-2ef7b5b85f1d",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Battle Ready",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.\nIn combat, the steel defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action.\nIf the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.\nAt the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes.",
-                        "level": 3
-                    }
-                ],
-                "id": "Customd180a6c4-355c-4b24-9401-2a90089ec40c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Steel Defender",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn",
-                        "level": 5
-                    }
-                ],
-                "id": "Custom801e7bdb-1674-448d-b44e-424aadfae67e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Extra Attack",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond",
             "level": 5
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn new ways to channel arcane en energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:\n- The target takes an extra 2d6 force damage.\n- Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 hit points to it.\n\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.",
-                        "level": 9
-                    },
-                    {
-                        "description": "You learn new ways to channel arcane en energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:\n- The target takes an extra 4d6 force damage.\n- Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 4d6 hit points to it.\n\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.",
-                        "level": 15
-                    }
-                ],
-                "id": "Customf16c1a7a-9b29-403f-9378-343c3f962791",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Arcane Jolt",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond\n9th --> aura of vitality, conjure barrage",
             "level": 9
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your Arcane Jolt and steel defender be come more powerful:\n\n- The extra damage and the healing of your Arcane Jolt both increase to 4d6.\n- Your steel defender gains a +2 bonus to Armor Class.\n- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier.",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom962180f9-baac-45b0-a471-451fb716753b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Improved Defender",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond\n9th --> aura of vitality, conjure barrage\n13th --> aura of purity, fire shield",
+            "level": 13
+          },
+          {
+            "description": "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.\n\nArtificer Level --> Spell\n\n3rd --> heroism, shield\n5th --> branding smite, warding bond\n9th --> aura of vitality, conjure barrage\n13th --> aura of purity, fire shield\n17th --> banishing smite, mass cure wounds",
+            "level": 17
+          }
+        ],
+        "id": "Custom82d597e0-82f2-4073-ab37-54427572de91",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Battle Smith Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your combat training and your experiments with magic have paid off in two ways:\n\n- You gain proficiency with martial weapons.\n- When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls.",
+            "level": 3
+          }
+        ],
+        "id": "Custom839fbc19-a03e-4b87-8c52-2ef7b5b85f1d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Battle Ready",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.\nIn combat, the steel defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action.\nIf the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.\nAt the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes.",
+            "level": 3
+          }
+        ],
+        "id": "Customd180a6c4-355c-4b24-9401-2a90089ec40c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Steel Defender",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn",
+            "level": 5
+          }
+        ],
+        "id": "Custom801e7bdb-1674-448d-b44e-424aadfae67e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Extra Attack",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 5
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn new ways to channel arcane en energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:\n- The target takes an extra 2d6 force damage.\n- Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 hit points to it.\n\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.",
+            "level": 9
+          },
+          {
+            "description": "You learn new ways to channel arcane en energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:\n- The target takes an extra 4d6 force damage.\n- Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 4d6 hit points to it.\n\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses when you finish a long rest.",
             "level": 15
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "artificer__eb__battle_smith",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Battle Smith",
-    "selectableFeatures": [],
-    "shouldShowCompanion": true,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Customf16c1a7a-9b29-403f-9378-343c3f962791",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Arcane Jolt",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 9
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your Arcane Jolt and steel defender be come more powerful:\n\n- The extra damage and the healing of your Arcane Jolt both increase to 4d6.\n- Your steel defender gains a +2 bonus to Armor Class.\n- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier.",
+            "level": 15
+          }
+        ],
+        "id": "Custom962180f9-baac-45b0-a471-451fb716753b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Improved Defender",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "artificer__eb__battle_smith",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Battle Smith",
+  "selectableFeatures": [],
+  "shouldShowCompanion": true,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "INT"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 9,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "INT"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "ab77fc1f-43ed-40e9-9354-303d832226d3",
-            "name": "Arcane Jolt Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 9,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, paladin",
-                "components": "V, S",
-                "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Heroism",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
-                "duration": "1 round",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Shield",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "abjuration",
-                "type": "1st-level abjuration"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it\u00e2\u20ac\u2122s invisible, and the target sheds dim light in a 5-foot radius and can\u00e2\u20ac\u2122t become invisible until the spell ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Branding Smite",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "self",
-                "school": "evocation",
-                "type": "2nd-Level evocation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric",
-                "components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
-                "description": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 hit points or if you and the  target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Warding Bond",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "2nd-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Aura Of Vitality",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "evocation",
-                "type": "3rd-level evocation"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "ranger__revised__, revised_ranger, ranger",
-                "components": "V, S, M (one piece of ammunition or a thrown weapon)",
-                "description": "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Conjure Barrage",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (60-foot cone)",
-                "school": "conjuration",
-                "type": "3rd-level conjuration"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Aura of Purity",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot radius)",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (a bit of phosphorous or a firefly)",
-                "description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.",
-                "duration": "10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Fire Shield",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "evocation",
-                "type": "4th-level evocation"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "paladin",
-                "components": "V",
-                "description": "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Banishing Smite",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "abjuration",
-                "type": "5th-level abjuration"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid",
-                "components": "V, S",
-                "description": "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Mass Cure Wounds",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "conjuration",
-                "type": "5th-level conjuration"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Smith's tools"
-        }
-    ],
-    "weaponProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "all_martial"
-        }
-    ]
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "ab77fc1f-43ed-40e9-9354-303d832226d3",
+      "name": "Arcane Jolt Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, paladin",
+        "components": "V, S",
+        "description": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Heroism",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+        "duration": "1 round",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Shield",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "abjuration",
+        "type": "1st-level abjuration"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it\u00e2\u20ac\u2122s invisible, and the target sheds dim light in a 5-foot radius and can\u00e2\u20ac\u2122t become invisible until the spell ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Branding Smite",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "self",
+        "school": "evocation",
+        "type": "2nd-Level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric",
+        "components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
+        "description": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 hit points or if you and the  target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Warding Bond",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "2nd-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Aura Of Vitality",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "evocation",
+        "type": "3rd-level evocation"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "ranger__revised__, revised_ranger, ranger",
+        "components": "V, S, M (one piece of ammunition or a thrown weapon)",
+        "description": "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Conjure Barrage",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (60-foot cone)",
+        "school": "conjuration",
+        "type": "3rd-level conjuration"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Aura of Purity",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot radius)",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (a bit of phosphorous or a firefly)",
+        "description": "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.",
+        "duration": "10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Fire Shield",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "evocation",
+        "type": "4th-level evocation"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "paladin",
+        "components": "V",
+        "description": "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Banishing Smite",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "abjuration",
+        "type": "5th-level abjuration"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid",
+        "components": "V, S",
+        "description": "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Mass Cure Wounds",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "conjuration",
+        "type": "5th-level conjuration"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Smith's tools"
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "all_martial"
+    }
+  ]
 }

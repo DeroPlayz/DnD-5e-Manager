@@ -1,2 +1,26 @@
-{"ammunitionType": "BOLT","changesNameOnAttunement": false,"description": "","effects": [],
-"id": "Custom98736b10-ef9b-47ab-9128-d637c145cd45","isAmmunition": true,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Crossbow Bolt","rarity": "COMMON","requiresAttunement": false,"type": "AMMUNITION","value": 5.0,"valueCoin": "COPPER","weight": 1.2,"weightUnit": "OUNCES"}
+{
+  "ammunitionType": "BOLT",
+  "changesNameOnAttunement": false,
+  "description": "",
+  "effects": [],
+  "id": "Custom98736b10-ef9b-47ab-9128-d637c145cd45",
+  "isAmmunition": true,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Crossbow Bolt",
+  "rarity": "COMMON",
+  "requiresAttunement": false,
+  "type": "AMMUNITION",
+  "value": 5.0,
+  "valueCoin": "COPPER",
+  "weight": 1.2,
+  "weightUnit": "OUNCES"
+}

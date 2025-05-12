@@ -1,4 +1,32 @@
-{"casting_time": "1 action","classes": ["sorcerer","fighter","rogue","wizard","bard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target\u2019s person.","duration": "Concentration, up to 1 minute","level": "4","name": "Greater Invisibility","range": "Touch","ritual": false,"school": "illusion","tags": ["sorcerer","fighter","rogue","wizard","bard","level4"],
-"type": "4th-level illusion"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard",
+    "bard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target\u2019s person.",
+  "duration": "Concentration, up to 1 minute",
+  "level": "4",
+  "name": "Greater Invisibility",
+  "range": "Touch",
+  "ritual": false,
+  "school": "illusion",
+  "tags": [
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard",
+    "bard",
+    "level4"
+  ],
+  "type": "4th-level illusion"
+}

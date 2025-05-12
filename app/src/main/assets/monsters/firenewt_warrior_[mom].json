@@ -1,6 +1,71 @@
-{"ac":13,"actions":[{"description":"The firenewt makes two Scimitar attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Scimitar","type":"MELEE"},
-{"description":"The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spit Fire (Recharges after a Short or Long Rest)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":8,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"1/2","damageImmunities":"fire","dex":13,"flySpeed":0,"hp":{"constant":5,"diceAmount":5,"diceType":"D8"},
-"id":-1,"int":7,"isLocked":true,"jsonType":"monster","languages":"Draconic, Ignan","name":"Firenewt Warrior [MoM]","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The firenewt can breathe air and water.","id":-1,"monsterId":-1,"name":"Amphibious"}],
-"speed":30,"str":10,"swimSpeed":0,"tag":null,"type":"Elemental","vulnerabilities":null,"wis":11,"xp":100}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "The firenewt makes two Scimitar attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Scimitar",
+      "type": "MELEE"
+    },
+    {
+      "description": "The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spit Fire (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 8,
+  "climbSpeed": 0,
+  "con": 12,
+  "conditionImmunities": null,
+  "cr": "1/2",
+  "damageImmunities": "fire",
+  "dex": 13,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 5,
+    "diceAmount": 5,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 7,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Draconic, Ignan",
+  "name": "Firenewt Warrior [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The firenewt can breathe air and water.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amphibious"
+    }
+  ],
+  "speed": 30,
+  "str": 10,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Elemental",
+  "vulnerabilities": null,
+  "wis": 11,
+  "xp": 100
+}

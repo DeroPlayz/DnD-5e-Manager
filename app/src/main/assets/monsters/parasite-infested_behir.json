@@ -1,8 +1,80 @@
-{"ac":17,"actions":[{"description":"The behir makes two attacks: one with its bite and one to constrict.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":" 10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Constrict","type":"MELEE"},
-{"description":"The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Lightning Breath (Recharge 5-6)","type":"NONE"},
-{"description":"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the behir, and it takes 21 (6d6) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.\n\nAny creature swallowed by a parasite-infested behir must succeed on a DC 19 Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful save. This damage is in addition to the damage caused by the behir's digestive acids.\n\nIf the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Swallow","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":12,"climbSpeed":40,"con":18,"conditionImmunities":null,"cr":"11","damageImmunities":"lightning","dex":16,"flySpeed":0,"hp":{"constant":64,"diceAmount":16,"diceType":"D12"},
-"id":-1,"int":7,"isLocked":true,"jsonType":"monster","languages":"Draconic","name":"Parasite-infested Behir","resistances":null,"savingThrows":null,"senses":"darkvision 90 ft.","size":"Huge","skills":null,"specialTraits":[],
-"speed":50,"str":23,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":14,"xp":7200}
+{
+  "ac": 17,
+  "actions": [
+    {
+      "description": "The behir makes two attacks: one with its bite and one to constrict.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": " 10 to hit, reach 5 ft., one Large or smaller creature. Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Constrict",
+      "type": "MELEE"
+    },
+    {
+      "description": "The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Lightning Breath (Recharge 5-6)",
+      "type": "NONE"
+    },
+    {
+      "description": "The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the behir, and it takes 21 (6d6) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.\n\nAny creature swallowed by a parasite-infested behir must succeed on a DC 19 Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful save. This damage is in addition to the damage caused by the behir's digestive acids.\n\nIf the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Swallow",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 12,
+  "climbSpeed": 40,
+  "con": 18,
+  "conditionImmunities": null,
+  "cr": "11",
+  "damageImmunities": "lightning",
+  "dex": 16,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 64,
+    "diceAmount": 16,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 7,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Draconic",
+  "name": "Parasite-infested Behir",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 90 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 50,
+  "str": 23,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 7200
+}

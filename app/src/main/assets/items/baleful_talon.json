@@ -1,12 +1,70 @@
-{"changesNameOnAttunement": false,"description": "You gain a +1 bonus to attack and damage rolls made with this hooked, obsidian dagger.\n\nWhen you hit a creature with this magic weapon and roll a 19 or 20 on the attack roll, the creature must make a DC 15 Constitution saving throw as the dagger flares with sickly light. The creature takes 6d6 necrotic damage on a failed save, or half as much on a successful one. If this damage reduces the creature to 0 hit points, the creature disintegrates into dust.","effects": [{"actualEffect": {"bonus": 1,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "5e777bc4-e77a-4f08-aa4c-6fd83306c08f","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "5560033f-a319-4cfa-9a14-3186d69d4985","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Baleful_Talon","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Baleful Talon","rarity": "VERY_RARE","requiresAttunement": false,"type": "WEAPON","valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "You gain a +1 bonus to attack and damage rolls made with this hooked, obsidian dagger.\n\nWhen you hit a creature with this magic weapon and roll a 19 or 20 on the attack roll, the creature must make a DC 15 Constitution saving throw as the dagger flares with sickly light. The creature takes 6d6 necrotic damage on a failed save, or half as much on a successful one. If this damage reduces the creature to 0 hit points, the creature disintegrates into dust.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 1,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "5e777bc4-e77a-4f08-aa4c-6fd83306c08f",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Magic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "5560033f-a319-4cfa-9a14-3186d69d4985",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Baleful_Talon",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": true,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Baleful Talon",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": false,
+  "type": "WEAPON",
+  "valueCoin": "GOLD",
+  "weight": 1.0,
+  "weightUnit": "OUNCES"
+}

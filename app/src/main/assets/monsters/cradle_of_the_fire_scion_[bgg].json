@@ -1,10 +1,97 @@
-{"ac":20,"actions":[{"description":"The cradle makes three Slam or Hurl Lava attacks in any combination.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"17 to hit, reach 20 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage plus 14 (4d6) fire damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":"17 to hit, range 120 ft., one target. Hit: 27 (4d8 + 9) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature within 5 feet of the fire takes an action to douse the fire, the target takes 10 (3d6) fire damage at the start of each of its turns.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Hurl Lava","type":"RANGED"},
-{"description":"The cradle exhales flames and volcanic gases in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw. On a failed save, a creature takes 55 (10d10) fire damage and has the poisoned condition for 1 minute. On a successful save, a creature takes half as much damage only.\n\nA creature poisoned in this way can make a DC 24 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Erupting Breath (Recharge 5-6)","type":"NONE"}],
-"alignment":"Lawful Evil","burrowSpeed":0,"cha":17,"climbSpeed":0,"con":27,"conditionImmunities":"exhaustion, petrified, poisoned","cr":"25","damageImmunities":"fire, poison","dex":12,"flySpeed":0,"hp":{"constant":240,"diceAmount":30,"diceType":"D20"},
-"id":-1,"int":12,"isLocked":true,"jsonType":"monster","languages":"Giant, Primordial","name":"Cradle of the Fire Scion [BGG]","resistances":"cold, lightning; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":null,"senses":"darkvision 120 ft.","size":"Gargantuan","skills":null,"specialTraits":[{"description":"The cradle is a container for the scion of Surtur|BGG. When the cradle drops to 0 hit points, its body hardens and crumbles to ash. The scion instantly appears in the space the cradle occupied and uses the cradle's initiative count.","id":-1,"monsterId":-1,"name":"Awakening of the Scion"},
-{"description":"If the cradle fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (5/Day)"},
-{"description":"The cradle has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"},
-{"description":"The cradle deals double damage to objects and structures.","id":-1,"monsterId":-1,"name":"Siege Monster"}],
-"speed":40,"str":28,"swimSpeed":0,"tag":null,"type":"Elemental","vulnerabilities":null,"wis":20,"xp":75000}
+{
+  "ac": 20,
+  "actions": [
+    {
+      "description": "The cradle makes three Slam or Hurl Lava attacks in any combination.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "17 to hit, reach 20 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage plus 14 (4d6) fire damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": "17 to hit, range 120 ft., one target. Hit: 27 (4d8 + 9) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature within 5 feet of the fire takes an action to douse the fire, the target takes 10 (3d6) fire damage at the start of each of its turns.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Hurl Lava",
+      "type": "RANGED"
+    },
+    {
+      "description": "The cradle exhales flames and volcanic gases in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw. On a failed save, a creature takes 55 (10d10) fire damage and has the poisoned condition for 1 minute. On a successful save, a creature takes half as much damage only.\n\nA creature poisoned in this way can make a DC 24 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Erupting Breath (Recharge 5-6)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Lawful Evil",
+  "burrowSpeed": 0,
+  "cha": 17,
+  "climbSpeed": 0,
+  "con": 27,
+  "conditionImmunities": "exhaustion, petrified, poisoned",
+  "cr": "25",
+  "damageImmunities": "fire, poison",
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 240,
+    "diceAmount": 30,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 12,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant, Primordial",
+  "name": "Cradle of the Fire Scion [BGG]",
+  "resistances": "cold, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The cradle is a container for the scion of Surtur|BGG. When the cradle drops to 0 hit points, its body hardens and crumbles to ash. The scion instantly appears in the space the cradle occupied and uses the cradle's initiative count.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Awakening of the Scion"
+    },
+    {
+      "description": "If the cradle fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (5/Day)"
+    },
+    {
+      "description": "The cradle has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    },
+    {
+      "description": "The cradle deals double damage to objects and structures.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Siege Monster"
+    }
+  ],
+  "speed": 40,
+  "str": 28,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Elemental",
+  "vulnerabilities": null,
+  "wis": 20,
+  "xp": 75000
+}

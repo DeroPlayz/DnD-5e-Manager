@@ -1,8 +1,85 @@
-{"ac":12,"actions":[{"description":"The deathlock makes two Life Drain or Grave Bolt attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.\n\nA Humanoid slain by this attack rises 24 hours later as a zombie under the deathlock's control, unless the Humanoid is restored to life or its body is destroyed. The deathlock can have no more than twelve zombies under its control at one time.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Life Drain","type":"MELEE"},
-{"description":"5 to hit, range 60 ft., one target. Hit: 12 (2d8 + 3) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Grave Bolt","type":"NONE"},
-{"description":"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 13):\nAt will: detect magic, disguise self, mage armor\n\n1/day each: fear, hold person","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":16,"conditionImmunities":"exhaustion, poisoned","cr":"3","damageImmunities":"poison","dex":14,"flySpeed":0,"hp":{"constant":15,"diceAmount":5,"diceType":"D8"},
-"id":-1,"int":12,"isLocked":true,"jsonType":"monster","languages":"the languages it knew in life","name":"Deathlock Wight [MoM]","resistances":"necrotic; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Wis +4","senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"While in sunlight, the deathlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.","id":-1,"monsterId":-1,"name":"Sunlight Sensitivity"},
-{"description":"The deathlock doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":30,"str":11,"swimSpeed":0,"tag":"warlock","type":"Undead","vulnerabilities":null,"wis":14,"xp":700}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The deathlock makes two Life Drain or Grave Bolt attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.\n\nA Humanoid slain by this attack rises 24 hours later as a zombie under the deathlock's control, unless the Humanoid is restored to life or its body is destroyed. The deathlock can have no more than twelve zombies under its control at one time.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Life Drain",
+      "type": "MELEE"
+    },
+    {
+      "description": "5 to hit, range 60 ft., one target. Hit: 12 (2d8 + 3) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Grave Bolt",
+      "type": "NONE"
+    },
+    {
+      "description": "The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 13):\nAt will: detect magic, disguise self, mage armor\n\n1/day each: fear, hold person",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "3",
+  "damageImmunities": "poison",
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 15,
+    "diceAmount": 5,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 12,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "the languages it knew in life",
+  "name": "Deathlock Wight [MoM]",
+  "resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Wis +4",
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "While in sunlight, the deathlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Sunlight Sensitivity"
+    },
+    {
+      "description": "The deathlock doesn't require air, food, drink, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 30,
+  "str": 11,
+  "swimSpeed": 0,
+  "tag": "warlock",
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 700
+}

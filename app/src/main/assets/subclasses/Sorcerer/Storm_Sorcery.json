@@ -1,150 +1,150 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can speak, read, and write Primordial.\n\nKnowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran",
+            "level": 1
+          }
+        ],
+        "id": "Custom0f7b8e7b-914c-497a-b373-792847e4a789",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Wind Speaker",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can speak, read, and write Primordial.\n\nKnowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom0f7b8e7b-914c-497a-b373-792847e4a789",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Wind Speaker",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks",
-                        "level": 1
-                    }
-                ],
-                "id": "Customc8cee7ad-787b-48c3-a4c3-5cb2961f10cd",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tempestuous Magic",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain resistance to lightning and thunder damage. In addition, whenever you cast a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom57d32e4a-9c23-4276-a92a-566cc34f949c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Heart of the Storm",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customc8cee7ad-787b-48c3-a4c3-5cb2961f10cd",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tempestuous Magic",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain resistance to lightning and thunder damage. In addition, whenever you cast a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the ability to subtly control the weather around you. \n\nIf it is raining, you can use an action to cause the rain to stop falling in a 20\u2010foot radius centered on you. You can end this effect as a bonus action. \n\nIf it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100\u2010foot radius sphere around you. The wind blows in that direction until the end of your next turn. This feature does not alter the speed of the wind",
-                        "level": 6
-                    }
-                ],
-                "id": "Customad89b4e3-5409-41dc-9616-45ddd8a4c495",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Storm Guide",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom57d32e4a-9c23-4276-a92a-566cc34f949c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Heart of the Storm",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the ability to subtly control the weather around you. \n\nIf it is raining, you can use an action to cause the rain to stop falling in a 20\u2010foot radius centered on you. You can end this effect as a bonus action. \n\nIf it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100\u2010foot radius sphere around you. The wind blows in that direction until the end of your next turn. This feature does not alter the speed of the wind",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you",
-                        "level": 14
-                    }
-                ],
-                "id": "Customdc193d53-3dfb-4258-97ba-b7a79c3ddbaf",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Storm's Fury",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customad89b4e3-5409-41dc-9616-45ddd8a4c495",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Storm Guide",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you",
             "level": 14
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain immunity to lightning and thunder damage. You also gain a magical flying speed of 60 feet. As an action, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can't do so again until you finish a short or long rest",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom213433ae-ee28-4042-9e1a-0134e69f5cd9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Wind Soul",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customdc193d53-3dfb-4258-97ba-b7a79c3ddbaf",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Storm's Fury",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain immunity to lightning and thunder damage. You also gain a magical flying speed of 60 feet. As an action, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can't do so again until you finish a short or long rest",
             "level": 18
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "sorcerer_storm_sorcery",
-    "jsonType": "class",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Primordial"
-        }
-    ],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Storm Sorcery",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom213433ae-ee28-4042-9e1a-0134e69f5cd9",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Wind Soul",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 18
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "sorcerer_storm_sorcery",
+  "jsonType": "class",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Primordial"
+    }
+  ],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Storm Sorcery",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

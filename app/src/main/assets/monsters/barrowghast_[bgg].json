@@ -1,6 +1,71 @@
-{"ac":12,"actions":[{"description":"The barrowghast makes two Slam attacks. It can replace one Slam attack with a Life Drain attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 10 ft., one target. Hit: 18 (2d12 + 5) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":"8 to hit, reach 10 ft., one creature. Hit: 9 (1d8 + 5) necrotic damage, and the target must succeed on a DC 16 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\n\nA Humanoid slain by this attack immediately rises as a zombie (see the bestiary). The zombie acts as an ally of the barrowghast but isn't under its control.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Life Drain","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":6,"climbSpeed":0,"con":20,"conditionImmunities":"exhaustion, poisoned","cr":"7","damageImmunities":null,"dex":8,"flySpeed":0,"hp":{"constant":60,"diceAmount":12,"diceType":"D12"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"Giant","name":"Barrowghast [BGG]","resistances":"necrotic, poison","savingThrows":null,"senses":"darkvision 60 ft.","size":"Huge","skills":null,"specialTraits":[{"description":"Any creature that starts its turn within 10 feet of the barrowghast must make a DC 16 Constitution saving throw. On a failed save, the creature has the poisoned condition for 1 minute. While poisoned this way, the creature can't regain hit points. On a successful save, the creature is immune to the Stench of all barrowghasts for 24 hours.","id":-1,"monsterId":-1,"name":"Stench"}],
-"speed":40,"str":21,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":9,"xp":2900}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The barrowghast makes two Slam attacks. It can replace one Slam attack with a Life Drain attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 10 ft., one target. Hit: 18 (2d12 + 5) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, reach 10 ft., one creature. Hit: 9 (1d8 + 5) necrotic damage, and the target must succeed on a DC 16 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\n\nA Humanoid slain by this attack immediately rises as a zombie (see the bestiary). The zombie acts as an ally of the barrowghast but isn't under its control.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Life Drain",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 6,
+  "climbSpeed": 0,
+  "con": 20,
+  "conditionImmunities": "exhaustion, poisoned",
+  "cr": "7",
+  "damageImmunities": null,
+  "dex": 8,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 60,
+    "diceAmount": 12,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant",
+  "name": "Barrowghast [BGG]",
+  "resistances": "necrotic, poison",
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Huge",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "Any creature that starts its turn within 10 feet of the barrowghast must make a DC 16 Constitution saving throw. On a failed save, the creature has the poisoned condition for 1 minute. While poisoned this way, the creature can't regain hit points. On a successful save, the creature is immune to the Stench of all barrowghasts for 24 hours.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Stench"
+    }
+  ],
+  "speed": 40,
+  "str": 21,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 9,
+  "xp": 2900
+}

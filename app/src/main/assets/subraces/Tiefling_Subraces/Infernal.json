@@ -1,19 +1,140 @@
-{"abilityScores": {"cha": 2,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom96a845dd-ed8b-4740-adbc-a31f5c04415d","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Infernal"}],
-"name": "Infernal","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "CHA","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Cleric","components": "V","description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.","duration": "Up to 1 minute","higherLevels": "","isCustom": false,"isRitual": false,"level": 0,"name": "Thaumaturgy","range": "30 feet","school": "Transmutation","type": "Transmutation cantrip"}},
-{"level": 3,"spellModel": {"castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see.","classes": "Warlock","components": "V, S","description": "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.","duration": "Instantaneous","higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.","isCustom": false,"isRitual": false,"level": 1,"name": "Hellish Rebuke","range": "60 feet","school": "evocation","type": "1st-level evocation"}},
-{"level": 5,"spellModel": {"castingTime": "1 action","classes": "Sorcerer, Warlock, Wizard","components": "V, M (bat fur and a drop of pitch or piece of coal)","description": "Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can\u2019t see through this darkness, and nonmagical light can\u2019t illuminate it. If the point you choose is on an object you are holding or one that isn\u2019t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell\u2019s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.","duration": "Concentration, up to 10 minutes","higherLevels": "","isCustom": false,"isRitual": false,"level": 2,"name": "Darkness","range": "60 feet","school": "evocation","type": "2nd-Level evocation"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have resistance to fire damage","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Hellish Resistance","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You know the Thaumaturgy cantrip","level": 1},
-{"description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Hellish Rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest","level": 3},
-{"description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Hellish Rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells","level": 5}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Infernal Legacy","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 2,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 1,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom96a845dd-ed8b-4740-adbc-a31f5c04415d",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Infernal"
+    }
+  ],
+  "name": "Infernal",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "CHA",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Cleric",
+        "components": "V",
+        "description": "* Your voice booms up to three times as loud as normal for 1 minute.\n\n* You cause flames to flicker, brighten, dim, or change color for 1 minute.\n\n* You cause harmless tremors in the ground for 1 minute.\n\n* You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n\n* You instantaneously cause an unlocked door or window to fly open or slam shut.\n\n* You alter the appearance of your eyes for 1 minute.\n\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+        "duration": "Up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "level": 0,
+        "name": "Thaumaturgy",
+        "range": "30 feet",
+        "school": "Transmutation",
+        "type": "Transmutation cantrip"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see.",
+        "classes": "Warlock",
+        "components": "V, S",
+        "description": "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "level": 1,
+        "name": "Hellish Rebuke",
+        "range": "60 feet",
+        "school": "evocation",
+        "type": "1st-level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Sorcerer, Warlock, Wizard",
+        "components": "V, M (bat fur and a drop of pitch or piece of coal)",
+        "description": "Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can\u2019t see through this darkness, and nonmagical light can\u2019t illuminate it. If the point you choose is on an object you are holding or one that isn\u2019t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell\u2019s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "level": 2,
+        "name": "Darkness",
+        "range": "60 feet",
+        "school": "evocation",
+        "type": "2nd-Level evocation"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to fire damage",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hellish Resistance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You know the Thaumaturgy cantrip",
+            "level": 1
+          },
+          {
+            "description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Hellish Rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest",
+            "level": 3
+          },
+          {
+            "description": "You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Hellish Rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells",
+            "level": 5
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Infernal Legacy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

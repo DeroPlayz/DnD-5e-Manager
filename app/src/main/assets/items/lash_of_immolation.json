@@ -1,23 +1,118 @@
-{"changesNameOnAttunement": false,"description": "The handle of this dark leather whip bears the fire rune, and embers dance around the whip's tail.\n\nYou gain a +1 bonus to attack and damage rolls made with this weapon, and on a hit, the whip deals an extra 1d6 fire damage. When you score a critical hit with an attack using this whip, the target also has the restrained condition until the start of your next turn, as fiery bands lash around the target.\n\nInvoking the Rune\nWhen you make an attack with the whip and hit, you can use your reaction to invoke the whip's rune. Doing so increases the extra fire damage dealt by the whip to 2d6.\n\nOnce the rune has been invoked, it can't be invoked again until the next dawn.","effects": [{"actualEffect": {"bonus": 1,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "88777140-bbd2-4ca3-861b-445468ff2b99","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "3fc0580f-2fa9-49b7-9294-7fe2555eed91","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 0,"diceAmount": 1,"diceType": "D6"},
-"damageType": "Fire","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "33caf281-8b4e-4ee3-a574-c42e42c77539","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"charges": 1,"id": "c02e47dc-5f02-4bed-813d-37331146d48a","name": "Invocations Left","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Lash_of_Immolation","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Lash of Immolation","rarity": "RARE","requiresAttunement": false,"type": "WEAPON","valueCoin": "GOLD","weight": 3.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "The handle of this dark leather whip bears the fire rune, and embers dance around the whip's tail.\n\nYou gain a +1 bonus to attack and damage rolls made with this weapon, and on a hit, the whip deals an extra 1d6 fire damage. When you score a critical hit with an attack using this whip, the target also has the restrained condition until the start of your next turn, as fiery bands lash around the target.\n\nInvoking the Rune\nWhen you make an attack with the whip and hit, you can use your reaction to invoke the whip's rune. Doing so increases the extra fire damage dealt by the whip to 2d6.\n\nOnce the rune has been invoked, it can't be invoked again until the next dawn.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 1,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "88777140-bbd2-4ca3-861b-445468ff2b99",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Magic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "3fc0580f-2fa9-49b7-9294-7fe2555eed91",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 0,
+          "diceAmount": 1,
+          "diceType": "D6"
+        },
+        "damageType": "Fire",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "33caf281-8b4e-4ee3-a574-c42e42c77539",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "charges": 1,
+      "id": "c02e47dc-5f02-4bed-813d-37331146d48a",
+      "name": "Invocations Left",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Lash_of_Immolation",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": true,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Lash of Immolation",
+  "rarity": "RARE",
+  "requiresAttunement": false,
+  "type": "WEAPON",
+  "valueCoin": "GOLD",
+  "weight": 3.0,
+  "weightUnit": "OUNCES"
+}

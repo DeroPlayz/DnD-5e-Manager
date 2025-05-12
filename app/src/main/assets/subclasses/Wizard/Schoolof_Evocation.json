@@ -1,126 +1,126 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The gold and time you must spend to copy an evocation spell into your spellbook is halved",
+            "level": 2
+          }
+        ],
+        "id": "Custom743aebe0-fb91-4978-942a-81d240e43a94",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Evocation Savant",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The gold and time you must spend to copy an evocation spell into your spellbook is halved",
-                        "level": 2
-                    }
-                ],
-                "id": "Custom743aebe0-fb91-4978-942a-81d240e43a94",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Evocation Savant",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save",
-                        "level": 2
-                    }
-                ],
-                "id": "Custome368c652-c623-4db1-b694-1d1255b73e1c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Sculpt Spells",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom8fb8551d-3bd7-432d-bf6a-23718579761c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Potent Cantrip",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custome368c652-c623-4db1-b694-1d1255b73e1c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Sculpt Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom40646eba-5ca5-48c3-8230-f7fb0c37a863",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Empowered Evocation",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom8fb8551d-3bd7-432d-bf6a-23718579761c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Potent Cantrip",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you cast a wizard spell of 5th level or lower (excluding cantrips) that deals damage, you can deal maximum damage with that spell.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity",
-                        "level": 14
-                    }
-                ],
-                "id": "Customed696a22-40f7-41a3-a476-37f9f59b03ee",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Overchannel",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom40646eba-5ca5-48c3-8230-f7fb0c37a863",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Empowered Evocation",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you cast a wizard spell of 5th level or lower (excluding cantrips) that deals damage, you can deal maximum damage with that spell.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "wizard_school_of_evocation",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "School of Evocation",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Customed696a22-40f7-41a3-a476-37f9f59b03ee",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Overchannel",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "wizard_school_of_evocation",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "School of Evocation",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

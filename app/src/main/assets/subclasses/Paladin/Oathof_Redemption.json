@@ -1,385 +1,385 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.\n\n\n- Peace: Violence is a weapon of last resort. Diplomacy and understanding are the paths to long lasting peace.\n\n- Innocence: All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.\n\n- Patience: Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow that seed to survive and flourish.\n\n- Wisdom: Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just",
+            "level": 3
+          }
+        ],
+        "id": "Custombadf3c67-bc93-4c17-9bd5-d4c73cf6c6ba",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tenets of Redemption",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.\n\n\n- Peace: Violence is a weapon of last resort. Diplomacy and understanding are the paths to long lasting peace.\n\n- Innocence: All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.\n\n- Patience: Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow that seed to survive and flourish.\n\n- Wisdom: Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just",
-                        "level": 3
-                    }
-                ],
-                "id": "Custombadf3c67-bc93-4c17-9bd5-d4c73cf6c6ba",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tenets of Redemption",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "3rd \t--> Sanctuary, Sleep",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "3rd \t--> Sanctuary, Sleep",
-                        "level": 3
-                    },
-                    {
-                        "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person",
-                        "level": 5
-                    },
-                    {
-                        "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person\n9th \t--> Counterspell, Hypnotic Pattern",
-                        "level": 9
-                    },
-                    {
-                        "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person\n9th \t--> Counterspell, Hypnotic Pattern\n13th\t--> Otiluke's Resilient Sphere, Stoneskin",
-                        "level": 13
-                    },
-                    {
-                        "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person\n9th \t--> Counterspell, Hypnotic Pattern\n13th\t--> Otiluke's Resilient Sphere, Stoneskin\n17th\t--> Hold Monster, Wall of Force",
-                        "level": 17
-                    }
-                ],
-                "id": "Customd668b058-0a1f-42c9-a0ff-117161c374b6",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Oath of Redemption Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person",
+            "level": 5
+          },
+          {
+            "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person\n9th \t--> Counterspell, Hypnotic Pattern",
+            "level": 9
+          },
+          {
+            "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person\n9th \t--> Counterspell, Hypnotic Pattern\n13th\t--> Otiluke's Resilient Sphere, Stoneskin",
+            "level": 13
+          },
+          {
+            "description": "3rd \t--> Sanctuary, Sleep\n5th \t--> Calm Emotions, Hold Person\n9th \t--> Counterspell, Hypnotic Pattern\n13th\t--> Otiluke's Resilient Sphere, Stoneskin\n17th\t--> Hold Monster, Wall of Force",
+            "level": 17
+          }
+        ],
+        "id": "Customd668b058-0a1f-42c9-a0ff-117161c374b6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Oath of Redemption Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the following two Channel Divinity options.\n\n- Emissary of Peace: As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes.\n\n- Rebuke the Violent: Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the following two Channel Divinity options.\n\n- Emissary of Peace: As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes.\n\n- Rebuke the Violent: Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom880842de-5c89-4985-ab4f-0676eaee244c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way",
-                        "level": 7
-                    },
-                    {
-                        "description": "When a creature within 30 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom2a148128-ed84-44de-a9fb-a992c88b1a3f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Aura of the Guardian",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom880842de-5c89-4985-ab4f-0676eaee244c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't incapacitated",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom4eb00892-1850-4a9b-bd99-153829206a13",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Protective Spirit",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "When a creature within 30 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way",
+            "level": 18
+          }
+        ],
+        "id": "Custom2a148128-ed84-44de-a9fb-a992c88b1a3f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Aura of the Guardian",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't incapacitated",
             "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You become an avatar of peace, which gives you two benefits:\n\nYou have resistance to all damage dealt by other creatures (their attacks, spells, and other effects).\nWhenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take from the attack.\nIf you attack a creature, cast a spell on it, or deal damage to it by any means but this feature, neither benefit works against that creature until you finish a long rest",
-                        "level": 20
-                    }
-                ],
-                "id": "Customa84aac21-a4a9-4f55-b656-9d7646969cbb",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Emissary of Redemption",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom4eb00892-1850-4a9b-bd99-153829206a13",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Protective Spirit",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You become an avatar of peace, which gives you two benefits:\n\nYou have resistance to all damage dealt by other creatures (their attacks, spells, and other effects).\nWhenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take from the attack.\nIf you attack a creature, cast a spell on it, or deal damage to it by any means but this feature, neither benefit works against that creature until you finish a long rest",
             "level": 20
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "paladin_oath_of_redemption",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Oath of Redemption",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, cleric",
-                "components": "V, S, M (a small silver mirror)",
-                "description": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn\u00e2\u20ac\u2122t protect the warded creature from area effects, such as the explosion of a fireball.\n\nIf the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Sanctuary",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "abjuration",
-                "type": "1st-level abjuration"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
-                "description": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature\u00e2\u20ac\u2122s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u00e2\u20ac\u2122s hit points must be equal to or less than the remaining total for that creature to be affected.\n\nUndead and creatures immune to being charmed aren\u00e2\u20ac\u2122t affected by this spell.",
-                "duration": "1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Sleep",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "90 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric",
-                "components": "V, S",
-                "description": "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\nAlternatively, you can make a target indifferent about creatures o f your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Calm Emotions",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "Enchantment",
-                "type": "2nd-level Enchantment"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (a small, straight piece of iron)",
-                "description": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Hold Person",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "2nd-level enchantment"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell.",
-                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "S",
-                "description": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u00e2\u20ac\u2122s level. On a success, the creature\u00e2\u20ac\u2122s spell fails and has no effect.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Counterspell",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "abjuration",
-                "type": "3rd-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
-                "description": "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Hypnotic Pattern",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "illusion",
-                "type": "3rd-level illusion"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, fighter, rogue, wizard",
-                "components": "V S M (Clear crystal hemisphere, gum arabic hemisphere)",
-                "description": "A sphere encloses a Large or smaller creature or object. An unwilling creature must make a Dexterity save. On a failure, the creature is enclosed.\nNothing can pass through the barrier, though a creature in the sphere can breathe. The sphere is immune to all damage, and a creature or object inside can't be affected by anything outside the sphere, nor can it affect anything outside in turn.\nThe sphere is weightless and just large enough to contain the creature or object. An enclosed creature can use its action to push against the sphere and roll it at up to half the creature's speed. The globe also can be picked up and moved by other creatures.\nA Disintegrate targeting the globe destroys it without harming anything inside.",
-                "duration": "Conc. Up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Otiluke's Resilient Sphere",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "Evocation",
-                "type": "4th-level evocation"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
-                "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
-                "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Stoneskin",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (a small, straight piece of iron)",
-                "description": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Hold Monster",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "90 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
-                "description": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or Resting on a solid surface. You can form it into a hemispherical dome or a Sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).\n\nNothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal Travel through the wall",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Wall of Force",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "evocation",
-                "type": "5th-level evocation"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Customa84aac21-a4a9-4f55-b656-9d7646969cbb",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Emissary of Redemption",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 20
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "paladin_oath_of_redemption",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Oath of Redemption",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, cleric",
+        "components": "V, S, M (a small silver mirror)",
+        "description": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn\u00e2\u20ac\u2122t protect the warded creature from area effects, such as the explosion of a fireball.\n\nIf the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.",
+        "duration": "1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Sanctuary",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "abjuration",
+        "type": "1st-level abjuration"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
+        "description": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature\u00e2\u20ac\u2122s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u00e2\u20ac\u2122s hit points must be equal to or less than the remaining total for that creature to be affected.\n\nUndead and creatures immune to being charmed aren\u00e2\u20ac\u2122t affected by this spell.",
+        "duration": "1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Sleep",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "90 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric",
+        "components": "V, S",
+        "description": "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\nAlternatively, you can make a target indifferent about creatures o f your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Calm Emotions",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "Enchantment",
+        "type": "2nd-level Enchantment"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (a small, straight piece of iron)",
+        "description": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Hold Person",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "2nd-level enchantment"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell.",
+        "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "S",
+        "description": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u00e2\u20ac\u2122s level. On a success, the creature\u00e2\u20ac\u2122s spell fails and has no effect.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Counterspell",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "abjuration",
+        "type": "3rd-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
+        "description": "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Hypnotic Pattern",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "illusion",
+        "type": "3rd-level illusion"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, fighter, rogue, wizard",
+        "components": "V S M (Clear crystal hemisphere, gum arabic hemisphere)",
+        "description": "A sphere encloses a Large or smaller creature or object. An unwilling creature must make a Dexterity save. On a failure, the creature is enclosed.\nNothing can pass through the barrier, though a creature in the sphere can breathe. The sphere is immune to all damage, and a creature or object inside can't be affected by anything outside the sphere, nor can it affect anything outside in turn.\nThe sphere is weightless and just large enough to contain the creature or object. An enclosed creature can use its action to push against the sphere and roll it at up to half the creature's speed. The globe also can be picked up and moved by other creatures.\nA Disintegrate targeting the globe destroys it without harming anything inside.",
+        "duration": "Conc. Up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Otiluke's Resilient Sphere",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "Evocation",
+        "type": "4th-level evocation"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+        "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+        "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Stoneskin",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (a small, straight piece of iron)",
+        "description": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Hold Monster",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "90 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
+        "description": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or Resting on a solid surface. You can form it into a hemispherical dome or a Sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).\n\nNothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal Travel through the wall",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Wall of Force",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "evocation",
+        "type": "5th-level evocation"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

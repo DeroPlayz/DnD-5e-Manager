@@ -1,6 +1,71 @@
-{"ac":13,"actions":[{"description":"6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage, or 13 (2d8 + 4) piercing damage while enlarged. If the minotaur moved at least 10 feet straight toward the target immediately before it hit, the target takes an extra 4 (1d8) piercing damage, or 9 (2d8) piercing damage if the minotaur is enlarged. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet from the minotaur and have the prone condition.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Gore","type":"MELEE"},
-{"description":"6 to hit, reach 10 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage, or 17 (2d12 + 4) bludgeoning damage while enlarged. If the target is a creature and the minotaur is enlarged, the target must succeed on a DC 14 Strength saving throw or have the prone condition.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mattock","type":"MELEE"},
-{"description":"For 1 minute, the minotaur magically increases in size, along with anything it is wearing or carrying. While enlarged, the minotaur is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the minotaur lacks the room to become Large, the minotaur doesn't change size.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Enlarge (Recharges after a Short or Long Rest)","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":14,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":11,"flySpeed":0,"hp":{"constant":16,"diceAmount":8,"diceType":"D8"},
-"id":-1,"int":8,"isLocked":true,"jsonType":"monster","languages":"Abyssal, Common","name":"Minotaur Infiltrator [BMT]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The minotaur can perfectly recall any path it has traveled.","id":-1,"monsterId":-1,"name":"Labyrinthine Recall"}],
-"speed":40,"str":18,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":16,"xp":450}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage, or 13 (2d8 + 4) piercing damage while enlarged. If the minotaur moved at least 10 feet straight toward the target immediately before it hit, the target takes an extra 4 (1d8) piercing damage, or 9 (2d8) piercing damage if the minotaur is enlarged. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet from the minotaur and have the prone condition.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Gore",
+      "type": "MELEE"
+    },
+    {
+      "description": "6 to hit, reach 10 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage, or 17 (2d12 + 4) bludgeoning damage while enlarged. If the target is a creature and the minotaur is enlarged, the target must succeed on a DC 14 Strength saving throw or have the prone condition.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Mattock",
+      "type": "MELEE"
+    },
+    {
+      "description": "For 1 minute, the minotaur magically increases in size, along with anything it is wearing or carrying. While enlarged, the minotaur is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the minotaur lacks the room to become Large, the minotaur doesn't change size.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Enlarge (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 11,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 16,
+    "diceAmount": 8,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 8,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Abyssal, Common",
+  "name": "Minotaur Infiltrator [BMT]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The minotaur can perfectly recall any path it has traveled.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Labyrinthine Recall"
+    }
+  ],
+  "speed": 40,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 16,
+  "xp": 450
+}

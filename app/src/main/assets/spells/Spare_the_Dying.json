@@ -1,4 +1,27 @@
-{"casting_time": "1 action","classes": ["artificer__revised_","cleric"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.","duration": "Instantaneous","level": "cantrip","name": "Spare the Dying","range": "Touch","ritual": false,"school": "Necromancy","tags": ["artificer__eb_","artificer__revised_","cleric","cantrip"],
-"type": "Necromancy cantrip"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer__revised_",
+    "cleric"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.",
+  "duration": "Instantaneous",
+  "level": "cantrip",
+  "name": "Spare the Dying",
+  "range": "Touch",
+  "ritual": false,
+  "school": "Necromancy",
+  "tags": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "cleric",
+    "cantrip"
+  ],
+  "type": "Necromancy cantrip"
+}

@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again",
-            "level": 1
-        }
-    ],
-    "id": "Custom0769b185-23fd-43b6-9644-77bf45b8113b",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Second Wind",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again",
+      "level": 1
+    }
+  ],
+  "id": "Custom0769b185-23fd-43b6-9644-77bf45b8113b",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Second Wind",
+  "notes": "",
+  "type": "Feat"
 }

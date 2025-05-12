@@ -1,4 +1,28 @@
-{"casting_time": "1 bonus action","classes": ["ranger","ranger__revised__","revised_ranger"],
-"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
-"description": "You move like the wind. Until the spell ends, your movement doesn\u2019t provoke opportunity attacks.\nOnce before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn","duration": "Concentration, up to 1 minute","level": "1","name": "Zephyr Strike","range": "Self","ritual": false,"school": "transmutation","tags": ["ranger","ranger__revised__","revised_ranger","level1"],
-"type": "1st-level Transmutation"}
+{
+  "casting_time": "1 bonus action",
+  "classes": [
+    "ranger",
+    "ranger__revised__",
+    "revised_ranger"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V",
+    "somatic": false,
+    "verbal": true
+  },
+  "description": "You move like the wind. Until the spell ends, your movement doesn\u2019t provoke opportunity attacks.\nOnce before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn",
+  "duration": "Concentration, up to 1 minute",
+  "level": "1",
+  "name": "Zephyr Strike",
+  "range": "Self",
+  "ritual": false,
+  "school": "transmutation",
+  "tags": [
+    "ranger",
+    "ranger__revised__",
+    "revised_ranger",
+    "level1"
+  ],
+  "type": "1st-level Transmutation"
+}

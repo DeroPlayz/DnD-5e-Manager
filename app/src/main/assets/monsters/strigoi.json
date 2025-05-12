@@ -1,7 +1,79 @@
-{"ac":16,"actions":[{"description":"The strigoi makes one Claw attack and makes one Proboscis attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage plus 6 (1d12) acid damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":" 5 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage plus 10 (3d6) necrotic damage, and the strigoi regains hit points equal to the amount of necrotic damage dealt. A creature reduced to 0 hit points from this attack dies and leaves nothing behind except its skin and its equipment.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Proboscis","type":"MELEE"},
-{"description":"The strigoi magically summons 1d4 + 2 stirges (see their entry in the bestiary) in unoccupied spaces it can see within 30 feet of it. The stirges are under the strigoi's control and act immediately after the strigoi in the initiative order. The stirges disappear after 1 hour, when the strigoi dies, or when the strigoi dismisses them (no action required).","id":-1,"isLegendary":false,"monsterId":-1,"name":"Ravenous Children (1/Day)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":16,"conditionImmunities":"charmed, frightened","cr":"4","damageImmunities":null,"dex":14,"flySpeed":40,"hp":{"constant":21,"diceAmount":7,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Strigoi","resistances":"necrotic","savingThrows":"Str +5, Dex +4, Wis +5","senses":"darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The strigoi can magically command any stirge within 120 feet of it, using a limited form of telepathy.","id":-1,"monsterId":-1,"name":"Stirge Telepathy"}],
-"speed":30,"str":17,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":17,"xp":1100}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The strigoi makes one Claw attack and makes one Proboscis attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage plus 6 (1d12) acid damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": " 5 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage plus 10 (3d6) necrotic damage, and the strigoi regains hit points equal to the amount of necrotic damage dealt. A creature reduced to 0 hit points from this attack dies and leaves nothing behind except its skin and its equipment.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Proboscis",
+      "type": "MELEE"
+    },
+    {
+      "description": "The strigoi magically summons 1d4 + 2 stirges (see their entry in the bestiary) in unoccupied spaces it can see within 30 feet of it. The stirges are under the strigoi's control and act immediately after the strigoi in the initiative order. The stirges disappear after 1 hour, when the strigoi dies, or when the strigoi dismisses them (no action required).",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Ravenous Children (1/Day)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "charmed, frightened",
+  "cr": "4",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 40,
+  "hp": {
+    "constant": 21,
+    "diceAmount": 7,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common",
+  "name": "Strigoi",
+  "resistances": "necrotic",
+  "savingThrows": "Str +5, Dex +4, Wis +5",
+  "senses": "darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The strigoi can magically command any stirge within 120 feet of it, using a limited form of telepathy.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Stirge Telepathy"
+    }
+  ],
+  "speed": 30,
+  "str": 17,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 17,
+  "xp": 1100
+}

@@ -1,8 +1,60 @@
-{"changesNameOnAttunement": false,"description": "This amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can't do so again until the next dawn.","effects": [{"actualEffect": {"modifier": {"constant": 4,"diceAmount": 4,"diceType": "D4"},
-"shouldPickMax": true,"stat": "HP","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"charges": 1,"id": "5169976a-a283-441a-81ae-12dcff45c26f","name": "In Vino Vitae","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Amulet_of_the_Drunkard","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Amulet of the Drunkard","rarity": "UNCOMMON","requiresAttunement": false,"type": "WONDROUS","value": 500.0,"valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can't do so again until the next dawn.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 4,
+          "diceAmount": 4,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "HP",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "charges": 1,
+      "id": "5169976a-a283-441a-81ae-12dcff45c26f",
+      "name": "In Vino Vitae",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Amulet_of_the_Drunkard",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Amulet of the Drunkard",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": false,
+  "type": "WONDROUS",
+  "value": 500.0,
+  "valueCoin": "GOLD",
+  "weight": 1.0,
+  "weightUnit": "OUNCES"
+}

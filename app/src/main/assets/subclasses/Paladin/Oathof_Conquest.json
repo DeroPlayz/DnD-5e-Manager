@@ -1,385 +1,385 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "A paladin who takes this oath has the tenets of conquest seared on the upper arm.\n\n- Douse the Flame of Hope: It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies' will to fight is shattered forever. A blade can end a life. Fear can end an empire.\n\n- Rule with an Iron Fist: Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow. \n\n- Strength Above All: You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin",
+            "level": 3
+          }
+        ],
+        "id": "Customb67439bf-704f-47a3-a6e0-c89b0f886c07",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tenets of Conquest",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "A paladin who takes this oath has the tenets of conquest seared on the upper arm.\n\n- Douse the Flame of Hope: It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies' will to fight is shattered forever. A blade can end a life. Fear can end an empire.\n\n- Rule with an Iron Fist: Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow. \n\n- Strength Above All: You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin",
-                        "level": 3
-                    }
-                ],
-                "id": "Customb67439bf-704f-47a3-a6e0-c89b0f886c07",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tenets of Conquest",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "3rd \t--> Armor of Agathys, Command",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "3rd \t--> Armor of Agathys, Command",
-                        "level": 3
-                    },
-                    {
-                        "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon",
-                        "level": 5
-                    },
-                    {
-                        "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon\n9th \t--> Bestow Curse, Fear",
-                        "level": 9
-                    },
-                    {
-                        "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon\n9th \t--> Bestow Curse, Fear\n13th\t--> Dominate Beast, Stoneskin",
-                        "level": 13
-                    },
-                    {
-                        "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon\n9th \t--> Bestow Curse, Fear\n13th\t--> Dominate Beast, Stoneskin\n17th\t--> Cloudkill, Dominate Person",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom72201f9d-a8ef-495f-9b16-737bc1475e33",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Oath of Conquest Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon",
+            "level": 5
+          },
+          {
+            "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon\n9th \t--> Bestow Curse, Fear",
+            "level": 9
+          },
+          {
+            "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon\n9th \t--> Bestow Curse, Fear\n13th\t--> Dominate Beast, Stoneskin",
+            "level": 13
+          },
+          {
+            "description": "3rd \t--> Armor of Agathys, Command\n5th \t--> Hold Person, Spiritual Weapon\n9th \t--> Bestow Curse, Fear\n13th\t--> Dominate Beast, Stoneskin\n17th\t--> Cloudkill, Dominate Person",
+            "level": 17
+          }
+        ],
+        "id": "Custom72201f9d-a8ef-495f-9b16-737bc1475e33",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Oath of Conquest Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the following two Channel Divinity options.\n\n- Conquering Presence: As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.\n\n- Guided Strike: When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the following two Channel Divinity options.\n\n- Conquering Presence: As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.\n\n- Guided Strike: When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses",
-                        "level": 3
-                    }
-                ],
-                "id": "Customfa9d7fc6-cf80-44d5-ad32-dae2f9c2def2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You constantly emanate an aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover. If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there",
-                        "level": 7
-                    },
-                    {
-                        "description": "You constantly emanate an aura while you're not incapacitated. The aura extends 30 feet from you in every direction, but not through total cover. If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom8076819e-8c49-4e90-a135-ba6b71c7ee95",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Aura of Conquest",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customfa9d7fc6-cf80-44d5-ad32-dae2f9c2def2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You constantly emanate an aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover. If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not incapacitated",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom5779e953-722f-4e50-a5bf-2355d89b575a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Scornful Rebuke",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You constantly emanate an aura while you're not incapacitated. The aura extends 30 feet from you in every direction, but not through total cover. If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there",
+            "level": 18
+          }
+        ],
+        "id": "Custom8076819e-8c49-4e90-a135-ba6b71c7ee95",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Aura of Conquest",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not incapacitated",
             "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:\n\nYou have resistance to all damage.\nWhen you take the Attack action on your turn, you can make one additional attack as part of that action.\nYour melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.\nOnce you use this feature, you can't use it again until you finish a long rest",
-                        "level": 20
-                    }
-                ],
-                "id": "Custom8a33609a-d63b-4fb2-b6af-97627e0796d0",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Invincible Conqueror",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom5779e953-722f-4e50-a5bf-2355d89b575a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Scornful Rebuke",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:\n\nYou have resistance to all damage.\nWhen you take the Attack action on your turn, you can make one additional attack as part of that action.\nYour melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.\nOnce you use this feature, you can't use it again until you finish a long rest",
             "level": 20
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "paladin_oath_of_conquest",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Oath of Conquest",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "warlock, blood_hunter",
-                "components": "V S M (Cup of water)",
-                "description": "You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have them, it takes 5 cold damage.",
-                "duration": "1 hour",
-                "higherLevels": "Both the temporary hit points and damage increase by 5 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Armor of Agathys",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "abjuration",
-                "type": "1st-level abjuration"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, paladin",
-                "components": "V",
-                "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.\n\nSome typical commands and their Effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.\n\n- Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n\n- Drop: The target drops whatever it is holding and then ends its turn.\n\n- Flee: The target spends its turn moving away from you by the fastest available means.\n\n- Grovel: The target falls prone and then ends its turn.\n\n- Halt: The target doesn't move and takes no Actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
-                "duration": "1 round",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Command",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (a small, straight piece of iron)",
-                "description": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Hold Person",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "2nd-level enchantment"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "cleric",
-                "components": "V, S",
-                "description": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\n\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it. The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell\u00e2\u20ac\u2122s effect resemble that weapon.",
-                "duration": "1 minute",
-                "higherLevels": "When you cast this spell using a spell slot 3rd Level of or higher, the damage increases by 1d8 for every two slot levels above the 2nd",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Spiritual Weapon",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "evocation",
-                "type": "2nd-level evocation"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become Cursed for the Duration of the spell. When you cast this spell, choose the Nature of the curse from the following options.\n\n- Choose one ability score. While Cursed, the target has disadvantage on Ability Checks and Saving Throws made with that ability score.\n\n- While Cursed, the target has disadvantage on Attack Rolls against you.\n\n- While Cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n- While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target.\n\nA Remove Curse spell ends this Effect. At the GM's option, you may choose an alternative curse Effect, but it should be no more powerful than those described above. The GM has final say on such a curse's Effect.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "If you cast this spell using a spell slot of 4th Level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th Level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th Level or higher grants a Duration that doesn't require Concentration",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Bestow Curse",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "necromancy",
-                "type": "3rd-level necromancy"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (a white feather or the heart of a hen)",
-                "description": "You project a phantasmal image of a creature\u00e2\u20ac\u2122s worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.\n\nWhile frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn\u00e2\u20ac\u2122t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Fear",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self (30-foot cone)",
-                "school": "illusion",
-                "type": "3rd-level illusion"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Dominate Person",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "5th-level enchantment"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid, sorcerer",
-                "components": "V, S",
-                "description": "You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Dominate Beast",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "60 feet",
-                "school": "enchantment",
-                "type": "4th-level enchantment"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
-                "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
-                "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Stoneskin",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.\n\nThe fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Cloudkill",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "conjuration",
-                "type": "5th-level conjuration"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom8a33609a-d63b-4fb2-b6af-97627e0796d0",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Invincible Conqueror",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 20
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "paladin_oath_of_conquest",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Oath of Conquest",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "warlock, blood_hunter",
+        "components": "V S M (Cup of water)",
+        "description": "You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have them, it takes 5 cold damage.",
+        "duration": "1 hour",
+        "higherLevels": "Both the temporary hit points and damage increase by 5 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Armor of Agathys",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "abjuration",
+        "type": "1st-level abjuration"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, paladin",
+        "components": "V",
+        "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.\n\nSome typical commands and their Effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the spell ends.\n\n- Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n\n- Drop: The target drops whatever it is holding and then ends its turn.\n\n- Flee: The target spends its turn moving away from you by the fastest available means.\n\n- Grovel: The target falls prone and then ends its turn.\n\n- Halt: The target doesn't move and takes no Actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.",
+        "duration": "1 round",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Command",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, druid, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (a small, straight piece of iron)",
+        "description": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Hold Person",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "2nd-level enchantment"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "cleric",
+        "components": "V, S",
+        "description": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\n\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it. The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell\u00e2\u20ac\u2122s effect resemble that weapon.",
+        "duration": "1 minute",
+        "higherLevels": "When you cast this spell using a spell slot 3rd Level of or higher, the damage increases by 1d8 for every two slot levels above the 2nd",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Spiritual Weapon",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "evocation",
+        "type": "2nd-level evocation"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become Cursed for the Duration of the spell. When you cast this spell, choose the Nature of the curse from the following options.\n\n- Choose one ability score. While Cursed, the target has disadvantage on Ability Checks and Saving Throws made with that ability score.\n\n- While Cursed, the target has disadvantage on Attack Rolls against you.\n\n- While Cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n- While the target is Cursed, your attacks and Spells deal an extra 1d8 necrotic damage to the target.\n\nA Remove Curse spell ends this Effect. At the GM's option, you may choose an alternative curse Effect, but it should be no more powerful than those described above. The GM has final say on such a curse's Effect.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "If you cast this spell using a spell slot of 4th Level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th Level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th Level or higher grants a Duration that doesn't require Concentration",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Bestow Curse",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "necromancy",
+        "type": "3rd-level necromancy"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (a white feather or the heart of a hen)",
+        "description": "You project a phantasmal image of a creature\u00e2\u20ac\u2122s worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.\n\nWhile frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn\u00e2\u20ac\u2122t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Fear",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self (30-foot cone)",
+        "school": "illusion",
+        "type": "3rd-level illusion"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Dominate Person",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "5th-level enchantment"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, sorcerer",
+        "components": "V, S",
+        "description": "You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature\", \"Run over there\", or \"Fetch that object\". If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Dominate Beast",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "60 feet",
+        "school": "enchantment",
+        "type": "4th-level enchantment"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+        "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+        "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Stoneskin",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.\n\nThe fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Cloudkill",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "conjuration",
+        "type": "5th-level conjuration"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

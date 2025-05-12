@@ -1,7 +1,51 @@
-{"changesNameOnAttunement": false,"description": "While you are holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.","effects": [{"actualEffect": {"modifier": {"constant": 3,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "SPELL_ATTACK_BONUS","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "a5b23ccc-04cb-41c0-b751-60be0d1c4f53","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_+3_Wand_of_the_War_Mage","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "+3 Wand of the War Mage","rarity": "VERY_RARE","requiresAttunement": true,"type": "WAND","valueCoin": "GOLD","weight": 1.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While you are holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 3,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "SPELL_ATTACK_BONUS",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "a5b23ccc-04cb-41c0-b751-60be0d1c4f53",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_+3_Wand_of_the_War_Mage",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "+3 Wand of the War Mage",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "WAND",
+  "valueCoin": "GOLD",
+  "weight": 1.0,
+  "weightUnit": "OUNCES"
+}

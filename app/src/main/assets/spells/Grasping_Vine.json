@@ -1,4 +1,30 @@
-{"casting_time": "1 bonus action","classes": ["ranger__revised__","revised_ranger","ranger","druid"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.\n\nUntil the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.","duration": "Concentration, up to 1 minute","level": "4","name": "Grasping Vine","range": "30 feet","ritual": false,"school": "conjuration","tags": ["ranger__revised__","revised_ranger","ranger","druid","level4"],
-"type": "4th-level conjuration"}
+{
+  "casting_time": "1 bonus action",
+  "classes": [
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "druid"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.\n\nUntil the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.",
+  "duration": "Concentration, up to 1 minute",
+  "level": "4",
+  "name": "Grasping Vine",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "conjuration",
+  "tags": [
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "druid",
+    "level4"
+  ],
+  "type": "4th-level conjuration"
+}

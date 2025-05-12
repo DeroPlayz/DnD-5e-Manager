@@ -1,4 +1,27 @@
-{"casting_time": "1 action","classes": ["warlock","blood_hunter"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.","duration": "Instantaneous","higher_levels": "The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate Attack roll for each beam.","level": "cantrip","name": "Eldritch Blast","range": "120 feet","ritual": false,"school": "Evocation","tags": ["warlock","blood_hunter","cantrip"],
-"type": "Evocation cantrip"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "warlock",
+    "blood_hunter"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.",
+  "duration": "Instantaneous",
+  "higher_levels": "The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate Attack roll for each beam.",
+  "level": "cantrip",
+  "name": "Eldritch Blast",
+  "range": "120 feet",
+  "ritual": false,
+  "school": "Evocation",
+  "tags": [
+    "warlock",
+    "blood_hunter",
+    "cantrip"
+  ],
+  "type": "Evocation cantrip"
+}

@@ -1,389 +1,389 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
+            "level": 1
+          },
+          {
+            "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
+            "level": 3
+          },
+          {
+            "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n5th --> dispel magic, protection from energy\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
+            "level": 5
+          },
+          {
+            "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n5th --> dispel magic, protection from energy\n7th --> freedom of movement, summon construct\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
+            "level": 7
+          },
+          {
+            "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n5th --> dispel magic, protection from energy\n7th --> freedom of movement, summon construct\n9th --> greater restoration, wall of force\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
+            "level": 9
+          }
+        ],
+        "id": "Custom0f826008-d63d-417d-9a3a-f4164d601762",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Clockwork Magic",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
-                        "level": 1
-                    },
-                    {
-                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
-                        "level": 3
-                    },
-                    {
-                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n5th --> dispel magic, protection from energy\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
-                        "level": 5
-                    },
-                    {
-                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n5th --> dispel magic, protection from energy\n7th --> freedom of movement, summon construct\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
-                        "level": 7
-                    },
-                    {
-                        "description": "You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\nSorcerer --> Level\tSpells\n1st --> alarm, protection from evil and good\n3rd --> aid, lesser restoration\n5th --> dispel magic, protection from energy\n7th --> freedom of movement, summon construct\n9th --> greater restoration, wall of force\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\nd6 --> Manifestation\n1 --> Spectral cogwheels hover behind you.\n2 --> The hands of a clock spin in your eyes.\n3 --> Your skin glows with a brassy sheen.\n4 --> Floating equations and geometric objects overlay your body.\n5 --> Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.\n6 --> The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.",
-                        "level": 9
-                    }
-                ],
-                "id": "Custom0f826008-d63d-417d-9a3a-f4164d601762",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Clockwork Magic",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When a creature you can see within 60 feet of you is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When a creature you can see within 60 feet of you is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 1
-                    }
-                ],
-                "id": "Custome5d9ad65-3e81-4ed1-a6ab-cd932727f1c1",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Restore Balance",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.\n\nThe ward is represented by a number of d8s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice",
-                        "level": 6
-                    }
-                ],
-                "id": "Customcd9c2056-5f99-4d6c-9fe9-d3a233ecbd21",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bastion of Law",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custome5d9ad65-3e81-4ed1-a6ab-cd932727f1c1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Restore Balance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.\n\nThe ward is represented by a number of d8s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the ability to align your consciousness to the endless calculations of Mechanus. As a bonus action, you can enter this state for 1 minute. For the duration, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a roll of 9 or lower on the d20 as a 10.\n\nOnce you use this bonus action, you can't use it again until you finish a long rest, unless you spend 5 sorcery points to use it again",
-                        "level": 14
-                    }
-                ],
-                "id": "Customb1782e1f-930e-4191-a113-cda25a5c77ca",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Trance of Order",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customcd9c2056-5f99-4d6c-9fe9-d3a233ecbd21",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bastion of Law",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the ability to align your consciousness to the endless calculations of Mechanus. As a bonus action, you can enter this state for 1 minute. For the duration, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a roll of 9 or lower on the d20 as a 10.\n\nOnce you use this bonus action, you can't use it again until you finish a long rest, unless you spend 5 sorcery points to use it again",
             "level": 14
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, and they create the following effects within the cube before vanishing:\n\n- The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube.\n\n- Any damaged objects entirely in the cube are repaired instantly.\n\n- Every spell of 6th level or lower ends on creatures and objects of your choice in the cube.\n\nOnce you use this action, you can't use it again until you finish a long rest, unless you spend 7 sorcery points to use it again",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom2cb394e4-3572-41d5-8c21-324174178584",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Clockwork Cavalcade",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customb1782e1f-930e-4191-a113-cda25a5c77ca",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Trance of Order",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, and they create the following effects within the cube before vanishing:\n\n- The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube.\n\n- Any damaged objects entirely in the cube are repaired instantly.\n\n- Every spell of 6th level or lower ends on creatures and objects of your choice in the cube.\n\nOnce you use this action, you can't use it again until you finish a long rest, unless you spend 7 sorcery points to use it again",
             "level": 18
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "sorcerer_clockwork_soul_[tce]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Clockwork Soul [TCE]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          }
+        ],
+        "id": "Custom2cb394e4-3572-41d5-8c21-324174178584",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Clockwork Cavalcade",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 18
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "sorcerer_clockwork_soul_[tce]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Clockwork Soul [TCE]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 1,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "62a33e63-0143-4ded-af75-7924965fe3f7",
-            "name": "Restore Balance Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            }
+          ],
+          "level": 1,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
-                "components": "V, S, M (a tiny bell and a piece of fine silver wire)",
-                "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
-                "duration": "8 hours",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Alarm",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "abjuration",
-                "type": "1st-level abjuration (ritual)"
-            }
-        },
-        {
-            "level": 1,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, paladin, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S, M (holy water or powdered silver and iron, which the spell consumes)",
-                "description": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.\nThe protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Protection from Evil and Good",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "1st-level abjuration"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, paladin",
-                "components": "V, S, M (a tiny strip of white cloth)",
-                "description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target\u2019s hit point maximum and current hit points increase by 5 for the duration.",
-                "duration": "8 hours",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, a target\u2019s hit points increase by an additional 5 for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Aid",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "abjuration",
-                "type": "2nd-level abjuration"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Lesser Restoration",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "2nd-level abjuration"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u2019s level. On a successful check, the spell ends.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell\u2019s level is equal to or less than the level of the spell slot you used.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Dispel Magic",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "abjuration",
-                "type": "3rd-level abjuration"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "Touch a willing creature. They have resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Protection from Energy",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "3rd-level abjuration"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
-                "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
-                "duration": "1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Freedom of Movement",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, cleric, druid, bard",
-                "components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
-                "description": "You imbue a creature you touch with positive energy to undo a debilitating Effect. You can reduce the target's Exhaustion level by one, or end one of the following Effects on the target.\n\n- One Effect that Charmed or Petrified the target\n\n- One curse, including the target's Attunement to a Cursed magic item\n\n- Any reduction to one of the target's Ability Scores\n\n- One Effect reducing the target's hit point maximum",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Greater Restoration",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "5th-level abjuration"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
-                "description": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or Resting on a solid surface. You can form it into a hemispherical dome or a Sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).\n\nNothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal Travel through the wall",
-                "duration": "Concentration, up to 10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Wall of Force",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "evocation",
-                "type": "5th-level evocation"
-            }
-        },
-        {
-            "level": 7,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, sorcerer, wizard, artificer",
-                "components": "V, S, M (an ornate stone and metal lockbox worth at least 400 gp)",
-                "description": "You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Construct Spirit stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Summon Construct",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "90 feet",
-                "school": "conjuration",
-                "type": "4th-level conjuration"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "62a33e63-0143-4ded-af75-7924965fe3f7",
+      "name": "Restore Balance Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+        "components": "V, S, M (a tiny bell and a piece of fine silver wire)",
+        "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+        "duration": "8 hours",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Alarm",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "abjuration",
+        "type": "1st-level abjuration (ritual)"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, paladin, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S, M (holy water or powdered silver and iron, which the spell consumes)",
+        "description": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.\nThe protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Protection from Evil and Good",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "1st-level abjuration"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, cleric, paladin",
+        "components": "V, S, M (a tiny strip of white cloth)",
+        "description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target\u2019s hit point maximum and current hit points increase by 5 for the duration.",
+        "duration": "8 hours",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, a target\u2019s hit points increase by an additional 5 for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Aid",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "abjuration",
+        "type": "2nd-level abjuration"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Lesser Restoration",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "2nd-level abjuration"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, bard, cleric, druid, paladin, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell\u2019s level. On a successful check, the spell ends.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell\u2019s level is equal to or less than the level of the spell slot you used.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Dispel Magic",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "abjuration",
+        "type": "3rd-level abjuration"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "Touch a willing creature. They have resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Protection from Energy",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "3rd-level abjuration"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, bard, cleric, druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
+        "description": "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.\n\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+        "duration": "1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Freedom of Movement",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, cleric, druid, bard",
+        "components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
+        "description": "You imbue a creature you touch with positive energy to undo a debilitating Effect. You can reduce the target's Exhaustion level by one, or end one of the following Effects on the target.\n\n- One Effect that Charmed or Petrified the target\n\n- One curse, including the target's Attunement to a Cursed magic item\n\n- Any reduction to one of the target's Ability Scores\n\n- One Effect reducing the target's hit point maximum",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Greater Restoration",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "5th-level abjuration"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
+        "description": "An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or Resting on a solid surface. You can form it into a hemispherical dome or a Sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).\n\nNothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal Travel through the wall",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Wall of Force",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "evocation",
+        "type": "5th-level evocation"
+      }
+    },
+    {
+      "level": 7,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, sorcerer, wizard, artificer",
+        "components": "V, S, M (an ornate stone and metal lockbox worth at least 400 gp)",
+        "description": "You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Construct Spirit stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Summon Construct",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "90 feet",
+        "school": "conjuration",
+        "type": "4th-level conjuration"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

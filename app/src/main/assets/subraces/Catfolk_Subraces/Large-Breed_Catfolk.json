@@ -1,18 +1,94 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 2,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Customf5cc780d-7c71-466c-8075-c96b5aad9307","jsonType": "race","languages": [],
-"name": "Large-Breed Catfolk","racialWeapon": {"abilityName": "Strength","damageType": "Slashing","diceAmount": 1,"diceTypeName": "d6","name": "Claws"},
-"skillProficiencies": [{"hint": "","level": 1,"proficiency": "full,stealth"}],
-"speed": {"burrow": 0,"climb": 20,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "The damage die for your unarmed strikes increases to a d6","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Big Cat's Claws","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You are proficient in the Stealth skill","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Catlike Tread","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Powerful Build","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 2,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Customf5cc780d-7c71-466c-8075-c96b5aad9307",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Large-Breed Catfolk",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Slashing",
+    "diceAmount": 1,
+    "diceTypeName": "d6",
+    "name": "Claws"
+  },
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,stealth"
+    }
+  ],
+  "speed": {
+    "burrow": 0,
+    "climb": 20,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The damage die for your unarmed strikes increases to a d6",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Big Cat's Claws",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You are proficient in the Stealth skill",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Catlike Tread",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Powerful Build",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

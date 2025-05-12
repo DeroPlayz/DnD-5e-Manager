@@ -1,5 +1,33 @@
-{"casting_time": "1 action","classes": ["druid","ranger__revised__","revised_ranger","ranger"],
-"components": {"material": true,"materials_needed": ["a bit of fur wrapped in a cloth"],
-"raw": "V, S, M (a bit of fur wrapped in a cloth)","somatic": true,"verbal": true},
-"description": "You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast\u2019s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.","duration": "Concentration, up to 10 minutes","level": "1","name": "Beast Bond","range": "Touch","ritual": false,"school": "divination","tags": ["druid","ranger__revised__","revised_ranger","ranger","level1"],
-"type": "1st-level divination"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "druid",
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a bit of fur wrapped in a cloth"
+    ],
+    "raw": "V, S, M (a bit of fur wrapped in a cloth)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast\u2019s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.",
+  "duration": "Concentration, up to 10 minutes",
+  "level": "1",
+  "name": "Beast Bond",
+  "range": "Touch",
+  "ritual": false,
+  "school": "divination",
+  "tags": [
+    "druid",
+    "ranger__revised__",
+    "revised_ranger",
+    "ranger",
+    "level1"
+  ],
+  "type": "1st-level divination"
+}

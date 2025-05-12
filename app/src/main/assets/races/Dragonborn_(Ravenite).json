@@ -1,16 +1,84 @@
-{"abilityScores": {"cha": 0,"con": 1,"dex": 0,"intelligence": 0,"str": 2,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "dragonborn_(ravenite)","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Draconic"}],
-"name": "Dragonborn (Ravenite)","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against that creature. Once you use this trait, you can't do so again until you finish a short or long rest","level": 1}],
-"id": "Customd6d5eac5-66e2-47ee-9bc5-29aff625c9ae","isFeature": true,"jsonType": "feat","level": 1,"name": "Vengeful Assault","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray","level": 1}],
-"id": "Custom8e91cb66-f2f8-4bf7-b74e-97d8688bea86","isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 1,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 2,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "dragonborn_(ravenite)",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Draconic"
+    }
+  ],
+  "name": "Dragonborn (Ravenite)",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 0,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack with the weapon against that creature. Once you use this trait, you can't do so again until you finish a short or long rest",
+            "level": 1
+          }
+        ],
+        "id": "Customd6d5eac5-66e2-47ee-9bc5-29aff625c9ae",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Vengeful Assault",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray",
+            "level": 1
+          }
+        ],
+        "id": "Custom8e91cb66-f2f8-4bf7-b74e-97d8688bea86",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Darkvision",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

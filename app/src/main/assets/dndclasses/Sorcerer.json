@@ -1,521 +1,521 @@
 {
-    "acModifier": "Dexterity",
-    "archetypeSelectionLevel": 1,
-    "armorProficiencies": [],
-    "attacksByLevel": [
+  "acModifier": "Dexterity",
+  "archetypeSelectionLevel": 1,
+  "armorProficiencies": [],
+  "attacksByLevel": [
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amount": 1,
-            "level": 1
-        }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Light Crossbow and 20 Bolts",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Any Simple Weapon",
-                    "number": 1
-                }
-            ],
-            "id": "f24ae4b8-4c54-4300-aa5a-a3333f74afcb"
+          "description": "",
+          "name": "Light Crossbow and 20 Bolts",
+          "number": 1
         },
         {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Component Pouch",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Arcane Focus",
-                    "number": 1
-                }
-            ],
-            "id": "8b55fa15-6ab0-40f5-b32a-db5d6f97d0f2"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Dungeoneer's Pack",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Explorer's Pack",
-                    "number": 1
-                }
-            ],
-            "id": "2dcc8ade-549d-49b7-b555-ce4e203114ce"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Dagger",
-                    "number": 2
-                }
-            ],
-            "id": "96e08645-9899-4eea-ac29-1991b5b7a1b9"
+          "description": "",
+          "name": "Any Simple Weapon",
+          "number": 1
         }
-    ],
-    "classSkills": [
-        {
-            "amountOfChoice": 2,
-            "id": "0a9f2776-868b-482f-8d2c-3a9a3bab657f",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Arcana",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Deception",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Insight",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Intimidation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Persuasion",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Religion",
-                    "typeName": "SKILL"
-                }
-            ]
-        }
-    ],
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+      ],
+      "id": "f24ae4b8-4c54-4300-aa5a-a3333f74afcb"
     },
-    "effectiveCasterLevel": "FULL",
-    "features": [],
-    "hitDie": "D6",
-    "hpModifier": "Constitution",
-    "id": "sorcerer",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Class",
-    "multiclassArmor": false,
-    "multiclassSkills": false,
-    "multiclassTools": false,
-    "multiclassWeapons": false,
-    "name": "Sorcerer",
-    "savingThrows": {
-        "cha": true,
-        "con": true,
-        "dex": false,
-        "intelligence": false,
-        "str": false,
-        "wis": false
-    },
-    "selectableFeatures": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 3
-                },
-                {
-                    "amount": 2,
-                    "level": 4
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You have access to the following additional options.\n\nSeeking Spell:\nIf you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.\n\nTransmuted Spell:\nWhen you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom7ad90981-ef13-447f-8d59-a0bceedf2076",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Metamagic Options",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:\n\n- Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.\n\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list",
-                                "level": 4
-                            }
-                        ],
-                        "id": "Custom353180cb-e4fe-4b65-b451-5584c295b6c0",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Sorcerous Versatility",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 4
-                }
-            ],
-            "canReselect": false,
-            "id": "41dc2b33-6e79-4faa-8c23-c690e755dfaf",
-            "name": "Sorcerer Optional Features",
-            "selectedFeatures": []
+          "description": "",
+          "name": "Component Pouch",
+          "number": 1
         },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 2,
-                    "level": 3
-                },
-                {
-                    "amount": 3,
-                    "level": 10
-                },
-                {
-                    "amount": 4,
-                    "level": 17
-                }
+          "description": "",
+          "name": "Arcane Focus",
+          "number": 1
+        }
+      ],
+      "id": "8b55fa15-6ab0-40f5-b32a-db5d6f97d0f2"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Dungeoneer's Pack",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Explorer's Pack",
+          "number": 1
+        }
+      ],
+      "id": "2dcc8ade-549d-49b7-b555-ce4e203114ce"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Dagger",
+          "number": 2
+        }
+      ],
+      "id": "96e08645-9899-4eea-ac29-1991b5b7a1b9"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 2,
+      "id": "0a9f2776-868b-482f-8d2c-3a9a3bab657f",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "FULL",
+  "features": [],
+  "hitDie": "D6",
+  "hpModifier": "Constitution",
+  "id": "sorcerer",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Class",
+  "multiclassArmor": false,
+  "multiclassSkills": false,
+  "multiclassTools": false,
+  "multiclassWeapons": false,
+  "name": "Sorcerer",
+  "savingThrows": {
+    "cha": true,
+    "con": true,
+    "dex": false,
+    "intelligence": false,
+    "str": false,
+    "wis": false
+  },
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 3
+        },
+        {
+          "amount": 2,
+          "level": 4
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You have access to the following additional options.\n\nSeeking Spell:\nIf you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.\n\nTransmuted Spell:\nWhen you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder",
+                "level": 3
+              }
             ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom8060c582-56aa-405e-a0af-1977708747f1",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Careful Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.\n\nWhen you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom8f18ff92-ef7d-4bc0-b729-fbcec3342c9e",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Distant Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom4ea47f8a-ed16-4a15-8ddc-309caa6c85c5",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Empowered Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom856e8b7c-6b4c-4ec3-b2ed-2a6c05846920",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Extended Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custombe5ed556-afb7-43a3-b630-a5b9d7d3a3eb",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Heightened Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Customb027a6d0-c091-46bc-a57f-d7a4fd90d70b",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Quickened Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom0a9fd491-01bc-42f2-ad05-0fd97a97df0e",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Subtle Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom0c011a9d-b528-417e-80ee-ee7169dcc97c",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Twinned Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custombc730b65-50a3-47ad-aba2-36a08775a575",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Seeking Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Customf5b60ce4-e320-4b8b-8912-7b857fe6d6c4",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Transmuted Spell",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                }
-            ],
-            "canReselect": false,
-            "id": "2dfa7d8b-bee1-4473-a27f-1f53ba012951",
+            "id": "Custom7ad90981-ef13-447f-8d59-a0bceedf2076",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
             "name": "Metamagic Options",
-            "selectedFeatures": []
-        }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
         {
-            "abilityCalculators": [],
-            "amountsPerLevel": [
-                {
-                    "amount": 2,
-                    "level": 2
-                },
-                {
-                    "amount": 3,
-                    "level": 3
-                },
-                {
-                    "amount": 4,
-                    "level": 4
-                },
-                {
-                    "amount": 5,
-                    "level": 5
-                },
-                {
-                    "amount": 6,
-                    "level": 6
-                },
-                {
-                    "amount": 7,
-                    "level": 7
-                },
-                {
-                    "amount": 8,
-                    "level": 8
-                },
-                {
-                    "amount": 9,
-                    "level": 9
-                },
-                {
-                    "amount": 10,
-                    "level": 10
-                },
-                {
-                    "amount": 11,
-                    "level": 11
-                },
-                {
-                    "amount": 12,
-                    "level": 12
-                },
-                {
-                    "amount": 13,
-                    "level": 13
-                },
-                {
-                    "amount": 14,
-                    "level": 14
-                },
-                {
-                    "amount": 15,
-                    "level": 15
-                },
-                {
-                    "amount": 16,
-                    "level": 16
-                },
-                {
-                    "amount": 17,
-                    "level": 17
-                },
-                {
-                    "amount": 18,
-                    "level": 18
-                },
-                {
-                    "amount": 19,
-                    "level": 19
-                },
-                {
-                    "amount": 20,
-                    "level": 20
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:\n\n- Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you.\n\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list",
+                "level": 4
+              }
             ],
-            "associatedValueName": "",
-            "id": "d94a6cdf-91ca-4bab-b2ed-b9b691739b86",
-            "name": "Sorcery Points",
-            "type": "BASIC",
-            "usesLeft": 0
+            "id": "Custom353180cb-e4fe-4b65-b451-5584c295b6c0",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Sorcerous Versatility",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 4
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": [
+      ],
+      "canReselect": false,
+      "id": "41dc2b33-6e79-4faa-8c23-c690e755dfaf",
+      "name": "Sorcerer Optional Features",
+      "selectedFeatures": []
+    },
+    {
+      "amountsPerLevel": [
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dagger"
+          "amount": 2,
+          "level": 3
         },
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dart"
+          "amount": 3,
+          "level": 10
         },
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Sling"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Quarterstaff"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Crossbow, light"
+          "amount": 4,
+          "level": 17
         }
-    ]
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell",
+                "level": 3
+              }
+            ],
+            "id": "Custom8060c582-56aa-405e-a0af-1977708747f1",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Careful Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.\n\nWhen you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet",
+                "level": 3
+              }
+            ],
+            "id": "Custom8f18ff92-ef7d-4bc0-b729-fbcec3342c9e",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Distant Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell",
+                "level": 3
+              }
+            ],
+            "id": "Custom4ea47f8a-ed16-4a15-8ddc-309caa6c85c5",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Empowered Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours",
+                "level": 3
+              }
+            ],
+            "id": "Custom856e8b7c-6b4c-4ec3-b2ed-2a6c05846920",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Extended Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell",
+                "level": 3
+              }
+            ],
+            "id": "Custombe5ed556-afb7-43a3-b630-a5b9d7d3a3eb",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Heightened Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting",
+                "level": 3
+              }
+            ],
+            "id": "Customb027a6d0-c091-46bc-a57f-d7a4fd90d70b",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Quickened Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components",
+                "level": 3
+              }
+            ],
+            "id": "Custom0a9fd491-01bc-42f2-ad05-0fd97a97df0e",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Subtle Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are",
+                "level": 3
+              }
+            ],
+            "id": "Custom0c011a9d-b528-417e-80ee-ee7169dcc97c",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Twinned Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell",
+                "level": 3
+              }
+            ],
+            "id": "Custombc730b65-50a3-47ad-aba2-36a08775a575",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Seeking Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder",
+                "level": 3
+              }
+            ],
+            "id": "Customf5b60ce4-e320-4b8b-8912-7b857fe6d6c4",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Transmuted Spell",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        }
+      ],
+      "canReselect": false,
+      "id": "2dfa7d8b-bee1-4473-a27f-1f53ba012951",
+      "name": "Metamagic Options",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [],
+      "amountsPerLevel": [
+        {
+          "amount": 2,
+          "level": 2
+        },
+        {
+          "amount": 3,
+          "level": 3
+        },
+        {
+          "amount": 4,
+          "level": 4
+        },
+        {
+          "amount": 5,
+          "level": 5
+        },
+        {
+          "amount": 6,
+          "level": 6
+        },
+        {
+          "amount": 7,
+          "level": 7
+        },
+        {
+          "amount": 8,
+          "level": 8
+        },
+        {
+          "amount": 9,
+          "level": 9
+        },
+        {
+          "amount": 10,
+          "level": 10
+        },
+        {
+          "amount": 11,
+          "level": 11
+        },
+        {
+          "amount": 12,
+          "level": 12
+        },
+        {
+          "amount": 13,
+          "level": 13
+        },
+        {
+          "amount": 14,
+          "level": 14
+        },
+        {
+          "amount": 15,
+          "level": 15
+        },
+        {
+          "amount": 16,
+          "level": 16
+        },
+        {
+          "amount": 17,
+          "level": 17
+        },
+        {
+          "amount": 18,
+          "level": 18
+        },
+        {
+          "amount": 19,
+          "level": 19
+        },
+        {
+          "amount": 20,
+          "level": 20
+        }
+      ],
+      "associatedValueName": "",
+      "id": "d94a6cdf-91ca-4bab-b2ed-b9b691739b86",
+      "name": "Sorcery Points",
+      "type": "BASIC",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Dagger"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Dart"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Sling"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Quarterstaff"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Crossbow, light"
+    }
+  ]
 }

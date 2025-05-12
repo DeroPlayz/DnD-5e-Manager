@@ -1,7 +1,77 @@
-{"ac":16,"actions":[{"description":"The barkburr makes two Poison Barb attacks and uses Lignify if able.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage, and the barkburr attaches to the target. While the barkburr is attached, it can't make Poison Barb attacks, and the target has the restrained condition as its body begins to transform into wood.\n\nAn attached barkburr can detach itself by spending 5 feet of its movement on its turn. A creature that can reach the barkburr, including the target, can use its action to detach the barkburr by making a successful DC 13 Strength (Athletics) check.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Poison Barb","type":"MELEE"},
-{"description":"The barkburr targets the creature it is attached to, and the target must make a DC 13 Constitution saving throw. On a failed save, the target has the petrified condition until freed by the Greater Restoration spell or another effect, except it turns into a tree instead of stone. Any equipment the target is wearing or carrying is absorbed into the tree's bark.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Lignify","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":10,"con":16,"conditionImmunities":"blinded, charmed, deafened, frightened","cr":"3","damageImmunities":"psychic","dex":6,"flySpeed":0,"hp":{"constant":24,"diceAmount":8,"diceType":"D6"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Barkburr [QftIS]","resistances":null,"savingThrows":null,"senses":"blindsight 60 ft. (can't see beyond this radius)","size":"Small","skills":null,"specialTraits":[{"description":"If the barkburr is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the barkburr move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the barkburr is animate.","id":-1,"monsterId":-1,"name":"False Appearance"},
-{"description":"With or without a running start, the barkburr's high jump is up to 15 feet, and its long jump is up to 30 feet. The barkburr's jumps can exceed its speed if its speed isn't 0.","id":-1,"monsterId":-1,"name":"Springing Leap"}],
-"speed":10,"str":16,"swimSpeed":0,"tag":null,"type":"Plant","vulnerabilities":null,"wis":15,"xp":700}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The barkburr makes two Poison Barb attacks and uses Lignify if able.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage, and the barkburr attaches to the target. While the barkburr is attached, it can't make Poison Barb attacks, and the target has the restrained condition as its body begins to transform into wood.\n\nAn attached barkburr can detach itself by spending 5 feet of its movement on its turn. A creature that can reach the barkburr, including the target, can use its action to detach the barkburr by making a successful DC 13 Strength (Athletics) check.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Poison Barb",
+      "type": "MELEE"
+    },
+    {
+      "description": "The barkburr targets the creature it is attached to, and the target must make a DC 13 Constitution saving throw. On a failed save, the target has the petrified condition until freed by the Greater Restoration spell or another effect, except it turns into a tree instead of stone. Any equipment the target is wearing or carrying is absorbed into the tree's bark.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Lignify",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 1,
+  "climbSpeed": 10,
+  "con": 16,
+  "conditionImmunities": "blinded, charmed, deafened, frightened",
+  "cr": "3",
+  "damageImmunities": "psychic",
+  "dex": 6,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 24,
+    "diceAmount": 8,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Barkburr [QftIS]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "blindsight 60 ft. (can't see beyond this radius)",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the barkburr is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the barkburr move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the barkburr is animate.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "False Appearance"
+    },
+    {
+      "description": "With or without a running start, the barkburr's high jump is up to 15 feet, and its long jump is up to 30 feet. The barkburr's jumps can exceed its speed if its speed isn't 0.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Springing Leap"
+    }
+  ],
+  "speed": 10,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Plant",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 700
+}

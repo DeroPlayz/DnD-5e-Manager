@@ -1,5 +1,37 @@
-{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a bit of bat fur"],
-"raw": "V, S, M (a bit of bat fur)","somatic": true,"verbal": true},
-"description": "You create an invisible, magical eye within range that hovers in the for the duration.\n\nYou mentally recieve visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.\n\nAs an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.","duration": "Concentration, up to 1 hour","level": "4","name": "Arcane Eye","range": "30 feet","ritual": false,"school": "divination","tags": ["artificer","artificer__eb_","artificer__revised_","fighter","rogue","wizard","level4"],
-"type": "4th-level divination"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a bit of bat fur"
+    ],
+    "raw": "V, S, M (a bit of bat fur)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You create an invisible, magical eye within range that hovers in the for the duration.\n\nYou mentally recieve visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.\n\nAs an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.",
+  "duration": "Concentration, up to 1 hour",
+  "level": "4",
+  "name": "Arcane Eye",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "divination",
+  "tags": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level4"
+  ],
+  "type": "4th-level divination"
+}

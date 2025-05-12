@@ -1,7 +1,77 @@
-{"ac":16,"actions":[{"description":"The dust hulk makes three Slam attacks. It can replace one of these attacks with Stinging Dust.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"},
-{"description":"One creature of the dust hulk's choice inside its space must make a DC 14 Constitution saving throw. On a failed save, the creature takes 10 (3d6) bludgeoning damage and has the blinded condition until the end of its next turn. On a successful save, the creature takes half as much damage only.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Stinging Dust","type":"NONE"}],
-"alignment":"Chaotic Neutral","burrowSpeed":0,"cha":8,"climbSpeed":0,"con":16,"conditionImmunities":"exhaustion, grappled, paralyzed, petrified, poisoned, restrained","cr":"5","damageImmunities":"poison","dex":19,"flySpeed":30,"hp":{"constant":24,"diceAmount":8,"diceType":"D10"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Giant, Terran","name":"Dust Hulk [BGG]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The dust hulk can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch without squeezing.","id":-1,"monsterId":-1,"name":"Air Form"},
-{"description":"When the dust hulk dies, it explodes in a burst of dust that fills a 10-foot-radius sphere centered on itself. Each creature in that area must succeed on a DC 14 Constitution saving throw or have the blinded condition for 1 minute. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"monsterId":-1,"name":"Death Burst"}],
-"speed":0,"str":15,"swimSpeed":0,"tag":null,"type":"Elemental","vulnerabilities":null,"wis":12,"xp":1800}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The dust hulk makes three Slam attacks. It can replace one of these attacks with Stinging Dust.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    },
+    {
+      "description": "One creature of the dust hulk's choice inside its space must make a DC 14 Constitution saving throw. On a failed save, the creature takes 10 (3d6) bludgeoning damage and has the blinded condition until the end of its next turn. On a successful save, the creature takes half as much damage only.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Stinging Dust",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Neutral",
+  "burrowSpeed": 0,
+  "cha": 8,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, poisoned, restrained",
+  "cr": "5",
+  "damageImmunities": "poison",
+  "dex": 19,
+  "flySpeed": 30,
+  "hp": {
+    "constant": 24,
+    "diceAmount": 8,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant, Terran",
+  "name": "Dust Hulk [BGG]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The dust hulk can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch without squeezing.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Air Form"
+    },
+    {
+      "description": "When the dust hulk dies, it explodes in a burst of dust that fills a 10-foot-radius sphere centered on itself. Each creature in that area must succeed on a DC 14 Constitution saving throw or have the blinded condition for 1 minute. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Death Burst"
+    }
+  ],
+  "speed": 0,
+  "str": 15,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Elemental",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 1800
+}

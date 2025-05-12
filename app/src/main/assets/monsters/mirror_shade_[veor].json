@@ -1,7 +1,77 @@
-{"ac":13,"actions":[{"description":"The mirror shade makes two Phantasmal Strike attacks and uses Reflect Fear.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) radiant damage plus 7 (2d6) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Phantasmal Strike","type":"MELEE"},
-{"description":"The mirror shade targets one creature it can see within 60 feet of itself and projects an illusion of that creature's greatest fear. The target must make a DC 16 Wisdom saving throw. On a failed save, the target takes 28 (8d6) psychic damage and has the frightened condition until the start of the mirror shade's next turn. On a successful save, the target takes half as much damage only.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Reflect Fear","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":18,"climbSpeed":0,"con":14,"conditionImmunities":"blinded, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained","cr":"10","damageImmunities":"poison, psychic, radiant","dex":17,"flySpeed":0,"hp":{"constant":28,"diceAmount":14,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":null,"name":"Mirror Shade [VEoR]","resistances":"acid, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Dex +7, Wis +5","senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"If the mirror shade is within 5 feet of a reflective surface—such as a mirror, glass pane, or still water—it has advantage on its initiative roll. If a creature hasn't observed the mirror shade move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mirror shade isn't the creature's own reflection.","id":-1,"monsterId":-1,"name":"False Appearance"},
-{"description":"The mirror shade can move along the surface of reflective or translucent objects, such as mirrors, without provoking opportunity attacks. It can move through translucent objects as if they were difficult terrain.","id":-1,"monsterId":-1,"name":"Mirror Movement"}],
-"speed":40,"str":8,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":13,"xp":5900}
+{
+  "ac": 13,
+  "actions": [
+    {
+      "description": "The mirror shade makes two Phantasmal Strike attacks and uses Reflect Fear.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) radiant damage plus 7 (2d6) psychic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Phantasmal Strike",
+      "type": "MELEE"
+    },
+    {
+      "description": "The mirror shade targets one creature it can see within 60 feet of itself and projects an illusion of that creature's greatest fear. The target must make a DC 16 Wisdom saving throw. On a failed save, the target takes 28 (8d6) psychic damage and has the frightened condition until the start of the mirror shade's next turn. On a successful save, the target takes half as much damage only.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Reflect Fear",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 18,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": "blinded, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "cr": "10",
+  "damageImmunities": "poison, psychic, radiant",
+  "dex": 17,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 28,
+    "diceAmount": 14,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Mirror Shade [VEoR]",
+  "resistances": "acid, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Dex +7, Wis +5",
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the mirror shade is within 5 feet of a reflective surface\u00e2\u20ac\u201dsuch as a mirror, glass pane, or still water\u00e2\u20ac\u201dit has advantage on its initiative roll. If a creature hasn't observed the mirror shade move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mirror shade isn't the creature's own reflection.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "False Appearance"
+    },
+    {
+      "description": "The mirror shade can move along the surface of reflective or translucent objects, such as mirrors, without provoking opportunity attacks. It can move through translucent objects as if they were difficult terrain.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Mirror Movement"
+    }
+  ],
+  "speed": 40,
+  "str": 8,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 13,
+  "xp": 5900
+}

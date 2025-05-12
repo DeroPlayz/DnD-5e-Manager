@@ -1,7 +1,72 @@
-{"ac": 14,"actions": [{"description": "The wolf makes two attacks: one with its bite and one with its claws.","id": -1,"isLegendary": false,"monsterId": -1,"name": "Multiattack","type": "MELEE"},
-{"description": "+8 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.","id": -1,"isLegendary": false,"monsterId": -1,"name": "Bite","type": "MELEE"},
-{"description": "+8 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage.","id": -1,"isLegendary": false,"monsterId": -1,"name": "Claws","type": "MELEE"}],
-"alignment": "Unaligned","burrowSpeed": 0,"cha": 8,"climbSpeed": 0,"con": 16,"cr": "4","dex": 14,"flySpeed": 0,"hp": {"constant": 66,"diceAmount": 7,"diceType": "D12"},
-"id": -1,"int": 5,"isLocked": false,"jsonType": "monster","languages": "Common, Elvish","name": "Guardian Wolf","senses": "passive Perception 15","size": "Huge","skills": "Perception +5, Stealth +4","specialTraits": [{"description": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.","id": -1,"monsterId": -1,"name": "Keen Hearing and Smell"},
-{"description": "The wolf has advantage on attack rolls against a creature if at least one of the wolf\u00e2\u20ac\u2122s allies is within 5 feet of the creature and the ally isn\u00e2\u20ac\u2122t\u00c2\u00a0incapacitated.","id": -1,"monsterId": -1,"name": "Pack Tactics"}],
-"speed": 60,"str": 22,"swimSpeed": 0,"tag": "Vestige","type": "Monstrosity","wis": 12,"xp": 1000}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The wolf makes two attacks: one with its bite and one with its claws.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "MELEE"
+    },
+    {
+      "description": "+8 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "+8 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claws",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Unaligned",
+  "burrowSpeed": 0,
+  "cha": 8,
+  "climbSpeed": 0,
+  "con": 16,
+  "cr": "4",
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 66,
+    "diceAmount": 7,
+    "diceType": "D12"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": false,
+  "jsonType": "monster",
+  "languages": "Common, Elvish",
+  "name": "Guardian Wolf",
+  "senses": "passive Perception 15",
+  "size": "Huge",
+  "skills": "Perception +5, Stealth +4",
+  "specialTraits": [
+    {
+      "description": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Keen Hearing and Smell"
+    },
+    {
+      "description": "The wolf has advantage on attack rolls against a creature if at least one of the wolf\u00e2\u20ac\u2122s allies is within 5 feet of the creature and the ally isn\u00e2\u20ac\u2122t\u00c2\u00a0incapacitated.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Pack Tactics"
+    }
+  ],
+  "speed": 60,
+  "str": 22,
+  "swimSpeed": 0,
+  "tag": "Vestige",
+  "type": "Monstrosity",
+  "wis": 12,
+  "xp": 1000
+}

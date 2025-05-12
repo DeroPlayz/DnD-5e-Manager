@@ -1,18 +1,104 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Bronze discus","number": 1},
-{"description": "","name": "Leather ball","number": 1}],
-"id": "4ea0bd7c-91a8-4970-85da-3b7a465fe758"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Lucky charm","number": 1},
-{"description": "","name": "Past trophy","number": 1}],
-"id": "23b50df2-f00b-4226-bc6c-434d5eb3dc4f"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set of traveler's clothes","number": 1}],
-"id": "fc9763d5-690b-42c8-8c83-4ca70452ee58"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information or temporary shelter.\n\nBetween adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle","level": 1}],
-"id": "Custombb329ed0-6413-4f9e-9a8b-1bf1bacc5cb1","isFeature": true,"jsonType": "feat","level": 1,"name": "Echoes of Victory","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"id": "Customc8aef394-0f7d-4e56-b6a4-0e508727bc86","jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Athlete [MOT]","skills": [{"amountOfChoice": 2,"id": "390aa17e-1da7-454f-8d95-72250069f10c","skills": [{},
-{}],
-"skillsModels": [{"name": "Acrobatics","typeName": "SKILL"},
-{"name": "Athletics","typeName": "SKILL"}]}],
-"tools": [{"description": "Land vehicles","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Bronze discus",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Leather ball",
+          "number": 1
+        }
+      ],
+      "id": "4ea0bd7c-91a8-4970-85da-3b7a465fe758"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Lucky charm",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Past trophy",
+          "number": 1
+        }
+      ],
+      "id": "23b50df2-f00b-4226-bc6c-434d5eb3dc4f"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set of traveler's clothes",
+          "number": 1
+        }
+      ],
+      "id": "fc9763d5-690b-42c8-8c83-4ca70452ee58"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information or temporary shelter.\n\nBetween adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle",
+            "level": 1
+          }
+        ],
+        "id": "Custombb329ed0-6413-4f9e-9a8b-1bf1bacc5cb1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Echoes of Victory",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "id": "Customc8aef394-0f7d-4e56-b6a4-0e508727bc86",
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Athlete [MOT]",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "390aa17e-1da7-454f-8d95-72250069f10c",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Acrobatics",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Land vehicles",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

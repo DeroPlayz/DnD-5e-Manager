@@ -1,7 +1,72 @@
-{"ac":16,"actions":[{"description":"The firbolg makes two attacks using Longsword, Bewitching Bolt, or a combination of them.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 9 (2d8) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Longsword","type":"MELEE"},
-{"description":"6 to hit, range 60 ft., one creature. Hit: 10 (2d6 + 3) psychic damage, and the target must succeed on a DC 14 Charisma saving throw or have the charmed condition until the start of the target's next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bewitching Bolt","type":"NONE"},
-{"description":"The firbolg casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 14):\nAt will: mage hand, minor illusion, Tasha's hideous laughter\n\n1/day each: detect magic, disguise self, dispel magic, polymorph","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":16,"conditionImmunities":null,"cr":"5","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":36,"diceAmount":12,"diceType":"D8"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":"Common, Giant","name":"Firbolg Wanderer [BGG]","resistances":null,"savingThrows":"Dex +5, Cha +6","senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":16,"swimSpeed":0,"tag":"cleric","type":"Humanoid","vulnerabilities":null,"wis":17,"xp":1800}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The firbolg makes two attacks using Longsword, Bewitching Bolt, or a combination of them.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 9 (2d8) psychic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Longsword",
+      "type": "MELEE"
+    },
+    {
+      "description": "6 to hit, range 60 ft., one creature. Hit: 10 (2d6 + 3) psychic damage, and the target must succeed on a DC 14 Charisma saving throw or have the charmed condition until the start of the target's next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bewitching Bolt",
+      "type": "NONE"
+    },
+    {
+      "description": "The firbolg casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 14):\nAt will: mage hand, minor illusion, Tasha's hideous laughter\n\n1/day each: detect magic, disguise self, dispel magic, polymorph",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": null,
+  "cr": "5",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 36,
+    "diceAmount": 12,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Giant",
+  "name": "Firbolg Wanderer [BGG]",
+  "resistances": null,
+  "savingThrows": "Dex +5, Cha +6",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": "cleric",
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 17,
+  "xp": 1800
+}

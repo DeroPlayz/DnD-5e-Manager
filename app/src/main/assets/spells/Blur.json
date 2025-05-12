@@ -1,4 +1,36 @@
-{"casting_time": "1 action","classes": ["artificer","artificer__eb_","artificer__revised_","sorcerer","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
-"description": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn\u2019t rely on sight, as with blindsight, or can see through illusions, as with truesight.","duration": "Concentration, up to 1 minute","level": "2","name": "Blur","range": "self","ritual": false,"school": "illusion","tags": ["artificer","artificer__eb_","artificer__revised_","sorcerer","fighter","rogue","wizard","level2"],
-"type": "2nd-Level illusion"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V",
+    "somatic": false,
+    "verbal": true
+  },
+  "description": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn\u2019t rely on sight, as with blindsight, or can see through illusions, as with truesight.",
+  "duration": "Concentration, up to 1 minute",
+  "level": "2",
+  "name": "Blur",
+  "range": "self",
+  "ritual": false,
+  "school": "illusion",
+  "tags": [
+    "artificer",
+    "artificer__eb_",
+    "artificer__revised_",
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level2"
+  ],
+  "type": "2nd-Level illusion"
+}

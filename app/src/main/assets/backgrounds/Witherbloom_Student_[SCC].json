@@ -1,17 +1,97 @@
-{"equipment": [{"amountOfChoice": 6,"equipmentsModels": [{"description": "","name": "Bottle of Black Ink","number": 1},
-{"description": "","name": "Ink Pen","number": 1},
-{"description": "","name": "Book about Plant Identification","number": 1},
-{"description": "","name": "Iron Pot","number": 1},
-{"description": "","name": "Herbalism Kit","number": 1},
-{"description": "","name": "School Uniform","number": 1}],
-"id": "c0abbe6b-7350-4354-80ed-7a2e7e2406a3"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You gain the Strixhaven Initiate feat and must choose Witherbloom within it.\n\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\n\nWitherbloom Spells\nSpell Level --> Spells\n1st --> Cure Wounds, Inflict Wounds\n2nd --> Lesser Restoration, Wither and Bloom\n3rd --> Revivify, Vampiric Touch\n4th --> Blight, Death Ward\n5th --> Antilife Shell, Greater Restoration","level": 1}],
-"id": "Custom10a43e7a-1359-41fa-a26c-9f56835be9a2","isFeature": true,"jsonType": "feat","level": 1,"name": "Witherbloom Initiate","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 15,"id": "Custom6c23c278-19dd-4f0e-9405-5e89de78804e","jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Witherbloom Student [SCC]","skills": [{"amountOfChoice": 2,"id": "2de78441-33f9-4968-ad7a-658fd63e8fd9","skills": [{},
-{}],
-"skillsModels": [{"name": "Nature","typeName": "SKILL"},
-{"name": "Survival","typeName": "SKILL"}]}],
-"tools": [{"description": "Herbalism kit","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 6,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Bottle of Black Ink",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Ink Pen",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Book about Plant Identification",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Iron Pot",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Herbalism Kit",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "School Uniform",
+          "number": 1
+        }
+      ],
+      "id": "c0abbe6b-7350-4354-80ed-7a2e7e2406a3"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the Strixhaven Initiate feat and must choose Witherbloom within it.\n\nIn addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)\n\nWitherbloom Spells\nSpell Level --> Spells\n1st --> Cure Wounds, Inflict Wounds\n2nd --> Lesser Restoration, Wither and Bloom\n3rd --> Revivify, Vampiric Touch\n4th --> Blight, Death Ward\n5th --> Antilife Shell, Greater Restoration",
+            "level": 1
+          }
+        ],
+        "id": "Custom10a43e7a-1359-41fa-a26c-9f56835be9a2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Witherbloom Initiate",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 15,
+  "id": "Custom6c23c278-19dd-4f0e-9405-5e89de78804e",
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Witherbloom Student [SCC]",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "2de78441-33f9-4968-ad7a-658fd63e8fd9",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Nature",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Herbalism kit",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

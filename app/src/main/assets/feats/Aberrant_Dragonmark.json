@@ -9,7 +9,10 @@
   "jsonType": "feat",
   "level": 1,
   "name": "Aberrant Dragonmark",
-  "AvailableClasses": {"0": "Class1", "1": "Class2"},
+  "AvailableClasses": {
+    "0": "Class1",
+    "1": "Class2"
+  },
   "notes": "",
   "type": "Feat"
 }

@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels",
-            "level": 18
-        }
-    ],
-    "id": "Custom1dfe7751-fda4-4627-aff6-253ec7036ba8",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Spell Mastery",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels",
+      "level": 18
+    }
+  ],
+  "id": "Custom1dfe7751-fda4-4627-aff6-253ec7036ba8",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Spell Mastery",
+  "notes": "",
+  "type": "Feat"
 }

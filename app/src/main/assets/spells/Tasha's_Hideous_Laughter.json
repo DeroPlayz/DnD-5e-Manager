@@ -1,5 +1,33 @@
-{"casting_time": "1 action","classes": ["bard","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["Tiny tarts and a feather that is waved in the air"],
-"raw": "V, S, M (Tiny tarts and a feather that is waved in the air)","somatic": true,"verbal": true},
-"description": "A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn\u2019t affected.\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it\u2019s triggered by damage. On a success, the spell ends.","duration": "Concentration, up to 1 minute","level": "1","name": "Tasha's Hideous Laughter","range": "30 feet","ritual": false,"school": "enchantment","tags": ["bard","fighter","rogue","wizard","level1"],
-"type": "1st-level enchantment"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "Tiny tarts and a feather that is waved in the air"
+    ],
+    "raw": "V, S, M (Tiny tarts and a feather that is waved in the air)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn\u2019t affected.\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it\u2019s triggered by damage. On a success, the spell ends.",
+  "duration": "Concentration, up to 1 minute",
+  "level": "1",
+  "name": "Tasha's Hideous Laughter",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "enchantment",
+  "tags": [
+    "bard",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level1"
+  ],
+  "type": "1st-level enchantment"
+}

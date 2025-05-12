@@ -1,15 +1,81 @@
-{"equipment": [{"amountOfChoice": 3,"equipmentsModels": [{"description": "","name": "Backpack","number": 1},
-{"description": "","name": "Clothes, Traveler's","number": 1},
-{"description": "","name": "Small stone or Sprig that reminds you of home","number": 1}],
-"id": "9bb763ad-3e20-43e5-ae6f-4ba560bb35ea"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You gain the Strike of the Giants feat","level": 1}],
-"id": "Custom3574de59-9c40-4110-9171-8ec981130e0d","isFeature": true,"jsonType": "feat","level": 1,"name": "Strike of the Giants","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"id": "Custom9d43c432-0aae-4bda-be33-007c6449a6a8","jsonType": "background","languages": [{"description": "Giant","shouldSelect": false},
-{"description": "Choose 1","shouldSelect": true}],
-"name": "Giant Foundling [BGG]","skills": [{"amountOfChoice": 2,"id": "8513d709-81ab-464d-ab0b-c731413cb8d8","skills": [{},
-{}],
-"skillsModels": [{"name": "Intimidation","typeName": "SKILL"},
-{"name": "Survival","typeName": "SKILL"}]}],
-"tools": [],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 3,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Backpack",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Clothes, Traveler's",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Small stone or Sprig that reminds you of home",
+          "number": 1
+        }
+      ],
+      "id": "9bb763ad-3e20-43e5-ae6f-4ba560bb35ea"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the Strike of the Giants feat",
+            "level": 1
+          }
+        ],
+        "id": "Custom3574de59-9c40-4110-9171-8ec981130e0d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Strike of the Giants",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "id": "Custom9d43c432-0aae-4bda-be33-007c6449a6a8",
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Giant",
+      "shouldSelect": false
+    },
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Giant Foundling [BGG]",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "8513d709-81ab-464d-ab0b-c731413cb8d8",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "weapons": []
+}

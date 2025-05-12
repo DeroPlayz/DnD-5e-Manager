@@ -1,695 +1,695 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn 3 special maneuvers. You can use only one maneuver per attack",
-                        "level": 3
-                    },
-                    {
-                        "description": "You learn 5 special maneuvers. You can use only one maneuver per attack",
-                        "level": 7
-                    },
-                    {
-                        "description": "You learn 7 special maneuvers. You can use only one maneuver per attack",
-                        "level": 10
-                    },
-                    {
-                        "description": "You learn 9 special maneuvers. You can use only one maneuver per attack",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom66901977-90dd-423c-814c-b0d494562484",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Combat Superiority: Maneuvers",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn 3 special maneuvers. You can use only one maneuver per attack",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have 4 superiority dice, which are d8s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
-                        "level": 3
-                    },
-                    {
-                        "description": "You have 5 superiority dice, which are d8s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
-                        "level": 7
-                    },
-                    {
-                        "description": "You have 5 superiority dice, which are d10s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
-                        "level": 10
-                    },
-                    {
-                        "description": "You have 6 superiority dice, which are d8s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
-                        "level": 15
-                    },
-                    {
-                        "description": "You have 6 superiority dice, which are d12s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
-                        "level": 18
-                    }
-                ],
-                "id": "Customc02c5f44-8070-49e1-b1b9-3deff64a1bf6",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Combat Superiority: Superiority Dice",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)",
-                        "level": 3
-                    }
-                ],
-                "id": "Custome1149ff4-e8d3-44bf-9d40-acb69c349644",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Combat Superiority: Saving Throws",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with one type of artisan's tool of your choice",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom930cbe56-0ff6-4d14-85ff-671c68c6a6c8",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Student of War",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If you spend 1 minute observing or interacting with another creature outside of combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:\n\n- Strength score\n- Dexterity score\n- Constitution score\n- Armor Class\n- Current hit points\n- Total class levels (if any)\n- Fighter class levels (if any)",
-                        "level": 7
-                    }
-                ],
-                "id": "Customc275bdbd-4dbe-45d2-9497-c2c2e3888a45",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Know Your Enemy",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You learn 5 special maneuvers. You can use only one maneuver per attack",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your superiority dice turn into d10",
-                        "level": 10
-                    },
-                    {
-                        "description": "your superiority dice turn into d12",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom6ee1b50c-bd67-4507-8783-445b53c3956c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Improved Combat Superiority",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You learn 7 special maneuvers. You can use only one maneuver per attack",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Whenever you roll for initiative and have zero superiority dice, you get 1 superiority die back",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom82eb908f-b707-4079-b5c3-4d0e0ce9c1da",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Relentless",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You learn 9 special maneuvers. You can use only one maneuver per attack",
             "level": 15
+          }
+        ],
+        "id": "Custom66901977-90dd-423c-814c-b0d494562484",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Combat Superiority: Maneuvers",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have 4 superiority dice, which are d8s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
+            "level": 3
+          },
+          {
+            "description": "You have 5 superiority dice, which are d8s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
+            "level": 7
+          },
+          {
+            "description": "You have 5 superiority dice, which are d10s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
+            "level": 10
+          },
+          {
+            "description": "You have 6 superiority dice, which are d8s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
+            "level": 15
+          },
+          {
+            "description": "You have 6 superiority dice, which are d12s, and you expend one whenever you use a maneuver. You regain them all when you finish a short or long rest",
+            "level": 18
+          }
+        ],
+        "id": "Customc02c5f44-8070-49e1-b1b9-3deff64a1bf6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Combat Superiority: Superiority Dice",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)",
+            "level": 3
+          }
+        ],
+        "id": "Custome1149ff4-e8d3-44bf-9d40-acb69c349644",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Combat Superiority: Saving Throws",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency with one type of artisan's tool of your choice",
+            "level": 3
+          }
+        ],
+        "id": "Custom930cbe56-0ff6-4d14-85ff-671c68c6a6c8",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Student of War",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "If you spend 1 minute observing or interacting with another creature outside of combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:\n\n- Strength score\n- Dexterity score\n- Constitution score\n- Armor Class\n- Current hit points\n- Total class levels (if any)\n- Fighter class levels (if any)",
+            "level": 7
+          }
+        ],
+        "id": "Customc275bdbd-4dbe-45d2-9497-c2c2e3888a45",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Know Your Enemy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your superiority dice turn into d10",
+            "level": 10
+          },
+          {
+            "description": "your superiority dice turn into d12",
+            "level": 18
+          }
+        ],
+        "id": "Custom6ee1b50c-bd67-4507-8783-445b53c3956c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Improved Combat Superiority",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Whenever you roll for initiative and have zero superiority dice, you get 1 superiority die back",
+            "level": 15
+          }
+        ],
+        "id": "Custom82eb908f-b707-4079-b5c3-4d0e0ce9c1da",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Relentless",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "- Commander's Strike: When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll.\n\n- Disarming Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.  \n\n- Distracting Strike: When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.  \n\n- Evasive Footwork: When you move on your turn, you can expend a superiority die, adding the total to your AC until you stop moving.  \n\n- Feinting Attack: You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. Until the end of the turn, you have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll.  \n\n- Goading Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has a disadvantage on all attack rolls against targets other than you until the end of your next turn.  \n\n- Lunging Attack: When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll.  \n\n- Maneuvering Attack: When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.\n\n- Menacing Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.  \n\n- Parry: When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier.  \n\n- Precision Attack: When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.  \n\n- Pushing Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.  \n\n- Rally: On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.  \n\n- Riposte: When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee attack against the creature. If you hit, you add the superiority die to the attack's damage roll.  \n\n- Sweeping Attack: When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.  \n\n- Trip Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw or be knocked prone",
+            "level": 3
+          }
+        ],
+        "id": "Custom4a25ac63-4805-4832-8a26-33a26361e97b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Maneuvers",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "fighter_battle_master",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Battle Master",
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 3,
+          "level": 3
         },
         {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "- Commander's Strike: When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll.\n\n- Disarming Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.  \n\n- Distracting Strike: When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.  \n\n- Evasive Footwork: When you move on your turn, you can expend a superiority die, adding the total to your AC until you stop moving.  \n\n- Feinting Attack: You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. Until the end of the turn, you have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll.  \n\n- Goading Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has a disadvantage on all attack rolls against targets other than you until the end of your next turn.  \n\n- Lunging Attack: When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll.  \n\n- Maneuvering Attack: When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.\n\n- Menacing Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.  \n\n- Parry: When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier.  \n\n- Precision Attack: When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.  \n\n- Pushing Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.  \n\n- Rally: On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.  \n\n- Riposte: When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee attack against the creature. If you hit, you add the superiority die to the attack's damage roll.  \n\n- Sweeping Attack: When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.  \n\n- Trip Attack: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw or be knocked prone",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom4a25ac63-4805-4832-8a26-33a26361e97b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Maneuvers",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "fighter_battle_master",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Battle Master",
-    "selectableFeatures": [
+          "amount": 5,
+          "level": 7
+        },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 3,
-                    "level": 3
-                },
-                {
-                    "amount": 5,
-                    "level": 7
-                },
-                {
-                    "amount": 7,
-                    "level": 10
-                },
-                {
-                    "amount": 9,
-                    "level": 15
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom91c3c799-fc57-47f7-a0fc-e992de423160",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Commander's Strike",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom455d99e9-3efb-4d46-97ab-99b27e45e4a1",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Disarming Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customf748365b-4286-409d-a413-4971ad01f377",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Distracting Strike",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you move on your turn, you can expend a superiority die, adding the total to your AC until you stop moving",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customfdbf921b-fa2f-4659-920e-44e31a21b438",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Evasive Footwork",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. Until the end of the turn, you have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customd176067b-d396-4d21-81bc-6f0aa7c023a5",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Feinting Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has a disadvantage on all attack rolls against targets other than you until the end of your next turn",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom55c1b13e-ae76-46d3-8d2c-11e7d666cadf",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Goading Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customa96f8c69-1ff7-4408-8edb-5ae1f6fac6ad",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Lunging Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom92e386c9-da29-4efb-afc2-7f9f1b704871",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Maneuvering Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customc45bd1c9-7a71-4ffc-b233-7c01b3f41f52",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Menacing Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customf8a8e0a8-da01-427b-a10b-62f1c032ce90",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Parry",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom62fc0003-35ae-4600-afbd-71a23cc7753c",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Precision Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom388da8f6-26f5-408d-88c4-f3184c041946",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Pushing Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom1e695103-d2e3-49b5-9e73-db388c2adc1b",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Rally",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee attack against the creature. If you hit, you add the superiority die to the attack's damage roll",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customd754708f-caef-4bd0-b579-7e33c82c6f04",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Riposte",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom83883398-d5ac-49cc-8105-b5898f002fab",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Sweeping Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw or be knocked prone",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customc134009f-723c-4c07-af6f-2512dbb5f14f",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Trip Attack",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't incapacitated",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customcc9897ee-a8d4-4cb6-8a63-f88f52b0ebd9",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Ambush",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks.\n\nRoll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customf5d13156-c432-4846-a469-e2f8a81d06bc",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Bait and Switch",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When a creature you can see moves into the reach you have with the melee weapon you're wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon's damage roll",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customadf13410-eb67-4c5f-943e-9f632fa35831",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Brace",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you make a Charisma (Intimidation), a Charisma (Performance), or a Charisma (Persuasion) check, you can expend one superiority die and add the superiority die to the ability check",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customb7587232-5d33-4086-8755-62f428ccde70",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Commanding Presence",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Player's Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom195d4c99-a3d1-4a59-82c5-36f53f59ab1a",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Grappling Strike",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon's damage roll",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom6dab7084-000d-47e0-9012-27071a5e272e",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Quick Toss",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you make an Intelligence (Investigation), an Intelligence (History), or a Wisdom (Insight) check, you can expend one superiority die and add the superiority die to the ability check",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customdb6aba5a-1915-49f5-bb83-9ba9863f7d71",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Tactical Assessment",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                }
-            ],
-            "canReselect": true,
-            "id": "292ed346-0ad7-4221-9752-4922b17b53af",
-            "name": "Maneuvers",
-            "selectedFeatures": []
-        }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+          "amount": 7,
+          "level": 10
+        },
         {
-            "abilityCalculators": [],
-            "amountsPerLevel": [
-                {
-                    "amount": 4,
-                    "associatedValue": "d8",
-                    "level": 3
-                },
-                {
-                    "amount": 5,
-                    "associatedValue": "d8",
-                    "level": 7
-                },
-                {
-                    "amount": 5,
-                    "associatedValue": "d10",
-                    "level": 10
-                },
-                {
-                    "amount": 6,
-                    "associatedValue": "d10",
-                    "level": 15
-                },
-                {
-                    "amount": 6,
-                    "associatedValue": "d12",
-                    "level": 18
-                }
-            ],
-            "associatedValueName": "Dice Type",
-            "id": "2985a55b-8470-43ce-85f0-41d1578d5d8c",
-            "name": "Superiority Dice",
-            "type": "BASIC",
-            "usesLeft": 0
+          "amount": 9,
+          "level": 15
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [
+      ],
+      "availableFeatures": [
         {
-            "hint": "",
-            "level": 3,
-            "proficiency": "Choose 1 Artisan's Tool"
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll",
+                "level": 1
+              }
+            ],
+            "id": "Custom91c3c799-fc57-47f7-a0fc-e992de423160",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Commander's Strike",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet",
+                "level": 1
+              }
+            ],
+            "id": "Custom455d99e9-3efb-4d46-97ab-99b27e45e4a1",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Disarming Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn",
+                "level": 1
+              }
+            ],
+            "id": "Customf748365b-4286-409d-a413-4971ad01f377",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Distracting Strike",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you move on your turn, you can expend a superiority die, adding the total to your AC until you stop moving",
+                "level": 1
+              }
+            ],
+            "id": "Customfdbf921b-fa2f-4659-920e-44e31a21b438",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Evasive Footwork",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. Until the end of the turn, you have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll",
+                "level": 1
+              }
+            ],
+            "id": "Customd176067b-d396-4d21-81bc-6f0aa7c023a5",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Feinting Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has a disadvantage on all attack rolls against targets other than you until the end of your next turn",
+                "level": 1
+              }
+            ],
+            "id": "Custom55c1b13e-ae76-46d3-8d2c-11e7d666cadf",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Goading Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll",
+                "level": 1
+              }
+            ],
+            "id": "Customa96f8c69-1ff7-4408-8edb-5ae1f6fac6ad",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Lunging Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack",
+                "level": 1
+              }
+            ],
+            "id": "Custom92e386c9-da29-4efb-afc2-7f9f1b704871",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Maneuvering Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn",
+                "level": 1
+              }
+            ],
+            "id": "Customc45bd1c9-7a71-4ffc-b233-7c01b3f41f52",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Menacing Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier",
+                "level": 1
+              }
+            ],
+            "id": "Customf8a8e0a8-da01-427b-a10b-62f1c032ce90",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Parry",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied",
+                "level": 1
+              }
+            ],
+            "id": "Custom62fc0003-35ae-4600-afbd-71a23cc7753c",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Precision Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you",
+                "level": 1
+              }
+            ],
+            "id": "Custom388da8f6-26f5-408d-88c4-f3184c041946",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Pushing Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier",
+                "level": 1
+              }
+            ],
+            "id": "Custom1e695103-d2e3-49b5-9e73-db388c2adc1b",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Rally",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee attack against the creature. If you hit, you add the superiority die to the attack's damage roll",
+                "level": 1
+              }
+            ],
+            "id": "Customd754708f-caef-4bd0-b579-7e33c82c6f04",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Riposte",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack",
+                "level": 1
+              }
+            ],
+            "id": "Custom83883398-d5ac-49cc-8105-b5898f002fab",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Sweeping Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw or be knocked prone",
+                "level": 1
+              }
+            ],
+            "id": "Customc134009f-723c-4c07-af6f-2512dbb5f14f",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Trip Attack",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't incapacitated",
+                "level": 1
+              }
+            ],
+            "id": "Customcc9897ee-a8d4-4cb6-8a63-f88f52b0ebd9",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Ambush",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks.\n\nRoll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled",
+                "level": 1
+              }
+            ],
+            "id": "Customf5d13156-c432-4846-a469-e2f8a81d06bc",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Bait and Switch",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When a creature you can see moves into the reach you have with the melee weapon you're wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon's damage roll",
+                "level": 1
+              }
+            ],
+            "id": "Customadf13410-eb67-4c5f-943e-9f632fa35831",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Brace",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you make a Charisma (Intimidation), a Charisma (Performance), or a Charisma (Persuasion) check, you can expend one superiority die and add the superiority die to the ability check",
+                "level": 1
+              }
+            ],
+            "id": "Customb7587232-5d33-4086-8755-62f428ccde70",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Commanding Presence",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Player's Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check",
+                "level": 1
+              }
+            ],
+            "id": "Custom195d4c99-a3d1-4a59-82c5-36f53f59ab1a",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Grappling Strike",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon's damage roll",
+                "level": 1
+              }
+            ],
+            "id": "Custom6dab7084-000d-47e0-9012-27071a5e272e",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Quick Toss",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you make an Intelligence (Investigation), an Intelligence (History), or a Wisdom (Insight) check, you can expend one superiority die and add the superiority die to the ability check",
+                "level": 1
+              }
+            ],
+            "id": "Customdb6aba5a-1915-49f5-bb83-9ba9863f7d71",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Tactical Assessment",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
         }
-    ],
-    "weaponProficiencies": []
+      ],
+      "canReselect": true,
+      "id": "292ed346-0ad7-4221-9752-4922b17b53af",
+      "name": "Maneuvers",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [],
+      "amountsPerLevel": [
+        {
+          "amount": 4,
+          "associatedValue": "d8",
+          "level": 3
+        },
+        {
+          "amount": 5,
+          "associatedValue": "d8",
+          "level": 7
+        },
+        {
+          "amount": 5,
+          "associatedValue": "d10",
+          "level": 10
+        },
+        {
+          "amount": 6,
+          "associatedValue": "d10",
+          "level": 15
+        },
+        {
+          "amount": 6,
+          "associatedValue": "d12",
+          "level": 18
+        }
+      ],
+      "associatedValueName": "Dice Type",
+      "id": "2985a55b-8470-43ce-85f0-41d1578d5d8c",
+      "name": "Superiority Dice",
+      "type": "BASIC",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 3,
+      "proficiency": "Choose 1 Artisan's Tool"
+    }
+  ],
+  "weaponProficiencies": []
 }

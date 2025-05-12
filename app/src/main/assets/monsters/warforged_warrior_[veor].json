@@ -1,6 +1,64 @@
-{"ac":16,"actions":[{"description":"The warforged makes two Armblade attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Armblade","type":"MELEE"},
-{"description":"5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Javelin","type":"MELEE_OR_RANGED"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":11,"climbSpeed":0,"con":16,"conditionImmunities":"poisoned","cr":"1","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":12,"diceAmount":4,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Warforged Warrior [VEoR]","resistances":"poison","savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[],
-"speed":30,"str":16,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":14,"xp":200}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The warforged makes two Armblade attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Armblade",
+      "type": "MELEE"
+    },
+    {
+      "description": "5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Javelin",
+      "type": "MELEE_OR_RANGED"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 11,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "poisoned",
+  "cr": "1",
+  "damageImmunities": null,
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 12,
+    "diceAmount": 4,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common",
+  "name": "Warforged Warrior [VEoR]",
+  "resistances": "poison",
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 30,
+  "str": 16,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 200
+}

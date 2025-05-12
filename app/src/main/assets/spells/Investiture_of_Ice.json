@@ -1,4 +1,36 @@
-{"casting_time": "1 action","classes": ["druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": false,"raw": "V, S","somatic": true,"verbal": true},
-"description": "* You are immune to cold damage and have resistance to fire damage.\n\n* You can move across difficult terrain created by ice or snow without spending extra movement.\n\n* The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.\n\n* You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.","duration": "Concentration, up to 10 minutes","level": "6","name": "Investiture of Ice","range": "Self","ritual": false,"school": "transmutation","tags": ["druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level6"],
-"type": "6th-level transmutation"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V, S",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "* You are immune to cold damage and have resistance to fire damage.\n\n* You can move across difficult terrain created by ice or snow without spending extra movement.\n\n* The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.\n\n* You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.",
+  "duration": "Concentration, up to 10 minutes",
+  "level": "6",
+  "name": "Investiture of Ice",
+  "range": "Self",
+  "ritual": false,
+  "school": "transmutation",
+  "tags": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level6"
+  ],
+  "type": "6th-level transmutation"
+}

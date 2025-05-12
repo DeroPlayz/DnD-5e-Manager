@@ -1,4 +1,37 @@
-{"casting_time": "1 action","classes": ["druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": true,"raw": "V S M (Living flea)","somatic": true,"verbal": true},
-"description": "The target must pass a Constitution save or take 1d6 poison damage and move 5 feet in a random direction. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the target can't move or the direction is blocked, it doesn't move.","duration": "Instantaneous","higher_levels": "The damage increases by 1d6 when you reach 5th, 11th, and 17th level.","level": "cantrip","name": "Infestation","range": "30 feet","ritual": false,"school": "conjuration","tags": ["druid","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","cantrip"],
-"type": "Conjuration cantrip"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "raw": "V S M (Living flea)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "The target must pass a Constitution save or take 1d6 poison damage and move 5 feet in a random direction. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the target can't move or the direction is blocked, it doesn't move.",
+  "duration": "Instantaneous",
+  "higher_levels": "The damage increases by 1d6 when you reach 5th, 11th, and 17th level.",
+  "level": "cantrip",
+  "name": "Infestation",
+  "range": "30 feet",
+  "ritual": false,
+  "school": "conjuration",
+  "tags": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "cantrip"
+  ],
+  "type": "Conjuration cantrip"
+}

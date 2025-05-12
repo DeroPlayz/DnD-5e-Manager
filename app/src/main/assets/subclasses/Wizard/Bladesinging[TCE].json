@@ -1,164 +1,164 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
-        }
-    ],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Light Armor"
+    }
+  ],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.\n\nYou also gain proficiency in the Performance skill if you don't already",
+            "level": 2
+          }
+        ],
+        "id": "Custom44d085b7-f922-4191-b2a0-eeb6e6cb5b9b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Training in War and Song",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.\n\nYou also gain proficiency in the Performance skill if you don't already",
-                        "level": 2
-                    }
-                ],
-                "id": "Custom44d085b7-f922-4191-b2a0-eeb6e6cb5b9b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Training in War and Song",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.\n\nYou can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).\n\nWhile your bladesong is active, you gain the following benefits:\n\n- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).\n\n- Your walking speed increases by 10 feet.\n\n- You have advantage on Dexterity (Acrobatics) checks.\n\n- You gain a bonus to any Constitution saving throws you make to maintain concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.\n\nYou can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).\n\nWhile your bladesong is active, you gain the following benefits:\n\n- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).\n\n- Your walking speed increases by 10 feet.\n\n- You have advantage on Dexterity (Acrobatics) checks.\n\n- You gain a bonus to any Constitution saving throws you make to maintain concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest",
-                        "level": 2
-                    }
-                ],
-                "id": "Customdf32dcf7-1416-46d4-938e-bb12c3232833",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bladesong",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom1c66df51-adb7-414d-9ac7-4b536f904f2e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Extra Attack",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customdf32dcf7-1416-46d4-938e-bb12c3232833",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bladesong",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can direct your magic to absorb damage while your bladesong is active. When you take damage, you can use your reaction to expend one spell slot and reduce that damage to you by an amount equal to five times the spell's slot level",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom1b2d7b0c-176f-428c-902e-d1d5068a28c9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Song of Defense",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom1c66df51-adb7-414d-9ac7-4b536f904f2e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Extra Attack",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can direct your magic to absorb damage while your bladesong is active. When you take damage, you can use your reaction to expend one spell slot and reduce that damage to you by an amount equal to five times the spell's slot level",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You add your Intelligence modifier (minimum of +1) to the damage of your melee weapon attacks while your Bladesong is active",
-                        "level": 14
-                    }
-                ],
-                "id": "Customab563aee-f70e-4ed9-b382-7536274c39ca",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Song of Victory",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom1b2d7b0c-176f-428c-902e-d1d5068a28c9",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Song of Defense",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You add your Intelligence modifier (minimum of +1) to the damage of your melee weapon attacks while your Bladesong is active",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "wizard_bladesinging_[tce]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Bladesinging [TCE]",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [
+          }
+        ],
+        "id": "Customab563aee-f70e-4ed9-b382-7536274c39ca",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Song of Victory",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "wizard_bladesinging_[tce]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Bladesinging [TCE]",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "full,performance"
+    }
+  ],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "full,performance"
-        }
-    ],
-    "specialAbilities": [
-        {
-            "abilityCalculators": [
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 2,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "769bc729-3528-40bf-b0df-4cdb36fe0619",
-            "name": "Bladesong Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            }
+          ],
+          "level": 2,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "769bc729-3528-40bf-b0df-4cdb36fe0619",
+      "name": "Bladesong Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

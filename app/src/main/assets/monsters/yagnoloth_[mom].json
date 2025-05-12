@@ -1,10 +1,103 @@
-{"ac":17,"actions":[{"description":"The yagnoloth makes one Electrified Touch attack and one Massive Arm attack, or it makes one Massive Arm attack and uses Battlefield Cunning, if available, or Teleport.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"8 to hit, reach 5 ft., one target. Hit: 27 (6d8) lightning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Electrified Touch","type":"MELEE"},
-{"description":"8 to hit, reach 15 ft., one target. Hit: 23 (3d12 + 4) force damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become stunned until the end of the yagnoloth's next turn.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Massive Arm","type":"MELEE"},
-{"description":"Up to two allied yugoloths within 60 feet of the yagnoloth that can hear it can use their reactions to make one melee attack each.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Battlefield Cunning (Recharge 4-6)","type":"NONE"},
-{"description":"The yagnoloth touches one incapacitated creature within 15 feet of it. The target takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is reduced by an amount equal to half the necrotic damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Life Leech","type":"NONE"},
-{"description":"The yagnoloth teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Teleport","type":"NONE"},
-{"description":"The yagnoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):\nAt will: darkness, detect magic, dispel magic, invisibility (self only), suggestion\n\n3/day each: lightning bolt","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":18,"climbSpeed":0,"con":21,"conditionImmunities":"poisoned","cr":"11","damageImmunities":"acid, poison","dex":14,"flySpeed":0,"hp":{"constant":70,"diceAmount":14,"diceType":"D10"},
-"id":-1,"int":16,"isLocked":true,"jsonType":"monster","languages":"Abyssal, Infernal, telepathy 60 ft.","name":"Yagnoloth [MoM]","resistances":"cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Dex +6, Int +7, Wis +6, Cha +8","senses":"blindsight 60 ft., darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The yagnoloth has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"}],
-"speed":40,"str":19,"swimSpeed":0,"tag":"yugoloth","type":"Fiend","vulnerabilities":null,"wis":15,"xp":7200}
+{
+  "ac": 17,
+  "actions": [
+    {
+      "description": "The yagnoloth makes one Electrified Touch attack and one Massive Arm attack, or it makes one Massive Arm attack and uses Battlefield Cunning, if available, or Teleport.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "8 to hit, reach 5 ft., one target. Hit: 27 (6d8) lightning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Electrified Touch",
+      "type": "MELEE"
+    },
+    {
+      "description": "8 to hit, reach 15 ft., one target. Hit: 23 (3d12 + 4) force damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become stunned until the end of the yagnoloth's next turn.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Massive Arm",
+      "type": "MELEE"
+    },
+    {
+      "description": "Up to two allied yugoloths within 60 feet of the yagnoloth that can hear it can use their reactions to make one melee attack each.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Battlefield Cunning (Recharge 4-6)",
+      "type": "NONE"
+    },
+    {
+      "description": "The yagnoloth touches one incapacitated creature within 15 feet of it. The target takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is reduced by an amount equal to half the necrotic damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Life Leech",
+      "type": "NONE"
+    },
+    {
+      "description": "The yagnoloth teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Teleport",
+      "type": "NONE"
+    },
+    {
+      "description": "The yagnoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):\nAt will: darkness, detect magic, dispel magic, invisibility (self only), suggestion\n\n3/day each: lightning bolt",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 18,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": "poisoned",
+  "cr": "11",
+  "damageImmunities": "acid, poison",
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 70,
+    "diceAmount": 14,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 16,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Abyssal, Infernal, telepathy 60 ft.",
+  "name": "Yagnoloth [MoM]",
+  "resistances": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Dex +6, Int +7, Wis +6, Cha +8",
+  "senses": "blindsight 60 ft., darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The yagnoloth has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    }
+  ],
+  "speed": 40,
+  "str": 19,
+  "swimSpeed": 0,
+  "tag": "yugoloth",
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 7200
+}

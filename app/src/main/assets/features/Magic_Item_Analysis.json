@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You know\rthe artificer spells Detect Magic and Identify, and you can cast\rthem as rituals. You don\u00e2\u20ac\u2122t need to provide a material\rcomponent when casting identify with this class feature",
-            "level": 1
-        }
-    ],
-    "id": "Customa781782f-a5f9-429e-901e-bb07f2b6b75d",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Magic Item Analysis",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You know\rthe artificer spells Detect Magic and Identify, and you can cast\rthem as rituals. You don\u00e2\u20ac\u2122t need to provide a material\rcomponent when casting identify with this class feature",
+      "level": 1
+    }
+  ],
+  "id": "Customa781782f-a5f9-429e-901e-bb07f2b6b75d",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Magic Item Analysis",
+  "notes": "",
+  "type": "Feat"
 }

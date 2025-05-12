@@ -1,189 +1,189 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "THIRD",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have two 1st-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 3 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 3
-                    },
-                    {
-                        "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have three 1st-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 4 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 4
-                    },
-                    {
-                        "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 5 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 7
-                    },
-                    {
-                        "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 6 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 8
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and three 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 7 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 10
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and three 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 8 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 11
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 9 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 13
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 10 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 14
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and three 3rd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 11 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 16
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 12 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 19
-                    },
-                    {
-                        "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 13 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                        "level": 20
-                    }
-                ],
-                "id": "Custom36698d82-5515-4514-91fc-e65a64da5da9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Spellcasting",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "THIRD",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have two 1st-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 3 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you cast Mage Hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:\n\n- You can stow one object the hand is holding in a container worn or carried by another creature.\n- You can retrieve an object in a container worn or carried by another creature.\n- You can use thieves' tools to pick locks and disarm traps at range.\n- You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creatures Wisdom (Perception) check.\n\nIn addition, you can use the bonus action granted by your Cunning Action to control the hand",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom307b41fd-cc86-478c-9a4b-0a8acb7c3220",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mage Hand Legerdemain",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn",
-                        "level": 9
-                    }
-                ],
-                "id": "Customfec51837-d68b-4758-92a0-0ae22b75f41e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Magical Ambush",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 9
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As a bonus action on your turn, you can designate a creature within 5 feet of your Mage Hand. Doing so gives you advantage on attack rolls against that creature until the end of the turn",
-                        "level": 13
-                    }
-                ],
-                "id": "Custom7d9f197a-bec6-4847-9f37-ed8bf7811872",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Versatile Trickster",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have three 1st-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 4 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 4
+          },
+          {
+            "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 5 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 7
+          },
+          {
+            "description": "Cantrips\nYou learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and two 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 6 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 8
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and three 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 7 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 10
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level and three 2nd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 8 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 11
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 9 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
             "level": 13
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st-level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell, can cast it using your spell slots, and the creature can't cast that spell until the 8 hours have passed.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
-                        "level": 17
-                    }
-                ],
-                "id": "Custom4a11137a-f914-4ede-b4de-deca10537fc1",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Spell Thief",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and two 3rd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 10 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 14
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level and three 3rd-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 11 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 16
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 12 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 19
+          },
+          {
+            "description": "Cantrips\nYou learn four cantrips: Mage Hand and three other cantrips of your choice from the wizard spell list.\n\nSpell Slots\nYou have four 1st-level, three 2nd-level, three 3rd-level and one 4th-level spell slots.\n\nTo cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nSpells Known\nYou know 13 wizard spells of your choice. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.\n\nSpellcasting Ability\nIntelligence is your spellcasting ability for your wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+            "level": 20
+          }
+        ],
+        "id": "Custom36698d82-5515-4514-91fc-e65a64da5da9",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Spellcasting",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you cast Mage Hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:\n\n- You can stow one object the hand is holding in a container worn or carried by another creature.\n- You can retrieve an object in a container worn or carried by another creature.\n- You can use thieves' tools to pick locks and disarm traps at range.\n- You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creatures Wisdom (Perception) check.\n\nIn addition, you can use the bonus action granted by your Cunning Action to control the hand",
+            "level": 3
+          }
+        ],
+        "id": "Custom307b41fd-cc86-478c-9a4b-0a8acb7c3220",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mage Hand Legerdemain",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn",
+            "level": 9
+          }
+        ],
+        "id": "Customfec51837-d68b-4758-92a0-0ae22b75f41e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Magical Ambush",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 9
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As a bonus action on your turn, you can designate a creature within 5 feet of your Mage Hand. Doing so gives you advantage on attack rolls against that creature until the end of the turn",
+            "level": 13
+          }
+        ],
+        "id": "Custom7d9f197a-bec6-4847-9f37-ed8bf7811872",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Versatile Trickster",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 13
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st-level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell, can cast it using your spell slots, and the creature can't cast that spell until the 8 hours have passed.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
             "level": 17
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "rogue_arcane_trickster",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Arcane Trickster",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.",
-                "duration": "1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 0,
-                "name": "Mage Hand",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "Conjuration",
-                "type": "Conjuration cantrip"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom4a11137a-f914-4ede-b4de-deca10537fc1",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Spell Thief",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 17
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "rogue_arcane_trickster",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Arcane Trickster",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer__eb_, artificer__revised_, bard, sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\n\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\n\nThe hand can\u2019t attack, activate magic items, or carry more than 10 pounds.",
+        "duration": "1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 0,
+        "name": "Mage Hand",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "Conjuration",
+        "type": "Conjuration cantrip"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

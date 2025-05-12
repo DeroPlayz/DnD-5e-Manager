@@ -1,149 +1,149 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The gold and time you must spend to copy a necromancy spell into your spellbook is halved",
+            "level": 2
+          }
+        ],
+        "id": "Custom6288cc28-bb30-4e80-8229-e34b79ed2d25",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Necromancy Savant",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The gold and time you must spend to copy a necromancy spell into your spellbook is halved",
-                        "level": 2
-                    }
-                ],
-                "id": "Custom6288cc28-bb30-4e80-8229-e34b79ed2d25",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Necromancy Savant",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead",
-                        "level": 2
-                    }
-                ],
-                "id": "Customdcc5e214-bc98-4b08-b6c8-bf8340b0231d",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Grim Harvest",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You add the Animate Dead spell to your spellbook if it is not there already. When you cast Animate Dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.\n\nWhenever you create an undead using a necromancy spell, it has additional benefits:\n\n- The creature's hit point maximum is increased by an amount equal to your wizard level.\n- The creature adds your proficiency bonus to its weapon damage rolls",
-                        "level": 6
-                    }
-                ],
-                "id": "Customb6092252-0b26-41e4-96dc-d19210fce93f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Undead Thralls",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customdcc5e214-bc98-4b08-b6c8-bf8340b0231d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Grim Harvest",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You add the Animate Dead spell to your spellbook if it is not there already. When you cast Animate Dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.\n\nWhenever you create an undead using a necromancy spell, it has additional benefits:\n\n- The creature's hit point maximum is increased by an amount equal to your wizard level.\n- The creature adds your proficiency bonus to its weapon damage rolls",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom1529e2f2-c884-48f0-819e-2a9a64717ba5",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Inured to Undeath",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customb6092252-0b26-41e4-96dc-d19210fce93f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Undead Thralls",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.\n\nIf the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom5514c191-5874-43bd-aaf2-b5eb75592454",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Command Undead",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom1529e2f2-c884-48f0-819e-2a9a64717ba5",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Inured to Undeath",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.\n\nIf the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "wizard_school_of_necromancy",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "School of Necromancy",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 6,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "cleric, fighter, rogue, wizard",
-                "components": "V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)",
-                "description": "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature\u2019s game statistics).\n\nOn each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n\nThe creature is under your control for 24 hours, after which it stops obeying any command you\u2019ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Animate Dead",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "10 feet",
-                "school": "necromancy",
-                "type": "3rd-level necromancy"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom5514c191-5874-43bd-aaf2-b5eb75592454",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Command Undead",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "wizard_school_of_necromancy",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "School of Necromancy",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 6,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "cleric, fighter, rogue, wizard",
+        "components": "V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)",
+        "description": "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature\u2019s game statistics).\n\nOn each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n\nThe creature is under your control for 24 hours, after which it stops obeying any command you\u2019ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Animate Dead",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "10 feet",
+        "school": "necromancy",
+        "type": "3rd-level necromancy"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

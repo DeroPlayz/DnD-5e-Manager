@@ -1,920 +1,920 @@
 {
-    "acModifier": "Dexterity",
-    "archetypeSelectionLevel": 3,
-    "armorProficiencies": [
+  "acModifier": "Dexterity",
+  "archetypeSelectionLevel": 3,
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Light Armor"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Medium Armor"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Heavy Armor"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Shields"
+    }
+  ],
+  "attacksByLevel": [
+    {
+      "amount": 2,
+      "level": 5
+    },
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
+          "description": "",
+          "name": "Martial Weapon and Shield",
+          "number": 1
         },
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Medium Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Heavy Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Shields"
+          "description": "",
+          "name": "Martial Weapon",
+          "number": 2
         }
-    ],
-    "attacksByLevel": [
+      ],
+      "id": "58625a7f-5c14-45e2-8def-436bb5dc9c38"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amount": 2,
-            "level": 5
+          "description": "",
+          "name": "Javelin",
+          "number": 5
         },
         {
-            "amount": 1,
-            "level": 1
+          "description": "",
+          "name": "Simple Melee Weapon",
+          "number": 1
         }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
+      ],
+      "id": "f46a2ef0-bc97-446a-8c7b-9c9260d14e77"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Martial Weapon and Shield",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Martial Weapon",
-                    "number": 2
-                }
-            ],
-            "id": "58625a7f-5c14-45e2-8def-436bb5dc9c38"
+          "description": "",
+          "name": "Priest's Pack",
+          "number": 1
         },
         {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Javelin",
-                    "number": 5
-                },
-                {
-                    "description": "",
-                    "name": "Simple Melee Weapon",
-                    "number": 1
-                }
-            ],
-            "id": "f46a2ef0-bc97-446a-8c7b-9c9260d14e77"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Priest's Pack",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Explorer's Pack",
-                    "number": 1
-                }
-            ],
-            "id": "0bcb4e79-97c8-4c8f-a31d-68ffdb7b550a"
-        },
-        {
-            "amountOfChoice": 2,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Chain Mail",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Holy Symbol",
-                    "number": 1
-                }
-            ],
-            "id": "0c40c248-cd9b-46c9-97ba-ae8f329e8c9d"
+          "description": "",
+          "name": "Explorer's Pack",
+          "number": 1
         }
-    ],
-    "classSkills": [
+      ],
+      "id": "0bcb4e79-97c8-4c8f-a31d-68ffdb7b550a"
+    },
+    {
+      "amountOfChoice": 2,
+      "equipmentsModels": [
         {
-            "amountOfChoice": 2,
-            "id": "73f376b2-0a42-4b58-bf1b-a11ee891122c",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Athletics",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Insight",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Intimidation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Medicine",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Persuasion",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Religion",
-                    "typeName": "SKILL"
-                }
-            ]
+          "description": "",
+          "name": "Chain Mail",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Holy Symbol",
+          "number": 1
         }
-    ],
-    "classWeapon": {
+      ],
+      "id": "0c40c248-cd9b-46c9-97ba-ae8f329e8c9d"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 2,
+      "id": "73f376b2-0a42-4b58-bf1b-a11ee891122c",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Medicine",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "HALF",
+  "features": [],
+  "hitDie": "D10",
+  "hpModifier": "Constitution",
+  "id": "paladin",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Class",
+  "multiclassArmor": true,
+  "multiclassSkills": false,
+  "multiclassTools": false,
+  "multiclassWeapons": true,
+  "name": "Paladin",
+  "savingThrows": {
+    "cha": true,
+    "con": false,
+    "dex": false,
+    "intelligence": false,
+    "str": false,
+    "wis": true
+  },
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 4
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice",
+                "level": 4
+              }
+            ],
+            "id": "Custom212c5b84-20ac-4ee5-85cc-8c25780359d9",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Martial Versatility",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 4
+        }
+      ],
+      "canReselect": false,
+      "id": "2ff48ca2-771f-4e35-adad-c3191c3d562b",
+      "name": "Paladin Optional Features",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [],
+      "amountsPerLevel": [
+        {
+          "amount": 5,
+          "level": 1
+        },
+        {
+          "amount": 10,
+          "level": 2
+        },
+        {
+          "amount": 15,
+          "level": 3
+        },
+        {
+          "amount": 20,
+          "level": 4
+        },
+        {
+          "amount": 25,
+          "level": 5
+        },
+        {
+          "amount": 30,
+          "level": 6
+        },
+        {
+          "amount": 35,
+          "level": 7
+        },
+        {
+          "amount": 40,
+          "level": 8
+        },
+        {
+          "amount": 45,
+          "level": 9
+        },
+        {
+          "amount": 50,
+          "level": 10
+        },
+        {
+          "amount": 55,
+          "level": 11
+        },
+        {
+          "amount": 60,
+          "level": 12
+        },
+        {
+          "amount": 65,
+          "level": 13
+        },
+        {
+          "amount": 70,
+          "level": 14
+        },
+        {
+          "amount": 75,
+          "level": 15
+        },
+        {
+          "amount": 80,
+          "level": 16
+        },
+        {
+          "amount": 85,
+          "level": 17
+        },
+        {
+          "amount": 90,
+          "level": 18
+        },
+        {
+          "amount": 95,
+          "level": 19
+        },
+        {
+          "amount": 100,
+          "level": 20
+        }
+      ],
+      "associatedValueName": "",
+      "id": "bbf62918-ebb4-43d7-ae9e-61b93105748d",
+      "name": "Lay On Hands Points",
+      "type": "BASIC",
+      "usesLeft": 0
+    },
+    {
+      "abilityCalculators": [
+        {
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "CHA"
+                },
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 1,
+          "topLevelConnector": "MAX"
+        }
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "0756b420-aa9c-463d-b85f-744c9dfa1b73",
+      "name": "Divine Sense Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    },
+    {
+      "abilityCalculators": [
+        {
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "CHA"
+                }
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 14,
+          "topLevelConnector": "MAX"
+        }
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "c301dd7d-bc96-4952-851f-015cbd5efb87",
+      "name": "Cleansing Touch Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypeSelectionLevel": 2,
+  "subtypes": [
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
         "abilityName": "Strength",
         "damageType": "Bludgeoning",
         "diceAmount": 1,
         "diceTypeName": "D4",
         "name": ""
-    },
-    "effectiveCasterLevel": "HALF",
-    "features": [],
-    "hitDie": "D10",
-    "hpModifier": "Constitution",
-    "id": "paladin",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Class",
-    "multiclassArmor": true,
-    "multiclassSkills": false,
-    "multiclassTools": false,
-    "multiclassWeapons": true,
-    "name": "Paladin",
-    "savingThrows": {
-        "cha": true,
-        "con": false,
-        "dex": false,
-        "intelligence": false,
-        "str": false,
-        "wis": true
-    },
-    "selectableFeatures": [
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 4
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "While you are wearing armor, you gain a +1 bonus to AC",
+                "level": 2
+              }
             ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice",
-                                "level": 4
-                            }
-                        ],
-                        "id": "Custom212c5b84-20ac-4ee5-85cc-8c25780359d9",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Martial Versatility",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 4
-                }
-            ],
-            "canReselect": false,
-            "id": "2ff48ca2-771f-4e35-adad-c3191c3d562b",
-            "name": "Paladin Optional Features",
-            "selectedFeatures": []
-        }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
-        {
-            "abilityCalculators": [],
-            "amountsPerLevel": [
-                {
-                    "amount": 5,
-                    "level": 1
-                },
-                {
-                    "amount": 10,
-                    "level": 2
-                },
-                {
-                    "amount": 15,
-                    "level": 3
-                },
-                {
-                    "amount": 20,
-                    "level": 4
-                },
-                {
-                    "amount": 25,
-                    "level": 5
-                },
-                {
-                    "amount": 30,
-                    "level": 6
-                },
-                {
-                    "amount": 35,
-                    "level": 7
-                },
-                {
-                    "amount": 40,
-                    "level": 8
-                },
-                {
-                    "amount": 45,
-                    "level": 9
-                },
-                {
-                    "amount": 50,
-                    "level": 10
-                },
-                {
-                    "amount": 55,
-                    "level": 11
-                },
-                {
-                    "amount": 60,
-                    "level": 12
-                },
-                {
-                    "amount": 65,
-                    "level": 13
-                },
-                {
-                    "amount": 70,
-                    "level": 14
-                },
-                {
-                    "amount": 75,
-                    "level": 15
-                },
-                {
-                    "amount": 80,
-                    "level": 16
-                },
-                {
-                    "amount": 85,
-                    "level": 17
-                },
-                {
-                    "amount": 90,
-                    "level": 18
-                },
-                {
-                    "amount": 95,
-                    "level": 19
-                },
-                {
-                    "amount": 100,
-                    "level": 20
-                }
-            ],
-            "associatedValueName": "",
-            "id": "bbf62918-ebb4-43d7-ae9e-61b93105748d",
-            "name": "Lay On Hands Points",
-            "type": "BASIC",
-            "usesLeft": 0
-        },
-        {
-            "abilityCalculators": [
-                {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "CHA"
-                                },
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 1,
-                    "topLevelConnector": "MAX"
-                }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "0756b420-aa9c-463d-b85f-744c9dfa1b73",
-            "name": "Divine Sense Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
-        },
-        {
-            "abilityCalculators": [
-                {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "CHA"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 14,
-                    "topLevelConnector": "MAX"
-                }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "c301dd7d-bc96-4952-851f-015cbd5efb87",
-            "name": "Cleansing Touch Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
-        }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypeSelectionLevel": 2,
-    "subtypes": [
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "While you are wearing armor, you gain a +1 bonus to AC",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom273a8da0-c5ab-4322-a4c1-25f967eeaf44",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Defense",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_defense",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Defense",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Customfc560476-d077-4ba1-accf-50802fd4f774",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Dueling",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_dueling",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Dueling",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom152cd6a2-1392-41d2-b167-83ced21ffbc8",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Great Weapon Fighting",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_great_weapon_fighting",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Great Weapon Fighting",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom0a921c9e-2161-4f65-ae4e-d8c78a7f7fa5",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Protection",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_protection",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Protection",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Customc791fa73-fa05-4a59-9f62-da0624341310",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Close Quarters Shooter",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_close_quarters_shooter",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Close Quarters Shooter",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom7bcee3f7-7fd8-4121-aed2-6564618c6e15",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Tunnel Fighter",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_tunnel_fighter",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Tunnel Fighter",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom61ed90b1-b70e-406d-971a-31c3d1e087be",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Mariner",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_mariner",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Mariner",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom3a9e4c2c-d22e-4461-aabf-8015544d05c3",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Blessed Warrior",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_blessed_warrior_[tce]",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Blessed Warrior [TCE]",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom003eb4b6-0746-4186-8797-10df499c17b4",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Blind Fighting",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_blind_fighting_[tce]",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Blind Fighting [TCE]",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "Dexterity",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custome8477ddf-26fb-4993-aed7-fa90d0fdbb4b",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fighting Style: Interception",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                }
-            ],
-            "hpModifier": "Constitution",
-            "id": "paladin_interception_[tce]",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "Interception [TCE]",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "Charisma",
-            "spells": [],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        }
-    ],
-    "toolProficiencies": [],
-    "weaponProficiencies": [
-        {
-            "hint": "",
+            "id": "Custom273a8da0-c5ab-4322-a4c1-25f967eeaf44",
+            "isFeature": true,
+            "jsonType": "feat",
             "level": 1,
-            "proficiency": "all_simple"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "all_martial"
+            "name": "Fighting Style: Defense",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
         }
-    ]
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_defense",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Defense",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon",
+                "level": 2
+              }
+            ],
+            "id": "Customfc560476-d077-4ba1-accf-50802fd4f774",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Dueling",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_dueling",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Dueling",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit",
+                "level": 2
+              }
+            ],
+            "id": "Custom152cd6a2-1392-41d2-b167-83ced21ffbc8",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Great Weapon Fighting",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_great_weapon_fighting",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Great Weapon Fighting",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield",
+                "level": 2
+              }
+            ],
+            "id": "Custom0a921c9e-2161-4f65-ae4e-d8c78a7f7fa5",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Protection",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_protection",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Protection",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks",
+                "level": 2
+              }
+            ],
+            "id": "Customc791fa73-fa05-4a59-9f62-da0624341310",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Close Quarters Shooter",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_close_quarters_shooter",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Close Quarters Shooter",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach",
+                "level": 2
+              }
+            ],
+            "id": "Custom7bcee3f7-7fd8-4121-aed2-6564618c6e15",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Tunnel Fighter",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_tunnel_fighter",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Tunnel Fighter",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC",
+                "level": 2
+              }
+            ],
+            "id": "Custom61ed90b1-b70e-406d-971a-31c3d1e087be",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Mariner",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_mariner",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Mariner",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list",
+                "level": 2
+              }
+            ],
+            "id": "Custom3a9e4c2c-d22e-4461-aabf-8015544d05c3",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Blessed Warrior",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_blessed_warrior_[tce]",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Blessed Warrior [TCE]",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you",
+                "level": 2
+              }
+            ],
+            "id": "Custom003eb4b6-0746-4186-8797-10df499c17b4",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Blind Fighting",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_blind_fighting_[tce]",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Blind Fighting [TCE]",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "Dexterity",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction",
+                "level": 2
+              }
+            ],
+            "id": "Custome8477ddf-26fb-4993-aed7-fa90d0fdbb4b",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fighting Style: Interception",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        }
+      ],
+      "hpModifier": "Constitution",
+      "id": "paladin_interception_[tce]",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "Interception [TCE]",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "Charisma",
+      "spells": [],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    }
+  ],
+  "toolProficiencies": [],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "all_simple"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "all_martial"
+    }
+  ]
 }

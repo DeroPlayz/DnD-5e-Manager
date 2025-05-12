@@ -1,7 +1,58 @@
-{"changesNameOnAttunement": false,"description": "While wearing this belt, you gain the following benefits:\n\n- Your Constitution score increases by 2, to a maximum of 20.\n- You have advantage on Charisma (Persuasion) checks made to interact with dwarves.\n\nIn addition, while attuned to the belt, you have a 50 chance each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one.\n\nIf you aren't a dwarf, you gain the following additional benefits while wearing the belt:\n\n- You have advantage on saving throws against poison, and you have resistance against poison damage.\n- You have darkvision out to a range of 60 feet.\n- You can speak, read, and write Dwarvish.","effects": [{"actualEffect": {"modifier": {"constant": 2,"diceAmount": 0,"diceType": "D4"},
-"shouldPickMax": true,"stat": "CON","type": "ADD_TO_STAT","typeStr": "ADD_TO_STAT"},
-"id": "b18ef357-3048-42b6-be1c-4a6f32db8d60","triggerCondition": {"conditions": [{"conditions": [{"comparator": "LOWER_THAN_EQUAL","stat": "CON","type": "STAT","typeStr": "STAT","value": 18}],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Belt_of_Dwarvenkind","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Belt of Dwarvenkind","rarity": "RARE","requiresAttunement": true,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While wearing this belt, you gain the following benefits:\n\n- Your Constitution score increases by 2, to a maximum of 20.\n- You have advantage on Charisma (Persuasion) checks made to interact with dwarves.\n\nIn addition, while attuned to the belt, you have a 50 chance each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one.\n\nIf you aren't a dwarf, you gain the following additional benefits while wearing the belt:\n\n- You have advantage on saving throws against poison, and you have resistance against poison damage.\n- You have darkvision out to a range of 60 feet.\n- You can speak, read, and write Dwarvish.",
+  "effects": [
+    {
+      "actualEffect": {
+        "modifier": {
+          "constant": 2,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "shouldPickMax": true,
+        "stat": "CON",
+        "type": "ADD_TO_STAT",
+        "typeStr": "ADD_TO_STAT"
+      },
+      "id": "b18ef357-3048-42b6-be1c-4a6f32db8d60",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [
+              {
+                "comparator": "LOWER_THAN_EQUAL",
+                "stat": "CON",
+                "type": "STAT",
+                "typeStr": "STAT",
+                "value": 18
+              }
+            ],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Belt_of_Dwarvenkind",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Belt of Dwarvenkind",
+  "rarity": "RARE",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

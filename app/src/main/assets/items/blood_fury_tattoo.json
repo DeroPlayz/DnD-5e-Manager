@@ -1,2 +1,25 @@
-{"changesNameOnAttunement": false,"description": "Produced by a special needle, this magic tattoo evokes fury in its form and colors.\n\nTattoo Attunement: To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.\n\nIf your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.\n\nBloodthirsty Strikes: The tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:\n\n- When you hit a creature with a weapon attack, you can expend a charge to deal an extra 4d6 necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.\n\n- When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll.","effects": [],
-"id": "item_Blood_Fury_Tattoo","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Blood Fury Tattoo","rarity": "LEGENDARY","requiresAttunement": true,"type": "WONDROUS","value": 30000.0,"valueCoin": "GOLD","weight": 0.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "Produced by a special needle, this magic tattoo evokes fury in its form and colors.\n\nTattoo Attunement: To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.\n\nIf your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.\n\nBloodthirsty Strikes: The tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:\n\n- When you hit a creature with a weapon attack, you can expend a charge to deal an extra 4d6 necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.\n\n- When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll.",
+  "effects": [],
+  "id": "item_Blood_Fury_Tattoo",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Blood Fury Tattoo",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "WONDROUS",
+  "value": 30000.0,
+  "valueCoin": "GOLD",
+  "weight": 0.0,
+  "weightUnit": "POUNDS"
+}

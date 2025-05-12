@@ -1,4 +1,33 @@
-{"casting_time": "1 action","classes": ["artificer__eb_","artificer__revised_","fighter","rogue","wizard"],
-"components": {"material": true,"raw": "V, S, M (Eggshell, snakeskin glove)","somatic": true,"verbal": true},
-"description": "You create a Large hand of force in an unoccupied space that you can see. It moves at your command, mimicking the movements of your own hand.\n\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hp, the spell ends. It has a Strength of 26 and a Dexterity of 10. The hand doesn't fill its space.\n\nWhen you cast the spell, and as a bonus action on your subsequent turns, the hand can move up to 60 feet and cause one of the following effects:\n\n- Clenched Fist: The hand strikes one creature or object within 5 feet. Make a melee spell attack using your statistics. On a successful hit, the target takes 4d8 force damage.\n\n- Forceful Hand: The hand pushes a creature within 5 feet in a direction you choose. Make a check with the hand's Strength against the target's Athletics. If the target is Medium or smaller, you have advantage. If you succeed, the hand pushes the target up to 5 feet, plus a number of feet equal to five times your spellcasting modifier. The hand moves with the target.\n\n- Grasping Hand: The hand grapples a Huge or smaller creature within 5 feet. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage. While grappling the target, you can use a bonus action to have the hand deal 2d6 + your spellcasting modifier of bludgeoning damage.\n\n- Interposing Hand: The hand places itself between you and a creature of your choice until you give it a different command. It moves to stay between you and the target, providing you with half cover. The target can't move through the hand if its Strength is less than or equal to the hand's. If its score is higher than the hand's, the target can move toward you through the hand, but the space is difficult terrain.","duration": "Concentration, up to 1 minute","higher_levels": "For each slot level above 5th, Clenched Fist's damage increases by 2d8, and Grasping Hand's increases by 2d6.","level": "5","name": "Bigby's Hand","range": "120 feet","ritual": false,"school": "evocation","tags": ["artificer__eb_","artificer__revised_","fighter","rogue","wizard","level5"],
-"type": "5th-level evocation"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "raw": "V, S, M (Eggshell, snakeskin glove)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You create a Large hand of force in an unoccupied space that you can see. It moves at your command, mimicking the movements of your own hand.\n\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hp, the spell ends. It has a Strength of 26 and a Dexterity of 10. The hand doesn't fill its space.\n\nWhen you cast the spell, and as a bonus action on your subsequent turns, the hand can move up to 60 feet and cause one of the following effects:\n\n- Clenched Fist: The hand strikes one creature or object within 5 feet. Make a melee spell attack using your statistics. On a successful hit, the target takes 4d8 force damage.\n\n- Forceful Hand: The hand pushes a creature within 5 feet in a direction you choose. Make a check with the hand's Strength against the target's Athletics. If the target is Medium or smaller, you have advantage. If you succeed, the hand pushes the target up to 5 feet, plus a number of feet equal to five times your spellcasting modifier. The hand moves with the target.\n\n- Grasping Hand: The hand grapples a Huge or smaller creature within 5 feet. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage. While grappling the target, you can use a bonus action to have the hand deal 2d6 + your spellcasting modifier of bludgeoning damage.\n\n- Interposing Hand: The hand places itself between you and a creature of your choice until you give it a different command. It moves to stay between you and the target, providing you with half cover. The target can't move through the hand if its Strength is less than or equal to the hand's. If its score is higher than the hand's, the target can move toward you through the hand, but the space is difficult terrain.",
+  "duration": "Concentration, up to 1 minute",
+  "higher_levels": "For each slot level above 5th, Clenched Fist's damage increases by 2d8, and Grasping Hand's increases by 2d6.",
+  "level": "5",
+  "name": "Bigby's Hand",
+  "range": "120 feet",
+  "ritual": false,
+  "school": "evocation",
+  "tags": [
+    "artificer__eb_",
+    "artificer__revised_",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level5"
+  ],
+  "type": "5th-level evocation"
+}

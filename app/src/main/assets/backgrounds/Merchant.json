@@ -1,24 +1,135 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Item You Were Unable To Sell","number": 1}],
-"id": "07d26c93-eeed-4285-815d-a5387f4677a1"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Souvenirs From Places You Visited","number": 2}],
-"id": "05bb2f4b-853c-4ada-b85c-5a7dc1db3519"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Backpack","number": 1}],
-"id": "c587a6ec-b56b-4a91-a2ee-5dbdece109a1"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Traveler's Clothes","number": 1}],
-"id": "d6616565-f8e2-43f8-bf38-3dab33baefc3"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Pouch","number": 1}],
-"id": "0a30d310-f12e-43e0-86bb-3da97d6872b7"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Your experience with customers gives you an advantage with people, once a day, you can use this feature to give you advantage in\u00a0Charisma\u00a0checks that involve negotiation with others.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Charismatic Demeanor","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 20,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true},
-{"description": "Choose 1","shouldSelect": true}],
-"name": "Merchant","skills": [{"amountOfChoice": 1,"id": "144208e9-8944-4bbc-82ea-fb5dcdb2077f","skills": [{},
-{}],
-"skillsModels": [{"name": "Persuasion","typeName": "SKILL"},
-{"name": "Deception","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "2168e2b2-e715-4055-8a4b-a6f980003c12","skills": [{}],
-"skillsModels": [{"name": "Perception","typeName": "SKILL"}]}],
-"tools": [{"description": "Choose 1 Gaming Set","shouldSelect": true},
-{"description": "Cartographer's tools","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Item You Were Unable To Sell",
+          "number": 1
+        }
+      ],
+      "id": "07d26c93-eeed-4285-815d-a5387f4677a1"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Souvenirs From Places You Visited",
+          "number": 2
+        }
+      ],
+      "id": "05bb2f4b-853c-4ada-b85c-5a7dc1db3519"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Backpack",
+          "number": 1
+        }
+      ],
+      "id": "c587a6ec-b56b-4a91-a2ee-5dbdece109a1"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Traveler's Clothes",
+          "number": 1
+        }
+      ],
+      "id": "d6616565-f8e2-43f8-bf38-3dab33baefc3"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Pouch",
+          "number": 1
+        }
+      ],
+      "id": "0a30d310-f12e-43e0-86bb-3da97d6872b7"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your experience with customers gives you an advantage with people, once a day, you can use this feature to give you advantage in\u00a0Charisma\u00a0checks that involve negotiation with others.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Charismatic Demeanor",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 20,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    },
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Merchant",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "144208e9-8944-4bbc-82ea-fb5dcdb2077f",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "2168e2b2-e715-4055-8a4b-a6f980003c12",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Perception",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Choose 1 Gaming Set",
+      "shouldSelect": true
+    },
+    {
+      "description": "Cartographer's tools",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

@@ -1,7 +1,75 @@
-{"ac":14,"actions":[{"description":"4 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 11 (2d10) necrotic damage. A Humanoid reduced to 0 hit points by this attack dies and instantly transforms into a free-willed shadow under the DM's control.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Energy Drain","type":"NONE"},
-{"description":"4 to hit, range 80/320 ft., one target. Hit: 11 (2d8 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Light Crossbow","type":"RANGED"}],
-"alignment":"Lawful Evil","burrowSpeed":0,"cha":12,"climbSpeed":0,"con":18,"conditionImmunities":"charmed, exhaustion, poisoned","cr":"2","damageImmunities":"cold, necrotic, poison","dex":14,"flySpeed":0,"hp":{"constant":20,"diceAmount":5,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"the languages it knew in life","name":"Vampirate [BAM]","resistances":null,"savingThrows":null,"senses":"darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"When the vampirate is reduced to 0 hit points, it explodes in a cloud of ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 5 (1d10) necrotic damage.","id":-1,"monsterId":-1,"name":"Explode"},
-{"description":"The vampirate can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"},
-{"description":"The vampirate doesn't require air or drink.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":30,"str":12,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":"radiant","wis":11,"xp":450}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "4 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 11 (2d10) necrotic damage. A Humanoid reduced to 0 hit points by this attack dies and instantly transforms into a free-willed shadow under the DM's control.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Energy Drain",
+      "type": "NONE"
+    },
+    {
+      "description": "4 to hit, range 80/320 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Light Crossbow",
+      "type": "RANGED"
+    }
+  ],
+  "alignment": "Lawful Evil",
+  "burrowSpeed": 0,
+  "cha": 12,
+  "climbSpeed": 0,
+  "con": 18,
+  "conditionImmunities": "charmed, exhaustion, poisoned",
+  "cr": "2",
+  "damageImmunities": "cold, necrotic, poison",
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 20,
+    "diceAmount": 5,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "the languages it knew in life",
+  "name": "Vampirate [BAM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When the vampirate is reduced to 0 hit points, it explodes in a cloud of ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 5 (1d10) necrotic damage.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Explode"
+    },
+    {
+      "description": "The vampirate can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    },
+    {
+      "description": "The vampirate doesn't require air or drink.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 30,
+  "str": 12,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": "radiant",
+  "wis": 11,
+  "xp": 450
+}

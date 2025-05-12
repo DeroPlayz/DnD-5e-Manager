@@ -1,14 +1,82 @@
-{"equipment": [{"amountOfChoice": 3,"equipmentsModels": [{"description": "","name": "Clothes, Common","number": 1},
-{"description": "","name": "Black cloak with hood","number": 1},
-{"description": "","name": "Poisoner's kit","number": 1}],
-"id": "ff3a4f13-3f97-4630-aa73-cebba73e516e"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You have access to the Volstrucker shadow network, which allows you to communicate with other members of the order over long distances. If you write a letter in a special arcane ink, address it to a member of the Volstrucker, and cast it into a fire, the letter will burn to cinders and materialize whole again on the person of the agent you addressed it to.\n\nThe ink used to send a letter across the shadow network is the same as that used by a wizard to scribe spells in a spellbook. Writing a letter in this ink costs 10 gp per page","level": 1}],
-"id": "Custom6da2960e-c3d4-4977-a0b0-9f918a917b0b","isFeature": true,"jsonType": "feat","level": 1,"name": "Shadow Network","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"id": "Custom8e1bae03-f323-4fae-9b05-657366c40f90","jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true}],
-"name": "Volstrucker Agent [EGW]","skills": [{"amountOfChoice": 2,"id": "bb7f7124-11bd-4da2-990b-7b4e8dba473f","skills": [{},
-{}],
-"skillsModels": [{"name": "Deception","typeName": "SKILL"},
-{"name": "Stealth","typeName": "SKILL"}]}],
-"tools": [{"description": "Poisoner's kit","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 3,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Clothes, Common",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Black cloak with hood",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Poisoner's kit",
+          "number": 1
+        }
+      ],
+      "id": "ff3a4f13-3f97-4630-aa73-cebba73e516e"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have access to the Volstrucker shadow network, which allows you to communicate with other members of the order over long distances. If you write a letter in a special arcane ink, address it to a member of the Volstrucker, and cast it into a fire, the letter will burn to cinders and materialize whole again on the person of the agent you addressed it to.\n\nThe ink used to send a letter across the shadow network is the same as that used by a wizard to scribe spells in a spellbook. Writing a letter in this ink costs 10 gp per page",
+            "level": 1
+          }
+        ],
+        "id": "Custom6da2960e-c3d4-4977-a0b0-9f918a917b0b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Shadow Network",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "id": "Custom8e1bae03-f323-4fae-9b05-657366c40f90",
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Volstrucker Agent [EGW]",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "bb7f7124-11bd-4da2-990b-7b4e8dba473f",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Stealth",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Poisoner's kit",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

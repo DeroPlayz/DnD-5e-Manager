@@ -1,6 +1,69 @@
-{"ac":11,"actions":[{"description":"The bearer makes two Slam attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 11 (2d10) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":18,"conditionImmunities":"charmed, exhaustion, frightened, poisoned","cr":"6","damageImmunities":"poison","dex":6,"flySpeed":0,"hp":{"constant":52,"diceAmount":13,"diceType":"D8"},
-"id":-1,"int":2,"isLocked":true,"jsonType":"monster","languages":"understands the languages it knew in life but can't speak","name":"Black Rose Bearer [VEoR]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"Whenever the bearer takes damage or makes a Strength or Dexterity saving throw, roll a d6. On a 5 or 6, the bearer goes berserk. On each of its turns while berserk, the bearer has advantage on melee attack rolls, it can Dash as a bonus action, and it must attack the nearest creature it can see. If no creature is near enough to move to and attack, the bearer attacks an object, with preference for an object smaller than itself. Once the bearer goes berserk, it remains berserk until it is destroyed or its creator gives it a pristine black rose.","id":-1,"monsterId":-1,"name":"Berserk"},
-{"description":"If damage reduces the bearer to 0 hit points, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is radiant or from a critical hit. On a successful save, the bearer drops to 1 hit point instead.","id":-1,"monsterId":-1,"name":"Undead Fortitude"}],
-"speed":20,"str":17,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":10,"xp":2300}
+{
+  "ac": 11,
+  "actions": [
+    {
+      "description": "The bearer makes two Slam attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 11 (2d10) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 18,
+  "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
+  "cr": "6",
+  "damageImmunities": "poison",
+  "dex": 6,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 52,
+    "diceAmount": 13,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 2,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands the languages it knew in life but can't speak",
+  "name": "Black Rose Bearer [VEoR]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "Whenever the bearer takes damage or makes a Strength or Dexterity saving throw, roll a d6. On a 5 or 6, the bearer goes berserk. On each of its turns while berserk, the bearer has advantage on melee attack rolls, it can Dash as a bonus action, and it must attack the nearest creature it can see. If no creature is near enough to move to and attack, the bearer attacks an object, with preference for an object smaller than itself. Once the bearer goes berserk, it remains berserk until it is destroyed or its creator gives it a pristine black rose.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Berserk"
+    },
+    {
+      "description": "If damage reduces the bearer to 0 hit points, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is radiant or from a critical hit. On a successful save, the bearer drops to 1 hit point instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Undead Fortitude"
+    }
+  ],
+  "speed": 20,
+  "str": 17,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 2300
+}

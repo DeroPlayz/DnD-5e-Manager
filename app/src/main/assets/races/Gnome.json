@@ -1,16 +1,82 @@
-{"id": "Custom355b6585-39d1-4b8a-aa46-a00981e5546d","jsonType": "race","name": "Gnome","spells": [],
-"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 2,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Gnomish"}],
-"racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 25,"swim": 0},
-"spellcastingAbility": "INT","toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Darkvision (60 ft.)","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Gnome Cunning","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "id": "Custom355b6585-39d1-4b8a-aa46-a00981e5546d",
+  "jsonType": "race",
+  "name": "Gnome",
+  "spells": [],
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 2,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Gnomish"
+    }
+  ],
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 0,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 25,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Darkvision (60 ft.)",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Gnome Cunning",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

@@ -1,7 +1,72 @@
-{"ac":16,"actions":[{"description":"The babau makes two Claw attacks. It can replace one attack with a use of Spellcasting or Weakening Gaze.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 2 (1d4) acid damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"The babau targets one creature that it can see within 20 feet of it. The target must make a DC 13 Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Weakening Gaze","type":"NONE"},
-{"description":"The babau casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 11):\nAt will: darkness, dispel magic, fear, heat metal, levitate","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":13,"climbSpeed":0,"con":16,"conditionImmunities":"poisoned","cr":"4","damageImmunities":"poison","dex":16,"flySpeed":0,"hp":{"constant":33,"diceAmount":11,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Abyssal","name":"Babau [MoM]","resistances":"cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":null,"senses":"darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[],
-"speed":40,"str":19,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":12,"xp":1100}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The babau makes two Claw attacks. It can replace one attack with a use of Spellcasting or Weakening Gaze.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 2 (1d4) acid damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "The babau targets one creature that it can see within 20 feet of it. The target must make a DC 13 Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Weakening Gaze",
+      "type": "NONE"
+    },
+    {
+      "description": "The babau casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 11):\nAt will: darkness, dispel magic, fear, heat metal, levitate",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 13,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "poisoned",
+  "cr": "4",
+  "damageImmunities": "poison",
+  "dex": 16,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 33,
+    "diceAmount": 11,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Abyssal",
+  "name": "Babau [MoM]",
+  "resistances": "cold, fire, lightning; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 40,
+  "str": 19,
+  "swimSpeed": 0,
+  "tag": "demon",
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 12,
+  "xp": 1100
+}

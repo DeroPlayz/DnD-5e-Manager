@@ -1,2 +1,25 @@
-{"changesNameOnAttunement": false,"description": "This fearsome steel helm makes your eyes glow red and hides the rest of your face in shadow while you wear it.","effects": [],
-"id": "item_Dread_Helm","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Dread Helm","rarity": "COMMON","requiresAttunement": false,"type": "WONDROUS","value": 100.0,"valueCoin": "GOLD","weight": 5.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This fearsome steel helm makes your eyes glow red and hides the rest of your face in shadow while you wear it.",
+  "effects": [],
+  "id": "item_Dread_Helm",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Dread Helm",
+  "rarity": "COMMON",
+  "requiresAttunement": false,
+  "type": "WONDROUS",
+  "value": 100.0,
+  "valueCoin": "GOLD",
+  "weight": 5.0,
+  "weightUnit": "POUNDS"
+}

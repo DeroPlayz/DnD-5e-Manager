@@ -1,6 +1,69 @@
-{"ac":18,"actions":[{"description":"The tin soldier makes two melee attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Slam","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":0,"con":13,"conditionImmunities":"blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned","cr":"1","damageImmunities":"poison, psychic","dex":11,"flySpeed":0,"hp":{"constant":6,"diceAmount":6,"diceType":"D6"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Tin Soldier","resistances":null,"savingThrows":null,"senses":"blindsight 60 ft. (blind beyond this radius)","size":"Small","skills":null,"specialTraits":[{"description":"The tin soldier is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the tin soldier must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.","id":-1,"monsterId":-1,"name":"Antimagic Susceptibility"},
-{"description":"While the tin soldier remains motionless, it is indistinguishable from a normal suit of armor.","id":-1,"monsterId":-1,"name":"False Appearance"}],
-"speed":25,"str":14,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":null,"wis":3,"xp":200}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The tin soldier makes two melee attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Slam",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 1,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "cr": "1",
+  "damageImmunities": "poison, psychic",
+  "dex": 11,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 6,
+    "diceAmount": 6,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Tin Soldier",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The tin soldier is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the tin soldier must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Antimagic Susceptibility"
+    },
+    {
+      "description": "While the tin soldier remains motionless, it is indistinguishable from a normal suit of armor.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "False Appearance"
+    }
+  ],
+  "speed": 25,
+  "str": 14,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": null,
+  "wis": 3,
+  "xp": 200
+}

@@ -1,126 +1,126 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The following spells are added to the warlock spell list for you.\n\n1st\t--> Burning Hands, Command\n2nd --> Blindness/Deafness, Scorching Ray\n3rd\t--> Fireball, Stinking Cloud\n4th\t--> Fire Shield, Wall of Fire\n5th\t--> Flame Strike, Hallow",
+            "level": 1
+          }
+        ],
+        "id": "Custom7cc1da9b-e4ae-4571-b0f6-f52f82b183f6",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fiend Expanded Spell List",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The following spells are added to the warlock spell list for you.\n\n1st\t--> Burning Hands, Command\n2nd --> Blindness/Deafness, Scorching Ray\n3rd\t--> Fireball, Stinking Cloud\n4th\t--> Fire Shield, Wall of Fire\n5th\t--> Flame Strike, Hallow",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom7cc1da9b-e4ae-4571-b0f6-f52f82b183f6",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fiend Expanded Spell List",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1)",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1)",
-                        "level": 1
-                    }
-                ],
-                "id": "Custom7f4e45d8-0d18-4f91-a68d-641d53c62cc8",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dark One's Blessing",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur. Once you use this feature, you can't use it again until you finish a short or long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Customb483e244-ac56-4237-bfd0-f7650e914b55",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Dark One's Own Luck",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom7f4e45d8-0d18-4f91-a68d-641d53c62cc8",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Dark One's Blessing",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur. Once you use this feature, you can't use it again until you finish a short or long rest",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom7afc0401-215a-4a0b-8b80-dd74f2f2db7a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fiendish Resilience",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customb483e244-ac56-4237-bfd0-f7650e914b55",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Dark One's Own Luck",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience. Once you use this feature, you can't use it again until you finish a long rest",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom55859886-77d9-44a7-a7eb-79ce57a6c77b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Hurl Through Hell",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom7afc0401-215a-4a0b-8b80-dd74f2f2db7a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fiendish Resilience",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience. Once you use this feature, you can't use it again until you finish a long rest",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "warlock_the_fiend",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "The Fiend",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom55859886-77d9-44a7-a7eb-79ce57a6c77b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Hurl Through Hell",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "warlock_the_fiend",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "The Fiend",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

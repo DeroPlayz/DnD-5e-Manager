@@ -1,210 +1,210 @@
 {
-    "acModifier": "Dexterity",
-    "archetypeSelectionLevel": 2,
-    "armorProficiencies": [],
-    "attacksByLevel": [
+  "acModifier": "Dexterity",
+  "archetypeSelectionLevel": 2,
+  "armorProficiencies": [],
+  "attacksByLevel": [
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amount": 1,
-            "level": 1
-        }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Quarterstaff",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Dagger",
-                    "number": 1
-                }
-            ],
-            "id": "b2bb362a-b9fe-4f95-aecd-e41770d42843"
+          "description": "",
+          "name": "Quarterstaff",
+          "number": 1
         },
         {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Component Pouch",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Arcane Focus",
-                    "number": 1
-                }
-            ],
-            "id": "a20ab074-f004-4019-903b-6b30b89ab731"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Scholar's Pack",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Explorer's Pack",
-                    "number": 1
-                }
-            ],
-            "id": "6ccad4f4-1533-4571-a1d7-a75dbb251073"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Spellbook",
-                    "number": 1
-                }
-            ],
-            "id": "4ed8c7f0-98a1-4a73-b086-fb3050781f70"
+          "description": "",
+          "name": "Dagger",
+          "number": 1
         }
-    ],
-    "classSkills": [
-        {
-            "amountOfChoice": 2,
-            "id": "dbcc8fb1-76e7-4dd1-b411-47078307c3b0",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Arcana",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "History",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Insight",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Investigation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Medicine",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Religion",
-                    "typeName": "SKILL"
-                }
-            ]
-        }
-    ],
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+      ],
+      "id": "b2bb362a-b9fe-4f95-aecd-e41770d42843"
     },
-    "effectiveCasterLevel": "FULL",
-    "features": [],
-    "hitDie": "D6",
-    "hpModifier": "Constitution",
-    "id": "wizard",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Class",
-    "multiclassArmor": false,
-    "multiclassSkills": false,
-    "multiclassTools": false,
-    "multiclassWeapons": false,
-    "name": "Wizard",
-    "savingThrows": {
-        "cha": false,
-        "con": false,
-        "dex": false,
-        "intelligence": true,
-        "str": false,
-        "wis": true
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Component Pouch",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Arcane Focus",
+          "number": 1
+        }
+      ],
+      "id": "a20ab074-f004-4019-903b-6b30b89ab731"
     },
-    "selectableFeatures": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 3
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom08d8a773-6d3d-4cb9-ad0c-ae2046a6c239",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Cantrip Formulas",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                }
-            ],
-            "canReselect": false,
-            "id": "925bf556-feb1-4a2a-9323-3a96f9dff2ac",
-            "name": "Wizard Optional Features",
-            "selectedFeatures": []
+          "description": "",
+          "name": "Scholar's Pack",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Explorer's Pack",
+          "number": 1
         }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": [
+      ],
+      "id": "6ccad4f4-1533-4571-a1d7-a75dbb251073"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dagger"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dart"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Sling"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Quarterstaff"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Crossbow, light"
+          "description": "",
+          "name": "Spellbook",
+          "number": 1
         }
-    ]
+      ],
+      "id": "4ed8c7f0-98a1-4a73-b086-fb3050781f70"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 2,
+      "id": "dbcc8fb1-76e7-4dd1-b411-47078307c3b0",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "History",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Investigation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Medicine",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "FULL",
+  "features": [],
+  "hitDie": "D6",
+  "hpModifier": "Constitution",
+  "id": "wizard",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Class",
+  "multiclassArmor": false,
+  "multiclassSkills": false,
+  "multiclassTools": false,
+  "multiclassWeapons": false,
+  "name": "Wizard",
+  "savingThrows": {
+    "cha": false,
+    "con": false,
+    "dex": false,
+    "intelligence": true,
+    "str": false,
+    "wis": true
+  },
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 3
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list",
+                "level": 3
+              }
+            ],
+            "id": "Custom08d8a773-6d3d-4cb9-ad0c-ae2046a6c239",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Cantrip Formulas",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        }
+      ],
+      "canReselect": false,
+      "id": "925bf556-feb1-4a2a-9323-3a96f9dff2ac",
+      "name": "Wizard Optional Features",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Dagger"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Dart"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Sling"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Quarterstaff"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Crossbow, light"
+    }
+  ]
 }

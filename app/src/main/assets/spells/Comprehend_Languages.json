@@ -1,5 +1,39 @@
-{"casting_time": "1 action","classes": ["bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a pinch of soot and salt"],
-"raw": "V, S, M (a pinch of soot and salt)","somatic": true,"verbal": true},
-"description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u2019t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u2019t part of a written language.","duration": "1 hour","level": "1","name": "Comprehend Languages","range": "Self","ritual": true,"school": "divination","tags": ["bard","sorcerer","warlock","blood_hunter","fighter","rogue","wizard","level1"],
-"type": "1st-level divination (Ritual)"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a pinch of soot and salt"
+    ],
+    "raw": "V, S, M (a pinch of soot and salt)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u2019t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u2019t part of a written language.",
+  "duration": "1 hour",
+  "level": "1",
+  "name": "Comprehend Languages",
+  "range": "Self",
+  "ritual": true,
+  "school": "divination",
+  "tags": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "blood_hunter",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level1"
+  ],
+  "type": "1st-level divination (Ritual)"
+}

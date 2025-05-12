@@ -1,12 +1,55 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom274ca139-64bc-4d7b-8c5b-19fc4344aa45","jsonType": "race","languages": [],
-"name": "Amethyst Ancestry","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "Intelligence","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Your Gem Ancestry damage type is Force","level": 1}],
-"id": "Custom77d96b4c-4fe9-4f99-a585-b93f25861fed","isFeature": true,"jsonType": "feat","level": 1,"name": "Amethyst Gem Ancestry","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom274ca139-64bc-4d7b-8c5b-19fc4344aa45",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Amethyst Ancestry",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your Gem Ancestry damage type is Force",
+            "level": 1
+          }
+        ],
+        "id": "Custom77d96b4c-4fe9-4f99-a585-b93f25861fed",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Amethyst Gem Ancestry",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

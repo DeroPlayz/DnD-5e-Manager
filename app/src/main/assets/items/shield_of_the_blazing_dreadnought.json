@@ -1,6 +1,48 @@
-{"changesNameOnAttunement": false,"description": "Modeled after the formidable spiked tower shields wielded by some fire giants, this iron shield emanates a constant warmth.\n\nYou can use a bonus action to activate the shield, causing glowing lava to flow through the shield's grooves for 1 minute. While the shield is active, you gain the following benefits:\n\nBlazing Soul\nYou have immunity to fire damage.\n\nCleansing Fire\nAs an action, you can cause the shield to flare with the cleansing fire of the god Surtur. Choose one creature you can see within 30 feet of yourself (you can choose yourself). One disease or condition of your choice affecting this creature ends immediately; the condition can be blinded, charmed, deafened, or poisoned.\n\nShield Bash\nWhen you take the Attack action on your turn, you can replace one of your attacks with a shield bash, targeting one creature you can see within 5 feet of yourself. The target must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier). On a failed save, the target takes 3d6 bludgeoning damage plus 3d6 fire damage and is knocked prone. On a successful save, the target takes half as much damage only. You can use Shield Bash only once per turn.\n\nOnce the shield has been activated, it can't be activated again until the next dawn.","effects": [{"charges": 1,"id": "5f1b6a96-f772-4158-a5be-eb2a2313aeff","name": "Activate Shield","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Shield_of_the_Blazing_Dreadnought","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Shield of the Blazing Dreadnought","rarity": "LEGENDARY","requiresAttunement": true,"type": "ARMOR","valueCoin": "GOLD","weight": 6.0,"weightUnit": "OUNCES"}
+{
+  "changesNameOnAttunement": false,
+  "description": "Modeled after the formidable spiked tower shields wielded by some fire giants, this iron shield emanates a constant warmth.\n\nYou can use a bonus action to activate the shield, causing glowing lava to flow through the shield's grooves for 1 minute. While the shield is active, you gain the following benefits:\n\nBlazing Soul\nYou have immunity to fire damage.\n\nCleansing Fire\nAs an action, you can cause the shield to flare with the cleansing fire of the god Surtur. Choose one creature you can see within 30 feet of yourself (you can choose yourself). One disease or condition of your choice affecting this creature ends immediately; the condition can be blinded, charmed, deafened, or poisoned.\n\nShield Bash\nWhen you take the Attack action on your turn, you can replace one of your attacks with a shield bash, targeting one creature you can see within 5 feet of yourself. The target must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier). On a failed save, the target takes 3d6 bludgeoning damage plus 3d6 fire damage and is knocked prone. On a successful save, the target takes half as much damage only. You can use Shield Bash only once per turn.\n\nOnce the shield has been activated, it can't be activated again until the next dawn.",
+  "effects": [
+    {
+      "charges": 1,
+      "id": "5f1b6a96-f772-4158-a5be-eb2a2313aeff",
+      "name": "Activate Shield",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Shield_of_the_Blazing_Dreadnought",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": true,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Shield of the Blazing Dreadnought",
+  "rarity": "LEGENDARY",
+  "requiresAttunement": true,
+  "type": "ARMOR",
+  "valueCoin": "GOLD",
+  "weight": 6.0,
+  "weightUnit": "OUNCES"
+}

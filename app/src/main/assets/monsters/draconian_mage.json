@@ -1,8 +1,85 @@
-{"ac":15,"actions":[{"description":"The draconian makes two Trident or Necrotic Ray attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Trident","type":"MELEE_OR_RANGED"},
-{"description":" 4 to hit, range 60 ft., one target. Hit: 10 (3d6) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Necrotic Ray","type":"NONE"},
-{"description":"The draconian casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 12):\n1/day each: enlarge/reduce, invisibility, stinking cloud","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":14,"climbSpeed":0,"con":11,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":10,"flySpeed":0,"hp":{"constant":null,"diceAmount":9,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Common, Draconic","name":"Draconian Mage","resistances":null,"savingThrows":"Int +2, Wis +2, Cha +4","senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"When the draconian is reduced to 0 hit points, its scales and flesh immediately shrivel away and its bones explode. Each creature within 10 feet of it must succeed on a DC 10 Dexterity saving throw or take 9 (2d8) force damage.","id":-1,"monsterId":-1,"name":"Death Throes"},
-{"description":"When the draconian falls and isn't incapacitated, it subtracts up to 100 feet from the fall when calculating the fall's damage, and it can move up to 2 feet horizontally for every 1 foot it descends.","id":-1,"monsterId":-1,"name":"Glide"}],
-"speed":30,"str":14,"swimSpeed":0,"tag":null,"type":"Monstrosity","vulnerabilities":null,"wis":10,"xp":450}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The draconian makes two Trident or Necrotic Ray attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Trident",
+      "type": "MELEE_OR_RANGED"
+    },
+    {
+      "description": " 4 to hit, range 60 ft., one target. Hit: 10 (3d6) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Necrotic Ray",
+      "type": "NONE"
+    },
+    {
+      "description": "The draconian casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 12):\n1/day each: enlarge/reduce, invisibility, stinking cloud",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 14,
+  "climbSpeed": 0,
+  "con": 11,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 10,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 9,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Draconic",
+  "name": "Draconian Mage",
+  "resistances": null,
+  "savingThrows": "Int +2, Wis +2, Cha +4",
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When the draconian is reduced to 0 hit points, its scales and flesh immediately shrivel away and its bones explode. Each creature within 10 feet of it must succeed on a DC 10 Dexterity saving throw or take 9 (2d8) force damage.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Death Throes"
+    },
+    {
+      "description": "When the draconian falls and isn't incapacitated, it subtracts up to 100 feet from the fall when calculating the fall's damage, and it can move up to 2 feet horizontally for every 1 foot it descends.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Glide"
+    }
+  ],
+  "speed": 30,
+  "str": 14,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 450
+}

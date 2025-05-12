@@ -1,5 +1,36 @@
-{"casting_time": "1 action","classes": ["druid","sorcerer","fighter","rogue","wizard"],
-"components": {"material": true,"materials_needed": ["a drop of water or piece of ice"],
-"raw": "S, M (a drop of water or piece of ice)","somatic": true,"verbal": false},
-"description": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.","duration": "Instantaneous","higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.","level": "1","name": "Ice Knife","range": "60 feet","ritual": false,"school": "conjuration","tags": ["druid","sorcerer","fighter","rogue","wizard","level1"],
-"type": "1st-level conjuration"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "druid",
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "materials_needed": [
+      "a drop of water or piece of ice"
+    ],
+    "raw": "S, M (a drop of water or piece of ice)",
+    "somatic": true,
+    "verbal": false
+  },
+  "description": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.",
+  "duration": "Instantaneous",
+  "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.",
+  "level": "1",
+  "name": "Ice Knife",
+  "range": "60 feet",
+  "ritual": false,
+  "school": "conjuration",
+  "tags": [
+    "druid",
+    "sorcerer",
+    "fighter",
+    "rogue",
+    "wizard",
+    "level1"
+  ],
+  "type": "1st-level conjuration"
+}

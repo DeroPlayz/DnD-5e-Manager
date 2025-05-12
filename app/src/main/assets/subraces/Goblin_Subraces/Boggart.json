@@ -1,19 +1,99 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 2,"intelligence": 0,"str": 0,"wis": 1},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom7dba1ae5-df9c-48ec-9f8e-2b443be319b4","jsonType": "race","languages": [],
-"name": "Boggart","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 25},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "You have a Swimming speed of 25 ft.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Bog Swimmer","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have proficiency with the blowgun and net","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Boggart Weapon Proficiency","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You have advantage on saving throws against poison and diseases, and resistance against poison damage","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Swamp Life","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": [{"hint": "","level": 1,"proficiency": "Blowgun"},
-{"hint": "","level": 1,"proficiency": "Net"}]}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 2,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 1
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom7dba1ae5-df9c-48ec-9f8e-2b443be319b4",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Boggart",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 25
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have a Swimming speed of 25 ft.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bog Swimmer",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have proficiency with the blowgun and net",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Boggart Weapon Proficiency",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You have advantage on saving throws against poison and diseases, and resistance against poison damage",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Swamp Life",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Blowgun"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Net"
+    }
+  ]
+}

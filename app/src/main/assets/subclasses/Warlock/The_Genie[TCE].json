@@ -1,239 +1,239 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table of your patron's kind: dao, djinni, efreeti, or marid.\n\nSpell Level --> Spells\n1st --> detect evil and good\n2nd --> phantasmal force\n3rd --> create food and water\n4th --> phantasmal killer\n5th --> creation\n9th --> wish",
+            "level": 1
+          }
+        ],
+        "id": "Customd6c299c8-8b77-4bff-bd52-34a66413331b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Expanded Spell List",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table of your patron's kind: dao, djinni, efreeti, or marid.\n\nSpell Level --> Spells\n1st --> detect evil and good\n2nd --> phantasmal force\n3rd --> create food and water\n4th --> phantasmal killer\n5th --> creation\n9th --> wish",
-                        "level": 1
-                    }
-                ],
-                "id": "Customd6c299c8-8b77-4bff-bd52-34a66413331b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Expanded Spell List",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells.\n\nWhile you are touching the vessel, you can use it in the following ways:\n\n- Bottled Respite: As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.\n\n- Genie's Wrath: Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nThe vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die",
             "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells.\n\nWhile you are touching the vessel, you can use it in the following ways:\n\n- Bottled Respite: As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.\n\n- Genie's Wrath: Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nThe vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die",
-                        "level": 1
-                    }
-                ],
-                "id": "Customfdf10374-5515-4c95-89d7-d26b238fd638",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Genie's Vessel",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 1
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You now have resistance to a damage type determined by your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nIn addition, as a bonus action, you can give yourself a flying speed of 30 feet that lasts for 10 minutes, during which you can hover. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Custom1f796330-ba28-4344-82f7-939c98ac3e5f",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Elemental Gift",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customfdf10374-5515-4c95-89d7-d26b238fd638",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Genie's Vessel",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You now have resistance to a damage type determined by your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nIn addition, as a bonus action, you can give yourself a flying speed of 30 feet that lasts for 10 minutes, during which you can hover. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you enter your Genie's Vessel via the Bottled Respite feature, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.\n\nAs a bonus action, you can eject any number of creatures from the vessel, and everyone is ejected if you leave or die or if the vessel is destroyed.\n\nIn addition, anyone (including you) who remains within the vessel for at least 10 minutes gains the benefit of finishing a short rest, and anyone can add your proficiency bonus to the number of hit points they regain if they spend any Hit Dice as part of a short rest there",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom2268c2fa-7ac1-45d0-bf34-14234ab0a728",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Sanctuary Vessel",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom1f796330-ba28-4344-82f7-939c98ac3e5f",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Elemental Gift",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you enter your Genie's Vessel via the Bottled Respite feature, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.\n\nAs a bonus action, you can eject any number of creatures from the vessel, and everyone is ejected if you leave or die or if the vessel is destroyed.\n\nIn addition, anyone (including you) who remains within the vessel for at least 10 minutes gains the benefit of finishing a short rest, and anyone can add your proficiency bonus to the number of hit points they regain if they spend any Hit Dice as part of a short rest there",
             "level": 10
+          }
+        ],
+        "id": "Custom2268c2fa-7ac1-45d0-bf34-14234ab0a728",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Sanctuary Vessel",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.\n\nOnce you use this feature, you can't use it again until you finish 1d4 long rests",
+            "level": 14
+          }
+        ],
+        "id": "Custom9948b0ec-34b7-4f7c-96fb-981b6672e118",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Limited Wish",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "warlock_the_genie_[tce]",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "The Genie [TCE]",
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 1
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your patron is a Dao. Its element is Earth.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> sanctuary\n2nd --> spike growth\n3rd --> meld into stone\n4th --> stone shape\n5th --> wall of stone",
+                "level": 1
+              }
+            ],
+            "id": "Custom7e5ae85c-662d-49f5-9924-1737012b5cad",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Dao",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
         },
         {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.\n\nOnce you use this feature, you can't use it again until you finish 1d4 long rests",
-                        "level": 14
-                    }
-                ],
-                "id": "Custom9948b0ec-34b7-4f7c-96fb-981b6672e118",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Limited Wish",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "warlock_the_genie_[tce]",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "The Genie [TCE]",
-    "selectableFeatures": [
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your patron is a Djinni. Its element is Air.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> thunderwave\n2nd --> gust of wind\n3rd --> wind wall\n4th --> greater invisibility\n5th --> seeming",
+                "level": 1
+              }
+            ],
+            "id": "Custom04aa2fa9-cc76-4e81-a504-ce9d15f0402e",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Djinni",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 1
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your patron is an Efreeti. Its element is Fire.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> burning hands\n2nd --> scorching ray\n3rd --> fireball\n4th --> fire shield\n5th --> flame strike",
+                "level": 1
+              }
             ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your patron is a Dao. Its element is Earth.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> sanctuary\n2nd --> spike growth\n3rd --> meld into stone\n4th --> stone shape\n5th --> wall of stone",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom7e5ae85c-662d-49f5-9924-1737012b5cad",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Dao",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your patron is a Djinni. Its element is Air.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> thunderwave\n2nd --> gust of wind\n3rd --> wind wall\n4th --> greater invisibility\n5th --> seeming",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom04aa2fa9-cc76-4e81-a504-ce9d15f0402e",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Djinni",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your patron is an Efreeti. Its element is Fire.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> burning hands\n2nd --> scorching ray\n3rd --> fireball\n4th --> fire shield\n5th --> flame strike",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Customa64f6b61-ef04-44cc-a833-e8ba3d899a6d",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Efreeti",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Your patron is a Marid. Its element is Water.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> fog cloud\n2nd --> blur\n3rd --> sleet storm\n4th --> control water\n5th --> cone of cold",
-                                "level": 1
-                            }
-                        ],
-                        "id": "Custom3eb5f470-fb7a-4916-a6ca-55ee2d1a2ea8",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Marid",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 1
-                }
-            ],
-            "canReselect": false,
-            "id": "229015dc-43f2-4f96-b2b6-a4be2bc3843c",
-            "name": "Genie Kind",
-            "selectedFeatures": []
-        }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+            "id": "Customa64f6b61-ef04-44cc-a833-e8ba3d899a6d",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Efreeti",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
+        },
         {
-            "abilityCalculators": [
-                {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "PB"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 6,
-                    "topLevelConnector": "MAX"
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Your patron is a Marid. Its element is Water.\n\nYou may choose from the following expanded spell list:\n\nSpell Level --> Spell\n1st --> fog cloud\n2nd --> blur\n3rd --> sleet storm\n4th --> control water\n5th --> cone of cold",
+                "level": 1
+              }
             ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "8cfa74c7-d14f-4ed0-b59b-bfdae5c45e57",
-            "name": "Elemental Gift Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+            "id": "Custom3eb5f470-fb7a-4916-a6ca-55ee2d1a2ea8",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Marid",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 1
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "canReselect": false,
+      "id": "229015dc-43f2-4f96-b2b6-a4be2bc3843c",
+      "name": "Genie Kind",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
+        {
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "PB"
+                }
+              ]
+            }
+          ],
+          "level": 6,
+          "topLevelConnector": "MAX"
+        }
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "8cfa74c7-d14f-4ed0-b59b-bfdae5c45e57",
+      "name": "Elemental Gift Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

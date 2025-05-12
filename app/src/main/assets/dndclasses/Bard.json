@@ -1,431 +1,431 @@
 {
-    "acModifier": "Dexterity",
-    "archetypeSelectionLevel": 3,
-    "armorProficiencies": [
+  "acModifier": "Dexterity",
+  "archetypeSelectionLevel": 3,
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Light Armor"
+    }
+  ],
+  "attacksByLevel": [
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
-        }
-    ],
-    "attacksByLevel": [
-        {
-            "amount": 1,
-            "level": 1
-        }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Rapier",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Longsword",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Any Simple Weapon",
-                    "number": 1
-                }
-            ],
-            "id": "666e7699-6a83-416e-8eb7-11884f58c76a"
+          "description": "",
+          "name": "Rapier",
+          "number": 1
         },
         {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Diplomat's Pack",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Entertainer Pack",
-                    "number": 1
-                }
-            ],
-            "id": "1c88426f-8033-4cfc-b967-71ee99aeb163"
+          "description": "",
+          "name": "Longsword",
+          "number": 1
         },
         {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Lute",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Any Musical Instrument",
-                    "number": 1
-                }
-            ],
-            "id": "036d72b1-e24f-46da-9ee1-8f1d88b7700e"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Leather Armor",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Dagger",
-                    "number": 1
-                }
-            ],
-            "id": "af929a49-43d4-41c5-b9e6-0ae201cdd4a5"
+          "description": "",
+          "name": "Any Simple Weapon",
+          "number": 1
         }
-    ],
-    "classSkills": [
-        {
-            "amountOfChoice": 3,
-            "id": "20358787-7bbc-4c82-95b7-c2c004c50eef",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Acrobatics",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Arcana",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Animal Handling",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Athletics",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Deception",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "History",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Insight",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Intimidation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Investigation",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Medicine",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Nature",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Perception",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Performance",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Persuasion",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Sleight of Hand",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Religion",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Stealth",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Survival",
-                    "typeName": "SKILL"
-                }
-            ]
-        }
-    ],
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+      ],
+      "id": "666e7699-6a83-416e-8eb7-11884f58c76a"
     },
-    "effectiveCasterLevel": "FULL",
-    "features": [],
-    "hitDie": "D8",
-    "hpModifier": "Constitution",
-    "id": "bard",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Class",
-    "multiclassArmor": true,
-    "multiclassSkills": false,
-    "multiclassTools": false,
-    "multiclassWeapons": false,
-    "name": "Bard",
-    "savingThrows": {
-        "cha": true,
-        "con": false,
-        "dex": true,
-        "intelligence": false,
-        "str": false,
-        "wis": false
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Diplomat's Pack",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Entertainer Pack",
+          "number": 1
+        }
+      ],
+      "id": "1c88426f-8033-4cfc-b967-71ee99aeb163"
     },
-    "selectableFeatures": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 2
-                },
-                {
-                    "amount": 2,
-                    "level": 4
-                }
+          "description": "",
+          "name": "Lute",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Any Musical Instrument",
+          "number": 1
+        }
+      ],
+      "id": "036d72b1-e24f-46da-9ee1-8f1d88b7700e"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Leather Armor",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Dagger",
+          "number": 1
+        }
+      ],
+      "id": "af929a49-43d4-41c5-b9e6-0ae201cdd4a5"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 3,
+      "id": "20358787-7bbc-4c82-95b7-c2c004c50eef",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Acrobatics",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Animal Handling",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Deception",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "History",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Investigation",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Medicine",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Nature",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Perception",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Performance",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Sleight of Hand",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Stealth",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "FULL",
+  "features": [],
+  "hitDie": "D8",
+  "hpModifier": "Constitution",
+  "id": "bard",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Class",
+  "multiclassArmor": true,
+  "multiclassSkills": false,
+  "multiclassTools": false,
+  "multiclassWeapons": false,
+  "name": "Bard",
+  "savingThrows": {
+    "cha": true,
+    "con": false,
+    "dex": true,
+    "intelligence": false,
+    "str": false,
+    "wis": false
+  },
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 2
+        },
+        {
+          "amount": 2,
+          "level": 4
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost",
+                "level": 2
+              }
             ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Custom599614f0-31fe-43c6-84ea-85bdeb8e2452",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Magic Inspiration",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:\n\n- Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list",
-                                "level": 4
-                            }
-                        ],
-                        "id": "Customa50daa1f-1677-4e27-88c8-0433790d27b6",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Bardic Versatility",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 4
-                }
+            "id": "Custom599614f0-31fe-43c6-84ea-85bdeb8e2452",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Magic Inspiration",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:\n\n- Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.\n- Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the bard spell list",
+                "level": 4
+              }
             ],
-            "canReselect": false,
-            "id": "97394242-ff80-4a67-8be6-2beb9729e2ed",
-            "name": "Bard Optional Features",
-            "selectedFeatures": []
+            "id": "Customa50daa1f-1677-4e27-88c8-0433790d27b6",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Bardic Versatility",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 4
         }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
+      ],
+      "canReselect": false,
+      "id": "97394242-ff80-4a67-8be6-2beb9729e2ed",
+      "name": "Bard Optional Features",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
         {
-            "abilityCalculators": [
+          "associatedValue": "d6",
+          "calculators": [
+            {
+              "operands": [
                 {
-                    "associatedValue": "d6",
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "CHA"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 1,
-                    "topLevelConnector": "MAX"
-                },
-                {
-                    "associatedValue": "d8",
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "CHA"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 5,
-                    "topLevelConnector": "MAX"
-                },
-                {
-                    "associatedValue": "d10",
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "CHA"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 10,
-                    "topLevelConnector": "MAX"
-                },
-                {
-                    "associatedValue": "d12",
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "CHA"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 15,
-                    "topLevelConnector": "MAX"
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "CHA"
                 }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "Die",
-            "id": "e595c73c-ac98-4d4c-821a-a274b3004dee",
-            "name": "Bardic Inspiration Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 1,
+          "topLevelConnector": "MAX"
+        },
+        {
+          "associatedValue": "d8",
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "CHA"
+                }
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 5,
+          "topLevelConnector": "MAX"
+        },
+        {
+          "associatedValue": "d10",
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "CHA"
+                }
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 10,
+          "topLevelConnector": "MAX"
+        },
+        {
+          "associatedValue": "d12",
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "CHA"
+                }
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 15,
+          "topLevelConnector": "MAX"
         }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1 Musical Instrument"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1 Musical Instrument"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Choose 1 Musical Instrument"
-        }
-    ],
-    "weaponProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "all_simple"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Crossbow, hand"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Longsword"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Rapier"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Shortsword"
-        }
-    ]
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "Die",
+      "id": "e595c73c-ac98-4d4c-821a-a274b3004dee",
+      "name": "Bardic Inspiration Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1 Musical Instrument"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1 Musical Instrument"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Choose 1 Musical Instrument"
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "all_simple"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Crossbow, hand"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Longsword"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Rapier"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Shortsword"
+    }
+  ]
 }

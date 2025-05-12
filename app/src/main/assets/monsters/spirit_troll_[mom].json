@@ -1,7 +1,77 @@
-{"ac":17,"actions":[{"description":"The troll makes one Bite attack and two Claw attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 5 ft., one creature. Hit: 19 (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"7 to hit, reach 5 ft., one creature. Hit: 19 (3d10 + 3) psychic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claws","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":13,"conditionImmunities":"exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious","cr":"11","damageImmunities":"bludgeoning, piercing, slashing from nonmagical attacks","dex":17,"flySpeed":0,"hp":{"constant":20,"diceAmount":20,"diceType":"D10"},
-"id":-1,"int":8,"isLocked":true,"jsonType":"monster","languages":"Giant","name":"Spirit Troll [MoM]","resistances":"acid, cold, fire","savingThrows":null,"senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.","id":-1,"monsterId":-1,"name":"Incorporeal Movement"},
-{"description":"The troll regains 10 hit points at the start of each of its turns. If the troll takes psychic or force damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.","id":-1,"monsterId":-1,"name":"Regeneration"}],
-"speed":30,"str":1,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":9,"xp":7200}
+{
+  "ac": 17,
+  "actions": [
+    {
+      "description": "The troll makes one Bite attack and two Claw attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 5 ft., one creature. Hit: 19 (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "7 to hit, reach 5 ft., one creature. Hit: 19 (3d10 + 3) psychic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claws",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 13,
+  "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious",
+  "cr": "11",
+  "damageImmunities": "bludgeoning, piercing, slashing from nonmagical attacks",
+  "dex": 17,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 20,
+    "diceAmount": 20,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 8,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Giant",
+  "name": "Spirit Troll [MoM]",
+  "resistances": "acid, cold, fire",
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Incorporeal Movement"
+    },
+    {
+      "description": "The troll regains 10 hit points at the start of each of its turns. If the troll takes psychic or force damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Regeneration"
+    }
+  ],
+  "speed": 30,
+  "str": 1,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Giant",
+  "vulnerabilities": null,
+  "wis": 9,
+  "xp": 7200
+}

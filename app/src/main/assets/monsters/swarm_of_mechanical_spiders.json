@@ -1,8 +1,79 @@
-{"ac":12,"actions":[{"description":" 3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bites","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":1,"climbSpeed":20,"con":10,"conditionImmunities":"exhaustion, charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned, poisoned","cr":"1/2","damageImmunities":null,"dex":13,"flySpeed":0,"hp":{"constant":null,"diceAmount":5,"diceType":"D8"},
-"id":-1,"int":1,"isLocked":true,"jsonType":"monster","languages":null,"name":"Swarm of Mechanical Spiders","resistances":"bludgeoning, piercing, slashing","savingThrows":null,"senses":"blindsight 10 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The swarm doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Constructed Nature"},
-{"description":"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points.","id":-1,"monsterId":-1,"name":"Swarm"},
-{"description":"The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"},
-{"description":"While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.","id":-1,"monsterId":-1,"name":"Web Sense"},
-{"description":"The swarm ignores movement restrictions caused by webbing.","id":-1,"monsterId":-1,"name":"Web Walker"}],
-"speed":20,"str":3,"swimSpeed":0,"tag":null,"type":"Construct","vulnerabilities":"lightning","wis":7,"xp":100}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": " 3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bites",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 1,
+  "climbSpeed": 20,
+  "con": 10,
+  "conditionImmunities": "exhaustion, charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned, poisoned",
+  "cr": "1/2",
+  "damageImmunities": null,
+  "dex": 13,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 5,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 1,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Swarm of Mechanical Spiders",
+  "resistances": "bludgeoning, piercing, slashing",
+  "savingThrows": null,
+  "senses": "blindsight 10 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The swarm doesn't require air, food, drink, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Constructed Nature"
+    },
+    {
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Swarm"
+    },
+    {
+      "description": "The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    },
+    {
+      "description": "While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Web Sense"
+    },
+    {
+      "description": "The swarm ignores movement restrictions caused by webbing.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Web Walker"
+    }
+  ],
+  "speed": 20,
+  "str": 3,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Construct",
+  "vulnerabilities": "lightning",
+  "wis": 7,
+  "xp": 100
+}

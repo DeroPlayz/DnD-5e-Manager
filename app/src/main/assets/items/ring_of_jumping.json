@@ -1,6 +1,46 @@
-{"changesNameOnAttunement": false,"description": "While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.","effects": [{"actualEffect": {"spellId": "50","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"id": "21fd526c-142d-491d-a579-b6d9f2ae67dc","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Ring_of_Jumping","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Ring of Jumping","rarity": "UNCOMMON","requiresAttunement": true,"type": "RING","value": null,"weight": null,"valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "50",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "id": "21fd526c-142d-491d-a579-b6d9f2ae67dc",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Ring_of_Jumping",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Ring of Jumping",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": true,
+  "type": "RING",
+  "value": null,
+  "weight": null,
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

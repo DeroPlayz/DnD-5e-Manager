@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied",
-            "level": 20
-        }
-    ],
-    "id": "Customfd47cbe0-d735-43ba-8c2b-009866d97806",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Foe Slayer",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied",
+      "level": 20
+    }
+  ],
+  "id": "Customfd47cbe0-d735-43ba-8c2b-009866d97806",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Foe Slayer",
+  "notes": "",
+  "type": "Feat"
 }

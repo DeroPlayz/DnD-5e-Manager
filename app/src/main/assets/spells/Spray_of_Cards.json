@@ -1,4 +1,31 @@
-{"casting_time": "1 action","classes": ["bard","sorcerer","warlock","wizard"],
-"components": {"material": true,"raw": "V, S, M (a deck of cards)","somatic": true,"verbal": true},
-"description": "You spray a 15-foot cone of spectral cards. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage and has the blinded condition until the end of its next turn. On a successful save, a creature takes half as much damage only.","duration": "Instantaneous","level": "2","name": "Spray of Cards","range": "15 feet","ritual": false,"school": "conjuration","tags": ["bard","sorcerer","warlock","wizard","level2"],
-"type": "2nd-level conjuration","higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "components": {
+    "material": true,
+    "raw": "V, S, M (a deck of cards)",
+    "somatic": true,
+    "verbal": true
+  },
+  "description": "You spray a 15-foot cone of spectral cards. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage and has the blinded condition until the end of its next turn. On a successful save, a creature takes half as much damage only.",
+  "duration": "Instantaneous",
+  "level": "2",
+  "name": "Spray of Cards",
+  "range": "15 feet",
+  "ritual": false,
+  "school": "conjuration",
+  "tags": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard",
+    "level2"
+  ],
+  "type": "2nd-level conjuration",
+  "higher_levels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
+}

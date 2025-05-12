@@ -1,7 +1,77 @@
-{"ac":11,"actions":[{"description":"The plasmoid makes two Pseudopod attacks. It can replace one of those attacks with a Javelin attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Pseudopod","type":"MELEE"},
-{"description":"3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Javelin","type":"MELEE_OR_RANGED"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"1/4","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":3,"diceAmount":3,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common","name":"Plasmoid Explorer [BAM]","resistances":"acid, poison","savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The plasmoid can squeeze through a space as narrow as 1 inch wide, provided it is wearing and carrying nothing. It has advantage on ability checks it makes to initiate or escape a grapple.","id":-1,"monsterId":-1,"name":"Amorphous"},
-{"description":"The plasmoid can hold its breath for 1 hour.","id":-1,"monsterId":-1,"name":"Hold Breath"}],
-"speed":30,"str":13,"swimSpeed":0,"tag":null,"type":"Ooze","vulnerabilities":null,"wis":14,"xp":50}
+{
+  "ac": 11,
+  "actions": [
+    {
+      "description": "The plasmoid makes two Pseudopod attacks. It can replace one of those attacks with a Javelin attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Pseudopod",
+      "type": "MELEE"
+    },
+    {
+      "description": "3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Javelin",
+      "type": "MELEE_OR_RANGED"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 0,
+  "con": 12,
+  "conditionImmunities": null,
+  "cr": "1/4",
+  "damageImmunities": null,
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 3,
+    "diceAmount": 3,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common",
+  "name": "Plasmoid Explorer [BAM]",
+  "resistances": "acid, poison",
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The plasmoid can squeeze through a space as narrow as 1 inch wide, provided it is wearing and carrying nothing. It has advantage on ability checks it makes to initiate or escape a grapple.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Amorphous"
+    },
+    {
+      "description": "The plasmoid can hold its breath for 1 hour.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Hold Breath"
+    }
+  ],
+  "speed": 30,
+  "str": 13,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Ooze",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 50
+}

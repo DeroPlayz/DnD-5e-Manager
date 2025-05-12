@@ -1,18 +1,91 @@
-{"abilityScores": {"cha": 0,"con": 0,"dex": 0,"intelligence": 0,"str": 0,"wis": 1},
-"ac": 10,"armorProficiencies": [],
-"id": "aerenal_wood_elf","jsonType": "race","languages": [],
-"name": "Aerenal Wood Elf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 1,"diceTypeName": "D4","name": ""},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 35,"swim": 0},
-"spellcastingAbility": "INT","spells": [],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency","level": 1}],
-"id": "Custom0f08e2f9-16d8-4631-882a-273957579030","isFeature": true,"jsonType": "feat","level": 1,"name": "Aereni Elf","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "Your base walking speed increases to 35 ft.","level": 1}],
-"id": "Custom1746b56d-9cfa-4c92-af4a-28457c47cddb","isFeature": true,"jsonType": "feat","level": 1,"name": "Fleet of Foot","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena","level": 1}],
-"id": "Customdfd03561-cde7-468d-a1e0-cb3795ca3b4d","isFeature": true,"jsonType": "feat","level": 1,"name": "Mask of the Wild","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 0,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 0,
+    "str": 0,
+    "wis": 1
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "aerenal_wood_elf",
+  "jsonType": "race",
+  "languages": [],
+  "name": "Aerenal Wood Elf",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 35,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency",
+            "level": 1
+          }
+        ],
+        "id": "Custom0f08e2f9-16d8-4631-882a-273957579030",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Aereni Elf",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your base walking speed increases to 35 ft.",
+            "level": 1
+          }
+        ],
+        "id": "Custom1746b56d-9cfa-4c92-af4a-28457c47cddb",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fleet of Foot",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena",
+            "level": 1
+          }
+        ],
+        "id": "Customdfd03561-cde7-468d-a1e0-cb3795ca3b4d",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mask of the Wild",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

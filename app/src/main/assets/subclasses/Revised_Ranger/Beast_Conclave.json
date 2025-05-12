@@ -1,144 +1,144 @@
 {
-    "acModifier": "DEX",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "DEX",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your animal companion gains a variety of benefits while it is linked to you.\nThe animal companion loses its Multiattack action, if it has one. \n\nThe companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own. \nWhen using your Natural Explorer feature, you and your animal companion can both move stealthily at a normal pace.\n\nYour animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, an animal companion also adds its proficiency bonus to its AC and to its damage rolls.\nYour animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.\nFor each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.Whenever you gain the Ability Score Improvement class feature, your companion\u00e2\u20ac\u2122s abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can\u00e2\u20ac\u2122t increasean ability score above 20 using this feature unless its description specifies otherwise.\n\n",
+            "level": 3
+          }
+        ],
+        "id": "Custom02b17002-e4e5-4ce9-9cad-91724d98d2e7",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Companion's Bond",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your animal companion gains a variety of benefits while it is linked to you.\nThe animal companion loses its Multiattack action, if it has one. \n\nThe companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own. \nWhen using your Natural Explorer feature, you and your animal companion can both move stealthily at a normal pace.\n\nYour animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, an animal companion also adds its proficiency bonus to its AC and to its damage rolls.\nYour animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.\nFor each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.Whenever you gain the Ability Score Improvement class feature, your companion\u00e2\u20ac\u2122s abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can\u00e2\u20ac\u2122t increasean ability score above 20 using this feature unless its description specifies otherwise.\n\n",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom02b17002-e4e5-4ce9-9cad-91724d98d2e7",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Companion's Bond",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "While your animal can see you, it has advantage on all saving throws. ",
-                        "level": 7
-                    }
-                ],
-                "id": "Custom409f4a55-7744-4ddd-a82e-3ac82106821a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Beast's Defense",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "While your animal can see you, it has advantage on all saving throws. ",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your companion can use its action to make a melee attack against each creature of its choice within 5 feet of it, with a separate attack roll for each target.",
-                        "level": 11
-                    }
-                ],
-                "id": "Custom228f4cc2-f603-4cba-b8c0-71d461b91039",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Storm of Claws and Fangs ",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom409f4a55-7744-4ddd-a82e-3ac82106821a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Beast's Defense",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your companion can use its action to make a melee attack against each creature of its choice within 5 feet of it, with a separate attack roll for each target.",
             "level": 11
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Whenever an attacker that your companion can see hits it with an attack, it can use its reaction to halve the attack\u00e2\u20ac\u2122s damage against it.",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom05a8abe2-4fe6-4d69-b5bc-e7e21aa06fff",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Superior Beast's Defense ",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom228f4cc2-f603-4cba-b8c0-71d461b91039",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Storm of Claws and Fangs ",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 11
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Whenever an attacker that your companion can see hits it with an attack, it can use its reaction to halve the attack\u00e2\u20ac\u2122s damage against it.",
             "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you use the Attack action on your turn, your companion can use its reaction to make an attack, given it can see you. ",
-                        "level": 5
-                    }
-                ],
-                "id": "Custom5c757795-bd8c-42b8-8d50-7e10d6b30789",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Coordinated Attack",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom05a8abe2-4fe6-4d69-b5bc-e7e21aa06fff",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Superior Beast's Defense ",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you use the Attack action on your turn, your companion can use its reaction to make an attack, given it can see you. ",
             "level": 5
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "With 8 hours of work and the expenditure of 50 gp worth of rare herbs and fine food, you call  forth an animal from the wilderness to serve as your faithful companion. You normally select you companion from among the following animals: an ape, a black bear, a boar, a giant badger, a giant weasel, a mule, a panther, or a wolf. However, your DM might pick one of these animals for you, based on the surrounding terrain and on what types of creatures would logically be present in the area.\nAt the end of the 8 hours, your animal companion appears and gains all the benefits of your Companion\u00e2\u20ac\u2122s Bond ability. You can have only one animal companion at a time.\nIf your animal companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call  forth your companion's spirit and use your magic to create a new body for it. You can return an animal companion to life in this manner even if you do not possess any part of its body. If you use this ability to return a former animal companion to life while you have a current animal companion, your current companion leaves you and is replaced by the restored companion.",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom8f580993-cd38-46b7-873e-6fcec3ce0e25",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Animal Companion ",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom5c757795-bd8c-42b8-8d50-7e10d6b30789",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Coordinated Attack",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 5
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "With 8 hours of work and the expenditure of 50 gp worth of rare herbs and fine food, you call  forth an animal from the wilderness to serve as your faithful companion. You normally select you companion from among the following animals: an ape, a black bear, a boar, a giant badger, a giant weasel, a mule, a panther, or a wolf. However, your DM might pick one of these animals for you, based on the surrounding terrain and on what types of creatures would logically be present in the area.\nAt the end of the 8 hours, your animal companion appears and gains all the benefits of your Companion\u00e2\u20ac\u2122s Bond ability. You can have only one animal companion at a time.\nIf your animal companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call  forth your companion's spirit and use your magic to create a new body for it. You can return an animal companion to life in this manner even if you do not possess any part of its body. If you use this ability to return a former animal companion to life while you have a current animal companion, your current companion leaves you and is replaced by the restored companion.",
             "level": 3
-        }
-    ],
-    "hpModifier": "CON",
-    "id": "revised_ranger_beast_conclave",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Beast Conclave",
-    "selectableFeatures": [],
-    "shouldShowCompanion": true,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "WIS",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom8f580993-cd38-46b7-873e-6fcec3ce0e25",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Animal Companion ",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    }
+  ],
+  "hpModifier": "CON",
+  "id": "revised_ranger_beast_conclave",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Beast Conclave",
+  "selectableFeatures": [],
+  "shouldShowCompanion": true,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "WIS",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

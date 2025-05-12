@@ -1,11 +1,107 @@
-{"ac":16,"actions":[{"description":"The dullahan makes two attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":" 8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a DC 15 Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 (6d8) slashing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Battleaxe","type":"MELEE"},
-{"description":"7 to hit, range 120 ft., one target. Hit: 14 (2d10 + 3) fire damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Fiery Skull","type":"RANGED"},
-{"description":"The dullahan makes one attack.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Attack","type":"NONE"},
-{"description":"Each creature of the dullahan's choice within 30 feet of it must succeed on a DC 15 Wisdom saving throw or become frightened of the dullahan until the end of its next turn.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Frightful Presence (Costs 2 Actions)","type":"NONE"},
-{"description":"The dullahan moves up to its speed without provoking opportunity attacks and makes one Battleaxe attack with advantage. If the attack hits, but is not a critical hit, the attack deals an extra 27 (6d8) necrotic damage.","id":-1,"isLegendary":true,"monsterId":-1,"name":"Head Hunt (Costs 3 Actions)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":16,"climbSpeed":0,"con":16,"conditionImmunities":"charmed, frightened, poisoned","cr":"10","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":54,"diceAmount":18,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"understands the languages it knew in life but can't speak","name":"Dullahan","resistances":"cold, lightning, poison","savingThrows":"Con +7","senses":"truesight 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"If the dullahan is reduced to 0 hit points, it doesn't die or fall unconscious. Instead, it regains 97 hit points. In addition, it summons three death's head|VRGR|death's heads, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning.","id":-1,"monsterId":-1,"name":"Headless Summoning (Recharges after a Short or Long Rest)"},
-{"description":"If the dullahan fails a saving throw, it can choose to succeed instead.","id":-1,"monsterId":-1,"name":"Legendary Resistance (2/Day)"},
-{"description":"The dullahan doesn't require air, food, drink, or sleep.","id":-1,"monsterId":-1,"name":"Unusual Nature"}],
-"speed":30,"str":18,"swimSpeed":0,"tag":null,"type":"Undead","vulnerabilities":null,"wis":15,"xp":5900}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The dullahan makes two attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": " 8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a DC 15 Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 (6d8) slashing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Battleaxe",
+      "type": "MELEE"
+    },
+    {
+      "description": "7 to hit, range 120 ft., one target. Hit: 14 (2d10 + 3) fire damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Fiery Skull",
+      "type": "RANGED"
+    },
+    {
+      "description": "The dullahan makes one attack.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Attack",
+      "type": "NONE"
+    },
+    {
+      "description": "Each creature of the dullahan's choice within 30 feet of it must succeed on a DC 15 Wisdom saving throw or become frightened of the dullahan until the end of its next turn.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Frightful Presence (Costs 2 Actions)",
+      "type": "NONE"
+    },
+    {
+      "description": "The dullahan moves up to its speed without provoking opportunity attacks and makes one Battleaxe attack with advantage. If the attack hits, but is not a critical hit, the attack deals an extra 27 (6d8) necrotic damage.",
+      "id": -1,
+      "isLegendary": true,
+      "monsterId": -1,
+      "name": "Head Hunt (Costs 3 Actions)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 16,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "charmed, frightened, poisoned",
+  "cr": "10",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 54,
+    "diceAmount": 18,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "understands the languages it knew in life but can't speak",
+  "name": "Dullahan",
+  "resistances": "cold, lightning, poison",
+  "savingThrows": "Con +7",
+  "senses": "truesight 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the dullahan is reduced to 0 hit points, it doesn't die or fall unconscious. Instead, it regains 97 hit points. In addition, it summons three death's head|VRGR|death's heads, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Headless Summoning (Recharges after a Short or Long Rest)"
+    },
+    {
+      "description": "If the dullahan fails a saving throw, it can choose to succeed instead.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Legendary Resistance (2/Day)"
+    },
+    {
+      "description": "The dullahan doesn't require air, food, drink, or sleep.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Unusual Nature"
+    }
+  ],
+  "speed": 30,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Undead",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 5900
+}

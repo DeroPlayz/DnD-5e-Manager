@@ -1,20 +1,136 @@
-{"abilityScores": {"cha": 1,"con": 0,"dex": 0,"intelligence": 1,"str": 0,"wis": 0},
-"ac": 10,"armorProficiencies": [],
-"id": "Custom8787a15d-706a-4fea-8388-91733c582377","jsonType": "race","languages": [{"hint": "","level": 1,"proficiency": "Common"},
-{"hint": "","level": 1,"proficiency": "Elvish"}],
-"name": "Mark of Detection Half-Elf","racialWeapon": {"abilityName": "Strength","damageType": "Bludgeoning","diceAmount": 0,"diceTypeName": "d4","name": "Unarmed Strike"},
-"skillProficiencies": [],
-"speed": {"burrow": 0,"climb": 0,"fly": 0,"normal": 30,"swim": 0},
-"spellcastingAbility": "INT","spells": [{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard","components": "V, S","description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.","duration": "Concentration, up to 10 minutes","higherLevels": "","isCustom": false,"isRitual": true,"level": 1,"name": "Detect Magic","range": "Self","school": "divination","type": "1st-level divination (Ritual)"}},
-{"level": 1,"spellModel": {"castingTime": "1 action","classes": "Cleric, Druid, Paladin, Ranger","components": "V, S, M (a yew leaf)","description": "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.","duration": "Concentration, up to 10 minutes","higherLevels": "","isCustom": false,"isRitual": true,"level": 1,"name": "Detect Poison or Disease","range": "Self","school": "divination","type": "1st-level divination (Ritual)"}}],
-"toolProficiencies": [],
-"traits": [{"feat": {"descriptionModels": [{"description": "Choose 1 (ALL)","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Ability Score Increase","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "When you make an Intelligence (Investigation) or Wisdom (Insight) check, you can roll one intuition die, a d4, and add the number rolled to the ability check.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Deductive Intuition","notes": "","type": "Feat"},
-"level": 1},
-{"feat": {"descriptionModels": [{"description": "You can cast that detect magic and detect poison and disease spells, but only as rituals. Intelligence is your spell-casting ability for these spells.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Sense Threats","notes": "","type": "Feat"},
-"level": 1}],
-"weaponProficiencies": []}
+{
+  "abilityScores": {
+    "cha": 1,
+    "con": 0,
+    "dex": 0,
+    "intelligence": 1,
+    "str": 0,
+    "wis": 0
+  },
+  "ac": 10,
+  "armorProficiencies": [],
+  "id": "Custom8787a15d-706a-4fea-8388-91733c582377",
+  "jsonType": "race",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Common"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Elvish"
+    }
+  ],
+  "name": "Mark of Detection Half-Elf",
+  "racialWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 0,
+    "diceTypeName": "d4",
+    "name": "Unarmed Strike"
+  },
+  "skillProficiencies": [],
+  "speed": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 0,
+    "normal": 30,
+    "swim": 0
+  },
+  "spellcastingAbility": "INT",
+  "spells": [
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+        "components": "V, S",
+        "description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "level": 1,
+        "name": "Detect Magic",
+        "range": "Self",
+        "school": "divination",
+        "type": "1st-level divination (Ritual)"
+      }
+    },
+    {
+      "level": 1,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "Cleric, Druid, Paladin, Ranger",
+        "components": "V, S, M (a yew leaf)",
+        "description": "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.\n\nThe spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+        "duration": "Concentration, up to 10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "level": 1,
+        "name": "Detect Poison or Disease",
+        "range": "Self",
+        "school": "divination",
+        "type": "1st-level divination (Ritual)"
+      }
+    }
+  ],
+  "toolProficiencies": [],
+  "traits": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Choose 1 (ALL)",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Ability Score Increase",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you make an Intelligence (Investigation) or Wisdom (Insight) check, you can roll one intuition die, a d4, and add the number rolled to the ability check.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Deductive Intuition",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can cast that detect magic and detect poison and disease spells, but only as rituals. Intelligence is your spell-casting ability for these spells.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Sense Threats",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "weaponProficiencies": []
+}

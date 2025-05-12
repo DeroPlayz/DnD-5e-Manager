@@ -1,6 +1,71 @@
-{"ac":16,"actions":[{"description":"The ceratops makes one Gore attack and one Stomp attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"11 to hit, reach 10 ft., one target. Hit: 29 (4d10 + 7) piercing damage. If the ceratops moved at least 20 feet in a straight line toward the target immediately before the hit, the target takes an extra 11 (2d10) piercing damage; if the target is a creature, it also must succeed on a DC 19 Strength saving throw or be pushed up to 20 feet from the ceratops and have the prone condition.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Gore","type":"MELEE"},
-{"description":"11 to hit, reach 5 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Stomp","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":7,"climbSpeed":0,"con":21,"conditionImmunities":null,"cr":"9","damageImmunities":null,"dex":8,"flySpeed":0,"hp":{"constant":45,"diceAmount":9,"diceType":"D20"},
-"id":-1,"int":4,"isLocked":true,"jsonType":"monster","languages":null,"name":"Ceratops [BGG]","resistances":null,"savingThrows":null,"senses":null,"size":"Gargantuan","skills":null,"specialTraits":[{"description":"The ceratops has advantage on saving throws against spells and other magical effects.","id":-1,"monsterId":-1,"name":"Magic Resistance"}],
-"speed":50,"str":24,"swimSpeed":0,"tag":"dinosaur","type":"Monstrosity","vulnerabilities":null,"wis":10,"xp":5000}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The ceratops makes one Gore attack and one Stomp attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "11 to hit, reach 10 ft., one target. Hit: 29 (4d10 + 7) piercing damage. If the ceratops moved at least 20 feet in a straight line toward the target immediately before the hit, the target takes an extra 11 (2d10) piercing damage; if the target is a creature, it also must succeed on a DC 19 Strength saving throw or be pushed up to 20 feet from the ceratops and have the prone condition.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Gore",
+      "type": "MELEE"
+    },
+    {
+      "description": "11 to hit, reach 5 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Stomp",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 7,
+  "climbSpeed": 0,
+  "con": 21,
+  "conditionImmunities": null,
+  "cr": "9",
+  "damageImmunities": null,
+  "dex": 8,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 45,
+    "diceAmount": 9,
+    "diceType": "D20"
+  },
+  "id": -1,
+  "int": 4,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Ceratops [BGG]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Gargantuan",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The ceratops has advantage on saving throws against spells and other magical effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Magic Resistance"
+    }
+  ],
+  "speed": 50,
+  "str": 24,
+  "swimSpeed": 0,
+  "tag": "dinosaur",
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 5000
+}

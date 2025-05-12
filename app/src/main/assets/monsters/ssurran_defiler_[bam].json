@@ -1,8 +1,85 @@
-{"ac":16,"actions":[{"description":"The ssurran makes two Claw attacks and uses Defile (if available).","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage plus 4 (1d8) necrotic damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Claw","type":"MELEE"},
-{"description":"Ordinary vegetation within 10 feet of the ssurran withers and dies. In addition, each creature within 10 feet of the ssurran must make a DC 11 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one. The ssurran regains 5 (1d10) hit points for each creature that fails the saving throw.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Defile (Recharge 6)","type":"NONE"},
-{"description":"The ssurran casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:\nAt will: mage hand (the hand is invisible)\n\n1/day each: invisibility (self only)","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting (Psionics)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":7,"climbSpeed":0,"con":16,"conditionImmunities":null,"cr":"3","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":21,"diceAmount":7,"diceType":"D8"},
-"id":-1,"int":15,"isLocked":true,"jsonType":"monster","languages":"Draconic","name":"Ssurran Defiler [BAM]","resistances":"necrotic","savingThrows":"Con +5, Int +4","senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"The ssurran can hold its breath for 15 minutes.","id":-1,"monsterId":-1,"name":"Hold Breath"},
-{"description":"The ssurran's AC includes its Intelligence modifier.","id":-1,"monsterId":-1,"name":"Intellect Fortress"}],
-"speed":30,"str":13,"swimSpeed":30,"tag":"lizardfolk","type":"Monstrosity","vulnerabilities":null,"wis":15,"xp":700}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": "The ssurran makes two Claw attacks and uses Defile (if available).",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage plus 4 (1d8) necrotic damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Claw",
+      "type": "MELEE"
+    },
+    {
+      "description": "Ordinary vegetation within 10 feet of the ssurran withers and dies. In addition, each creature within 10 feet of the ssurran must make a DC 11 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one. The ssurran regains 5 (1d10) hit points for each creature that fails the saving throw.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Defile (Recharge 6)",
+      "type": "NONE"
+    },
+    {
+      "description": "The ssurran casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability:\nAt will: mage hand (the hand is invisible)\n\n1/day each: invisibility (self only)",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting (Psionics)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 7,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": null,
+  "cr": "3",
+  "damageImmunities": null,
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 21,
+    "diceAmount": 7,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 15,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Draconic",
+  "name": "Ssurran Defiler [BAM]",
+  "resistances": "necrotic",
+  "savingThrows": "Con +5, Int +4",
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The ssurran can hold its breath for 15 minutes.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Hold Breath"
+    },
+    {
+      "description": "The ssurran's AC includes its Intelligence modifier.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Intellect Fortress"
+    }
+  ],
+  "speed": 30,
+  "str": 13,
+  "swimSpeed": 30,
+  "tag": "lizardfolk",
+  "type": "Monstrosity",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 700
+}

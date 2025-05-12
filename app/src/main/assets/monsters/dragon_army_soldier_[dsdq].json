@@ -1,6 +1,71 @@
-{"ac":17,"actions":[{"description":"The soldier makes two Longsword or Javelin attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 2 (1d4) fire damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Longsword","type":"MELEE"},
-{"description":"4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 2 (1d4) fire damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Javelin","type":"MELEE_OR_RANGED"}],
-"alignment":"Lawful Evil","burrowSpeed":0,"cha":10,"climbSpeed":0,"con":12,"conditionImmunities":null,"cr":"1","damageImmunities":null,"dex":12,"flySpeed":0,"hp":{"constant":4,"diceAmount":4,"diceType":"D8"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common, Draconic","name":"Dragon Army Soldier [DSDQ]","resistances":null,"savingThrows":null,"senses":null,"size":"Medium","skills":null,"specialTraits":[{"description":"While the soldier can see a Dragon that isn't hostile to it, the soldier has advantage on attack rolls.","id":-1,"monsterId":-1,"name":"Draconic Devotion"}],
-"speed":30,"str":15,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":10,"xp":200}
+{
+  "ac": 17,
+  "actions": [
+    {
+      "description": "The soldier makes two Longsword or Javelin attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands, plus 2 (1d4) fire damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Longsword",
+      "type": "MELEE"
+    },
+    {
+      "description": "4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 2 (1d4) fire damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Javelin",
+      "type": "MELEE_OR_RANGED"
+    }
+  ],
+  "alignment": "Lawful Evil",
+  "burrowSpeed": 0,
+  "cha": 10,
+  "climbSpeed": 0,
+  "con": 12,
+  "conditionImmunities": null,
+  "cr": "1",
+  "damageImmunities": null,
+  "dex": 12,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 4,
+    "diceAmount": 4,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Draconic",
+  "name": "Dragon Army Soldier [DSDQ]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "While the soldier can see a Dragon that isn't hostile to it, the soldier has advantage on attack rolls.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Draconic Devotion"
+    }
+  ],
+  "speed": 30,
+  "str": 15,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 200
+}

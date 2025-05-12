@@ -1,4 +1,28 @@
-{"casting_time": "1 action","classes": ["bard","warlock","blood_hunter"],
-"components": {"material": false,"raw": "V","somatic": false,"verbal": true},
-"description": "Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.","duration": "1 hour","level": "8","name": "Glibness","range": "Self","ritual": false,"school": "transmutation","tags": ["bard","warlock","blood_hunter","level8"],
-"type": "8th-level transmutation"}
+{
+  "casting_time": "1 action",
+  "classes": [
+    "bard",
+    "warlock",
+    "blood_hunter"
+  ],
+  "components": {
+    "material": false,
+    "raw": "V",
+    "somatic": false,
+    "verbal": true
+  },
+  "description": "Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.",
+  "duration": "1 hour",
+  "level": "8",
+  "name": "Glibness",
+  "range": "Self",
+  "ritual": false,
+  "school": "transmutation",
+  "tags": [
+    "bard",
+    "warlock",
+    "blood_hunter",
+    "level8"
+  ],
+  "type": "8th-level transmutation"
+}

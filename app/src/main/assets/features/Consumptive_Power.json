@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can't be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
-            "level": 10
-        }
-    ],
-    "id": "Custom53a7f9b4-bd9a-4457-bfbe-1412833871ce",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Consumptive Power",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can't be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.\n\nOnce you use this feature, you can't use it again until you finish a long rest",
+      "level": 10
+    }
+  ],
+  "id": "Custom53a7f9b4-bd9a-4457-bfbe-1412833871ce",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Consumptive Power",
+  "notes": "",
+  "type": "Feat"
 }

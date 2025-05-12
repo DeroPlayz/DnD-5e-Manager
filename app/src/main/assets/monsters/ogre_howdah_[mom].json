@@ -1,4 +1,55 @@
-{"ac":15,"actions":[{"description":"6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Mace","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":7,"climbSpeed":0,"con":16,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":8,"flySpeed":0,"hp":{"constant":21,"diceAmount":7,"diceType":"D10"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"Common, Giant","name":"Ogre Howdah [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[{"description":"The ogre carries a compact fort on its back. Up to four Small creatures can ride in the fort without squeezing. To make a melee attack against a target within 5 feet of the ogre, they must use spears or weapons with reach. Creatures in the fort have three-quarters cover against attacks and effects from outside it. If the ogre dies, creatures in the fort are placed in unoccupied spaces within 5 feet of the ogre.","id":-1,"monsterId":-1,"name":"Howdah"}],
-"speed":40,"str":19,"swimSpeed":0,"tag":null,"type":"Giant","vulnerabilities":null,"wis":7,"xp":450}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Mace",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 7,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 8,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 21,
+    "diceAmount": 7,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Giant",
+  "name": "Ogre Howdah [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The ogre carries a compact fort on its back. Up to four Small creatures can ride in the fort without squeezing. To make a melee attack against a target within 5 feet of the ogre, they must use spears or weapons with reach. Creatures in the fort have three-quarters cover against attacks and effects from outside it. If the ogre dies, creatures in the fort are placed in unoccupied spaces within 5 feet of the ogre.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Howdah"
+    }
+  ],
+  "speed": 40,
+  "str": 19,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Giant",
+  "vulnerabilities": null,
+  "wis": 7,
+  "xp": 450
+}

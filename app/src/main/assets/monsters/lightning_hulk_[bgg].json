@@ -1,5 +1,61 @@
-{"ac":15,"actions":[{"description":"9 to hit, reach 10 ft. or range 60 ft., one target. Hit: 18 (4d8) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of the lightning hulk's choice that it can see within 30 feet of the target. The second creature must succeed on a DC 18 Dexterity saving throw or take 18 (4d8) lightning damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Arc Lightning","type":"MELEE_OR_RANGED"}],
-"alignment":"Chaotic Neutral","burrowSpeed":0,"cha":15,"climbSpeed":0,"con":16,"conditionImmunities":"exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained","cr":"9","damageImmunities":"lightning, poison","dex":21,"flySpeed":90,"hp":{"constant":36,"diceAmount":12,"diceType":"D10"},
-"id":-1,"int":14,"isLocked":true,"jsonType":"monster","languages":"Auran, Giant","name":"Lightning Hulk [BGG]","resistances":"cold, thunder; bludgeoning, piercing, slashing from nonmagical attacks","savingThrows":"Dex +9, Con +7, Wis +6, Cha +6","senses":null,"size":"Large","skills":null,"specialTraits":[{"description":"The lightning hulk sheds bright light in a 20-foot radius and dim light for an additional 20 feet.","id":-1,"monsterId":-1,"name":"Illumination"},
-{"description":"The lightning hulk can enter a hostile creature's space and stop there. The first time the lightning hulk enters a creature's space on a turn, or if it begins its turn in a creature's space, that creature takes 7 (2d6) lightning damage. The hulk can also move through a space as narrow as 1 inch without squeezing. A creature that touches the lightning hulk or hits it with a melee attack while within 5 feet of it takes 7 (2d6) lightning damage.","id":-1,"monsterId":-1,"name":"Lightning Form"}],
-"speed":0,"str":18,"swimSpeed":0,"tag":null,"type":"Elemental","vulnerabilities":null,"wis":14,"xp":5000}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "9 to hit, reach 10 ft. or range 60 ft., one target. Hit: 18 (4d8) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn, and lightning jumps from the target to another creature of the lightning hulk's choice that it can see within 30 feet of the target. The second creature must succeed on a DC 18 Dexterity saving throw or take 18 (4d8) lightning damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Arc Lightning",
+      "type": "MELEE_OR_RANGED"
+    }
+  ],
+  "alignment": "Chaotic Neutral",
+  "burrowSpeed": 0,
+  "cha": 15,
+  "climbSpeed": 0,
+  "con": 16,
+  "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "cr": "9",
+  "damageImmunities": "lightning, poison",
+  "dex": 21,
+  "flySpeed": 90,
+  "hp": {
+    "constant": 36,
+    "diceAmount": 12,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 14,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Auran, Giant",
+  "name": "Lightning Hulk [BGG]",
+  "resistances": "cold, thunder; bludgeoning, piercing, slashing from nonmagical attacks",
+  "savingThrows": "Dex +9, Con +7, Wis +6, Cha +6",
+  "senses": null,
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The lightning hulk sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Illumination"
+    },
+    {
+      "description": "The lightning hulk can enter a hostile creature's space and stop there. The first time the lightning hulk enters a creature's space on a turn, or if it begins its turn in a creature's space, that creature takes 7 (2d6) lightning damage. The hulk can also move through a space as narrow as 1 inch without squeezing. A creature that touches the lightning hulk or hits it with a melee attack while within 5 feet of it takes 7 (2d6) lightning damage.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Lightning Form"
+    }
+  ],
+  "speed": 0,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Elemental",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 5000
+}

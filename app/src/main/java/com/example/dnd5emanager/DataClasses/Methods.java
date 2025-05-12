@@ -16,6 +16,7 @@ import static com.example.dnd5emanager.DataClasses.Constants.Spells;
 import static com.example.dnd5emanager.DataClasses.Constants.Strength;
 import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
+import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
 import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import android.content.Context;
@@ -50,7 +51,7 @@ public class Methods {
 
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(16); // Example: Thread pool with 2 threads
+        executorService = Executors.newFixedThreadPool(18); // Example: Thread pool with 2 threads
 
         executorService.execute(new Runnable() {
             @Override
@@ -100,6 +101,13 @@ public class Methods {
             @Override
             public void run(){
                 parseItems(c, "items");
+            }
+        });
+
+        executorService.execute(new Runnable() {
+            @Override
+            public void run(){
+                parseWeapons(c, "weapons");
             }
         });
 
@@ -585,6 +593,7 @@ public class Methods {
                             jsonObject.getJSONObject("components").getBoolean("material"),
                             materialCost,
                             jsonObject.getString("description"),
+                            jsonObject.optString("higher_levels", null),
                             jsonObject.getString("duration"),
                             level,
                             jsonObject.getString("name"),
@@ -782,6 +791,70 @@ public class Methods {
         }
     }
 
+    public static void parseWeapons(Context context, String dir) {
+        Log.d("Jason", "He was just born in Weapon.");
+        AM = context.getAssets();
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                int i = 0;
+                for (String fileName : fileNames) {
+                    String fullPath = dir + "/" + fileName;
+                    InputStream inputStream = AM.open(fullPath);
+                    int size = inputStream.available();
+                    byte[] buffer = new byte[size];
+                    inputStream.read(buffer);
+                    inputStream.close();
+                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                    JSONObject jsonObject = new JSONObject(jsonString);
+                    int DamageDiceName = 0;
+                    Log.d("DDN #1", jsonObject.getString("damageDiceName"));
+                    Log.d("DDN #2", jsonObject.getString("damageDiceName").replace("d", ""));
+                    Log.d("DDN #3", String.valueOf(Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""))));
+                    DamageDiceName = Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""));
+                    Log.d("DDN #4", String.valueOf(DamageDiceName));
+                    Weapons.put(jsonObject.getString("name"), new Weapon(
+                            jsonObject.getString("name"),
+                            jsonObject.getString("description"),
+                            jsonObject.getString("type"),
+                            jsonObject.getString("rarity"),
+                            jsonObject.getInt("extraAttackBonus"),
+                            DamageDiceName,
+                            jsonObject.getInt("damageDiceAmount"),
+                            jsonObject.getString("damageTypeName"),
+                            jsonObject.getBoolean("isSimple"),
+                            jsonObject.getBoolean("isFinesse"),
+                            jsonObject.getBoolean("isVersatile"),
+                            Integer.parseInt(jsonObject.optString("versatileDamageDie", "0").replace("D", "")),
+                            jsonObject.optInt("versatileDamageDiceAmount", 0),
+                            jsonObject.getBoolean("isLight"),
+                            jsonObject.getBoolean("isHeavy"),
+                            jsonObject.getBoolean("isSilver"),
+                            jsonObject.getBoolean("twoHanded"),
+                            jsonObject.getBoolean("requiresAttunement"),
+                            jsonObject.getBoolean("isAttuned"),
+                            jsonObject.getBoolean("isSpecial"),
+                            jsonObject.getBoolean("isCustom"),
+                            jsonObject.getBoolean("isImprovised"),
+                            jsonObject.getBoolean("hasReach"),
+                            jsonObject.getBoolean("isRanged"),
+                            jsonObject.getBoolean("isThrown"),
+                            jsonObject.getBoolean("isLoading"),
+                            jsonObject.getString("ammunitionType"),
+                            jsonObject.optInt("normalRange", 0),
+                            jsonObject.optInt("maxRange", 0)
+                    ));
+                    Log.d("Weapon #" + i, jsonObject.getString("name"));
+                    i++;
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Weapon.");
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void parseArmor(Context context, String dir) {
         Log.d("Jason", "He was just born in Armor.");
         AM = context.getAssets();
@@ -800,6 +873,7 @@ public class Methods {
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Armor.put(jsonObject.getString("name"), new Armor(
                             jsonObject.getString("name"),
+                            jsonObject.getInt("armor"),
                             jsonObject.getString("category"),
                             jsonObject.getString("cost"),
                             jsonObject.getString("description"),

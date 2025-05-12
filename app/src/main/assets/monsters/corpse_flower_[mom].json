@@ -1,8 +1,83 @@
-{"ac":12,"actions":[{"description":"The corpse flower makes three Tentacle attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"5 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 10 (3d6) poison damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tentacle","type":"MELEE"},
-{"description":"The corpse flower swallows one unsecured Humanoid corpse within 10 feet of it, along with any equipment the corpse is wearing or carrying.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Harvest the Dead","type":"NONE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":3,"climbSpeed":20,"con":16,"conditionImmunities":"blinded, deafened, poisoned","cr":"8","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":45,"diceAmount":15,"diceType":"D10"},
-"id":-1,"int":7,"isLocked":true,"jsonType":"monster","languages":null,"name":"Corpse Flower [MoM]","resistances":null,"savingThrows":null,"senses":"blindsight 120 ft. (blind beyond this radius)","size":"Large","skills":null,"specialTraits":[{"description":"When first encountered, a corpse flower contains the corpses of 1d6 + 3 Humanoids. A corpse flower can hold the remains of up to nine Humanoids. These remains have total cover against attacks and other effects outside the corpse flower. If the corpse flower dies, the corpses within it can be pulled free.","id":-1,"monsterId":-1,"name":"Corpses"},
-{"description":"The corpse flower can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.","id":-1,"monsterId":-1,"name":"Spider Climb"},
-{"description":"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a DC 14 Constitution saving throw, unless the creature is a Construct or an Undead. On a failed save, the creature is poisoned until the start of its next turn. On a successful save, the creature is immune to the Stench of Death of all corpse flowers for 24 hours.","id":-1,"monsterId":-1,"name":"Stench of Death"}],
-"speed":20,"str":14,"swimSpeed":0,"tag":null,"type":"Plant","vulnerabilities":null,"wis":15,"xp":3900}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "The corpse flower makes three Tentacle attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "5 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 10 (3d6) poison damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Tentacle",
+      "type": "MELEE"
+    },
+    {
+      "description": "The corpse flower swallows one unsecured Humanoid corpse within 10 feet of it, along with any equipment the corpse is wearing or carrying.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Harvest the Dead",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 3,
+  "climbSpeed": 20,
+  "con": 16,
+  "conditionImmunities": "blinded, deafened, poisoned",
+  "cr": "8",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 45,
+    "diceAmount": 15,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 7,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Corpse Flower [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "blindsight 120 ft. (blind beyond this radius)",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When first encountered, a corpse flower contains the corpses of 1d6 + 3 Humanoids. A corpse flower can hold the remains of up to nine Humanoids. These remains have total cover against attacks and other effects outside the corpse flower. If the corpse flower dies, the corpses within it can be pulled free.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Corpses"
+    },
+    {
+      "description": "The corpse flower can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Spider Climb"
+    },
+    {
+      "description": "Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a DC 14 Constitution saving throw, unless the creature is a Construct or an Undead. On a failed save, the creature is poisoned until the start of its next turn. On a successful save, the creature is immune to the Stench of Death of all corpse flowers for 24 hours.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Stench of Death"
+    }
+  ],
+  "speed": 20,
+  "str": 14,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Plant",
+  "vulnerabilities": null,
+  "wis": 15,
+  "xp": 3900
+}

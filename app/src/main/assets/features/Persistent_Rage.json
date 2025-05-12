@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Your rage only ends if you are unconscious or if you choose to",
-            "level": 15
-        }
-    ],
-    "id": "Custome691bf9e-55e0-44d6-902f-b83f6872b8fd",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Persistent Rage",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Your rage only ends if you are unconscious or if you choose to",
+      "level": 15
+    }
+  ],
+  "id": "Custome691bf9e-55e0-44d6-902f-b83f6872b8fd",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Persistent Rage",
+  "notes": "",
+  "type": "Feat"
 }

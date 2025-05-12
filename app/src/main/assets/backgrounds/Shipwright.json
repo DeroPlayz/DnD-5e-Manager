@@ -1,17 +1,91 @@
-{"equipment": [{"amountOfChoice": 5,"equipmentsModels": [{"description": "","name": "Set of carpenter's tools","number": 1},
-{"description": "","name": "Blank book","number": 1},
-{"description": "","name": "Ounce of ink","number": 1},
-{"description": "","name": "Ink pen","number": 1},
-{"description": "","name": "Clothes, Traveler's","number": 1}],
-"id": "9baaea64-eacc-4745-9f46-cb093518637e"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 times your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired","level": 1}],
-"id": "Customcbb3b1fa-3540-4b51-93f7-745992ed21e8","isFeature": true,"jsonType": "feat","level": 1,"name": "I'll Patch It!","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"id": "Custom6b70ac69-e5df-4d38-a775-b3979d2e51e0","jsonType": "background","languages": [],
-"name": "Shipwright","skills": [{"amountOfChoice": 2,"id": "86786a1a-6824-4ee1-a7a0-243e60cb229f","skills": [{},
-{}],
-"skillsModels": [{"name": "History","typeName": "SKILL"},
-{"name": "Perception","typeName": "SKILL"}]}],
-"tools": [{"description": "Carpenter's tools","shouldSelect": false},
-{"description": "Water vehicles","shouldSelect": false}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 5,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set of carpenter's tools",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Blank book",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Ounce of ink",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Ink pen",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Clothes, Traveler's",
+          "number": 1
+        }
+      ],
+      "id": "9baaea64-eacc-4745-9f46-cb093518637e"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 times your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired",
+            "level": 1
+          }
+        ],
+        "id": "Customcbb3b1fa-3540-4b51-93f7-745992ed21e8",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "I'll Patch It!",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "id": "Custom6b70ac69-e5df-4d38-a775-b3979d2e51e0",
+  "jsonType": "background",
+  "languages": [],
+  "name": "Shipwright",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "86786a1a-6824-4ee1-a7a0-243e60cb229f",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "History",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Perception",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Carpenter's tools",
+      "shouldSelect": false
+    },
+    {
+      "description": "Water vehicles",
+      "shouldSelect": false
+    }
+  ],
+  "weapons": []
+}

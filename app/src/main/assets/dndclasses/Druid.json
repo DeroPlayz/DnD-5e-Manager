@@ -1,289 +1,289 @@
 {
-    "acModifier": "Dexterity",
-    "archetypeSelectionLevel": 2,
-    "armorProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Light Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Medium Armor"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Shields"
-        }
-    ],
-    "attacksByLevel": [
-        {
-            "amount": 1,
-            "level": 1
-        }
-    ],
-    "baseAc": 10,
-    "classEquipment": [
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Wooden Shield",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Any Simple Weapon",
-                    "number": 1
-                }
-            ],
-            "id": "c84c9aad-4e8f-4264-aed8-998816731d8f"
-        },
-        {
-            "amountOfChoice": 1,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Scimitar",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Any Simple Melee Weapon",
-                    "number": 1
-                }
-            ],
-            "id": "ca0d4d74-cffa-43b0-9a11-9f2b32273509"
-        },
-        {
-            "amountOfChoice": 3,
-            "equipmentsModels": [
-                {
-                    "description": "",
-                    "name": "Leather Armor",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Explorer's Pack",
-                    "number": 1
-                },
-                {
-                    "description": "",
-                    "name": "Druidic Focus",
-                    "number": 1
-                }
-            ],
-            "id": "93ef3ac5-2d0d-4e44-b6c7-db989ea1810d"
-        }
-    ],
-    "classSkills": [
-        {
-            "amountOfChoice": 2,
-            "id": "747e1f49-2535-4f43-a61e-00fbc1947d68",
-            "skills": [
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {},
-                {}
-            ],
-            "skillsModels": [
-                {
-                    "name": "Arcana",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Animal Handling",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Insight",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Medicine",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Nature",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Perception",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Religion",
-                    "typeName": "SKILL"
-                },
-                {
-                    "name": "Survival",
-                    "typeName": "SKILL"
-                }
-            ]
-        }
-    ],
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "archetypeSelectionLevel": 2,
+  "armorProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Light Armor"
     },
-    "effectiveCasterLevel": "FULL",
-    "features": [],
-    "hitDie": "D8",
-    "hpModifier": "Constitution",
-    "id": "druid",
-    "jsonType": "class",
-    "languages": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Druidic"
-        }
-    ],
-    "modelType": "Class",
-    "multiclassArmor": true,
-    "multiclassSkills": false,
-    "multiclassTools": false,
-    "multiclassWeapons": false,
-    "name": "Druid",
-    "savingThrows": {
-        "cha": false,
-        "con": false,
-        "dex": false,
-        "intelligence": true,
-        "str": false,
-        "wis": true
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Medium Armor"
     },
-    "selectableFeatures": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Shields"
+    }
+  ],
+  "attacksByLevel": [
+    {
+      "amount": 1,
+      "level": 1
+    }
+  ],
+  "baseAc": 10,
+  "classEquipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
         {
-            "amountsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 2
-                },
-                {
-                    "amount": 2,
-                    "level": 4
-                }
+          "description": "",
+          "name": "Wooden Shield",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Any Simple Weapon",
+          "number": 1
+        }
+      ],
+      "id": "c84c9aad-4e8f-4264-aed8-998816731d8f"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Scimitar",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Any Simple Melee Weapon",
+          "number": 1
+        }
+      ],
+      "id": "ca0d4d74-cffa-43b0-9a11-9f2b32273509"
+    },
+    {
+      "amountOfChoice": 3,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Leather Armor",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Explorer's Pack",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Druidic Focus",
+          "number": 1
+        }
+      ],
+      "id": "93ef3ac5-2d0d-4e44-b6c7-db989ea1810d"
+    }
+  ],
+  "classSkills": [
+    {
+      "amountOfChoice": 2,
+      "id": "747e1f49-2535-4f43-a61e-00fbc1947d68",
+      "skills": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Arcana",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Animal Handling",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Medicine",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Nature",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Perception",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Religion",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "FULL",
+  "features": [],
+  "hitDie": "D8",
+  "hpModifier": "Constitution",
+  "id": "druid",
+  "jsonType": "class",
+  "languages": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Druidic"
+    }
+  ],
+  "modelType": "Class",
+  "multiclassArmor": true,
+  "multiclassSkills": false,
+  "multiclassTools": false,
+  "multiclassWeapons": false,
+  "name": "Druid",
+  "savingThrows": {
+    "cha": false,
+    "con": false,
+    "dex": false,
+    "intelligence": true,
+    "str": false,
+    "wis": true
+  },
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
+        {
+          "amount": 1,
+          "level": 2
+        },
+        {
+          "amount": 2,
+          "level": 4
+        }
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "As an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.\n\nWhen you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level",
+                "level": 2
+              }
             ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "As an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.\n\nWhen you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level",
-                                "level": 2
-                            }
-                        ],
-                        "id": "Customc9d9ed75-d802-4fc5-8981-41b6853a6945",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Wild Companion",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 2
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list",
-                                "level": 4
-                            }
-                        ],
-                        "id": "Custom1f25e181-3478-4297-95cc-364c9b1e44d9",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Cantrip Versatility",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 4
-                }
+            "id": "Customc9d9ed75-d802-4fc5-8981-41b6853a6945",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Wild Companion",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 2
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list",
+                "level": 4
+              }
             ],
-            "canReselect": false,
-            "id": "193d0ab3-80fb-49cd-9d1a-a974a28ceeec",
-            "name": "Druid Optional Features",
-            "selectedFeatures": []
+            "id": "Custom1f25e181-3478-4297-95cc-364c9b1e44d9",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Cantrip Versatility",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 4
         }
-    ],
-    "shouldShowCompanion": true,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Wisdom",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Herbalism kit"
-        }
-    ],
-    "weaponProficiencies": [
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Club"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dagger"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Dart"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Javelin"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Mace"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Quarterstaff"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Scimitar"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Sickle"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Sling"
-        },
-        {
-            "hint": "",
-            "level": 1,
-            "proficiency": "Spear"
-        }
-    ]
+      ],
+      "canReselect": false,
+      "id": "193d0ab3-80fb-49cd-9d1a-a974a28ceeec",
+      "name": "Druid Optional Features",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": true,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Wisdom",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Herbalism kit"
+    }
+  ],
+  "weaponProficiencies": [
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Club"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Dagger"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Dart"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Javelin"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Mace"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Quarterstaff"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Scimitar"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Sickle"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Sling"
+    },
+    {
+      "hint": "",
+      "level": 1,
+      "proficiency": "Spear"
+    }
+  ]
 }

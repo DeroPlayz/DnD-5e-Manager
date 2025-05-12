@@ -1,109 +1,109 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
-    },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can go in a frenzy when you rage. When you do, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer 1 level of exhaustion",
-                        "level": 3
-                    }
-                ],
-                "id": "Customaf42fab9-9733-4de7-91e3-93c60fa0174b",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Frenzy",
-                "notes": "",
-                "type": "Feat"
-            },
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can go in a frenzy when you rage. When you do, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer 1 level of exhaustion",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the efect is suspended for the duration of your rage",
-                        "level": 6
-                    }
-                ],
-                "id": "Customee909080-d1fb-4959-8951-9d6af7c5acde",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mindless Rage",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customaf42fab9-9733-4de7-91e3-93c60fa0174b",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Frenzy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the efect is suspended for the duration of your rage",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.\n\nIf the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.",
-                        "level": 10
-                    }
-                ],
-                "id": "Custome28fbfc1-2f3d-4a7f-b5ca-9bef810f39d2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Intimidating Presence",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customee909080-d1fb-4959-8951-9d6af7c5acde",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mindless Rage",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.\n\nIf the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you take damage from a creature that is within 5 ft. of you, you can use your reaction to make a melee weapon attack against that creature",
-                        "level": 14
-                    }
-                ],
-                "id": "Custombe923007-874c-4bdf-b707-c4a0379e2f09",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Retaliation",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custome28fbfc1-2f3d-4a7f-b5ca-9bef810f39d2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Intimidating Presence",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you take damage from a creature that is within 5 ft. of you, you can use your reaction to make a melee weapon attack against that creature",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "barbarian_path_of_the_berserker",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Path of the Berserker",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "unarmoredDefense": "Constitution",
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custombe923007-874c-4bdf-b707-c4a0379e2f09",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Retaliation",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "barbarian_path_of_the_berserker",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Path of the Berserker",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "unarmoredDefense": "Constitution",
+  "weaponProficiencies": []
 }

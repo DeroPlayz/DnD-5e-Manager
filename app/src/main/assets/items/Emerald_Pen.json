@@ -1,6 +1,44 @@
-{"changesNameOnAttunement": false,"description": "This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast illusory script at will, requiring no material components.","effects": [{"actualEffect": {"spellId": "47","type": "ADD_SPELL","typeStr": "ADD_SPELL"},
-"id": "a184cd61-3688-43f5-895b-166b0853f104","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"}],
-"id": "item_Emerald_Pen","isAmmunition": false,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Emerald Pen","rarity": "UNCOMMON","requiresAttunement": false,"type": "WONDROUS","valueCoin": "GOLD","weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast illusory script at will, requiring no material components.",
+  "effects": [
+    {
+      "actualEffect": {
+        "spellId": "47",
+        "type": "ADD_SPELL",
+        "typeStr": "ADD_SPELL"
+      },
+      "id": "a184cd61-3688-43f5-895b-166b0853f104",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    }
+  ],
+  "id": "item_Emerald_Pen",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Emerald Pen",
+  "rarity": "UNCOMMON",
+  "requiresAttunement": false,
+  "type": "WONDROUS",
+  "valueCoin": "GOLD",
+  "weightUnit": "POUNDS"
+}

@@ -1,385 +1,385 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its fair central principles are simple.\n\n- Kindle the Light: Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.\n\n- Shelter the Light: Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.\n\n- Preserve Your Own Light: Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.\n\n- Be the Light: Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds",
+            "level": 3
+          }
+        ],
+        "id": "Customaddb3b2f-c186-4c1e-b147-d60dbec2272a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Tenets of the Ancients",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its fair central principles are simple.\n\n- Kindle the Light: Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.\n\n- Shelter the Light: Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.\n\n- Preserve Your Own Light: Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.\n\n- Be the Light: Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds",
-                        "level": 3
-                    }
-                ],
-                "id": "Customaddb3b2f-c186-4c1e-b147-d60dbec2272a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Tenets of the Ancients",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "3rd   --> Ensnaring Strike, Speak with Animals",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "3rd   --> Ensnaring Strike, Speak with Animals",
-                        "level": 3
-                    },
-                    {
-                        "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step",
-                        "level": 5
-                    },
-                    {
-                        "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step\n9th\t  --> Plant Growth, Protection from Energy",
-                        "level": 9
-                    },
-                    {
-                        "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step\n9th\t  --> Plant Growth, Protection from Energy\n13th\t--> Ice Storm, Stoneskin",
-                        "level": 13
-                    },
-                    {
-                        "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step\n9th\t  --> Plant Growth, Protection from Energy\n13th\t--> Ice Storm, Stoneskin\n17th\t--> Commune with Nature, Tree Stride",
-                        "level": 17
-                    }
-                ],
-                "id": "Customa20096a4-2b48-4d1d-9c7f-74b649588576",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Oath of the Ancients Spells",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step",
+            "level": 5
+          },
+          {
+            "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step\n9th\t  --> Plant Growth, Protection from Energy",
+            "level": 9
+          },
+          {
+            "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step\n9th\t  --> Plant Growth, Protection from Energy\n13th\t--> Ice Storm, Stoneskin",
+            "level": 13
+          },
+          {
+            "description": "3rd   --> Ensnaring Strike, Speak with Animals\n5th \t--> Moonbeam, Misty Step\n9th\t  --> Plant Growth, Protection from Energy\n13th\t--> Ice Storm, Stoneskin\n17th\t--> Commune with Nature, Tree Stride",
+            "level": 17
+          }
+        ],
+        "id": "Customa20096a4-2b48-4d1d-9c7f-74b649588576",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Oath of the Ancients Spells",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the following two Channel Divinity options.\n\n- Nature's Wrath: As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.\n\n- Turn the Faithless: As an action, you can make each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to moves far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. If the creature's true form is concealed by an illusion, shape-shifting, or other effect, that form is revealed while it is turned",
             "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You gain the following two Channel Divinity options.\n\n- Nature's Wrath: As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.\n\n- Turn the Faithless: As an action, you can make each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to moves far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. If the creature's true form is concealed by an illusion, shape-shifting, or other effect, that form is revealed while it is turned",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom945de0fe-4d36-49c8-8ebe-3c15109d9f60",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Channel Divinity",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You and friendly creatures within 10 feet of you have resistance to damage from spells",
-                        "level": 7
-                    },
-                    {
-                        "description": "You and friendly creatures within 30 feet of you have resistance to damage from spells",
-                        "level": 18
-                    }
-                ],
-                "id": "Customafbfad01-8655-4b7d-a01a-d6ece9001b95",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Aura of Warding",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom945de0fe-4d36-49c8-8ebe-3c15109d9f60",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Channel Divinity",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You and friendly creatures within 10 feet of you have resistance to damage from spells",
             "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest. Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom874bf2ed-4ff0-4314-b571-b25313e37226",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Undying Sentinel",
-                "notes": "",
-                "type": "Feat"
-            },
+          },
+          {
+            "description": "You and friendly creatures within 30 feet of you have resistance to damage from spells",
+            "level": 18
+          }
+        ],
+        "id": "Customafbfad01-8655-4b7d-a01a-d6ece9001b95",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Aura of Warding",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest. Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically",
             "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can assume the form of an ancient force of nature, taking on an appearance you choose. Using your action, you undergo a transformation.\n\nFor 1 minute, you gain the following benefits:\n\n- At the start of each of your turns, you regain 10 hit points.\n- Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.\n- Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.\n- Once you use this feature, you can't use it again until you finish a long rest",
-                        "level": 20
-                    }
-                ],
-                "id": "Custom990c7bdc-9fc1-470c-8c59-298a702b278a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Elder Champion",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom874bf2ed-4ff0-4314-b571-b25313e37226",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Undying Sentinel",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can assume the form of an ancient force of nature, taking on an appearance you choose. Using your action, you undergo a transformation.\n\nFor 1 minute, you gain the following benefits:\n\n- At the start of each of your turns, you regain 10 hit points.\n- Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.\n- Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.\n- Once you use this feature, you can't use it again until you finish a long rest",
             "level": 20
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "paladin_oath_of_the_ancients",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Oath of the Ancients",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [],
-    "spellcastingAbility": "Charisma",
-    "spells": [
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "ranger__revised__, revised_ranger, ranger",
-                "components": "V",
-                "description": "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.\n\nWhile restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch a creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Ensnaring Strike",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "conjuration",
-                "type": "1st-level conjuration"
-            }
-        },
-        {
-            "level": 3,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.",
-                "duration": "10 minutes",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Speak with Animals",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "1st-level divination (ritual)"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action or 8 hours",
-                "classes": "bard, druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.\n\nIf you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.\n\nYou can exclude one or more areas of any size within the spell\u00e2\u20ac\u2122s area from being affected.\n\nIf you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Plant Growth",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "150 feet",
-                "school": "transmutation",
-                "type": "3rd-level transmutation"
-            }
-        },
-        {
-            "level": 9,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
-                "components": "V, S",
-                "description": "Touch a willing creature. They have resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 3,
-                "name": "Protection from Energy",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "3rd-level abjuration"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid",
-                "components": "V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
-                "description": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much on a successful one.\n\nA shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spells light.\n\nOn each of your turns after you cast this spell use can use an action to move the beam 60 feet in any direction.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Moonbeam",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "120 feet",
-                "school": "evocation",
-                "type": "2nd-level evocation"
-            }
-        },
-        {
-            "level": 5,
-            "spellModel": {
-                "castingTime": "1 bonus action",
-                "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
-                "components": "V",
-                "description": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 2,
-                "name": "Misty Step",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "conjuration",
-                "type": "2nd-level conjuration"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid, sorcerer, fighter, rogue, wizard",
-                "components": "V, S, M (a pinch of dust and a few drops of water)",
-                "description": "A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.\n\nHailstones turn the storm\u00e2\u20ac\u2122s area of effect into difficult terrain until the end of your next turn.",
-                "duration": "Instantaneous",
-                "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Ice Storm",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "300 feet",
-                "school": "evocation",
-                "type": "4th-level evocation"
-            }
-        },
-        {
-            "level": 13,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
-                "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
-                "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
-                "duration": "Concentration, up to 1 hour",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 4,
-                "name": "Stoneskin",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Touch",
-                "school": "abjuration",
-                "type": "4th-level abjuration"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 minute",
-                "classes": "druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in dungeons and towns.\n\n* terrain and bodies of water\n\n* prevalent plants, minerals, animals, or peoples\n\n* powerful celestials, fey, fiends, elementals, or undead\n\n* influence from other planes of existence\n\n* buildings\n\nFor example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.",
-                "duration": "Instantaneous",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": true,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Commune with Nature",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "divination",
-                "type": "5th-level divination (ritual)"
-            }
-        },
-        {
-            "level": 17,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "druid, ranger__revised__, revised_ranger, ranger",
-                "components": "V, S",
-                "description": "You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.\n\nYou can use this transportation ability once per round for the duration. You must end each turn outside a tree.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 5,
-                "name": "Tree Stride",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "Self",
-                "school": "conjuration",
-                "type": "5th-level conjuration"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+          }
+        ],
+        "id": "Custom990c7bdc-9fc1-470c-8c59-298a702b278a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Elder Champion",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 20
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "paladin_oath_of_the_ancients",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Oath of the Ancients",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [],
+  "spellcastingAbility": "Charisma",
+  "spells": [
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "ranger__revised__, revised_ranger, ranger",
+        "components": "V",
+        "description": "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.\n\nWhile restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch a creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Ensnaring Strike",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "conjuration",
+        "type": "1st-level conjuration"
+      }
+    },
+    {
+      "level": 3,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.",
+        "duration": "10 minutes",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Speak with Animals",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "1st-level divination (ritual)"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action or 8 hours",
+        "classes": "bard, druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.\n\nIf you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.\n\nYou can exclude one or more areas of any size within the spell\u00e2\u20ac\u2122s area from being affected.\n\nIf you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Plant Growth",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "150 feet",
+        "school": "transmutation",
+        "type": "3rd-level transmutation"
+      }
+    },
+    {
+      "level": 9,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, cleric, druid, ranger__revised__, revised_ranger, ranger, sorcerer, fighter, rogue, wizard",
+        "components": "V, S",
+        "description": "Touch a willing creature. They have resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 3,
+        "name": "Protection from Energy",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "3rd-level abjuration"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid",
+        "components": "V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
+        "description": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.\n\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much on a successful one.\n\nA shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spells light.\n\nOn each of your turns after you cast this spell use can use an action to move the beam 60 feet in any direction.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Moonbeam",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "120 feet",
+        "school": "evocation",
+        "type": "2nd-level evocation"
+      }
+    },
+    {
+      "level": 5,
+      "spellModel": {
+        "castingTime": "1 bonus action",
+        "classes": "sorcerer, warlock, blood_hunter, fighter, rogue, wizard",
+        "components": "V",
+        "description": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 2,
+        "name": "Misty Step",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "conjuration",
+        "type": "2nd-level conjuration"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, sorcerer, fighter, rogue, wizard",
+        "components": "V, S, M (a pinch of dust and a few drops of water)",
+        "description": "A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.\n\nHailstones turn the storm\u00e2\u20ac\u2122s area of effect into difficult terrain until the end of your next turn.",
+        "duration": "Instantaneous",
+        "higherLevels": "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Ice Storm",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "300 feet",
+        "school": "evocation",
+        "type": "4th-level evocation"
+      }
+    },
+    {
+      "level": 13,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "artificer, artificer__eb_, artificer__revised_, druid, sorcerer, ranger__revised__, revised_ranger, ranger, fighter, rogue, wizard",
+        "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+        "description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+        "duration": "Concentration, up to 1 hour",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 4,
+        "name": "Stoneskin",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Touch",
+        "school": "abjuration",
+        "type": "4th-level abjuration"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 minute",
+        "classes": "druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in dungeons and towns.\n\n* terrain and bodies of water\n\n* prevalent plants, minerals, animals, or peoples\n\n* powerful celestials, fey, fiends, elementals, or undead\n\n* influence from other planes of existence\n\n* buildings\n\nFor example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.",
+        "duration": "Instantaneous",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": true,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Commune with Nature",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "divination",
+        "type": "5th-level divination (ritual)"
+      }
+    },
+    {
+      "level": 17,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "druid, ranger__revised__, revised_ranger, ranger",
+        "components": "V, S",
+        "description": "You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.\n\nYou can use this transportation ability once per round for the duration. You must end each turn outside a tree.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 5,
+        "name": "Tree Stride",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "Self",
+        "school": "conjuration",
+        "type": "5th-level conjuration"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

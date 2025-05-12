@@ -1,15 +1,87 @@
-{"equipment": [{"amountOfChoice": 4,"equipmentsModels": [{"description": "","name": "Set of Artisan's Tools ","number": 1},
-{"description": "","name": "Small knife ","number": 1},
-{"description": "","name": "Whetstone","number": 1},
-{"description": "","name": "Clothes, Common","number": 1}],
-"id": "82627423-5fc0-4eb1-9bbc-515801ad908f"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You gain the Rune Shaper feat","level": 1}],
-"id": "Custom97dd2a52-2eb6-4e14-a3a1-bfced2581c61","isFeature": true,"jsonType": "feat","level": 1,"name": "Rune Shaper","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 10,"id": "Custom0ae1a2d6-e920-48c4-9a05-c583013ab8e1","jsonType": "background","languages": [{"description": "Giant","shouldSelect": false}],
-"name": "Rune Carver [BGG]","skills": [{"amountOfChoice": 2,"id": "5543d360-3f24-4e30-84ef-76d6713990c7","skills": [{},
-{}],
-"skillsModels": [{"name": "History","typeName": "SKILL"},
-{"name": "Perception","typeName": "SKILL"}]}],
-"tools": [{"description": "Artisan's tools of choice","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 4,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set of Artisan's Tools ",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Small knife ",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Whetstone",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Clothes, Common",
+          "number": 1
+        }
+      ],
+      "id": "82627423-5fc0-4eb1-9bbc-515801ad908f"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You gain the Rune Shaper feat",
+            "level": 1
+          }
+        ],
+        "id": "Custom97dd2a52-2eb6-4e14-a3a1-bfced2581c61",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Rune Shaper",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 10,
+  "id": "Custom0ae1a2d6-e920-48c4-9a05-c583013ab8e1",
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Giant",
+      "shouldSelect": false
+    }
+  ],
+  "name": "Rune Carver [BGG]",
+  "skills": [
+    {
+      "amountOfChoice": 2,
+      "id": "5543d360-3f24-4e30-84ef-76d6713990c7",
+      "skills": [
+        {},
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "History",
+          "typeName": "SKILL"
+        },
+        {
+          "name": "Perception",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Artisan's tools of choice",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

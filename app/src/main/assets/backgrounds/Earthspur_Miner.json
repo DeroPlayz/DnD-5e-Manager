@@ -1,22 +1,126 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Shovel","number": 1},
-{"description": "","name": "Miner Pick","number": 1}],
-"id": "8ae1dadd-192e-448a-8d7f-4d68d0afe0f7"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Block And Tackle","number": 1}],
-"id": "23f0b60a-5932-448e-b1f0-3e232d96a1b9"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Climber's Kit","number": 1}],
-"id": "84fbcacb-daa8-41b3-8979-0464830debce"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Common Clothes","number": 1}],
-"id": "81f526d7-5956-46fb-b623-b1f9cbd85876"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Belt Pouch","number": 1}],
-"id": "ab8e64a4-f3d7-47b9-9886-470677bdf1f9"}],
-"features": [{"feat": {"descriptionModels": [{"description": "You are used to navigating the deep places of the earth. You never get lost in caves or mines if you have either seen an accurate map of them or have been through them before. Furthermore, you are able to scrounge fresh water and food for yourself and as many as five other people each day if you are in a mine or natural caves.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Deep Miner","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [{"description": "Dwarvish","shouldSelect": false},
-{"description": "Undercommon","shouldSelect": false}],
-"name": "Earthspur Miner","skills": [{"amountOfChoice": 1,"id": "13785b0d-d810-40b9-87e3-48bf3bbf864e","skills": [{}],
-"skillsModels": [{"name": "Athletics","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "5e5645b6-0e15-49db-a990-10f266598e26","skills": [{}],
-"skillsModels": [{"name": "Survival","typeName": "SKILL"}]}],
-"tools": [],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Shovel",
+          "number": 1
+        },
+        {
+          "description": "",
+          "name": "Miner Pick",
+          "number": 1
+        }
+      ],
+      "id": "8ae1dadd-192e-448a-8d7f-4d68d0afe0f7"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Block And Tackle",
+          "number": 1
+        }
+      ],
+      "id": "23f0b60a-5932-448e-b1f0-3e232d96a1b9"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Climber's Kit",
+          "number": 1
+        }
+      ],
+      "id": "84fbcacb-daa8-41b3-8979-0464830debce"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Common Clothes",
+          "number": 1
+        }
+      ],
+      "id": "81f526d7-5956-46fb-b623-b1f9cbd85876"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Belt Pouch",
+          "number": 1
+        }
+      ],
+      "id": "ab8e64a4-f3d7-47b9-9886-470677bdf1f9"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You are used to navigating the deep places of the earth. You never get lost in caves or mines if you have either seen an accurate map of them or have been through them before. Furthermore, you are able to scrounge fresh water and food for yourself and as many as five other people each day if you are in a mine or natural caves.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Deep Miner",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Dwarvish",
+      "shouldSelect": false
+    },
+    {
+      "description": "Undercommon",
+      "shouldSelect": false
+    }
+  ],
+  "name": "Earthspur Miner",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "13785b0d-d810-40b9-87e3-48bf3bbf864e",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Athletics",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "5e5645b6-0e15-49db-a990-10f266598e26",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "weapons": []
+}

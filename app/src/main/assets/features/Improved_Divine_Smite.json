@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage",
-            "level": 11
-        }
-    ],
-    "id": "Customf9b2c746-f28d-4fb5-89b1-0660af993608",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Improved Divine Smite",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage",
+      "level": 11
+    }
+  ],
+  "id": "Customf9b2c746-f28d-4fb5-89b1-0660af993608",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Improved Divine Smite",
+  "notes": "",
+  "type": "Feat"
 }

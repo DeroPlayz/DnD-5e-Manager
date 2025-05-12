@@ -1,23 +1,23 @@
 {
-    "descriptionModels": [
-        {
-            "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 1 time between long rests",
-            "level": 9
-        },
-        {
-            "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 2 times between long rests",
-            "level": 13
-        },
-        {
-            "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 3 times between long rests",
-            "level": 17
-        }
-    ],
-    "id": "Customc0077d3d-a78f-4377-8a82-d1bf755a161b",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Indomitable",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 1 time between long rests",
+      "level": 9
+    },
+    {
+      "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 2 times between long rests",
+      "level": 13
+    },
+    {
+      "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You shall use this feature 3 times between long rests",
+      "level": 17
+    }
+  ],
+  "id": "Customc0077d3d-a78f-4377-8a82-d1bf755a161b",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Indomitable",
+  "notes": "",
+  "type": "Feat"
 }

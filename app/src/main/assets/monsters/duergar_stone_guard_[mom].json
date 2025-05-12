@@ -1,9 +1,91 @@
-{"ac":18,"actions":[{"description":"The duergar makes two Shortsword or Javelin attacks.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while under the effect of Enlarge.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Shortsword","type":"MELEE"},
-{"description":"6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while under the effect of Enlarge.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Javelin","type":"MELEE_OR_RANGED"},
-{"description":"The duergar magically turns invisible for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Invisibility (Recharges after a Short or Long Rest)","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":9,"climbSpeed":0,"con":14,"conditionImmunities":null,"cr":"2","damageImmunities":null,"dex":11,"flySpeed":0,"hp":{"constant":12,"diceAmount":6,"diceType":"D8"},
-"id":-1,"int":11,"isLocked":true,"jsonType":"monster","languages":"Dwarvish, Undercommon","name":"Duergar Stone Guard [MoM]","resistances":"poison","savingThrows":null,"senses":"darkvision 120 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The duergar has advantage on saving throws against spells and the charmed, paralyzed, and poisoned conditions.","id":-1,"monsterId":-1,"name":"Duergar Resilience"},
-{"description":"The duergar has advantage on attack rolls and Dexterity saving throws while standing within 5 feet of an ally wielding a shield.","id":-1,"monsterId":-1,"name":"Phalanx Formation"},
-{"description":"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.","id":-1,"monsterId":-1,"name":"Sunlight Sensitivity"}],
-"speed":25,"str":18,"swimSpeed":0,"tag":"dwarf","type":"Humanoid","vulnerabilities":null,"wis":10,"xp":450}
+{
+  "ac": 18,
+  "actions": [
+    {
+      "description": "The duergar makes two Shortsword or Javelin attacks.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while under the effect of Enlarge.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Shortsword",
+      "type": "MELEE"
+    },
+    {
+      "description": "6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while under the effect of Enlarge.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Javelin",
+      "type": "MELEE_OR_RANGED"
+    },
+    {
+      "description": "The duergar magically turns invisible for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Invisibility (Recharges after a Short or Long Rest)",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 9,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": null,
+  "cr": "2",
+  "damageImmunities": null,
+  "dex": 11,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 12,
+    "diceAmount": 6,
+    "diceType": "D8"
+  },
+  "id": -1,
+  "int": 11,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Dwarvish, Undercommon",
+  "name": "Duergar Stone Guard [MoM]",
+  "resistances": "poison",
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The duergar has advantage on saving throws against spells and the charmed, paralyzed, and poisoned conditions.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Duergar Resilience"
+    },
+    {
+      "description": "The duergar has advantage on attack rolls and Dexterity saving throws while standing within 5 feet of an ally wielding a shield.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Phalanx Formation"
+    },
+    {
+      "description": "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Sunlight Sensitivity"
+    }
+  ],
+  "speed": 25,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": "dwarf",
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 450
+}

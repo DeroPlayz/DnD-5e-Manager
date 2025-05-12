@@ -1,15 +1,15 @@
 {
-    "descriptionModels": [
-        {
-            "description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you",
-            "level": 5
-        }
-    ],
-    "id": "Custom605ea6c0-96b2-4e21-bba2-2530f6272fc3",
-    "isFeature": true,
-    "jsonType": "feat",
-    "level": 1,
-    "name": "Uncanny Dodge",
-    "notes": "",
-    "type": "Feat"
+  "descriptionModels": [
+    {
+      "description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you",
+      "level": 5
+    }
+  ],
+  "id": "Custom605ea6c0-96b2-4e21-bba2-2530f6272fc3",
+  "isFeature": true,
+  "jsonType": "feat",
+  "level": 1,
+  "name": "Uncanny Dodge",
+  "notes": "",
+  "type": "Feat"
 }

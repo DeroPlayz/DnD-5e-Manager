@@ -1,2 +1,26 @@
-{"ammunitionType": "FIREARM","changesNameOnAttunement": false,"description": "","effects": [],
-"id": "Customf5cb9f8b-50eb-4e34-b14d-4f5aba157557","isAmmunition": true,"isCursed": false,"isCustom": false,"isEquipment": false,"isIntelligent": false,"isMagic": false,"isSpellcastingFocus": false,"isTemplate": false,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Renaissance Bullet","rarity": "COMMON","requiresAttunement": false,"type": "AMMUNITION","value": 3.0,"valueCoin": "SILVER","weight": 3.2,"weightUnit": "OUNCES"}
+{
+  "ammunitionType": "FIREARM",
+  "changesNameOnAttunement": false,
+  "description": "",
+  "effects": [],
+  "id": "Customf5cb9f8b-50eb-4e34-b14d-4f5aba157557",
+  "isAmmunition": true,
+  "isCursed": false,
+  "isCustom": false,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": false,
+  "isSpellcastingFocus": false,
+  "isTemplate": false,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Renaissance Bullet",
+  "rarity": "COMMON",
+  "requiresAttunement": false,
+  "type": "AMMUNITION",
+  "value": 3.0,
+  "valueCoin": "SILVER",
+  "weight": 3.2,
+  "weightUnit": "OUNCES"
+}

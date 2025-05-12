@@ -1,6 +1,64 @@
-{"ac":14,"actions":[{"description":"The shoosuva makes one Bite attack and one Tail Stinger attack.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"7 to hit, reach 5 ft., one target. Hit: 26 (4d10 + 4) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"},
-{"description":"7 to hit, reach 15 ft., one creature. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Tail Stinger","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":9,"climbSpeed":0,"con":17,"conditionImmunities":"charmed, frightened, poisoned","cr":"8","damageImmunities":"poison","dex":13,"flySpeed":0,"hp":{"constant":48,"diceAmount":16,"diceType":"D10"},
-"id":-1,"int":7,"isLocked":true,"jsonType":"monster","languages":"Abyssal, Gnoll, telepathy 120 ft.","name":"Shoosuva [MoM]","resistances":"cold, fire, lightning","savingThrows":"Dex +4, Con +6, Wis +5","senses":"darkvision 60 ft.","size":"Large","skills":null,"specialTraits":[],
-"speed":40,"str":18,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":14,"xp":3900}
+{
+  "ac": 14,
+  "actions": [
+    {
+      "description": "The shoosuva makes one Bite attack and one Tail Stinger attack.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "7 to hit, reach 5 ft., one target. Hit: 26 (4d10 + 4) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    },
+    {
+      "description": "7 to hit, reach 15 ft., one creature. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Tail Stinger",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 9,
+  "climbSpeed": 0,
+  "con": 17,
+  "conditionImmunities": "charmed, frightened, poisoned",
+  "cr": "8",
+  "damageImmunities": "poison",
+  "dex": 13,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 48,
+    "diceAmount": 16,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 7,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Abyssal, Gnoll, telepathy 120 ft.",
+  "name": "Shoosuva [MoM]",
+  "resistances": "cold, fire, lightning",
+  "savingThrows": "Dex +4, Con +6, Wis +5",
+  "senses": "darkvision 60 ft.",
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [],
+  "speed": 40,
+  "str": 18,
+  "swimSpeed": 0,
+  "tag": "demon",
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 14,
+  "xp": 3900
+}

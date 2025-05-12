@@ -1,20 +1,122 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Dagger","number": 1}],
-"id": "919d6130-1770-494a-b0bb-b3daa1cb4d71"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Tattered Rags","number": 1}],
-"id": "ac45597c-c1ec-466c-81ae-604bae7f7405"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Loaf Of Moldy Bread","number": 1}],
-"id": "9e183491-a4f0-4bf7-9f33-9b160b6cff2f"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Small cast-off scale belonging to Vorgansharax \u2013 the Maimed Virulence","number": 1}],
-"id": "1de29c1a-6bf5-4d05-b978-c285f314b9e3"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Pouch With 5 GP Form Different Lands","number": 1}],
-"id": "b7c2a636-a8c9-449f-ac63-a7e03ed8da6c"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Over a period of several months you were subject to magical and mundane torture at the claws of Vorgansharax and his minions. These experiments have left you horribly disfigured but mark you as a survivor of the Maimed Virulence. This affords you a measure of fame and notoriety, for those who know of your harrowing ordeal are keen to hear the tale personally but makes it difficult to disguise your appearance and hide from prying eyes.\n\nYou can parlay this attention into access to people and places you might not otherwise have, for you and your companions. Nobles, scholars, mages, and those who seek to ferret out the secrets of the Maimed Virulence would all be keen to hear your tale of survival, and learn what secrets (if any) you might possess, and/or study your affliction with great interest. However, you fear that your afflictions are not completely mundane and that the Maimed Virulence may as yet have some nefarious reason for allowing your escape, as your scars burn with acidic fury and seem to writhe beneath your skin at times","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Dragonscarred","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [{"description": "Draconic","shouldSelect": false}],
-"name": "Dragon Casualty","skills": [{"amountOfChoice": 1,"id": "21efd03a-8cde-40c7-abc4-9aa8aa836e25","skills": [{}],
-"skillsModels": [{"name": "Intimidation","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "2fd22819-2cbc-4987-98de-44423ea60402","skills": [{}],
-"skillsModels": [{"name": "Survival","typeName": "SKILL"}]}],
-"tools": [{"description": "Vehicles (water), Artisan's Tools Gaming set, Vehicles (land), Musical Instrument, Alchemist's Supplies, Herbalism Kit,Thieves' Tools, Forgery Kit, or Disguise Kit","shouldSelect": true}],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Dagger",
+          "number": 1
+        }
+      ],
+      "id": "919d6130-1770-494a-b0bb-b3daa1cb4d71"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Tattered Rags",
+          "number": 1
+        }
+      ],
+      "id": "ac45597c-c1ec-466c-81ae-604bae7f7405"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Loaf Of Moldy Bread",
+          "number": 1
+        }
+      ],
+      "id": "9e183491-a4f0-4bf7-9f33-9b160b6cff2f"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Small cast-off scale belonging to Vorgansharax \u2013 the Maimed Virulence",
+          "number": 1
+        }
+      ],
+      "id": "1de29c1a-6bf5-4d05-b978-c285f314b9e3"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Pouch With 5 GP Form Different Lands",
+          "number": 1
+        }
+      ],
+      "id": "b7c2a636-a8c9-449f-ac63-a7e03ed8da6c"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Over a period of several months you were subject to magical and mundane torture at the claws of Vorgansharax and his minions. These experiments have left you horribly disfigured but mark you as a survivor of the Maimed Virulence. This affords you a measure of fame and notoriety, for those who know of your harrowing ordeal are keen to hear the tale personally but makes it difficult to disguise your appearance and hide from prying eyes.\n\nYou can parlay this attention into access to people and places you might not otherwise have, for you and your companions. Nobles, scholars, mages, and those who seek to ferret out the secrets of the Maimed Virulence would all be keen to hear your tale of survival, and learn what secrets (if any) you might possess, and/or study your affliction with great interest. However, you fear that your afflictions are not completely mundane and that the Maimed Virulence may as yet have some nefarious reason for allowing your escape, as your scars burn with acidic fury and seem to writhe beneath your skin at times",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Dragonscarred",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Draconic",
+      "shouldSelect": false
+    }
+  ],
+  "name": "Dragon Casualty",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "21efd03a-8cde-40c7-abc4-9aa8aa836e25",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Intimidation",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "2fd22819-2cbc-4987-98de-44423ea60402",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Survival",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "description": "Vehicles (water), Artisan's Tools Gaming set, Vehicles (land), Musical Instrument, Alchemist's Supplies, Herbalism Kit,Thieves' Tools, Forgery Kit, or Disguise Kit",
+      "shouldSelect": true
+    }
+  ],
+  "weapons": []
+}

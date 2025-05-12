@@ -1,1113 +1,1113 @@
 {
-    "acModifier": "DEX",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
+  "acModifier": "DEX",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You strike a bargain with an otherworldly being of your choice. Your choice augments some of your order features",
+            "level": 3
+          }
+        ],
+        "id": "Custom9140babc-81ce-469f-ab36-6cf2b2b9396a",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Otherworldly Patron",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have one 1st-level spell slot; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 2 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 3
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have one 1st-level spell slot; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 3 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 5
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 4 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 7
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 5 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 9
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 5 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 10
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 6 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 11
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 3rd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 7 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 13
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 3rd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 8 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 15
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 3rd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 9 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 17
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 4th-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 10 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 19
+          },
+          {
+            "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 4th-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 11 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
+            "level": 20
+          }
+        ],
+        "id": "Custom10522535-d65b-4466-beb7-1ce8f4fc91c7",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Pact Magic",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your weapon becomes a core to your pact with your chosen dark patron. While you have an active rite, you can use your weapon as a spellcasting focus for your spells. Your chosen pact also enhances your rite",
+            "level": 3
+          }
+        ],
+        "id": "Customce53a180-0b84-42d3-a105-fe367dcd8994",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Rite Focus",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 3
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you use your action to cast a cantrip, you can make one weapon attack as a bonus action",
+            "level": 7
+          }
+        ],
+        "id": "Custom76bda2ce-f3d5-4689-9eca-a54cb4de1bca",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Mystic Frenzy",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your dark patron grants you the rare use of a dangerous arcane spell based on your pact",
+            "level": 7
+          }
+        ],
+        "id": "Custom58de8db1-db64-4fe7-95a0-411c6007e82e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Revealed Arcana",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 7
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can temporarily infuse your rite with the seed of a powerful spell. As an action, you can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target\u2019s initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target\u2019s space. \n\nThe spell must be of 1st level or higher, have a casting time of 1 action, or require an action to activate an already active concentration spell",
+            "level": 11
+          }
+        ],
+        "id": "Custombcf392dc-8fc1-48be-9851-bc2077660ab9",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Diabolic Channel",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 11
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your dark patron grants you the rare use of an additional arcane spell based on your pact",
+            "level": 15
+          }
+        ],
+        "id": "Custom68021583-8b37-4281-885a-0f67149aa5d2",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Unsealed Arcana",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 15
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your learn to sacrifice the souls of powerful foes to your dark patron in exchange for immediate power. When you reduce a creature to 0 hit points with an attack, kill the creature, and they have a challenge rating of 15 or above, you recover an expended spell slot",
+            "level": 18
+          }
+        ],
+        "id": "Custom90625a49-5509-41c9-b93a-1e269b58d206",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Soul Syphon",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 18
+    }
+  ],
+  "hpModifier": "CON",
+  "id": "blood_hunter_order_of_the_profane_soul",
+  "jsonType": "class",
+  "languages": [],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Order of the Profane Soul",
+  "selectableFeatures": [],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [],
+  "spellSlots": [
+    {
+      "id": "6ecc2d98-84f9-4846-a9d8-911ab2447550",
+      "level": 1,
+      "slotsPerLevel": [
+        {
+          "amount": 1,
+          "level": 3
+        },
+        {
+          "amount": 2,
+          "level": 5
+        },
+        {
+          "amount": 0,
+          "level": 7
+        }
+      ]
+    },
+    {
+      "id": "6cd7dce1-20f3-42cc-91c5-5536f85d97e4",
+      "level": 2,
+      "slotsPerLevel": [
+        {
+          "amount": 2,
+          "level": 7
+        },
+        {
+          "amount": 0,
+          "level": 13
+        }
+      ]
+    },
+    {
+      "id": "9437567d-a5f9-4922-bd93-dbc63f7e5ddd",
+      "level": 3,
+      "slotsPerLevel": [
+        {
+          "amount": 2,
+          "level": 13
+        },
+        {
+          "amount": 0,
+          "level": 19
+        }
+      ]
+    },
+    {
+      "id": "1f93f056-d211-4739-acfc-14be103dfa3d",
+      "level": 4,
+      "slotsPerLevel": [
+        {
+          "amount": 2,
+          "level": 19
+        }
+      ]
+    },
+    {
+      "id": "b5f83bb3-d024-451c-b9dd-f8e48aafc8c8",
+      "level": 5,
+      "slotsPerLevel": []
+    },
+    {
+      "id": "01c481d3-940a-4ae0-9772-83fd519196c0",
+      "level": 6,
+      "slotsPerLevel": []
+    },
+    {
+      "id": "fb1a69af-71dd-46f2-a5b5-94a06d01031a",
+      "level": 7,
+      "slotsPerLevel": []
+    },
+    {
+      "id": "9392493e-cb0a-46cd-b1f5-19fd78e94b62",
+      "level": 8,
+      "slotsPerLevel": []
+    },
+    {
+      "id": "51d87445-3c8a-4c97-9dc6-414ec2ced865",
+      "level": 9,
+      "slotsPerLevel": []
+    }
+  ],
+  "spellcastingAbility": "WIS",
+  "spells": [],
+  "subtypeSelectionLevel": 3,
+  "subtypes": [
+    {
+      "acModifier": "DEX",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
         "abilityName": "Strength",
         "damageType": "Bludgeoning",
         "diceAmount": 1,
         "diceTypeName": "D4",
         "name": ""
-    },
-    "features": [
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
         {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You strike a bargain with an otherworldly being of your choice. Your choice augments some of your order features",
-                        "level": 3
-                    }
-                ],
-                "id": "Custom9140babc-81ce-469f-ab36-6cf2b2b9396a",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Otherworldly Patron",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have one 1st-level spell slot; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 2 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 3
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have one 1st-level spell slot; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 3 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 5
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 4 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 7
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn two cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 5 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 9
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 5 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 10
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 2nd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 6 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 11
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 3rd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 7 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 13
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 3rd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 8 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 15
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 3rd-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 9 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 17
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 4th-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 10 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 19
-                    },
-                    {
-                        "description": "You can augment your combat techniques with the ability to cast spells.\n\nCantrips:\nYou learn three cantrips of your choice from the warlock spell list.\n\nSpell Slots:\nYou have two 4th-level spell slots; all of your spell slots are the same level.\n\nTo cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nSpells Known of 1st Level and Higher:\nYou know 11 spells of your choice from the warlock spell list.\n\nA spell you choose must be of a level no higher than your current spell slot level.\n\nAdditionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-                        "level": 20
-                    }
-                ],
-                "id": "Custom10522535-d65b-4466-beb7-1ce8f4fc91c7",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Pact Magic",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your weapon becomes a core to your pact with your chosen dark patron. While you have an active rite, you can use your weapon as a spellcasting focus for your spells. Your chosen pact also enhances your rite",
-                        "level": 3
-                    }
-                ],
-                "id": "Customce53a180-0b84-42d3-a105-fe367dcd8994",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Rite Focus",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 3
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you use your action to cast a cantrip, you can make one weapon attack as a bonus action",
-                        "level": 7
-                    }
-                ],
-                "id": "Custom76bda2ce-f3d5-4689-9eca-a54cb4de1bca",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Mystic Frenzy",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your dark patron grants you the rare use of a dangerous arcane spell based on your pact",
-                        "level": 7
-                    }
-                ],
-                "id": "Custom58de8db1-db64-4fe7-95a0-411c6007e82e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Revealed Arcana",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 7
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can temporarily infuse your rite with the seed of a powerful spell. As an action, you can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target\u2019s initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target\u2019s space. \n\nThe spell must be of 1st level or higher, have a casting time of 1 action, or require an action to activate an already active concentration spell",
-                        "level": 11
-                    }
-                ],
-                "id": "Custombcf392dc-8fc1-48be-9851-bc2077660ab9",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Diabolic Channel",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 11
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your dark patron grants you the rare use of an additional arcane spell based on your pact",
-                        "level": 15
-                    }
-                ],
-                "id": "Custom68021583-8b37-4281-885a-0f67149aa5d2",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Unsealed Arcana",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 15
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "Your learn to sacrifice the souls of powerful foes to your dark patron in exchange for immediate power. When you reduce a creature to 0 hit points with an attack, kill the creature, and they have a challenge rating of 15 or above, you recover an expended spell slot",
-                        "level": 18
-                    }
-                ],
-                "id": "Custom90625a49-5509-41c9-b93a-1e269b58d206",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Soul Syphon",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 18
-        }
-    ],
-    "hpModifier": "CON",
-    "id": "blood_hunter_order_of_the_profane_soul",
-    "jsonType": "class",
-    "languages": [],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Order of the Profane Soul",
-    "selectableFeatures": [],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [],
-    "spellSlots": [
-        {
-            "id": "6ecc2d98-84f9-4846-a9d8-911ab2447550",
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn",
+                "level": 3
+              }
+            ],
+            "id": "Customadcd6766-2390-4b0d-b2f6-4829da7cbacc",
+            "isFeature": true,
+            "jsonType": "feat",
             "level": 1,
-            "slotsPerLevel": [
-                {
-                    "amount": 1,
-                    "level": 3
-                },
-                {
-                    "amount": 2,
-                    "level": 5
-                },
-                {
-                    "amount": 0,
-                    "level": 7
-                }
-            ]
+            "name": "Archfey Rite Enhancement",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
         },
         {
-            "id": "6cd7dce1-20f3-42cc-91c5-5536f85d97e4",
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast blur once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 7
+              }
+            ],
+            "id": "Customa2a842e4-2831-41c2-b343-ceaeb954541a",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Archfey Revealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast slow once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 15
+              }
+            ],
+            "id": "Custom39bcbeb1-6549-4c2e-96ec-1d5813efd9e8",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Archfey Unsealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 15
+        }
+      ],
+      "hpModifier": "CON",
+      "id": "the_archfey",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "The Archfey",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "WIS",
+      "spells": [
+        {
+          "level": 7,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Artificer, Artificer__revised_, Sorcerer, Wizard",
+            "components": "V",
+            "description": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn\u2019t rely on sight, as with blindsight, or can see through illusions, as with truesight.",
+            "duration": "Concentration, up to 1 minute",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
             "level": 2,
-            "slotsPerLevel": [
-                {
-                    "amount": 2,
-                    "level": 7
-                },
-                {
-                    "amount": 0,
-                    "level": 13
-                }
-            ]
+            "name": "Blur",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "self",
+            "school": "illusion",
+            "type": "2nd-Level illusion"
+          }
         },
         {
-            "id": "9437567d-a5f9-4922-bd93-dbc63f7e5ddd",
+          "level": 15,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Sorcerer, Wizard",
+            "components": "V, S, M (a drop of molasses)",
+            "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u2019s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u2019s abilities or magic items, it can\u2019t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u2019t take effect until the creature\u2019s next turn, and the creature must use its action on that turn to complete the spell. If it can\u2019t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.",
+            "duration": "Concentration, up to 1 minute",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
             "level": 3,
-            "slotsPerLevel": [
-                {
-                    "amount": 2,
-                    "level": 13
-                },
-                {
-                    "amount": 0,
-                    "level": 19
-                }
-            ]
-        },
-        {
-            "id": "1f93f056-d211-4739-acfc-14be103dfa3d",
-            "level": 4,
-            "slotsPerLevel": [
-                {
-                    "amount": 2,
-                    "level": 19
-                }
-            ]
-        },
-        {
-            "id": "b5f83bb3-d024-451c-b9dd-f8e48aafc8c8",
-            "level": 5,
-            "slotsPerLevel": []
-        },
-        {
-            "id": "01c481d3-940a-4ae0-9772-83fd519196c0",
-            "level": 6,
-            "slotsPerLevel": []
-        },
-        {
-            "id": "fb1a69af-71dd-46f2-a5b5-94a06d01031a",
-            "level": 7,
-            "slotsPerLevel": []
-        },
-        {
-            "id": "9392493e-cb0a-46cd-b1f5-19fd78e94b62",
-            "level": 8,
-            "slotsPerLevel": []
-        },
-        {
-            "id": "51d87445-3c8a-4c97-9dc6-414ec2ced865",
-            "level": 9,
-            "slotsPerLevel": []
+            "name": "Slow",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "120 feet",
+            "school": "transmutation",
+            "type": "3rd-level transmutation"
+          }
         }
-    ],
-    "spellcastingAbility": "WIS",
-    "spells": [],
-    "subtypeSelectionLevel": 3,
-    "subtypes": [
+      ],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "DEX",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
         {
-            "acModifier": "DEX",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Customadcd6766-2390-4b0d-b2f6-4829da7cbacc",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Archfey Rite Enhancement",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast blur once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Customa2a842e4-2831-41c2-b343-ceaeb954541a",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Archfey Revealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast slow once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 15
-                            }
-                        ],
-                        "id": "Custom39bcbeb1-6549-4c2e-96ec-1d5813efd9e8",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Archfey Unsealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 15
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can expend a use of your Blood Maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1)",
+                "level": 3
+              }
             ],
-            "hpModifier": "CON",
-            "id": "the_archfey",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "The Archfey",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "WIS",
-            "spells": [
-                {
-                    "level": 7,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Artificer, Artificer__revised_, Sorcerer, Wizard",
-                        "components": "V",
-                        "description": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn\u2019t rely on sight, as with blindsight, or can see through illusions, as with truesight.",
-                        "duration": "Concentration, up to 1 minute",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 2,
-                        "name": "Blur",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "self",
-                        "school": "illusion",
-                        "type": "2nd-Level illusion"
-                    }
-                },
-                {
-                    "level": 15,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Sorcerer, Wizard",
-                        "components": "V, S, M (a drop of molasses)",
-                        "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throwor be affected by this spell for the duration.\n\nAn affected target\u2019s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u2019s abilities or magic items, it can\u2019t make more than one melee or ranged attack during its turn.\n\nIf the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u2019t take effect until the creature\u2019s next turn, and the creature must use its action on that turn to complete the spell. If it can\u2019t, the spell is wasted.\n\nA creature affected by this spell makes another Wisdom saving throwat the end of its turn. On a successful save, the effect ends for it.",
-                        "duration": "Concentration, up to 1 minute",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 3,
-                        "name": "Slow",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "120 feet",
-                        "school": "transmutation",
-                        "type": "3rd-level transmutation"
-                    }
-                }
-            ],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
+            "id": "Custom3683734e-daf6-4c11-bc53-8802e191ee23",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Celestial Rite Enhancement",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
         },
         {
-            "acModifier": "DEX",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can expend a use of your Blood Maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1)",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom3683734e-daf6-4c11-bc53-8802e191ee23",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Celestial Rite Enhancement",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast lesser restoration once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Custom934298a4-ccc6-4a3e-9613-95e0daa031c0",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Celestial Revealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast revivify once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 15
-                            }
-                        ],
-                        "id": "Custom7cbb9984-aac2-4da7-b672-77dc3ae55d00",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Celestial Unsealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 15
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast lesser restoration once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 7
+              }
             ],
-            "hpModifier": "CON",
-            "id": "the_celestial",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "The Celestial",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "WIS",
-            "spells": [
-                {
-                    "level": 7,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Artificer, Artificer__revised_, Bard, Cleric, Druid, Paladin, Ranger",
-                        "components": "V, S",
-                        "description": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
-                        "duration": "Instantaneous",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 2,
-                        "name": "Lesser Restoration",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "Touch",
-                        "school": "abjuration",
-                        "type": "2nd-level abjuration"
-                    }
-                },
-                {
-                    "level": 15,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Artificer, Artificer__revised_, Cleric, Paladin",
-                        "components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
-                        "description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can\u2019t return to life a creature that has died of old age, nor can it restore any missing body parts.",
-                        "duration": "Instantaneous",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 3,
-                        "name": "Revivify",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "Touch",
-                        "school": "conjuration",
-                        "type": "3rd-level conjuration"
-                    }
-                }
-            ],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
+            "id": "Custom934298a4-ccc6-4a3e-9613-95e0daa031c0",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Celestial Revealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
         },
         {
-            "acModifier": "DEX",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom67bff301-2b6e-46de-b2f6-fb9afc33f102",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fiend Rite Enhancement",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast scorching ray once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Custom81d05fce-bbb7-4efe-8169-6a7658181bf9",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fiend Revealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast fireball once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 15
-                            }
-                        ],
-                        "id": "Custom053b4a50-5c4d-421e-8a5c-783a3978656a",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Fiend Unsealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 15
-                }
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast revivify once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 15
+              }
             ],
-            "hpModifier": "CON",
-            "id": "the_fiend",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "The Fiend",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "WIS",
-            "spells": [
-                {
-                    "level": 7,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Sorcerer, Wizard",
-                        "components": "V, S",
-                        "description": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.",
-                        "duration": "Instantaneous",
-                        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 2,
-                        "name": "Scorching Ray",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "120 feet",
-                        "school": "evocation",
-                        "type": "2nd-level evocation"
-                    }
-                },
-                {
-                    "level": 15,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Sorcerer, Wizard",
-                        "components": "V, S, M (a tiny ball of bat guano and sulfur)",
-                        "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
-                        "duration": "Instantaneous",
-                        "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 3,
-                        "name": "Fireball",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "150 feet",
-                        "school": "evocation",
-                        "type": "3rd-level evocation"
-                    }
-                }
-            ],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "DEX",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom5d832568-0c5b-4246-a4f7-2d61f27786a1",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Great Old One Rite Enhancement",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast detect thoughts once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Custom61b1a178-e6ad-41c6-8be4-aa7e36dab171",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Great Old One Revealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast haste once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 15
-                            }
-                        ],
-                        "id": "Custom69623c70-e557-4db8-9c8f-6d8016b6e8da",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Great Old One Unsealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 15
-                }
-            ],
-            "hpModifier": "CON",
-            "id": "the_great_old_one",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "The Great Old One",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "WIS",
-            "spells": [
-                {
-                    "level": 7,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Bard, Sorcerer, Wizard",
-                        "components": "V, S, M (a copper piece)",
-                        "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
-                        "duration": "Concentration, up to 1 minute",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 2,
-                        "name": "Detect Thoughts",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "self",
-                        "school": "divination",
-                        "type": "2nd-Level divination"
-                    }
-                },
-                {
-                    "level": 15,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Artificer, Artificer__revised_, Sorcerer, Wizard",
-                        "components": "V, S, M (a shaving of licorice root)",
-                        "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u2019s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u2019t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
-                        "duration": "Concentration, up to 1 minute",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 3,
-                        "name": "Haste",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "30 feet",
-                        "school": "transmutation",
-                        "type": "3rd-level transmutation"
-                    }
-                }
-            ],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "DEX",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the attack",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custome8916398-39d3-41bc-b6b1-c048011bdffa",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Hexblade Rite Enhancement",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast branding smite once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Custom597070e9-1551-481f-9a50-c08227b3cc94",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Hexblade Revealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast blink once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 15
-                            }
-                        ],
-                        "id": "Custom29db5d87-59ba-47fe-9ed7-94fb76e11758",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Hexblade Unsealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 15
-                }
-            ],
-            "hpModifier": "CON",
-            "id": "the_hexblade",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "The Hexblade",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "WIS",
-            "spells": [
-                {
-                    "level": 7,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Paladin",
-                        "components": "V",
-                        "description": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it\u2019s invisible, and the target sheds dim light in a 5-foot radius and can\u2019t become invisible until the spell ends.",
-                        "duration": "Concentration, up to 1 minute",
-                        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 2,
-                        "name": "Branding Smite",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "self",
-                        "school": "evocation",
-                        "type": "2nd-Level evocation"
-                    }
-                },
-                {
-                    "level": 15,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Artificer, Artificer__revised_, Sorcerer, Wizard",
-                        "components": "V, S",
-                        "description": "Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.\n\nWhile on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can\u2019t see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren\u2019t there can\u2019t perceive you or interact with you, unless they have the ability to do so.",
-                        "duration": "1 minute",
-                        "higherLevels": "",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 3,
-                        "name": "Blink",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "Self",
-                        "school": "transmutation",
-                        "type": "3rd-level transmutation"
-                    }
-                }
-            ],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
-        },
-        {
-            "acModifier": "DEX",
-            "armorProficiencies": [],
-            "attacksByLevel": [],
-            "baseAc": 10,
-            "classWeapon": {
-                "abilityName": "Strength",
-                "damageType": "Bludgeoning",
-                "diceAmount": 1,
-                "diceTypeName": "D4",
-                "name": ""
-            },
-            "effectiveCasterLevel": "PARENT",
-            "features": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die",
-                                "level": 3
-                            }
-                        ],
-                        "id": "Custom0fe1691c-6ef0-41e0-90d1-b3e4d614ac0f",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Undying Rite Enhancement",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 3
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast blindness/deafness once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 7
-                            }
-                        ],
-                        "id": "Custome4055543-db9d-4896-ac29-87fc38e06237",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Undying Revealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 7
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "You can cast bestow curse once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
-                                "level": 15
-                            }
-                        ],
-                        "id": "Custom0aff8614-aeae-48f1-892f-7a797d45c2bf",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Undying Unsealed Arcana",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 15
-                }
-            ],
-            "hpModifier": "CON",
-            "id": "the_undying",
-            "jsonType": "class",
-            "languages": [],
-            "modelType": "Subtype",
-            "multiclassArmor": true,
-            "multiclassSkills": true,
-            "multiclassTools": true,
-            "multiclassWeapons": true,
-            "name": "The Undying",
-            "selectableFeatures": [],
-            "shouldShowCompanion": false,
-            "skillProficiencies": [],
-            "specialAbilities": [],
-            "spellSlots": [],
-            "spellcastingAbility": "WIS",
-            "spells": [
-                {
-                    "level": 7,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Bard, Cleric, Sorcerer, Wizard",
-                        "components": "V",
-                        "description": "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
-                        "duration": "1 minute",
-                        "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 2,
-                        "name": "Blindness/Deafness",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "30 feet",
-                        "school": "Necromancy",
-                        "type": "2nd-level Necromancy"
-                    }
-                },
-                {
-                    "level": 15,
-                    "spellModel": {
-                        "castingTime": "1 action",
-                        "classes": "Bard, Cleric, Wizard",
-                        "components": "V, S",
-                        "description": "* Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.\n\n* While cursed, the target has disadvantage on attack rolls against you.\n\n* While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n* While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.\n\nA *[remove curse](../remove-curse/ \"remove curse (lvl 3)\")* spell ends this effect. At the DM\u2019s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse\u2019s effect.",
-                        "duration": "Concentration, up to 1 minute",
-                        "higherLevels": "If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn\u2019t require concentration.",
-                        "isCustom": false,
-                        "isRitual": false,
-                        "jsonType": "spell",
-                        "level": 3,
-                        "name": "Bestow Curse",
-                        "notes": "",
-                        "pinned": false,
-                        "prepared": false,
-                        "range": "Touch",
-                        "school": "necromancy",
-                        "type": "3rd-level necromancy"
-                    }
-                }
-            ],
-            "subtypes": [],
-            "toolProficiencies": [],
-            "weaponProficiencies": []
+            "id": "Custom7cbb9984-aac2-4da7-b672-77dc3ae55d00",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Celestial Unsealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 15
         }
-    ],
-    "toolProficiencies": [],
-    "weaponProficiencies": []
+      ],
+      "hpModifier": "CON",
+      "id": "the_celestial",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "The Celestial",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "WIS",
+      "spells": [
+        {
+          "level": 7,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Artificer, Artificer__revised_, Bard, Cleric, Druid, Paladin, Ranger",
+            "components": "V, S",
+            "description": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
+            "duration": "Instantaneous",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 2,
+            "name": "Lesser Restoration",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "Touch",
+            "school": "abjuration",
+            "type": "2nd-level abjuration"
+          }
+        },
+        {
+          "level": 15,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Artificer, Artificer__revised_, Cleric, Paladin",
+            "components": "V, S, M (diamonds worth 300 gp, which the spell consumes)",
+            "description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can\u2019t return to life a creature that has died of old age, nor can it restore any missing body parts.",
+            "duration": "Instantaneous",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 3,
+            "name": "Revivify",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "Touch",
+            "school": "conjuration",
+            "type": "3rd-level conjuration"
+          }
+        }
+      ],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "DEX",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack",
+                "level": 3
+              }
+            ],
+            "id": "Custom67bff301-2b6e-46de-b2f6-fb9afc33f102",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fiend Rite Enhancement",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast scorching ray once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 7
+              }
+            ],
+            "id": "Custom81d05fce-bbb7-4efe-8169-6a7658181bf9",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fiend Revealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast fireball once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 15
+              }
+            ],
+            "id": "Custom053b4a50-5c4d-421e-8a5c-783a3978656a",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Fiend Unsealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 15
+        }
+      ],
+      "hpModifier": "CON",
+      "id": "the_fiend",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "The Fiend",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "WIS",
+      "spells": [
+        {
+          "level": 7,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Sorcerer, Wizard",
+            "components": "V, S",
+            "description": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.",
+            "duration": "Instantaneous",
+            "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 2,
+            "name": "Scorching Ray",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "120 feet",
+            "school": "evocation",
+            "type": "2nd-level evocation"
+          }
+        },
+        {
+          "level": 15,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Sorcerer, Wizard",
+            "components": "V, S, M (a tiny ball of bat guano and sulfur)",
+            "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
+            "duration": "Instantaneous",
+            "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 3,
+            "name": "Fireball",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "150 feet",
+            "school": "evocation",
+            "type": "3rd-level evocation"
+          }
+        }
+      ],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "DEX",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn",
+                "level": 3
+              }
+            ],
+            "id": "Custom5d832568-0c5b-4246-a4f7-2d61f27786a1",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Great Old One Rite Enhancement",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast detect thoughts once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 7
+              }
+            ],
+            "id": "Custom61b1a178-e6ad-41c6-8be4-aa7e36dab171",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Great Old One Revealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast haste once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 15
+              }
+            ],
+            "id": "Custom69623c70-e557-4db8-9c8f-6d8016b6e8da",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Great Old One Unsealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 15
+        }
+      ],
+      "hpModifier": "CON",
+      "id": "the_great_old_one",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "The Great Old One",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "WIS",
+      "spells": [
+        {
+          "level": 7,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Bard, Sorcerer, Wizard",
+            "components": "V, S, M (a copper piece)",
+            "description": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn\u2019t speak any language, the creature is unaffected.\n\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature\u2019s thoughts or attempt to probe deeper into the same creature\u2019s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature\u2019s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\n\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation. You can also use this spell to detect the presence of thinking creatures you can\u2019t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can\u2019t detect a creature with an Intelligence of 3 or lower or one that doesn\u2019t speak any language.\n\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can\u2019t see it, but it must still be within range.",
+            "duration": "Concentration, up to 1 minute",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 2,
+            "name": "Detect Thoughts",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "self",
+            "school": "divination",
+            "type": "2nd-Level divination"
+          }
+        },
+        {
+          "level": 15,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Artificer, Artificer__revised_, Sorcerer, Wizard",
+            "components": "V, S, M (a shaving of licorice root)",
+            "description": "Choose a willing creature that you can see within range. Until the spell ends, the target\u2019s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target can\u2019t move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
+            "duration": "Concentration, up to 1 minute",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 3,
+            "name": "Haste",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "30 feet",
+            "school": "transmutation",
+            "type": "3rd-level transmutation"
+          }
+        }
+      ],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "DEX",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the attack",
+                "level": 3
+              }
+            ],
+            "id": "Custome8916398-39d3-41bc-b6b1-c048011bdffa",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Hexblade Rite Enhancement",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast branding smite once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 7
+              }
+            ],
+            "id": "Custom597070e9-1551-481f-9a50-c08227b3cc94",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Hexblade Revealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast blink once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 15
+              }
+            ],
+            "id": "Custom29db5d87-59ba-47fe-9ed7-94fb76e11758",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Hexblade Unsealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 15
+        }
+      ],
+      "hpModifier": "CON",
+      "id": "the_hexblade",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "The Hexblade",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "WIS",
+      "spells": [
+        {
+          "level": 7,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Paladin",
+            "components": "V",
+            "description": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it\u2019s invisible, and the target sheds dim light in a 5-foot radius and can\u2019t become invisible until the spell ends.",
+            "duration": "Concentration, up to 1 minute",
+            "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 2,
+            "name": "Branding Smite",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "self",
+            "school": "evocation",
+            "type": "2nd-Level evocation"
+          }
+        },
+        {
+          "level": 15,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Artificer, Artificer__revised_, Sorcerer, Wizard",
+            "components": "V, S",
+            "description": "Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.\n\nWhile on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can\u2019t see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren\u2019t there can\u2019t perceive you or interact with you, unless they have the ability to do so.",
+            "duration": "1 minute",
+            "higherLevels": "",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 3,
+            "name": "Blink",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "Self",
+            "school": "transmutation",
+            "type": "3rd-level transmutation"
+          }
+        }
+      ],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    },
+    {
+      "acModifier": "DEX",
+      "armorProficiencies": [],
+      "attacksByLevel": [],
+      "baseAc": 10,
+      "classWeapon": {
+        "abilityName": "Strength",
+        "damageType": "Bludgeoning",
+        "diceAmount": 1,
+        "diceTypeName": "D4",
+        "name": ""
+      },
+      "effectiveCasterLevel": "PARENT",
+      "features": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die",
+                "level": 3
+              }
+            ],
+            "id": "Custom0fe1691c-6ef0-41e0-90d1-b3e4d614ac0f",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Undying Rite Enhancement",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 3
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast blindness/deafness once using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 7
+              }
+            ],
+            "id": "Custome4055543-db9d-4896-ac29-87fc38e06237",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Undying Revealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 7
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "You can cast bestow curse once without using a profane soul spell slot. You can\u2019t do so again until you finish a long rest",
+                "level": 15
+              }
+            ],
+            "id": "Custom0aff8614-aeae-48f1-892f-7a797d45c2bf",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Undying Unsealed Arcana",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 15
+        }
+      ],
+      "hpModifier": "CON",
+      "id": "the_undying",
+      "jsonType": "class",
+      "languages": [],
+      "modelType": "Subtype",
+      "multiclassArmor": true,
+      "multiclassSkills": true,
+      "multiclassTools": true,
+      "multiclassWeapons": true,
+      "name": "The Undying",
+      "selectableFeatures": [],
+      "shouldShowCompanion": false,
+      "skillProficiencies": [],
+      "specialAbilities": [],
+      "spellSlots": [],
+      "spellcastingAbility": "WIS",
+      "spells": [
+        {
+          "level": 7,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Bard, Cleric, Sorcerer, Wizard",
+            "components": "V",
+            "description": "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
+            "duration": "1 minute",
+            "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 2,
+            "name": "Blindness/Deafness",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "30 feet",
+            "school": "Necromancy",
+            "type": "2nd-level Necromancy"
+          }
+        },
+        {
+          "level": 15,
+          "spellModel": {
+            "castingTime": "1 action",
+            "classes": "Bard, Cleric, Wizard",
+            "components": "V, S",
+            "description": "* Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.\n\n* While cursed, the target has disadvantage on attack rolls against you.\n\n* While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n* While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.\n\nA *[remove curse](../remove-curse/ \"remove curse (lvl 3)\")* spell ends this effect. At the DM\u2019s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse\u2019s effect.",
+            "duration": "Concentration, up to 1 minute",
+            "higherLevels": "If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn\u2019t require concentration.",
+            "isCustom": false,
+            "isRitual": false,
+            "jsonType": "spell",
+            "level": 3,
+            "name": "Bestow Curse",
+            "notes": "",
+            "pinned": false,
+            "prepared": false,
+            "range": "Touch",
+            "school": "necromancy",
+            "type": "3rd-level necromancy"
+          }
+        }
+      ],
+      "subtypes": [],
+      "toolProficiencies": [],
+      "weaponProficiencies": []
+    }
+  ],
+  "toolProficiencies": [],
+  "weaponProficiencies": []
 }

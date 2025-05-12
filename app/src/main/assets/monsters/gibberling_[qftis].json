@@ -1,5 +1,61 @@
-{"ac":12,"actions":[{"description":"3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"}],
-"alignment":"Chaotic Evil","burrowSpeed":0,"cha":5,"climbSpeed":0,"con":11,"conditionImmunities":"charmed","cr":"0","damageImmunities":null,"dex":14,"flySpeed":0,"hp":{"constant":null,"diceAmount":2,"diceType":"D6"},
-"id":-1,"int":5,"isLocked":true,"jsonType":"monster","languages":"Gibberling","name":"Gibberling [QftIS]","resistances":null,"savingThrows":null,"senses":"darkvision 120 ft.","size":"Small","skills":null,"specialTraits":[{"description":"If the gibberling takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.","id":-1,"monsterId":-1,"name":"Aversion to Fire"},
-{"description":"Any non-gibberling that is within 30 feet of the gibberling and doesn't have the deafened condition has disadvantage on Constitution saving throws to maintain {@status concentration} on spells and similar effects.","id":-1,"monsterId":-1,"name":"Incessant Gibberish"}],
-"speed":30,"str":13,"swimSpeed":0,"tag":"demon","type":"Fiend","vulnerabilities":null,"wis":7,"xp":10}
+{
+  "ac": 12,
+  "actions": [
+    {
+      "description": "3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "Chaotic Evil",
+  "burrowSpeed": 0,
+  "cha": 5,
+  "climbSpeed": 0,
+  "con": 11,
+  "conditionImmunities": "charmed",
+  "cr": "0",
+  "damageImmunities": null,
+  "dex": 14,
+  "flySpeed": 0,
+  "hp": {
+    "constant": null,
+    "diceAmount": 2,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 5,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Gibberling",
+  "name": "Gibberling [QftIS]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 120 ft.",
+  "size": "Small",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "If the gibberling takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Aversion to Fire"
+    },
+    {
+      "description": "Any non-gibberling that is within 30 feet of the gibberling and doesn't have the deafened condition has disadvantage on Constitution saving throws to maintain {@status concentration} on spells and similar effects.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Incessant Gibberish"
+    }
+  ],
+  "speed": 30,
+  "str": 13,
+  "swimSpeed": 0,
+  "tag": "demon",
+  "type": "Fiend",
+  "vulnerabilities": null,
+  "wis": 7,
+  "xp": 10
+}

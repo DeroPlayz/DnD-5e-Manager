@@ -1,15 +1,88 @@
-{"equipment": [{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Set Of Fine Clothes","number": 1}],
-"id": "0d54872e-7360-406f-b775-fc8ebe5d3021"},
-{"amountOfChoice": 1,"equipmentsModels": [{"description": "","name": "Pouch","number": 1}],
-"id": "2db59d68-080a-46d2-b276-de2be0f05daf"}],
-"features": [{"feat": {"descriptionModels": [{"description": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are.","level": 1}],
-"isFeature": true,"jsonType": "feat","level": 1,"name": "Court Functionary","notes": "","type": "Feat"},
-"level": 1}],
-"goldPieces": 5,"jsonType": "background","languages": [{"description": "Choose 1","shouldSelect": true},
-{"description": "Choose 1","shouldSelect": true}],
-"name": "Courtier","skills": [{"amountOfChoice": 1,"id": "368a136f-65f3-451d-bf6c-a8df4887053e","skills": [{}],
-"skillsModels": [{"name": "Insight","typeName": "SKILL"}]},
-{"amountOfChoice": 1,"id": "227514df-acfb-4669-8145-15844941e6f2","skills": [{}],
-"skillsModels": [{"name": "Persuasion","typeName": "SKILL"}]}],
-"tools": [],
-"weapons": []}
+{
+  "equipment": [
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Set Of Fine Clothes",
+          "number": 1
+        }
+      ],
+      "id": "0d54872e-7360-406f-b775-fc8ebe5d3021"
+    },
+    {
+      "amountOfChoice": 1,
+      "equipmentsModels": [
+        {
+          "description": "",
+          "name": "Pouch",
+          "number": 1
+        }
+      ],
+      "id": "2db59d68-080a-46d2-b276-de2be0f05daf"
+    }
+  ],
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are.",
+            "level": 1
+          }
+        ],
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Court Functionary",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 1
+    }
+  ],
+  "goldPieces": 5,
+  "jsonType": "background",
+  "languages": [
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    },
+    {
+      "description": "Choose 1",
+      "shouldSelect": true
+    }
+  ],
+  "name": "Courtier",
+  "skills": [
+    {
+      "amountOfChoice": 1,
+      "id": "368a136f-65f3-451d-bf6c-a8df4887053e",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Insight",
+          "typeName": "SKILL"
+        }
+      ]
+    },
+    {
+      "amountOfChoice": 1,
+      "id": "227514df-acfb-4669-8145-15844941e6f2",
+      "skills": [
+        {}
+      ],
+      "skillsModels": [
+        {
+          "name": "Persuasion",
+          "typeName": "SKILL"
+        }
+      ]
+    }
+  ],
+  "tools": [],
+  "weapons": []
+}

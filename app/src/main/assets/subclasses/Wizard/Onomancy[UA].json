@@ -1,463 +1,463 @@
 {
-    "acModifier": "Dexterity",
-    "armorProficiencies": [],
-    "attacksByLevel": [],
-    "baseAc": 10,
-    "classWeapon": {
-        "abilityName": "Strength",
-        "damageType": "Bludgeoning",
-        "diceAmount": 1,
-        "diceTypeName": "D4",
-        "name": ""
+  "acModifier": "Dexterity",
+  "armorProficiencies": [],
+  "attacksByLevel": [],
+  "baseAc": 10,
+  "classWeapon": {
+    "abilityName": "Strength",
+    "damageType": "Bludgeoning",
+    "diceAmount": 1,
+    "diceTypeName": "D4",
+    "name": ""
+  },
+  "effectiveCasterLevel": "PARENT",
+  "features": [
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn one language of your choice and gain proficiency with calligrapher's supplies",
+            "level": 2
+          }
+        ],
+        "id": "Custom49ddd8ad-d046-4cb0-8186-2340c60e07be",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Bonus Proficiencies",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
     },
-    "effectiveCasterLevel": "PARENT",
-    "features": [
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn one language of your choice and gain proficiency with calligrapher's supplies",
-                        "level": 2
-                    }
-                ],
-                "id": "Custom49ddd8ad-d046-4cb0-8186-2340c60e07be",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Bonus Proficiencies",
-                "notes": "",
-                "type": "Feat"
-            },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can magically compel a creature to divulge its true name. As a bonus action, you target one creature you can see within 60 feet of you. The target must make a Wisdom saving throw against your spell save DC. On a successful save, you discern that this magic failed, and you can\u2019t use this feature on the target again. On a failed save, the target is charmed by you until the end of your next turn, and you mentally learn the charmed target\u2019s name or the fact that the target lacks a name.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can magically compel a creature to divulge its true name. As a bonus action, you target one creature you can see within 60 feet of you. The target must make a Wisdom saving throw against your spell save DC. On a successful save, you discern that this magic failed, and you can\u2019t use this feature on the target again. On a failed save, the target is charmed by you until the end of your next turn, and you mentally learn the charmed target\u2019s name or the fact that the target lacks a name.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses of it when you finish a long rest",
-                        "level": 2
-                    }
-                ],
-                "id": "Customcbf10b9d-8e05-43d1-b90b-b029a146a903",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Extract Name",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customcbf10b9d-8e05-43d1-b90b-b029a146a903",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Extract Name",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You can bend magic to assist or hinder creatures through the power of their true names, and even use those names as an anchor to affect others around them. The bane and bless spells are wizard spells for you, and you add them to your spellbook. You always have them prepared, yet they don\u2019t count against the number of spells you can prepare.\n\nYou can cast either spell without expending a spell slot if you speak the true name of one target of the spell as part of casting it. You can cast the spells in this way a number of times equal to your Intelligence modifier (a minimum of once), and you regain all expended uses when you finish a long rest",
             "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You can bend magic to assist or hinder creatures through the power of their true names, and even use those names as an anchor to affect others around them. The bane and bless spells are wizard spells for you, and you add them to your spellbook. You always have them prepared, yet they don\u2019t count against the number of spells you can prepare.\n\nYou can cast either spell without expending a spell slot if you speak the true name of one target of the spell as part of casting it. You can cast the spells in this way a number of times equal to your Intelligence modifier (a minimum of once), and you regain all expended uses when you finish a long rest",
-                        "level": 2
-                    }
-                ],
-                "id": "Customc72c0fec-f250-48ee-9de8-db741039b0fe",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Fateful Naming",
-                "notes": "",
-                "type": "Feat"
-            },
-            "level": 2
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn words of power called Resonants, which allow you to tailor your spells through the use of a target\u2019s true name.\n\nResonants Known: When you gain this feature, you learn two Resonants of your choice, which are detailed in the \u201cResonant Options\u201d section. Each time you gain a level in this class, you can replace one resonant you know with a different one.\n\nUsing a Resonant: You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell.\n\nYou can use Resonants a number of times equal to half of your wizard level (round down), and you regain all expended uses when you finish a long rest",
-                        "level": 6
-                    }
-                ],
-                "id": "Custombc0db9c7-181a-4b95-8f89-4009fe05c34c",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Resonant Utterance",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Customc72c0fec-f250-48ee-9de8-db741039b0fe",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Fateful Naming",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 2
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn words of power called Resonants, which allow you to tailor your spells through the use of a target\u2019s true name.\n\nResonants Known: When you gain this feature, you learn two Resonants of your choice, which are detailed in the \u201cResonant Options\u201d section. Each time you gain a level in this class, you can replace one resonant you know with a different one.\n\nUsing a Resonant: You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell.\n\nYou can use Resonants a number of times equal to half of your wizard level (round down), and you regain all expended uses when you finish a long rest",
             "level": 6
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "You learn two new Resonants of your choice from your Resonant Utterance feature",
-                        "level": 10
-                    }
-                ],
-                "id": "Custom935f2536-a45c-40ba-bf30-5f143c5c399e",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Inexorable Pronouncement",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custombc0db9c7-181a-4b95-8f89-4009fe05c34c",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Resonant Utterance",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 6
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "You learn two new Resonants of your choice from your Resonant Utterance feature",
             "level": 10
-        },
-        {
-            "feat": {
-                "descriptionModels": [
-                    {
-                        "description": "When you cast a spell that deals damage to a creature whose true name you speak as part of casting the spell, you can cause the spell to deal force or psychic damage to the creature, instead of the spell\u2019s normal damage type",
-                        "level": 14
-                    }
-                ],
-                "id": "Customc13d54d2-86d1-4bac-bbac-3b9909cd61e3",
-                "isFeature": true,
-                "jsonType": "feat",
-                "level": 1,
-                "name": "Relentless Naming",
-                "notes": "",
-                "type": "Feat"
-            },
+          }
+        ],
+        "id": "Custom935f2536-a45c-40ba-bf30-5f143c5c399e",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Inexorable Pronouncement",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 10
+    },
+    {
+      "feat": {
+        "descriptionModels": [
+          {
+            "description": "When you cast a spell that deals damage to a creature whose true name you speak as part of casting the spell, you can cause the spell to deal force or psychic damage to the creature, instead of the spell\u2019s normal damage type",
             "level": 14
-        }
-    ],
-    "hpModifier": "Constitution",
-    "id": "wizard_onomancy_[ua]",
-    "jsonType": "class",
-    "languages": [
+          }
+        ],
+        "id": "Customc13d54d2-86d1-4bac-bbac-3b9909cd61e3",
+        "isFeature": true,
+        "jsonType": "feat",
+        "level": 1,
+        "name": "Relentless Naming",
+        "notes": "",
+        "type": "Feat"
+      },
+      "level": 14
+    }
+  ],
+  "hpModifier": "Constitution",
+  "id": "wizard_onomancy_[ua]",
+  "jsonType": "class",
+  "languages": [
+    {
+      "hint": "",
+      "level": 2,
+      "proficiency": "Choose 1"
+    }
+  ],
+  "modelType": "Archetype",
+  "multiclassArmor": true,
+  "multiclassSkills": true,
+  "multiclassTools": true,
+  "multiclassWeapons": true,
+  "name": "Onomancy [UA]",
+  "selectableFeatures": [
+    {
+      "amountsPerLevel": [
         {
-            "hint": "",
-            "level": 2,
-            "proficiency": "Choose 1"
-        }
-    ],
-    "modelType": "Archetype",
-    "multiclassArmor": true,
-    "multiclassSkills": true,
-    "multiclassTools": true,
-    "multiclassWeapons": true,
-    "name": "Onomancy [UA]",
-    "selectableFeatures": [
-        {
-            "amountsPerLevel": [
-                {
-                    "amount": 2,
-                    "level": 6
-                },
-                {
-                    "amount": 2,
-                    "level": 7
-                },
-                {
-                    "amount": 2,
-                    "level": 8
-                },
-                {
-                    "amount": 2,
-                    "level": 9
-                },
-                {
-                    "amount": 4,
-                    "level": 10
-                },
-                {
-                    "amount": 4,
-                    "level": 11
-                },
-                {
-                    "amount": 4,
-                    "level": 12
-                },
-                {
-                    "amount": 4,
-                    "level": 13
-                },
-                {
-                    "amount": 4,
-                    "level": 14
-                },
-                {
-                    "amount": 4,
-                    "level": 15
-                },
-                {
-                    "amount": 4,
-                    "level": 16
-                },
-                {
-                    "amount": 4,
-                    "level": 17
-                },
-                {
-                    "amount": 4,
-                    "level": 18
-                },
-                {
-                    "amount": 4,
-                    "level": 19
-                },
-                {
-                    "amount": 4,
-                    "level": 20
-                }
-            ],
-            "availableFeatures": [
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "When you cast a spell that deals damage to the named target, you gain 3d6 temporary hit points",
-                                "level": 6
-                            },
-                            {
-                                "description": "When you cast a spell that deals damage to the named target, you gain 4d6 temporary hit points",
-                                "level": 10
-                            },
-                            {
-                                "description": "When you cast a spell that deals damage to the named target, you gain 5d6 temporary hit points",
-                                "level": 14
-                            }
-                        ],
-                        "id": "Custom384aa056-709d-413a-ae14-d9501da4fa68",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Absorption",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "If the spell requires the named creature to make a saving throw, that creature has disadvantage on the first save it makes against the spell",
-                                "level": 6
-                            }
-                        ],
-                        "id": "Custom67a1ba45-1b94-41c4-b484-b6c3cb82458b",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Devastation",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "The first time the named creature takes damage from the spell, that creature takes an extra 2d8 force damage",
-                                "level": 6
-                            },
-                            {
-                                "description": "The first time the named creature takes damage from the spell, that creature takes an extra 3d8 force damage",
-                                "level": 10
-                            },
-                            {
-                                "description": "The first time the named creature takes damage from the spell, that creature takes an extra 4d8 force damage",
-                                "level": 14
-                            }
-                        ],
-                        "id": "Custom5beaae06-0944-4669-82af-b00fae17de04",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Dissolution",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "If the named target is affected by any other spells, you know what those spells are, and you can attempt to end one of your choice by succeeding on an Intelligence check with a DC equal to 10 + the level of the chosen spell",
-                                "level": 6
-                            }
-                        ],
-                        "id": "Custom9456b66f-f47f-4c86-8391-786adaf61d1e",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Nullification",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "The first time the named creature takes damage from the spell, you can knock the creature prone or move it up to 10 feet, either directly toward you or away from you",
-                                "level": 6
-                            }
-                        ],
-                        "id": "Customce9629ad-ff88-4da7-ae77-9ebab4f6f200",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Puppetry",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                },
-                {
-                    "feat": {
-                        "descriptionModels": [
-                            {
-                                "description": "If the named creature is within range of the spell, you can target the creature with the spell even if you can\u2019t see the creature or it has total cover against the spell",
-                                "level": 6
-                            }
-                        ],
-                        "id": "Customa39fca37-09f2-440d-ac92-09fdedc0132c",
-                        "isFeature": true,
-                        "jsonType": "feat",
-                        "level": 1,
-                        "name": "Sympathy",
-                        "notes": "",
-                        "type": "Feat"
-                    },
-                    "level": 6
-                }
-            ],
-            "canReselect": true,
-            "id": "0bbe065d-8121-4b51-9b71-8daa25306d6e",
-            "name": "Resonants",
-            "selectedFeatures": []
-        }
-    ],
-    "shouldShowCompanion": false,
-    "skillProficiencies": [],
-    "specialAbilities": [
-        {
-            "abilityCalculators": [
-                {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "INT"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 2,
-                    "topLevelConnector": "MAX"
-                }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "c18b7f91-d036-4be5-a976-323f12d1341b",
-            "name": "Extract Name Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
+          "amount": 2,
+          "level": 6
         },
         {
-            "abilityCalculators": [
-                {
-                    "calculators": [
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS",
-                                    "stat": "INT"
-                                }
-                            ]
-                        },
-                        {
-                            "operands": [
-                                {
-                                    "multiplierConstant": 1,
-                                    "operator": "PLUS"
-                                }
-                            ]
-                        }
-                    ],
-                    "level": 2,
-                    "topLevelConnector": "MAX"
-                }
-            ],
-            "amountsPerLevel": [],
-            "associatedValueName": "",
-            "id": "80ddc6d8-5c65-4dd5-afde-a9916707891c",
-            "name": "Fateful Naming Uses",
-            "type": "ADVANCED",
-            "usesLeft": 0
-        }
-    ],
-    "spellSlots": [],
-    "spellcastingAbility": "Intelligence",
-    "spells": [
-        {
-            "level": 2,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "bard, cleric",
-                "components": "V, S, M (a drop of blood)",
-                "description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Bane",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
+          "amount": 2,
+          "level": 7
         },
         {
-            "level": 2,
-            "spellModel": {
-                "castingTime": "1 action",
-                "classes": "cleric, paladin",
-                "components": "V, S, M (a sprinkling of holy water)",
-                "description": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.",
-                "duration": "Concentration, up to 1 minute",
-                "higherLevels": "",
-                "isCustom": false,
-                "isRitual": false,
-                "jsonType": "spell",
-                "level": 1,
-                "name": "Bless",
-                "notes": "",
-                "pinned": false,
-                "prepared": false,
-                "range": "30 feet",
-                "school": "enchantment",
-                "type": "1st-level enchantment"
-            }
-        }
-    ],
-    "subtypes": [],
-    "toolProficiencies": [
+          "amount": 2,
+          "level": 8
+        },
         {
-            "hint": "",
-            "level": 2,
-            "proficiency": "Calligrapher's tools"
+          "amount": 2,
+          "level": 9
+        },
+        {
+          "amount": 4,
+          "level": 10
+        },
+        {
+          "amount": 4,
+          "level": 11
+        },
+        {
+          "amount": 4,
+          "level": 12
+        },
+        {
+          "amount": 4,
+          "level": 13
+        },
+        {
+          "amount": 4,
+          "level": 14
+        },
+        {
+          "amount": 4,
+          "level": 15
+        },
+        {
+          "amount": 4,
+          "level": 16
+        },
+        {
+          "amount": 4,
+          "level": 17
+        },
+        {
+          "amount": 4,
+          "level": 18
+        },
+        {
+          "amount": 4,
+          "level": 19
+        },
+        {
+          "amount": 4,
+          "level": 20
         }
-    ],
-    "weaponProficiencies": []
+      ],
+      "availableFeatures": [
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "When you cast a spell that deals damage to the named target, you gain 3d6 temporary hit points",
+                "level": 6
+              },
+              {
+                "description": "When you cast a spell that deals damage to the named target, you gain 4d6 temporary hit points",
+                "level": 10
+              },
+              {
+                "description": "When you cast a spell that deals damage to the named target, you gain 5d6 temporary hit points",
+                "level": 14
+              }
+            ],
+            "id": "Custom384aa056-709d-413a-ae14-d9501da4fa68",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Absorption",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "If the spell requires the named creature to make a saving throw, that creature has disadvantage on the first save it makes against the spell",
+                "level": 6
+              }
+            ],
+            "id": "Custom67a1ba45-1b94-41c4-b484-b6c3cb82458b",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Devastation",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "The first time the named creature takes damage from the spell, that creature takes an extra 2d8 force damage",
+                "level": 6
+              },
+              {
+                "description": "The first time the named creature takes damage from the spell, that creature takes an extra 3d8 force damage",
+                "level": 10
+              },
+              {
+                "description": "The first time the named creature takes damage from the spell, that creature takes an extra 4d8 force damage",
+                "level": 14
+              }
+            ],
+            "id": "Custom5beaae06-0944-4669-82af-b00fae17de04",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Dissolution",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "If the named target is affected by any other spells, you know what those spells are, and you can attempt to end one of your choice by succeeding on an Intelligence check with a DC equal to 10 + the level of the chosen spell",
+                "level": 6
+              }
+            ],
+            "id": "Custom9456b66f-f47f-4c86-8391-786adaf61d1e",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Nullification",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "The first time the named creature takes damage from the spell, you can knock the creature prone or move it up to 10 feet, either directly toward you or away from you",
+                "level": 6
+              }
+            ],
+            "id": "Customce9629ad-ff88-4da7-ae77-9ebab4f6f200",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Puppetry",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        },
+        {
+          "feat": {
+            "descriptionModels": [
+              {
+                "description": "If the named creature is within range of the spell, you can target the creature with the spell even if you can\u2019t see the creature or it has total cover against the spell",
+                "level": 6
+              }
+            ],
+            "id": "Customa39fca37-09f2-440d-ac92-09fdedc0132c",
+            "isFeature": true,
+            "jsonType": "feat",
+            "level": 1,
+            "name": "Sympathy",
+            "notes": "",
+            "type": "Feat"
+          },
+          "level": 6
+        }
+      ],
+      "canReselect": true,
+      "id": "0bbe065d-8121-4b51-9b71-8daa25306d6e",
+      "name": "Resonants",
+      "selectedFeatures": []
+    }
+  ],
+  "shouldShowCompanion": false,
+  "skillProficiencies": [],
+  "specialAbilities": [
+    {
+      "abilityCalculators": [
+        {
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "INT"
+                }
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 2,
+          "topLevelConnector": "MAX"
+        }
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "c18b7f91-d036-4be5-a976-323f12d1341b",
+      "name": "Extract Name Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    },
+    {
+      "abilityCalculators": [
+        {
+          "calculators": [
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS",
+                  "stat": "INT"
+                }
+              ]
+            },
+            {
+              "operands": [
+                {
+                  "multiplierConstant": 1,
+                  "operator": "PLUS"
+                }
+              ]
+            }
+          ],
+          "level": 2,
+          "topLevelConnector": "MAX"
+        }
+      ],
+      "amountsPerLevel": [],
+      "associatedValueName": "",
+      "id": "80ddc6d8-5c65-4dd5-afde-a9916707891c",
+      "name": "Fateful Naming Uses",
+      "type": "ADVANCED",
+      "usesLeft": 0
+    }
+  ],
+  "spellSlots": [],
+  "spellcastingAbility": "Intelligence",
+  "spells": [
+    {
+      "level": 2,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "bard, cleric",
+        "components": "V, S, M (a drop of blood)",
+        "description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Bane",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    },
+    {
+      "level": 2,
+      "spellModel": {
+        "castingTime": "1 action",
+        "classes": "cleric, paladin",
+        "components": "V, S, M (a sprinkling of holy water)",
+        "description": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.",
+        "duration": "Concentration, up to 1 minute",
+        "higherLevels": "",
+        "isCustom": false,
+        "isRitual": false,
+        "jsonType": "spell",
+        "level": 1,
+        "name": "Bless",
+        "notes": "",
+        "pinned": false,
+        "prepared": false,
+        "range": "30 feet",
+        "school": "enchantment",
+        "type": "1st-level enchantment"
+      }
+    }
+  ],
+  "subtypes": [],
+  "toolProficiencies": [
+    {
+      "hint": "",
+      "level": 2,
+      "proficiency": "Calligrapher's tools"
+    }
+  ],
+  "weaponProficiencies": []
 }

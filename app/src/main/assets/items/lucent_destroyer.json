@@ -1,23 +1,118 @@
-{"changesNameOnAttunement": false,"description": "This magic weapon is a triple-barreled bronze musket. You gain a +1 bonus to attack and damage rolls made with it. It requires no ammunition, its damage is radiant instead of piercing, and it doesn't have the loading property. The base of the weapon is emblazoned with the light rune.\n\nAdditionally, while attuned to the weapon, you can cast dancing lights from the musket at will.\n\nInvoking the Rune\nAs an action, you can invoke the weapon's rune to cast the sunbeam spell (save DC 17) with it. Once the rune has been invoked, it can't be invoked again until the next dawn.\n\nIt's up to you to decide whether a character has proficiency with a firearm. During their downtime, characters can train to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.","effects": [{"actualEffect": {"bonus": 1,"type": "SET_ATTACK","typeStr": "SET_ATTACK"},
-"id": "536c8169-f57a-4572-ac55-b1fc3375193b","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"bonus": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"damageType": "Magic","type": "SET_DAMAGE","typeStr": "SET_DAMAGE"},
-"id": "b3da3eb0-7ebf-4fdf-8d94-ca854bb0b05f","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"},
-{"actualEffect": {"spellId": "17","type": "ADD_SPELL","typeStr": "ADD_SPELL"},
-"id": "e2dcc5fd-caa5-4a17-890d-461c82b5865b","triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "PASSIVE"},
-{"actualEffect": {"spellId": "325","type": "USE_SPELL","typeStr": "USE_SPELL"},
-"charges": 1,"id": "1316abd2-b4fc-4076-b3d2-9a93bd681623","name": "Invoke Rune","rechargeMoment": "DAWN","rechargeRate": {"constant": 1,"diceAmount": 0,"diceType": "D4"},
-"triggerCondition": {"conditions": [{"conditions": [],
-"type": "AND","typeStr": "AND"}],
-"type": "OR","typeStr": "OR"},
-"triggerType": "ACTIVE"}],
-"id": "item_Lucent_Destroyer","isAmmunition": false,"isCursed": false,"isCustom": true,"isEquipment": false,"isIntelligent": false,"isMagic": true,"isSpellcastingFocus": false,"isTemplate": true,"isValueMultiplier": false,"isWeightMultiplier": false,"jsonType": "item","name": "Lucent Destroyer","rarity": "VERY_RARE","requiresAttunement": true,"type": "WEAPON","valueCoin": "GOLD","weight": 10.0,"weightUnit": "POUNDS"}
+{
+  "changesNameOnAttunement": false,
+  "description": "This magic weapon is a triple-barreled bronze musket. You gain a +1 bonus to attack and damage rolls made with it. It requires no ammunition, its damage is radiant instead of piercing, and it doesn't have the loading property. The base of the weapon is emblazoned with the light rune.\n\nAdditionally, while attuned to the weapon, you can cast dancing lights from the musket at will.\n\nInvoking the Rune\nAs an action, you can invoke the weapon's rune to cast the sunbeam spell (save DC 17) with it. Once the rune has been invoked, it can't be invoked again until the next dawn.\n\nIt's up to you to decide whether a character has proficiency with a firearm. During their downtime, characters can train to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.",
+  "effects": [
+    {
+      "actualEffect": {
+        "bonus": 1,
+        "type": "SET_ATTACK",
+        "typeStr": "SET_ATTACK"
+      },
+      "id": "536c8169-f57a-4572-ac55-b1fc3375193b",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "bonus": {
+          "constant": 1,
+          "diceAmount": 0,
+          "diceType": "D4"
+        },
+        "damageType": "Magic",
+        "type": "SET_DAMAGE",
+        "typeStr": "SET_DAMAGE"
+      },
+      "id": "b3da3eb0-7ebf-4fdf-8d94-ca854bb0b05f",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "17",
+        "type": "ADD_SPELL",
+        "typeStr": "ADD_SPELL"
+      },
+      "id": "e2dcc5fd-caa5-4a17-890d-461c82b5865b",
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "PASSIVE"
+    },
+    {
+      "actualEffect": {
+        "spellId": "325",
+        "type": "USE_SPELL",
+        "typeStr": "USE_SPELL"
+      },
+      "charges": 1,
+      "id": "1316abd2-b4fc-4076-b3d2-9a93bd681623",
+      "name": "Invoke Rune",
+      "rechargeMoment": "DAWN",
+      "rechargeRate": {
+        "constant": 1,
+        "diceAmount": 0,
+        "diceType": "D4"
+      },
+      "triggerCondition": {
+        "conditions": [
+          {
+            "conditions": [],
+            "type": "AND",
+            "typeStr": "AND"
+          }
+        ],
+        "type": "OR",
+        "typeStr": "OR"
+      },
+      "triggerType": "ACTIVE"
+    }
+  ],
+  "id": "item_Lucent_Destroyer",
+  "isAmmunition": false,
+  "isCursed": false,
+  "isCustom": true,
+  "isEquipment": false,
+  "isIntelligent": false,
+  "isMagic": true,
+  "isSpellcastingFocus": false,
+  "isTemplate": true,
+  "isValueMultiplier": false,
+  "isWeightMultiplier": false,
+  "jsonType": "item",
+  "name": "Lucent Destroyer",
+  "rarity": "VERY_RARE",
+  "requiresAttunement": true,
+  "type": "WEAPON",
+  "valueCoin": "GOLD",
+  "weight": 10.0,
+  "weightUnit": "POUNDS"
+}

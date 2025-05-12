@@ -1,4 +1,55 @@
-{"ac":16,"actions":[{"description":" 6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Bite","type":"MELEE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":3,"climbSpeed":0,"con":11,"conditionImmunities":null,"cr":"1/2","damageImmunities":null,"dex":18,"flySpeed":60,"hp":{"constant":null,"diceAmount":4,"diceType":"D10"},
-"id":-1,"int":3,"isLocked":true,"jsonType":"monster","languages":null,"name":"Giant Dragonfly","resistances":null,"savingThrows":null,"senses":null,"size":"Large","skills":null,"specialTraits":[{"description":"When it beats its wings, the dragonfly emits a loud droning sound that can be heard out to a range of 120 feet.","id":-1,"monsterId":-1,"name":"Drone"}],
-"speed":10,"str":15,"swimSpeed":0,"tag":null,"type":"Beast","vulnerabilities":null,"wis":10,"xp":100}
+{
+  "ac": 16,
+  "actions": [
+    {
+      "description": " 6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Bite",
+      "type": "MELEE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 3,
+  "climbSpeed": 0,
+  "con": 11,
+  "conditionImmunities": null,
+  "cr": "1/2",
+  "damageImmunities": null,
+  "dex": 18,
+  "flySpeed": 60,
+  "hp": {
+    "constant": null,
+    "diceAmount": 4,
+    "diceType": "D10"
+  },
+  "id": -1,
+  "int": 3,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": null,
+  "name": "Giant Dragonfly",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": null,
+  "size": "Large",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "When it beats its wings, the dragonfly emits a loud droning sound that can be heard out to a range of 120 feet.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Drone"
+    }
+  ],
+  "speed": 10,
+  "str": 15,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Beast",
+  "vulnerabilities": null,
+  "wis": 10,
+  "xp": 100
+}

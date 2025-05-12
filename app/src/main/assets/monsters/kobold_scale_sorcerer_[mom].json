@@ -1,8 +1,85 @@
-{"ac":15,"actions":[{"description":"The kobold makes two Dagger or Chromatic Bolt attacks. It can replace one attack with a use of Spellcasting.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Multiattack","type":"NONE"},
-{"description":"4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Dagger","type":"MELEE_OR_RANGED"},
-{"description":"4 to hit, range 60 feet, one target. Hit: 9 (2d6 + 2) of a type of the kobold's choice: acid, cold, fire, lightning, poison, or thunder.","id":-1,"isLegendary":false,"monsterId":-1,"name":"Chromatic Bolt","type":"NONE"},
-{"description":"The kobold casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 12):\nAt will: mage hand, prestidigitation\n\n2/day each: charm person, fog cloud, levitate","id":-1,"isLegendary":false,"monsterId":-1,"name":"Spellcasting","type":"NONE"}],
-"alignment":"True Neutral","burrowSpeed":0,"cha":14,"climbSpeed":0,"con":14,"conditionImmunities":null,"cr":"1","damageImmunities":null,"dex":15,"flySpeed":0,"hp":{"constant":10,"diceAmount":5,"diceType":"D6"},
-"id":-1,"int":10,"isLocked":true,"jsonType":"monster","languages":"Common, Draconic","name":"Kobold Scale Sorcerer [MoM]","resistances":null,"savingThrows":null,"senses":"darkvision 60 ft.","size":"Medium","skills":null,"specialTraits":[{"description":"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.","id":-1,"monsterId":-1,"name":"Pack Tactics"},
-{"description":"While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.","id":-1,"monsterId":-1,"name":"Sunlight Sensitivity"}],
-"speed":30,"str":7,"swimSpeed":0,"tag":null,"type":"Humanoid","vulnerabilities":null,"wis":9,"xp":200}
+{
+  "ac": 15,
+  "actions": [
+    {
+      "description": "The kobold makes two Dagger or Chromatic Bolt attacks. It can replace one attack with a use of Spellcasting.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Multiattack",
+      "type": "NONE"
+    },
+    {
+      "description": "4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Dagger",
+      "type": "MELEE_OR_RANGED"
+    },
+    {
+      "description": "4 to hit, range 60 feet, one target. Hit: 9 (2d6 + 2) of a type of the kobold's choice: acid, cold, fire, lightning, poison, or thunder.",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Chromatic Bolt",
+      "type": "NONE"
+    },
+    {
+      "description": "The kobold casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 12):\nAt will: mage hand, prestidigitation\n\n2/day each: charm person, fog cloud, levitate",
+      "id": -1,
+      "isLegendary": false,
+      "monsterId": -1,
+      "name": "Spellcasting",
+      "type": "NONE"
+    }
+  ],
+  "alignment": "True Neutral",
+  "burrowSpeed": 0,
+  "cha": 14,
+  "climbSpeed": 0,
+  "con": 14,
+  "conditionImmunities": null,
+  "cr": "1",
+  "damageImmunities": null,
+  "dex": 15,
+  "flySpeed": 0,
+  "hp": {
+    "constant": 10,
+    "diceAmount": 5,
+    "diceType": "D6"
+  },
+  "id": -1,
+  "int": 10,
+  "isLocked": true,
+  "jsonType": "monster",
+  "languages": "Common, Draconic",
+  "name": "Kobold Scale Sorcerer [MoM]",
+  "resistances": null,
+  "savingThrows": null,
+  "senses": "darkvision 60 ft.",
+  "size": "Medium",
+  "skills": null,
+  "specialTraits": [
+    {
+      "description": "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Pack Tactics"
+    },
+    {
+      "description": "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "id": -1,
+      "monsterId": -1,
+      "name": "Sunlight Sensitivity"
+    }
+  ],
+  "speed": 30,
+  "str": 7,
+  "swimSpeed": 0,
+  "tag": null,
+  "type": "Humanoid",
+  "vulnerabilities": null,
+  "wis": 9,
+  "xp": 200
+}
