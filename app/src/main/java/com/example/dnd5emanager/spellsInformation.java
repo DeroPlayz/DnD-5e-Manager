@@ -51,7 +51,7 @@ public class spellsInformation extends Fragment {
         TextView SchoolAndStrength = view.findViewById(R.id.spellSchool);
         TextView CastingTime = view.findViewById(R.id.spellCastingTime);
         TextView Range = view.findViewById(R.id.spellRange);
-        TextView Description = view.findViewById(R.id.SpellDescription);
+        TextView Description = view.findViewById(R.id.spellDescription);
         TextView SupportedClasses = view.findViewById(R.id.supportedClasses);
         TextView Components = view.findViewById(R.id.spellComponents);
         TextView Materials = view.findViewById(R.id.spellMaterials);

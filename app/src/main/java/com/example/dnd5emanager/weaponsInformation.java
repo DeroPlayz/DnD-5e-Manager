@@ -46,18 +46,22 @@ private WeaponsInformationBinding binding;
         weaponAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         WeaponSelected.setAdapter(weaponAdapter);
 
-
+        TextView Damage = view.findViewById(R.id.weaponDamage);
         TextView Description = view.findViewById(R.id.weaponDescription);
         TextView Type = view.findViewById(R.id.weaponType);
-        TextView Rarity = view.findViewById(R.id.weaponBonuses);
-        TextView Bonuses = view.findViewById(R.id.weaponTags);
-        TextView Tags = view.findViewById(R.id.weaponProjectile);
-        TextView Projectile = view.findViewById(R.id.weaponDescription);
+        TextView Rarity = view.findViewById(R.id.weaponRarity);
+        TextView Bonuses = view.findViewById(R.id.weaponBonuses);
+        TextView Tags = view.findViewById(R.id.weaponTags);
+        TextView Projectile = view.findViewById(R.id.weaponProjectile);
 
         WeaponSelected.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Weapon SelectedWeapon = Weapons.get(WeaponSelected.getSelectedItem().toString());
+                if (Damage != null) {
+                    String DMG = getString(R.string.text_weapon_damage) + " " + SelectedWeapon.getDamage();
+                    Damage.setText(DMG);
+                }
                 if (Description != null) {
                     String Desc = getString(R.string.text_weapon_description) + " " + SelectedWeapon.getDescription();
                     Description.setText(Desc);
@@ -71,7 +75,8 @@ private WeaponsInformationBinding binding;
                     Rarity.setText(RarityStr);
                 }
                 if (Bonuses != null) {
-                    String BonusesStr = "";
+                    String BonusesStr = getString(R.string.text_weapon_attack_bonus) + " " + SelectedWeapon.getAttackBonus();
+//                    BonusesStr += "\n" + getString(R.string.text_weapon_damage_bonus) + " " + SelectedWeapon.
                     Bonuses.setText(BonusesStr);
                 }
                 if (Tags != null) {
@@ -85,13 +90,13 @@ private WeaponsInformationBinding binding;
                     if (SelectedWeapon.getVersatile()) {
                         TagList.add("Versatile");
                     }
-                    if (SelectedWeapon.getLight()){
+                    if (SelectedWeapon.getLight()) {
                         TagList.add("Light");
                     }
-                    if (SelectedWeapon.getHeavy()){
+                    if (SelectedWeapon.getHeavy()) {
                         TagList.add("Heavy");
                     }
-                    if (SelectedWeapon.getSilver()){
+                    if (SelectedWeapon.getSilver()) {
                         TagList.add("Silver");
                     }
                     if (SelectedWeapon.getTwoHanded()) {
@@ -124,19 +129,18 @@ private WeaponsInformationBinding binding;
                     if (SelectedWeapon.getThrown()) {
                         TagList.add("Thrown");
                     }
-                    ArrayList<String> FirstHalf = new ArrayList<>();
-                    ArrayList<String> SecondHalf = new ArrayList<>();
-                    for(int i = 0; i < TagList.size(); i++){
-                        if(i < TagList.size()/2){
-                            FirstHalf.add(TagList.get(i));
-                        }
-                        else{
-                            SecondHalf.add(TagList.get(i));
-                        }
+                    ArrayList<String> TagsFormatted = new ArrayList<>();
+                    for (int i = 0; i < TagList.size(); i++) {
+                        TagsFormatted.add("\n");
+                        TagsFormatted.add(TagList.get(i).replace(" ", "-"));
                     }
-                    String TagsStr = getString(R.string.text_weapon_tag) + " " + Arrays.toString(FirstHalf.toArray()) + "\n" + Arrays.toString(SecondHalf.toArray());
+
+                    String TagsStr = getString(R.string.text_weapon_tag) + " " + Arrays.toString(TagsFormatted.toArray());
                     TagsStr = TagsStr.replace("[", "");
                     TagsStr = TagsStr.replace("]", "");
+                    TagsStr = TagsStr.replace(",", "");
+                    TagsStr = TagsStr.replace(" ", "");
+                    TagsStr = TagsStr.replace("-", " ");
                     Tags.setText(TagsStr);
                 }
             }

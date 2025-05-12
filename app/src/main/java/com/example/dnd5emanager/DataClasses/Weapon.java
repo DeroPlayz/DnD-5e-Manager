@@ -69,11 +69,11 @@ public class Weapon {
     }
 
     private final Map<String, Integer> ExtraDamageDice = new HashMap<>(){{
-        this.put("D4", 0);
-        this.put("D6", 0);
-        this.put("D8", 0);
-        this.put("D10", 0);
-        this.put("D20", 0);
+        this.put("d4", 0);
+        this.put("d6", 0);
+        this.put("d8", 0);
+        this.put("d10", 0);
+        this.put("d20", 0);
     }};
 
     private boolean isSimple;
@@ -282,5 +282,9 @@ public class Weapon {
 
         this.normalRange = normalRange;
         this.maxRange = maxRange;
+    }
+
+    public String getDamage(){
+        return DiceCount + "d" + DamageDice + " " + DamageType + " damage";
     }
 }

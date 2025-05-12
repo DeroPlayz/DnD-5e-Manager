@@ -30,11 +30,18 @@
     <string name="text_title_main_menu">Gerente de 5e</string>
     <string name="spell_casting_time">Tiempo de Lanzamiento:</string>
     <string name="spell_range">Rango:</string>
-    <string name="spell_description">Descripción</string>
+    <string name="spell_description">Descripción:</string>
     <string name="spell_supported_classes">Clases Apoyadas:</string>
     <string name="spell_materials">Materiales:</string>
     <string name="spell_components">Componentes</string>
     <string name="spell_component_verbal">Verbal</string>
     <string name="spell_component_somatic">Somático</string>
     <string name="spell_component_material">Material</string>
+    <string name="text_weapon_description">Descripción:</string>
+    <string name="text_weapon_type">Tipo:</string>
+    <string name="text_weapon_rarity">Rareza:</string>
+    <string name="text_weapon_attack_bonus">Bonificación de Ataque:</string>
+    <string name="text_weapon_damage_bonus">Bonificación de Daño:</string>
+    <string name="text_weapon_tag">Etiquetas:</string>
+    <string name="text_weapon_projectile">Proyectil:</string>
 </resources>

@@ -368,5 +368,13 @@
     <string name="spell_component_verbal">Verbal</string>
     <string name="spell_component_somatic">Somatic</string>
     <string name="spell_component_material">Material</string>
+    <string name="text_weapon_description">Description:</string>
+    <string name="text_weapon_type">Type:</string>
+    <string name="text_weapon_rarity">Rarity:</string>
+    <string name="text_weapon_attack_bonus">Attack Bonus:</string>
+    <string name="text_weapon_damage_bonus">Damage Bonus:</string>
+    <string name="text_weapon_tag">Tags:</string>
+    <string name="text_weapon_projectile">Projectile:</string>
+    <string name="text_weapon_damage">Damage:</string>
 
 </resources>
