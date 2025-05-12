@@ -24,7 +24,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/spellSchool"
+                android:id="@+id/weaponDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -34,7 +34,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/spellCastingTime"
+                android:id="@+id/weaponType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -44,7 +44,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/spellRange"
+                android:id="@+id/weaponRarity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -54,7 +54,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/SpellDescription"
+                android:id="@+id/weaponBonuses"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -64,7 +64,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/supportedClasses"
+                android:id="@+id/weaponTags"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -74,7 +74,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/spellComponents"
+                android:id="@+id/weaponProjectile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"

@@ -1,17 +1,25 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.databinding.ActivityMainBinding.inflate;
+import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import com.example.dnd5emanager.DataClasses.Weapon;
 import com.example.dnd5emanager.databinding.WeaponsInformationBinding;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class weaponsInformation extends Fragment {
 private WeaponsInformationBinding binding;
@@ -29,6 +37,116 @@ private WeaponsInformationBinding binding;
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        String[] WeaponNames = Weapons.keySet().toArray(new String[0]);
+        Arrays.sort(WeaponNames);
+
+        Spinner WeaponSelected = view.findViewById(R.id.weaponSelector);
+        ArrayAdapter<String> weaponAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, WeaponNames);
+        weaponAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        WeaponSelected.setAdapter(weaponAdapter);
+
+
+        TextView Description = view.findViewById(R.id.weaponDescription);
+        TextView Type = view.findViewById(R.id.weaponType);
+        TextView Rarity = view.findViewById(R.id.weaponBonuses);
+        TextView Bonuses = view.findViewById(R.id.weaponTags);
+        TextView Tags = view.findViewById(R.id.weaponProjectile);
+        TextView Projectile = view.findViewById(R.id.weaponDescription);
+
+        WeaponSelected.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Weapon SelectedWeapon = Weapons.get(WeaponSelected.getSelectedItem().toString());
+                if (Description != null) {
+                    String Desc = getString(R.string.text_weapon_description) + " " + SelectedWeapon.getDescription();
+                    Description.setText(Desc);
+                }
+                if (Type != null) {
+                    String TypeStr = getString(R.string.text_weapon_type) + " " + SelectedWeapon.getType();
+                    Type.setText(TypeStr);
+                }
+                if (Rarity != null) {
+                    String RarityStr = getString(R.string.text_weapon_rarity) + " " + SelectedWeapon.getRarity();
+                    Rarity.setText(RarityStr);
+                }
+                if (Bonuses != null) {
+                    String BonusesStr = "";
+                    Bonuses.setText(BonusesStr);
+                }
+                if (Tags != null) {
+                    ArrayList<String> TagList = new ArrayList<>();
+                    if (SelectedWeapon.getSimple()) {
+                        TagList.add("Simple");
+                    }
+                    if (SelectedWeapon.getFinesse()) {
+                        TagList.add("Finesse");
+                    }
+                    if (SelectedWeapon.getVersatile()) {
+                        TagList.add("Versatile");
+                    }
+                    if (SelectedWeapon.getLight()){
+                        TagList.add("Light");
+                    }
+                    if (SelectedWeapon.getHeavy()){
+                        TagList.add("Heavy");
+                    }
+                    if (SelectedWeapon.getSilver()){
+                        TagList.add("Silver");
+                    }
+                    if (SelectedWeapon.getTwoHanded()) {
+                        TagList.add("Two-Handed");
+                    }
+                    if (SelectedWeapon.getRequiresAttunement()) {
+                        TagList.add("Requires Attunement");
+                    }
+                    if (SelectedWeapon.getAttuned()) {
+                        TagList.add("Attuned");
+                    }
+                    if (SelectedWeapon.getSpecial()) {
+                        TagList.add("Special");
+                    }
+                    if (SelectedWeapon.getCustom()) {
+                        TagList.add("Custom");
+                    }
+                    if (SelectedWeapon.getImprovised()) {
+                        TagList.add("Improvised");
+                    }
+                    if (SelectedWeapon.getHasReach()) {
+                        TagList.add("Reach");
+                    }
+                    if (SelectedWeapon.getRanged()) {
+                        TagList.add("Ranged");
+                    }
+                    if (SelectedWeapon.getLoading()) {
+                        TagList.add("Loading");
+                    }
+                    if (SelectedWeapon.getThrown()) {
+                        TagList.add("Thrown");
+                    }
+                    ArrayList<String> FirstHalf = new ArrayList<>();
+                    ArrayList<String> SecondHalf = new ArrayList<>();
+                    for(int i = 0; i < TagList.size(); i++){
+                        if(i < TagList.size()/2){
+                            FirstHalf.add(TagList.get(i));
+                        }
+                        else{
+                            SecondHalf.add(TagList.get(i));
+                        }
+                    }
+                    String TagsStr = getString(R.string.text_weapon_tag) + " " + Arrays.toString(FirstHalf.toArray()) + "\n" + Arrays.toString(SecondHalf.toArray());
+                    TagsStr = TagsStr.replace("[", "");
+                    TagsStr = TagsStr.replace("]", "");
+                    Tags.setText(TagsStr);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
 
         binding.backtodataview.setOnClickListener(v ->
                 NavHostFragment.findNavController(weaponsInformation.this).navigate(R.id.goToData));
