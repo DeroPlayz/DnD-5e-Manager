@@ -83,6 +83,16 @@
                 android:text="Components"
                 android:textColor="@color/black" />
 
+            <TextView
+                android:id="@+id/spellMaterials"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#896F6F"
+                android:padding="5dp"
+                android:text="Materials"
+                android:textColor="@color/black" />
+
         </LinearLayout>
     </ScrollView>
 
