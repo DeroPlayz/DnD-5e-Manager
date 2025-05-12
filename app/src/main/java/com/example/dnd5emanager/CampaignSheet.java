@@ -1,21 +1,14 @@
 package com.example.dnd5emanager;
 
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.databinding.CampaignSheetBinding;
-import com.example.dnd5emanager.databinding.DmManagerBinding;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.example.dnd5emanager.databinding.CampaignSheetBinding;
 
 
 public class CampaignSheet extends Fragment {
@@ -35,15 +28,7 @@ public class CampaignSheet extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        binding.BackToList.setOnClickListener(v ->
-                NavHostFragment.findNavController(CampaignSheet .this).navigate(R.id.goToMainMenu));
-        binding.toPlayerManager.setOnClickListener(v ->
-                NavHostFragment.findNavController(CampaignSheet .this).navigate(R.id.goToDMPlayerManager));
-
     }
-
-    public static ArrayList<PlayerCharacter> Characters = new ArrayList<PlayerCharacter>(List.of(new PlayerCharacter()));
 
     @Override
     public void onDestroyView() {

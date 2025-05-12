@@ -23,6 +23,12 @@
     <string name="dice_d12">12 Sided Die</string>
     <string name="help_search">🔍 Search for help</string>
     <string name="text_help_center">Help Center</string>
+    <string name="text_weapon_description">Description:</string>
+    <string name="text_weapon_type">Type:</string>
+    <string name="text_weapon_rarity">Rarity:</string>
+    <string name="text_weapon_attack_bonus">Attack Bonus:</string>
+    <string name="text_weapon_damage_bonus">Damage Bonus:</string>
+    <string name="text_weapon_tag">Tags:</string>
     <!-- Strings used for fragments for navigation -->
 
     <string-array name="alignment">
@@ -355,5 +361,6 @@
         <item>Sorcerer</item>
         <item>Warlock</item>
     </string-array>
+    <string name="text_weapon_projectile">Projectile:</string>
 
 </resources>

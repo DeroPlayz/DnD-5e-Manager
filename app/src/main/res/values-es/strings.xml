@@ -23,4 +23,12 @@
     <string name="dice_d10">Dado de 10 caras</string>
     <string name="dice_d12">Dado de 12 caras</string>
     <string name="help_search">🔍 Busca ayuda</string>
+    <string name="text_weapon_description">Descripción:</string>
+    <string name="text_weapon_type">Tipo:</string>
+    <string name="text_help_center">Centro de Ayuda:</string>
+    <string name="text_weapon_rarity">Rareza:</string>
+    <string name="text_weapon_attack_bonus">Bonificación de Ataque:</string>
+    <string name="text_weapon_damage_bonus">Bonificación de Daño:</string>
+    <string name="text_weapon_tag">Etiquetas:</string>
+    <string name="text_weapon_projectile">Proyectil:</string>
 </resources>

@@ -47,12 +47,12 @@ public class spellsInformation extends Fragment {
         spellAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         SpellSelected.setAdapter(spellAdapter);
 
-        TextView CastingTime = view.findViewById(R.id.spellCastingTime);
-        TextView Range = view.findViewById(R.id.spellRange);
-        TextView Description = view.findViewById(R.id.SpellDescription);
-        TextView SupportedClasses = view.findViewById(R.id.supportedClasses);
-        TextView Components = view.findViewById(R.id.spellComponents);
-        TextView SchoolAndStrength = view.findViewById(R.id.spellSchool);
+        TextView CastingTime = view.findViewById(R.id.weaponType);
+        TextView Range = view.findViewById(R.id.weaponRarity);
+        TextView Description = view.findViewById(R.id.weaponBonuses);
+        TextView SupportedClasses = view.findViewById(R.id.weaponTags);
+        TextView Components = view.findViewById(R.id.weaponProjectile);
+        TextView SchoolAndStrength = view.findViewById(R.id.weaponDescription);
 
         SpellSelected.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
