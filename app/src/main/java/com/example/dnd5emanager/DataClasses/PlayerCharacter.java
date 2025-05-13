@@ -1,6 +1,29 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Acrobatics;
+import static com.example.dnd5emanager.DataClasses.Constants.AnimalHandling;
+import static com.example.dnd5emanager.DataClasses.Constants.Arcana;
+import static com.example.dnd5emanager.DataClasses.Constants.Athletics;
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Deception;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
+import static com.example.dnd5emanager.DataClasses.Constants.History;
+import static com.example.dnd5emanager.DataClasses.Constants.Insight;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
+import static com.example.dnd5emanager.DataClasses.Constants.Intimidation;
+import static com.example.dnd5emanager.DataClasses.Constants.Investigation;
+import static com.example.dnd5emanager.DataClasses.Constants.Medicine;
+import static com.example.dnd5emanager.DataClasses.Constants.Nature;
+import static com.example.dnd5emanager.DataClasses.Constants.Perception;
+import static com.example.dnd5emanager.DataClasses.Constants.Performance;
+import static com.example.dnd5emanager.DataClasses.Constants.Persuasion;
+import static com.example.dnd5emanager.DataClasses.Constants.Religion;
+import static com.example.dnd5emanager.DataClasses.Constants.SleightOfHand;
+import static com.example.dnd5emanager.DataClasses.Constants.Stealth;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
+import static com.example.dnd5emanager.DataClasses.Constants.Survival;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -46,7 +69,6 @@ public class PlayerCharacter {
         return BaseAbilityScores.get(Ability) + Race.getAbilityBonus(Ability);
     }
 
-    /** @noinspection DataFlowIssue*/
     public int getAbilityMod(String Ability){
         int Value = getAbilityScore(Ability);
         if((Value - 10) % 2 == 0){
@@ -130,6 +152,32 @@ public class PlayerCharacter {
         }
         return Level;
     }
+
+    private final Map<Piece, Integer> Inventory = new HashMap<Piece, Integer>();
+    public void addToInventory(Piece piece){
+        Inventory.put(piece, 1);
+    }
+    public void addToInventory(Piece piece, int count){
+        Inventory.put(piece, count);
+    }
+
+    public void removeFromInventory(Piece piece){
+        if(Inventory.get(piece) < 2){
+            Inventory.remove(piece);
+        }
+        else{
+            Inventory.put(piece, Inventory.get(piece) - 1);
+        }
+    }
+    public void removeFromInventory(Piece piece, int count){
+        if(Inventory.get(piece) < count){
+            Inventory.put(piece, count);
+        }
+        else{
+            Inventory.remove(piece);
+        }
+    }
+
 
     int XP = 0;
     public void addXP(int XP){this.XP += XP; levelUpCheck();}

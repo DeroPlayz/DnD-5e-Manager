@@ -3,23 +3,7 @@ package com.example.dnd5emanager.DataClasses;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Weapon {
-    private String Name;
-    public void setName(String Name){
-        this.Name = Name;
-    }
-    public String getName(){
-        return Name;
-    }
-
-    private String Description;
-    public void setDescription(String Description){
-        this.Description = Description;
-    }
-    public String getDescription(){
-        return Description;
-    }
-
+public class Weapon extends Piece{
     private String Type;
     public void setType(String Type){
         this.Type = Type;
@@ -243,8 +227,7 @@ public class Weapon {
         boolean hasReach, boolean isRanged, boolean isLoading, boolean isThrown, String AmmunitionType,
         int normalRange, int maxRange
     ){
-        this.Name = Name;
-        this.Description = Description;
+        super(Name, Description);
         this.Type = Type;
         this.Rarity = Rarity;
 

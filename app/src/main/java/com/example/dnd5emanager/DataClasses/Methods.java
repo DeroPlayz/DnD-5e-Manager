@@ -776,6 +776,7 @@ public class Methods {
                             jsonObject.getString("rarity"),
                             jsonObject.getBoolean("requiresAttunement"),
                             jsonObject.getString("type"),
+                            jsonObject.optDouble("value", 0),
                             jsonObject.getString("valueCoin"),
                             jsonObject.getString("weightUnit")
                     ));
@@ -872,10 +873,10 @@ public class Methods {
                     JSONObject jsonObject = new JSONObject(jsonString);
                     Armor.put(jsonObject.getString("name"), new Armor(
                             jsonObject.getString("name"),
+                            jsonObject.getString("description"),
                             jsonObject.getInt("armor"),
                             jsonObject.getString("category"),
                             jsonObject.getString("cost"),
-                            jsonObject.getString("description"),
                             jsonObject.getBoolean("isAttuned"),
                             jsonObject.getBoolean("isCustom"),
                             jsonObject.getBoolean("isProficient"),
