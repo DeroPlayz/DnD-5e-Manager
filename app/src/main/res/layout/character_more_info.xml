@@ -82,7 +82,7 @@
         android:id="@+id/character_more_info_back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="#75C7AE"
         android:text="@string/navigate_back"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"

@@ -81,6 +81,7 @@
         android:layout_marginStart="230dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/purple"
         android:text="See Details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,11 +91,10 @@
         android:id="@+id/character_creator_page_two_back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="@color/turquoise"
         android:text="@string/navigate_back"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
