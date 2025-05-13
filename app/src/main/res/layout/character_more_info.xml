@@ -5,75 +5,82 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8193B4"
+    android:background="@color/purple"
     tools:context=".CharacterView">
 
     <ImageView
         android:id="@+id/about_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_about"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_about" />
 
     <ImageView
         android:id="@+id/personality_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_personality"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_personality" />
 
     <ImageView
         android:id="@+id/bonds_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_bonds"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_bonds" />
 
     <ImageView
         android:id="@+id/ideals_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_ideals"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_ideals" />
 
     <ImageView
         android:id="@+id/flaws_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_flaws"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_flaws" />
 
     <ImageView
         android:id="@+id/background_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_background" />
 
     <ImageView
         android:id="@+id/alignment_pencil"
-        android:layout_width="30dp"
+        android:layout_width="25dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/pencil"
+        android:background="@drawable/pencil"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/character_more_info_alignment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/character_more_info_alignment" />
@@ -102,7 +109,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="5dp"
         android:text="About:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -115,7 +122,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="Flaws:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -128,7 +135,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="Background:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -141,7 +148,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="Alignment:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -154,7 +161,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="Bonds:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -167,7 +174,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="5dp"
         android:text="Personality Traits:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -180,7 +187,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="Ideals:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/about_pencil"
@@ -193,7 +200,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="30dp"
         android:text="Racial Strength:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/character_more_info_alignment" />
@@ -205,7 +212,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:text="Racial Dexterity:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/racial_strength" />
@@ -217,7 +224,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:text="Racial Constitution:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/racial_dexterity" />
@@ -229,7 +236,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:text="Racial Intelligence:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/racial_constitution" />
@@ -241,7 +248,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:text="Racial Wisdom:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/racial_intelligence" />
@@ -253,7 +260,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:text="Racial Charisma:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/racial_wisdom" />
@@ -265,7 +272,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="5dp"
         android:text="ASI Strength:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/character_more_info_alignment" />
@@ -277,7 +284,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="ASI Dexterity:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/asi_strength" />
@@ -289,7 +296,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="ASI Constitution:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/asi_dexterity" />
@@ -301,7 +308,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="ASI Intelligence:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/asi_constitution" />
@@ -313,7 +320,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="ASI Wisdom:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/asi_intelligence" />
@@ -325,7 +332,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:text="ASI Charisma:"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/asi_wisdom" />

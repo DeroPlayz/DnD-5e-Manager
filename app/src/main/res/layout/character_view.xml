@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8193B4"
+    android:background="@color/purple"
     tools:context=".CharacterView">
 
     <TextView
@@ -16,8 +16,8 @@
         android:layout_marginTop="100dp"
         android:layout_marginEnd="80dp"
         android:text="Name"
-        android:textSize="24sp"
         android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -74,7 +74,7 @@
         android:id="@+id/characterViewMoreInformation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#6998FD"
+        android:backgroundTint="@color/turquoise"
         android:text="More Information"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -86,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="5dp"
-        android:backgroundTint="#6998FD"
+        android:backgroundTint="@color/turquoise"
         android:text="Dice"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -188,7 +188,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginTop="25dp"
-                app:cardBackgroundColor="#6999FF">
+                app:cardBackgroundColor="@color/purple">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/abilities_layout"
@@ -201,7 +201,7 @@
                         android:layout_height="60dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="20dp"
-                        app:cardBackgroundColor="#5E92FF"
+                        app:cardBackgroundColor="@color/turquoise"
                         app:layout_constraintEnd_toStartOf="@+id/dexterity_card"
                         app:layout_constraintTop_toTopOf="parent">
 
@@ -268,7 +268,7 @@
                         android:layout_marginStart="170dp"
                         android:layout_marginTop="30dp"
                         android:layout_marginEnd="170dp"
-                        app:cardBackgroundColor="#5E92FF"
+                        app:cardBackgroundColor="@color/turquoise"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -334,7 +334,7 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="30dp"
-                        app:cardBackgroundColor="#5E92FF"
+                        app:cardBackgroundColor="@color/turquoise"
                         app:layout_constraintStart_toEndOf="@+id/dexterity_card"
                         app:layout_constraintTop_toTopOf="parent">
 
@@ -399,7 +399,7 @@
                         android:layout_height="60dp"
                         android:layout_marginTop="110dp"
                         android:layout_marginEnd="20dp"
-                        app:cardBackgroundColor="#5E92FF"
+                        app:cardBackgroundColor="@color/turquoise"
                         app:layout_constraintEnd_toStartOf="@+id/wisdom_card"
                         app:layout_constraintTop_toTopOf="parent">
 
@@ -465,7 +465,7 @@
                         android:layout_marginStart="170dp"
                         android:layout_marginTop="110dp"
                         android:layout_marginEnd="170dp"
-                        app:cardBackgroundColor="#5E92FF"
+                        app:cardBackgroundColor="@color/turquoise"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -532,7 +532,7 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="110dp"
-                        app:cardBackgroundColor="#5E92FF"
+                        app:cardBackgroundColor="@color/turquoise"
                         app:layout_constraintStart_toEndOf="@+id/wisdom_card"
                         app:layout_constraintTop_toTopOf="parent">
 

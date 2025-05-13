@@ -76,13 +76,15 @@
 
     <Button
         android:id="@+id/toCharacterView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="230dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="200dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="@color/purple"
+        android:backgroundTint="@color/turquoise"
         android:text="See Details"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@id/character_creator_page_two_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/character_creator_page_two_back_button" />

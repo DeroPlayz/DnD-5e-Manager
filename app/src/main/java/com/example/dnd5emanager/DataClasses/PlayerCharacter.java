@@ -178,7 +178,6 @@ public class PlayerCharacter {
         }
     }
 
-
     int XP = 0;
     public void addXP(int XP){this.XP += XP; levelUpCheck();}
 

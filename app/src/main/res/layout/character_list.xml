@@ -13,7 +13,9 @@
         android:layout_height="50dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/turquoise"
         android:text="Create Character"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,11 +23,11 @@
         android:id="@+id/character_list_back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#75C7AE"
+        android:backgroundTint="@color/turquoise"
         android:text="@string/navigate_back"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/character_list_choose_character_text"
@@ -52,7 +54,9 @@
         android:id="@+id/character_list_view_selected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/turquoise"
         android:text="View Character"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/character_list_choose_character" />
