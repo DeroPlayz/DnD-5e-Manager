@@ -1,8 +1,8 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "warlock",
-    "blood_hunter"
+    "Warlock",
+    "Blood Hunter"
   ],
   "components": {
     "material": true,

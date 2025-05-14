@@ -1,7 +1,7 @@
 {
   "casting_time": "24 hours",
   "classes": [
-    "cleric"
+    "Cleric"
   ],
   "components": {
     "material": true,

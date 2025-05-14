@@ -10,9 +10,9 @@
     "level9"
   ],
   "classes": [
-    "bard",
-    "sorcerer",
-    "wizard"
+    "Bard",
+    "Sorcerer",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "120 feet",

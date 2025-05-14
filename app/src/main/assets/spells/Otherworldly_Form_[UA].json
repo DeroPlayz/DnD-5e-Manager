@@ -12,11 +12,11 @@
     "level6"
   ],
   "classes": [
-    "cleric",
-    "blood_hunter",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Cleric",
+    "Blood Hunter",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "Self",

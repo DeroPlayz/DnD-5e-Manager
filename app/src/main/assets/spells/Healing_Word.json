@@ -1,9 +1,9 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "bard",
-    "cleric",
-    "druid"
+    "Bard",
+    "Cleric",
+    "Druid"
   ],
   "components": {
     "material": false,

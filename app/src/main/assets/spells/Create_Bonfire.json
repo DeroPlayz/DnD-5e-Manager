@@ -1,14 +1,14 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "artificer__eb_",
-    "druid",
-    "sorcerer",
-    "warlock",
-    "blood_hunter",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Artificer EB",
+    "Druid",
+    "Sorcerer",
+    "Warlock",
+    "Blood Hunter",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": false,

@@ -1,15 +1,15 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "artificer",
-    "artificer__eb_",
-    "artificer__revised_",
-    "cleric",
-    "ranger__revised__",
-    "revised_ranger",
-    "ranger",
-    "paladin",
-    "druid"
+    "Artificer",
+    "Artificer EB",
+    "Artificer Revised",
+    "Cleric",
+    "Ranger Revised",
+    "Revised Ranger",
+    "Ranger",
+    "Paladin",
+    "Druid"
   ],
   "components": {
     "material": false,

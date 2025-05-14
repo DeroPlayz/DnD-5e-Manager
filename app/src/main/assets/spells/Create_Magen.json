@@ -1,7 +1,7 @@
 {
   "casting_time": "1 hour",
   "classes": [
-    "wizard"
+    "Wizard"
   ],
   "components": {
     "material": true,

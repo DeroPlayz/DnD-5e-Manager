@@ -11,10 +11,10 @@
     "level3"
   ],
   "classes": [
-    "blood_hunter",
-    "paladin",
-    "warlock",
-    "wizard"
+    "Blood Hunter",
+    "Paladin",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 bonus action",
   "range": "Self",

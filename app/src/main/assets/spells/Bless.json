@@ -1,8 +1,8 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "cleric",
-    "paladin"
+    "Cleric",
+    "Paladin"
   ],
   "components": {
     "material": true,

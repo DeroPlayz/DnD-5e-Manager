@@ -1,8 +1,8 @@
 {
   "casting_time": "1 reaction, which you take when you speak to another creature",
   "classes": [
-    "bard",
-    "wizard"
+    "Bard",
+    "Wizard"
   ],
   "components": {
     "material": true,

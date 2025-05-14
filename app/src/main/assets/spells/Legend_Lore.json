@@ -1,11 +1,11 @@
 {
   "casting_time": "10 minutes",
   "classes": [
-    "cleric",
-    "fighter",
-    "rogue",
-    "wizard",
-    "bard"
+    "Cleric",
+    "Fighter",
+    "Rogue",
+    "Wizard",
+    "Bard"
   ],
   "components": {
     "material": true,

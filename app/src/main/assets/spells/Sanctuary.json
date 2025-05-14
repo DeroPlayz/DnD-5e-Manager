@@ -1,10 +1,10 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "artificer",
-    "artificer__eb_",
-    "artificer__revised_",
-    "cleric"
+    "Artificer",
+    "Artificer EB",
+    "Artificer Revised",
+    "Cleric"
   ],
   "components": {
     "material": true,

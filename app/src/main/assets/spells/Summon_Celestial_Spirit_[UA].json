@@ -9,8 +9,8 @@
     "level5"
   ],
   "classes": [
-    "cleric",
-    "paladin"
+    "Cleric",
+    "Paladin"
   ],
   "casting_time": "1 action",
   "range": "90 feet",

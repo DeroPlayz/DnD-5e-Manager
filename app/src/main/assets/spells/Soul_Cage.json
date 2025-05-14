@@ -10,9 +10,9 @@
     "level6"
   ],
   "classes": [
-    "blood_hunter",
-    "warlock",
-    "wizard"
+    "Blood Hunter",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "Special",
   "range": "30 feet",

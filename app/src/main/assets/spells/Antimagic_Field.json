@@ -1,10 +1,10 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "cleric",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Cleric",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

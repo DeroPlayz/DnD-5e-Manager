@@ -1,10 +1,9 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "sorcerer",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Sorcerer",
+    "Fighter",
+    "Wizard"
   ],
   "components": {
     "material": false,

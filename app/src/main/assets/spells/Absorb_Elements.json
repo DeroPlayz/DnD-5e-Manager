@@ -1,15 +1,15 @@
 {
   "casting_time": "1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage",
   "classes": [
-    "artificer__eb_",
-    "druid",
-    "ranger__revised__",
-    "revised_ranger",
-    "ranger",
-    "fighter",
-    "rogue",
-    "sorcerer",
-    "wizard"
+    "Artificer EB",
+    "Druid",
+    "Ranger Revised",
+    "Revised Ranger",
+    "Ranger",
+    "Fighter",
+    "Rogue",
+    "Sorcerer",
+    "Wizard"
   ],
   "components": {
     "material": false,

@@ -9,8 +9,8 @@
     "level3"
   ],
   "classes": [
-    "sorcerer",
-    "wizard"
+    "Sorcerer",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "Self",

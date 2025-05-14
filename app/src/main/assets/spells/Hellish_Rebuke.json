@@ -1,8 +1,8 @@
 {
   "casting_time": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see.",
   "classes": [
-    "warlock",
-    "blood_hunter"
+    "Warlock",
+    "Blood Hunter"
   ],
   "components": {
     "material": false,

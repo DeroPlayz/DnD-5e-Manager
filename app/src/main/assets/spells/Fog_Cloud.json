@@ -1,14 +1,14 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "druid",
-    "ranger__revised__",
-    "revised_ranger",
-    "ranger",
-    "sorcerer",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Druid",
+    "Ranger Revised",
+    "Revised Ranger",
+    "Ranger",
+    "Sorcerer",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": false,

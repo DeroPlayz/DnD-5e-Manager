@@ -10,9 +10,9 @@
     "level8"
   ],
   "classes": [
-    "blood_hunter",
-    "warlock",
-    "wizard"
+    "Blood Hunter",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "150 feet",

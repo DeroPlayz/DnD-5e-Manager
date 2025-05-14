@@ -12,11 +12,11 @@
     "level9"
   ],
   "classes": [
-    "bard",
-    "blood_hunter",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Bard",
+    "Blood Hunter",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "90 feet",

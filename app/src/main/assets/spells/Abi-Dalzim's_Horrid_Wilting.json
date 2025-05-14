@@ -2,7 +2,7 @@
   "name": "Abi-Dalzim's Horrid Wilting",
   "type": "8th-level Necromancy",
   "level": "8",
-  "school": "necromancy",
+  "school": "Necromancy",
   "tags": [
     "blood_hunter",
     "sorcerer",
@@ -11,10 +11,10 @@
     "level8"
   ],
   "classes": [
-    "blood_hunter",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Blood Hunter",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "150 feet",

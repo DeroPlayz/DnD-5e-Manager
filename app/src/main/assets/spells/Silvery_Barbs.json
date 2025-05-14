@@ -1,9 +1,9 @@
 {
   "casting_time": "1 reaction",
   "classes": [
-    "bard",
-    "wizard",
-    "sorcerer"
+    "Bard",
+    "Wizard",
+    "Sorcerer"
   ],
   "components": {
     "material": false,

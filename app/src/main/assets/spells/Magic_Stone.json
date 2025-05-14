@@ -1,10 +1,10 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "artificer__eb_",
-    "druid",
-    "warlock",
-    "blood_hunter"
+    "Artificer EB",
+    "Druid",
+    "Warlock",
+    "Blood Hunter"
   ],
   "components": {
     "material": false,

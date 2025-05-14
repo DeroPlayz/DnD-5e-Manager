@@ -1,12 +1,12 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "warlock",
-    "wizard",
-    "blood_hunter__egw_",
-    "cleric",
-    "paladin",
-    "blood_hunter"
+    "Warlock",
+    "Wizard",
+    "Blood Hunter EGQ",
+    "Cleric",
+    "Paladin",
+    "Blood Hunter"
   ],
   "components": {
     "material": false,

@@ -1,7 +1,7 @@
 {
   "casting_time": "1 reaction",
   "classes": [
-    "wizard"
+    "Wizard"
   ],
   "components": {
     "material": false,

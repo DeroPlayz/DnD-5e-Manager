@@ -1,10 +1,10 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "artificer",
-    "artificer__revised_",
-    "cleric",
-    "paladin"
+    "Artificer",
+    "Artificer Revised",
+    "Cleric",
+    "Paladin"
   ],
   "components": {
     "material": true,

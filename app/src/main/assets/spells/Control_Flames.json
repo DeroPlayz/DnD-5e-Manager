@@ -1,11 +1,11 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "druid",
-    "sorcerer",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Druid",
+    "Sorcerer",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": false,

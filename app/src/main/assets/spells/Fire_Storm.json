@@ -1,9 +1,9 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "cleric",
-    "druid",
-    "sorcerer"
+    "Cleric",
+    "Druid",
+    "Sorcerer"
   ],
   "components": {
     "material": false,

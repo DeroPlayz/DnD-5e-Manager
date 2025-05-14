@@ -1,7 +1,7 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "bard"
+    "Bard"
   ],
   "components": {
     "material": false,

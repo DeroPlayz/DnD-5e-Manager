@@ -1,14 +1,14 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "artificer",
-    "sorcerer",
-    "ranger",
-    "artificer__eb_",
-    "artificer__revised_",
-    "ranger__revised_",
-    "revised_ranger",
-    "wizard"
+    "Artificer",
+    "Sorcerer",
+    "Ranger",
+    "Artificer EB",
+    "Artificer Revised",
+    "Ranger Revised",
+    "Revised Ranger",
+    "Wizard"
   ],
   "components": {
     "material": false,

@@ -1,12 +1,12 @@
 {
   "casting_time": "1 minute",
   "classes": [
-    "cleric",
-    "warlock",
-    "blood_hunter",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Cleric",
+    "Warlock",
+    "Blood Hunter",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

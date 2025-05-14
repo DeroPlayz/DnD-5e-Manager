@@ -1,11 +1,11 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "warlock",
-    "sorcerer",
-    "wizard",
-    "blood_hunter__egw_",
-    "blood_hunter"
+    "Warlock",
+    "Sorcerer",
+    "Wizard",
+    "Blood Hunter EGQ",
+    "Blood Hunter"
   ],
   "components": {
     "material": true,

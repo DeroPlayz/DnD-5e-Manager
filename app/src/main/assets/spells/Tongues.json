@@ -1,14 +1,14 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "bard",
-    "cleric",
-    "sorcerer",
-    "warlock",
-    "blood_hunter",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Bard",
+    "Cleric",
+    "Sorcerer",
+    "Warlock",
+    "Blood Hunter",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

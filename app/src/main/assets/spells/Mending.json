@@ -1,15 +1,15 @@
 {
   "casting_time": "1 minute",
   "classes": [
-    "artificer__eb_",
-    "artificer__revised_",
-    "bard",
-    "cleric",
-    "druid",
-    "sorcerer",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Artificer EB",
+    "Artificer Revised",
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Sorcerer",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

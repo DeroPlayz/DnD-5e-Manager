@@ -1,11 +1,11 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "artificer__eb_",
-    "druid",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Artificer EB",
+    "Druid",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

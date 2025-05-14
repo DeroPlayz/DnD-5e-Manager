@@ -13,12 +13,12 @@
     "level3"
   ],
   "classes": [
-    "bard",
-    "blood_hunter",
-    "druid",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Bard",
+    "Blood Hunter",
+    "Druid",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "90 feet",

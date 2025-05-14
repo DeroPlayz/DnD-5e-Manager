@@ -11,10 +11,10 @@
     "level5"
   ],
   "classes": [
-    "blood_hunter",
-    "sorcerer",
-    "warlock",
-    "wizard"
+    "Blood_hunter",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 bonus action",
   "range": "Self",

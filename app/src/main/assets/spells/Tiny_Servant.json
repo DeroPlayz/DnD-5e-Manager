@@ -1,8 +1,8 @@
 {
   "casting_time": "1 minute",
   "classes": [
-    "artificer__eb_",
-    "wizard"
+    "Artificer EB",
+    "Wizard"
   ],
   "components": {
     "material": false,

@@ -1,14 +1,14 @@
 {
   "casting_time": "1 minute",
   "classes": [
-    "artificer__eb_",
-    "druid",
-    "ranger",
-    "ranger__revised__",
-    "revised_ranger",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Artificer EB",
+    "Druid",
+    "Ranger",
+    "Ranger Revised",
+    "Revised Ranger",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

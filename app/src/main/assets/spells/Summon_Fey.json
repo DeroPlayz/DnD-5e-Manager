@@ -1,14 +1,14 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "warlock",
-    "ranger__revised_",
-    "wizard",
-    "blood_hunter__egw_",
-    "revised_ranger",
-    "druid",
-    "ranger",
-    "blood_hunter"
+    "Warlock",
+    "Ranger Revised",
+    "Wizard",
+    "Blood Hunter EGQ",
+    "Revised Ranger",
+    "Druid",
+    "Ranger",
+    "Blood Hunter"
   ],
   "components": {
     "material": true,

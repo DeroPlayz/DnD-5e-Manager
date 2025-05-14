@@ -1,11 +1,11 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "bard",
-    "druid",
-    "ranger__revised__",
-    "revised_ranger",
-    "ranger"
+    "Bard",
+    "Druid",
+    "Ranger Revised",
+    "Revised Ranger",
+    "Ranger"
   ],
   "components": {
     "material": false,

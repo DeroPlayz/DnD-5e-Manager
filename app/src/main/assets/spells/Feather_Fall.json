@@ -1,12 +1,12 @@
 {
   "casting_time": "1 reaction, which you take when you or a creature within 60 feet of you falls",
   "classes": [
-    "artificer__eb_",
-    "bard",
-    "sorcerer",
-    "fighter",
-    "rogue",
-    "wizard"
+    "Artificer EB",
+    "Bard",
+    "Sorcerer",
+    "Fighter",
+    "Rogue",
+    "Wizard"
   ],
   "components": {
     "material": true,

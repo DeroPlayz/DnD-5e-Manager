@@ -10,9 +10,9 @@
     "level2"
   ],
   "classes": [
-    "blood_hunter",
-    "warlock",
-    "wizard"
+    "Blood Hunter",
+    "Warlock",
+    "Wizard"
   ],
   "casting_time": "1 minute",
   "range": "Touch",

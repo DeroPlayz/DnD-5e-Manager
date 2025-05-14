@@ -1,9 +1,9 @@
 {
   "casting_time": "1 minute",
   "classes": [
-    "druid",
-    "warlock",
-    "blood_hunter"
+    "Druid",
+    "Warlock",
+    "Blood Hunter"
   ],
   "components": {
     "material": false,

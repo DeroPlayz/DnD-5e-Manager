@@ -1,8 +1,8 @@
 {
   "casting_time": "8 hours",
   "classes": [
-    "bard",
-    "druid"
+    "Bard",
+    "Druid"
   ],
   "components": {
     "material": true,

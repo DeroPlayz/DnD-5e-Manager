@@ -1,12 +1,12 @@
 {
   "casting_time": "10 minute",
   "classes": [
-    "warlock",
-    "sorcerer",
-    "wizard",
-    "blood_hunter__egw_",
-    "bard",
-    "blood_hunter"
+    "Warlock",
+    "Sorcerer",
+    "Wizard",
+    "Blood Hunter EGQ",
+    "Bard",
+    "Blood Hunter"
   ],
   "components": {
     "material": true,

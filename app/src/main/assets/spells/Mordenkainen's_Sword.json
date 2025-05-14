@@ -9,8 +9,8 @@
     "level7"
   ],
   "classes": [
-    "bard",
-    "wizard"
+    "Bard",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "60 feet",

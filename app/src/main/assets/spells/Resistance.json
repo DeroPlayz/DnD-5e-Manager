@@ -1,10 +1,10 @@
 {
   "casting_time": "1 action",
   "classes": [
-    "artificer__eb_",
-    "artificer__revised_",
-    "cleric",
-    "druid"
+    "Artificer EB",
+    "Artificer Revised",
+    "Cleric",
+    "Druid"
   ],
   "components": {
     "material": true,

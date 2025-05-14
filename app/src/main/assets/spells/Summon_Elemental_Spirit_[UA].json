@@ -10,9 +10,9 @@
     "level4"
   ],
   "classes": [
-    "druid",
-    "sorcerer",
-    "wizard"
+    "Druid",
+    "Sorcerer",
+    "Wizard"
   ],
   "casting_time": "1 action",
   "range": "90 feet",

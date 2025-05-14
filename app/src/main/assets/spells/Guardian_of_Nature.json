@@ -1,10 +1,10 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "revised_ranger",
-    "ranger",
-    "ranger__revised_",
-    "druid"
+    "Revised Ranger",
+    "Ranger",
+    "Ranger Revised_",
+    "Druid"
   ],
   "components": {
     "material": false,

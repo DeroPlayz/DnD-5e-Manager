@@ -1,8 +1,8 @@
 {
   "casting_time": "1 bonus action",
   "classes": [
-    "paladin",
-    "cleric"
+    "Paladin",
+    "Cleric"
   ],
   "components": {
     "material": false,
