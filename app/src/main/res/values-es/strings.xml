@@ -44,4 +44,6 @@
     <string name="text_weapon_damage_bonus">Bonificación de Daño:</string>
     <string name="text_weapon_tag">Etiquetas:</string>
     <string name="text_weapon_projectile">Proyectil:</string>
+    <string name="text_weapon_damage">Daño:</string>
+    <string name="text_abilities">Habilidades</string>
 </resources>
