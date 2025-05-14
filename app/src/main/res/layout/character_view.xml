@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple"
+    android:background="#979797"
     tools:context=".CharacterView">
 
     <TextView
@@ -112,7 +112,7 @@
                 android:id="@+id/important_stats_card"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:layout_marginTop="0dp">
+                app:cardBackgroundColor="#A6007600">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/health_layout"
@@ -126,6 +126,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="5dp"
                         android:text="Health:"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -136,6 +137,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="3dp"
                         android:text="/"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/character_view_health_text"
                         app:layout_constraintTop_toTopOf="@id/character_view_health_text" />
@@ -145,6 +147,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="/"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/character_view_current_health"
                         app:layout_constraintTop_toTopOf="@id/character_view_current_health" />
@@ -154,6 +157,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="/"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/character_view_health_divider"
                         app:layout_constraintTop_toTopOf="@id/character_view_health_divider" />
@@ -173,7 +177,7 @@
                         android:id="@+id/character_view_add_health"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:layout_marginStart="10dp"
+                        android:layout_marginStart="5dp"
                         android:background="#00372C2C"
                         android:scaleType="fitCenter"
                         android:src="@drawable/advantage"
@@ -181,6 +185,36 @@
                         app:layout_constraintTop_toTopOf="@id/character_view_max_health" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/notes_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                app:cardBackgroundColor="#A6007600">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/notes_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/notes_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Notes:"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -188,22 +222,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginTop="25dp"
-                app:cardBackgroundColor="@color/purple">
+                app:cardBackgroundColor="#A6007600">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/abilities_layout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <TextView
+                        android:id="@+id/abilitiesText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/text_abilities"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
                     <androidx.cardview.widget.CardView
                         android:id="@+id/strength_card"
                         android:layout_width="70dp"
                         android:layout_height="60dp"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
-                        app:cardBackgroundColor="@color/turquoise"
+                        app:cardBackgroundColor="#00FF0000"
                         app:layout_constraintEnd_toStartOf="@+id/dexterity_card"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/abilitiesText">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/strength_layout"
@@ -229,6 +277,7 @@
                                 android:layout_height="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="22sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/character_view_strength_mod"
@@ -241,6 +290,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_strength_value"
@@ -253,6 +303,7 @@
                                 android:padding="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@id/character_view_strength_value"
@@ -266,12 +317,11 @@
                         android:layout_width="70dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="170dp"
-                        android:layout_marginTop="30dp"
                         android:layout_marginEnd="170dp"
-                        app:cardBackgroundColor="@color/turquoise"
+                        app:cardBackgroundColor="#00FF0000"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintTop_toTopOf="@id/strength_card">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/dexterity_layout"
@@ -297,6 +347,7 @@
                                 android:layout_height="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="22sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/character_view_dexterity_mod"
@@ -309,6 +360,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value"
@@ -320,6 +372,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_dexterity_value"
@@ -333,10 +386,11 @@
                         android:layout_width="70dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="30dp"
-                        app:cardBackgroundColor="@color/turquoise"
+                        android:layout_marginEnd="20dp"
+                        app:cardBackgroundColor="#00FF0000"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/dexterity_card"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintTop_toTopOf="@id/strength_card">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constitution_layout"
@@ -361,6 +415,7 @@
                                 android:layout_height="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="22sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/character_view_constitution_mod"
@@ -373,6 +428,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value"
@@ -385,6 +441,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_constitution_value"
@@ -397,11 +454,13 @@
                         android:id="@+id/intelligence_card"
                         android:layout_width="70dp"
                         android:layout_height="60dp"
-                        android:layout_marginTop="110dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginEnd="20dp"
-                        app:cardBackgroundColor="@color/turquoise"
+                        app:cardBackgroundColor="#00FF0000"
                         app:layout_constraintEnd_toStartOf="@+id/wisdom_card"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/strength_card">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/intelligence_layout"
@@ -426,6 +485,7 @@
                                 android:layout_height="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="22sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/character_view_intelligence_mod"
@@ -438,6 +498,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value"
@@ -450,6 +511,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_intelligence_value"
@@ -463,12 +525,12 @@
                         android:layout_width="70dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="170dp"
-                        android:layout_marginTop="110dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginEnd="170dp"
-                        app:cardBackgroundColor="@color/turquoise"
+                        app:cardBackgroundColor="#00FF0000"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintTop_toBottomOf="@id/dexterity_card">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/wisdom_layout"
@@ -494,6 +556,7 @@
                                 android:layout_height="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="22sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/character_view_wisdom_mod"
@@ -506,6 +569,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value"
@@ -518,6 +582,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_wisdom_value"
@@ -531,10 +596,12 @@
                         android:layout_width="70dp"
                         android:layout_height="60dp"
                         android:layout_marginStart="20dp"
-                        android:layout_marginTop="110dp"
-                        app:cardBackgroundColor="@color/turquoise"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        app:cardBackgroundColor="#00FF0000"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/wisdom_card"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintTop_toBottomOf="@id/constitution_card">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/charisma_layout"
@@ -560,6 +627,7 @@
                                 android:layout_height="0dp"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="22sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/character_view_charisma_mod"
@@ -572,6 +640,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value"
@@ -584,6 +653,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="✏️"
                                 android:textAlignment="center"
+                                android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@+id/character_view_charisma_value"
@@ -601,21 +671,14 @@
                 android:id="@+id/skills_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp">
+                android:layout_marginTop="25dp"
+                app:cardBackgroundColor="#A6007600">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/skills_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp">
-
-                    <Space
-                        android:id="@+id/spacer"
-                        android:layout_width="1dp"
-                        android:layout_height="1dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/skills_text"
@@ -624,6 +687,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:text="Skills"
+                        android:textColor="@color/black"
                         android:textSize="25sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -633,11 +697,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Acrobatics"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/skills_text" />
+                        app:layout_constraintTop_toBottomOf="@id/skills_text"
+                        tools:layout_editor_absoluteX="89dp" />
 
                     <ImageView
                         android:id="@+id/acrobatics_icon"
@@ -653,11 +717,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Animal Handling"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/acrobatics" />
+                        app:layout_constraintTop_toBottomOf="@id/acrobatics"
+                        tools:layout_editor_absoluteX="33dp" />
 
                     <ImageView
                         android:id="@+id/animal_handling_icon"
@@ -673,11 +737,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Arcana"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/animal_handling" />
+                        app:layout_constraintTop_toBottomOf="@id/animal_handling"
+                        tools:layout_editor_absoluteX="125dp" />
 
                     <ImageView
                         android:id="@+id/arcana_icon"
@@ -693,11 +757,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Athletics"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@+id/arcana" />
+                        app:layout_constraintTop_toBottomOf="@+id/arcana"
+                        tools:layout_editor_absoluteX="109dp" />
 
                     <ImageView
                         android:id="@+id/athletics_icon"
@@ -713,11 +777,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Deception"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@+id/athletics" />
+                        app:layout_constraintTop_toBottomOf="@+id/athletics"
+                        tools:layout_editor_absoluteX="96dp" />
 
                     <ImageView
                         android:id="@+id/deception_icon"
@@ -733,11 +797,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="History"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/deception" />
+                        app:layout_constraintTop_toBottomOf="@id/deception"
+                        tools:layout_editor_absoluteX="125dp" />
 
                     <ImageView
                         android:id="@+id/history_icon"
@@ -753,11 +817,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Insight"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/history" />
+                        app:layout_constraintTop_toBottomOf="@id/history"
+                        tools:layout_editor_absoluteX="128dp" />
 
                     <ImageView
                         android:id="@+id/insight_icon"
@@ -773,11 +837,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Intimidation"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/insight" />
+                        app:layout_constraintTop_toBottomOf="@id/insight"
+                        tools:layout_editor_absoluteX="77dp" />
 
                     <ImageView
                         android:id="@+id/intimidation_icon"
@@ -793,11 +857,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:layout_marginEnd="10dp"
                         android:text="Investigation"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
-                        app:layout_constraintEnd_toStartOf="@id/spacer"
-                        app:layout_constraintTop_toBottomOf="@id/intimidation" />
+                        app:layout_constraintTop_toBottomOf="@id/intimidation"
+                        tools:layout_editor_absoluteX="68dp" />
 
                     <ImageView
                         android:id="@+id/investigation_icon"
@@ -814,6 +878,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Medicine"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/medicine_icon"
                         app:layout_constraintTop_toBottomOf="@id/skills_text" />
@@ -822,11 +887,10 @@
                         android:id="@+id/medicine_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/medicine"
                         app:layout_constraintBottom_toBottomOf="@id/medicine"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/medicine" />
+                        app:layout_constraintTop_toTopOf="@id/medicine"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/nature"
@@ -834,6 +898,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Nature"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/nature_icon"
                         app:layout_constraintTop_toBottomOf="@id/medicine" />
@@ -842,11 +907,10 @@
                         android:id="@+id/nature_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/nature"
                         app:layout_constraintBottom_toBottomOf="@id/nature"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/nature" />
+                        app:layout_constraintTop_toTopOf="@id/nature"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/perception"
@@ -854,6 +918,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Perception"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/perception_icon"
                         app:layout_constraintTop_toBottomOf="@id/nature" />
@@ -862,11 +927,10 @@
                         android:id="@+id/perception_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/perception"
                         app:layout_constraintBottom_toBottomOf="@id/perception"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/perception" />
+                        app:layout_constraintTop_toTopOf="@id/perception"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/performance"
@@ -874,6 +938,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Performance"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/performance_icon"
                         app:layout_constraintTop_toBottomOf="@id/perception" />
@@ -882,11 +947,10 @@
                         android:id="@+id/performance_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/performance"
                         app:layout_constraintBottom_toBottomOf="@id/performance"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/performance" />
+                        app:layout_constraintTop_toTopOf="@id/performance"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/persuasion"
@@ -894,6 +958,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Persuasion"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/persuasion_icon"
                         app:layout_constraintTop_toBottomOf="@id/performance" />
@@ -902,11 +967,10 @@
                         android:id="@+id/persuasion_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/persuasion"
                         app:layout_constraintBottom_toBottomOf="@id/persuasion"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/persuasion" />
+                        app:layout_constraintTop_toTopOf="@id/persuasion"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/religion"
@@ -914,6 +978,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Religion"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/religion_icon"
                         app:layout_constraintTop_toBottomOf="@id/persuasion" />
@@ -922,11 +987,10 @@
                         android:id="@+id/religion_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/religion"
                         app:layout_constraintBottom_toBottomOf="@id/religion"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/religion" />
+                        app:layout_constraintTop_toTopOf="@id/religion"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/sleight_of_hand"
@@ -934,6 +998,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Sleight of Hand"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/sleight_of_hand_icon"
                         app:layout_constraintTop_toBottomOf="@id/religion" />
@@ -942,11 +1007,10 @@
                         android:id="@+id/sleight_of_hand_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/sleight_of_hand"
                         app:layout_constraintBottom_toBottomOf="@id/sleight_of_hand"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/sleight_of_hand" />
+                        app:layout_constraintTop_toTopOf="@id/sleight_of_hand"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/stealth"
@@ -954,6 +1018,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Stealth"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/stealth_icon"
                         app:layout_constraintTop_toBottomOf="@id/sleight_of_hand" />
@@ -962,11 +1027,10 @@
                         android:id="@+id/stealth_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/stealth"
                         app:layout_constraintBottom_toBottomOf="@id/stealth"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/stealth" />
+                        app:layout_constraintTop_toTopOf="@id/stealth"
+                        tools:layout_editor_absoluteX="216dp" />
 
                     <TextView
                         android:id="@+id/survival"
@@ -974,6 +1038,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:text="Survival"
+                        android:textColor="@color/black"
                         android:textSize="22sp"
                         app:layout_constraintStart_toEndOf="@id/survival_icon"
                         app:layout_constraintTop_toBottomOf="@id/stealth" />
@@ -982,13 +1047,13 @@
                         android:id="@+id/survival_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:layout_marginStart="10dp"
                         android:src="@drawable/survival"
                         app:layout_constraintBottom_toBottomOf="@id/survival"
-                        app:layout_constraintStart_toEndOf="@id/spacer"
-                        app:layout_constraintTop_toTopOf="@id/survival" />
+                        app:layout_constraintTop_toTopOf="@id/survival"
+                        tools:layout_editor_absoluteX="216dp" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>

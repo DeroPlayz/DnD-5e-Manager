@@ -376,5 +376,6 @@
     <string name="text_weapon_tag">Tags:</string>
     <string name="text_weapon_projectile">Projectile:</string>
     <string name="text_weapon_damage">Damage:</string>
+    <string name="text_abilities">Abilities</string>
 
 </resources>
