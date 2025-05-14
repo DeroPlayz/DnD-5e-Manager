@@ -1,8 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
-public class Item {
-    String Name;
-    String Description;
+public class Item extends Piece{
     boolean isAmmo;
     boolean isCursed;
     boolean isEquipment;
@@ -14,15 +12,15 @@ public class Item {
     String Rarity;
     boolean requiresAttunement;
     String Type;
+    double Value;
     String CoinType;
     String WeightUnit;
 
     public Item(String name, String description, boolean isAmmo, boolean isCursed, boolean isEquipment, boolean isMagic,
         boolean isSpellcastingFocus, boolean isTemplate, boolean isValueMultiplier,
         boolean isWeightMultiplier, String rarity, boolean requiresAttunement, String type,
-        String coinType, String weightUnit){
-            this.Name = name;
-            this.Description = description;
+        double value, String coinType, String weightUnit){
+            super(name, description);
             this.isAmmo = isAmmo;
             this.isCursed = isCursed;
             this.isEquipment = isEquipment;
@@ -34,6 +32,7 @@ public class Item {
             this.Rarity = rarity;
             this.requiresAttunement = requiresAttunement;
             this.Type = type;
+            this.Value = value;
             this.CoinType = coinType;
             this.WeightUnit = weightUnit;
     }

@@ -2,10 +2,7 @@ package com.example.dnd5emanager.DataClasses;
 
 import static com.example.dnd5emanager.DataClasses.Constants.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class PlayerCharacter {
     private String Name;
@@ -46,7 +43,6 @@ public class PlayerCharacter {
         return BaseAbilityScores.get(Ability) + Race.getAbilityBonus(Ability);
     }
 
-    /** @noinspection DataFlowIssue*/
     public int getAbilityMod(String Ability){
         int Value = getAbilityScore(Ability);
         if((Value - 10) % 2 == 0){
@@ -129,6 +125,31 @@ public class PlayerCharacter {
             Level += PlayerClasses.get(i).getLevel();
         }
         return Level;
+    }
+
+    private final Map<Piece, Integer> Inventory = new HashMap<Piece, Integer>();
+    public void addToInventory(Piece piece){
+        Inventory.put(piece, 1);
+    }
+    public void addToInventory(Piece piece, int count){
+        Inventory.put(piece, count);
+    }
+
+    public void removeFromInventory(Piece piece){
+        if(Inventory.get(piece) < 2){
+            Inventory.remove(piece);
+        }
+        else{
+            Inventory.put(piece, Inventory.get(piece) - 1);
+        }
+    }
+    public void removeFromInventory(Piece piece, int count){
+        if(Inventory.get(piece) < count){
+            Inventory.put(piece, count);
+        }
+        else{
+            Inventory.remove(piece);
+        }
     }
 
     int XP = 0;

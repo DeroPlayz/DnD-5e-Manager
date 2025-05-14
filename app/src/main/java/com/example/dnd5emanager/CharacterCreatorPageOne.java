@@ -5,29 +5,17 @@ import static com.example.dnd5emanager.DataClasses.Constants.Races;
 import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
 
-import android.os.Build;
-import android.os.Bundle;
+import android.os.*;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.Spinner;
-import android.widget.TextView;
+import android.view.*;
+import android.widget.*;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.CharacterClass;
-import com.example.dnd5emanager.DataClasses.Constants;
-import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.DataClasses.Race;
-import com.example.dnd5emanager.DataClasses.Subclass;
-import com.example.dnd5emanager.DataClasses.Subrace;
+import com.example.dnd5emanager.DataClasses.*;
 import com.example.dnd5emanager.databinding.CharacterCreatorPageOneBinding;
 import com.google.android.material.snackbar.Snackbar;
 

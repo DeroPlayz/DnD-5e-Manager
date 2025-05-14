@@ -1,11 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
-import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
-import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
-import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
-import static com.example.dnd5emanager.DataClasses.Constants.Strength;
-import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;

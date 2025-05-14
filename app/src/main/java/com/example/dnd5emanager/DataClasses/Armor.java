@@ -1,14 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
-public class Armor{
-    private String Name;
-    public void setName(String name){
-        this.Name = name;
-    }
-    public String getName(){
-        return this.Name;
-    }
-
+public class Armor extends Piece{
     private int ArmorClass;
     public void setArmorClass(int armorClass){
         this.ArmorClass = armorClass;
@@ -31,14 +23,6 @@ public class Armor{
     }
     public String getCost() {
         return this.Cost;
-    }
-
-    private String Description;
-    public void setDescription(String description){
-        this.Description = description;
-    }
-    public String getDescription(){
-        return this.Description;
     }
 
     private boolean isAttuned;
@@ -97,14 +81,14 @@ public class Armor{
         return this.Weight;
     }
 
-    public Armor(String name, int ArmorClass, String armorType, String cost, String description, boolean isAttuned,
-         boolean isCustom, boolean isProficient, int maxModBonus, String modifierFormatted,
+    public Armor(String name, String description,
+         int ArmorClass, String armorType, String cost,
+         boolean isAttuned, boolean isCustom, boolean isProficient, int maxModBonus, String modifierFormatted,
          boolean stealthDisadvantage, String weight){
-            this.Name = name;
+            super(name, description);
             this.ArmorClass = ArmorClass;
             this.ArmorType = armorType;
             this.Cost = cost;
-            this.Description = description;
             this.isAttuned = isAttuned;
             this.isCustom = isCustom;
             this.isProficient = isProficient;

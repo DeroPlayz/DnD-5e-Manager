@@ -1,15 +1,12 @@
 package com.example.dnd5emanager;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.view.*;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.dnd5emanager.databinding.DmPlayerManagerBinding;
-
 
 public class DMPlayerManager extends Fragment {
 

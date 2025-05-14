@@ -1,15 +1,12 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
-import static com.example.dnd5emanager.DataClasses.Constants.Skills;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.view.*;
 import android.widget.TextView;
 
 import androidx.activity.OnBackPressedCallback;
@@ -17,10 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.CharacterClass;
-import com.example.dnd5emanager.DataClasses.Constants;
-import com.example.dnd5emanager.DataClasses.Methods;
-import com.example.dnd5emanager.DataClasses.PlayerCharacter;
+import com.example.dnd5emanager.DataClasses.*;
 import com.example.dnd5emanager.databinding.CharacterViewBinding;
 
 import java.io.File;
