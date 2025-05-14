@@ -3,13 +3,8 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.TextView;
+import android.view.*;
+import android.widget.*;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -18,8 +13,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.Weapon;
 import com.example.dnd5emanager.databinding.WeaponsInformationBinding;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 public class weaponsInformation extends Fragment {
 private WeaponsInformationBinding binding;

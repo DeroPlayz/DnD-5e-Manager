@@ -1,34 +1,8 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.Acrobatics;
-import static com.example.dnd5emanager.DataClasses.Constants.AnimalHandling;
-import static com.example.dnd5emanager.DataClasses.Constants.Arcana;
-import static com.example.dnd5emanager.DataClasses.Constants.Athletics;
-import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
-import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
-import static com.example.dnd5emanager.DataClasses.Constants.Deception;
-import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
-import static com.example.dnd5emanager.DataClasses.Constants.History;
-import static com.example.dnd5emanager.DataClasses.Constants.Insight;
-import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
-import static com.example.dnd5emanager.DataClasses.Constants.Intimidation;
-import static com.example.dnd5emanager.DataClasses.Constants.Investigation;
-import static com.example.dnd5emanager.DataClasses.Constants.Medicine;
-import static com.example.dnd5emanager.DataClasses.Constants.Nature;
-import static com.example.dnd5emanager.DataClasses.Constants.Perception;
-import static com.example.dnd5emanager.DataClasses.Constants.Performance;
-import static com.example.dnd5emanager.DataClasses.Constants.Persuasion;
-import static com.example.dnd5emanager.DataClasses.Constants.Religion;
-import static com.example.dnd5emanager.DataClasses.Constants.SleightOfHand;
-import static com.example.dnd5emanager.DataClasses.Constants.Stealth;
-import static com.example.dnd5emanager.DataClasses.Constants.Strength;
-import static com.example.dnd5emanager.DataClasses.Constants.Survival;
-import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class PlayerCharacter {
     private String Name;

@@ -1,23 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.Armor;
-import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
-import static com.example.dnd5emanager.DataClasses.Constants.Characters;
-import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
-import static com.example.dnd5emanager.DataClasses.Constants.Classes;
-import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
-import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
-import static com.example.dnd5emanager.DataClasses.Constants.Feats;
-import static com.example.dnd5emanager.DataClasses.Constants.Features;
-import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
-import static com.example.dnd5emanager.DataClasses.Constants.Items;
-import static com.example.dnd5emanager.DataClasses.Constants.Races;
-import static com.example.dnd5emanager.DataClasses.Constants.Spells;
-import static com.example.dnd5emanager.DataClasses.Constants.Strength;
-import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
-import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
-import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
-import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.content.Context;
 import android.content.res.AssetManager;

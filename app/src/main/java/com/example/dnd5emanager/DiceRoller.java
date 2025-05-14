@@ -6,21 +6,14 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
+import android.view.*;
+import android.view.animation.*;
 import android.widget.ImageView;
 
 import com.example.dnd5emanager.DataClasses.PlayerCharacter;
-import com.example.dnd5emanager.databinding.DataViewBinding;
-import com.example.dnd5emanager.databinding.DiceRollerBinding;
+import com.example.dnd5emanager.databinding.*;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
+import java.util.*;
 
 public class DiceRoller extends Fragment {
     private DiceRollerBinding binding;

@@ -1,31 +1,23 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
-import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.Spinner;
-import android.widget.TextView;
+import android.view.*;
+import android.widget.*;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.dnd5emanager.DataClasses.Background;
-import com.example.dnd5emanager.DataClasses.Constants;
+import com.example.dnd5emanager.DataClasses.*;
 import com.example.dnd5emanager.databinding.CharacterMoreInfoBinding;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 ///**
 // * A simple {@link Fragment} subclass.

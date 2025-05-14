@@ -1,16 +1,13 @@
 package com.example.dnd5emanager;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.*;
 
 import androidx.annotation.OptIn;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.media3.common.util.UnstableApi;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
+import androidx.navigation.*;
+import androidx.navigation.ui.*;
 
 import com.example.dnd5emanager.databinding.ActivityMainBinding;
 

@@ -1,7 +1,6 @@
 package com.example.dnd5emanager.DataClasses;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Weapon extends Piece{
     private String Type;

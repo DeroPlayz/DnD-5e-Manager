@@ -1,16 +1,11 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Constants.Characters;
-import static com.example.dnd5emanager.DataClasses.Constants.CurrentCharacter;
+import static com.example.dnd5emanager.DataClasses.Constants.*;
 import static com.example.dnd5emanager.DataClasses.Methods.LoadFromInternalStorage;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.TextView;
+import android.view.*;
+import android.widget.*;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
