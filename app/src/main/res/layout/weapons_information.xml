@@ -20,26 +20,104 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/weaponSelector">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weaponDamage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_damage"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/weaponDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_description"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/weaponType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_type"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/weaponRarity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_description"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/weaponBonuses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_attack_bonus"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/weaponTags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_tag"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/weaponProjectile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="@string/text_weapon_projectile"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
     <Spinner
         android:id="@+id/weaponSelector"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="70dp" />
+        app:layout_constraintTop_toBottomOf="@+id/backtodataview" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="5dp"
-        android:text="TextView"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/weaponSelector" />
 </androidx.constraintlayout.widget.ConstraintLayout>

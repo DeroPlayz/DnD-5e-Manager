@@ -18,6 +18,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.Spell;
 import com.example.dnd5emanager.databinding.SpellsInformationBinding;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 
@@ -47,31 +48,51 @@ public class spellsInformation extends Fragment {
         spellAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         SpellSelected.setAdapter(spellAdapter);
 
+        TextView SchoolAndStrength = view.findViewById(R.id.spellSchool);
         TextView CastingTime = view.findViewById(R.id.spellCastingTime);
         TextView Range = view.findViewById(R.id.spellRange);
-        TextView Description = view.findViewById(R.id.SpellDescription);
+        TextView Description = view.findViewById(R.id.spellDescription);
         TextView SupportedClasses = view.findViewById(R.id.supportedClasses);
         TextView Components = view.findViewById(R.id.spellComponents);
-        TextView SchoolAndStrength = view.findViewById(R.id.spellSchool);
+        TextView Materials = view.findViewById(R.id.spellMaterials);
 
         SpellSelected.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Spell SelectedSpell = Spells.get(SpellSelected.getSelectedItem().toString());
                 if (CastingTime != null) {
-                    CastingTime.setText("Casting Time: " + SelectedSpell.getCastTime());
+                    String CastTime = getString(R.string.spell_casting_time) + " " + SelectedSpell.getCastTime();
+                    CastingTime.setText(CastTime);
                 }
                 if (Range != null) {
-                    Range.setText("Range: " + SelectedSpell.getRange());
+                    String SpellRange = getString(R.string.spell_range) + " " + SelectedSpell.getRange();
+                    Range.setText(SpellRange);
                 }
                 if (Description != null) {
                     Description.setText(SelectedSpell.getDescription());
                 }
                 if (SupportedClasses != null) {
-                    SupportedClasses.setText("Supported Classes: " + Arrays.toString(SelectedSpell.getClasses()));
+                    String Classes = getString(R.string.spell_supported_classes) + " " + Arrays.toString(SelectedSpell.getClasses());
+                    SupportedClasses.setText(Classes);
                 }
                 if (Components != null) {
-                    Components.setText("Components: " + SelectedSpell.getMaterialCost());
+                    ArrayList<String> CompArray = new ArrayList<>();
+                    String Comp = getString(R.string.spell_components) + " ";
+                    if(SelectedSpell.getVerbal()){
+                        CompArray.add(getString(R.string.spell_component_verbal));
+                    }
+                    if(SelectedSpell.getSomatic()){
+                        CompArray.add(getString(R.string.spell_component_somatic));
+                    }
+                    if(SelectedSpell.getMaterial()) {
+                        CompArray.add(getString(R.string.spell_component_material));
+                    }
+                    Comp += Arrays.toString(CompArray.toArray());
+                    Components.setText(Comp);
+                }
+                if (Materials != null) {
+                    String Mats = getString(R.string.spell_materials) + " " + SelectedSpell.getMaterialCost();
+                    Materials.setText(Mats);
                 }
                 if(SchoolAndStrength != null){
                     String School = SelectedSpell.getSchool();
@@ -81,7 +102,7 @@ public class spellsInformation extends Fragment {
 
                     if(SelectedSpell.getLevel() == 0){
                         Level = "Cantrip";
-                        FinalString = School + " Cantrip";
+                        FinalString = School.substring(0,1).toUpperCase() + School.substring(1) + " Cantrip";
                     }
 
                     else{

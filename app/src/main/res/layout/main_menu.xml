@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Characters"
+            android:text="@string/navigate_characters"
             android:textColor="#FFFFFF"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_characters"
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Information"
+            android:text="@string/navigate_information"
             android:textColor="#FFFFFF"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_view_data"
@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Dice Roller"
+            android:text="@string/navigate_dice_roller"
             android:textColor="#FFFFFF"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_dice_roller"
@@ -132,10 +132,11 @@
 
         <TextView
             android:id="@+id/Title"
-            android:layout_width="148dp"
-            android:layout_height="70dp"
-            android:background="#CDCECE"
-            android:text="5e Manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#D5D6D6"
+            android:text="@string/text_title_main_menu"
             android:textColor="#000"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -159,11 +160,12 @@
             android:id="@+id/main_menu_help_page"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:layout_marginTop="4dp"
             android:contentDescription="Help page "
             android:scaleType="centerCrop"
             android:src="@drawable/skillcheck"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/Title" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

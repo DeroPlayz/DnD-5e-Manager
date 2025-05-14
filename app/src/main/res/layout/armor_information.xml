@@ -12,15 +12,11 @@
         android:id="@+id/backtodataview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="@color/turquoise"
+        android:text="@string/navigate_back"
         android:textColor="@color/black"
-        android:text="back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/armorSelector"
@@ -56,7 +52,8 @@
                 android:layout_marginTop="10dp"
                 android:background="#FFFFFF"
                 android:padding="5dp"
-                android:text="Armor Class:" />
+                android:text="Armor Class:"
+                android:textColor="#757575" />
 
             <TextView
                 android:id="@+id/armorPrice"
@@ -65,7 +62,8 @@
                 android:layout_marginTop="10dp"
                 android:background="#FFFFFF"
                 android:padding="5dp"
-                android:text="Price:" />
+                android:text="Price:"
+                android:textColor="#757575" />
 
             <TextView
                 android:id="@+id/armorWeight"
@@ -74,7 +72,8 @@
                 android:layout_marginTop="10dp"
                 android:background="#FFFFFF"
                 android:padding="5dp"
-                android:text="Weight:" />
+                android:text="Weight:"
+                android:textColor="#757575" />
 
             <TextView
                 android:id="@+id/armorType"
@@ -83,7 +82,8 @@
                 android:layout_marginTop="10dp"
                 android:background="#FFFFFF"
                 android:padding="5dp"
-                android:text="Type:" />
+                android:text="Type:"
+                android:textColor="#757575" />
         </LinearLayout>
     </ScrollView>
 
