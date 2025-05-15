@@ -68,26 +68,28 @@ public class CharacterView extends Fragment {
         loadStats(view);
         createNote("This is a test note!");
 
-//        for(int i = 0; i < CurrentCharacter.Notes.size(); i++) {
-//            new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Log.d("Note Editing", "So far, so good.");
-//                    EditText EditNote = new EditText(getContext());
-//                    EditNote.setText(NoteTextViews.get( .getText().toString().replace("About: ", ""));
-//                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
-//                        @Override
-//                        public void onDismiss(DialogInterface dialog) {
-//                            String Text = "About: " + EditAbout.getText().toString();
-//                            About.setText(Text);
-//                            CurrentCharacter.setAbout(EditAbout.getText().toString());
-//                        }
-//                    });
-//                    LoreEditor.setView(EditAbout);
-//                    LoreEditor.show();
-//                }
-//            }
-//        }
+        AlertDialog.Builder NoteEditor = new AlertDialog.Builder(requireContext());
+
+        for(int i = 0; i < CurrentCharacter.Notes.size(); i++) {
+            String currentNoteText = CurrentCharacter.Notes.get(i);
+            NoteTextViews.get(i).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.d("Note Editing", "So far, so good.");
+                    EditText EditNote = new EditText(getContext());
+                    EditNote.setText(currentNoteText);
+                    LoreEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(DialogInterface dialog) {
+                            String Text = EditNote.getText().toString();
+                            CurrenCharacter.Notes.get(i).setText(Text);
+                        }
+                    });
+                    NoteEditor.setView(EditNote);
+                    NoteEditor.show();
+                }
+            });
+        }
 
         loadNotes(view);
 
