@@ -51,7 +51,7 @@ public class Methods {
 
     public static void Initialize(Context c){
         mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(18);
+        executorService = Executors.newFixedThreadPool(9);
         executorService.execute(new Runnable() {
             @Override
             public void run() {
@@ -123,6 +123,7 @@ public class Methods {
                 try {
                     executorService.awaitTermination(60, TimeUnit.SECONDS);
                     LoadFromInternalStorage(c);
+                    executorService.shutdown();
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
