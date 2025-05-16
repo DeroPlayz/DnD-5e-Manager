@@ -4,11 +4,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="turquoise">#74C6AD</color>
     <color name="purple">#6750A3</color>
+    <color name="lavender">#9B86CA</color>
     <color name="menu_red">#D24141</color>
     <color name="menu_green">#3B802C</color>
     <color name="menu_orange">#DA8A2B</color>
     <color name="menu_grey">#d5D4D5D5</color>
     <color name="spell_page_maroon">#8F2F2F</color>
     <color name="weapon_page_blue">#69B3FD</color>
+    <color name="cv_green">#0F5D11</color>
     <color name="ccp1_blue">#B6E0E3</color>
 </resources>

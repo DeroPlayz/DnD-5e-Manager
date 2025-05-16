@@ -1,6 +1,23 @@
 package com.example.dnd5emanager.DataClasses;
 
-import static com.example.dnd5emanager.DataClasses.Constants.*;
+import static com.example.dnd5emanager.DataClasses.Constants.Armor;
+import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
+import static com.example.dnd5emanager.DataClasses.Constants.Characters;
+import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
+import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
+import static com.example.dnd5emanager.DataClasses.Constants.Feats;
+import static com.example.dnd5emanager.DataClasses.Constants.Features;
+import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
+import static com.example.dnd5emanager.DataClasses.Constants.Items;
+import static com.example.dnd5emanager.DataClasses.Constants.Races;
+import static com.example.dnd5emanager.DataClasses.Constants.Spells;
+import static com.example.dnd5emanager.DataClasses.Constants.Strength;
+import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
+import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
+import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
+import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -241,6 +258,15 @@ public class Methods {
             jsonObject.put("flaws", character.getFlaws());
             Log.d("Saved Flaws", String.valueOf(character.getFlaws()));
 
+            for(int i = 0; i < character.Notes.size() - 1; i++){
+                if(!character.Notes.get(i).isEmpty()){
+                    jsonObject.put("note" + i, character.Notes.get(i));
+                    Log.d("Saved Note #" + i, character.Notes.get(i));
+                }
+            }
+            jsonObject.put("note_count", character.Notes.size());
+            Log.d("Saved Note Count", String.valueOf(character.Notes.size()));
+
             String jsonString = jsonObject.toString();
 
             String filename = character.getName() + ".json"; // Or generate a unique filename
@@ -254,6 +280,7 @@ public class Methods {
         }
     }
 
+    /** @noinspection unchecked*/
     public static PlayerCharacter loadCharacter(Context context, String filename) {
         File file = new File(context.getFilesDir(), filename);
 
@@ -340,6 +367,13 @@ public class Methods {
 
             character.setFlaws(jsonObject.optString("flaws", ""));
             Log.d("Loaded Flaws", jsonObject.optString("flaws", ""));
+
+//            for(int i = 0; i < jsonObject.optInt("note_count", 0) - 1; i++){
+//                if(!jsonObject.optString("note" + i, "").isEmpty()){
+//                    character.Notes.add(jsonObject.optString("note" + i, ""));
+//                    Log.d("Note #" + i, character.Notes.get(i));
+//                }
+//            }
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
             return character;
@@ -759,8 +793,9 @@ public class Methods {
                             jsonObject.getString("rarity"),
                             jsonObject.getBoolean("requiresAttunement"),
                             jsonObject.getString("type"),
-                            jsonObject.optDouble("value", 0),
+                            jsonObject.optInt("value", 0),
                             jsonObject.getString("valueCoin"),
+                            jsonObject.optDouble("weight", 0.0),
                             jsonObject.getString("weightUnit")
                     ));
                     Log.d("Item #" + i, jsonObject.getString("name"));
@@ -898,6 +933,4 @@ public class Methods {
         }
         return arr;
     }
-
-
 }

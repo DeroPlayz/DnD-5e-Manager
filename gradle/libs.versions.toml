@@ -14,6 +14,7 @@ media3Exoplayer = "1.5.1"
 firebaseCrashlyticsBuildtools = "3.0.3"
 legacySupportV4 = "1.0.0"
 recyclerview = "1.3.0"
+scenecore = "1.0.0-alpha04"
 
 [libraries]
 exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
@@ -30,6 +31,7 @@ media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", versi
 firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
 legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
 recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+scenecore = { group = "androidx.xr.scenecore", name = "scenecore", version.ref = "scenecore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

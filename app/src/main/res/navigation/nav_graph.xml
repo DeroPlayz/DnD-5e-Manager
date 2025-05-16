@@ -46,13 +46,16 @@
         android:id="@+id/goToDMPlayerManager"
         app:destination="@id/DMPlayerManager" />
     <action
-        android:id="@+id/goTospellsInformation"
+        android:id="@+id/goToSpellsInformation"
         app:destination="@id/spellsInformation" />
     <action
-        android:id="@+id/goToweaponsInfomration"
+        android:id="@+id/goToItemsInformation"
+        app:destination="@id/itemsInformation" />
+    <action
+        android:id="@+id/goToWeaponsInformation"
         app:destination="@id/weaponsInformation" />
     <action
-        android:id="@+id/goToarmorInformation"
+        android:id="@+id/goToArmorInformation"
         app:destination="@id/armorInformation" />
     <fragment
         android:id="@+id/MainMenu"
@@ -153,6 +156,12 @@
         android:name="com.example.dnd5emanager.spellsInformation"
         android:label="fragment_spells_information"
         tools:layout="@layout/spells_information" />
+    <fragment
+        android:id="@+id/itemsInformation"
+        android:name="com.example.dnd5emanager.itemsInformation"
+        android:label="fragment_items_information"
+        tools:layout="@layout/items_information"/>
+
     <fragment
         android:id="@+id/weaponsInformation"
         android:name="com.example.dnd5emanager.weaponsInformation"

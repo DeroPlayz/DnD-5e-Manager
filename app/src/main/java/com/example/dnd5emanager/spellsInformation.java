@@ -3,8 +3,13 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.Spells;
 
 import android.os.Bundle;
-import android.view.*;
-import android.widget.*;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -13,7 +18,8 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.Spell;
 import com.example.dnd5emanager.databinding.SpellsInformationBinding;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class spellsInformation extends Fragment {
 
@@ -54,37 +60,37 @@ public class spellsInformation extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Spell SelectedSpell = Spells.get(SpellSelected.getSelectedItem().toString());
                 if (CastingTime != null) {
-                    String CastTime = getString(R.string.spell_casting_time) + " " + SelectedSpell.getCastTime();
+                    String CastTime = getString(R.string.colon_casting_time) + " " + SelectedSpell.getCastTime();
                     CastingTime.setText(CastTime);
                 }
                 if (Range != null) {
-                    String SpellRange = getString(R.string.spell_range) + " " + SelectedSpell.getRange();
+                    String SpellRange = getString(R.string.word_range) + " " + SelectedSpell.getRange();
                     Range.setText(SpellRange);
                 }
                 if (Description != null) {
                     Description.setText(SelectedSpell.getDescription());
                 }
                 if (SupportedClasses != null) {
-                    String Classes = getString(R.string.spell_supported_classes) + " " + Arrays.toString(SelectedSpell.getClasses());
+                    String Classes = getString(R.string.phrase_supported_classes) + " " + Arrays.toString(SelectedSpell.getClasses());
                     SupportedClasses.setText(Classes);
                 }
                 if (Components != null) {
                     ArrayList<String> CompArray = new ArrayList<>();
-                    String Comp = getString(R.string.spell_components) + " ";
+                    String Comp = getString(R.string.colon_components) + " ";
                     if(SelectedSpell.getVerbal()){
-                        CompArray.add(getString(R.string.spell_component_verbal));
+                        CompArray.add(getString(R.string.word_verbal));
                     }
                     if(SelectedSpell.getSomatic()){
-                        CompArray.add(getString(R.string.spell_component_somatic));
+                        CompArray.add(getString(R.string.word_somatic));
                     }
                     if(SelectedSpell.getMaterial()) {
-                        CompArray.add(getString(R.string.spell_component_material));
+                        CompArray.add(getString(R.string.word_material));
                     }
                     Comp += Arrays.toString(CompArray.toArray());
                     Components.setText(Comp);
                 }
                 if (Materials != null) {
-                    String Mats = getString(R.string.spell_materials) + " " + SelectedSpell.getMaterialCost();
+                    String Mats = getString(R.string.colon_materials) + " " + SelectedSpell.getMaterialCost();
                     Materials.setText(Mats);
                 }
                 if(SchoolAndStrength != null){
