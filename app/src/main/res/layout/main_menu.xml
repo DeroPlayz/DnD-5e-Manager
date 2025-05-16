@@ -136,15 +136,19 @@
             android:layout_marginTop="6dp"
             android:layout_marginBottom="6dp"
             android:background="@color/menu_grey"
+            android:padding="5px"
             android:text="@string/text_title_main_menu"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold"
+            app:cornerRadius="100dp"
             app:layout_constraintBottom_toBottomOf="@id/main_menu_settings"
             app:layout_constraintEnd_toStartOf="@id/main_menu_settings"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@id/main_menu_help_page"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.714"
             tools:layout_constraintTop_toTopOf="@id/main_menu_settings" />
 
         <ImageButton
