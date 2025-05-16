@@ -368,12 +368,12 @@ public class Methods {
             character.setFlaws(jsonObject.optString("flaws", ""));
             Log.d("Loaded Flaws", jsonObject.optString("flaws", ""));
 
-            for(int i = 0; i < jsonObject.optInt("note_count", 0) - 1; i++){
-                if(!jsonObject.optString("note" + i, "").isEmpty()){
-                    character.Notes.add(jsonObject.optString("note" + i, ""));
-                    Log.d("Note #" + i, character.Notes.get(i));
-                }
-            }
+//            for(int i = 0; i < jsonObject.optInt("note_count", 0) - 1; i++){
+//                if(!jsonObject.optString("note" + i, "").isEmpty()){
+//                    character.Notes.add(jsonObject.optString("note" + i, ""));
+//                    Log.d("Note #" + i, character.Notes.get(i));
+//                }
+//            }
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());
             return character;
@@ -793,8 +793,9 @@ public class Methods {
                             jsonObject.getString("rarity"),
                             jsonObject.getBoolean("requiresAttunement"),
                             jsonObject.getString("type"),
-                            jsonObject.optDouble("value", 0),
+                            jsonObject.optInt("value", 0),
                             jsonObject.getString("valueCoin"),
+                            jsonObject.optDouble("weight", 0.0),
                             jsonObject.getString("weightUnit")
                     ));
                     Log.d("Item #" + i, jsonObject.getString("name"));

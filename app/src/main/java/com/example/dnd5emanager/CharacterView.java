@@ -57,14 +57,13 @@ public class CharacterView extends Fragment {
 
         super.onViewCreated(view, savedInstanceState);
 
-        NoteLayout = view.findViewById(R.id.note_list);
-
         loadName(view);
         loadRace(view);
         loadClassAndLevel(view);
         loadHealth(view);
         loadStats(view);
 
+//        NoteLayout = view.findViewById(R.id.note_list);
 //        loadNotes(view);
 //
 //        AlertDialog.Builder NoteEditor = new AlertDialog.Builder(requireContext());

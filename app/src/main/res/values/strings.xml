@@ -1,29 +1,29 @@
 <resources>
     <string name="app_name">D&amp;D 5e Manager</string>
-    <string name="text_common_settings">Settings</string>
-    <string name="navigate_back">Back</string>
-    <string name="text_default_character_name">Name</string>
-    <string name="ability_text_strength">Strength</string>
-    <string name="ability_text_dexterity">Dexterity</string>
-    <string name="ability_text_constitution">Constitution</string>
-    <string name="ability_text_intelligence">Intelligence</string>
-    <string name="ability_text_wisdom">Wisdom</string>
-    <string name="ability_text_charisma">Charisma</string>
-    <string name="action_character_roll_stats">Roll Stats</string>
-    <string name="navigate_next">Next Page</string>
-    <string name="action_character_roll_health">Roll Health</string>
-    <string name="action_character_minimum_health">Minimum Health</string>
-    <string name="action_character_maximum_health">Maximum Health</string>
-    <string name="navigate_info_spells">Spells</string>
-    <string name="navigate_info_weapons" >Weapons</string>
-    <string name="navigate_info_armor">Armor</string>
+    <string name="word_settings">Settings</string>
+    <string name="word_back">Back</string>
+    <string name="word_name">Name</string>
+    <string name="word_strength">Strength</string>
+    <string name="word_dexterity">Dexterity</string>
+    <string name="word_constitution">Constitution</string>
+    <string name="word_intelligence">Intelligence</string>
+    <string name="word_wisdom">Wisdom</string>
+    <string name="word_charisma">Charisma</string>
+    <string name="phrase_roll_stats">Roll Stats</string>
+    <string name="word_next">Next Page</string>
+    <string name="phrase_roll_health">Roll Health</string>
+    <string name="phrase_minimum_health">Minimum Health</string>
+    <string name="phrase_maximum_health">Maximum Health</string>
+    <string name="word_spells">Spells</string>
+    <string name="word_weapons" >Weapons</string>
+    <string name="word_armor">Armor</string>
     <string name="dice_d6">6 Sided Die</string>
     <string name="dice_d8">8 Sided Die</string>
     <string name="dice_d10">10 Sided Die</string>
     <string name="dice_d12">12 Sided Die</string>
-    <string name="text_help_search">🔍 Search for help</string>
-    <string name="text_help_center_title">Help Center</string>
-    <string name="navigate_characters">Characters</string>
+    <string name="phrase_help_search">🔍 Search for help</string>
+    <string name="phrase_help_center">Help Center</string>
+    <string name="word_characters">Characters</string>
     <!-- Strings used for fragments for navigation -->
 
     <string-array name="alignment">
@@ -356,26 +356,29 @@
         <item>Sorcerer</item>
         <item>Warlock</item>
     </string-array>
-    <string name="navigate_information">Information</string>
-    <string name="navigate_dice_roller">Dice Roller</string>
-    <string name="text_title_main_menu">5e Manager</string>
-    <string name="spell_casting_time">Cast Time:</string>
-    <string name="spell_range">Range:</string>
-    <string name="spell_description">Description:</string>
-    <string name="spell_supported_classes">Supported Classes:</string>
-    <string name="spell_materials">Materials:</string>
-    <string name="spell_components">Components:</string>
-    <string name="spell_component_verbal">Verbal</string>
-    <string name="spell_component_somatic">Somatic</string>
-    <string name="spell_component_material">Material</string>
-    <string name="text_weapon_description">Description:</string>
-    <string name="text_weapon_type">Type:</string>
-    <string name="text_weapon_rarity">Rarity:</string>
-    <string name="text_weapon_attack_bonus">Attack Bonus:</string>
-    <string name="text_weapon_damage_bonus">Damage Bonus:</string>
-    <string name="text_weapon_tag">Tags:</string>
-    <string name="text_weapon_projectile">Projectile:</string>
-    <string name="text_weapon_damage">Damage:</string>
-    <string name="text_abilities">Abilities</string>
+    <string name="word_information">Information</string>
+    <string name="phrase_dice_roller">Dice Roller</string>
+    <string name="phrase_main_menu">5e Manager</string>
+    <string name="colon_casting_time">Cast Time:</string>
+    <string name="word_range">Range:</string>
+    <string name="phrase_supported_classes">Supported Classes:</string>
+    <string name="colon_materials">Materials:</string>
+    <string name="colon_components">Components:</string>
+    <string name="word_verbal">Verbal</string>
+    <string name="word_somatic">Somatic</string>
+    <string name="word_material">Material</string>
+    <string name="word_description">Description:</string>
+    <string name="colon_type">Type:</string>
+    <string name="colon_rarity">Rarity:</string>
+    <string name="colon_attack_bonus">Attack Bonus:</string>
+    <string name="colon_damage_bonus">Damage Bonus:</string>
+    <string name="colon_tag">Tags:</string>
+    <string name="colon_projectile">Projectile:</string>
+    <string name="colon_damage">Damage:</string>
+    <string name="word_abilities">Abilities</string>
+    <string name="word_items">Items</string>
+    <string name="colon_value">Value:</string>
+    <string name="colon_description">Description:</string>
+    <string name="colon_weight">Weight:</string>
 
 </resources>

@@ -3,8 +3,13 @@ package com.example.dnd5emanager;
 import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
 
 import android.os.Bundle;
-import android.view.*;
-import android.widget.*;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -13,7 +18,8 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.dnd5emanager.DataClasses.Weapon;
 import com.example.dnd5emanager.databinding.WeaponsInformationBinding;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class weaponsInformation extends Fragment {
 private WeaponsInformationBinding binding;
@@ -40,7 +46,7 @@ private WeaponsInformationBinding binding;
         weaponAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         WeaponSelected.setAdapter(weaponAdapter);
 
-        TextView Damage = view.findViewById(R.id.weaponDamage);
+        TextView Damage = view.findViewById(R.id.itemValue);
         TextView Description = view.findViewById(R.id.weaponDescription);
         TextView Type = view.findViewById(R.id.weaponType);
         TextView Rarity = view.findViewById(R.id.weaponRarity);
@@ -53,23 +59,23 @@ private WeaponsInformationBinding binding;
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Weapon SelectedWeapon = Weapons.get(WeaponSelected.getSelectedItem().toString());
                 if (Damage != null) {
-                    String DMG = getString(R.string.text_weapon_damage) + " " + SelectedWeapon.getDamage();
+                    String DMG = getString(R.string.colon_damage) + " " + SelectedWeapon.getDamage();
                     Damage.setText(DMG);
                 }
                 if (Description != null) {
-                    String Desc = getString(R.string.text_weapon_description) + " " + SelectedWeapon.getDescription();
+                    String Desc = getString(R.string.word_description) + " " + SelectedWeapon.getDescription();
                     Description.setText(Desc);
                 }
                 if (Type != null) {
-                    String TypeStr = getString(R.string.text_weapon_type) + " " + SelectedWeapon.getType();
+                    String TypeStr = getString(R.string.colon_type) + " " + SelectedWeapon.getType();
                     Type.setText(TypeStr);
                 }
                 if (Rarity != null) {
-                    String RarityStr = getString(R.string.text_weapon_rarity) + " " + SelectedWeapon.getRarity();
+                    String RarityStr = getString(R.string.colon_rarity) + " " + SelectedWeapon.getRarity();
                     Rarity.setText(RarityStr);
                 }
                 if (Bonuses != null) {
-                    String BonusesStr = getString(R.string.text_weapon_attack_bonus) + " " + SelectedWeapon.getAttackBonus();
+                    String BonusesStr = getString(R.string.colon_attack_bonus) + " " + SelectedWeapon.getAttackBonus();
 //                    BonusesStr += "\n" + getString(R.string.text_weapon_damage_bonus) + " " + SelectedWeapon.
                     Bonuses.setText(BonusesStr);
                 }
@@ -129,7 +135,7 @@ private WeaponsInformationBinding binding;
                         TagsFormatted.add(TagList.get(i).replace(" ", "-"));
                     }
 
-                    String TagsStr = getString(R.string.text_weapon_tag) + " " + Arrays.toString(TagsFormatted.toArray());
+                    String TagsStr = getString(R.string.colon_tag) + " " + Arrays.toString(TagsFormatted.toArray());
                     TagsStr = TagsStr.replace("[", "");
                     TagsStr = TagsStr.replace("]", "");
                     TagsStr = TagsStr.replace(",", "");
