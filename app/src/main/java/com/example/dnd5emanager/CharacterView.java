@@ -5,13 +5,11 @@ import static com.example.dnd5emanager.DataClasses.Constants.Skills;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.OnBackPressedCallback;
@@ -38,7 +36,6 @@ public class CharacterView extends Fragment {
 
     ViewGroup NoteLayout;
     ArrayList<TextView> NoteTextViews = new ArrayList<>();
-
 
     @Override
     public View onCreateView(
@@ -67,68 +64,67 @@ public class CharacterView extends Fragment {
         loadClassAndLevel(view);
         loadHealth(view);
         loadStats(view);
-        loadNotes(view);
 
-        AlertDialog.Builder NoteEditor = new AlertDialog.Builder(requireContext());
-
-        for(int i = 0; i < CurrentCharacter.Notes.size(); i++) {
-            String currentNoteText = CurrentCharacter.Notes.get(i);
-            int j = i;
-            NoteTextViews.get(i).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Log.d("Note Editing", "So far, so good.");
-                    EditText EditNote = new EditText(getContext());
-                    EditNote.setText(currentNoteText);
-                    NoteEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                        @Override
-                        public void onDismiss(DialogInterface dialog) {
-                            String Text = EditNote.getText().toString();
-                            if(!Text.isEmpty()){
-                                NoteTextViews.get(j).setText(Text);
-                                CurrentCharacter.Notes.set(j, Text);
-                                formatNotes(NoteTextViews.get(j));
-                                if(NoteTextViews.get(j).getParent() == null){
-                                    NoteLayout.addView(NoteTextViews.get(j), j);
-                                }
-                                loadNotes(view);
-                            }
-                        }
-                    });
-                    NoteEditor.setView(EditNote);
-                    NoteEditor.show();
-                }
-            });
-        }
-        Log.d("All", "set!");
-
-        binding.characterViewAddNote.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d("Note Editing", "So far, so good.");
-                EditText EditNote = new EditText(getContext());
-                EditNote.setText("");
-                NoteEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                    @Override
-                    public void onDismiss(DialogInterface dialog) {
-                        String Text = EditNote.getText().toString();
-                        if(!Text.isEmpty()){
-                            Log.d("New Note Contents", Text);
-                            createNote(Text);
-
-                            TextView NewNote = new TextView(requireContext());
-                            NewNote.setText(Text);
-                            formatNotes(NewNote);
-                            NoteTextViews.add(NewNote);
-                            NoteLayout.addView(NewNote);
-                            loadNotes(view);
-                        }
-                    }
-                });
-                NoteEditor.setView(EditNote);
-                NoteEditor.show();
-            }
-        });
+//        loadNotes(view);
+//
+//        AlertDialog.Builder NoteEditor = new AlertDialog.Builder(requireContext());
+//
+//        for(int i = 0; i < CurrentCharacter.Notes.size(); i++) {
+//            String currentNoteText = CurrentCharacter.Notes.get(i);
+//            int j = i;
+//            NoteTextViews.get(i).setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Log.d("Note Editing", "So far, so good.");
+//                    EditText EditNote = new EditText(getContext());
+//                    EditNote.setText(currentNoteText);
+//                    NoteEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+//                        @Override
+//                        public void onDismiss(DialogInterface dialog) {
+//                            String Text = EditNote.getText().toString();
+//                            if(!Text.isEmpty()){
+//                                NoteTextViews.get(j).setText(Text);
+//                                CurrentCharacter.Notes.set(j, Text);
+//                                formatNotes(NoteTextViews.get(j));
+//                                if(NoteTextViews.get(j).getParent() == null){
+//                                    NoteLayout.addView(NoteTextViews.get(j), j);
+//                                }
+//                                loadNotes(view);
+//                            }
+//                        }
+//                    });
+//                    NoteEditor.setView(EditNote);
+//                    NoteEditor.show();
+//                }
+//            });
+//        }
+//        Log.d("All", "set!");
+//
+//        binding.characterViewAddNote.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.d("Note Editing", "So far, so good.");
+//                EditText EditNote = new EditText(getContext());
+//                EditNote.setText("");
+//                NoteEditor.setOnDismissListener(new DialogInterface.OnDismissListener() {
+//                    @Override
+//                    public void onDismiss(DialogInterface dialog) {
+//                        String Text = EditNote.getText().toString();
+//                        if(!Text.isEmpty()){
+//                            Log.d("New Note Contents", Text);
+//                            createNote(Text);
+//                            TextView NewNote = new TextView(requireContext());
+//                            NewNote.setText(Text);
+//                            formatNotes(NewNote);
+//                            NoteTextViews.add(NewNote);
+//                            NoteLayout.addView(NewNote);
+//                        }
+//                    }
+//                });
+//                NoteEditor.setView(EditNote);
+//                NoteEditor.show();
+//            }
+//        });
 
         binding.characterViewBackButton.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
@@ -153,37 +149,37 @@ public class CharacterView extends Fragment {
         });
     }
 
-    public void formatNotes(TextView t){
-        t.setTextSize(18);
-        t.setTextColor(getResources().getColor(R.color.black, requireContext().getTheme()));
-        t.setLeft(10);
-        Log.d("Parent", t.getParent().toString());
-    }
+//    public void formatNotes(TextView t){
+//        t.setTextColor(getResources().getColor(R.color.black, requireContext().getTheme()));
+//        t.setTextSize(18);
+//        t.setLeft(10);
+//        t.setRight(0);
+//        t.setBottom(12);
+//    }
+//
+//    public void createNote(String s){
+//        CurrentCharacter.Notes.add(s);
+//    }
+//
+//    public void loadNotes(View view){
+//        if(!CurrentCharacter.Notes.isEmpty()){
+//            for(int i = 0; i < CurrentCharacter.Notes.size(); i++){
+//                TextView Note = new TextView(requireContext());
+//                Note.setText(CurrentCharacter.Notes.get(i));
+//                formatNotes(Note);
+//                NoteTextViews.add(Note);
+//                Log.d("Note #" + i, CurrentCharacter.Notes.get(i));
+////            }
+////            for(int i = 0; i < NoteTextViews.size(); i++){
+//                NoteLayout.addView(NoteTextViews.get(i), i);
+//            }
+//        }
+//        else{
+//            CurrentCharacter.Notes.add("");
+//            loadNotes(view);
+//        }
+//    }
 
-    public void createNote(String s){
-        CurrentCharacter.Notes.add(s);
-    }
-
-    public void loadNotes(View view){
-        if(!CurrentCharacter.Notes.isEmpty()){
-            for(int i = 0; i < CurrentCharacter.Notes.size(); i++){
-                TextView Note = new TextView(requireContext());
-                Note.setText(CurrentCharacter.Notes.get(i));
-                Note.setTextSize(18);
-                Note.setTextColor(getResources().getColor(R.color.black, requireContext().getTheme()));
-                Note.setLeft(10);
-                NoteTextViews.add(Note);
-                Log.d("Note #" + i, CurrentCharacter.Notes.get(i));
-            }
-            for(int i = 0; i < NoteTextViews.size(); i++){
-                NoteLayout.addView(NoteTextViews.get(i), i);
-            }
-        }
-        else{
-            CurrentCharacter.Notes.add("");
-            loadNotes(view);
-        }
-    }
     public void levelUp(PlayerCharacter Character, CharacterClass Class, int Level){
         Character.getPlayerClasses().get(Character.getPlayerClasses().indexOf(Class)).setLevel(Level);
         int CurrentLevel = Character.getPlayerClasses().get(Character.getPlayerClasses().indexOf(Class)).getLevel();

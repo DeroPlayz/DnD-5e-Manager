@@ -258,7 +258,7 @@ public class Methods {
             jsonObject.put("flaws", character.getFlaws());
             Log.d("Saved Flaws", String.valueOf(character.getFlaws()));
 
-            for(int i = 0; i < character.Notes.size(); i++){
+            for(int i = 0; i < character.Notes.size() - 1; i++){
                 if(!character.Notes.get(i).isEmpty()){
                     jsonObject.put("note" + i, character.Notes.get(i));
                     Log.d("Saved Note #" + i, character.Notes.get(i));
@@ -368,9 +368,11 @@ public class Methods {
             character.setFlaws(jsonObject.optString("flaws", ""));
             Log.d("Loaded Flaws", jsonObject.optString("flaws", ""));
 
-            for(int i = 0; i < jsonObject.optInt("note_count", 0); i++){
-                character.Notes.add(jsonObject.optString("note" + i, ""));
-                Log.d("Note #" + i, character.Notes.get(i));
+            for(int i = 0; i < jsonObject.optInt("note_count", 0) - 1; i++){
+                if(!jsonObject.optString("note" + i, "").isEmpty()){
+                    character.Notes.add(jsonObject.optString("note" + i, ""));
+                    Log.d("Note #" + i, character.Notes.get(i));
+                }
             }
 
             Log.d("LoadCharacter", "Character loaded from: " + file.getAbsolutePath());

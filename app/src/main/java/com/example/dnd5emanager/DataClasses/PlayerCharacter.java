@@ -230,8 +230,7 @@ public class PlayerCharacter {
     public void setAlignment(String Alignment){this.Alignment = Alignment;}
     public String getAlignment(){return Alignment;}
 
-    public ArrayList<String> Notes = new ArrayList<>();
-    public ArrayList<String> getNotes(){return Notes;}
+    public ArrayList<String> Notes = new ArrayList<>(0);
 
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.
