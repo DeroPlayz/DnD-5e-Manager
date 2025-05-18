@@ -60,7 +60,7 @@ public class CharacterView extends Fragment {
         loadName(view);
         loadRace(view);
         loadClassAndLevel(view);
-        loadHealth(view);
+        loadOtherInfo(view);
         loadStats(view);
 
 //        NoteLayout = view.findViewById(R.id.note_list);
@@ -130,12 +130,37 @@ public class CharacterView extends Fragment {
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
 
-        binding.characterViewDeleteCharacter.setOnClickListener(v -> {
+
+        AlertDialog.Builder DeleteConfirm = new AlertDialog.Builder(requireContext());
+        DeleteConfirm.setTitle("Delete Character");
+        DeleteConfirm.setMessage("Are you sure you want to delete this character?");
+        DeleteConfirm.setPositiveButton("Yes", (dialog, which) -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterList);
             File file = new File(requireContext().getFilesDir(), CurrentCharacter.getName() + ".json");
             CurrentCharacter = null;
             file.delete();
         });
+        DeleteConfirm.setNegativeButton("No", null);
+        DeleteConfirm.setCancelable(false);
+
+        binding.characterViewDeleteCharacter.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.d("Character Delete", "Confirmation");
+                    DeleteConfirm.show();
+                }
+        });
+
+        TextView InitiativeBonus = view.findViewById(R.id.initiative_text);
+        String IB = getString(R.string.colon_initiative) + " ";
+        if(CurrentCharacter.getAbilityMod("Dexterity") < 0) {
+            IB += "-";
+        }
+        else{
+            IB += "+";
+        }
+        IB += String.valueOf(CurrentCharacter.getAbilityMod("Dexterity"));
+        InitiativeBonus.setText(IB);
 
         binding.characterViewMoreInformation.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterMoreInfo);
@@ -223,9 +248,10 @@ public class CharacterView extends Fragment {
         CharacterLevel.setText(LevelDisp.toString());
     }
 
-    public void loadHealth(View view){
+    public void loadOtherInfo(View view){
         TextView CurrentHealth = view.findViewById(R.id.character_view_current_health);
         CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
+
         TextView MaxHealth = view.findViewById(R.id.character_view_max_health);
         MaxHealth.setText(String.valueOf(CurrentCharacter.getMaxHealth()));
 
@@ -240,6 +266,10 @@ public class CharacterView extends Fragment {
             CurrentHealth.setText(String.valueOf(CurrentCharacter.getCurrentHealth()));
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
+
+        TextView ArmorClass = view.findViewById(R.id.armor_class_text);
+        String AC = getString(R.string.colon_armor_class) + " " + CurrentCharacter.getBaseArmorClass();
+        ArmorClass.setText(AC);
     }
 
     /** @noinspection DataFlowIssue*/

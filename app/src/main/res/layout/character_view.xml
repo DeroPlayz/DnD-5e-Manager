@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#979797"
+    android:background="@color/menu_grey"
     tools:context=".CharacterView">
 
     <TextView
@@ -58,15 +58,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
+    <ImageButton
         android:id="@+id/character_view_delete_character"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:backgroundTint="#00FFFFFF"
-        android:padding="0dp"
-        android:text="🗑️"
-        android:textAlignment="center"
-        android:textSize="30sp"
+        android:background="@android:drawable/ic_menu_delete"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="multiply"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@id/character_view_back_button"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -97,7 +96,7 @@
         style="@android:style/Widget.Material.ScrollView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -111,132 +110,175 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/important_stats_card"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 app:cardBackgroundColor="@color/cv_green">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/health_layout"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/character_view_health_text"
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/health_layout"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:text="Health:"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:layout_height="wrap_content">
 
-                    <TextView
-                        android:id="@+id/character_view_current_health"
+                        <TextView
+                            android:id="@+id/character_view_health_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/colon_hp"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/character_view_current_health"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:text="/"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toEndOf="@id/character_view_health_text"
+                            app:layout_constraintTop_toTopOf="@id/character_view_health_text" />
+
+                        <TextView
+                            android:id="@+id/character_view_health_divider"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="/"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toEndOf="@id/character_view_current_health"
+                            app:layout_constraintTop_toTopOf="@id/character_view_current_health" />
+
+                        <TextView
+                            android:id="@+id/character_view_max_health"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="/"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toEndOf="@id/character_view_health_divider"
+                            app:layout_constraintTop_toTopOf="@id/character_view_health_divider" />
+
+                        <ImageButton
+                            android:id="@+id/character_view_subtract_health"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/disadvantage"
+                            android:backgroundTint="#000000"
+                            android:scaleType="fitCenter"
+                            app:layout_constraintStart_toEndOf="@id/character_view_max_health"
+                            app:layout_constraintTop_toTopOf="@id/character_view_health_text" />
+
+                        <ImageButton
+                            android:id="@+id/character_view_add_health"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="5dp"
+                            android:background="@drawable/advantage"
+                            android:backgroundTint="#000000"
+                            android:scaleType="fitCenter"
+                            app:layout_constraintStart_toEndOf="@id/character_view_subtract_health"
+                            app:layout_constraintTop_toTopOf="@id/character_view_max_health" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/armor_class_layout"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="3dp"
-                        android:text="/"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        app:layout_constraintStart_toEndOf="@id/character_view_health_text"
-                        app:layout_constraintTop_toTopOf="@id/character_view_health_text" />
+                        android:layout_height="wrap_content">
 
-                    <TextView
-                        android:id="@+id/character_view_health_divider"
+                        <TextView
+                            android:id="@+id/armor_class_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/colon_armor_class"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/initiative_layout"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="/"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        app:layout_constraintStart_toEndOf="@id/character_view_current_health"
-                        app:layout_constraintTop_toTopOf="@id/character_view_current_health" />
+                        android:layout_height="wrap_content">
 
-                    <TextView
-                        android:id="@+id/character_view_max_health"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="/"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        app:layout_constraintStart_toEndOf="@id/character_view_health_divider"
-                        app:layout_constraintTop_toTopOf="@id/character_view_health_divider" />
+                        <TextView
+                            android:id="@+id/initiative_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/colon_initiative"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <ImageButton
-                        android:id="@+id/character_view_subtract_health"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginStart="10dp"
-                        android:background="@drawable/disadvantage"
-                        android:backgroundTint="#000000"
-                        android:scaleType="fitCenter"
-                        app:layout_constraintStart_toEndOf="@id/character_view_max_health"
-                        app:layout_constraintTop_toTopOf="@id/character_view_health_text" />
-
-                    <ImageButton
-                        android:id="@+id/character_view_add_health"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginStart="5dp"
-                        android:background="@drawable/advantage"
-                        android:backgroundTint="#000000"
-                        android:scaleType="fitCenter"
-                        app:layout_constraintStart_toEndOf="@id/character_view_subtract_health"
-                        app:layout_constraintTop_toTopOf="@id/character_view_max_health" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:id="@+id/notes_card"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_marginTop="25dp"-->
-<!--                app:cardBackgroundColor="@color/cv_green">-->
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:id="@+id/notes_card"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginTop="25dp"-->
+            <!--                app:cardBackgroundColor="@color/cv_green">-->
 
-<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--                    android:id="@+id/notes_layout"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginBottom="20dp">-->
+            <!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+            <!--                    android:id="@+id/notes_layout"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginBottom="20dp">-->
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/notes_text"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginStart="10dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:text="Notes:"-->
-<!--                        android:textColor="@color/black"-->
-<!--                        android:textSize="22sp"-->
-<!--                        app:layout_constraintStart_toStartOf="parent"-->
-<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/notes_text"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="10dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:text="Notes:"-->
+            <!--                        android:textColor="@color/black"-->
+            <!--                        android:textSize="22sp"-->
+            <!--                        app:layout_constraintStart_toStartOf="parent"-->
+            <!--                        app:layout_constraintTop_toTopOf="parent" />-->
 
-<!--                    <ImageButton-->
-<!--                        android:id="@+id/character_view_add_note"-->
-<!--                        android:layout_width="40dp"-->
-<!--                        android:layout_height="40dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:layout_marginEnd="10dp"-->
-<!--                        android:background="@drawable/advantage"-->
-<!--                        android:backgroundTint="#000000"-->
-<!--                        android:scaleType="fitCenter"-->
-<!--                        app:layout_constraintEnd_toEndOf="parent"-->
-<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+            <!--                    <ImageButton-->
+            <!--                        android:id="@+id/character_view_add_note"-->
+            <!--                        android:layout_width="40dp"-->
+            <!--                        android:layout_height="40dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:layout_marginEnd="10dp"-->
+            <!--                        android:background="@drawable/advantage"-->
+            <!--                        android:backgroundTint="#000000"-->
+            <!--                        android:scaleType="fitCenter"-->
+            <!--                        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                        app:layout_constraintTop_toTopOf="parent" />-->
 
-<!--                    <LinearLayout-->
-<!--                        android:id="@+id/note_list"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginTop="10dp"-->
-<!--                        android:orientation="vertical"-->
-<!--                        app:layout_constraintStart_toStartOf="parent"-->
-<!--                        app:layout_constraintTop_toBottomOf="@id/character_view_add_note"></LinearLayout>-->
+            <!--                    <LinearLayout-->
+            <!--                        android:id="@+id/note_list"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginTop="10dp"-->
+            <!--                        android:orientation="vertical"-->
+            <!--                        app:layout_constraintStart_toStartOf="parent"-->
+            <!--                        app:layout_constraintTop_toBottomOf="@id/character_view_add_note"></LinearLayout>-->
 
-<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+            <!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-<!--            </androidx.cardview.widget.CardView>-->
+            <!--            </androidx.cardview.widget.CardView>-->
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/abilities_card"
@@ -737,8 +779,8 @@
                         android:id="@+id/acrobatics_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/acrobatics"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/acrobatics"
                         app:layout_constraintEnd_toStartOf="@id/acrobatics"
                         app:layout_constraintTop_toTopOf="@id/acrobatics" />
@@ -747,7 +789,7 @@
                         android:id="@+id/animal_handling"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Animal Handling"
                         android:textColor="@color/black"
@@ -759,8 +801,8 @@
                         android:id="@+id/animal_handling_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/animal_handling"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/animal_handling"
                         app:layout_constraintEnd_toStartOf="@id/animal_handling"
                         app:layout_constraintTop_toTopOf="@id/animal_handling" />
@@ -769,7 +811,7 @@
                         android:id="@+id/arcana"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Arcana"
                         android:textColor="@color/black"
@@ -781,8 +823,8 @@
                         android:id="@+id/arcana_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/arcana"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/arcana"
                         app:layout_constraintEnd_toStartOf="@id/arcana"
                         app:layout_constraintTop_toTopOf="@id/arcana" />
@@ -791,7 +833,7 @@
                         android:id="@+id/athletics"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Athletics"
                         android:textColor="@color/black"
@@ -803,8 +845,8 @@
                         android:id="@+id/athletics_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/athletics"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/athletics"
                         app:layout_constraintEnd_toStartOf="@id/athletics"
                         app:layout_constraintTop_toTopOf="@id/athletics" />
@@ -813,7 +855,7 @@
                         android:id="@+id/deception"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Deception"
                         android:textColor="@color/black"
@@ -825,8 +867,8 @@
                         android:id="@+id/deception_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/deception"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/deception"
                         app:layout_constraintEnd_toStartOf="@id/deception"
                         app:layout_constraintTop_toTopOf="@id/deception" />
@@ -835,7 +877,7 @@
                         android:id="@+id/history"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="History"
                         android:textColor="@color/black"
@@ -847,8 +889,8 @@
                         android:id="@+id/history_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/history"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/history"
                         app:layout_constraintEnd_toStartOf="@id/history"
                         app:layout_constraintTop_toTopOf="@id/history" />
@@ -857,7 +899,7 @@
                         android:id="@+id/insight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Insight"
                         android:textColor="@color/black"
@@ -869,8 +911,8 @@
                         android:id="@+id/insight_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/insight"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/insight"
                         app:layout_constraintEnd_toStartOf="@id/insight"
                         app:layout_constraintTop_toTopOf="@id/insight" />
@@ -879,7 +921,7 @@
                         android:id="@+id/intimidation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Intimidation"
                         android:textColor="@color/black"
@@ -891,8 +933,8 @@
                         android:id="@+id/intimidation_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/intimidation"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/intimidation"
                         app:layout_constraintEnd_toStartOf="@id/intimidation"
                         app:layout_constraintTop_toTopOf="@id/intimidation" />
@@ -901,7 +943,7 @@
                         android:id="@+id/investigation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginEnd="10dp"
                         android:text="Investigation"
                         android:textColor="@color/black"
@@ -913,8 +955,8 @@
                         android:id="@+id/investigation_icon"
                         android:layout_width="30dp"
                         android:layout_height="0dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/insight"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/investigation"
                         app:layout_constraintEnd_toStartOf="@id/investigation"
                         app:layout_constraintTop_toTopOf="@id/investigation" />
@@ -935,8 +977,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/medicine"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/medicine"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/medicine" />
@@ -945,7 +987,7 @@
                         android:id="@+id/nature"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Nature"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -957,8 +999,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/nature"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/nature"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/nature" />
@@ -967,7 +1009,7 @@
                         android:id="@+id/perception"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Perception"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -979,8 +1021,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/perception"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/perception"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/perception" />
@@ -989,7 +1031,7 @@
                         android:id="@+id/performance"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Performance"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -1001,8 +1043,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/performance"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/performance"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/performance" />
@@ -1011,7 +1053,7 @@
                         android:id="@+id/persuasion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Persuasion"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -1023,8 +1065,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/persuasion"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/persuasion"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/persuasion" />
@@ -1033,7 +1075,7 @@
                         android:id="@+id/religion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Religion"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -1045,8 +1087,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/religion"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/religion"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/religion" />
@@ -1055,7 +1097,7 @@
                         android:id="@+id/sleight_of_hand"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Sleight of Hand"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -1067,8 +1109,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/sleight_of_hand"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/sleight_of_hand"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/sleight_of_hand" />
@@ -1077,7 +1119,7 @@
                         android:id="@+id/stealth"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Stealth"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -1089,8 +1131,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/stealth"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/stealth"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/stealth" />
@@ -1099,7 +1141,7 @@
                         android:id="@+id/survival"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="15dp"
                         android:text="Survival"
                         android:textColor="@color/black"
                         android:textSize="22sp"
@@ -1111,8 +1153,8 @@
                         android:layout_width="30dp"
                         android:layout_height="0dp"
                         android:layout_marginStart="10dp"
-                        android:backgroundTint="@color/black"
                         android:background="@drawable/survival"
+                        android:backgroundTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="@id/survival"
                         app:layout_constraintStart_toEndOf="@id/spacer"
                         app:layout_constraintTop_toTopOf="@id/survival" />

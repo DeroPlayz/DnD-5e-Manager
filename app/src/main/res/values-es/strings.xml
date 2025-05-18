@@ -48,4 +48,8 @@
     <string name="word_items">Elementos</string>
     <string name="colon_value">Valor:</string>
     <string name="colon_description">Descripción:</string>
+    <string name="colon_weight">Peso:</string>
+    <string name="colon_hp">PV:</string>
+    <string name="colon_armor_class">Clase de Armadura:</string>
+    <string name="colon_initiative">Iniciativa:</string>
 </resources>

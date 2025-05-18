@@ -3,6 +3,8 @@ package com.example.dnd5emanager.DataClasses;
 import com.example.dnd5emanager.DiceRoller;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CharacterClass {
     private final String Name;
@@ -19,6 +21,15 @@ public class CharacterClass {
     private int Level = 1;
         public void setLevel(int Level){this.Level = Level;}
         public int getLevel(){return Level;}
+
+    private Map<String, Integer> SaveProfs = new HashMap<>() {{
+        put("Strength",1);
+        put("Dexterity",1);
+        put("Constitution",1);
+        put("Intelligence",1);
+        put("Wisdom",1);
+        put("Charisma",1);
+    }};
 
     private ArrayList<Feature> ClassFeatures;
         public void addFeature(Feature Feature){
@@ -44,7 +55,9 @@ public class CharacterClass {
 
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,
         int attacksByLevel, int baseAC, String[] selectableClassSkills,
-        int selectableSkillCount/*, ArrayList<Feature> ClassFeatures*/){
+        int selectableSkillCount/*,
+        int StrProf, int DexProf, int ConProf, int IntProf, int WisProf, int ChaProf
+        /*, ArrayList<Feature> ClassFeatures*/){
             Name = name;
             HitDie = hitDie;
             ArmorProficiencies = armorProficiencies;
@@ -52,6 +65,13 @@ public class CharacterClass {
             BaseAC = baseAC;
             SelectableClassSkills = selectableClassSkills;
             SelectableSkillCount = selectableSkillCount;
+//            SaveProfs.put("Strength",StrProf);
+//            SaveProfs.put("Dexterity",DexProf);
+//            SaveProfs.put("Constitution",ConProf);
+//            SaveProfs.put("Intelligence",IntProf);
+//            SaveProfs.put("Wisdom",WisProf);
+//            SaveProfs.put("Charisma",ChaProf);
+        
 //            this.ClassFeatures = ClassFeatures;
     }
 

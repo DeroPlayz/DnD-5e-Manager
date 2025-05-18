@@ -235,6 +235,9 @@ public class PlayerCharacter {
     //Everything in D&D has an Armor Class. When you attack it, you roll to land the attack.
     //If your roll equals your target's Armor Class or is HIGHER than it, you hit.
     private int ArmorClass;
+    public int getBaseArmorClass(){
+        return 10 + this.getAbilityMod("Dexterity");
+    }
 
     //Builds the character (duh).
     public PlayerCharacter(){

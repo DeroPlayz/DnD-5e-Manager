@@ -380,5 +380,8 @@
     <string name="colon_value">Value:</string>
     <string name="colon_description">Description:</string>
     <string name="colon_weight">Weight:</string>
+    <string name="colon_hp">HP:</string>
+    <string name="colon_armor_class">Armor Class:</string>
+    <string name="colon_initiative">Initiative:</string>
 
 </resources>
