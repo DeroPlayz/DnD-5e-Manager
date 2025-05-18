@@ -383,5 +383,6 @@
     <string name="colon_hp">HP:</string>
     <string name="colon_armor_class">Armor Class:</string>
     <string name="colon_initiative">Initiative:</string>
+    <string name="emoji_pencil" translatable="false">✏</string>
 
 </resources>
