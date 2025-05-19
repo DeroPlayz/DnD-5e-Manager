@@ -5,14 +5,14 @@
     android:id="@+id/frameLayout11"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/swordfight"
+    android:background="#BFE6C700"
     tools:context=".weaponsInformation">
 
     <Button
         android:id="@+id/backtodataview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#69B4FF"
+        android:backgroundTint="@color/menu_green"
         android:text="Back"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:backgroundTint="@color/menu_green"
                 android:padding="5dp"
                 android:text="@string/colon_description"
                 android:textColor="@color/black" />
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:backgroundTint="@color/menu_green"
                 android:padding="5dp"
                 android:text="@string/colon_rarity"
                 android:textColor="@color/black" />
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:backgroundTint="@color/menu_green"
                 android:padding="5dp"
                 android:text="@string/colon_value"
                 android:textColor="@color/black" />
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:backgroundTint="@color/menu_green"
                 android:padding="5dp"
                 android:text="@string/colon_type"
                 android:textColor="@color/black" />
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:backgroundTint="@color/menu_green"
                 android:padding="5dp"
                 android:text="@string/colon_weight"
                 android:textColor="@color/black" />
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:backgroundTint="@color/menu_green"
                 android:padding="5dp"
                 android:text="@string/colon_tag"
                 android:textColor="@color/black" />
@@ -113,8 +113,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
-        android:background="@color/weapon_page_blue"
-        android:backgroundTint="@color/weapon_page_blue"
+        android:background="@color/menu_green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backtodataview" />
