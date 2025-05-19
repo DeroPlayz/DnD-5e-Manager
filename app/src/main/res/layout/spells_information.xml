@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/magicduel"
+    android:background="#CF34006F"
     tools:context=".spellsInformation">
 
     <ScrollView
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="School of Magic:"
                 android:textColor="@color/black" />
@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="Cast Time"
                 android:textColor="@color/black" />
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="Range"
                 android:textColor="@color/black" />
@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="Description"
                 android:textColor="@color/black" />
@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="Supported Classes"
                 android:textColor="@color/black" />
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="Components"
                 android:textColor="@color/black" />
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/spell_page_maroon"
+                android:background="@drawable/rounded_corners"
                 android:padding="5dp"
                 android:text="Materials"
                 android:textColor="@color/black" />
@@ -103,7 +103,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:background="@color/spell_page_maroon"
+        android:background="@drawable/rounded_corners"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".5"
