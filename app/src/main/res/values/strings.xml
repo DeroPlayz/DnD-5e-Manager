@@ -384,5 +384,6 @@
     <string name="colon_armor_class">Armor Class:</string>
     <string name="colon_initiative">Initiative:</string>
     <string name="emoji_pencil" translatable="false">✏</string>
+    <string name="colon_hit_die" translatable="false">Hit Dice:</string>
 
 </resources>

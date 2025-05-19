@@ -180,6 +180,7 @@ public class PlayerCharacter {
 
     int XP = 0;
     public void addXP(int XP){this.XP += XP; levelUpCheck();}
+    public int getXP(){return XP;}
 
     public void levelUpCheck(){
         if(getLevel() == 1 && XP >= 300)            {/*levelUp(2)*/}

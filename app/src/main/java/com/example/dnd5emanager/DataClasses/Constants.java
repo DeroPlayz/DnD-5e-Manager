@@ -85,26 +85,6 @@ public class Constants {
     public static final String Performance = "Performance";
     public static final String Persuasion = "Persuasion";
 
-    //Weapon Properties
-    //Range
-    public static final String MeleeWeapon = "Melee";
-    public static final String RangedWeapon = "Ranged";
-    //Type
-    public static final String SimpleWeapon = "Simple";
-    public static final String Twohanded = "Two-handed";
-    public static final String MartialWeapon = "Martial";
-    public static final String VersatileWeapon = "Versatile";
-    public static final String FinesseWeapon = "Finesse";
-    public static final String ReachWeapon = "Reach";
-    public static final String ThrownWeapon = "Thrown";
-    public static final String SpecialWeapon = "Special";
-    //Weight
-    public static final String LightWeapon = "Light";
-    public static final String HeavyWeapon = "Heavy";
-    //Ranged-Specific
-    public static final String WeaponAmmo = "Ammunition";
-    public static final String LoadingWeapon = "Loading";
-
     public static final Map<String, String> Skills = new HashMap<String, String>() {{
         put(Athletics, Strength);
 
@@ -128,5 +108,27 @@ public class Constants {
         put(Intimidation, Charisma);
         put(Performance, Charisma);
         put(Persuasion, Charisma);
+    }};
+
+    public static final Map<Integer, Integer> EXPToLevel = new HashMap<Integer, Integer>() {{
+        put(2, 300);
+        put(3, 900);
+        put(4, 2700);
+        put(5, 6500);
+        put(6, 14000);
+        put(7, 23000);
+        put(8, 34000);
+        put(9, 48000);
+        put(10, 64000);
+        put(11, 85000);
+        put(12, 100000);
+        put(13, 120000);
+        put(14, 140000);
+        put(15, 165000);
+        put(16, 195000);
+        put(17, 225000);
+        put(18, 265000);
+        put(19, 305000);
+        put(20, 355000);
     }};
 }

@@ -162,6 +162,14 @@ public class CharacterView extends Fragment {
         IB += String.valueOf(CurrentCharacter.getAbilityMod("Dexterity"));
         InitiativeBonus.setText(IB);
 
+        TextView HitDice = view.findViewById(R.id.hit_die_text);
+        String HD = getString(R.string.colon_hit_die) + " " + CurrentCharacter.getLevel() + "d" + CurrentCharacter.getPrimaryClass().getHitDie();
+        HitDice.setText(HD);
+
+        TextView ExpToLevel = view.findViewById(R.id.exp_to_level_up);
+        String ToLevel = CurrentCharacter.getXP() + "/" + Constants.EXPToLevel.get(CurrentCharacter.getLevel() + 1) + " XP to level up";
+        ExpToLevel.setText(ToLevel);
+
         binding.characterViewMoreInformation.setOnClickListener(v -> {
             NavHostFragment.findNavController(CharacterView.this).navigate(R.id.goToCharacterMoreInfo);
             Methods.saveCharacter(requireContext(), CurrentCharacter);
@@ -433,10 +441,12 @@ public class CharacterView extends Fragment {
         StrengthValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Strength)));
 
         TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
-        StrengthMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength)));
+        String StrMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength));
+        StrengthMod.setText(StrMod);
 
         TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
-        StrengthSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength)));
+        String StrSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength));
+        StrengthSave.setText(StrSave);
 
         Log.d("Current Strength", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Strength)));
     }
@@ -446,10 +456,12 @@ public class CharacterView extends Fragment {
         DexterityValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Dexterity)));
 
         TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
-        DexterityMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity)));
+        String DexMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity));
+        DexterityMod.setText(DexMod);
 
         TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
-        DexteritySave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity)));
+        String DexSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity));
+        DexteritySave.setText(DexSave);
 
         Log.d("Current Dexterity", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Dexterity)));
     }
@@ -459,10 +471,12 @@ public class CharacterView extends Fragment {
         ConstitutionValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Constitution)));
 
         TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
-        ConstitutionMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution)));
+        String ConMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution));
+        ConstitutionMod.setText(ConMod);
 
         TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
-        ConstitutionSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution)));
+        String ConSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution));
+        ConstitutionSave.setText(ConSave);
 
         Log.d("Current Constitution", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Constitution)));
     }
@@ -472,10 +486,12 @@ public class CharacterView extends Fragment {
         IntelligenceValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Intelligence)));
 
         TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
-        IntelligenceMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence)));
+        String IntMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence));
+        IntelligenceMod.setText(IntMod);
 
         TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
-        IntelligenceSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence)));
+        String IntSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence));
+        IntelligenceSave.setText(IntSave);
 
         Log.d("Current Intelligence", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Intelligence)));
     }
@@ -485,10 +501,12 @@ public class CharacterView extends Fragment {
         WisdomValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Wisdom)));
 
         TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
-        WisdomMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom)));
+        String WisMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom));
+        WisdomMod.setText(WisMod);
 
         TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
-        WisdomSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom)));
+        String WisSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom));
+        WisdomSave.setText(WisSave);
 
         Log.d("Current Wisdom", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Wisdom)));
     }
@@ -498,10 +516,12 @@ public class CharacterView extends Fragment {
         CharismaValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Charisma)));
 
         TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
-        CharismaMod.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma)));
+        String ChaMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma));
+        CharismaMod.setText(ChaMod);
 
         TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
-        CharismaSave.setText(String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma)));
+        String ChaSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma));
+        CharismaSave.setText(ChaSave);
 
         Log.d("Current Charisma", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Charisma)));
     }
