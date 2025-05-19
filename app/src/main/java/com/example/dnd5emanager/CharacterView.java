@@ -130,7 +130,6 @@ public class CharacterView extends Fragment {
             Methods.saveCharacter(requireContext(), CurrentCharacter);
         });
 
-
         AlertDialog.Builder DeleteConfirm = new AlertDialog.Builder(requireContext());
         DeleteConfirm.setTitle("Delete Character");
         DeleteConfirm.setMessage("Are you sure you want to delete this character?");
@@ -441,11 +440,11 @@ public class CharacterView extends Fragment {
         StrengthValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Strength)));
 
         TextView StrengthMod = view.findViewById(R.id.character_view_strength_mod);
-        String StrMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength));
+        String StrMod = "Mod:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength));
         StrengthMod.setText(StrMod);
 
         TextView StrengthSave = view.findViewById(R.id.character_view_strength_save);
-        String StrSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength));
+        String StrSave = "Save:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Strength));
         StrengthSave.setText(StrSave);
 
         Log.d("Current Strength", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Strength)));
@@ -456,11 +455,11 @@ public class CharacterView extends Fragment {
         DexterityValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Dexterity)));
 
         TextView DexterityMod = view.findViewById(R.id.character_view_dexterity_mod);
-        String DexMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity));
+        String DexMod = "Mod:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity));
         DexterityMod.setText(DexMod);
 
         TextView DexteritySave = view.findViewById(R.id.character_view_dexterity_save);
-        String DexSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity));
+        String DexSave = "Save:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Dexterity));
         DexteritySave.setText(DexSave);
 
         Log.d("Current Dexterity", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Dexterity)));
@@ -471,11 +470,11 @@ public class CharacterView extends Fragment {
         ConstitutionValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Constitution)));
 
         TextView ConstitutionMod = view.findViewById(R.id.character_view_constitution_mod);
-        String ConMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution));
+        String ConMod = "Mod:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution));
         ConstitutionMod.setText(ConMod);
 
         TextView ConstitutionSave = view.findViewById(R.id.character_view_constitution_save);
-        String ConSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution));
+        String ConSave = "Save:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Constitution));
         ConstitutionSave.setText(ConSave);
 
         Log.d("Current Constitution", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Constitution)));
@@ -486,11 +485,11 @@ public class CharacterView extends Fragment {
         IntelligenceValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Intelligence)));
 
         TextView IntelligenceMod = view.findViewById(R.id.character_view_intelligence_mod);
-        String IntMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence));
+        String IntMod = "Mod:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence));
         IntelligenceMod.setText(IntMod);
 
         TextView IntelligenceSave = view.findViewById(R.id.character_view_intelligence_save);
-        String IntSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence));
+        String IntSave = "Save:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Intelligence));
         IntelligenceSave.setText(IntSave);
 
         Log.d("Current Intelligence", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Intelligence)));
@@ -501,11 +500,11 @@ public class CharacterView extends Fragment {
         WisdomValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Wisdom)));
 
         TextView WisdomMod = view.findViewById(R.id.character_view_wisdom_mod);
-        String WisMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom));
+        String WisMod = "Mod:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom));
         WisdomMod.setText(WisMod);
 
         TextView WisdomSave = view.findViewById(R.id.character_view_wisdom_save);
-        String WisSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom));
+        String WisSave = "Save:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Wisdom));
         WisdomSave.setText(WisSave);
 
         Log.d("Current Wisdom", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Wisdom)));
@@ -516,11 +515,11 @@ public class CharacterView extends Fragment {
         CharismaValue.setText(String.valueOf(CurrentCharacter.getAbilityScore(Constants.Charisma)));
 
         TextView CharismaMod = view.findViewById(R.id.character_view_charisma_mod);
-        String ChaMod = "Mod: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma));
+        String ChaMod = "Mod:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma));
         CharismaMod.setText(ChaMod);
 
         TextView CharismaSave = view.findViewById(R.id.character_view_charisma_save);
-        String ChaSave = "Save: " + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma));
+        String ChaSave = "Save:\n" + String.valueOf(CurrentCharacter.getAbilityMod(Constants.Charisma));
         CharismaSave.setText(ChaSave);
 
         Log.d("Current Charisma", String.valueOf(CurrentCharacter.getAbilityScore(Constants.Charisma)));

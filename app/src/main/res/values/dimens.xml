@@ -6,4 +6,5 @@
     <dimen name="text_size_save_mod">20sp</dimen>
     <dimen name="text_size_ability_names">22sp</dimen>
     <dimen name="text_size_int_con">20sp</dimen>
+    <dimen name="text_size_skill_names">18sp</dimen>
 </resources>
