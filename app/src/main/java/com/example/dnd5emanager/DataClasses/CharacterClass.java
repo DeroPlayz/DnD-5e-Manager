@@ -7,21 +7,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CharacterClass {
-    private final String Name;
-        public String getName(){return Name;}
-    private final String HitDie;
-        public int getHitDie(){return Integer.parseInt(HitDie.replace("D", ""));}
-        public int getHitDieCount(){return Level;}
-        public int rollHitDie(){return DiceRoller.rollDice(Level, getHitDie());}
-    private final Armor[] ArmorProficiencies;
-    private final int AttacksByLevel;
-    private final int BaseAC;
-    private final String[] SelectableClassSkills;
-    private final int SelectableSkillCount;
+    private String Name;
+    private String HitDie;
+    private Armor[] ArmorProficiencies;
+    private int AttacksByLevel;
+    private int BaseAC;
+    private String[] SelectableClassSkills;
+    private int SelectableSkillCount;
     private int Level = 1;
-        public void setLevel(int Level){this.Level = Level;}
-        public int getLevel(){return Level;}
-
     private Map<String, Integer> SaveProfs = new HashMap<>() {{
         put("Strength",1);
         put("Dexterity",1);
@@ -30,28 +23,9 @@ public class CharacterClass {
         put("Wisdom",1);
         put("Charisma",1);
     }};
-
     private ArrayList<Feature> ClassFeatures;
-        public void addFeature(Feature Feature){
-            ClassFeatures.add(Feature);
-        }
-        public ArrayList<Feature> getClassFeatures(){
-            return ClassFeatures;
-        }
-
     private Subclass Subclass = new Subclass();
-        public void setSubclass(Subclass Subclass){this.Subclass = Subclass;}
-        public Subclass getSubclass(){return Subclass;}
     private final ArrayList<Subclass> Subclasses = new ArrayList<>();
-    public void addSubclass(Subclass Subclass){
-        Subclasses.add(Subclass);
-    }
-    public ArrayList<Subclass> getSubclasses(){
-        return Subclasses;
-    }
-    public boolean HasSubclasses(){
-        return Subclasses.size() > 1;
-    }
 
     public CharacterClass(String name, String hitDie, Armor[] armorProficiencies,
         int attacksByLevel, int baseAC, String[] selectableClassSkills,
@@ -83,5 +57,25 @@ public class CharacterClass {
         BaseAC = 0;
         SelectableClassSkills = new String[0];
         SelectableSkillCount = 0;
+    }
+
+    public void setName(String Name){this.Name = Name;}
+    public String getName(){return Name;}
+
+    public void setLevel(int Level){this.Level = Level;}
+    public int getLevel(){return Level;}
+    public void addFeature(Feature Feature){ClassFeatures.add(Feature);}
+    public ArrayList<Feature> getClassFeatures(){return ClassFeatures;}
+    public void setSubclass(Subclass Subclass){this.Subclass = Subclass;}
+    public Subclass getSubclass(){return Subclass;}
+
+    public void addSubclass(Subclass Subclass){
+        Subclasses.add(Subclass);
+    }
+    public ArrayList<Subclass> getSubclasses(){
+        return Subclasses;
+    }
+    public boolean HasSubclasses(){
+        return Subclasses.size() > 1;
     }
 }

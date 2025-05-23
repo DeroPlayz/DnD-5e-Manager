@@ -122,33 +122,24 @@ public class PlayerCharacter {
         public void setSubrace(Subrace Subrace){this.Subrace = Subrace;}
         public Subrace getSubrace(){return Subrace;}
 
-    private ArrayList<CharacterClass> PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
+    private ArrayList<CharacterClass> Classes = new ArrayList<>(List.of(new CharacterClass()));
+    private Map<CharacterClass, Subclass> Subclasses = null;
 
-    public void clearClasses(){
-        PlayerClasses = new ArrayList<>(List.of(new CharacterClass()));
-    }
-
-    public ArrayList<CharacterClass> getPlayerClasses(){return PlayerClasses;}
-    public void setLevel(CharacterClass Class, int Level) {
-        if(PlayerClasses.contains(Class)){
-            PlayerClasses.get(PlayerClasses.indexOf(Class)).setLevel(Level);
-        }
-    }
     public void setPrimaryClass(CharacterClass Class) {
-        if(PlayerClasses == null){
-            PlayerClasses = new ArrayList<>(1);
+        if(Classes == null){
+            Classes = new ArrayList<>(1);
         }
-        PlayerClasses.set(0, Class);
+        Classes.set(0, Class);
     }
 
     public CharacterClass getPrimaryClass(){
-        return PlayerClasses.get(0);
+        return Classes.get(0);
     }
 
     public int getLevel(){
         int Level = 0;
-        for (int i = 0; i < PlayerClasses.size(); i++){
-            Level += PlayerClasses.get(i).getLevel();
+        for (int i = 0; i < Classes.size(); i++){
+            Level += Classes.get(i).getLevel();
         }
         return Level;
     }
