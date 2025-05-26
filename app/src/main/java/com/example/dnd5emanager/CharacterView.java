@@ -212,8 +212,8 @@ public class CharacterView extends Fragment {
 //    }
 
     public void levelUp(PlayerCharacter Character, CharacterClass Class, int Level){
-        Character.getPlayerClasses().get(Character.getPlayerClasses().indexOf(Class)).setLevel(Level);
-        int CurrentLevel = Character.getPlayerClasses().get(Character.getPlayerClasses().indexOf(Class)).getLevel();
+        Character.getClasses().get(Character.getClasses().indexOf(Class)).setLevel(Level);
+        int CurrentLevel = Character.getClasses().get(Character.getClasses().indexOf(Class)).getLevel();
         if(CurrentLevel == 4 || CurrentLevel == 8 || CurrentLevel == 12 || CurrentLevel == 16 || CurrentLevel == 19){
 //            abilityScoreImprovement();
         }
@@ -246,9 +246,9 @@ public class CharacterView extends Fragment {
         //Just like the other two. Not much to say.
         TextView CharacterLevel = view.findViewById(R.id.characterLevel);
         StringBuilder LevelDisp = new StringBuilder();
-        for(int i = 0; i < CurrentCharacter.getPlayerClasses().size(); i++){
-            LevelDisp.append("Level ").append(CurrentCharacter.getLevel()).append(" ").append(CurrentCharacter.getPlayerClasses().get(i).getName());
-            if(i < CurrentCharacter.getPlayerClasses().size() - 1){
+        for(int i = 0; i < CurrentCharacter.getClasses().size(); i++){
+            LevelDisp.append("Level ").append(CurrentCharacter.getLevel()).append(" ").append(CurrentCharacter.getClasses().get(i).getName());
+            if(i < CurrentCharacter.getClasses().size() - 1){
                 LevelDisp.append(", ");
             }
         }

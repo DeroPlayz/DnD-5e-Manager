@@ -124,27 +124,27 @@ public class Methods {
             }
 
             JSONArray Classes = new JSONArray();
-            for(int i = 0; i < character.getPlayerClasses().size(); i++){
-                CharacterClass currentClass = character.getPlayerClasses().get(i);
+            for(int i = 0; i < character.getClasses().size(); i++){
+                CharacterClass currentClass = character.getClasses().get(i);
                 JSONObject Class = new JSONObject();
                 Class.put("name", currentClass.getName());
-                Log.d("Saved Player Class #" + i + " Name", character.getPlayerClasses().get(i).getName());
+                Log.d("Saved Player Class #" + i + " Name", character.getClasses().get(i).getName());
                 Class.put("level", currentClass.getLevel());
-                Log.d("Saved Player Class #" + i + " Level", String.valueOf(character.getPlayerClasses().get(i).getLevel()));
+                Log.d("Saved Player Class #" + i + " Level", String.valueOf(character.getClasses().get(i).getLevel()));
                 if(currentClass.HasSubclasses()){
                     Class.put("subclass", currentClass.getSubclass().getName());
-                    Log.d("Saved Player Class #" + i + " Subclass", character.getPlayerClasses().get(i).getSubclass().getName());
+                    Log.d("Saved Player Class #" + i + " Subclass", character.getClasses().get(i).getSubclass().getName());
                 }
 //                Class.put("hit_die", currentClass.getHitDie());
                 Classes.put(Class);
-                Log.d("Saved Player Class #" + i, character.getPlayerClasses().get(i).getName());
+                Log.d("Saved Player Class #" + i, character.getClasses().get(i).getName());
             }
             jsonObject.put("classes", Classes);
-            Log.d("Saved Player Classes", "Saved all " + character.getPlayerClasses().size() + " of them.");
+            Log.d("Saved Player Classes", "Saved all " + character.getClasses().size() + " of them.");
 
 
-            jsonObject.put("class_count", character.getPlayerClasses().size());
-            Log.d("Saved Player Class Count", String.valueOf(character.getPlayerClasses().size()));
+            jsonObject.put("class_count", character.getClasses().size());
+            Log.d("Saved Player Class Count", String.valueOf(character.getClasses().size()));
 
             jsonObject.put("strength", character.getBaseAbilityScores().get(Strength));
             Log.d("Saved Strength", String.valueOf(character.getBaseAbilityScores().get(Strength)));
@@ -243,16 +243,16 @@ public class Methods {
             int classCount = jsonObject.optInt("class_count", 1);
             for(int i = 0; i < classCount; i++){
                 JSONObject Class = jsonObject.getJSONArray("classes").getJSONObject(i);
-                character.getPlayerClasses().set(i ,Classes.get(Class.getString("name")));
+                character.getClasses().set(i ,Classes.get(Class.getString("name")));
                 Log.d("Loaded Player Class #" + i, Class.getString("name"));
-                Log.d("Current Player Class #" + i, character.getPlayerClasses().get(i).getName());
-                character.getPlayerClasses().get(i).setLevel(Class.getInt("level"));
+                Log.d("Current Player Class #" + i, character.getClasses().get(i).getName());
+                character.getClasses().get(i).setLevel(Class.getInt("level"));
                 Log.d("Loaded Player Class #" + i + " Level", String.valueOf(Class.getInt("level")));
-                Log.d("Current Player Class #" + i + " Level", String.valueOf(character.getPlayerClasses().get(i).getLevel()));
-                if(character.getPlayerClasses().get(i).HasSubclasses()) {
-                    character.getPlayerClasses().get(i).setSubclass(Subclasses.get(Class.getString("subclass")));
+                Log.d("Current Player Class #" + i + " Level", String.valueOf(character.getClasses().get(i).getLevel()));
+                if(character.getClasses().get(i).HasSubclasses()) {
+                    character.getClasses().get(i).setSubclass(Subclasses.get(Class.getString("subclass")));
                     Log.d("Loaded Player Class #" + i + " Subclass", Class.getString("subclass"));
-                    Log.d("Current Player Class #" + i + " Subclass", character.getPlayerClasses().get(i).getSubclass().getName());
+                    Log.d("Current Player Class #" + i + " Subclass", character.getClasses().get(i).getSubclass().getName());
                 }
             }
 
