@@ -1,13 +1,19 @@
 package com.example.dnd5emanager;
 
+import static com.example.dnd5emanager.DataClasses.Methods.Initialize;
+
 import android.os.Bundle;
-import android.view.*;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import androidx.annotation.OptIn;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.media3.common.util.UnstableApi;
-import androidx.navigation.*;
-import androidx.navigation.ui.*;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 
 import com.example.dnd5emanager.databinding.ActivityMainBinding;
 
@@ -22,8 +28,9 @@ public class ActivityMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 //        setContentView(R.layout.activity_main);
-
+        Initialize(this);
         setSupportActionBar(binding.toolbar);
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);

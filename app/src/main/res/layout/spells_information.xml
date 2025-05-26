@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CF34006F"
+    android:background="@color/background_grey"
     tools:context=".spellsInformation">
 
     <ScrollView
@@ -29,6 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="School of Magic:"
                 android:textColor="@color/black" />
@@ -39,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="Cast Time"
                 android:textColor="@color/black" />
@@ -49,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="Range"
                 android:textColor="@color/black" />
@@ -59,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="Description"
                 android:textColor="@color/black" />
@@ -69,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="Supported Classes"
                 android:textColor="@color/black" />
@@ -79,6 +84,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="Components"
                 android:textColor="@color/black" />
@@ -89,6 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="Materials"
                 android:textColor="@color/black" />
@@ -104,6 +111,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/button_grey"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias=".5"
@@ -114,7 +122,7 @@
         android:id="@+id/backtodataview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/spell_page_maroon"
+        android:backgroundTint="@color/button_grey"
         android:text="Back"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"

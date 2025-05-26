@@ -518,6 +518,7 @@ public class CharacterCreatorPageOne extends Fragment {
     }
 
     public void updateSubclass(){
+        Log.d("Is Sub Null", String.valueOf(Subclass.getSelectedItem() == null));
         NewCharacter.getPrimaryClass().setSubclass(Subclasses.get(Subclass.getSelectedItem().toString()));
     }
 }

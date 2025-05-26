@@ -11,25 +11,7 @@
             </handle>
           </Target>
         </DropdownSelection>
-        <DialogSelection>
-          <targets>
-            <Target type="DEFAULT_BOOT">
-              <handle>
-                <DeviceId pluginId="PhysicalDevice" identifier="serial=3e2e374e201caa59" />
-              </handle>
-            </Target>
-            <Target type="DEFAULT_BOOT">
-              <handle>
-                <DeviceId pluginId="PhysicalDevice" identifier="serial=6df7b665200d69bb" />
-              </handle>
-            </Target>
-            <Target type="DEFAULT_BOOT">
-              <handle>
-                <DeviceId pluginId="PhysicalDevice" identifier="serial=6d9fca67201c9f93" />
-              </handle>
-            </Target>
-          </targets>
-        </DialogSelection>
+        <DialogSelection />
       </SelectionState>
     </selectionStates>
   </component>

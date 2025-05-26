@@ -312,126 +312,126 @@ public class CharacterView extends Fragment {
             Acrobatics.setText("Acrobatics  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Acrobatics)));
         }
         else{
-            Acrobatics.setText("Acrobatics  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Acrobatics)));
+            Acrobatics.setText("Acrobatics  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Acrobatics)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)) > -1){
             AnimalHandling.setText("Animal Handling  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)));
         }
         else{
-            AnimalHandling.setText("Animal Handling  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)));
+            AnimalHandling.setText("Animal Handling  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.AnimalHandling)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)) > -1){
             Arcana.setText("Arcana  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)));
         }
         else{
-            Arcana.setText("Arcana  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)));
+            Arcana.setText("Arcana  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Arcana)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)) > -1){
             Athletics.setText("Athletics  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)));
         }
         else{
-            Athletics.setText("Athletics  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)));
+            Athletics.setText("Athletics  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Athletics)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)) > -1){
             Deception.setText("Deception  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)));
         }
         else{
-            Deception.setText("Deception  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)));
+            Deception.setText("Deception  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Deception)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.History)) > -1){
             History.setText("History  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.History)));
         }
         else{
-            History.setText("History  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.History)));
+            History.setText("History  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.History)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)) > -1){
             Insight.setText("Insight  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)));
         }
         else{
-            Insight.setText("Insight  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)));
+            Insight.setText("Insight  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Insight)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)) > -1){
             Intimidation.setText("Intimidation  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)));
         }
         else{
-            Intimidation.setText("Intimidation  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)));
+            Intimidation.setText("Intimidation  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Intimidation)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)) > -1){
             Investigation.setText("Investigation  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)));
         }
         else{
-            Investigation.setText("Investigation  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)));
+            Investigation.setText("Investigation  -" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Investigation)));
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)) > -1){
-            Medicine.setText("Medicine  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)));
+            Medicine.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)) + "+  Medicine");
         }
         else{
-            Medicine.setText("Medicine  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)));
+            Medicine.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Medicine)) + "-  Medicine");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)) > -1){
-            Nature.setText("Nature  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)));
+            Nature.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)) + "+  Nature");
         }
         else{
-            Nature.setText("Nature  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)));
+            Nature.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Nature)) + "-  Nature");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)) > -1){
-            Perception.setText("Perception  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)));
+            Perception.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)) + "+  Perception");
         }
         else{
-            Perception.setText("Perception  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)));
+            Perception.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Perception)) + "-  Perception");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)) > -1){
-            Performance.setText("Performance  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)));
+            Performance.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)) + "+  Performance");
         }
         else{
-            Performance.setText("Performance  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)));
+            Performance.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Performance)) + "-  Performance");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)) > -1){
-            Persuasion.setText("Persuasion  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)));
+            Persuasion.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)) + "+  Persuasion");
         }
         else{
-            Persuasion.setText("Persuasion  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)));
+            Persuasion.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Persuasion)) + "-  Persuasion");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)) > -1){
-            Religion.setText("Religion  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)));
+            Religion.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)) + "+  Religion");
         }
         else{
-            Religion.setText("Religion  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)));
+            Religion.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Religion)) + "-  Religion");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)) > -1){
-            SleightOfHand.setText("Sleight Of Hand  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)));
+            SleightOfHand.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)) + "+  Sleight Of Hand");
         }
         else{
-            SleightOfHand.setText("Sleight Of Hand  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)));
+            SleightOfHand.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.SleightOfHand)) + "-  Sleight Of Hand");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)) > -1){
-            Stealth.setText("Stealth  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)));
+            Stealth.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)) + "+  Stealth");
         }
         else{
-            Stealth.setText("Stealth  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)));
+            Stealth.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Stealth)) + "-  Stealth");
         }
 
         if(CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)) > -1){
-            Survival.setText("Survival  +" + CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)));
+            Survival.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)) + "+  Survival");
         }
         else{
-            Survival.setText("Survival  " + CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)));
+            Survival.setText(CurrentCharacter.getAbilityMod(Skills.get(Constants.Survival)) + "-  Survival");
         }
     }
 

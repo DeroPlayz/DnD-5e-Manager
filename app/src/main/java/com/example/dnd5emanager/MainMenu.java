@@ -1,7 +1,5 @@
 package com.example.dnd5emanager;
 
-import static com.example.dnd5emanager.DataClasses.Methods.Initialize;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,7 +23,6 @@ public class MainMenu extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Initialize(requireContext());
 
         binding.mainMenuViewCharacters.setOnClickListener(v ->
                 NavHostFragment.findNavController(MainMenu.this).navigate(R.id.goToCharacterList)

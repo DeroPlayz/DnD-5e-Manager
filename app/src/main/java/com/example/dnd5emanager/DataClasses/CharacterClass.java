@@ -1,10 +1,28 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Constants.Classes;
+import static com.example.dnd5emanager.DataClasses.Subclass.initializeSubclasses;
+
+import android.content.Context;
+import android.content.res.AssetManager;
+import android.os.Handler;
+import android.os.Looper;
+import android.util.Log;
+
 import com.example.dnd5emanager.DiceRoller;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class CharacterClass {
     private final String Name;
@@ -83,5 +101,84 @@ public class CharacterClass {
         BaseAC = 0;
         SelectableClassSkills = new String[0];
         SelectableSkillCount = 0;
+    }
+
+    public static void parseClasses(Context context, String dir, String s) {
+        AssetManager AM;
+
+        Log.d("Jason", "He was just born in Class.");
+        AM = context.getAssets();
+        char Letter = s.toLowerCase().charAt(0);
+        int ClassNumber = 0;
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                for (String fileName : fileNames) {
+                    if (Letter == fileName.toLowerCase().charAt(0) || Letter == ' ') {
+                        String fullPath = dir + "/" + fileName;
+                        InputStream inputStream = AM.open(fullPath);
+                        int size = inputStream.available();
+                        byte[] buffer = new byte[size];
+                        inputStream.read(buffer);
+                        inputStream.close();
+                        String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                        JSONObject jsonObject = new JSONObject(jsonString);
+                        Classes.put(jsonObject.getString("name"), new CharacterClass(
+                                jsonObject.getString("name"),
+                                jsonObject.getString("hitDie"),
+                                Methods.toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
+                                jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount"),
+                                jsonObject.getInt("baseAc"),
+                                Methods.toStringArray(jsonObject.getJSONArray("classSkills").getJSONObject(0).getJSONArray("skillsModels")),
+                                jsonObject.getJSONArray("classSkills").getJSONObject(0).getInt("amountOfChoice")
+                        ));
+                        Log.d("Class #" + ClassNumber, jsonObject.getString("name"));
+                    }
+                    ClassNumber++;
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Class.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void initializeClasses(Context context){
+        Handler mainHandler = new Handler(Looper.getMainLooper());
+        ExecutorService executorService = Executors.newFixedThreadPool(26);
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "A");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "B");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "C");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "D");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "E");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "F");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "G");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "H");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "I");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "J");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "K");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "L");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "M");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "N");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "O");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "P");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "Q");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "R");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "S");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "T");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "U");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "V");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "W");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "X");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "Y");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseClasses(context, "dndclasses", "Z");}});
+        try {
+            //noinspection ResultOfMethodCallIgnored
+            executorService.awaitTermination(1, TimeUnit.SECONDS);
+            initializeSubclasses(context);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

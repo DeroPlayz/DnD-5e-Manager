@@ -5,14 +5,14 @@
     android:id="@+id/frameLayout11"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C9FF9A2A"
+    android:background="@color/background_grey"
     tools:context=".weaponsInformation">
 
     <Button
         android:id="@+id/backtodataview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#69B4FF"
+        android:backgroundTint="@color/button_grey"
         android:text="Back"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,8 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_damage"
                 android:textColor="@color/black" />
@@ -53,8 +53,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_description"
                 android:textColor="@color/black" />
@@ -64,8 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_type"
                 android:textColor="@color/black" />
@@ -75,8 +75,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_rarity"
                 android:textColor="@color/black" />
@@ -86,8 +86,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_attack_bonus"
                 android:textColor="@color/black" />
@@ -97,8 +97,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_tag"
                 android:textColor="@color/black" />
@@ -108,8 +108,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/weapon_page_blue"
-                android:backgroundTint="#69B4FF"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/button_grey"
                 android:padding="5dp"
                 android:text="@string/colon_projectile"
                 android:textColor="@color/black" />
@@ -124,10 +124,10 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
-        android:background="@color/weapon_page_blue"
-        android:backgroundTint="@color/weapon_page_blue"
+        android:backgroundTint="@color/button_grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/backtodataview" />
+        app:layout_constraintTop_toBottomOf="@+id/backtodataview"
+        android:background="@drawable/rounded_corners" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

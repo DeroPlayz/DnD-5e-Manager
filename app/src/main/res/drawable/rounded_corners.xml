@@ -3,7 +3,7 @@
     android:shape="rectangle">
 
     <!-- Background Color -->
-    <solid android:color="@color/spell_page_maroon" />
+    <solid android:color="@color/white" />
 
     <!-- Rounded Corners -->
     <corners android:radius="12dp" />

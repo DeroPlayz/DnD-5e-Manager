@@ -1,6 +1,22 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
+
+import android.content.Context;
+import android.content.res.AssetManager;
+import android.os.Handler;
+import android.os.Looper;
+import android.util.Log;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Weapon extends Piece{
     private String Type;
@@ -268,5 +284,105 @@ public class Weapon extends Piece{
 
     public String getDamage(){
         return DiceCount + "d" + DamageDice + " " + DamageType + " damage";
+    }
+
+    public static void parseWeapons(Context context, String dir, String s) {
+        AssetManager AM;
+
+        Log.d("Jason", "He was just born in Weapon.");
+        AM = context.getAssets();
+        char Letter = s.toLowerCase().charAt(0);
+        try {
+            String[] fileNames = AM.list(dir);
+            if (fileNames != null) {
+                int i = 0;
+                for (String fileName : fileNames) {
+                    if (Letter == fileName.toLowerCase().charAt(0) || Letter == ' ') {
+                        String fullPath = dir + "/" + fileName;
+                        InputStream inputStream = AM.open(fullPath);
+                        int size = inputStream.available();
+                        byte[] buffer = new byte[size];
+                        inputStream.read(buffer);
+                        inputStream.close();
+                        String jsonString = new String(buffer, StandardCharsets.UTF_8);
+                        JSONObject jsonObject = new JSONObject(jsonString);
+                        int DamageDiceName = 0;
+                        Log.d("DDN #1", jsonObject.getString("damageDiceName"));
+                        Log.d("DDN #2", jsonObject.getString("damageDiceName").replace("d", ""));
+                        Log.d("DDN #3", String.valueOf(Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""))));
+                        DamageDiceName = Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""));
+                        Log.d("DDN #4", String.valueOf(DamageDiceName));
+                        Weapons.put(jsonObject.getString("name"), new Weapon(
+                                jsonObject.getString("name"),
+                                jsonObject.getString("description"),
+                                jsonObject.getString("type"),
+                                jsonObject.getString("rarity"),
+                                jsonObject.getInt("extraAttackBonus"),
+                                DamageDiceName,
+                                jsonObject.getInt("damageDiceAmount"),
+                                jsonObject.getString("damageTypeName"),
+                                jsonObject.getBoolean("isSimple"),
+                                jsonObject.getBoolean("isFinesse"),
+                                jsonObject.getBoolean("isVersatile"),
+                                Integer.parseInt(jsonObject.optString("versatileDamageDie", "0").replace("D", "")),
+                                jsonObject.optInt("versatileDamageDiceAmount", 0),
+                                jsonObject.getBoolean("isLight"),
+                                jsonObject.getBoolean("isHeavy"),
+                                jsonObject.getBoolean("isSilver"),
+                                jsonObject.getBoolean("twoHanded"),
+                                jsonObject.getBoolean("requiresAttunement"),
+                                jsonObject.getBoolean("isAttuned"),
+                                jsonObject.getBoolean("isSpecial"),
+                                jsonObject.getBoolean("isCustom"),
+                                jsonObject.getBoolean("isImprovised"),
+                                jsonObject.getBoolean("hasReach"),
+                                jsonObject.getBoolean("isRanged"),
+                                jsonObject.getBoolean("isThrown"),
+                                jsonObject.getBoolean("isLoading"),
+                                jsonObject.getString("ammunitionType"),
+                                jsonObject.optInt("normalRange", 0),
+                                jsonObject.optInt("maxRange", 0)
+                        ));
+                        Log.d("Weapon #" + i, jsonObject.getString("name"));
+                        i++;
+                    }
+                }
+            }
+        }
+        catch (IOException | JSONException e){
+            Log.d("Jason?", "Shot dead in Weapon.");
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void initializeWeapons(Context context){
+        Handler mainHandler = new Handler(Looper.getMainLooper());
+        ExecutorService executorService = Executors.newFixedThreadPool(26);
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "A");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "B");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "C");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "D");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "E");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "F");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "G");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "H");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "I");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "J");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "K");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "L");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "M");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "N");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "O");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "P");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "Q");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "R");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "S");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "T");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "U");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "V");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "W");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "X");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "Y");}});
+        executorService.execute(new Runnable(){@Override public void run(){parseWeapons(context, "weapons", "Z");}});
     }
 }

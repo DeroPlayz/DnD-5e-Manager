@@ -1,28 +1,28 @@
 package com.example.dnd5emanager.DataClasses;
 
+import static com.example.dnd5emanager.DataClasses.Armor.initializeArmor;
+import static com.example.dnd5emanager.DataClasses.CharacterClass.initializeClasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Armor;
-import static com.example.dnd5emanager.DataClasses.Constants.Backgrounds;
 import static com.example.dnd5emanager.DataClasses.Constants.Characters;
 import static com.example.dnd5emanager.DataClasses.Constants.Charisma;
 import static com.example.dnd5emanager.DataClasses.Constants.Classes;
 import static com.example.dnd5emanager.DataClasses.Constants.Constitution;
 import static com.example.dnd5emanager.DataClasses.Constants.Dexterity;
-import static com.example.dnd5emanager.DataClasses.Constants.Feats;
-import static com.example.dnd5emanager.DataClasses.Constants.Features;
 import static com.example.dnd5emanager.DataClasses.Constants.Intelligence;
-import static com.example.dnd5emanager.DataClasses.Constants.Items;
 import static com.example.dnd5emanager.DataClasses.Constants.Races;
-import static com.example.dnd5emanager.DataClasses.Constants.Spells;
 import static com.example.dnd5emanager.DataClasses.Constants.Strength;
 import static com.example.dnd5emanager.DataClasses.Constants.Subclasses;
 import static com.example.dnd5emanager.DataClasses.Constants.Subraces;
-import static com.example.dnd5emanager.DataClasses.Constants.Weapons;
 import static com.example.dnd5emanager.DataClasses.Constants.Wisdom;
+import static com.example.dnd5emanager.DataClasses.Feat.initializeFeats;
+import static com.example.dnd5emanager.DataClasses.Feature.initializeFeatures;
+import static com.example.dnd5emanager.DataClasses.Item.initializeItems;
+import static com.example.dnd5emanager.DataClasses.Race.initializeRaces;
+import static com.example.dnd5emanager.DataClasses.Spell.initializeSpells;
+import static com.example.dnd5emanager.DataClasses.Weapon.initializeWeapons;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.os.Handler;
-import android.os.Looper;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -33,102 +33,25 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 public class Methods {
 
-    public static AssetManager AM;
-    private static Handler mainHandler;
-    private static ExecutorService executorService;
-
     public static void Initialize(Context c){
-        mainHandler = new Handler(Looper.getMainLooper());
-        executorService = Executors.newFixedThreadPool(9);
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                parseRaces(c, "races");
-                parseSubraces(c, "subraces");
-            }
-        });
+        initializeRaces(c);
+        initializeClasses(c);
 
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                parseClasses(c, "dndclasses");
-                parseSubclasses(c, "subclasses");
-            }
-        });
+        initializeItems(c);
+        initializeWeapons(c);
+        initializeArmor(c);
 
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseSpells(c, "spells");
-            }
-        });
+        initializeSpells(c);
+        initializeFeatures(c);
+        initializeFeats(c);
 
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseFeatures(c, "features");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseFeats(c, "feats");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseBackgrounds(c, "backgrounds");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseItems(c, "items");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseWeapons(c, "weapons");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                parseArmor(c, "armor");
-            }
-        });
-
-        executorService.execute(new Runnable() {
-            @Override
-            public void run(){
-                try {
-                    executorService.awaitTermination(60, TimeUnit.SECONDS);
-                    LoadFromInternalStorage(c);
-                    executorService.shutdown();
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        });
+        LoadFromInternalStorage(c);
     }
 
     public static void LoadFromInternalStorage(Context c){
@@ -384,538 +307,7 @@ public class Methods {
         }
     }
 
-    public static void parseRaces(Context context, String dir) {
-        Log.d("Jason", "He was just born in Race.");
-        AM = context.getAssets();
-        int RaceNumber = 0;
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    Races.put(jsonObject.getString("name"), new Race(
-                            jsonObject.getString("name"),
-                            jsonObject.getInt("ac"),
-                            jsonObject.getJSONObject("speed").getInt("normal"),
-                            jsonObject.getJSONObject("speed").getInt("fly"),
-                            jsonObject.getJSONObject("speed").getInt("climb"),
-                            jsonObject.getJSONObject("speed").getInt("swim"),
-                            jsonObject.getJSONObject("speed").getInt("burrow"),
-                            jsonObject.getJSONObject("abilityScores").getInt("str"),
-                            jsonObject.getJSONObject("abilityScores").getInt("dex"),
-                            jsonObject.getJSONObject("abilityScores").getInt("con"),
-                            jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-                            jsonObject.getJSONObject("abilityScores").getInt("wis"),
-                            jsonObject.getJSONObject("abilityScores").getInt("cha")
-                    ));
-                    Log.d("Race #" + RaceNumber, jsonObject.getString("name"));
-                    RaceNumber++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "shot dead in Race.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseSubraces(Context context, String dir) {
-        Log.d("Jason", "He was just born in Subrace.");
-        AM = context.getAssets();
-        int SubraceNumber = 0;
-        try {
-            String[] folderNames = AM.list(dir);
-            if (folderNames != null) {
-                for (String folderName : folderNames) {
-                    String parentPath = dir + "/" + folderName;
-                    String[] fileNames = AM.list(dir + "/" + folderName);
-                    if(fileNames != null){
-                        for(String fileName : fileNames){
-                            String fullPath = parentPath + "/" + fileName;
-//                            Log.d("Name of Folder/Parent Race", folderName);
-                            InputStream inputStream = AM.open(fullPath);
-                            int size = inputStream.available();
-                            byte[] buffer = new byte[size];
-                            inputStream.read(buffer);
-                            inputStream.close();
-                            String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                            JSONObject jsonObject = new JSONObject(jsonString);
-                            Subraces.put(jsonObject.getString("name"), new Subrace(
-                                    jsonObject.getString("name"),
-                                    folderName.replace("_Subraces", ""),
-                                    jsonObject.getInt("ac"),
-                                    jsonObject.getJSONObject("speed").getInt("normal"),
-                                    jsonObject.getJSONObject("speed").getInt("fly"),
-                                    jsonObject.getJSONObject("speed").getInt("climb"),
-                                    jsonObject.getJSONObject("speed").getInt("swim"),
-                                    jsonObject.getJSONObject("speed").getInt("burrow"),
-                                    jsonObject.getJSONObject("abilityScores").getInt("str"),
-                                    jsonObject.getJSONObject("abilityScores").getInt("dex"),
-                                    jsonObject.getJSONObject("abilityScores").getInt("con"),
-                                    jsonObject.getJSONObject("abilityScores").getInt("intelligence"),
-                                    jsonObject.getJSONObject("abilityScores").getInt("wis"),
-                                    jsonObject.getJSONObject("abilityScores").getInt("cha"))
-                            );
-//                            Subraces.put(jsonObject.getString("name"), TempSub);
-                            String RaceName = folderName.replace("_Subraces", "");
-                            RaceName = RaceName.replace("_", " ");
-                            Races.get(RaceName).addSubrace(Subraces.get(jsonObject.getString("name")));
-                            Log.d("Subrace #" + SubraceNumber, jsonObject.getString("name"));
-                            SubraceNumber++;
-                        }
-                    }
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Subrace.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseClasses(Context context, String dir) {
-        Log.d("Jason", "He was just born in Class.");
-        AM = context.getAssets();
-        int ClassNumber = 0;
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-//                    Log.d("Class Path", fullPath);
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    Classes.put(jsonObject.getString("name"), new CharacterClass(
-                            jsonObject.getString("name"),
-                            jsonObject.getString("hitDie"),
-                            toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
-                            jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount"),
-                            jsonObject.getInt("baseAc"),
-                            toStringArray(jsonObject.getJSONArray("classSkills").getJSONObject(0).getJSONArray("skillsModels")),
-                            jsonObject.getJSONArray("classSkills").getJSONObject(0).getInt("amountOfChoice")
-                    ));
-                    Log.d("Class #" + ClassNumber, jsonObject.getString("name"));
-                    ClassNumber++;
-//                    Log.d("Selectable Features", String.valueOf(jsonObject.getJSONArray("selectableFeatures").length()));
-//                    Log.d("Class Features", jsonObject.getJSONArray("selectableFeatures").getJSONObject(0).getJSONArray("availableFeatures").getJSONObject(0).getJSONObject("feat").getString("name"));
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Class.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseSubclasses(Context context, String dir) {
-        Log.d("Jason", "He was just born in Subclass.");
-        AM = context.getAssets();
-        int SubclassNumber = 0;
-        try {
-            String[] folderNames = AM.list(dir);
-            if (folderNames != null) {
-                for (String folderName : folderNames) {
-                    String ClassName = folderName.replace("_", " ");
-                    String parentPath = dir + "/" + folderName;
-                    String[] fileNames = AM.list(dir + "/" + folderName);
-                    if (fileNames != null) {
-                        for (String fileName : fileNames) {
-                            String fullPath = parentPath + "/" + fileName;
-//                            Log.d("Subclass Path", fullPath);
-                            InputStream inputStream = AM.open(fullPath);
-                            int size = inputStream.available();
-                            byte[] buffer = new byte[size];
-                            inputStream.read(buffer);
-                            inputStream.close();
-                            String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                            JSONObject jsonObject = new JSONObject(jsonString);
-                            int ABL = 1;
-                            if (jsonObject.getJSONArray("attacksByLevel").length() != 0) {
-                                ABL = jsonObject.getJSONArray("attacksByLevel").getJSONObject(0).getInt("amount");
-                            }
-                            Subclass TempSub = new Subclass(
-                                    jsonObject.getString("name"),
-                                    toArmorArray(jsonObject.getJSONArray("armorProficiencies")),
-                                    jsonObject.getInt("baseAc"),
-                                    ABL,
-                                    ClassName
-                            );
-                            if(Subclasses.get(jsonObject.getString("name")) != null){
-//                                Log.d("Already exists", jsonObject.getString("name"));
-                                Subclasses.put(jsonObject.getString("name") + "(" + ClassName + ")", TempSub);
-                            }
-                            else{
-//                                Log.d("New subclass!", jsonObject.getString("name"));
-                                Subclasses.put(jsonObject.getString("name"), TempSub);
-                            }
-                            Classes.get(ClassName).addSubclass(Subclasses.get(TempSub.getName()));
-                            Log.d("Subclass #" + SubclassNumber, jsonObject.getString("name"));
-                            SubclassNumber++;
-                        }
-                    }
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Subclass.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseSpells(Context context, String dir) {
-        Log.d("Jason", "He was just born in Spell.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int i = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    int level;
-                    if(jsonObject.getString("level").equals("cantrip")){
-                        level = 0;
-                    }
-                    else{
-                        level = jsonObject.getInt("level");
-                    }
-                    String materialCost = "";
-                    if(jsonObject.getJSONObject("components").getString("raw").contains("(")){
-                        materialCost = jsonObject.getJSONObject("components").getString("raw").substring(jsonObject.getJSONObject("components").getString("raw").indexOf("("));
-                    }
-
-                    Spells.put(jsonObject.getString("name"), new Spell(
-                            jsonObject.getString("casting_time"),
-                            toStringArray(jsonObject.getJSONArray("classes")),
-                            jsonObject.getJSONObject("components").getBoolean("verbal"),
-                            jsonObject.getJSONObject("components").getBoolean("somatic"),
-                            jsonObject.getJSONObject("components").getBoolean("material"),
-                            materialCost,
-                            jsonObject.getString("description"),
-                            jsonObject.optString("higher_levels", null),
-                            jsonObject.getString("duration"),
-                            level,
-                            jsonObject.getString("name"),
-                            jsonObject.getString("range"),
-                            jsonObject.getBoolean("ritual"),
-                            jsonObject.getString("school")
-                    ));
-                    Log.d("Spell #" + i, jsonObject.getString("name"));
-                    i++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Spell.");
-            throw new RuntimeException(e);
-        }
-    }
-
-//    public static void assignFeatures(Context context){
-//        Log.d("Jason", "He was just born in Assigning.");
-//        String dir = "dndclasses";
-//        AM = context.getAssets();
-//        try {
-//            String[] fileNames = AM.list(dir);
-//            if (fileNames != null) {
-//                int j = 0;
-//                for (String fileName : fileNames) {
-//                    String fullPath = dir + "/" + fileName;
-//                    InputStream inputStream = AM.open(fullPath);
-//                    int size = inputStream.available();
-//                    byte[] buffer = new byte[size];
-//                    inputStream.read(buffer);
-//                    inputStream.close();
-//                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-//                    JSONObject jsonObject = new JSONObject(jsonString);
-//                }
-//            }
-//        }
-//        catch (Exception e){
-//            Log.d("Jason?", "Shot dead in Assigning.");
-//            throw new RuntimeException(e);
-//        }
-//    }
-
-    public static void parseFeatures(Context context, String dir) {
-        Log.d("Jason", "He was just born in Feature.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int j = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    Map<Integer, String> DescModels = new HashMap<>();
-
-                    for(int i = 0; i < jsonObject.getJSONArray("descriptionModels").length(); i++){
-                        DescModels.put(jsonObject.getJSONArray("descriptionModels").getJSONObject(i).getInt("level"), jsonObject.getJSONArray("descriptionModels").getString(i));
-                    }
-
-                    Features.put(jsonObject.getString("name"), new Feature(
-                            jsonObject.getString("name"),
-                            DescModels
-                    ));
-
-                    Log.d("Feature #" + j, jsonObject.getString("name"));
-                    j++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Feature.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseFeats(Context context, String dir) {
-        Log.d("Jason", "He was just born in Feat.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int j = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    Map<Integer, String> DescModels = new HashMap<>();
-
-                    for(int i = 0; i < jsonObject.getJSONArray("descriptionModels").length(); i++){
-                        DescModels.put(jsonObject.getJSONArray("descriptionModels").getJSONObject(i).getInt("level"), jsonObject.getJSONArray("descriptionModels").getString(i));
-                    }
-
-                    Feats.put(jsonObject.getString("name"), new Feat(
-                            jsonObject.getString("name"),
-                            DescModels,
-                            jsonObject.getInt("level")
-                    ));
-
-                    Log.d("Feat #" + j, jsonObject.getString("name"));
-                    j++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Background.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseBackgrounds(Context context, String dir) {
-        Log.d("Jason", "He was just born in Background.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int i = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    String materialCost = "";
-                    Backgrounds.put(jsonObject.getString("name"), new Background(
-                            jsonObject.getString("name"),
-                            jsonObject.getInt("goldPieces")
-                    ));
-                    Log.d("Background #" + i, jsonObject.getString("name"));
-                    i++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Background.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseItems(Context context, String dir) {
-        Log.d("Jason", "He was just born in Item.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int i = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    Items.put(jsonObject.getString("name"), new Item(
-                            jsonObject.getString("name"),
-                            jsonObject.getString("description"),
-                            jsonObject.getBoolean("isAmmunition"),
-                            jsonObject.getBoolean("isCursed"),
-                            jsonObject.getBoolean("isEquipment"),
-                            jsonObject.getBoolean("isMagic"),
-                            jsonObject.getBoolean("isSpellcastingFocus"),
-                            jsonObject.getBoolean("isTemplate"),
-                            jsonObject.getBoolean("isValueMultiplier"),
-                            jsonObject.getBoolean("isWeightMultiplier"),
-                            jsonObject.getString("rarity"),
-                            jsonObject.getBoolean("requiresAttunement"),
-                            jsonObject.getString("type"),
-                            jsonObject.optInt("value", 0),
-                            jsonObject.getString("valueCoin"),
-                            jsonObject.optDouble("weight", 0.0),
-                            jsonObject.getString("weightUnit")
-                    ));
-                    Log.d("Item #" + i, jsonObject.getString("name"));
-                    i++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Item.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseWeapons(Context context, String dir) {
-        Log.d("Jason", "He was just born in Weapon.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int i = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    int DamageDiceName = 0;
-                    Log.d("DDN #1", jsonObject.getString("damageDiceName"));
-                    Log.d("DDN #2", jsonObject.getString("damageDiceName").replace("d", ""));
-                    Log.d("DDN #3", String.valueOf(Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""))));
-                    DamageDiceName = Integer.parseInt(jsonObject.getString("damageDiceName").replace("d", ""));
-                    Log.d("DDN #4", String.valueOf(DamageDiceName));
-                    Weapons.put(jsonObject.getString("name"), new Weapon(
-                            jsonObject.getString("name"),
-                            jsonObject.getString("description"),
-                            jsonObject.getString("type"),
-                            jsonObject.getString("rarity"),
-                            jsonObject.getInt("extraAttackBonus"),
-                            DamageDiceName,
-                            jsonObject.getInt("damageDiceAmount"),
-                            jsonObject.getString("damageTypeName"),
-                            jsonObject.getBoolean("isSimple"),
-                            jsonObject.getBoolean("isFinesse"),
-                            jsonObject.getBoolean("isVersatile"),
-                            Integer.parseInt(jsonObject.optString("versatileDamageDie", "0").replace("D", "")),
-                            jsonObject.optInt("versatileDamageDiceAmount", 0),
-                            jsonObject.getBoolean("isLight"),
-                            jsonObject.getBoolean("isHeavy"),
-                            jsonObject.getBoolean("isSilver"),
-                            jsonObject.getBoolean("twoHanded"),
-                            jsonObject.getBoolean("requiresAttunement"),
-                            jsonObject.getBoolean("isAttuned"),
-                            jsonObject.getBoolean("isSpecial"),
-                            jsonObject.getBoolean("isCustom"),
-                            jsonObject.getBoolean("isImprovised"),
-                            jsonObject.getBoolean("hasReach"),
-                            jsonObject.getBoolean("isRanged"),
-                            jsonObject.getBoolean("isThrown"),
-                            jsonObject.getBoolean("isLoading"),
-                            jsonObject.getString("ammunitionType"),
-                            jsonObject.optInt("normalRange", 0),
-                            jsonObject.optInt("maxRange", 0)
-                    ));
-                    Log.d("Weapon #" + i, jsonObject.getString("name"));
-                    i++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Weapon.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void parseArmor(Context context, String dir) {
-        Log.d("Jason", "He was just born in Armor.");
-        AM = context.getAssets();
-        try {
-            String[] fileNames = AM.list(dir);
-            if (fileNames != null) {
-                int i = 0;
-                for (String fileName : fileNames) {
-                    String fullPath = dir + "/" + fileName;
-                    InputStream inputStream = AM.open(fullPath);
-                    int size = inputStream.available();
-                    byte[] buffer = new byte[size];
-                    inputStream.read(buffer);
-                    inputStream.close();
-                    String jsonString = new String(buffer, StandardCharsets.UTF_8);
-                    JSONObject jsonObject = new JSONObject(jsonString);
-                    Armor.put(jsonObject.getString("name"), new Armor(
-                            jsonObject.getString("name"),
-                            jsonObject.getString("description"),
-                            jsonObject.getInt("armor"),
-                            jsonObject.getString("category"),
-                            jsonObject.getString("cost"),
-                            jsonObject.getBoolean("isAttuned"),
-                            jsonObject.getBoolean("isCustom"),
-                            jsonObject.getBoolean("isProficient"),
-                            jsonObject.optInt("maxModifierBonus", 0),
-                            jsonObject.optString("modifierFormatted", "None"),
-                            jsonObject.optBoolean("stealthDisadvantage", false),
-                            jsonObject.optString("weight", "0 lbs.")
-                    ));
-                    Log.d("Armor #" + i, jsonObject.getString("name"));
-                    i++;
-                }
-            }
-        }
-        catch (IOException | JSONException e){
-            Log.d("Jason?", "Shot dead in Armor.");
-            throw new RuntimeException(e);
-        }
-    }
-
-    private static String[] toStringArray(JSONArray array) {
+    public static String[] toStringArray(JSONArray array) {
         if(array==null)
             return null;
         String[] arr = new String[array.length()];
@@ -925,7 +317,7 @@ public class Methods {
         return arr;
     }
 
-    private static Armor[] toArmorArray(JSONArray array) throws JSONException {
+    public static Armor[] toArmorArray(JSONArray array) throws JSONException {
         if (array == null)
             return null;
         Armor[] arr = new Armor[array.length()];
